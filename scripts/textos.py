@@ -48,12 +48,18 @@ def versao_camara(pid, get_json):
     }
 
 
+def url_senado(url):
+    """Link do Senado sem o número de versão no fim (".../documento/<id>/3.0").
+    O link com versão para de funcionar (erro 403) quando sai uma versão nova; sem versão, abre sempre a mais recente."""
+    return re.sub(r"(/sdleg-getter/dadosabertos/documento/[0-9a-f-]{36})/\d+(\.\d+)?$", r"\1", url or "")
+
+
 def versoes_senado(pid, get_json):
     """(texto original, texto mais recente aprovado ou None) no Senado."""
     docs = get_json(f"{SENADO}/processo/documento?idProcesso={pid}") or []
     data = lambda d: (d.get("dataRecebimento") or d.get("dataDocumento") or "")[:10]
     pecs = sorted((d for d in docs if d.get("descricaoTipo") == "Proposta de Emenda à Constituição"), key=data)
-    original = {"url": pecs[0].get("urlDocumento") or "", "data": data(pecs[0])} if pecs else None
+    original = {"url": url_senado(pecs[0].get("urlDocumento")), "data": data(pecs[0])} if pecs else None
     candidatos = []
     for d in docs:
         t = d.get("descricaoTipo") or ""
@@ -66,7 +72,7 @@ def versoes_senado(pid, get_json):
     if not candidatos:
         return original, None
     dt_, _, rotulo, d = max(candidatos, key=lambda c: (c[0], c[1]))
-    return original, {"id": f"s{d.get('id')}", "casa": "senado", "tipo": rotulo, "data": dt_, "url": d.get("urlDocumento") or ""}
+    return original, {"id": f"s{d.get('id')}", "casa": "senado", "tipo": rotulo, "data": dt_, "url": url_senado(d.get("urlDocumento"))}
 
 
 def _texto_de(conteudo):

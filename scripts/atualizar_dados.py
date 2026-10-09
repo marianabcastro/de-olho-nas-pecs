@@ -595,6 +595,14 @@ def main():
     a_revisar.sort(key=lambda x: x["data"], reverse=True)
     (RAIZ / "data" / "resumos_a_revisar.json").write_text(json.dumps(a_revisar, ensure_ascii=False, indent=1))
 
+    # links do Senado sem número de versão (o link com versão quebra quando sai uma nova; vale também para o cache antigo)
+    for p in pecs:
+        for campo in ("textoAtual", "textoOriginal"):
+            if p.get(campo) and p[campo].get("url"):
+                p[campo]["url"] = textos.url_senado(p[campo]["url"])
+        if p.get("linkTexto"):
+            p["linkTexto"] = textos.url_senado(p["linkTexto"])
+
     # só regrava (e portanto só republica o site) se algum dado mudou de fato
     anterior = ler_json(SAIDA, {})
     if anterior.get("pecs") == json.loads(json.dumps(pecs)):
