@@ -206,6 +206,11 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line);
 .selo { font-size: 0.85rem; color: var(--muted); padding-left: 12px; border-left: 3px solid var(--line); }
 .selo.texto { border-left-color: var(--verde); } .selo.pessoa { border-left-color: var(--verde); color: var(--verde); }
 .selo a { white-space: nowrap; }
+/* "Encontrou um erro?": cor própria (roxo), que não se confunde com as cores de situação nem com as das Casas */
+.selo a.erro { display: inline-flex; align-items: center; gap: 6px; margin-top: 8px; padding: 7px 14px; min-height: 36px; border-radius: 14px;
+  border: 1.5px solid #6b3fa0; background: #f3eefb; color: #5a2f8f; font-weight: 700; text-decoration: none; white-space: normal; }
+.selo a.erro:hover { background: #e7dcf7; }
+.selo a.erro:focus-visible { outline: 3px solid #6b3fa0; outline-offset: 2px; }
 .mudou.grande { border-left-color: var(--vermelho); }
 .mudou { display: grid; gap: 8px; padding: 14px 16px; border-radius: var(--r); background: var(--amarelo-bg); border-left: 5px solid var(--amarelo-forte); }
 .aviso-idioma { margin-top: 18px; padding: 10px 14px; border-radius: var(--r); background: var(--amarelo-bg); font-size: 0.95rem; }
@@ -301,7 +306,7 @@ pt: {
   mudou_grande: "A nova versão é bem diferente da original.",
   mudou_ok: (tipo, d) => `Resumo atualizado para a versão mais recente do texto (${tipo}, ${d}).`,
   ler_versao: "Ler a versão atual ↗", ler_original: "Ler o texto original ↗",
-  erro_btn: "Encontrou um erro neste resumo? Avise a gente ↗",
+  erro_btn: "✋ Encontrou um erro neste resumo? Avise a gente ↗",
   parecer_h: "Pode haver uma versão nova do texto",
   parecer_p: (tipo, d) => `Em ${d}: ${tipo}. Pareceres costumam propor mudanças no texto.`,
   no_senado: s => `no Senado: ${s}`,
@@ -414,7 +419,7 @@ en: {
   mudou_grande: "The new version is quite different from the original.",
   mudou_ok: (tipo, d) => `Summary updated to the latest version of the text (${tipo}, ${d}).`,
   ler_versao: "Read the current version (in Portuguese) ↗", ler_original: "Read the original text (in Portuguese) ↗",
-  erro_btn: "Found a mistake in this summary? Let us know ↗",
+  erro_btn: "✋ Found a mistake in this summary? Let us know ↗",
   parecer_h: "There may be a new version of the text",
   parecer_p: (tipo, d) => `On ${d}: ${tipo}. Opinions often propose changes to the text.`,
   no_senado: s => `in the Senate: ${s}`,
@@ -527,7 +532,7 @@ es: {
   mudou_grande: "La nueva versión es bastante diferente de la original.",
   mudou_ok: (tipo, d) => `Resumen actualizado a la versión más reciente del texto (${tipo}, ${d}).`,
   ler_versao: "Leer la versión actual (en portugués) ↗", ler_original: "Leer el texto original (en portugués) ↗",
-  erro_btn: "¿Encontraste un error en este resumen? Avísanos ↗",
+  erro_btn: "✋ ¿Encontraste un error en este resumen? Avísanos ↗",
   parecer_h: "Puede haber una nueva versión del texto",
   parecer_p: (tipo, d) => `El ${d}: ${tipo}. Los dictámenes suelen proponer cambios en el texto.`,
   no_senado: s => `en el Senado: ${s}`,
@@ -1068,7 +1073,7 @@ function seloHTML(p) {
   const L = T(), b = (p.simples || {}).base || {};
   if (!p.simples) return "";
   const txt = b.conferido === "pessoa" ? L.selo_pessoa(dataBR(b.data)) : b.conferido === "texto" ? L.selo_texto(dataBR(b.data)) : L.selo_ementa;
-  const link = REPO_ERROS ? ` <a href="https://github.com/${REPO_ERROS}/issues/new?title=${encodeURIComponent("Erro no resumo da " + p.sigla)}&body=${encodeURIComponent("PEC: " + p.sigla + "\nPágina: " + location.href + "\n\nO que está errado:\n")}" target="_blank" rel="noopener">${L.erro_btn}</a>` : "";
+  const link = REPO_ERROS ? `<br><a class="erro" href="https://github.com/${REPO_ERROS}/issues/new?title=${encodeURIComponent("Erro no resumo da " + p.sigla)}&body=${encodeURIComponent("PEC: " + p.sigla + "\nPágina: " + location.href + "\n\nO que está errado:\n")}" target="_blank" rel="noopener">${L.erro_btn}</a>` : "";
   return `<p class="selo ${b.conferido || "ementa"}">${txt}${link}</p>`;
 }
 function textoMudouHTML(p) {
