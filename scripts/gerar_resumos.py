@@ -48,6 +48,7 @@ Regras:
 - "oQueMuda": uma frase sobre o que muda na prática.
 - "quemAfeta": uma frase sobre quem seria afetado diretamente.
 - "porQueImporta": uma frase factual sobre o que está em jogo, sem opinar.
+- "dePrincipio": true se a PEC só acrescenta um direito, princípio ou objetivo (ex.: "é direito de todos…", "a ordem econômica observará…") sem criar sozinha regras concretas, verbas, prazos ou punições. Nesse caso, diga em "oQueMuda" que ela sozinha não cria programas, verbas nem punições.
 - "en" e "es": tradução fiel dos mesmos quatro campos para inglês e espanhol, explicando siglas brasileiras quando necessário.
 - Se receber um RESUMO ANTERIOR, compare: "objetivoMudou" é true só se a finalidade principal da PEC mudou (não conta mudança de redação ou detalhe); "oQueMudouNoTexto" diz em uma frase, em português, o que a nova versão mudou em relação ao resumo anterior. Sem resumo anterior, use false e ""."""
 
@@ -56,8 +57,8 @@ TRAD = {"type": "object", "properties": CAMPOS, "required": list(CAMPOS), "addit
 SCHEMA = {
     "type": "object",
     "properties": {**CAMPOS, "tema": {"type": "string", "enum": TEMAS}, "en": TRAD, "es": TRAD,
-                   "objetivoMudou": {"type": "boolean"}, "oQueMudouNoTexto": {"type": "string"}},
-    "required": [*CAMPOS, "tema", "en", "es", "objetivoMudou", "oQueMudouNoTexto"],
+                   "objetivoMudou": {"type": "boolean"}, "oQueMudouNoTexto": {"type": "string"}, "dePrincipio": {"type": "boolean"}},
+    "required": [*CAMPOS, "tema", "en", "es", "objetivoMudou", "oQueMudouNoTexto", "dePrincipio"],
     "additionalProperties": False,
 }
 
@@ -92,6 +93,8 @@ def resumir(p, anterior):
         raise RuntimeError(f"parou com stop_reason={resp.stop_reason}")
     out = json.loads(next(b.text for b in resp.content if b.type == "text"))
     novo = {k: out[k] for k in CAMPOS} | {"tema": out["tema"], "en": out["en"], "es": out["es"]}
+    if out["dePrincipio"]:
+        novo["tipo"] = "principio"
     if anterior and anterior.get("apelido"):
         novo["apelido"] = anterior["apelido"]
         for lang in ("en", "es"):

@@ -1427,29 +1427,30 @@
   }
  },
  "s8938455": {
-  "titulo": "Inclui a eficiência produtiva entre os princípios da economia",
-  "oQueMuda": "A Constituição passaria a citar a eficiência produtiva e o uso eficiente de recursos como princípios da ordem econômica.",
-  "quemAfeta": "Governos, empresas e quem cria leis econômicas.",
-  "porQueImporta": "Serviria de orientação para leis e decisões sobre economia.",
-  "fonte": "manual",
+  "titulo": "Coloca a eficiência produtiva como objetivo permanente do Estado",
+  "oQueMuda": "Diz que o Estado deve fomentar a produtividade e o crescimento de longo prazo, com concorrência, abertura econômica e investimento em educação, ciência e inovação. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Governos, empresas e quem faz leis econômicas.",
+  "porQueImporta": "Serviria de orientação para leis e políticas econômicas dos três níveis de governo.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Adds productive efficiency to the principles of the economy",
-   "oQueMuda": "The Constitution would list productive efficiency and efficient use of resources as principles of the economic order.",
-   "quemAfeta": "Governments, companies and lawmakers who write economic laws.",
-   "porQueImporta": "It would guide laws and decisions about the economy."
+   "titulo": "Makes productive efficiency a permanent goal of the State",
+   "oQueMuda": "States that the State must foster productivity and long-term growth, through competition, economic openness and investment in education, science and innovation. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "Governments, companies and those who make economic laws.",
+   "porQueImporta": "It would guide economic laws and policies at all three levels of government."
   },
   "es": {
-   "titulo": "Incluye la eficiencia productiva entre los principios de la economía",
-   "oQueMuda": "La Constitución citaría la eficiencia productiva y el uso eficiente de recursos como principios del orden económico.",
-   "quemAfeta": "Gobiernos, empresas y quienes crean leyes económicas.",
-   "porQueImporta": "Serviría de orientación para leyes y decisiones sobre economía."
+   "titulo": "Pone la eficiencia productiva como objetivo permanente del Estado",
+   "oQueMuda": "Dice que el Estado debe fomentar la productividad y el crecimiento a largo plazo, con competencia, apertura económica e inversión en educación, ciencia e innovación. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Gobiernos, empresas y quienes hacen leyes económicas.",
+   "porQueImporta": "Serviría de orientación para leyes y políticas económicas de los tres niveles de gobierno."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s9050555": {
   "titulo": "Cria código de conduta para agentes públicos",
@@ -1855,29 +1856,30 @@
   }
  },
  "c2323056": {
-  "titulo": "Inclui a economia solidária entre os princípios da economia",
-  "oQueMuda": "Cooperativas e iniciativas de economia solidária passariam a ser citadas como princípio da ordem econômica.",
-  "quemAfeta": "Cooperativas, associações e trabalhadores autogestionários.",
-  "porQueImporta": "Serviria de base para políticas de apoio ao setor.",
-  "fonte": "manual",
+  "titulo": "Coloca a economia solidária entre os princípios da economia",
+  "oQueMuda": "Acrescenta 'economia solidária' (cooperativas e grupos de trabalho coletivo) à lista de princípios que orientam a economia do país. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Cooperativas, associações e quem faz leis e políticas econômicas.",
+  "porQueImporta": "A Constituição já manda a lei apoiar o cooperativismo; a mudança daria base mais clara para políticas de apoio ao setor.",
+  "fonte": "revisado",
   "en": {
    "titulo": "Adds the solidarity economy to the principles of the economy",
-   "oQueMuda": "Cooperatives and solidarity economy initiatives would be named as a principle of the economic order.",
-   "quemAfeta": "Cooperatives, associations and self-managed workers.",
-   "porQueImporta": "It would support policies backing the sector."
+   "oQueMuda": "Adds 'solidarity economy' (cooperatives and collective work groups) to the list of principles guiding the country's economy. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "Cooperatives, associations and those who make economic laws and policies.",
+   "porQueImporta": "The Constitution already tells the law to support cooperatives; the change would give a clearer basis for policies supporting the sector."
   },
   "es": {
    "titulo": "Incluye la economía solidaria entre los principios de la economía",
-   "oQueMuda": "Cooperativas e iniciativas de economía solidaria serían citadas como principio del orden económico.",
-   "quemAfeta": "Cooperativas, asociaciones y trabajadores autogestionados.",
-   "porQueImporta": "Serviría de base para políticas de apoyo al sector."
+   "oQueMuda": "Agrega 'economía solidaria' (cooperativas y grupos de trabajo colectivo) a la lista de principios que orientan la economía del país. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Cooperativas, asociaciones y quienes hacen leyes y políticas económicas.",
+   "porQueImporta": "La Constitución ya manda que la ley apoye el cooperativismo; el cambio daría una base más clara a políticas de apoyo al sector."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s8082738": {
   "titulo": "Torna a Libras um idioma oficial do Brasil",
@@ -2255,29 +2257,30 @@
   }
  },
  "s8950015": {
-  "titulo": "Garante à mulher o direito a uma vida sem violência",
-  "oQueMuda": "Inclui entre os direitos fundamentais o direito da mulher a viver sem violência em casa e na rua.",
-  "quemAfeta": "Mulheres e o poder público.",
-  "porQueImporta": "Reforça a obrigação do Estado de prevenir a violência contra a mulher.",
-  "fonte": "manual",
+  "titulo": "Coloca na Constituição o direito da mulher a uma vida sem violência",
+  "oQueMuda": "Acrescenta uma frase à lista de direitos fundamentais: a mulher tem direito a uma vida livre de violência, em casa e fora dela. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Mulheres, juízes e legisladores, que passariam a ter esse direito escrito na Constituição.",
+  "porQueImporta": "Hoje a proteção está sobretudo em leis como a Maria da Penha, e a Constituição fala de violência só dentro da família. Como direito fundamental, ele não poderia ser retirado nem por outra emenda.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Guarantees women the right to a life free of violence",
-   "oQueMuda": "Adds women's right to live without violence, at home and in public, to fundamental rights.",
-   "quemAfeta": "Women and the government.",
-   "porQueImporta": "It strengthens the state's duty to prevent violence against women."
+   "titulo": "Puts women's right to a life free of violence into the Constitution",
+   "oQueMuda": "Adds one sentence to the list of fundamental rights: women have the right to a life free of violence, at home and outside it. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "Women, judges and lawmakers, who would have this right written into the Constitution.",
+   "porQueImporta": "Today protection comes mainly from laws such as the Maria da Penha Law, and the Constitution only mentions violence within the family. As a fundamental right, it could not be removed even by another amendment."
   },
   "es": {
-   "titulo": "Garantiza a la mujer el derecho a una vida sin violencia",
-   "oQueMuda": "Incluye entre los derechos fundamentales el derecho de la mujer a vivir sin violencia en casa y en la calle.",
-   "quemAfeta": "Mujeres y el poder público.",
-   "porQueImporta": "Refuerza la obligación del Estado de prevenir la violencia contra la mujer."
+   "titulo": "Pone en la Constitución el derecho de la mujer a una vida sin violencia",
+   "oQueMuda": "Agrega una frase a la lista de derechos fundamentales: la mujer tiene derecho a una vida libre de violencia, en casa y fuera de ella. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Mujeres, jueces y legisladores, que tendrían este derecho escrito en la Constitución.",
+   "porQueImporta": "Hoy la protección está sobre todo en leyes como la Ley Maria da Penha, y la Constitución solo habla de violencia dentro de la familia. Como derecho fundamental, no podría eliminarse ni con otra enmienda."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s8951742": {
   "titulo": "Protege expectativas de quem está perto de se aposentar",
@@ -3545,29 +3548,30 @@
   }
  },
  "s8961392": {
-  "titulo": "Protege a honra e a imagem das pessoas mesmo após a morte",
-  "oQueMuda": "A intimidade, a honra e a imagem continuariam protegidas depois da morte, com direito a indenização.",
-  "quemAfeta": "Famílias de pessoas falecidas e meios de comunicação.",
-  "porQueImporta": "Amplia proteções já previstas para os vivos.",
-  "fonte": "manual",
+  "titulo": "Diz na Constituição que a honra e a imagem continuam protegidas após a morte",
+  "oQueMuda": "Acrescenta 'mesmo após sua morte' ao direito à intimidade, honra e imagem, com direito a indenização. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Famílias de pessoas falecidas, jornalistas e meios de comunicação.",
+  "porQueImporta": "O Código Civil já permite que parentes defendam a imagem de quem morreu; a mudança coloca essa proteção na Constituição.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Protects people's honor and image even after death",
-   "oQueMuda": "Privacy, honor and image would remain protected after death, with the right to compensation.",
-   "quemAfeta": "Families of deceased people and media outlets.",
-   "porQueImporta": "It extends protections already given to the living."
+   "titulo": "States in the Constitution that honor and image remain protected after death",
+   "oQueMuda": "Adds 'even after death' to the right to privacy, honor and image, with the right to compensation. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "Families of deceased people, journalists and the media.",
+   "porQueImporta": "The Civil Code already lets relatives defend the image of someone who has died; the change puts this protection in the Constitution."
   },
   "es": {
-   "titulo": "Protege el honor y la imagen de las personas incluso después de la muerte",
-   "oQueMuda": "La intimidad, el honor y la imagen seguirían protegidos tras la muerte, con derecho a indemnización.",
-   "quemAfeta": "Familias de personas fallecidas y medios de comunicación.",
-   "porQueImporta": "Amplía protecciones ya previstas para los vivos."
+   "titulo": "Dice en la Constitución que la honra y la imagen siguen protegidas tras la muerte",
+   "oQueMuda": "Agrega 'incluso después de su muerte' al derecho a la intimidad, la honra y la imagen, con derecho a indemnización. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Familias de personas fallecidas, periodistas y medios de comunicación.",
+   "porQueImporta": "El Código Civil ya permite que los parientes defiendan la imagen de quien murió; el cambio pone esa protección en la Constitución."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
    "data": "2026-10-09",
    "fonte": "checagem manual com o texto oficial"
-  }
+  },
+  "tipo": "principio"
  },
  "c2543145": {
   "titulo": "Cria regras contra privilégios de agentes públicos",
@@ -4807,29 +4811,30 @@
   }
  },
  "c2326575": {
-  "titulo": "Torna a inclusão digital um direito fundamental",
-  "oQueMuda": "O acesso à internet e a inclusão digital passariam a ser direitos fundamentais.",
-  "quemAfeta": "Pessoas sem acesso à internet e o poder público.",
-  "porQueImporta": "Obriga o Estado a ampliar o acesso digital.",
-  "fonte": "manual",
+  "titulo": "Coloca a inclusão digital entre os direitos fundamentais",
+  "oQueMuda": "Diz que todos têm direito à inclusão digital e que o poder público deve ter políticas para ampliar o acesso à internet, na forma da lei. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Pessoas sem acesso à internet e governos.",
+  "porQueImporta": "O Marco Civil da Internet já trata o acesso como essencial; a mudança leva esse direito para a Constituição e cobra políticas públicas.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes digital inclusion a fundamental right",
-   "oQueMuda": "Internet access and digital inclusion would become fundamental rights.",
-   "quemAfeta": "People without internet access and the government.",
-   "porQueImporta": "It requires the state to expand digital access."
+   "titulo": "Adds digital inclusion to the fundamental rights",
+   "oQueMuda": "States that everyone has the right to digital inclusion and that the government must have policies to expand internet access, as set by law. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "People without internet access and governments.",
+   "porQueImporta": "The Brazilian Internet Bill of Rights already treats access as essential; the change brings this right into the Constitution and calls for public policies."
   },
   "es": {
-   "titulo": "Convierte la inclusión digital en derecho fundamental",
-   "oQueMuda": "El acceso a internet y la inclusión digital serían derechos fundamentales.",
-   "quemAfeta": "Personas sin acceso a internet y el poder público.",
-   "porQueImporta": "Obliga al Estado a ampliar el acceso digital."
+   "titulo": "Incluye la inclusión digital entre los derechos fundamentales",
+   "oQueMuda": "Dice que todos tienen derecho a la inclusión digital y que el poder público debe tener políticas para ampliar el acceso a internet, según la ley. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Personas sin acceso a internet y gobiernos.",
+   "porQueImporta": "El Marco Civil de Internet ya trata el acceso como esencial; el cambio lleva ese derecho a la Constitución y exige políticas públicas."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c356309": {
   "titulo": "Muda regras para criar ou fundir municípios",
@@ -4882,29 +4887,30 @@
   }
  },
  "s8563075": {
-  "titulo": "Garante educação inclusiva em todos os níveis",
-  "oQueMuda": "Inclui como princípio do ensino a educação inclusiva e acessível.",
-  "quemAfeta": "Estudantes com deficiência ou necessidades específicas e escolas.",
-  "porQueImporta": "Reforça a obrigação de adaptar o ensino.",
-  "fonte": "manual",
+  "titulo": "Coloca o ensino inclusivo entre os princípios da educação",
+  "oQueMuda": "Acrescenta aos princípios do ensino a garantia de ensino inclusivo em todos os níveis, considerando as necessidades de cada estudante. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Estudantes com deficiência ou necessidades específicas, escolas e redes de ensino.",
+  "porQueImporta": "A Constituição já prevê atendimento especializado a estudantes com deficiência, de preferência na escola comum; a mudança amplia o princípio para todos os níveis.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Guarantees inclusive education at all levels",
-   "oQueMuda": "Adds inclusive and accessible education as a principle of teaching.",
-   "quemAfeta": "Students with disabilities or specific needs, and schools.",
-   "porQueImporta": "It strengthens the duty to adapt teaching."
+   "titulo": "Adds inclusive education to the principles of education",
+   "oQueMuda": "Adds to the principles of education a guarantee of inclusive teaching at all levels, considering each student's needs. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "Students with disabilities or specific needs, schools and school systems.",
+   "porQueImporta": "The Constitution already provides specialized support for students with disabilities, preferably in regular schools; the change extends the principle to all levels."
   },
   "es": {
-   "titulo": "Garantiza educación inclusiva en todos los niveles",
-   "oQueMuda": "Incluye la educación inclusiva y accesible como principio de la enseñanza.",
-   "quemAfeta": "Estudiantes con discapacidad o necesidades específicas y escuelas.",
-   "porQueImporta": "Refuerza la obligación de adaptar la enseñanza."
+   "titulo": "Incluye la enseñanza inclusiva entre los principios de la educación",
+   "oQueMuda": "Agrega a los principios de la enseñanza la garantía de educación inclusiva en todos los niveles, considerando las necesidades de cada estudiante. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Estudiantes con discapacidad o necesidades específicas, escuelas y redes de enseñanza.",
+   "porQueImporta": "La Constitución ya prevé atención especializada a estudiantes con discapacidad, preferentemente en la escuela común; el cambio amplía el principio a todos los niveles."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
+   "versao": "s9827752",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c1618422": {
   "titulo": "Volta a isentar de Imposto de Renda aposentados acima de 65 anos",
@@ -5232,29 +5238,30 @@
   }
  },
  "c2503919": {
-  "titulo": "Torna o saneamento básico um direito social",
-  "oQueMuda": "Água tratada e esgoto passariam a constar entre os direitos sociais.",
-  "quemAfeta": "Pessoas sem saneamento e o poder público.",
-  "porQueImporta": "Reforça a obrigação do Estado de levar saneamento a todos.",
-  "fonte": "manual",
+  "titulo": "Coloca o saneamento básico entre os direitos sociais",
+  "oQueMuda": "Acrescenta o saneamento básico à lista de direitos sociais da Constituição (artigo 6º). Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Pessoas sem água tratada ou esgoto e governos.",
+  "porQueImporta": "Daria base na Constituição para cobrar água tratada e esgoto; hoje o saneamento aparece só como tarefa dos governos, não como direito.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes basic sanitation a social right",
-   "oQueMuda": "Clean water and sewage would be listed among social rights.",
-   "quemAfeta": "People without sanitation and the government.",
-   "porQueImporta": "It strengthens the state's duty to bring sanitation to everyone."
+   "titulo": "Adds basic sanitation to the social rights",
+   "oQueMuda": "Adds basic sanitation to the Constitution's list of social rights (article 6). On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "People without clean water or sewage, and governments.",
+   "porQueImporta": "It would give a constitutional basis for demanding clean water and sewage; today sanitation appears only as a government task, not as a right."
   },
   "es": {
-   "titulo": "Convierte el saneamiento básico en derecho social",
-   "oQueMuda": "El agua potable y el alcantarillado figurarían entre los derechos sociales.",
-   "quemAfeta": "Personas sin saneamiento y el poder público.",
-   "porQueImporta": "Refuerza la obligación del Estado de llevar saneamiento a todos."
+   "titulo": "Incluye el saneamiento básico entre los derechos sociales",
+   "oQueMuda": "Agrega el saneamiento básico a la lista de derechos sociales de la Constitución (artículo 6). Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Personas sin agua tratada o alcantarillado y gobiernos.",
+   "porQueImporta": "Daría base constitucional para exigir agua tratada y alcantarillado; hoy el saneamiento aparece solo como tarea de los gobiernos, no como derecho."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s8309893": {
   "titulo": "Cria piso salarial para fisioterapeutas e terapeutas ocupacionais",
@@ -5282,29 +5289,30 @@
   }
  },
  "s1395667": {
-  "titulo": "Torna o saneamento básico um direito social",
-  "oQueMuda": "Água tratada e esgoto passariam a constar entre os direitos sociais.",
-  "quemAfeta": "Pessoas sem saneamento e o poder público.",
-  "porQueImporta": "Reforça a obrigação do Estado de levar saneamento a todos.",
-  "fonte": "manual",
+  "titulo": "Coloca o saneamento básico entre os direitos sociais",
+  "oQueMuda": "Acrescenta o saneamento básico à lista de direitos sociais da Constituição (artigo 6º). Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Pessoas sem água tratada ou esgoto e governos.",
+  "porQueImporta": "Daria base na Constituição para cobrar água tratada e esgoto; hoje o saneamento aparece só como tarefa dos governos, não como direito.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes basic sanitation a social right",
-   "oQueMuda": "Clean water and sewage would be listed among social rights.",
-   "quemAfeta": "People without sanitation and the government.",
-   "porQueImporta": "It strengthens the state's duty to bring sanitation to everyone."
+   "titulo": "Adds basic sanitation to the social rights",
+   "oQueMuda": "Adds basic sanitation to the Constitution's list of social rights (article 6). On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "People without clean water or sewage, and governments.",
+   "porQueImporta": "It would give a constitutional basis for demanding clean water and sewage; today sanitation appears only as a government task, not as a right."
   },
   "es": {
-   "titulo": "Convierte el saneamiento básico en derecho social",
-   "oQueMuda": "El agua potable y el alcantarillado figurarían entre los derechos sociales.",
-   "quemAfeta": "Personas sin saneamiento y el poder público.",
-   "porQueImporta": "Refuerza la obligación del Estado de llevar saneamiento a todos."
+   "titulo": "Incluye el saneamiento básico entre los derechos sociales",
+   "oQueMuda": "Agrega el saneamiento básico a la lista de derechos sociales de la Constitución (artículo 6). Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Personas sin agua tratada o alcantarillado y gobiernos.",
+   "porQueImporta": "Daría base constitucional para exigir agua tratada y alcantarillado; hoy el saneamiento aparece solo como tarea de los gobiernos, no como derecho."
   },
   "base": {
    "versao": "s9944528",
    "conferido": "texto",
    "data": "2026-10-09",
    "fonte": "checagem manual com o texto oficial"
-  }
+  },
+  "tipo": "principio"
  },
  "s7849279": {
   "titulo": "Cria fundo para reparar danos ambientais da mineração e do petróleo",
@@ -5835,29 +5843,30 @@
   }
  },
  "c2189436": {
-  "titulo": "Inclui a liberdade de cátedra entre os direitos fundamentais",
-  "oQueMuda": "A liberdade de professores e pesquisadores de ensinar e expressar ideias científicas seria um direito fundamental.",
+  "titulo": "Cita a liberdade de cátedra entre os direitos fundamentais",
+  "oQueMuda": "Acrescenta a palavra 'cátedra' (liberdade de ensinar) ao direito à livre expressão intelectual, artística e científica. Sozinha, não cria programas, verbas nem punições.",
   "quemAfeta": "Professores e pesquisadores.",
-  "porQueImporta": "Reforça a proteção da liberdade acadêmica.",
-  "fonte": "manual",
+  "porQueImporta": "A Constituição já garante a liberdade de ensinar e pesquisar entre os princípios da educação; a mudança repete essa garantia na lista de direitos fundamentais.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Adds academic freedom to fundamental rights",
-   "oQueMuda": "Teachers' and researchers' freedom to teach and express scientific ideas would be a fundamental right.",
+   "titulo": "Lists academic freedom among the fundamental rights",
+   "oQueMuda": "Adds 'teaching' (academic freedom) to the right to free intellectual, artistic and scientific expression. On its own, it does not create programs, funding or penalties.",
    "quemAfeta": "Teachers and researchers.",
-   "porQueImporta": "It strengthens protection of academic freedom."
+   "porQueImporta": "The Constitution already guarantees freedom to teach and research among the principles of education; the change repeats this guarantee in the list of fundamental rights."
   },
   "es": {
-   "titulo": "Incluye la libertad de cátedra entre los derechos fundamentales",
-   "oQueMuda": "La libertad de profesores e investigadores para enseñar y expresar ideas científicas sería un derecho fundamental.",
+   "titulo": "Cita la libertad de cátedra entre los derechos fundamentales",
+   "oQueMuda": "Agrega la palabra 'cátedra' (libertad de enseñar) al derecho a la libre expresión intelectual, artística y científica. Por sí sola, no crea programas, fondos ni castigos.",
    "quemAfeta": "Profesores e investigadores.",
-   "porQueImporta": "Refuerza la protección de la libertad académica."
+   "porQueImporta": "La Constitución ya garantiza la libertad de enseñar e investigar entre los principios de la educación; el cambio repite esa garantía en la lista de derechos fundamentales."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c1738617": {
   "titulo": "Acaba com o abono de permanência de servidores",
@@ -6060,29 +6069,30 @@
   }
  },
  "c2307037": {
-  "titulo": "Torna a renda básica um direito social",
-  "oQueMuda": "A renda básica para pessoas vulneráveis passaria a constar entre os direitos sociais.",
-  "quemAfeta": "Pessoas em vulnerabilidade social.",
-  "porQueImporta": "Daria base constitucional a programas de transferência de renda.",
-  "fonte": "manual",
+  "titulo": "Coloca a renda básica entre os direitos sociais",
+  "oQueMuda": "Diz que todo brasileiro em situação de vulnerabilidade de renda tem direito a uma renda básica, com valor e regras definidos em lei. Sozinha, não cria o benefício: depende de uma lei.",
+  "quemAfeta": "Pessoas de baixa renda e o governo federal.",
+  "porQueImporta": "Uma regra parecida, de renda básica familiar, já entrou na Constituição em 2021 (Emenda 114); esta PEC foi apresentada antes disso.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes basic income a social right",
-   "oQueMuda": "Basic income for vulnerable people would be listed among social rights.",
-   "quemAfeta": "People in social vulnerability.",
-   "porQueImporta": "It would give constitutional backing to cash transfer programs."
+   "titulo": "Adds basic income to the social rights",
+   "oQueMuda": "States that every Brazilian with insufficient income has the right to a basic income, with amount and rules set by law. On its own, it does not create the benefit: a law is needed.",
+   "quemAfeta": "Low-income people and the federal government.",
+   "porQueImporta": "A similar rule, on family basic income, was already added to the Constitution in 2021 (Amendment 114); this proposal was filed before that."
   },
   "es": {
-   "titulo": "Convierte la renta básica en derecho social",
-   "oQueMuda": "La renta básica para personas vulnerables figuraría entre los derechos sociales.",
-   "quemAfeta": "Personas en situación de vulnerabilidad social.",
-   "porQueImporta": "Daría base constitucional a los programas de transferencia de ingresos."
+   "titulo": "Incluye la renta básica entre los derechos sociales",
+   "oQueMuda": "Dice que todo brasileño en situación de vulnerabilidad de ingresos tiene derecho a una renta básica, con valor y reglas definidos por ley. Por sí sola, no crea el beneficio: depende de una ley.",
+   "quemAfeta": "Personas de bajos ingresos y el gobierno federal.",
+   "porQueImporta": "Una regla parecida, de renta básica familiar, ya entró en la Constitución en 2021 (Enmienda 114); esta PEC se presentó antes."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c2233640": {
   "titulo": "Permite bombeiros municipais com voluntários",
@@ -6728,29 +6738,30 @@
   }
  },
  "c606656": {
-  "titulo": "Inclui os direitos humanos entre os princípios da economia",
-  "oQueMuda": "A ordem econômica teria de observar os direitos humanos.",
-  "quemAfeta": "Empresas e governos.",
-  "porQueImporta": "Serviria de orientação para leis econômicas.",
-  "fonte": "manual",
+  "titulo": "Coloca os direitos humanos entre os princípios da economia",
+  "oQueMuda": "Acrescenta a 'observância dos direitos humanos' aos princípios da economia e descreve o regime como 'capitalismo humanista'. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Empresas, governos e quem faz leis econômicas.",
+  "porQueImporta": "Serviria como orientação para interpretar leis e políticas econômicas.",
+  "fonte": "revisado",
   "en": {
    "titulo": "Adds human rights to the principles of the economy",
-   "oQueMuda": "The economic order would have to respect human rights.",
-   "quemAfeta": "Companies and governments.",
-   "porQueImporta": "It would guide economic laws."
+   "oQueMuda": "Adds 'respect for human rights' to the principles of the economy and describes the system as 'humanist capitalism'. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "Companies, governments and those who make economic laws.",
+   "porQueImporta": "It would serve as guidance for interpreting economic laws and policies."
   },
   "es": {
    "titulo": "Incluye los derechos humanos entre los principios de la economía",
-   "oQueMuda": "El orden económico tendría que respetar los derechos humanos.",
-   "quemAfeta": "Empresas y gobiernos.",
-   "porQueImporta": "Orientaría las leyes económicas."
+   "oQueMuda": "Agrega la 'observancia de los derechos humanos' a los principios de la economía y describe el régimen como 'capitalismo humanista'. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Empresas, gobiernos y quienes hacen leyes económicas.",
+   "porQueImporta": "Serviría de orientación para interpretar leyes y políticas económicas."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s8735431": {
   "titulo": "Muda regras de inquéritos abertos pelos tribunais",
@@ -7453,29 +7464,30 @@
   }
  },
  "c2428346": {
-  "titulo": "Torna o cuidado um direito social",
-  "oQueMuda": "O direito a receber cuidados, como de idosos e dependentes, passaria a constar entre os direitos sociais.",
-  "quemAfeta": "Pessoas que precisam de cuidado e quem cuida delas.",
-  "porQueImporta": "Daria base a políticas públicas de cuidado.",
-  "fonte": "manual",
+  "titulo": "Coloca o cuidado entre os direitos sociais",
+  "oQueMuda": "Acrescenta 'o cuidado' (com idosos, crianças, pessoas com deficiência e outros dependentes) à lista de direitos sociais. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Pessoas que precisam de cuidado, quem cuida delas e governos.",
+  "porQueImporta": "Já existe uma Política Nacional de Cuidados criada por lei em 2024; a mudança daria a esse direito base na Constituição.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes care a social right",
-   "oQueMuda": "The right to receive care, such as for older and dependent people, would be listed among social rights.",
-   "quemAfeta": "People who need care and those who care for them.",
-   "porQueImporta": "It would support public care policies."
+   "titulo": "Adds care to the social rights",
+   "oQueMuda": "Adds 'care' (for older people, children, people with disabilities and other dependents) to the list of social rights. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "People who need care, their caregivers and governments.",
+   "porQueImporta": "A National Care Policy was already created by law in 2024; the change would give this right a basis in the Constitution."
   },
   "es": {
-   "titulo": "Convierte el cuidado en derecho social",
-   "oQueMuda": "El derecho a recibir cuidados, como el de personas mayores y dependientes, figuraría entre los derechos sociales.",
-   "quemAfeta": "Personas que necesitan cuidados y quienes los cuidan.",
-   "porQueImporta": "Daría base a políticas públicas de cuidado."
+   "titulo": "Incluye el cuidado entre los derechos sociales",
+   "oQueMuda": "Agrega 'el cuidado' (de personas mayores, niños, personas con discapacidad y otros dependientes) a la lista de derechos sociales. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Personas que necesitan cuidado, quienes las cuidan y gobiernos.",
+   "porQueImporta": "Ya existe una Política Nacional de Cuidados creada por ley en 2024; el cambio daría a este derecho base en la Constitución."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c2474283": {
   "titulo": "Pacote de controle de gastos do governo federal",
@@ -7906,29 +7918,30 @@
   }
  },
  "c2350490": {
-  "titulo": "Torna a cultura um direito social",
-  "oQueMuda": "A cultura passaria a constar entre os direitos sociais.",
-  "quemAfeta": "Toda a população e o setor cultural.",
-  "porQueImporta": "Reforça a obrigação do Estado com políticas culturais.",
-  "fonte": "manual",
+  "titulo": "Coloca a cultura entre os direitos sociais",
+  "oQueMuda": "Acrescenta a cultura à lista de direitos sociais da Constituição (artigo 6º). Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Toda a população, artistas e governos.",
+  "porQueImporta": "A Constituição já manda o Estado garantir o exercício dos direitos culturais; a mudança coloca a cultura também na lista de direitos sociais.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes culture a social right",
-   "oQueMuda": "Culture would be listed among social rights.",
-   "quemAfeta": "Everyone and the cultural sector.",
-   "porQueImporta": "It strengthens the state's duty toward cultural policy."
+   "titulo": "Adds culture to the social rights",
+   "oQueMuda": "Adds culture to the Constitution's list of social rights (article 6). On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "The whole population, artists and governments.",
+   "porQueImporta": "The Constitution already tells the State to guarantee cultural rights; the change also puts culture on the list of social rights."
   },
   "es": {
-   "titulo": "Convierte la cultura en derecho social",
-   "oQueMuda": "La cultura figuraría entre los derechos sociales.",
-   "quemAfeta": "Toda la población y el sector cultural.",
-   "porQueImporta": "Refuerza la obligación del Estado con las políticas culturales."
+   "titulo": "Incluye la cultura entre los derechos sociales",
+   "oQueMuda": "Agrega la cultura a la lista de derechos sociales de la Constitución (artículo 6). Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Toda la población, artistas y gobiernos.",
+   "porQueImporta": "La Constitución ya manda al Estado garantizar los derechos culturales; el cambio pone la cultura también en la lista de derechos sociales."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c597232": {
   "titulo": "Muda a composição e o controle dos Tribunais de Contas",
@@ -8031,29 +8044,30 @@
   }
  },
  "s8759356": {
-  "titulo": "Inclui os direitos das vítimas entre os direitos fundamentais",
-  "oQueMuda": "Vítimas de crimes e de calamidades teriam direitos garantidos e o Estado o dever de protegê-las.",
-  "quemAfeta": "Vítimas de crimes e desastres.",
-  "porQueImporta": "Reforça o apoio do Estado às vítimas.",
-  "fonte": "manual",
+  "titulo": "Coloca a proteção das vítimas entre os direitos fundamentais",
+  "oQueMuda": "Diz que vítimas de crimes e de calamidades têm direito a proteção especial, nos termos da lei, e proíbe proteção insuficiente do Estado. Sozinha, não cria serviços nem verbas: depende de lei.",
+  "quemAfeta": "Vítimas de crimes e de desastres, e o poder público.",
+  "porQueImporta": "Daria às vítimas um direito expresso na Constituição para cobrar proteção do Estado na Justiça.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Adds victims' rights to fundamental rights",
-   "oQueMuda": "Victims of crimes and disasters would have guaranteed rights, and the state a duty to protect them.",
-   "quemAfeta": "Victims of crimes and disasters.",
-   "porQueImporta": "It strengthens state support for victims."
+   "titulo": "Adds protection of victims to the fundamental rights",
+   "oQueMuda": "States that victims of crimes and public disasters have the right to special protection, as set by law, and bans insufficient protection by the State. On its own, it does not create services or funding: a law is needed.",
+   "quemAfeta": "Victims of crimes and disasters, and the government.",
+   "porQueImporta": "It would give victims a right written in the Constitution to demand protection from the State in court."
   },
   "es": {
-   "titulo": "Incluye los derechos de las víctimas entre los derechos fundamentales",
-   "oQueMuda": "Las víctimas de delitos y calamidades tendrían derechos garantizados y el Estado el deber de protegerlas.",
-   "quemAfeta": "Víctimas de delitos y desastres.",
-   "porQueImporta": "Refuerza el apoyo del Estado a las víctimas."
+   "titulo": "Incluye la protección de las víctimas entre los derechos fundamentales",
+   "oQueMuda": "Dice que las víctimas de delitos y de calamidades tienen derecho a protección especial, según la ley, y prohíbe una protección insuficiente del Estado. Por sí sola, no crea servicios ni fondos: depende de una ley.",
+   "quemAfeta": "Víctimas de delitos y desastres, y el poder público.",
+   "porQueImporta": "Daría a las víctimas un derecho expreso en la Constitución para exigir protección del Estado ante la Justicia."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s8759452": {
   "titulo": "Aplica o teto salarial também a verbas indenizatórias",
@@ -9237,29 +9251,30 @@
   }
  },
  "s8670175": {
-  "titulo": "Torna o esporte um direito social",
-  "oQueMuda": "O esporte passaria a constar entre os direitos sociais.",
-  "quemAfeta": "Toda a população.",
-  "porQueImporta": "Reforça a obrigação do Estado com políticas de esporte.",
-  "fonte": "manual",
+  "titulo": "Coloca o esporte entre os direitos sociais",
+  "oQueMuda": "Acrescenta o esporte à lista de direitos sociais da Constituição (artigo 6º). Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Toda a população, atletas e governos.",
+  "porQueImporta": "A Constituição já diz que é dever do Estado incentivar o esporte; a mudança o coloca também na lista de direitos sociais.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes sports a social right",
-   "oQueMuda": "Sports would be listed among social rights.",
-   "quemAfeta": "Everyone.",
-   "porQueImporta": "It strengthens the state's duty toward sports policy."
+   "titulo": "Adds sport to the social rights",
+   "oQueMuda": "Adds sport to the Constitution's list of social rights (article 6). On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "The whole population, athletes and governments.",
+   "porQueImporta": "The Constitution already says the State must encourage sport; the change also puts it on the list of social rights."
   },
   "es": {
-   "titulo": "Convierte el deporte en derecho social",
-   "oQueMuda": "El deporte figuraría entre los derechos sociales.",
-   "quemAfeta": "Toda la población.",
-   "porQueImporta": "Refuerza la obligación del Estado con las políticas deportivas."
+   "titulo": "Incluye el deporte entre los derechos sociales",
+   "oQueMuda": "Agrega el deporte a la lista de derechos sociales de la Constitución (artículo 6). Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Toda la población, atletas y gobiernos.",
+   "porQueImporta": "La Constitución ya dice que es deber del Estado fomentar el deporte; el cambio lo pone también en la lista de derechos sociales."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c2153455": {
   "titulo": "Cria corpos de segurança socioeducativa",
@@ -9287,29 +9302,30 @@
   }
  },
  "c2436619": {
-  "titulo": "Inclui a integração com países lusófonos na política externa",
-  "oQueMuda": "A integração com países de língua portuguesa seria princípio das relações internacionais.",
-  "quemAfeta": "Diplomacia e governo federal.",
-  "porQueImporta": "Orienta a política externa.",
-  "fonte": "manual",
+  "titulo": "Coloca a integração com países de língua portuguesa na política externa",
+  "oQueMuda": "Diz que o Brasil buscará integração econômica, política, social e cultural com os países de língua portuguesa, para formar uma comunidade lusófona. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Governo federal e diplomacia.",
+  "porQueImporta": "A Constituição já tem regra parecida para a América Latina; esta orientaria a política externa também para os países lusófonos.",
+  "fonte": "revisado",
   "en": {
    "titulo": "Adds integration with Portuguese-speaking countries to foreign policy",
-   "oQueMuda": "Integration with Portuguese-speaking countries would be a principle of international relations.",
-   "quemAfeta": "Diplomacy and the federal government.",
-   "porQueImporta": "It guides foreign policy."
+   "oQueMuda": "States that Brazil will seek economic, political, social and cultural integration with Portuguese-speaking countries, to form a lusophone community. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "The federal government and diplomacy.",
+   "porQueImporta": "The Constitution already has a similar rule for Latin America; this would also guide foreign policy toward Portuguese-speaking countries."
   },
   "es": {
-   "titulo": "Incluye la integración con los países lusófonos en la política exterior",
-   "oQueMuda": "La integración con los países de lengua portuguesa sería un principio de las relaciones internacionales.",
-   "quemAfeta": "Diplomacia y gobierno federal.",
-   "porQueImporta": "Orienta la política exterior."
+   "titulo": "Incluye la integración con países de lengua portuguesa en la política exterior",
+   "oQueMuda": "Dice que Brasil buscará integración económica, política, social y cultural con los países de lengua portuguesa, para formar una comunidad lusófona. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Gobierno federal y diplomacia.",
+   "porQueImporta": "La Constitución ya tiene una regla parecida para América Latina; esta orientaría la política exterior también hacia los países lusófonos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s8655096": {
   "titulo": "Cria regime fiscal especial para calamidades ambientais",
@@ -9412,29 +9428,30 @@
   }
  },
  "s8060121": {
-  "titulo": "Torna a qualidade do ar um direito fundamental",
-  "oQueMuda": "Inclui entre os direitos fundamentais o direito a respirar ar de qualidade, inclusive em locais fechados de uso coletivo.",
-  "quemAfeta": "Toda a população.",
-  "porQueImporta": "Reforça a obrigação de controlar a poluição.",
-  "fonte": "manual",
+  "titulo": "Coloca o direito à qualidade do ar entre os direitos fundamentais",
+  "oQueMuda": "Diz que todos têm direito à qualidade do ar, inclusive em ambientes fechados de uso coletivo, públicos ou privados. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Toda a população, empresas e governos.",
+  "porQueImporta": "A Constituição já garante o meio ambiente equilibrado; a mudança cita o ar de forma expressa, o que pode ser usado em leis e na Justiça.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes air quality a fundamental right",
-   "oQueMuda": "Adds the right to breathe clean air, including in shared indoor spaces, to fundamental rights.",
-   "quemAfeta": "Everyone.",
-   "porQueImporta": "It strengthens the duty to control pollution."
+   "titulo": "Adds the right to clean air to the fundamental rights",
+   "oQueMuda": "States that everyone has the right to air quality, including in shared indoor spaces, public or private. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "The whole population, companies and governments.",
+   "porQueImporta": "The Constitution already guarantees a balanced environment; the change mentions air explicitly, which can be used in laws and in court."
   },
   "es": {
-   "titulo": "Convierte la calidad del aire en derecho fundamental",
-   "oQueMuda": "Incluye entre los derechos fundamentales el derecho a respirar aire de calidad, incluso en lugares cerrados de uso colectivo.",
-   "quemAfeta": "Toda la población.",
-   "porQueImporta": "Refuerza la obligación de controlar la contaminación."
+   "titulo": "Incluye el derecho a la calidad del aire entre los derechos fundamentales",
+   "oQueMuda": "Dice que todos tienen derecho a la calidad del aire, incluso en ambientes cerrados de uso colectivo, públicos o privados. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Toda la población, empresas y gobiernos.",
+   "porQueImporta": "La Constitución ya garantiza un medio ambiente equilibrado; el cambio menciona el aire de forma expresa, lo que puede usarse en leyes y ante la Justicia."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s8646008": {
   "titulo": "Muda a tributação de pequenas empresas na reforma tributária",
@@ -9487,29 +9504,30 @@
   }
  },
  "s8639865": {
-  "titulo": "Torna a cultura um direito social",
-  "oQueMuda": "A cultura passaria a constar entre os direitos sociais.",
-  "quemAfeta": "Toda a população e o setor cultural.",
-  "porQueImporta": "Reforça a obrigação do Estado com políticas culturais.",
-  "fonte": "manual",
+  "titulo": "Coloca a cultura entre os direitos sociais",
+  "oQueMuda": "Acrescenta a cultura à lista de direitos sociais da Constituição (artigo 6º). Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Toda a população, artistas e governos.",
+  "porQueImporta": "A Constituição já manda o Estado garantir o exercício dos direitos culturais; a mudança coloca a cultura também na lista de direitos sociais.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes culture a social right",
-   "oQueMuda": "Culture would be listed among social rights.",
-   "quemAfeta": "Everyone and the cultural sector.",
-   "porQueImporta": "It strengthens the state's duty toward cultural policy."
+   "titulo": "Adds culture to the social rights",
+   "oQueMuda": "Adds culture to the Constitution's list of social rights (article 6). On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "The whole population, artists and governments.",
+   "porQueImporta": "The Constitution already tells the State to guarantee cultural rights; the change also puts culture on the list of social rights."
   },
   "es": {
-   "titulo": "Convierte la cultura en derecho social",
-   "oQueMuda": "La cultura figuraría entre los derechos sociales.",
-   "quemAfeta": "Toda la población y el sector cultural.",
-   "porQueImporta": "Refuerza la obligación del Estado con las políticas culturales."
+   "titulo": "Incluye la cultura entre los derechos sociales",
+   "oQueMuda": "Agrega la cultura a la lista de derechos sociales de la Constitución (artículo 6). Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Toda la población, artistas y gobiernos.",
+   "porQueImporta": "La Constitución ya manda al Estado garantizar los derechos culturales; el cambio pone la cultura también en la lista de derechos sociales."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c2017887": {
   "titulo": "Permite ao Congresso sustar atos do Judiciário",
@@ -9912,29 +9930,30 @@
   }
  },
  "s8412320": {
-  "titulo": "Torna a segurança alimentar um direito fundamental",
-  "oQueMuda": "O acesso a alimentação adequada passaria a constar como direito social.",
-  "quemAfeta": "Pessoas em insegurança alimentar.",
-  "porQueImporta": "Reforça a obrigação do Estado de combater a fome.",
-  "fonte": "manual",
+  "titulo": "Detalha o direito à alimentação com a ideia de segurança alimentar",
+  "oQueMuda": "Diz que o direito à alimentação inclui acesso regular e permanente a comida suficiente, segura e saudável para todos. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Pessoas em insegurança alimentar e governos.",
+  "porQueImporta": "A alimentação já é direito social desde 2010; a mudança explica na Constituição o que esse direito significa.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes food security a fundamental right",
-   "oQueMuda": "Access to adequate food would be listed as a social right.",
-   "quemAfeta": "People facing food insecurity.",
-   "porQueImporta": "It strengthens the state's duty to fight hunger."
+   "titulo": "Details the right to food with the idea of food security",
+   "oQueMuda": "States that the right to food includes regular and permanent access to enough safe and healthy food for everyone. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "People facing food insecurity and governments.",
+   "porQueImporta": "Food has been a social right since 2010; the change explains in the Constitution what that right means."
   },
   "es": {
-   "titulo": "Convierte la seguridad alimentaria en derecho fundamental",
-   "oQueMuda": "El acceso a una alimentación adecuada figuraría como derecho social.",
-   "quemAfeta": "Personas en inseguridad alimentaria.",
-   "porQueImporta": "Refuerza la obligación del Estado de combatir el hambre."
+   "titulo": "Detalla el derecho a la alimentación con la idea de seguridad alimentaria",
+   "oQueMuda": "Dice que el derecho a la alimentación incluye acceso regular y permanente a comida suficiente, segura y saludable para todos. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Personas en inseguridad alimentaria y gobiernos.",
+   "porQueImporta": "La alimentación ya es un derecho social desde 2010; el cambio explica en la Constitución qué significa ese derecho."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
+   "versao": "s9511780",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s8623312": {
   "titulo": "Amplia a imunidade de parlamentares por opiniões",
@@ -10196,29 +10215,30 @@
   }
  },
  "c1555270": {
-  "titulo": "Torna a acessibilidade e a mobilidade urbana direitos sociais",
-  "oQueMuda": "Acessibilidade e mobilidade urbana passariam a constar entre os direitos sociais.",
-  "quemAfeta": "Pessoas com deficiência e usuários do transporte urbano.",
-  "porQueImporta": "Reforça a obrigação do Estado com essas políticas.",
-  "fonte": "manual",
+  "titulo": "Coloca acessibilidade e mobilidade urbana entre os direitos sociais",
+  "oQueMuda": "Acrescenta 'acessibilidade' e 'mobilidade urbana' à lista de direitos sociais. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Pessoas com deficiência ou mobilidade reduzida, usuários de transporte e prefeituras.",
+  "porQueImporta": "A Constituição já trata de acessibilidade para pessoas com deficiência e, desde 2015, inclui o transporte como direito social.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes accessibility and urban mobility social rights",
-   "oQueMuda": "Accessibility and urban mobility would be listed among social rights.",
-   "quemAfeta": "People with disabilities and urban transit users.",
-   "porQueImporta": "It strengthens the state's duty toward these policies."
+   "titulo": "Adds accessibility and urban mobility to the social rights",
+   "oQueMuda": "Adds 'accessibility' and 'urban mobility' to the list of social rights. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "People with disabilities or reduced mobility, transport users and city governments.",
+   "porQueImporta": "The Constitution already covers accessibility for people with disabilities and, since 2015, includes transport as a social right."
   },
   "es": {
-   "titulo": "Convierte la accesibilidad y la movilidad urbana en derechos sociales",
-   "oQueMuda": "La accesibilidad y la movilidad urbana figurarían entre los derechos sociales.",
-   "quemAfeta": "Personas con discapacidad y usuarios del transporte urbano.",
-   "porQueImporta": "Refuerza la obligación del Estado con estas políticas."
+   "titulo": "Incluye la accesibilidad y la movilidad urbana entre los derechos sociales",
+   "oQueMuda": "Agrega 'accesibilidad' y 'movilidad urbana' a la lista de derechos sociales. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Personas con discapacidad o movilidad reducida, usuarios de transporte y alcaldías.",
+   "porQueImporta": "La Constitución ya trata la accesibilidad para personas con discapacidad y, desde 2015, incluye el transporte como derecho social."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c117100": {
   "titulo": "Proíbe discriminação no trabalho por orientação sexual e outros motivos",
@@ -10246,29 +10266,30 @@
   }
  },
  "c2301270": {
-  "titulo": "Torna a acessibilidade um direito fundamental",
-  "oQueMuda": "Acessibilidade e mobilidade passariam a ser direitos fundamentais.",
-  "quemAfeta": "Pessoas com deficiência ou mobilidade reduzida.",
-  "porQueImporta": "Reforça a obrigação de adaptar espaços e serviços.",
-  "fonte": "manual",
+  "titulo": "Coloca acessibilidade e mobilidade entre os direitos fundamentais",
+  "oQueMuda": "Acrescenta à lista de direitos fundamentais: 'é garantido a todos o direito à acessibilidade e à mobilidade'. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Pessoas com deficiência ou mobilidade reduzida e o poder público.",
+  "porQueImporta": "A Constituição já trata de acessibilidade para pessoas com deficiência; a mudança transforma isso em direito fundamental de todos.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes accessibility a fundamental right",
-   "oQueMuda": "Accessibility and mobility would become fundamental rights.",
-   "quemAfeta": "People with disabilities or reduced mobility.",
-   "porQueImporta": "It strengthens the duty to adapt spaces and services."
+   "titulo": "Adds accessibility and mobility to the fundamental rights",
+   "oQueMuda": "Adds to the list of fundamental rights: 'everyone is guaranteed the right to accessibility and mobility'. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "People with disabilities or reduced mobility, and the government.",
+   "porQueImporta": "The Constitution already covers accessibility for people with disabilities; the change turns it into a fundamental right for everyone."
   },
   "es": {
-   "titulo": "Convierte la accesibilidad en derecho fundamental",
-   "oQueMuda": "La accesibilidad y la movilidad serían derechos fundamentales.",
-   "quemAfeta": "Personas con discapacidad o movilidad reducida.",
-   "porQueImporta": "Refuerza la obligación de adaptar espacios y servicios."
+   "titulo": "Incluye la accesibilidad y la movilidad entre los derechos fundamentales",
+   "oQueMuda": "Agrega a la lista de derechos fundamentales: 'se garantiza a todos el derecho a la accesibilidad y a la movilidad'. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Personas con discapacidad o movilidad reducida y el poder público.",
+   "porQueImporta": "La Constitución ya trata la accesibilidad para personas con discapacidad; el cambio la convierte en derecho fundamental de todos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c2195689": {
   "titulo": "Dá prioridade a crianças com deficiência na educação infantil",
@@ -11452,29 +11473,30 @@
   }
  },
  "c1555497": {
-  "titulo": "Garante acesso à internet e sigilo das comunicações digitais",
-  "oQueMuda": "Acesso à internet e sigilo de mensagens digitais seriam garantias fundamentais.",
-  "quemAfeta": "Usuários de internet.",
-  "porQueImporta": "Reforça a privacidade e a inclusão digital.",
-  "fonte": "manual",
+  "titulo": "Coloca acesso à internet e sigilo das mensagens entre os direitos fundamentais",
+  "oQueMuda": "Garante a todos o acesso à internet e o sigilo das comunicações digitais, que só poderia ser quebrado por ordem judicial em investigações criminais. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Usuários de internet, empresas de tecnologia e polícia.",
+  "porQueImporta": "O sigilo das comunicações já está na Constituição; a mudança cita a internet de forma expressa.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Guarantees internet access and privacy of digital communications",
-   "oQueMuda": "Internet access and the secrecy of digital messages would be fundamental guarantees.",
-   "quemAfeta": "Internet users.",
-   "porQueImporta": "It strengthens privacy and digital inclusion."
+   "titulo": "Adds internet access and message privacy to the fundamental rights",
+   "oQueMuda": "Guarantees everyone internet access and the confidentiality of digital communications, which could only be broken by court order in criminal investigations. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "Internet users, technology companies and the police.",
+   "porQueImporta": "Confidentiality of communications is already in the Constitution; the change mentions the internet explicitly."
   },
   "es": {
-   "titulo": "Garantiza el acceso a internet y el secreto de las comunicaciones digitales",
-   "oQueMuda": "El acceso a internet y el secreto de los mensajes digitales serían garantías fundamentales.",
-   "quemAfeta": "Usuarios de internet.",
-   "porQueImporta": "Refuerza la privacidad y la inclusión digital."
+   "titulo": "Incluye el acceso a internet y el secreto de los mensajes entre los derechos fundamentales",
+   "oQueMuda": "Garantiza a todos el acceso a internet y el secreto de las comunicaciones digitales, que solo podría romperse por orden judicial en investigaciones penales. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Usuarios de internet, empresas de tecnología y policía.",
+   "porQueImporta": "El secreto de las comunicaciones ya está en la Constitución; el cambio menciona internet de forma expresa."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s8513844": {
   "titulo": "Garante passe livre a pessoas com deficiência de baixa renda",
@@ -11730,29 +11752,30 @@
   }
  },
  "s8472168": {
-  "titulo": "Protege a integridade mental e exige transparência de algoritmos",
-  "oQueMuda": "Inclui como direitos fundamentais a proteção da mente diante de novas tecnologias e a transparência dos algoritmos.",
-  "quemAfeta": "Usuários de tecnologia e empresas digitais.",
-  "porQueImporta": "Antecipa regras para neurotecnologia e inteligência artificial.",
-  "fonte": "manual",
+  "titulo": "Coloca a integridade mental e a transparência dos algoritmos na Constituição",
+  "oQueMuda": "Diz que o desenvolvimento científico e tecnológico deve assegurar a integridade mental das pessoas e a transparência dos algoritmos, nos termos da lei. Sozinha, não cria regras para empresas: depende de lei.",
+  "quemAfeta": "Usuários de tecnologia, empresas digitais e quem faz as leis.",
+  "porQueImporta": "Daria base na Constituição para futuras leis sobre inteligência artificial e neurotecnologia.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Protects mental integrity and requires algorithm transparency",
-   "oQueMuda": "Adds protection of the mind against new technologies and algorithm transparency to fundamental rights.",
-   "quemAfeta": "Technology users and digital companies.",
-   "porQueImporta": "It anticipates rules for neurotechnology and artificial intelligence."
+   "titulo": "Puts mental integrity and algorithm transparency into the Constitution",
+   "oQueMuda": "States that scientific and technological development must ensure people's mental integrity and the transparency of algorithms, as set by law. On its own, it does not create rules for companies: a law is needed.",
+   "quemAfeta": "Technology users, digital companies and lawmakers.",
+   "porQueImporta": "It would give a constitutional basis for future laws on artificial intelligence and neurotechnology."
   },
   "es": {
-   "titulo": "Protege la integridad mental y exige transparencia de los algoritmos",
-   "oQueMuda": "Incluye como derechos fundamentales la protección de la mente frente a nuevas tecnologías y la transparencia de los algoritmos.",
-   "quemAfeta": "Usuarios de tecnología y empresas digitales.",
-   "porQueImporta": "Anticipa reglas para la neurotecnología y la inteligencia artificial."
+   "titulo": "Pone la integridad mental y la transparencia de los algoritmos en la Constitución",
+   "oQueMuda": "Dice que el desarrollo científico y tecnológico debe asegurar la integridad mental de las personas y la transparencia de los algoritmos, según la ley. Por sí sola, no crea reglas para empresas: depende de una ley.",
+   "quemAfeta": "Usuarios de tecnología, empresas digitales y quienes hacen las leyes.",
+   "porQueImporta": "Daría base constitucional a futuras leyes sobre inteligencia artificial y neurotecnología."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
    "data": "2026-10-09",
    "fonte": "checagem manual com o texto oficial"
-  }
+  },
+  "tipo": "principio"
  },
  "c1050543": {
   "titulo": "Permite tirar bens obtidos com crime ou corrupção",
@@ -11905,29 +11928,30 @@
   }
  },
  "s7986137": {
-  "titulo": "Torna o acesso à internet um direito social",
-  "oQueMuda": "O Estado teria o dever de garantir acesso à internet a todos os residentes no país.",
-  "quemAfeta": "Pessoas sem acesso à internet.",
-  "porQueImporta": "Obriga o poder público a ampliar a conexão.",
-  "fonte": "manual",
+  "titulo": "Coloca o acesso à internet entre os direitos fundamentais e sociais",
+  "oQueMuda": "Diz que o Estado deve garantir internet a todos os residentes, inclui o acesso à internet entre os direitos sociais e manda uma lei garantir neutralidade de rede e qualidade. Sozinha, não cria programas nem verbas: depende de lei.",
+  "quemAfeta": "Pessoas sem acesso à internet, empresas de telecomunicação e governos.",
+  "porQueImporta": "O Marco Civil da Internet já trata o acesso como essencial; a mudança o eleva a direito na Constituição.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes internet access a social right",
-   "oQueMuda": "The state would have a duty to guarantee internet access to everyone living in the country.",
-   "quemAfeta": "People without internet access.",
-   "porQueImporta": "It requires the government to expand connectivity."
+   "titulo": "Adds internet access to the fundamental and social rights",
+   "oQueMuda": "States that the State must guarantee internet access to all residents, adds internet access to the social rights and tells a law to guarantee net neutrality and quality. On its own, it does not create programs or funding: a law is needed.",
+   "quemAfeta": "People without internet access, telecom companies and governments.",
+   "porQueImporta": "The Brazilian Internet Bill of Rights already treats access as essential; the change raises it to a right in the Constitution."
   },
   "es": {
-   "titulo": "Convierte el acceso a internet en derecho social",
-   "oQueMuda": "El Estado tendría el deber de garantizar el acceso a internet a todos los residentes del país.",
-   "quemAfeta": "Personas sin acceso a internet.",
-   "porQueImporta": "Obliga al poder público a ampliar la conexión."
+   "titulo": "Incluye el acceso a internet entre los derechos fundamentales y sociales",
+   "oQueMuda": "Dice que el Estado debe garantizar internet a todos los residentes, incluye el acceso a internet entre los derechos sociales y manda que una ley garantice la neutralidad de red y la calidad. Por sí sola, no crea programas ni fondos: depende de una ley.",
+   "quemAfeta": "Personas sin acceso a internet, empresas de telecomunicaciones y gobiernos.",
+   "porQueImporta": "El Marco Civil de Internet ya trata el acceso como esencial; el cambio lo eleva a derecho en la Constitución."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s7987247": {
   "titulo": "Revoga o teto de gastos e cria metas de despesa",
@@ -12008,29 +12032,30 @@
   }
  },
  "c1049154": {
-  "titulo": "Torna o acesso à energia um direito social",
-  "oQueMuda": "O acesso à energia elétrica passaria a constar entre os direitos sociais.",
-  "quemAfeta": "Pessoas sem energia e consumidores de baixa renda.",
-  "porQueImporta": "Reforça a obrigação do Estado com o fornecimento de energia.",
-  "fonte": "manual",
+  "titulo": "Coloca o acesso à energia entre os direitos sociais",
+  "oQueMuda": "Acrescenta 'o acesso à energia' à lista de direitos sociais. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Pessoas sem energia elétrica, consumidores de baixa renda e governos.",
+  "porQueImporta": "Daria base na Constituição para políticas como tarifa social e levar luz a quem não tem.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes access to energy a social right",
-   "oQueMuda": "Access to electricity would be listed among social rights.",
-   "quemAfeta": "People without power and low-income consumers.",
-   "porQueImporta": "It strengthens the state's duty to supply energy."
+   "titulo": "Adds access to energy to the social rights",
+   "oQueMuda": "Adds 'access to energy' to the list of social rights. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "People without electricity, low-income consumers and governments.",
+   "porQueImporta": "It would give a constitutional basis to policies such as social electricity rates and bringing power to those without it."
   },
   "es": {
-   "titulo": "Convierte el acceso a la energía en derecho social",
-   "oQueMuda": "El acceso a la energía eléctrica figuraría entre los derechos sociales.",
-   "quemAfeta": "Personas sin energía y consumidores de bajos ingresos.",
-   "porQueImporta": "Refuerza la obligación del Estado con el suministro de energía."
+   "titulo": "Incluye el acceso a la energía entre los derechos sociales",
+   "oQueMuda": "Agrega 'el acceso a la energía' a la lista de derechos sociales. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Personas sin electricidad, consumidores de bajos ingresos y gobiernos.",
+   "porQueImporta": "Daría base constitucional a políticas como la tarifa social y llevar luz a quien no la tiene."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c1230264": {
   "titulo": "Aumenta a parte do IR e do IPI repassada às prefeituras",
@@ -12058,29 +12083,30 @@
   }
  },
  "c2075915": {
-  "titulo": "Torna o acesso à internet um direito fundamental",
-  "oQueMuda": "O acesso universal à internet seria garantia fundamental de todos.",
-  "quemAfeta": "Pessoas sem acesso à internet.",
-  "porQueImporta": "Obriga o poder público a ampliar a conexão.",
-  "fonte": "manual",
+  "titulo": "Coloca o acesso à internet entre os direitos fundamentais",
+  "oQueMuda": "Acrescenta à lista de direitos fundamentais: 'é assegurado a todos o acesso universal à internet'. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Pessoas sem acesso à internet e governos.",
+  "porQueImporta": "O Marco Civil da Internet já trata o acesso como essencial; a mudança o eleva a direito fundamental.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes internet access a fundamental right",
-   "oQueMuda": "Universal internet access would be a fundamental guarantee for everyone.",
-   "quemAfeta": "People without internet access.",
-   "porQueImporta": "It requires the government to expand connectivity."
+   "titulo": "Adds internet access to the fundamental rights",
+   "oQueMuda": "Adds to the list of fundamental rights: 'universal internet access is guaranteed to everyone'. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "People without internet access and governments.",
+   "porQueImporta": "The Brazilian Internet Bill of Rights already treats access as essential; the change raises it to a fundamental right."
   },
   "es": {
-   "titulo": "Convierte el acceso a internet en derecho fundamental",
-   "oQueMuda": "El acceso universal a internet sería una garantía fundamental de todos.",
-   "quemAfeta": "Personas sin acceso a internet.",
-   "porQueImporta": "Obliga al poder público a ampliar la conexión."
+   "titulo": "Incluye el acceso a internet entre los derechos fundamentales",
+   "oQueMuda": "Agrega a la lista de derechos fundamentales: 'se asegura a todos el acceso universal a internet'. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Personas sin acceso a internet y gobiernos.",
+   "porQueImporta": "El Marco Civil de Internet ya trata el acceso como esencial; el cambio lo eleva a derecho fundamental."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
    "data": "2026-10-09",
    "fonte": "checagem manual com o texto oficial"
-  }
+  },
+  "tipo": "principio"
  },
  "c2088568": {
   "titulo": "Inclui o amparo à mulher vítima de violência na assistência social",
@@ -13136,29 +13162,30 @@
   }
  },
  "s8406896": {
-  "titulo": "Garante proteção a profissionais de segurança e saúde",
-  "oQueMuda": "A proteção desses profissionais seria um direito fundamental.",
-  "quemAfeta": "Policiais e profissionais de saúde.",
-  "porQueImporta": "Reforça o dever do Estado de protegê-los.",
-  "fonte": "manual",
+  "titulo": "Coloca a proteção de profissionais de segurança e saúde entre os direitos fundamentais",
+  "oQueMuda": "Diz que é assegurada, nos termos da lei, a proteção dos profissionais de segurança pública e de saúde. Sozinha, não diz como seria essa proteção: depende de lei.",
+  "quemAfeta": "Policiais, bombeiros, profissionais de saúde e o poder público.",
+  "porQueImporta": "Daria a essas categorias um direito expresso na Constituição para cobrar proteção.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Guarantees protection for security and health workers",
-   "oQueMuda": "Protecting these workers would be a fundamental right.",
-   "quemAfeta": "Police officers and health workers.",
-   "porQueImporta": "It strengthens the state's duty to protect them."
+   "titulo": "Adds protection of security and health workers to the fundamental rights",
+   "oQueMuda": "States that protection of public security and health workers is guaranteed, as set by law. On its own, it does not say what that protection would be: a law is needed.",
+   "quemAfeta": "Police officers, firefighters, health workers and the government.",
+   "porQueImporta": "It would give these workers a right written in the Constitution to demand protection."
   },
   "es": {
-   "titulo": "Garantiza protección a profesionales de seguridad y salud",
-   "oQueMuda": "La protección de estos profesionales sería un derecho fundamental.",
-   "quemAfeta": "Policías y profesionales de salud.",
-   "porQueImporta": "Refuerza el deber del Estado de protegerlos."
+   "titulo": "Incluye la protección de profesionales de seguridad y salud entre los derechos fundamentales",
+   "oQueMuda": "Dice que se asegura, según la ley, la protección de los profesionales de seguridad pública y de salud. Por sí sola, no dice cómo sería esa protección: depende de una ley.",
+   "quemAfeta": "Policías, bomberos, profesionales de salud y el poder público.",
+   "porQueImporta": "Daría a estas categorías un derecho expreso en la Constitución para exigir protección."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s8407865": {
   "titulo": "Restringe indicações para direção de estatais",
@@ -14242,29 +14269,30 @@
   }
  },
  "c2095531": {
-  "titulo": "Inclui a reciprocidade nas relações internacionais",
-  "oQueMuda": "O Brasil trataria outros países como é tratado por eles.",
-  "quemAfeta": "Governo e diplomacia.",
-  "porQueImporta": "Orienta a política externa.",
-  "fonte": "manual",
+  "titulo": "Coloca a reciprocidade entre os princípios da política externa",
+  "oQueMuda": "Acrescenta 'reciprocidade' (tratar outros países como eles tratam o Brasil) à lista de princípios das relações internacionais. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Governo federal, diplomacia e brasileiros no exterior.",
+  "porQueImporta": "Orientaria decisões de política externa, como regras de visto e comércio.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Adds reciprocity to international relations",
-   "oQueMuda": "Brazil would treat other countries the way they treat it.",
-   "quemAfeta": "The government and diplomacy.",
-   "porQueImporta": "It guides foreign policy."
+   "titulo": "Adds reciprocity to the principles of foreign policy",
+   "oQueMuda": "Adds 'reciprocity' (treating other countries as they treat Brazil) to the list of principles of international relations. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "The federal government, diplomacy and Brazilians abroad.",
+   "porQueImporta": "It would guide foreign policy decisions, such as visa and trade rules."
   },
   "es": {
-   "titulo": "Incluye la reciprocidad en las relaciones internacionales",
-   "oQueMuda": "Brasil trataría a otros países como es tratado por ellos.",
-   "quemAfeta": "Gobierno y diplomacia.",
-   "porQueImporta": "Orienta la política exterior."
+   "titulo": "Incluye la reciprocidad entre los principios de la política exterior",
+   "oQueMuda": "Agrega 'reciprocidad' (tratar a otros países como ellos tratan a Brasil) a la lista de principios de las relaciones internacionales. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Gobierno federal, diplomacia y brasileños en el exterior.",
+   "porQueImporta": "Orientaría decisiones de política exterior, como reglas de visado y comercio."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c2194813": {
   "titulo": "Isenta de impostos o gás de cozinha",
@@ -14342,29 +14370,30 @@
   }
  },
  "c2304959": {
-  "titulo": "Torna o clima estável um direito fundamental",
-  "oQueMuda": "Inclui a questão climática entre os direitos fundamentais, a economia e a proteção ambiental.",
-  "quemAfeta": "Toda a população.",
-  "porQueImporta": "Reforça o dever do Estado diante das mudanças climáticas.",
-  "fonte": "manual",
+  "titulo": "Coloca a segurança climática na Constituição",
+  "oQueMuda": "Acrescenta 'segurança climática' aos direitos fundamentais e aos princípios da economia, e manda o poder público adotar ações contra as mudanças do clima e seus efeitos. Não diz quais ações nem cria verbas.",
+  "quemAfeta": "Toda a população, empresas e governos.",
+  "porQueImporta": "A Constituição já garante o meio ambiente equilibrado; a mudança cita o clima de forma expressa, o que pode ser usado em leis e na Justiça.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes a stable climate a fundamental right",
-   "oQueMuda": "Adds the climate issue to fundamental rights, the economy and environmental protection.",
-   "quemAfeta": "Everyone.",
-   "porQueImporta": "It strengthens the state's duty in the face of climate change."
+   "titulo": "Puts climate security into the Constitution",
+   "oQueMuda": "Adds 'climate security' to the fundamental rights and to the principles of the economy, and tells the government to act against climate change and its effects. It does not say which actions nor create funding.",
+   "quemAfeta": "The whole population, companies and governments.",
+   "porQueImporta": "The Constitution already guarantees a balanced environment; the change mentions climate explicitly, which can be used in laws and in court."
   },
   "es": {
-   "titulo": "Convierte un clima estable en derecho fundamental",
-   "oQueMuda": "Incluye la cuestión climática entre los derechos fundamentales, la economía y la protección ambiental.",
-   "quemAfeta": "Toda la población.",
-   "porQueImporta": "Refuerza el deber del Estado frente al cambio climático."
+   "titulo": "Pone la seguridad climática en la Constitución",
+   "oQueMuda": "Agrega 'seguridad climática' a los derechos fundamentales y a los principios de la economía, y manda al poder público adoptar acciones contra el cambio climático y sus efectos. No dice qué acciones ni crea fondos.",
+   "quemAfeta": "Toda la población, empresas y gobiernos.",
+   "porQueImporta": "La Constitución ya garantiza un medio ambiente equilibrado; el cambio menciona el clima de forma expresa, lo que puede usarse en leyes y ante la Justicia."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "c2336964": {
   "titulo": "Ajuda da União para pagar o piso da enfermagem",
@@ -14945,29 +14974,30 @@
   }
  },
  "s7971591": {
-  "titulo": "Coloca o combate à corrupção como fundamento da República",
-  "oQueMuda": "Prevenção e combate à corrupção seriam fundamentos do país.",
-  "quemAfeta": "Toda a população.",
-  "porQueImporta": "Orienta leis e políticas públicas.",
-  "fonte": "manual",
+  "titulo": "Coloca o combate à corrupção entre os fundamentos da República",
+  "oQueMuda": "Acrescenta 'a prevenção e o combate à corrupção' aos fundamentos do país, ao lado de soberania, cidadania e dignidade humana. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Toda a população, órgãos públicos e quem faz as leis.",
+  "porQueImporta": "A Constituição já exige moralidade na administração pública; a mudança daria peso maior ao tema na interpretação das leis.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes fighting corruption a foundation of the Republic",
-   "oQueMuda": "Preventing and fighting corruption would be among the country's founding principles.",
-   "quemAfeta": "Everyone.",
-   "porQueImporta": "It guides laws and public policies."
+   "titulo": "Adds fighting corruption to the foundations of the Republic",
+   "oQueMuda": "Adds 'preventing and fighting corruption' to the country's foundations, alongside sovereignty, citizenship and human dignity. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "The whole population, public bodies and lawmakers.",
+   "porQueImporta": "The Constitution already requires integrity in public administration; the change would give the issue more weight in how laws are interpreted."
   },
   "es": {
-   "titulo": "Pone la lucha contra la corrupción como fundamento de la República",
-   "oQueMuda": "La prevención y la lucha contra la corrupción serían fundamentos del país.",
-   "quemAfeta": "Toda la población.",
-   "porQueImporta": "Orienta leyes y políticas públicas."
+   "titulo": "Incluye el combate a la corrupción entre los fundamentos de la República",
+   "oQueMuda": "Agrega 'la prevención y el combate a la corrupción' a los fundamentos del país, junto a la soberanía, la ciudadanía y la dignidad humana. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Toda la población, órganos públicos y quienes hacen las leyes.",
+   "porQueImporta": "La Constitución ya exige moralidad en la administración pública; el cambio daría más peso al tema en la interpretación de las leyes."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
+   "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
-  }
+   "fonte": "checagem manual com o texto oficial"
+  },
+  "tipo": "principio"
  },
  "s8153922": {
   "titulo": "Permite que parlamentar vire embaixador sem perder mandato",
@@ -15501,29 +15531,30 @@
   }
  },
  "s7804584": {
-  "titulo": "Torna a conciliação um direito fundamental",
-  "oQueMuda": "Métodos de solução de conflitos fora da Justiça, como mediação, seriam direito fundamental.",
-  "quemAfeta": "Pessoas em disputas e o Judiciário.",
-  "porQueImporta": "Pode reduzir o número de processos.",
-  "fonte": "manual",
+  "titulo": "Coloca a conciliação e a mediação entre os direitos fundamentais",
+  "oQueMuda": "Diz que o Estado assegurará métodos de resolver conflitos fora da Justiça, como conciliação e mediação. Sozinha, não cria programas, verbas nem punições.",
+  "quemAfeta": "Pessoas em disputas, advogados e o Judiciário.",
+  "porQueImporta": "O Código de Processo Civil já incentiva esses métodos; a mudança os coloca na Constituição.",
+  "fonte": "revisado",
   "en": {
-   "titulo": "Makes out-of-court dispute resolution a fundamental right",
-   "oQueMuda": "Out-of-court dispute resolution methods, such as mediation, would be a fundamental right.",
-   "quemAfeta": "People in disputes and the judiciary.",
-   "porQueImporta": "It could reduce the number of lawsuits."
+   "titulo": "Adds conciliation and mediation to the fundamental rights",
+   "oQueMuda": "States that the State will ensure ways of settling disputes outside the courts, such as conciliation and mediation. On its own, it does not create programs, funding or penalties.",
+   "quemAfeta": "People in disputes, lawyers and the courts.",
+   "porQueImporta": "The Code of Civil Procedure already encourages these methods; the change puts them in the Constitution."
   },
   "es": {
-   "titulo": "Convierte la conciliación en derecho fundamental",
-   "oQueMuda": "Los métodos de solución de conflictos fuera de la Justicia, como la mediación, serían un derecho fundamental.",
-   "quemAfeta": "Personas en disputas y el Poder Judicial.",
-   "porQueImporta": "Puede reducir el número de procesos."
+   "titulo": "Incluye la conciliación y la mediación entre los derechos fundamentales",
+   "oQueMuda": "Dice que el Estado asegurará métodos para resolver conflictos fuera de la Justicia, como la conciliación y la mediación. Por sí sola, no crea programas, fondos ni castigos.",
+   "quemAfeta": "Personas en disputas, abogados y el Poder Judicial.",
+   "porQueImporta": "El Código de Proceso Civil ya incentiva estos métodos; el cambio los pone en la Constitución."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
    "data": "2026-10-09",
    "fonte": "checagem manual com o texto oficial"
-  }
+  },
+  "tipo": "principio"
  },
  "s7845422": {
   "titulo": "Exige aval do Congresso para desmatar a Amazônia",
