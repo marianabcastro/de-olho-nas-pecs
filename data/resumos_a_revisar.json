@@ -1,14 +1,5 @@
 [
  {
-  "id": "c2233802",
-  "sigla": "PEC 221/2019",
-  "titulo": "Reduz a jornada para 40 horas e garante 2 dias de folga por semana",
-  "versao": "Parecer aprovado em comissão ou no plenário do Senado",
-  "data": "2026-09-02",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/d400a810-11b7-4abf-874e-56541ed8d2b9/5.0",
-  "semelhanca": null
- },
- {
   "id": "c2234666",
   "sigla": "PEC 231/2019",
   "titulo": "Muda a distribuição do Fundo de Participação dos Municípios",
@@ -32,7 +23,7 @@
   "titulo": "Garante aposentadoria especial a agentes comunitários de saúde",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2026-06-10",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/61ab0d5e-c9e2-4096-84cb-6f9c4c797f40/3.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/61ab0d5e-c9e2-4096-84cb-6f9c4c797f40",
   "semelhanca": null
  },
  {
@@ -41,16 +32,7 @@
   "titulo": "Dá autonomia financeira ao Banco Central e muda sua natureza jurídica",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2026-06-10",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/73445bb2-2826-4ff8-a3c6-07757bd68873/1.0",
-  "semelhanca": null
- },
- {
-  "id": "s8600341",
-  "sigla": "PEC 67/2023",
-  "titulo": "Protege empresas de comunicação por falas de entrevistados",
-  "versao": "Parecer aprovado em comissão ou no plenário do Senado",
-  "data": "2026-04-08",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/3e0d63da-5658-42c1-9e99-2ea885dde7a9/5.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/73445bb2-2826-4ff8-a3c6-07757bd68873",
   "semelhanca": null
  },
  {
@@ -59,7 +41,7 @@
   "titulo": "Permite que professores acumulem outro cargo público",
   "versao": "Texto aprovado no Senado",
   "data": "2026-02-26",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/a8ed9c8d-955b-499f-92d2-756fdd33d038/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/a8ed9c8d-955b-499f-92d2-756fdd33d038",
   "semelhanca": null
  },
  {
@@ -68,7 +50,7 @@
   "titulo": "Isenta de IPVA carros com 20 anos ou mais",
   "versao": "Texto aprovado no Senado",
   "data": "2025-12-19",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/e0568194-e4d7-43c0-a165-899bdfc796e2/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/e0568194-e4d7-43c0-a165-899bdfc796e2",
   "semelhanca": null
  },
  {
@@ -77,7 +59,7 @@
   "titulo": "Exige autorização do Congresso para processar deputados e senadores",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2025-09-24",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/abbdba6f-1d3d-42ad-acb8-c23fcb18d9bd/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/abbdba6f-1d3d-42ad-acb8-c23fcb18d9bd",
   "semelhanca": 0.05
  },
  {
@@ -86,7 +68,7 @@
   "titulo": "Limita pagamento de precatórios e reabre parcelamento de dívidas das prefeituras",
   "versao": "Texto aprovado no Senado",
   "data": "2025-09-17",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/50bedfb8-c4d5-4d52-9011-8020aea5dac5/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/50bedfb8-c4d5-4d52-9011-8020aea5dac5",
   "semelhanca": null
  },
  {
@@ -95,7 +77,7 @@
   "titulo": "Acaba com a reeleição e cria mandato de 5 anos",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2025-05-21",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/562ffba6-b5f8-4f3e-b6a7-a2347361c861/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/562ffba6-b5f8-4f3e-b6a7-a2347361c861",
   "semelhanca": null
  },
  {
@@ -104,7 +86,7 @@
   "titulo": "Pacote de controle de gastos públicos (promulgado em 2024)",
   "versao": "Redação para o segundo turno no Senado",
   "data": "2024-12-20",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/eadc595d-508b-4585-a97d-e80fa95dce89/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/eadc595d-508b-4585-a97d-e80fa95dce89",
   "semelhanca": null
  },
  {
@@ -113,7 +95,7 @@
   "titulo": "Define quem cria leis sobre segurança cibernética",
   "versao": "Texto aprovado no Senado",
   "data": "2024-12-19",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/91a1432e-a7e4-48d6-a7cf-ae154cd29271/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/91a1432e-a7e4-48d6-a7cf-ae154cd29271",
   "semelhanca": null
  },
  {
@@ -122,17 +104,8 @@
   "titulo": "Permite eleição direta da direção dos maiores Tribunais de Justiça",
   "versao": "Texto aprovado no Senado",
   "data": "2024-12-03",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/f2900877-0b56-4329-8ce7-1d63676e2eea/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/f2900877-0b56-4329-8ce7-1d63676e2eea",
   "semelhanca": null
- },
- {
-  "id": "s8563075",
-  "sigla": "PEC 52/2023",
-  "titulo": "Garante educação inclusiva em todos os níveis",
-  "versao": "Parecer aprovado em comissão ou no plenário do Senado",
-  "data": "2024-10-16",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/ccd64eac-b0d9-48fe-a966-fd9cec23bd0b/2.0",
-  "semelhanca": 0.22
  },
  {
   "id": "s8466340",
@@ -140,7 +113,7 @@
   "titulo": "Inclui procuradores municipais na advocacia pública",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2024-08-07",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/eed62389-e6b2-4492-bb37-17e91bbd7522/2.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/eed62389-e6b2-4492-bb37-17e91bbd7522",
   "semelhanca": 0.5
  },
  {
@@ -149,7 +122,7 @@
   "titulo": "Torna imprescritível o tráfico de crianças",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2024-04-24",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/0975440e-3c0b-40f5-925d-e712e621046f/3.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/0975440e-3c0b-40f5-925d-e712e621046f",
   "semelhanca": 0.14
  },
  {
@@ -158,7 +131,7 @@
   "titulo": "Torna crime a posse de qualquer quantidade de droga",
   "versao": "Texto aprovado no Senado",
   "data": "2024-04-18",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/da4096c4-cdad-49c1-aa19-10a569e1fe70/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/da4096c4-cdad-49c1-aa19-10a569e1fe70",
   "semelhanca": null
  },
  {
@@ -167,7 +140,7 @@
   "titulo": "Cria adicional por tempo de serviço para juízes e promotores",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2024-04-17",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/26500a01-c93d-49d4-a57f-597abdf8ccc0/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/26500a01-c93d-49d4-a57f-597abdf8ccc0",
   "semelhanca": 0.27
  },
  {
@@ -176,7 +149,7 @@
   "titulo": "Reforma tributária: troca cinco impostos por IBS e CBS",
   "versao": "Texto aprovado no Senado",
   "data": "2023-12-20",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/79038db0-16a8-439f-8a58-f376c895f62d/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/79038db0-16a8-439f-8a58-f376c895f62d",
   "semelhanca": null
  },
  {
@@ -185,26 +158,8 @@
   "titulo": "Limita decisões individuais de ministros do STF",
   "versao": "Texto aprovado no Senado",
   "data": "2023-12-06",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/cc4fec84-06e7-4acc-b4d5-fc97aad7d478/2.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/cc4fec84-06e7-4acc-b4d5-fc97aad7d478",
   "semelhanca": null
- },
- {
-  "id": "s8540294",
-  "sigla": "PEC 42/2023",
-  "titulo": "Muda regras para militares da ativa se candidatarem",
-  "versao": "Parecer aprovado em comissão ou no plenário do Senado",
-  "data": "2023-11-29",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/a8568e5d-a54a-4393-8dff-d7342076b415/4.0",
-  "semelhanca": 0.15
- },
- {
-  "id": "s8412320",
-  "sigla": "PEC 17/2023",
-  "titulo": "Torna a segurança alimentar um direito fundamental",
-  "versao": "Parecer aprovado em comissão ou no plenário do Senado",
-  "data": "2023-11-22",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/491bd0ea-d9c7-449f-811d-5420a40aa6f7/2.0",
-  "semelhanca": 0.07
  },
  {
   "id": "c2224532",
@@ -212,7 +167,7 @@
   "titulo": "Permite troca de juízes entre tribunais diferentes",
   "versao": "Texto aprovado no Senado",
   "data": "2023-10-03",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/08dac58c-5a87-423e-bdb6-b860eaa95fa8/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/08dac58c-5a87-423e-bdb6-b860eaa95fa8",
   "semelhanca": null
  },
  {
@@ -221,7 +176,7 @@
   "titulo": "Inclui ex-servidores de Amapá, Roraima e Rondônia no quadro federal",
   "versao": "Texto aprovado no Senado",
   "data": "2023-09-19",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/4d3acf61-7e88-4898-858b-1524419d02bc/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/4d3acf61-7e88-4898-858b-1524419d02bc",
   "semelhanca": null
  },
  {
@@ -230,7 +185,7 @@
   "titulo": "Garante transporte público gratuito em dia de eleição",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2023-09-13",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/bff72854-9fcc-481a-be8c-c87796bee5e5/6.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/bff72854-9fcc-481a-be8c-c87796bee5e5",
   "semelhanca": 0.14
  },
  {
@@ -239,17 +194,17 @@
   "titulo": "Prorroga as permissões das casas lotéricas",
   "versao": "Texto aprovado no Senado",
   "data": "2023-08-01",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/d6bf5557-1190-4fd1-b8fe-522326fb9b2f/2.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/d6bf5557-1190-4fd1-b8fe-522326fb9b2f",
   "semelhanca": null
  },
  {
   "id": "c609753",
   "sigla": "PEC 390/2014",
   "titulo": "Ajuda da União para pagar o piso da enfermagem",
-  "versao": "Texto aprovado no Senado",
-  "data": "2022-12-22",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/7f56a2b1-c6dc-49c9-8d14-43e07014c2d9/1.0",
-  "semelhanca": null
+  "versao": "Redação final aprovada na Câmara",
+  "data": "2022-12-15",
+  "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2226654",
+  "semelhanca": 0.13
  },
  {
   "id": "c1701050",
@@ -266,7 +221,7 @@
   "titulo": "Torna IBGE, Inep e órgãos de avaliação instituições permanentes",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2022-06-01",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/fe7db6f0-1c0a-4a87-beb2-300c29d508b3/2.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/fe7db6f0-1c0a-4a87-beb2-300c29d508b3",
   "semelhanca": 0.15
  },
  {
@@ -284,7 +239,7 @@
   "titulo": "Cria requisitos para cargos de confiança",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2021-09-23",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/c904c99d-2878-4f12-b986-6b220d010708/2.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/c904c99d-2878-4f12-b986-6b220d010708",
   "semelhanca": null
  },
  {
@@ -293,17 +248,8 @@
   "titulo": "Extingue fundos públicos não confirmados por lei",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2020-03-05",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/bf31d6a1-6971-4e7c-8049-60f5fa1262fe/2.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/bf31d6a1-6971-4e7c-8049-60f5fa1262fe",
   "semelhanca": 0.13
- },
- {
-  "id": "s7723044",
-  "sigla": "PEC 10/2019",
-  "titulo": "Garante a municípios o ICMS e o IPVA não repassados pelos estados",
-  "versao": "Parecer aprovado em comissão ou no plenário do Senado",
-  "data": "2019-10-30",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/cfe29c9d-699b-47a0-8776-1763c0255bd3/4.0",
-  "semelhanca": null
  },
  {
   "id": "s7711916",
@@ -311,17 +257,8 @@
   "titulo": "Exige voto aberto na eleição das Mesas do Congresso",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2019-07-10",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/e6a772d2-6db7-478e-ab4b-e1d5a7158cb8/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/e6a772d2-6db7-478e-ab4b-e1d5a7158cb8",
   "semelhanca": 0.03
- },
- {
-  "id": "s7741352",
-  "sigla": "PEC 51/2019",
-  "titulo": "Aumenta para 26% o repasse do IR e IPI aos estados",
-  "versao": "Parecer aprovado em comissão ou no plenário do Senado",
-  "data": "2019-05-22",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/0660c7f9-8481-475a-af4e-5e96ff61db1a/4.0",
-  "semelhanca": 0.07
  },
  {
   "id": "c1278930",
@@ -347,7 +284,7 @@
   "titulo": "Muda a divisão da Cide entre estados e municípios",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2016-04-27",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/5dc5a8bc-a306-4b3d-8eb2-c271b348b97c/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/5dc5a8bc-a306-4b3d-8eb2-c271b348b97c",
   "semelhanca": null
  },
  {
@@ -356,7 +293,7 @@
   "titulo": "Garante mulheres nas Mesas e comissões do Congresso",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2016-03-30",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/c1a8a206-c291-468c-847a-4729cec6acd5/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/c1a8a206-c291-468c-847a-4729cec6acd5",
   "semelhanca": 0.2
  },
  {
@@ -365,7 +302,7 @@
   "titulo": "Exige lei complementar para regras de concessões",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2016-02-17",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/b115c0b8-3c3b-4d6c-abb1-09d41c2b2b9d/1.0",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/b115c0b8-3c3b-4d6c-abb1-09d41c2b2b9d",
   "semelhanca": null
  },
  {

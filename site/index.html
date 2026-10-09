@@ -55,8 +55,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .brand svg { width: 38px; height: 26px; flex: none; }
 .nav { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; }
 .nav a { text-decoration: none; padding: 6px 10px; border-radius: 999px; font-size: 0.95rem; }
-.nav a[aria-current="page"] { background: var(--soft); font-weight: 700; }
-.nav a.cta, .nav a.cta[aria-current="page"] { background: var(--ink); color: var(--bg); font-weight: 700; }
+/* só a página atual fica destacada */
+.nav a[aria-current="page"] { background: var(--ink); color: var(--bg); font-weight: 700; }
+.nav a:not([aria-current="page"]):hover { background: var(--soft); }
 
 /* blocos */
 .hero { display: grid; gap: 14px; padding-block: 28px 4px; }
@@ -67,6 +68,10 @@ section, .box, .list, .pec-head, .hero, .filters, .vote, .chat, .msg { grid-temp
 .stats { display: flex; flex-wrap: wrap; gap: 8px 22px; padding-top: 4px; }
 .stats div { display: flex; align-items: baseline; gap: 6px; }
 .stats .num { font-size: 1.35rem; }
+/* setinha ↗ no canto de cada bloco: leva à fonte oficial de onde veio a informação */
+.com-fonte { position: relative; padding-right: 40px; }
+.fonte { position: absolute; top: 8px; right: 8px; width: 30px; height: 30px; display: grid; place-items: center; border-radius: 999px; text-decoration: none; color: var(--muted); font-size: 1rem; line-height: 1; }
+.fonte:hover, .fonte:focus-visible { background: var(--soft); color: var(--ink); }
 .box { background: var(--bg); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: grid; gap: 10px; min-width: 0; }
 .box.soft { background: var(--soft); border-color: var(--soft); }
 .notice { font-size: 0.85rem; color: var(--muted); }
@@ -279,7 +284,7 @@ pt: {
   sim: "sim", nao: "não", abst: "abstenções", precisava: n => `precisava de <b class="num">${n}</b>`,
   etapas: { "Apresentada": "Apresentada", "CCJ da Câmara": "CCJ da Câmara", "CCJ do Senado": "CCJ do Senado", "Comissão Especial": "Comissão Especial", "Plenário da Câmara": "Plenário da Câmara", "Plenário do Senado": "Plenário do Senado", "Senado": "Senado", "Câmara": "Câmara", "Promulgada": "Promulgada" },
   desc_etapa: {
-    "Apresentada": "Um grupo de pelo menos 1/3 dos deputados ou senadores (ou o Presidente da República) apresenta a proposta.",
+    "Apresentada": "A proposta é apresentada por pelo menos 1/3 dos deputados ou dos senadores, pelo Presidente da República ou por mais da metade das Assembleias Legislativas dos estados.",
     "CCJ da Câmara": "A Comissão de Constituição e Justiça verifica se a proposta pode tramitar. Não analisa se é boa ou ruim.",
     "CCJ do Senado": "A Comissão de Constituição e Justiça do Senado analisa a proposta e dá um parecer.",
     "Comissão Especial": "Uma comissão criada só para esta PEC discute o conteúdo e pode alterar o texto.",
@@ -312,6 +317,12 @@ pt: {
   ler_versao: "Ler a versão atual ↗", ler_original: "Ler o texto original ↗",
   erro_btn: "✋ Encontrou um erro neste resumo? Avise a gente ↗",
   parecer_h: "Pode haver uma versão nova do texto",
+  fonte_tit: o => `Ver na fonte oficial: ${o}`,
+  video: h => `Ver o vídeo da sessão (YouTube, Câmara)${h ? ` — a votação foi registrada às ${h}` : ""}`,
+  f_texto: "texto completo da PEC", f_ficha: "ficha da PEC", f_vot_cam: "votações na página da Câmara", f_vot_sen: "votações na página do Senado",
+  parecer_igual: (tipo, d) => `Em ${d}: ${tipo}, sem mudanças no texto. O resumo continua valendo.`,
+  ementa_versao: "A ementa acima é a do texto original. O resumo descreve o texto como está agora, depois das mudanças feitas na tramitação.",
+  obstr: "obstrução",
   parecer_p: (tipo, d) => `Em ${d}: ${tipo}. Pareceres costumam propor mudanças no texto.`,
   no_senado: s => `no Senado: ${s}`,
   mudou_desc: (tipo, d) => `O texto mudou em ${d} (${tipo}). O resumo acima já descreve a nova versão. O que mudou:`,
@@ -394,7 +405,7 @@ en: {
   sim: "yes", nao: "no", abst: "abstentions", precisava: n => `needed <b class="num">${n}</b>`,
   etapas: { "Apresentada": "Filed", "CCJ da Câmara": "Chamber's Constitution Committee", "CCJ do Senado": "Senate's Constitution Committee", "Comissão Especial": "Special Committee", "Plenário da Câmara": "Chamber floor vote", "Plenário do Senado": "Senate floor vote", "Senado": "Senate", "Câmara": "Chamber of Deputies", "Promulgada": "Enacted" },
   desc_etapa: {
-    "Apresentada": "At least 1/3 of deputies or senators (or the President) file the proposal.",
+    "Apresentada": "The proposal is filed by at least 1/3 of deputies or of senators, by the President, or by more than half of the state legislatures.",
     "CCJ da Câmara": "The Constitution and Justice Committee (CCJ) checks whether the proposal can move forward. It doesn't judge whether it's good or bad.",
     "CCJ do Senado": "The Senate's Constitution and Justice Committee (CCJ) reviews the proposal and issues an opinion.",
     "Comissão Especial": "A committee created just for this PEC debates the content and can change the text.",
@@ -427,6 +438,12 @@ en: {
   ler_versao: "Read the current version (in Portuguese) ↗", ler_original: "Read the original text (in Portuguese) ↗",
   erro_btn: "✋ Found a mistake in this summary? Let us know ↗",
   parecer_h: "There may be a new version of the text",
+  fonte_tit: o => `See the official source: ${o}`,
+  video: h => `Watch the session video (YouTube, Chamber, in Portuguese)${h ? ` — the vote was recorded at ${h}` : ""}`,
+  f_texto: "full text of the PEC", f_ficha: "official PEC record", f_vot_cam: "votes on the Chamber website", f_vot_sen: "votes on the Senate website",
+  parecer_igual: (tipo, d) => `On ${d}: ${tipo}, with no changes to the text. The summary still applies.`,
+  ementa_versao: "The official summary (ementa) above is from the original text. Our summary describes the text as it stands now, after changes made along the way.",
+  obstr: "obstruction",
   parecer_p: (tipo, d) => `On ${d}: ${tipo}. Opinions often propose changes to the text.`,
   no_senado: s => `in the Senate: ${s}`,
   mudou_desc: (tipo, d) => `The text changed on ${d} (${tipo}). The summary above already describes the new version. What changed (in Portuguese):`,
@@ -509,7 +526,7 @@ es: {
   sim: "sí", nao: "no", abst: "abstenciones", precisava: n => `necesitaba <b class="num">${n}</b>`,
   etapas: { "Apresentada": "Presentada", "CCJ da Câmara": "CCJ de la Cámara", "CCJ do Senado": "CCJ del Senado", "Comissão Especial": "Comisión Especial", "Plenário da Câmara": "Pleno de la Cámara", "Plenário do Senado": "Pleno del Senado", "Senado": "Senado", "Câmara": "Cámara de Diputados", "Promulgada": "Promulgada" },
   desc_etapa: {
-    "Apresentada": "Al menos 1/3 de los diputados o senadores (o el Presidente de la República) presenta la propuesta.",
+    "Apresentada": "La propuesta es presentada por al menos 1/3 de los diputados o de los senadores, por el Presidente de la República o por más de la mitad de las asambleas legislativas de los estados.",
     "CCJ da Câmara": "La Comisión de Constitución y Justicia verifica si la propuesta puede seguir adelante. No analiza si es buena o mala.",
     "CCJ do Senado": "La Comisión de Constitución y Justicia del Senado analiza la propuesta y emite un dictamen.",
     "Comissão Especial": "Una comisión creada solo para esta PEC debate el contenido y puede cambiar el texto.",
@@ -542,6 +559,12 @@ es: {
   ler_versao: "Leer la versión actual (en portugués) ↗", ler_original: "Leer el texto original (en portugués) ↗",
   erro_btn: "✋ ¿Encontraste un error en este resumen? Avísanos ↗",
   parecer_h: "Puede haber una nueva versión del texto",
+  fonte_tit: o => `Ver en la fuente oficial: ${o}`,
+  video: h => `Ver el video de la sesión (YouTube, Cámara, en portugués)${h ? ` — la votación se registró a las ${h}` : ""}`,
+  f_texto: "texto completo de la PEC", f_ficha: "ficha oficial de la PEC", f_vot_cam: "votaciones en el sitio de la Cámara", f_vot_sen: "votaciones en el sitio del Senado",
+  parecer_igual: (tipo, d) => `El ${d}: ${tipo}, sin cambios en el texto. El resumen sigue valiendo.`,
+  ementa_versao: "La ementa de arriba es la del texto original. El resumen describe el texto como está ahora, después de los cambios hechos en la tramitación.",
+  obstr: "obstrucción",
   parecer_p: (tipo, d) => `El ${d}: ${tipo}. Los dictámenes suelen proponer cambios en el texto.`,
   no_senado: s => `en el Senado: ${s}`,
   mudou_desc: (tipo, d) => `El texto cambió el ${d} (${tipo}). El resumen de arriba ya describe la nueva versión. Qué cambió (en portugués):`,
@@ -764,6 +787,11 @@ const casaAtual = p => {
   if (/Senado/.test(et)) return "senado";
   return p.casa === "ambas" ? p.casaOrigem : p.casa;
 };
+const fonte = (url, o) => url ? `<a class="fonte" href="${esc(url)}" target="_blank" rel="noopener" title="${esc(T().fonte_tit(o))}" aria-label="${esc(T().fonte_tit(o))}">↗</a>` : "";
+const fichaURL = p => p.linkOficial || p.linkCamara || p.linkSenado;
+// texto usado no resumo: a versão conferida, se for a atual; senão o original
+const textoURL = p => { const b = p.simples?.base || {}, a = p.textoAtual; return b.url || (a && b.versao === a.id ? a.url : null) || p.textoOriginal?.url || p.linkTexto; };
+const votoURL = (p, v) => v.casa === "camara" ? (p.idCamara ? `https://www.camara.leg.br/propostas-legislativas/${p.idCamara}` : p.linkCamara) : (p.codigoMateria ? `https://www25.senado.leg.br/web/atividade/materias/-/materia/${p.codigoMateria}/votacoes` : p.linkSenado);
 const principioTag = p => p.simples?.tipo === "principio" ? `<span class="principio" title="${esc(T().principio_exp)}">${T().principio_tag}</span>` : "";
 const apelidoTag = p => S(p)?.apelido ? `<span class="apelido">${esc(S(p).apelido)}</span>` : "";
 
@@ -1002,7 +1030,7 @@ function caminho(p) {
 }
 
 const VOTO_CLS = { sim: "k-sim", nao: "k-nao", abstencao: "k-abst", obstrucao: "k-abst", outro: "k-abst" };
-function votacaoHTML(v, idx) {
+function votacaoHTML(v, idx, p) {
   const t = TOTAL_CASA[v.casa], s = v.placar.sim || 0, n = v.placar.nao || 0, a = v.placar.abstencao || 0, L = T();
   const qpos = v.necessarios / t * 100, quem = v.casa === "camara" ? L.deputados : L.senadores;
   let detalhes = "";
@@ -1029,9 +1057,9 @@ function votacaoHTML(v, idx) {
       <div class="tbl-wrap"><table><thead><tr><th>${L.parlamentar}</th><th>${L.partido}</th><th>${L.uf}</th><th>${L.voto}</th></tr></thead><tbody id="vt-${idx}"></tbody></table></div>
     </details>`;
   }
-  return `<div class="box vote">
-    <div class="meta"><span class="casa ${v.casa}">${L.casa[v.casa]}</span><span>${L.turno(v.turno)}</span><span>${dataBR(v.data)}</span><b class="${v.aprovada ? "k-sim" : "k-nao"}">${v.aprovada ? L.ap_turno : L.rej_turno}</b></div>
-    <div class="score"><span><b class="num k-sim">${s}</b> ${L.sim}</span><span><b class="num k-nao">${n}</b> ${L.nao}</span><span><b class="num k-abst">${a}</b> ${L.abst}</span></div>
+  return `<div class="box vote com-fonte">${p ? fonte(votoURL(p, v), v.casa === "camara" ? L.f_vot_cam : L.f_vot_sen) : ""}
+    <div class="meta"><span class="casa ${v.casa}">${L.casa[v.casa]}</span><span>${L.turno(v.turno)}</span><span>${dataBR(v.data)}${v.hora ? `, ${v.hora}` : ""}</span><b class="${v.aprovada ? "k-sim" : "k-nao"}">${v.aprovada ? L.ap_turno : L.rej_turno}</b></div>
+    <div class="score"><span><b class="num k-sim">${s}</b> ${L.sim}</span><span><b class="num k-nao">${n}</b> ${L.nao}</span><span><b class="num k-abst">${a}</b> ${L.abst}</span>${v.votos?.some(x => x[3] === "obstrucao") ? `<span><b class="num k-abst">${v.votos.filter(x => x[3] === "obstrucao").length}</b> ${L.obstr}</span>` : ""}</div>
     <div>
       <div class="q-label" aria-hidden="true"><span style="left:${qpos}%">${L.minimo(v.necessarios)}</span></div>
       <div class="bar" role="img" aria-label="${L.vot_aria(s, `${t} ${quem}`, v.necessarios)}">
@@ -1040,6 +1068,7 @@ function votacaoHTML(v, idx) {
       </div>
       <div class="meta" style="justify-content:space-between"><span class="num">0</span><span>${t} ${quem}</span></div>
     </div>
+    ${v.video ? `<p class="small"><a href="${esc(v.video)}" target="_blank" rel="noopener">▶ ${L.video(v.hora)}</a></p>` : ""}
     ${detalhes}
   </div>`;
 }
@@ -1062,7 +1091,7 @@ function quemHTML(p) {
   if (!aut.length && !rel.length) return "";
   const principais = aut.filter(a => a[2]), co = aut.filter(a => !a[2]);
   return `<section aria-labelledby="h-quem"><h2 id="h-quem">${L.quem_h}</h2>
-    <div class="box">
+    <div class="box com-fonte">${fonte(fichaURL(p), L.f_ficha)}
       ${principais.length ? `<p class="label">${L.quem_propos}</p><div class="people">${principais.map(a => pessoaLink(a[0], a[1], L.casa[a[1]])).join("")}</div>` : `<p class="muted small">${esc(L.autor(p.autor))}</p>`}
       ${rel.length ? `<p class="label">${L.relatores}</p><div class="people">${rel.map(r => pessoaLink(r[0], r[1], r[2] ? `${L.colegiado[r[2]] || r[2]} · ${L.casa[r[1]]}` : L.casa[r[1]])).join("")}</div>` : ""}
       ${co.length ? `<details><summary>${L.assinaram(co.length)}</summary><div class="people" style="margin-top:10px">${co.map(a => pessoaLink(a[0], a[1])).join("")}</div></details>` : ""}
@@ -1092,6 +1121,9 @@ function textoMudouHTML(p) {
   const m = p.simples.mudanca;
   if (b.versao === a.id && m && m.descricao) return `<div class="mudou${m.objetivoMudou ? " grande" : ""}"><p class="small">${L.mudou_desc(esc(tipoVersao(a.tipo)), dataBR(a.data))}</p><p lang="pt-BR">${esc(m.descricao)}</p>${m.objetivoMudou ? `<b>${L.objetivo_mudou}</b>` : ""}${links}</div>`;
   if (b.versao === a.id) return `<p class="small muted">${L.mudou_ok(esc(tipoVersao(a.tipo)), dataBR(a.data))}</p>`;
+  // parecer que aprovou o texto sem mudanças (o robô lê o voto): o resumo continua valendo
+  if (a.mesmoTexto && (b.versao && b.versao !== "original" || p.casaOrigem === "senado"))
+    return `<p class="small muted">${L.parecer_igual(esc(tipoVersao(a.tipo)), dataBR(a.data))}</p>`;
   const parecer = /^Parecer/.test(a.tipo);   // parecer traz o relatório inteiro: não dá para medir o tamanho da mudança
   // versao "outra:<tipo> <data>": o resumo foi conferido com uma versão intermediária (ex.: redação final da Câmara)
   const outra = /^outra:(.+?)\s*(\d{4}-\d\d-\d\d)?$/.exec(b.versao || "");
@@ -1108,13 +1140,13 @@ function renderPEC(id) {
   <div class="pec-head">
     <div class="meta"><span class="num">${esc(p.sigla)}</span>${p.siglaSenado ? `<span class="num">${L.no_senado(esc(p.siglaSenado))}</span>` : ""}${apelidoTag(p)}${principioTag(p)}${pill(p)}</div>
     <h1${s ? "" : ' class="long"'}>${esc(titulo(p))}</h1>
-    ${s ? `<div class="box tres">
+    ${s ? `<div class="box tres com-fonte">${fonte(textoURL(p), L.f_texto)}
       <div><b>${L.o_que_muda}</b><p>${esc(s.oQueMuda)}</p></div>
       <div><b>${L.quem_afetado}</b><p>${esc(s.quemAfeta)}</p></div>
       <div><b>${L.por_que}</b><p>${esc(s.porQueImporta)}</p></div>
     </div>` : ""}
     ${p.simples?.tipo === "principio" ? `<p class="principio-nota"><b>${L.principio_tag}:</b> ${L.principio_exp}</p>` : ""}
-    <div class="oficial"><span class="label">${L.texto_oficial}${L.oficial_pt}</span><p lang="pt-BR">${esc(p.ementa)}</p></div>
+    <div class="oficial com-fonte">${fonte(fichaURL(p), L.f_ficha)}<span class="label">${L.texto_oficial}${L.oficial_pt}</span><p lang="pt-BR">${esc(p.ementa)}</p>${s && s.base?.versao && s.base.versao !== "original" ? `<p class="small muted">${L.ementa_versao}</p>` : ""}</div>
     ${seloHTML(p)}
     ${textoMudouHTML(p)}
     <p class="muted small">${L.apresentada(dataBR(p.apresentacao), esc(p.autor), L.naCasa[p.casaOrigem])}${s ? L.resumo_nota : ""}</p>
@@ -1122,24 +1154,24 @@ function renderPEC(id) {
   </div>
 
   <section aria-labelledby="h-agora"><h2 id="h-agora">${L.agora_h}</h2>
-    <div class="box">
+    <div class="box com-fonte">${fonte(fichaURL(p), L.f_ficha)}
       <p><b>${esc(agora(p))}</b></p>
       ${principal ? `<p>${L.junto(`<a href="#pec-${principal.id}">${esc(principal.sigla)}${S(principal)?.apelido ? ` (${esc(S(principal).apelido)})` : ""}</a>`)}</p>` : ""}
       <p class="muted small">${L.sit_oficial(esc(p.situacao), dataBR(p.ultimaMovimentacao), haQuanto(p.ultimaMovimentacao))}</p>
     </div>
   </section>
 
-  <section aria-labelledby="h-cam"><h2 id="h-cam">${L.caminho_h}</h2><div class="box">${caminho(p)}</div></section>
+  <section aria-labelledby="h-cam"><h2 id="h-cam">${L.caminho_h}</h2><div class="box com-fonte">${fonte(fichaURL(p), L.f_ficha)}${caminho(p)}</div></section>
 
   <section aria-labelledby="h-vot"><h2 id="h-vot">${L.votacoes_h}</h2>
-    ${p.votacoes.length ? p.votacoes.slice().reverse().map(votacaoHTML).join("") : `<div class="empty">${L.sem_vot}</div>`}
+    ${p.votacoes.length ? p.votacoes.slice().reverse().map((v, i) => votacaoHTML(v, i, p)).join("") : `<div class="empty">${L.sem_vot}</div>`}
   </section>
 
   ${quemHTML(p)}
 
   ${p.movimentacoes.length ? `<section aria-labelledby="h-mov"><h2 id="h-mov">${L.mov_h}</h2>
     ${L.mov_nota ? `<p class="small muted">${L.mov_nota}</p>` : ""}
-    <ul class="timeline" lang="pt-BR">${p.movimentacoes.map(m => `<li><span class="label">${dataBR(m.data)}${m.orgao ? " · " + esc(m.orgao) : ""}</span><span>${esc(m.texto)}</span></li>`).join("")}</ul>
+    <div class="com-fonte">${fonte(fichaURL(p), L.f_ficha)}<ul class="timeline" lang="pt-BR">${p.movimentacoes.map(m => `<li><span class="label">${dataBR(m.data)}${m.orgao ? " · " + esc(m.orgao) : ""}</span><span>${esc(m.texto)}</span></li>`).join("")}</ul></div>
   </section>` : ""}
 
   <section aria-labelledby="h-of"><h2 id="h-of">${L.fontes_h}</h2>

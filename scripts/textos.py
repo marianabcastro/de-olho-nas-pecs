@@ -122,6 +122,22 @@ def dispositivos(texto):
     return re.sub(r"[^0-9a-zà-ú ]", " ", t.lower()).split()
 
 
+def parecer_sem_mudanca(texto):
+    """True se o voto do parecer aprova a PEC sem mudar o texto: "nos termos em que aprovada pela Câmara",
+    "pela sua aprovação." ou rejeitando todas as emendas. Olha só o voto (do título VOTO até "Sala da...")."""
+    i = max(texto.rfind("VOTO"), texto.rfind("Voto"))
+    voto = texto[i:i + 2500] if i >= 0 else ""
+    voto = re.split(r"Sala d[ao]s? (Comiss|Sess)", voto)[0]
+    v = re.sub(r"\s+", " ", voto)
+    if not v or re.search(r"VOTO EM SEPARADO|rejeição da Proposta|contrári[oa] à Proposta", v):
+        return False
+    # qualquer emenda aprovada, acolhida ou substitutivo = texto mudou
+    if re.search(r"na forma d|substitutiv|com (a|as|uma) (seguintes? )?(emenda|ajuste)|acolhimento|acatamento|"
+                 r"aprova\w* (parcial )?(da|das|de) [Ee]mendas?|e (da|das) [Ee]mendas?|ajuste redacional|emendas? de redação", v):
+        return False
+    return bool(re.search(r"nos termos em que (foi )?aprovada pela Câmara|aprova\w*[^.;]{0,140}(Proposta de Emenda à Constituição|PEC)[^.;]{0,40}\.|pela sua aprova\w*\.", v))
+
+
 def similaridade(a, b):
     """0 a 1: quão parecidos são os dispositivos de dois textos."""
     da, db = dispositivos(a), dispositivos(b)

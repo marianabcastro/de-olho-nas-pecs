@@ -142,6 +142,38 @@ def camara_ids(desde=INICIO_LEGISLATURA):
     return list(ids)
 
 
+_VIDEOS = {}   # evento da Câmara -> link do vídeo da sessão (uma consulta por sessão)
+
+
+def video_da_votacao(id_votacao):
+    """Link do vídeo da sessão (YouTube) e horário em que a votação foi registrada, pela API da Câmara."""
+    det = (get(f"{CAMARA}/votacoes/{id_votacao}") or {}).get("dados") or {}
+    ev = det.get("idEvento")
+    if ev and ev not in _VIDEOS:
+        _VIDEOS[ev] = ((get(f"{CAMARA}/eventos/{ev}") or {}).get("dados") or {}).get("urlRegistro") or ""
+    hora = (det.get("dataHoraRegistro") or "")[11:16]
+    return {"video": _VIDEOS.get(ev) or "", "hora": hora}
+
+
+def completar_videos(registros):
+    """Acrescenta vídeo e horário às votações da Câmara que ainda não têm (inclui o cache antigo).
+    Votações antigas, sem o id da votação, são procuradas uma vez pela data e pela descrição."""
+    for p in registros.values():
+        if p.get("casa") != "camara" or not p.get("votacoes"):
+            continue
+        faltam = [v for v in p["votacoes"] if v.get("casa") == "camara" and "video" not in v]
+        if not faltam:
+            continue
+        if any("idVotacao" not in v for v in faltam):
+            lista = (get(f"{CAMARA}/proposicoes/{p['id'][1:]}/votacoes") or {}).get("dados", [])
+            for v in faltam:
+                if "idVotacao" not in v:
+                    achou = next((x for x in lista if x.get("data") == v["data"] and x.get("descricao") == v["descricao"]), None)
+                    v["idVotacao"] = achou["id"] if achou else ""
+        for v in faltam:
+            v.update(video_da_votacao(v["idVotacao"]) if v["idVotacao"] else {"video": "", "hora": ""})
+
+
 def camara_votacoes(pid):
     """Votações de plenário em 1º/2º turno da própria PEC, com o voto de cada deputado."""
     r = get(f"{CAMARA}/proposicoes/{pid}/votacoes") or {"dados": []}
@@ -171,6 +203,7 @@ def camara_votacoes(pid):
             "placar": placar,
             "necessarios": QUORUM["camara"],
             "votos": votos,
+            "idVotacao": v["id"],
         })
     # mantém só a votação principal de cada turno (a com mais votos registrados)
     melhor = {}
@@ -238,10 +271,13 @@ def camara_pec(pid):
     # [nome, casa, é autor principal?]
     lista_autores = [[a["nome"], "senado" if "senador" in (a.get("tipo") or "").lower() else "camara", 1 if (a.get("proponente") or i == 0) else 0]
                      for i, a in enumerate(autores) if a.get("nome")]
+    # relatores: só quando há designação de fato. O campo uriUltimoRelator repete o relator anterior
+    # nas etapas seguintes (ex.: o relator da CCJ aparecia como se fosse da comissão especial).
     relatores_ids = []
     for t in tram:
         u = t.get("uriUltimoRelator")
-        if u and (u, t.get("siglaOrgao")) not in relatores_ids:
+        desc = f"{t.get('descricaoTramitacao') or ''} {t.get('despacho') or ''}"
+        if u and re.search(r"Designa[çc][ãa]o de Relator|Designad[oa] Relator", desc) and (u, t.get("siglaOrgao")) not in relatores_ids:
             relatores_ids.append((u, t.get("siglaOrgao") or ""))
 
     return {
@@ -564,6 +600,9 @@ def main():
         det = det or {}
         sen[sid]["origemCamara"] = det.get("identificacaoProcessoInicial") if det.get("siglaCasaIniciadora") == "CD" else None
 
+    # vídeo da sessão de cada votação da Câmara (só as que ainda não têm; uma vez por votação)
+    completar_videos(cam)
+
     # ---- grava o cache (antes de juntar, que reaproveita os mesmos objetos)
     for nome, dados in (("camara", cam), ("senado", sen), ("relatores", nomes)):
         (CACHE / f"{nome}.json").write_text(json.dumps(dados, ensure_ascii=False, separators=(",", ":")))
@@ -574,6 +613,7 @@ def main():
     pecs.sort(key=lambda p: p["ultimaMovimentacao"], reverse=True)
     resumos = ler_json(RAIZ / "data" / "resumos.json", {})
     comparados = ler_json(CACHE / "textos.json", {})     # {versão do texto: semelhança com o original}
+    pareceres = ler_json(CACHE / "pareceres.json", {})   # {parecer: aprovou o texto sem mudanças?}
     sem_resumo, a_revisar = 0, []
     for p in pecs:
         if p["id"] in resumos:
@@ -588,10 +628,18 @@ def main():
             comparados[atual["id"]] = textos.similaridade(textos.baixar_texto(orig), textos.baixar_texto(atual["url"])) if orig else None
             print(f"  versão nova do texto: {p['sigla']} ({atual['tipo']}, {atual['data']}) semelhança={comparados[atual['id']]}")
         atual["semelhanca"] = comparados[atual["id"]]
+        if atual["tipo"].startswith("Parecer"):
+            if atual["id"] not in pareceres:      # só baixa uma vez por parecer
+                pareceres[atual["id"]] = textos.parecer_sem_mudanca(textos.baixar_texto(atual["url"]))
+            if pareceres[atual["id"]]:
+                atual["mesmoTexto"] = True
         base = (p.get("simples") or {}).get("base") or {}
-        if p.get("simples") and base.get("versao") != atual["id"]:
+        # parecer que manteve o texto: o resumo feito de uma versão posterior à original continua valendo
+        sem_mudanca = atual.get("mesmoTexto") and (base.get("versao") not in (None, "original") or p.get("casaOrigem") == "senado")
+        if p.get("simples") and base.get("versao") != atual["id"] and not sem_mudanca:
             a_revisar.append({"id": p["id"], "sigla": p["sigla"], "titulo": p["simples"].get("titulo"), "versao": atual["tipo"], "data": atual["data"], "url": atual["url"], "semelhanca": atual["semelhanca"]})
     (CACHE / "textos.json").write_text(json.dumps(comparados))
+    (CACHE / "pareceres.json").write_text(json.dumps(pareceres))
     a_revisar.sort(key=lambda x: x["data"], reverse=True)
     (RAIZ / "data" / "resumos_a_revisar.json").write_text(json.dumps(a_revisar, ensure_ascii=False, indent=1))
 
