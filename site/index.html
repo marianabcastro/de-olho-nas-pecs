@@ -197,7 +197,12 @@ footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line);
 .lang { display: inline-flex; border: 1.5px solid var(--line); border-radius: 999px; padding: 2px; }
 .lang button { font: inherit; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em; border: 0; background: transparent; color: var(--muted); padding: 4px 9px; border-radius: 999px; cursor: pointer; }
 .lang button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
-@media (max-width: 640px) { .top .lang { order: 1; } .top .nav { order: 2; } }
+@media (max-width: 640px) {
+  .top .lang { order: 1; } .top .nav { order: 2; }
+  /* no celular o menu ocupa duas linhas: fixo no topo, tomaria ~1/6 da tela; aqui ele rola junto com a página */
+  .top { position: static; }
+  .lang button { min-height: 36px; min-width: 40px; padding: 4px 10px; }   /* alvo de toque maior */
+}
 .selo { font-size: 0.85rem; color: var(--muted); padding-left: 12px; border-left: 3px solid var(--line); }
 .selo.texto { border-left-color: var(--verde); } .selo.pessoa { border-left-color: var(--verde); color: var(--verde); }
 .selo a { white-space: nowrap; }
