@@ -344,6 +344,7 @@ pt: {
   d_oi: "Oi! O que te interessa?", d_ex: 'Pode escrever do seu jeito. Por exemplo: "sou professora e quero saber da minha aposentadoria", "preço da gasolina", "praias" ou o nome de um deputado ou senador.',
   d_achei: (w, n, pr) => `Procurei por ${w} e encontrei <b>${n} ${n === 1 ? "PEC" : "PECs"}</b>${pr ? `, ${pr} pronta${pr > 1 ? "s" : ""} para votar` : ""}. As que mais combinam com o que você escreveu e estão mais perto de uma decisão aparecem primeiro:`,
   d_sem: w => `Não encontrei nenhuma PEC com: ${w}.`, d_lgbt: "Há poucas PECs sobre direitos LGBTQIA+. Boa parte desses direitos no Brasil vem de decisões do STF e de leis comuns, não de emendas à Constituição.",
+  d_parcial: (tudo, um) => `Nenhuma PEC fala de ${tudo} ao mesmo tempo. Mostrei as que falam de <b>${um}</b>, o termo mais específico que você usou.`,
   d_nada: 'Não encontrei PECs com essas palavras. Tente escrever de outro jeito, com palavras do dia a dia, como "escola", "aposentadoria" ou "imposto".', d_talvez: l => `Talvez você esteja procurando: ${l}.`,
   d_parl_nao: "Não encontramos esse parlamentar nas PECs que acompanhamos.", mostrar_todas: n => `Mostrar todas as ${n}`,
   cargo: { camara: "Deputado(a) federal", senado: "Senador(a)" },
@@ -466,6 +467,7 @@ en: {
   d_oi: "Hi! What do you care about?", d_ex: 'Write it your own way. For example: "I\'m a teacher and want to know about my pension", "gas prices", "beaches", or the name of a deputy or senator.',
   d_achei: (w, n, pr) => `I searched for ${w} and found <b>${n} ${n === 1 ? "PEC" : "PECs"}</b>${pr ? `, ${pr} ready for a vote` : ""}. The best matches that are closest to a decision come first:`,
   d_sem: w => `I didn't find any PEC with: ${w}.`, d_lgbt: "Few PECs deal with LGBTQIA+ rights. Most of these rights in Brazil come from Supreme Court rulings and ordinary laws, not constitutional amendments.",
+  d_parcial: (all, one) => `No PEC covers ${all} together. I'm showing the ones about <b>${one}</b>, the most specific term you used.`,
   d_nada: 'I couldn\'t find PECs with those words. Try different, everyday words like "school", "pension" or "tax".', d_talvez: l => `Maybe you're looking for: ${l}.`,
   d_parl_nao: "We couldn't find this member of Congress in the PECs we track.", mostrar_todas: n => `Show all ${n}`,
   cargo: { camara: "Federal deputy", senado: "Senator" },
@@ -588,6 +590,7 @@ es: {
   d_oi: "¡Hola! ¿Qué te interesa?", d_ex: 'Puedes escribirlo a tu manera. Por ejemplo: "soy profesora y quiero saber de mi jubilación", "precio de la gasolina", "playas" o el nombre de un diputado o senador.',
   d_achei: (w, n, pr) => `Busqué ${w} y encontré <b>${n} ${n === 1 ? "PEC" : "PECs"}</b>${pr ? `, ${pr} lista${pr > 1 ? "s" : ""} para votar` : ""}. Primero aparecen las que más coinciden y están más cerca de una decisión:`,
   d_sem: w => `No encontré ninguna PEC con: ${w}.`, d_lgbt: "Hay pocas PECs sobre derechos LGBTQIA+. En Brasil, buena parte de esos derechos viene de decisiones del Supremo y de leyes comunes, no de enmiendas constitucionales.",
+  d_parcial: (todo, uno) => `Ninguna PEC trata de ${todo} a la vez. Muestro las que hablan de <b>${uno}</b>, el término más específico que usaste.`,
   d_nada: 'No encontré PECs con esas palabras. Intenta con otras palabras cotidianas, como "escuela", "jubilación" o "impuesto".', d_talvez: l => `Quizás buscas a: ${l}.`,
   d_parl_nao: "No encontramos a este parlamentario en las PECs que seguimos.", mostrar_todas: n => `Mostrar las ${n}`,
   cargo: { camara: "Diputado(a) federal", senado: "Senador(a)" },
@@ -1192,49 +1195,89 @@ function renderPEC(id) {
 let uid = 0, PENDENTE = "";
 const PARADAS = new Set(("a o e as os um uma uns umas de da do das dos em no na nos nas por pelo pela pelos pelas para pra pro com sem sobre que qual quais quem como onde quando porque se ja mais menos muito muita muitos muitas meu minha meus minhas seu sua seus suas eu voce voces ele ela eles elas me te lhe isso isto esse essa este esta aquilo tudo todo toda todos todas algo alguma algum coisa coisas quero queria gostaria gosto sei saber ver mostrar mostre fale falar diga dizer conta contar tenho tem ter estou estao sou ser foi sao interesso interessa interesse interessado interessada importa importante preocupo preocupa preocupada preocupado acompanhar acompanho tema temas assunto assuntos area areas pec pecs proposta propostas emenda emendas constituicao lei leis brasil pais governo congresso oi ola bom boa dia tarde noite obrigado obrigada favor entao tambem mas nem envolvido envolvida esteve fez faz fazendo votou propos sabe existe existem alguma algo cada").split(" "));
 const raiz = w => w.length > 5 ? w.slice(0, Math.max(5, w.length - 3)) : w;
-function buscarPECs(texto, ignorar = new Set()) {
-  const t = " " + norm(texto).replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ") + " ";
+// palavras do dia a dia que não aparecem nos textos oficiais: cada uma procura só os termos que querem dizer a mesma coisa
+// (antes elas puxavam o tema inteiro, e "gasolina" trazia qualquer PEC com "preço")
+const CONCEITOS = [
+  [["gasolina", "combustivel", "combustiveis", "diesel", "etanol"], /combusti|gasolin|diesel|etanol|derivados de petroleo|\bglp\b|\bcide\b/],
+  [["gas de cozinha", "botijao", "botijoes"], /gas de cozinha|botija|\bglp\b|gas liquefeito/],
+  [["conta de luz", "energia eletrica", "tarifa de energia"], /energia eletrica|conta de luz|tarifa de energia|tarifa social/],
+  [["cesta basica", "comida", "alimentos", "alimentacao"], /cesta basica|aliment|\bfome/],
+  [["juros do cartao", "cartao de credito", "juros"], /\bjuros|cartao de credito|credito rotativo/],
+  [["remedio", "remedios", "medicamento", "medicamentos"], /medicament|remedio|farmac/],
+];
+function matchersDe(t, ignorar) {
   // expressões de várias palavras ("meio ambiente", "planos de saude") viram um termo só
-  const frases = [...new Set(TEMAS.flatMap(x => x[2]).map(x => x.trim()).filter(x => x.includes(" ") && t.includes(" " + x + " ")))];
+  const multi = [...TEMAS.flatMap(x => x[2]), ...CONCEITOS.flatMap(c => c[0])].map(x => x.trim());
+  const frases = [...new Set(multi.filter(x => x.includes(" ") && t.includes(" " + x + " ")))];
   const usadas = new Set(frases.flatMap(f => f.split(" ")));
   const palavras = [...new Set(t.trim().split(" ").filter(w => w.length >= 3 && !PARADAS.has(w) && !ignorar.has(w) && !usadas.has(w)))];
   const matchers = [
     ...frases.map(f => ({ rotulo: f, direto: new RegExp("\\b" + f.split(" ").map(raiz).join("\\w*\\s+(?:\\w+\\s+)?")), sin: [] })),
     ...palavras.map(w => ({ rotulo: w, direto: new RegExp("\\b" + raiz(w)), sin: [] })),
   ];
-  // sinônimos internos: "praia" também procura "terrenos de marinha", "lgbt" procura "orientação sexual" etc.
+  // sinônimos precisos primeiro; um termo com sinônimo preciso não ganha o tema inteiro
+  for (const [termos, rx] of CONCEITOS) for (const m of matchers) if (termos.includes(m.rotulo)) { m.sin = [rx]; m.preciso = true; }
+  // sinônimos de tema: "praia" também procura "terrenos de marinha", "lgbt" procura "orientação sexual" etc.
   for (const [, , sins, rx] of TEMAS) {
     for (const s of sins.filter(x => t.includes(" " + x.trim()) && !(usadas.has(x.trim()) && !frases.includes(x.trim())))) {
       const alvo = matchers.find(m => m.rotulo === s.trim() || s.trim().split(" ").includes(m.rotulo) || m.rotulo.startsWith(s.trim()));
-      if (alvo) { if (!alvo.sin.includes(rx)) alvo.sin.push(rx); }
+      if (alvo) { if (!alvo.preciso && !alvo.sin.includes(rx)) alvo.sin.push(rx); }
       else matchers.push({ rotulo: s.trim(), direto: null, sin: [rx] });
     }
   }
-  const pont = new Map(), semResultado = [];
-  for (const m of matchers) {
-    let n = 0;
-    for (const p of DB.pecs) {
-      const tx = textoPEC(p), dir = m.direto && m.direto.test(tx), sin = !dir && m.sin.some(rx => rx.test(tx));
-      if (!dir && !sin) continue;
-      n++;
-      const a = pont.get(p.id) || { k: 0, d: 0 };
-      a.k++; if (dir) a.d++;
-      pont.set(p.id, a);
+  return matchers;
+}
+function buscarPECs(texto, ignorar = new Set()) {
+  const limpo = s => " " + s.replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ") + " ";
+  const t = limpo(norm(texto)), N = DB.pecs.length;
+  // cada parte separada por vírgula, "e" ou "ou" é um interesse diferente ("saúde e educação");
+  // dentro de uma parte, as palavras descrevem uma coisa só ("preço da gasolina")
+  const partes = norm(texto).split(/[,;\/]| e | ou | tambem /).map(limpo).filter(x => x.trim());
+  const pont = new Map(), achou = [], semResultado = [], parcial = [];
+  for (const parte of partes) {
+    const ms = matchersDe(parte, ignorar).filter(m => !achou.includes(m.rotulo));
+    const comAchado = [];
+    for (const m of ms) {
+      m.hits = new Map();
+      for (const p of DB.pecs) {
+        const tx = textoPEC(p);
+        if (m.direto && m.direto.test(tx)) m.hits.set(p.id, 1);
+        else if (m.sin.some(rx => rx.test(tx))) m.hits.set(p.id, 0);
+      }
+      if (m.hits.size) { comAchado.push(m); achou.push(m.rotulo); } else semResultado.push(m.rotulo);
     }
-    if (!n) semResultado.push(m.rotulo);
+    if (!comAchado.length) continue;
+    // o termo mais raro é o mais específico: "gasolina" diz mais do que "preço"
+    const maisRaro = comAchado.reduce((a, b) => b.hits.size < a.hits.size ? b : a);
+    const local = new Map();
+    for (const m of comAchado) for (const [id, dir] of m.hits) {
+      const a = local.get(id) || { k: 0, d: 0 };
+      a.k++; a.d += dir; local.set(id, a);
+    }
+    let completas = 0;
+    for (const [id, a] of local) {
+      const todas = a.k === comAchado.length;
+      // só entra quem fala de tudo o que a pessoa escreveu ou, pelo menos, do termo mais específico
+      if (!todas && !maisRaro.hits.has(id)) continue;
+      if (todas) completas++;
+      const g = pont.get(id) || { k: 0, d: 0, c: 0 };
+      g.c += todas && comAchado.length > 1 ? 1 : 0; g.k += a.k; g.d += a.d;
+      pont.set(id, g);
+    }
+    if (comAchado.length > 1 && !completas) parcial.push([comAchado.map(m => m.rotulo), maisRaro.rotulo]);
   }
-  const achou = matchers.map(m => m.rotulo).filter(r => !semResultado.includes(r));
   // quem digitou o apelido ("reforma tributaria", "pec das praias") vê essa PEC primeiro
   for (const p of DB.pecs) {
     const ap = p.simples?.apelido && norm(p.simples.apelido).replace(/[^a-z0-9 ]/g, " ").replace(/\bpec (d[aoe]s?|antidrogas)?\s*/, "").trim();
-    if (ap && ap.length > 4 && t.includes(" " + ap)) { const a = pont.get(p.id) || { k: 0, d: 0 }; a.ap = 1; pont.set(p.id, a); }
+    if (ap && ap.length > 4 && t.includes(" " + ap)) { const a = pont.get(p.id) || { k: 0, d: 0, c: 0 }; a.ap = 1; pont.set(p.id, a); }
   }
   let lista = DB.pecs.filter(p => pont.has(p.id));
   const vivas = lista.filter(p => !["anexada", "arquivada"].includes(fase(p)));
   if (vivas.length) lista = vivas;
-  // ordem: apelido digitado > casa com mais palavras > tem a palavra exata (não só sinônimo) > mais perto de uma decisão > mais recente
-  lista.sort((x, y) => (pont.get(y.id).ap || 0) - (pont.get(x.id).ap || 0) || pont.get(y.id).k - pont.get(x.id).k || pont.get(y.id).d - pont.get(x.id).d || PRIOR[fase(x)] - PRIOR[fase(y)] || y.ultimaMovimentacao.localeCompare(x.ultimaMovimentacao));
-  return { achou, semResultado, lista, lgbt: /lgbt|gay|lesbica|trans |orientacao sexual|homoafetiv/.test(t) };
+  // ordem: apelido digitado > fala de tudo o que foi escrito > casa com mais palavras > tem a palavra exata > mais perto de uma decisão > mais recente
+  const g = id => pont.get(id);
+  lista.sort((x, y) => (g(y.id).ap || 0) - (g(x.id).ap || 0) || g(y.id).c - g(x.id).c || g(y.id).k - g(x.id).k || g(y.id).d - g(x.id).d || PRIOR[fase(x)] - PRIOR[fase(y)] || y.ultimaMovimentacao.localeCompare(x.ultimaMovimentacao));
+  return { achou, semResultado, parcial, lista, lgbt: /lgbt|gay|lesbica|trans |orientacao sexual|homoafetiv/.test(t) };
 }
 
 function renderDescubra(inicial = {}) {
@@ -1300,6 +1343,7 @@ function responder(texto, forcado) {
       const prontas = r.lista.filter(p => fase(p) === "votacao").length;
       bot(`<p>${L.d_achei(juntar(r.achou.map(w => `<b>${esc(w)}</b>`)), r.lista.length, prontas)}</p>
         ${listaPECs(r.lista)}
+        ${r.parcial.map(([tudo, um]) => `<p class="small muted">${L.d_parcial(juntar(tudo.map(esc)), esc(um))}</p>`).join("")}
         ${r.semResultado.length ? `<p class="small muted">${L.d_sem(juntar(r.semResultado.map(esc)))}</p>` : ""}
         ${r.lgbt ? `<p class="small muted">${L.d_lgbt}</p>` : ""}`);
     } else if (!pessoas.length) {
