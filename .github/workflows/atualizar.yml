@@ -1,0 +1,107 @@
+name: Atualizar dados e publicar
+
+# Roda poucas vezes e só publica quando algum dado mudou.
+on:
+  schedule:
+    - cron: "5 12-23 * * 1-5"   # seg–sex, de hora em hora, 9h05–20h05 (Brasília)
+    - cron: "5 0-1 * * 2-6"     # seg–sex, 21h05 e 22h05 (Brasília)
+    - cron: "5 15 * * 0,6"      # sábado e domingo, uma vez, 12h05
+    - cron: "30 7 * * 0"        # domingo 4h30: rodada completa, para corrigir qualquer coisa que tenha escapado
+  push:
+    branches: [main]
+    paths: ["site/**", "wrangler.jsonc"]   # mudança no próprio site: só republica
+  workflow_dispatch:
+    inputs:
+      completo:
+        description: "Baixar tudo de novo (rodada completa)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: atualizar
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    outputs:
+      mudou: ${{ steps.salvar.outputs.mudou }}
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # opcional: sem a chave, só não gera resumos novos
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt && sudo apt-get install -y -qq antiword >/dev/null
+
+      - name: Recupera o cache do robô (o que já foi baixado antes)
+        uses: actions/cache/restore@v4
+        with:
+          path: data/cache
+          key: robo-${{ github.run_id }}
+          restore-keys: robo-
+
+      - name: Atualiza os dados (incremental; completa aos domingos ou quando pedido)
+        run: |
+          if [ "${{ github.event.schedule }}" = "30 7 * * 0" ] || [ "${{ inputs.completo }}" = "true" ]; then
+            python scripts/atualizar_dados.py --completo
+          else
+            python scripts/atualizar_dados.py
+          fi
+
+      - name: Resumos de PECs novas e de textos que mudaram
+        if: env.ANTHROPIC_API_KEY != ''
+        run: python scripts/gerar_resumos.py
+
+      - name: Guarda o cache do robô
+        uses: actions/cache/save@v4
+        with:
+          path: data/cache
+          key: robo-${{ github.run_id }}
+
+      - name: Salva no repositório só se algo mudou
+        id: salvar
+        run: |
+          git add site/data data/pecs.json data/resumos.json data/resumos_a_revisar.json
+          if git diff --cached --quiet; then
+            echo "Sem mudanças."
+            echo "mudou=false" >> "$GITHUB_OUTPUT"
+          else
+            git -c user.name="robo-de-olho" -c user.email="robo@users.noreply.github.com" commit -m "Atualiza dados das PECs"
+            git push
+            echo "mudou=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Mantém uma issue com os resumos que precisam de revisão
+        if: steps.salvar.outputs.mudou == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/issue_revisao.py
+
+  publicar:
+    needs: atualizar
+    if: always() && (github.event_name == 'push' || github.event_name == 'workflow_dispatch' || needs.atualizar.outputs.mudou == 'true')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Monta o site
+        run: |
+          mkdir -p _site
+          { echo '<!doctype html>'; echo '<html lang="pt-BR">'; cat site/index.html; } > _site/index.html
+          cp -r site/data site/icones site/sw.js site/manifest.webmanifest site/_headers _site/
+          [ -d site/audio ] && cp -r site/audio _site/ || true
+      - name: Publica no Cloudflare (Workers com arquivos estáticos)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@4 deploy

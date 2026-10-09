@@ -1,0 +1,11 @@
+# Cabeçalhos do Cloudflare.
+# Dados e service worker: o navegador sempre pergunta se mudou (e recebe "304, não mudou" quando for o caso).
+/data/*
+  Cache-Control: no-cache
+/sw.js
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+# Ícones quase nunca mudam: podem ficar guardados por uma semana.
+/icones/*
+  Cache-Control: public, max-age=604800

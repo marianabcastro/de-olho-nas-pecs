@@ -1,0 +1,5 @@
+# cache do robô: fica no cache do GitHub Actions, não no repositório (repositório menor, menos cópias de dados)
+data/cache/
+__pycache__/
+.DS_Store
+_site/

@@ -1,0 +1,9 @@
+// Configuração do Cloudflare: o site é só de arquivos estáticos (sem código rodando no servidor).
+// O GitHub Actions monta a pasta _site e publica com `wrangler deploy` (ver .github/workflows/atualizar.yml).
+{
+  "name": "de-olho-nas-pecs",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./_site"
+  }
+}

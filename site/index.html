@@ -1,0 +1,1372 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>De Olho nas PECs</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="icones/icone.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
+<meta name="description" content="Acompanhe, em linguagem simples, as Propostas de Emenda à Constituição que estão sendo discutidas e votadas no Congresso Nacional.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: uma coluna de leitura (~46rem), fundo branco e texto preto; a cor só aparece para dizer o que aconteceu (verde aprovou, amarelo em andamento, vermelho parou) */
+:root {
+  color-scheme: light;
+  --bg: #ffffff;
+  --ink: #111111;
+  --muted: #5b5f66;
+  --line: #e4e6ea;
+  --soft: #f4f5f7;
+  --verde: #1b7f3b;     --verde-bg: #e7f5ec;
+  --amarelo: #8a6100;   --amarelo-bg: #fff4cf;   --amarelo-forte: #e0a400;
+  --vermelho: #c22f2f;  --vermelho-bg: #fdeaea;
+  --cinza: #5b5f66;     --cinza-bg: #eef0f2;
+  --sim: #1b7f3b; --nao: #c22f2f; --abst: #a7adb5;
+  --camara: #1b7f3b; --senado: #2456a6;
+  --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --f-data: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --r: 12px;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 1.0625rem; line-height: 1.55; margin: 0; }
+.wrap { max-width: 46rem; margin: 0 auto; padding-inline: 16px; padding-block: 0 4rem; }
+h1, h2, h3 { font-family: var(--f-display); line-height: 1.15; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(1.7rem, 5vw, 2.3rem); font-weight: 800; letter-spacing: -0.01em; }
+h1.long { font-size: clamp(1.25rem, 3.6vw, 1.55rem); }
+h2 { font-size: 1.3rem; font-weight: 800; }
+h3 { font-size: 1.05rem; font-weight: 600; }
+p { margin: 0; }
+a { color: inherit; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible { outline: 3px solid var(--senado); outline-offset: 2px; border-radius: 4px; }
+.num { font-family: var(--f-data); font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); }
+.small { font-size: 0.9rem; }
+.label { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; color: var(--muted); }
+
+/* topo */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+.top .wrap { display: flex; align-items: center; gap: 8px 12px; padding-block: 10px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; margin-right: auto; }
+.brand b { font-family: var(--f-display); font-weight: 800; font-size: 1.15rem; letter-spacing: -0.01em; }
+.brand svg { width: 38px; height: 26px; flex: none; }
+.nav { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; }
+.nav a { text-decoration: none; padding: 6px 10px; border-radius: 999px; font-size: 0.95rem; }
+.nav a[aria-current="page"] { background: var(--soft); font-weight: 700; }
+.nav a.cta, .nav a.cta[aria-current="page"] { background: var(--ink); color: var(--bg); font-weight: 700; }
+
+/* blocos */
+.hero { display: grid; gap: 14px; padding-block: 28px 4px; }
+.hero p { max-width: 40rem; font-size: 1.12rem; }
+section { display: grid; gap: 14px; padding-top: 34px; }
+section, .box, .list, .pec-head, .hero, .filters, .vote, .chat, .msg { grid-template-columns: minmax(0, 1fr); }
+.sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.stats { display: flex; flex-wrap: wrap; gap: 8px 22px; padding-top: 4px; }
+.stats div { display: flex; align-items: baseline; gap: 6px; }
+.stats .num { font-size: 1.35rem; }
+.box { background: var(--bg); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: grid; gap: 10px; min-width: 0; }
+.box.soft { background: var(--soft); border-color: var(--soft); }
+.notice { font-size: 0.85rem; color: var(--muted); }
+.btn { display: inline-flex; align-items: center; gap: 8px; font: inherit; font-weight: 700; padding: 10px 16px; border-radius: 999px; border: 1.5px solid var(--ink); background: var(--ink); color: var(--bg); text-decoration: none; cursor: pointer; justify-self: start; }
+.btn.ghost { background: var(--bg); color: var(--ink); }
+.btn.small { padding: 6px 12px; font-size: 0.92rem; }
+
+/* status: verde / amarelo / vermelho / cinza */
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; background: var(--c-bg); color: var(--c); white-space: nowrap; }
+.pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.verde { --c: var(--verde); --c-bg: var(--verde-bg); --c-bar: var(--verde); }
+.amarelo { --c: var(--amarelo); --c-bg: var(--amarelo-bg); --c-bar: var(--amarelo-forte); }
+.vermelho { --c: var(--vermelho); --c-bg: var(--vermelho-bg); --c-bar: var(--vermelho); }
+.cinza { --c: var(--cinza); --c-bg: var(--cinza-bg); --c-bar: #b9bec5; }
+.apelido { display: inline-block; font-size: 0.8rem; font-weight: 700; padding: 2px 9px; border-radius: 6px; background: var(--ink); color: var(--bg); }
+
+/* filtros */
+.filters { display: grid; gap: 10px; }
+.search, .finder input, .chat-form input { width: 100%; font: inherit; padding: 12px 14px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--bg); color: var(--ink); }
+.row { display: flex; gap: 8px; flex-wrap: wrap; }
+select { font: inherit; font-size: 0.95rem; padding: 8px 10px; border: 1.5px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); max-width: 100%; }
+.chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+.chips.wrap { flex-wrap: wrap; overflow: visible; }
+.chip { font: inherit; font-size: 0.92rem; white-space: nowrap; border: 1.5px solid var(--line); background: var(--bg); color: var(--ink); padding: 6px 12px; border-radius: 999px; cursor: pointer; text-decoration: none; }
+.chip:hover { border-color: var(--ink); }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+
+/* cartões */
+.list { display: grid; gap: 10px; }
+.card { display: grid; gap: 8px; background: var(--bg); border: 1px solid var(--line); border-left: 5px solid var(--c-bar, var(--line)); border-radius: var(--r); padding: 14px 16px; text-decoration: none; min-width: 0; }
+.card:hover { border-color: #c9cdd3; border-left-color: var(--c-bar); box-shadow: 0 2px 10px rgba(0,0,0,.05); }
+.card .title { font-weight: 700; font-size: 1.05rem; line-height: 1.35; }
+.card .sub { color: var(--muted); font-size: 0.95rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; font-size: 0.88rem; color: var(--muted); }
+.casa { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; color: var(--ink); }
+.casa::before { content: ""; width: 9px; height: 9px; border-radius: 2px; background: var(--hc, var(--muted)); }
+.casa.camara { --hc: var(--camara); } .casa.senado { --hc: var(--senado); }
+.dots { display: flex; gap: 3px; align-items: center; }
+.dots i { width: 20px; height: 5px; border-radius: 3px; background: var(--line); }
+.dots i.on { background: var(--ink); }
+.dots i.now { background: var(--c-bar, var(--ink)); }
+.more { font: inherit; justify-self: center; padding: 10px 20px; border-radius: 999px; border: 1.5px solid var(--ink); background: var(--bg); color: var(--ink); cursor: pointer; font-weight: 700; }
+.empty { padding: 24px; text-align: center; color: var(--muted); border: 1.5px dashed var(--line); border-radius: var(--r); }
+.feat { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); }
+.mini-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: var(--soft); }
+.mini-bar span, .bar span, .pbar span { display: block; height: 100%; }
+
+.teaser { display: grid; gap: 12px; padding: 18px; border-radius: var(--r); background: var(--soft); }
+.teaser h2 { font-size: 1.2rem; }
+
+/* página da PEC */
+.back { display: inline-block; padding-top: 18px; font-size: 0.95rem; }
+.pec-head { display: grid; gap: 12px; padding-top: 14px; }
+.tres { display: grid; gap: 12px; }
+.tres div { display: grid; gap: 2px; }
+.tres b { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.oficial { border-left: 3px solid var(--line); padding-left: 12px; color: var(--muted); font-size: 0.95rem; display: grid; gap: 2px; }
+.people { display: flex; flex-wrap: wrap; gap: 6px; }
+.person { font-size: 0.92rem; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; }
+.person:hover { border-color: var(--ink); }
+.links { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+.opina { display: grid; gap: 10px; padding: 16px; border-radius: var(--r); background: var(--amarelo-bg); }
+
+.path { list-style: none; margin: 0; padding: 0; display: grid; }
+.path li { display: grid; grid-template-columns: 28px 1fr; gap: 12px; position: relative; padding-bottom: 16px; }
+.path li:last-child { padding-bottom: 0; }
+.path li::before { content: ""; position: absolute; left: 13px; top: 24px; bottom: 0; width: 2px; background: var(--line); }
+.path li:last-child::before { display: none; }
+.path li.done::before { background: var(--verde); }
+.path .mark { width: 28px; height: 28px; border-radius: 50%; border: 2px solid var(--line); background: var(--bg); display: grid; place-items: center; font-family: var(--f-data); font-size: 0.8rem; color: var(--muted); z-index: 1; }
+.path li.done .mark { background: var(--verde); border-color: var(--verde); color: #fff; }
+.path li.now .mark { border-color: var(--amarelo-forte); background: var(--amarelo-bg); color: var(--amarelo); border-width: 3px; }
+.path li.stop .mark { border-color: var(--vermelho); background: var(--vermelho-bg); color: var(--vermelho); }
+.path .step b { display: block; }
+.path li.now .step b { color: var(--amarelo); }
+.path li.stop .step b { color: var(--vermelho); }
+
+.vote { display: grid; gap: 12px; }
+.score { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; }
+.score .num { font-size: 1.5rem; }
+.k-sim { color: var(--sim); } .k-nao { color: var(--nao); } .k-abst { color: var(--muted); }
+.bar { position: relative; height: 18px; border-radius: 5px; background: var(--soft); display: flex; }
+.bar span:first-child { border-radius: 5px 0 0 5px; }
+.bar .q { position: absolute; top: -6px; bottom: -6px; width: 0; border-left: 2.5px solid var(--ink); }
+.q-label { position: relative; height: 1.4em; font-size: 0.82rem; font-weight: 700; }
+.q-label span { position: absolute; white-space: nowrap; transform: translateX(-50%); }
+details { border-top: 1px solid var(--line); padding-top: 10px; min-width: 0; }
+summary { cursor: pointer; font-weight: 700; }
+.tbl-wrap { overflow-x: auto; margin-top: 10px; }
+table { border-collapse: collapse; width: 100%; font-size: 0.93rem; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+td.n, th.n { text-align: right; font-family: var(--f-data); font-variant-numeric: tabular-nums; }
+.pbar { display: flex; height: 8px; width: 90px; border-radius: 3px; overflow: hidden; background: var(--soft); }
+.finder { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+.finder input { flex: 1 1 12rem; min-width: 0; padding: 8px 10px; border-radius: 8px; }
+.timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.timeline li { display: grid; gap: 2px; padding-left: 14px; border-left: 2px solid var(--line); min-width: 0; overflow-wrap: anywhere; }
+
+/* chat */
+.chat { display: grid; gap: 14px; padding-top: 18px; }
+.msg { display: grid; gap: 10px; max-width: 100%; min-width: 0; }
+.msg.bot { padding: 14px 16px; border-radius: 4px var(--r) var(--r) var(--r); background: var(--soft); }
+.msg.user { justify-self: end; max-width: 85%; padding: 10px 14px; border-radius: var(--r) 4px var(--r) var(--r); background: var(--ink); color: var(--bg); }
+.chat-form { position: sticky; bottom: env(safe-area-inset-bottom, 0px); display: flex; gap: 8px; padding-block: 12px; background: var(--bg); border-top: 1px solid var(--line); margin-top: 14px; }
+.chat-form input { flex: 1; min-width: 0; }
+.stat-list { display: grid; gap: 6px; }
+.stat { display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%; font: inherit; text-align: left; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); cursor: pointer; }
+.stat:hover:not([disabled]) { border-color: var(--ink); }
+.stat[disabled] { cursor: default; color: var(--muted); }
+.stat b.num { font-size: 1.15rem; }
+.stat-detail { display: grid; gap: 8px; padding: 6px 4px 8px; font-size: 0.95rem; }
+
+/* como funciona */
+.gloss { display: grid; gap: 12px; margin: 0; }
+.gloss dt { font-weight: 700; }
+.gloss dd { margin: 2px 0 0; color: var(--muted); }
+.flow { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); }
+.flow .box b.num { font-size: 1.6rem; }
+.audio { display: flex; gap: 14px; align-items: center; padding: 14px 16px; border-radius: var(--r); background: var(--soft); flex-wrap: wrap; margin-top: 18px; }
+.audio svg { width: 28px; height: 28px; flex: none; }
+.audio audio { width: 100%; }
+
+footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 0.88rem; color: var(--muted); display: grid; gap: 6px; }
+@media (prefers-reduced-motion: no-preference) { .card, .chip, .stat { transition: border-color .15s, box-shadow .15s; } }
+
+/* seletor de idioma */
+.lang { display: inline-flex; border: 1.5px solid var(--line); border-radius: 999px; padding: 2px; }
+.lang button { font: inherit; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.04em; border: 0; background: transparent; color: var(--muted); padding: 4px 9px; border-radius: 999px; cursor: pointer; }
+.lang button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+@media (max-width: 640px) { .top .lang { order: 1; } .top .nav { order: 2; } }
+.selo { font-size: 0.85rem; color: var(--muted); padding-left: 12px; border-left: 3px solid var(--line); }
+.selo.texto { border-left-color: var(--verde); } .selo.pessoa { border-left-color: var(--verde); color: var(--verde); }
+.selo a { white-space: nowrap; }
+.mudou.grande { border-left-color: var(--vermelho); }
+.mudou { display: grid; gap: 8px; padding: 14px 16px; border-radius: var(--r); background: var(--amarelo-bg); border-left: 5px solid var(--amarelo-forte); }
+.aviso-idioma { margin-top: 18px; padding: 10px 14px; border-radius: var(--r); background: var(--amarelo-bg); font-size: 0.95rem; }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio" aria-label="De Olho nas PECs">
+      <svg viewBox="0 0 38 26" aria-hidden="true">
+        <path d="M2 17 Q8 25 14 17 Z" fill="#1b7f3b"/>
+        <path d="M24 17 Q30 9 36 17 Z" fill="#2456a6"/>
+        <rect x="16.5" y="2" width="2" height="15" fill="#111"/>
+        <rect x="19.5" y="2" width="2" height="15" fill="#111"/>
+        <rect x="1" y="17" width="36" height="2" fill="#111"/>
+      </svg>
+      <b>De Olho nas PECs</b>
+    </a>
+    <nav class="nav" aria-label="Menu">
+      <a href="#inicio" data-nav="inicio">PECs</a>
+      <a href="#como-funciona" data-nav="como-funciona">Como funciona</a>
+      <a href="#descubra" data-nav="descubra" class="cta">Descubra suas PECs</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma">
+      <button type="button" data-lang="pt" lang="pt-BR" title="Português">PT</button>
+      <button type="button" data-lang="en" lang="en" title="English">EN</button>
+      <button type="button" data-lang="es" lang="es" title="Español">ES</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="app" aria-live="polite">
+  <div class="hero"><h1>Carregando as PECs…</h1><p class="muted">Buscando os dados da Câmara e do Senado.</p></div>
+</main>
+
+<script>
+(() => {
+"use strict";
+/* ---------- textos da interface em 3 idiomas ---------- */
+const I18N = {
+pt: {
+  htmlLang: "pt-BR", locale: "pt-BR", e: "e",
+  nav_pecs: "PECs", nav_como: "Como funciona", nav_descubra: "Descubra suas PECs", idioma: "Idioma", so_pt: "",
+  carregando: "Carregando as PECs…", carregando_sub: "Buscando os dados da Câmara e do Senado.",
+  erro_h: "Não foi possível carregar os dados", erro_p: "O arquivo com as PECs não respondeu. Recarregue a página em alguns instantes.",
+  hero_h1: "O que o Congresso quer mudar na Constituição",
+  hero_p: "Uma PEC (Proposta de Emenda à Constituição) muda as regras mais importantes do país. Aqui você acompanha cada uma, em linguagem simples: o que propõe, em que etapa está e como cada parlamentar votou.",
+  st_ativas: "em análise agora", st_prontas: "prontas para votar", st_promulg: "já viraram emenda",
+  teaser_h: "Descubra quais PECs têm a ver com você", teaser_p: "Escreva o que te interessa, ou o nome de um deputado ou senador, e mostramos as propostas que merecem sua atenção.",
+  teaser_ph: "Ex.: aposentadoria de professores", teaser_btn: "Descobrir", teaser_lbl: "O que te interessa",
+  vot_h: "Votadas recentemente", vot_sub: "Placar do último turno de votação",
+  todas_h: "Todas as PECs", buscar: "Buscar", busca_ph: "Ex.: PEC das Praias, aposentadoria, escala 6x1, PEC 45",
+  sit_lbl: "Situação", tema_lbl: "Tema", tema_todos: "Todos os temas", casa_lbl: "Casa", casa_todas: "Câmara e Senado", casa_cam: "Passou pela Câmara", casa_sen: "Passou pelo Senado",
+  ord_lbl: "Ordenar", ord_rec: "Movimentação mais recente", ord_av: "Mais perto de aprovar", ord_novas: "Apresentadas mais recentemente", ord_ant: "Mais antigas",
+  nada_filtro: 'Nenhuma PEC encontrada com esses filtros. Tente outra palavra ou escolha "Todas".',
+  mostrar_mais: n => `Mostrar mais ${n}`, count: n => `${n} ${n === 1 ? "PEC" : "PECs"}`,
+  part_h: "Você também pode opinar", part_p: 'O Senado tem consultas públicas no portal e-Cidadania, onde qualquer pessoa vota "sim" ou "não" em cada proposta. A Câmara tem enquetes parecidas. Em cada PEC deste site há um atalho para dar sua opinião.',
+  part_l1: "Consultas públicas do Senado (e-Cidadania) ↗", part_l2: "Como participar",
+  fases: { todas: "Todas", votacao: "Prontas para votar", andando: "Em análise", aprovada: "Aprovadas em uma Casa", promulgada: "Viraram emenda", parada: "Paradas há +1 ano", anexada: "Anexadas a outra", arquivada: "Arquivadas ou rejeitadas" },
+  pill: { votacao: "Pronta para votar", andando: "Em análise", promulgada: "Virou emenda", parada: "Parada há +1 ano", anexada: "Anexada a outra", arquivada: "Arquivada" },
+  ap_duas: "Aprovada nas duas Casas · falta promulgar", rejeitada: "Rejeitada", ap_cam: "Aprovada na Câmara · falta o Senado", ap_sen: "Aprovada no Senado · falta a Câmara",
+  atualizada: x => `· atualizada ${x}`, promulgada: "Promulgada", congresso: "Congresso",
+  casa: { camara: "Câmara", senado: "Senado" }, naCasa: { camara: "na Câmara", senado: "no Senado" }, aCasa: { camara: "a Câmara", senado: "o Senado" },
+  aprovou: c => `${c} aprovou`, rejeitou: c => `${c} rejeitou`, noTurno: n => `no ${n}º turno`, turno: n => `${n}º turno`,
+  sim: "sim", nao: "não", abst: "abstenções", precisava: n => `precisava de <b class="num">${n}</b>`,
+  etapas: { "Apresentada": "Apresentada", "CCJ da Câmara": "CCJ da Câmara", "CCJ do Senado": "CCJ do Senado", "Comissão Especial": "Comissão Especial", "Plenário da Câmara": "Plenário da Câmara", "Plenário do Senado": "Plenário do Senado", "Senado": "Senado", "Câmara": "Câmara", "Promulgada": "Promulgada" },
+  desc_etapa: {
+    "Apresentada": "Um grupo de pelo menos 1/3 dos deputados ou senadores (ou o Presidente da República) apresenta a proposta.",
+    "CCJ da Câmara": "A Comissão de Constituição e Justiça verifica se a proposta pode tramitar. Não analisa se é boa ou ruim.",
+    "CCJ do Senado": "A Comissão de Constituição e Justiça do Senado analisa a proposta e dá um parecer.",
+    "Comissão Especial": "Uma comissão criada só para esta PEC discute o conteúdo e pode alterar o texto.",
+    "Plenário da Câmara": "Todos os deputados votam, em dois turnos. Precisa de 308 votos (3/5) em cada turno.",
+    "Plenário do Senado": "Todos os senadores votam, em dois turnos. Precisa de 49 votos (3/5) em cada turno.",
+    "Senado": "O Senado analisa e vota, também em dois turnos, com 49 votos necessários.",
+    "Câmara": "A Câmara analisa e vota, também em dois turnos, com 308 votos necessários.",
+    "Promulgada": "Aprovada nas duas Casas, vira emenda à Constituição. Não passa pelo Presidente da República.",
+  },
+  aqui: " · está aqui", parou: " · parou aqui",
+  sit: ["Foi rejeitada e não segue adiante. Para voltar, seria preciso apresentar uma nova PEC.", "Foi aprovada nas duas Casas e virou emenda à Constituição.", "Aprovada. Falta só a cerimônia de promulgação para entrar na Constituição.", "Já foi aprovada pela Câmara. Agora depende do Senado.", "Foi anexada a outra PEC sobre o mesmo assunto. As duas são analisadas juntas.", "Arquivada: não está mais sendo analisada. Pode voltar se algum parlamentar pedir o desarquivamento.", "O próprio autor retirou a proposta.", "Está pronta para ser votada. Só falta ser colocada na pauta.", "Esperando a criação da Comissão Especial, um grupo de deputados que vai analisar o conteúdo da proposta.", "O relator deixou a comissão. É preciso escolher outro para continuar.", "Esperando a escolha de um relator, o parlamentar que vai estudar a proposta e dar um parecer.", "O relator está preparando o parecer, a avaliação dele sobre a proposta.", "Um parlamentar pediu mais tempo para analisar a proposta (pedido de vista).", "Está sendo debatida com especialistas e a sociedade em audiência pública.", "Chegou há pouco ou está em trâmite interno, esperando o próximo passo."],
+  sem_info: "Sem informação",
+  agora_aprov: (casa, data, outra) => `Foi aprovada em dois turnos ${casa} em ${data}. O processo nesta Casa terminou e a proposta seguiu para ${outra}.`,
+  voltar: "← Todas as PECs", nao_encontrada: "Não encontramos essa PEC. Ela pode não ter tido movimentação desde 2023.",
+  o_que_muda: "O que muda", quem_afetado: "Quem é afetado", por_que: "Por que importa",
+  texto_oficial: "Texto oficial (ementa)", oficial_pt: "",
+  apresentada: (d, a, o) => `Apresentada em ${d}${a ? ` por ${a}` : ""}. Começou ${o}.`, resumo_nota: " O resumo foi escrito a partir do texto oficial, sem opinião sobre o mérito.",
+  opina_h: "Dê sua opinião sobre esta PEC", opina_p: "O Senado e a Câmara recebem a opinião dos cidadãos e mostram o resultado aos parlamentares. É gratuito; basta fazer um cadastro no site oficial (em português).",
+  opina_sen: "Votar na consulta do Senado ↗", opina_cam: "Responder a enquete da Câmara ↗",
+  selo_ementa: "Resumo automático, escrito a partir da ementa oficial. Ainda não foi conferido com o texto completo.",
+  selo_texto: d => `Resumo conferido com o texto completo da PEC em ${d}.`,
+  selo_pessoa: d => `Resumo revisado por uma pessoa em ${d}.`,
+  mudou_h: "O texto desta PEC mudou",
+  mudou_p: (tipo, d) => `Em ${d} foi registrada uma nova versão: ${tipo}. Pode não refletir o que está sendo votado agora.`,
+  resumo_de: v => v ? `O resumo acima descreve uma versão anterior: ${v}.` : "O resumo acima descreve o texto original.",
+  mudou_grande: "A nova versão é bem diferente da original.",
+  mudou_ok: (tipo, d) => `Resumo atualizado para a versão mais recente do texto (${tipo}, ${d}).`,
+  ler_versao: "Ler a versão atual ↗", ler_original: "Ler o texto original ↗",
+  erro_btn: "Encontrou um erro neste resumo? Avise a gente ↗",
+  parecer_h: "Pode haver uma versão nova do texto",
+  parecer_p: (tipo, d) => `Em ${d}: ${tipo}. Pareceres costumam propor mudanças no texto.`,
+  no_senado: s => `no Senado: ${s}`,
+  mudou_desc: (tipo, d) => `O texto mudou em ${d} (${tipo}). O resumo acima já descreve a nova versão. O que mudou:`,
+  objetivo_mudou: "Com essa nova versão, o objetivo principal da PEC mudou.",
+  agora_h: "O que está acontecendo agora", junto: l => `Ela é analisada junto com a ${l}. Acompanhe por lá.`,
+  sit_oficial: (s, d, h) => `Situação oficial: "${s}" · última movimentação em ${d} (${h})`,
+  caminho_h: "Caminho até virar emenda", votacoes_h: "Votações no plenário", sem_vot: "Ainda não houve votação desta PEC no plenário da Câmara ou do Senado.",
+  quem_h: "Quem está envolvido", quem_propos: "Quem propôs", autor: a => `Autor: ${a}`, relatores: "Relatores (quem analisou e deu parecer)", assinaram: n => `Também assinaram (${n})`,
+  colegiado: { "CCJ": "CCJ", "Comissão Especial": "Comissão Especial", "Plenário": "Plenário" },
+  mov_h: "Últimas movimentações", mov_nota: "", fontes_h: "Fontes oficiais", ficha_cam: "Ficha na Câmara ↗", ficha_sen: "Ficha no Senado ↗", texto_comp: "Texto completo ↗",
+  ap_turno: "Aprovada neste turno", rej_turno: "Rejeitada neste turno", minimo: n => `mínimo ${n}`, deputados: "deputados", senadores: "senadores",
+  vot_aria: (s, t, q) => `${s} votos sim de ${t}; eram necessários ${q}`,
+  por_partido: "Como votou cada partido", partido: "Partido", outros: "Outros", outros_nota: '"Outros" inclui abstenção, obstrução e o voto do presidente da sessão. Quem não aparece não registrou voto.',
+  seu_dep: "Como votou seu deputado", seu_sen: "Como votou seu senador", nome_parl: "Nome do parlamentar", todos_uf: "Todos os estados", parlamentar: "Parlamentar", uf: "UF", voto: "Voto", ninguem: "Ninguém encontrado.",
+  votos: { sim: "Sim", nao: "Não", abstencao: "Abstenção", obstrucao: "Obstrução", outro: "Outro" },
+  d_h1: "Descubra suas PECs", d_p: "Escreva com suas palavras o que te interessa ou te preocupa. Procuramos essas palavras em todas as PECs e mostramos as que merecem sua atenção.",
+  d_ph: "Escreva aqui o que te interessa", d_env: "Enviar", d_msg: "Sua mensagem",
+  d_oi: "Oi! O que te interessa?", d_ex: 'Pode escrever do seu jeito. Por exemplo: "sou professora e quero saber da minha aposentadoria", "preço da gasolina", "praias" ou o nome de um deputado ou senador.',
+  d_achei: (w, n, pr) => `Procurei por ${w} e encontrei <b>${n} ${n === 1 ? "PEC" : "PECs"}</b>${pr ? `, ${pr} pronta${pr > 1 ? "s" : ""} para votar` : ""}. As que mais combinam com o que você escreveu e estão mais perto de uma decisão aparecem primeiro:`,
+  d_sem: w => `Não encontrei nenhuma PEC com: ${w}.`, d_lgbt: "Há poucas PECs sobre direitos LGBTQIA+. Boa parte desses direitos no Brasil vem de decisões do STF e de leis comuns, não de emendas à Constituição.",
+  d_nada: 'Não encontrei PECs com essas palavras. Tente escrever de outro jeito, com palavras do dia a dia, como "escola", "aposentadoria" ou "imposto".', d_talvez: l => `Talvez você esteja procurando: ${l}.`,
+  d_parl_nao: "Não encontramos esse parlamentar nas PECs que acompanhamos.", mostrar_todas: n => `Mostrar todas as ${n}`,
+  cargo: { camara: "Deputado(a) federal", senado: "Senador(a)" },
+  p_propos: "Propôs (primeiro autor)", p_coautor: "Apoiou assinando como coautor", p_relator: "Foi relator",
+  p_votos: (s, n, o) => `Votações de PEC no plenário (${s} sim, ${n} não${o ? `, ${o} outros` : ""})`,
+  p_nota: "Considera as PECs com movimentação desde 2023 e as votações em plenário que registraram o voto de cada parlamentar. Toque em um número para ver a lista.",
+  c_h1: "Como uma PEC vira emenda à Constituição", c_p: "A Constituição é a lei mais importante do Brasil. Mudá-la é mais difícil do que aprovar uma lei comum, de propósito: a mudança precisa de um apoio grande e precisa ser confirmada duas vezes em cada Casa.",
+  c_audio: "Prefere ouvir?", c_audio_breve: "A versão narrada desta página está sendo gravada e aparece aqui em breve.", c_audio_ok: "Ouça a explicação desta página (cerca de 3 minutos).",
+  c_num_h: "Os números que importam", c_308: "votos de 513 deputados (3/5) em cada um dos dois turnos na Câmara.", c_49: "votos de 81 senadores (3/5) em cada um dos dois turnos no Senado.", c_22: "São quatro votações no total: dois turnos na Câmara e dois no Senado, com o mesmo texto.",
+  c_passo_h: "O caminho, passo a passo", c_passo_nota: "Quando a PEC começa no Senado, o caminho é parecido: CCJ do Senado, dois turnos no plenário do Senado, e depois a Câmara. Se uma Casa muda o texto, a parte alterada volta para a outra.",
+  c_cores_h: "O que as cores significam", c_verde: "Virou emenda (aprovada nas duas Casas)", c_amarelo: "Em andamento, inclusive aprovada em só uma Casa", c_vermelho: "Parada ou arquivada", c_cinza: "Anexada a outra PEC",
+  c_part_h: "Como você pode participar",
+  c_part: [
+    ["Consulta pública do Senado (e-Cidadania)", 'Cada proposta no Senado tem uma página onde qualquer pessoa vota "sim" ou "não". O resultado é enviado aos senadores.', "Ver as consultas ↗"],
+    ["Enquetes da Câmara", "Na página de cada proposta da Câmara você pode dizer se concorda, discorda ou concorda em parte, e deixar um comentário."],
+    ["Ideia Legislativa", "No e-Cidadania você também pode sugerir uma ideia. Se ela receber 20 mil apoios em 4 meses, vira uma sugestão analisada pelos senadores.", "Sugerir uma ideia ↗"],
+    ["Fale com quem te representa", "Deputados e senadores têm e-mail e telefone públicos nos sites da Câmara e do Senado:", "Câmara ↗", "Senado ↗"],
+  ],
+  c_glo_h: "Palavras que aparecem muito",
+  c_glo: [
+    ["PEC", "Proposta de Emenda à Constituição. Uma sugestão de mudança no texto da Constituição."],
+    ["CCJ", 'Comissão de Constituição e Justiça. Na Câmara, decide se a PEC pode seguir (a "admissibilidade"), sem julgar se a ideia é boa.'],
+    ["Comissão Especial", "Grupo de deputados criado só para discutir uma PEC. É onde o texto costuma ser mudado."],
+    ["Relator", "O parlamentar responsável por estudar a proposta e recomendar aprovar, rejeitar ou mudar o texto (o parecer)."],
+    ["Turno", "Cada rodada de votação no plenário. A PEC precisa ser aprovada em dois turnos em cada Casa."],
+    ["Promulgação", "O ato que coloca a emenda na Constituição. É feito pelas Mesas da Câmara e do Senado; o Presidente da República não pode vetar uma PEC."],
+    ["Anexada (apensada)", "Quando há várias PECs sobre o mesmo assunto, elas são juntadas e analisadas como uma só."],
+    ["Arquivada", "Parou de ser analisada. No fim de cada legislatura (a cada 4 anos), propostas paradas são arquivadas, mas podem voltar se um parlamentar pedir o desarquivamento."],
+  ],
+  f_dados: (a, b, d) => `Dados oficiais da ${a} e do ${b}${d ? `, atualizados em ${d}` : ""}.`, f_camara: "Câmara dos Deputados", f_senado: "Senado Federal",
+  f_cob: "Mostramos toda PEC que teve alguma movimentação desde fevereiro de 2023 (início da legislatura atual), qualquer que seja o ano em que foi apresentada.",
+  f_apart: "Este site é apartidário e não tem vínculo com o Congresso. Protótipo.",
+  ha: { hoje: "hoje", ontem: "ontem", dias: n => `há ${n} dias`, meses: n => `há ${n} ${n === 1 ? "mês" : "meses"}`, anos: n => `há ${n} ${n === 1 ? "ano" : "anos"}`, sem: "sem data" },
+},
+
+en: {
+  htmlLang: "en", locale: "en-US", e: "and",
+  nav_pecs: "PECs", nav_como: "How it works", nav_descubra: "Find your PECs", idioma: "Language", so_pt: "This tool is available in Portuguese only. Results show the PEC summaries in Portuguese.",
+  carregando: "Loading the PECs…", carregando_sub: "Fetching data from the Chamber of Deputies and the Senate.",
+  erro_h: "We couldn't load the data", erro_p: "The PEC data file didn't respond. Please reload the page in a moment.",
+  hero_h1: "What Congress wants to change in Brazil's Constitution",
+  hero_p: "A PEC (Proposed Constitutional Amendment) changes the country's most important rules. Here you can follow each one in plain language: what it proposes, what stage it's at, and how each member of Congress voted.",
+  st_ativas: "under review now", st_prontas: "ready for a vote", st_promulg: "already became amendments",
+  teaser_h: "Find the PECs that matter to you", teaser_p: "Tell us what you care about, or the name of a deputy or senator, and we'll show you the proposals worth your attention. (This tool works in Portuguese only.)",
+  teaser_ph: "E.g.: teachers' pensions", teaser_btn: "Find", teaser_lbl: "What you care about",
+  vot_h: "Recently voted", vot_sub: "Score of the latest voting round",
+  todas_h: "All PECs", buscar: "Search", busca_ph: "E.g.: beaches, pensions, 6-day work week, PEC 45",
+  sit_lbl: "Status", tema_lbl: "Topic", tema_todos: "All topics", casa_lbl: "Chamber", casa_todas: "Chamber and Senate", casa_cam: "Went through the Chamber", casa_sen: "Went through the Senate",
+  ord_lbl: "Sort", ord_rec: "Most recent activity", ord_av: "Closest to approval", ord_novas: "Most recently filed", ord_ant: "Oldest",
+  nada_filtro: 'No PECs match these filters. Try another word or choose "All".',
+  mostrar_mais: n => `Show ${n} more`, count: n => `${n} ${n === 1 ? "PEC" : "PECs"}`,
+  part_h: "You can have your say too", part_p: 'The Senate runs public consultations on its e-Cidadania portal, where anyone can vote "yes" or "no" on each proposal. The Chamber of Deputies has similar polls. Every PEC on this site has a shortcut to share your opinion.',
+  part_l1: "Senate public consultations (e-Cidadania) ↗", part_l2: "How to take part",
+  fases: { todas: "All", votacao: "Ready for a vote", andando: "Under review", aprovada: "Approved in one chamber", promulgada: "Became amendments", parada: "Stalled 1+ year", anexada: "Merged into another", arquivada: "Shelved or rejected" },
+  pill: { votacao: "Ready for a vote", andando: "Under review", promulgada: "Became an amendment", parada: "Stalled 1+ year", anexada: "Merged into another", arquivada: "Shelved" },
+  ap_duas: "Approved by both chambers · awaiting enactment", rejeitada: "Rejected", ap_cam: "Approved by the Chamber · Senate next", ap_sen: "Approved by the Senate · Chamber next",
+  atualizada: x => `· updated ${x}`, promulgada: "Enacted", congresso: "Congress",
+  casa: { camara: "Chamber", senado: "Senate" }, naCasa: { camara: "in the Chamber of Deputies", senado: "in the Senate" }, aCasa: { camara: "the Chamber of Deputies", senado: "the Senate" },
+  aprovou: c => `${c} approved`, rejeitou: c => `${c} rejected`, noTurno: n => `in round ${n}`, turno: n => `Round ${n}`,
+  sim: "yes", nao: "no", abst: "abstentions", precisava: n => `needed <b class="num">${n}</b>`,
+  etapas: { "Apresentada": "Filed", "CCJ da Câmara": "Chamber's Constitution Committee", "CCJ do Senado": "Senate's Constitution Committee", "Comissão Especial": "Special Committee", "Plenário da Câmara": "Chamber floor vote", "Plenário do Senado": "Senate floor vote", "Senado": "Senate", "Câmara": "Chamber of Deputies", "Promulgada": "Enacted" },
+  desc_etapa: {
+    "Apresentada": "At least 1/3 of deputies or senators (or the President) file the proposal.",
+    "CCJ da Câmara": "The Constitution and Justice Committee (CCJ) checks whether the proposal can move forward. It doesn't judge whether it's good or bad.",
+    "CCJ do Senado": "The Senate's Constitution and Justice Committee (CCJ) reviews the proposal and issues an opinion.",
+    "Comissão Especial": "A committee created just for this PEC debates the content and can change the text.",
+    "Plenário da Câmara": "All deputies vote, in two rounds. It needs 308 votes (3/5) in each round.",
+    "Plenário do Senado": "All senators vote, in two rounds. It needs 49 votes (3/5) in each round.",
+    "Senado": "The Senate reviews and votes, also in two rounds, needing 49 votes.",
+    "Câmara": "The Chamber of Deputies reviews and votes, also in two rounds, needing 308 votes.",
+    "Promulgada": "Once approved by both chambers, it becomes a constitutional amendment. The President cannot veto it.",
+  },
+  aqui: " · it's here", parou: " · stopped here",
+  sit: ["It was rejected and will not move forward. A new PEC would have to be filed.", "Approved by both chambers and became a constitutional amendment.", "Approved. Only the formal enactment ceremony is left.", "Already approved by the Chamber of Deputies. Now it's up to the Senate.", "Merged into another PEC on the same topic. Both are reviewed together.", "Shelved: no longer under review. It can come back if a member of Congress asks.", "The author withdrew the proposal.", "Ready to be voted. It just needs to be put on the agenda.", "Waiting for the Special Committee to be created, a group of deputies who will review the content.", "The rapporteur left the committee. Another one must be chosen.", "Waiting for a rapporteur to be chosen: the member of Congress who will study the proposal and issue an opinion.", "The rapporteur is preparing an opinion on the proposal.", "A member asked for more time to review it (request for review).", "Being debated with experts and the public in a public hearing.", "Recently filed or in internal processing, waiting for the next step."],
+  sem_info: "No information",
+  agora_aprov: (casa, data, outra) => `Approved in two rounds ${casa} on ${data}. That chamber is done and the proposal moved on to ${outra}.`,
+  voltar: "← All PECs", nao_encontrada: "We couldn't find this PEC. It may not have had any activity since 2023.",
+  o_que_muda: "What changes", quem_afetado: "Who is affected", por_que: "Why it matters",
+  texto_oficial: "Official summary (ementa)", oficial_pt: " · in Portuguese",
+  apresentada: (d, a, o) => `Filed on ${d}${a ? ` by ${a}` : ""}. It started ${o}.`, resumo_nota: " This summary was written from the official text, without taking sides.",
+  opina_h: "Share your opinion on this PEC", opina_p: "The Senate and the Chamber collect citizens' opinions and show the results to legislators. It's free; you just need an account on the official site (in Portuguese).",
+  opina_sen: "Vote in the Senate consultation ↗", opina_cam: "Answer the Chamber poll ↗",
+  selo_ementa: "Automatic summary, written from the official one-line summary (ementa). Not yet checked against the full text.",
+  selo_texto: d => `Summary checked against the PEC's full text on ${d}.`,
+  selo_pessoa: d => `Summary reviewed by a person on ${d}.`,
+  mudou_h: "The text of this PEC has changed",
+  mudou_p: (tipo, d) => `A new version was registered on ${d}: ${tipo}. It may not reflect what is being voted on now.`,
+  resumo_de: v => v ? `The summary above describes an earlier version: ${v}.` : "The summary above describes the original text.",
+  mudou_grande: "The new version is quite different from the original.",
+  mudou_ok: (tipo, d) => `Summary updated to the latest version of the text (${tipo}, ${d}).`,
+  ler_versao: "Read the current version (in Portuguese) ↗", ler_original: "Read the original text (in Portuguese) ↗",
+  erro_btn: "Found a mistake in this summary? Let us know ↗",
+  parecer_h: "There may be a new version of the text",
+  parecer_p: (tipo, d) => `On ${d}: ${tipo}. Opinions often propose changes to the text.`,
+  no_senado: s => `in the Senate: ${s}`,
+  mudou_desc: (tipo, d) => `The text changed on ${d} (${tipo}). The summary above already describes the new version. What changed (in Portuguese):`,
+  objetivo_mudou: "With this new version, the main goal of the PEC changed.",
+  agora_h: "What's happening now", junto: l => `It is being reviewed together with ${l}. Follow it there.`,
+  sit_oficial: (s, d, h) => `Official status (in Portuguese): "${s}" · last activity on ${d} (${h})`,
+  caminho_h: "Path to becoming an amendment", votacoes_h: "Floor votes", sem_vot: "This PEC hasn't had a floor vote in the Chamber or the Senate yet.",
+  quem_h: "Who's involved", quem_propos: "Who proposed it", autor: a => `Author: ${a}`, relatores: "Rapporteurs (who reviewed it and issued an opinion)", assinaram: n => `Also signed (${n})`,
+  colegiado: { "CCJ": "CCJ", "Comissão Especial": "Special Committee", "Plenário": "Floor" },
+  mov_h: "Latest activity", mov_nota: "Official records, in Portuguese.", fontes_h: "Official sources", ficha_cam: "Chamber record ↗", ficha_sen: "Senate record ↗", texto_comp: "Full text ↗",
+  ap_turno: "Approved in this round", rej_turno: "Rejected in this round", minimo: n => `minimum ${n}`, deputados: "deputies", senadores: "senators",
+  vot_aria: (s, t, q) => `${s} yes votes out of ${t}; ${q} were needed`,
+  por_partido: "How each party voted", partido: "Party", outros: "Other", outros_nota: '"Other" includes abstentions, obstruction and the presiding officer\'s vote. Members not listed didn\'t vote.',
+  seu_dep: "How your deputy voted", seu_sen: "How your senator voted", nome_parl: "Member's name", todos_uf: "All states", parlamentar: "Member", uf: "State", voto: "Vote", ninguem: "No one found.",
+  votos: { sim: "Yes", nao: "No", abstencao: "Abstained", obstrucao: "Obstruction", outro: "Other" },
+  d_h1: "Find your PECs", d_p: "Tell us in your own words what you care about or worry about. We search every PEC for those words and show you the ones worth your attention.",
+  d_ph: "Type what you care about", d_env: "Send", d_msg: "Your message",
+  d_oi: "Hi! What do you care about?", d_ex: 'Write it your own way. For example: "I\'m a teacher and want to know about my pension", "gas prices", "beaches", or the name of a deputy or senator.',
+  d_achei: (w, n, pr) => `I searched for ${w} and found <b>${n} ${n === 1 ? "PEC" : "PECs"}</b>${pr ? `, ${pr} ready for a vote` : ""}. The best matches that are closest to a decision come first:`,
+  d_sem: w => `I didn't find any PEC with: ${w}.`, d_lgbt: "Few PECs deal with LGBTQIA+ rights. Most of these rights in Brazil come from Supreme Court rulings and ordinary laws, not constitutional amendments.",
+  d_nada: 'I couldn\'t find PECs with those words. Try different, everyday words like "school", "pension" or "tax".', d_talvez: l => `Maybe you're looking for: ${l}.`,
+  d_parl_nao: "We couldn't find this member of Congress in the PECs we track.", mostrar_todas: n => `Show all ${n}`,
+  cargo: { camara: "Federal deputy", senado: "Senator" },
+  p_propos: "Proposed (lead author)", p_coautor: "Supported by co-signing", p_relator: "Was rapporteur",
+  p_votos: (s, n, o) => `PEC floor votes (${s} yes, ${n} no${o ? `, ${o} other` : ""})`,
+  p_nota: "Covers PECs with activity since 2023 and floor votes that recorded each member's vote. Tap a number to see the list.",
+  c_h1: "How a PEC becomes a constitutional amendment", c_p: "The Constitution is Brazil's most important law. Changing it is harder than passing an ordinary law, on purpose: a change needs broad support and must be confirmed twice in each chamber.",
+  c_audio: "Prefer to listen?", c_audio_breve: "An audio version of this page is being recorded and will appear here soon.", c_audio_ok: "Listen to this page (about 3 minutes, in Portuguese).",
+  c_num_h: "The numbers that matter", c_308: "votes out of 513 deputies (3/5) in each of the two rounds in the Chamber.", c_49: "votes out of 81 senators (3/5) in each of the two rounds in the Senate.", c_22: "Four votes in total: two rounds in the Chamber and two in the Senate, on the same text.",
+  c_passo_h: "The path, step by step", c_passo_nota: "When a PEC starts in the Senate, the path is similar: the Senate's CCJ, two floor rounds in the Senate, then the Chamber. If one chamber changes the text, the changed part goes back to the other.",
+  c_cores_h: "What the colors mean", c_verde: "Became an amendment (approved by both chambers)", c_amarelo: "In progress, including approved by only one chamber", c_vermelho: "Stalled or shelved", c_cinza: "Merged into another PEC",
+  c_part_h: "How you can take part",
+  c_part: [
+    ["Senate public consultation (e-Cidadania)", 'Every proposal in the Senate has a page where anyone can vote "yes" or "no". The results are sent to senators.', "See the consultations ↗"],
+    ["Chamber polls", "On each proposal's page at the Chamber of Deputies, you can say whether you agree, disagree or partly agree, and leave a comment."],
+    ["Legislative Idea", "On e-Cidadania you can also suggest an idea. If it gets 20,000 supporters in 4 months, senators review it as a formal suggestion.", "Suggest an idea ↗"],
+    ["Contact your representatives", "Deputies and senators have public emails and phone numbers on the Chamber and Senate websites:", "Chamber ↗", "Senate ↗"],
+  ],
+  c_glo_h: "Words you'll see a lot",
+  c_glo: [
+    ["PEC", "Proposta de Emenda à Constituição: a proposed change to the text of the Constitution."],
+    ["CCJ", "Constitution and Justice Committee. In the Chamber, it decides whether a PEC can move forward (its \"admissibility\"), without judging whether the idea is good."],
+    ["Special Committee", "A group of deputies created just to debate one PEC. This is where the text is usually changed."],
+    ["Rapporteur (relator)", "The member of Congress responsible for studying the proposal and recommending approval, rejection or changes (the opinion)."],
+    ["Round (turno)", "Each round of floor voting. A PEC must pass two rounds in each chamber."],
+    ["Enactment (promulgação)", "The act that adds the amendment to the Constitution. It's done by the leadership of both chambers; the President cannot veto a PEC."],
+    ["Merged (apensada)", "When several PECs deal with the same topic, they are joined and reviewed as one."],
+    ["Shelved (arquivada)", "No longer under review. At the end of each 4-year legislature, stalled proposals are shelved, but they can come back if a member asks."],
+  ],
+  f_dados: (a, b, d) => `Official data from the ${a} and the ${b}${d ? `, updated on ${d}` : ""}.`, f_camara: "Chamber of Deputies", f_senado: "Federal Senate",
+  f_cob: "We show every PEC with any activity since February 2023 (start of the current legislature), whatever year it was filed.",
+  f_apart: "This site is nonpartisan and has no ties to Congress. Prototype.",
+  ha: { hoje: "today", ontem: "yesterday", dias: n => `${n} days ago`, meses: n => `${n} ${n === 1 ? "month" : "months"} ago`, anos: n => `${n} ${n === 1 ? "year" : "years"} ago`, sem: "no date" },
+},
+
+es: {
+  htmlLang: "es", locale: "es-ES", e: "y",
+  nav_pecs: "PECs", nav_como: "Cómo funciona", nav_descubra: "Descubre tus PECs", idioma: "Idioma", so_pt: "Esta herramienta solo está disponible en portugués. Los resultados muestran los resúmenes de las PECs en portugués.",
+  carregando: "Cargando las PECs…", carregando_sub: "Buscando los datos de la Cámara y del Senado.",
+  erro_h: "No se pudieron cargar los datos", erro_p: "El archivo con las PECs no respondió. Vuelve a cargar la página en unos instantes.",
+  hero_h1: "Lo que el Congreso quiere cambiar en la Constitución de Brasil",
+  hero_p: "Una PEC (Propuesta de Enmienda a la Constitución) cambia las reglas más importantes del país. Aquí puedes seguir cada una en lenguaje sencillo: qué propone, en qué etapa está y cómo votó cada parlamentario.",
+  st_ativas: "en análisis ahora", st_prontas: "listas para votar", st_promulg: "ya se convirtieron en enmienda",
+  teaser_h: "Descubre qué PECs tienen que ver contigo", teaser_p: "Escribe lo que te interesa, o el nombre de un diputado o senador, y te mostramos las propuestas que merecen tu atención. (Esta herramienta funciona solo en portugués.)",
+  teaser_ph: "Ej.: jubilación de profesores", teaser_btn: "Descubrir", teaser_lbl: "Lo que te interesa",
+  vot_h: "Votadas recientemente", vot_sub: "Resultado de la última vuelta de votación",
+  todas_h: "Todas las PECs", buscar: "Buscar", busca_ph: "Ej.: playas, jubilación, jornada 6x1, PEC 45",
+  sit_lbl: "Situación", tema_lbl: "Tema", tema_todos: "Todos los temas", casa_lbl: "Cámara", casa_todas: "Cámara y Senado", casa_cam: "Pasó por la Cámara", casa_sen: "Pasó por el Senado",
+  ord_lbl: "Ordenar", ord_rec: "Movimiento más reciente", ord_av: "Más cerca de aprobarse", ord_novas: "Presentadas más recientemente", ord_ant: "Más antiguas",
+  nada_filtro: 'No se encontraron PECs con estos filtros. Prueba otra palabra o elige "Todas".',
+  mostrar_mais: n => `Mostrar ${n} más`, count: n => `${n} ${n === 1 ? "PEC" : "PECs"}`,
+  part_h: "Tú también puedes opinar", part_p: 'El Senado tiene consultas públicas en el portal e-Cidadania, donde cualquier persona vota "sí" o "no" en cada propuesta. La Cámara tiene encuestas parecidas. Cada PEC de este sitio tiene un atajo para dar tu opinión.',
+  part_l1: "Consultas públicas del Senado (e-Cidadania) ↗", part_l2: "Cómo participar",
+  fases: { todas: "Todas", votacao: "Listas para votar", andando: "En análisis", aprovada: "Aprobadas en una Cámara", promulgada: "Se volvieron enmienda", parada: "Paradas hace +1 año", anexada: "Anexadas a otra", arquivada: "Archivadas o rechazadas" },
+  pill: { votacao: "Lista para votar", andando: "En análisis", promulgada: "Se volvió enmienda", parada: "Parada hace +1 año", anexada: "Anexada a otra", arquivada: "Archivada" },
+  ap_duas: "Aprobada en las dos Cámaras · falta promulgar", rejeitada: "Rechazada", ap_cam: "Aprobada en la Cámara · falta el Senado", ap_sen: "Aprobada en el Senado · falta la Cámara",
+  atualizada: x => `· actualizada ${x}`, promulgada: "Promulgada", congresso: "Congreso",
+  casa: { camara: "Cámara", senado: "Senado" }, naCasa: { camara: "en la Cámara de Diputados", senado: "en el Senado" }, aCasa: { camara: "la Cámara de Diputados", senado: "el Senado" },
+  aprovou: c => `${c} aprobó`, rejeitou: c => `${c} rechazó`, noTurno: n => `en la ${n}ª vuelta`, turno: n => `${n}ª vuelta`,
+  sim: "sí", nao: "no", abst: "abstenciones", precisava: n => `necesitaba <b class="num">${n}</b>`,
+  etapas: { "Apresentada": "Presentada", "CCJ da Câmara": "CCJ de la Cámara", "CCJ do Senado": "CCJ del Senado", "Comissão Especial": "Comisión Especial", "Plenário da Câmara": "Pleno de la Cámara", "Plenário do Senado": "Pleno del Senado", "Senado": "Senado", "Câmara": "Cámara de Diputados", "Promulgada": "Promulgada" },
+  desc_etapa: {
+    "Apresentada": "Al menos 1/3 de los diputados o senadores (o el Presidente de la República) presenta la propuesta.",
+    "CCJ da Câmara": "La Comisión de Constitución y Justicia verifica si la propuesta puede seguir adelante. No analiza si es buena o mala.",
+    "CCJ do Senado": "La Comisión de Constitución y Justicia del Senado analiza la propuesta y emite un dictamen.",
+    "Comissão Especial": "Una comisión creada solo para esta PEC debate el contenido y puede cambiar el texto.",
+    "Plenário da Câmara": "Todos los diputados votan, en dos vueltas. Necesita 308 votos (3/5) en cada vuelta.",
+    "Plenário do Senado": "Todos los senadores votan, en dos vueltas. Necesita 49 votos (3/5) en cada vuelta.",
+    "Senado": "El Senado analiza y vota, también en dos vueltas, con 49 votos necesarios.",
+    "Câmara": "La Cámara de Diputados analiza y vota, también en dos vueltas, con 308 votos necesarios.",
+    "Promulgada": "Aprobada en las dos Cámaras, se convierte en enmienda constitucional. El Presidente no puede vetarla.",
+  },
+  aqui: " · está aquí", parou: " · se detuvo aquí",
+  sit: ["Fue rechazada y no sigue adelante. Para volver, habría que presentar una nueva PEC.", "Fue aprobada en las dos Cámaras y se convirtió en enmienda constitucional.", "Aprobada. Solo falta la ceremonia de promulgación.", "Ya fue aprobada por la Cámara de Diputados. Ahora depende del Senado.", "Fue anexada a otra PEC sobre el mismo tema. Ambas se analizan juntas.", "Archivada: ya no se está analizando. Puede volver si algún parlamentario lo pide.", "El propio autor retiró la propuesta.", "Está lista para votarse. Solo falta incluirla en la agenda.", "Esperando la creación de la Comisión Especial, un grupo de diputados que analizará el contenido.", "El relator dejó la comisión. Hay que elegir a otro para continuar.", "Esperando la elección de un relator: el parlamentario que estudiará la propuesta y emitirá un dictamen.", "El relator está preparando su dictamen sobre la propuesta.", "Un parlamentario pidió más tiempo para analizarla (pedido de vista).", "Se está debatiendo con especialistas y la sociedad en una audiencia pública.", "Llegó hace poco o está en trámite interno, esperando el siguiente paso."],
+  sem_info: "Sin información",
+  agora_aprov: (casa, data, outra) => `Fue aprobada en dos vueltas ${casa} el ${data}. El proceso en esa Cámara terminó y la propuesta pasó a ${outra}.`,
+  voltar: "← Todas las PECs", nao_encontrada: "No encontramos esta PEC. Puede que no haya tenido movimiento desde 2023.",
+  o_que_muda: "Qué cambia", quem_afetado: "A quién afecta", por_que: "Por qué importa",
+  texto_oficial: "Texto oficial (ementa)", oficial_pt: " · en portugués",
+  apresentada: (d, a, o) => `Presentada el ${d}${a ? ` por ${a}` : ""}. Empezó ${o}.`, resumo_nota: " El resumen se escribió a partir del texto oficial, sin opinar sobre el mérito.",
+  opina_h: "Da tu opinión sobre esta PEC", opina_p: "El Senado y la Cámara reciben la opinión de los ciudadanos y muestran el resultado a los parlamentarios. Es gratis; solo necesitas registrarte en el sitio oficial (en portugués).",
+  opina_sen: "Votar en la consulta del Senado ↗", opina_cam: "Responder la encuesta de la Cámara ↗",
+  selo_ementa: "Resumen automático, escrito a partir de la ementa oficial. Todavía no se comparó con el texto completo.",
+  selo_texto: d => `Resumen comparado con el texto completo de la PEC el ${d}.`,
+  selo_pessoa: d => `Resumen revisado por una persona el ${d}.`,
+  mudou_h: "El texto de esta PEC cambió",
+  mudou_p: (tipo, d) => `El ${d} se registró una nueva versión: ${tipo}. Puede no reflejar lo que se vota ahora.`,
+  resumo_de: v => v ? `El resumen de arriba describe una versión anterior: ${v}.` : "El resumen de arriba describe el texto original.",
+  mudou_grande: "La nueva versión es bastante diferente de la original.",
+  mudou_ok: (tipo, d) => `Resumen actualizado a la versión más reciente del texto (${tipo}, ${d}).`,
+  ler_versao: "Leer la versión actual (en portugués) ↗", ler_original: "Leer el texto original (en portugués) ↗",
+  erro_btn: "¿Encontraste un error en este resumen? Avísanos ↗",
+  parecer_h: "Puede haber una nueva versión del texto",
+  parecer_p: (tipo, d) => `El ${d}: ${tipo}. Los dictámenes suelen proponer cambios en el texto.`,
+  no_senado: s => `en el Senado: ${s}`,
+  mudou_desc: (tipo, d) => `El texto cambió el ${d} (${tipo}). El resumen de arriba ya describe la nueva versión. Qué cambió (en portugués):`,
+  objetivo_mudou: "Con esta nueva versión, el objetivo principal de la PEC cambió.",
+  agora_h: "Qué está pasando ahora", junto: l => `Se analiza junto con la ${l}. Síguela allí.`,
+  sit_oficial: (s, d, h) => `Situación oficial (en portugués): "${s}" · último movimiento el ${d} (${h})`,
+  caminho_h: "Camino hasta convertirse en enmienda", votacoes_h: "Votaciones en el pleno", sem_vot: "Esta PEC todavía no se votó en el pleno de la Cámara ni del Senado.",
+  quem_h: "Quiénes participan", quem_propos: "Quién la propuso", autor: a => `Autor: ${a}`, relatores: "Relatores (quienes la analizaron y emitieron dictamen)", assinaram: n => `También firmaron (${n})`,
+  colegiado: { "CCJ": "CCJ", "Comissão Especial": "Comisión Especial", "Plenário": "Pleno" },
+  mov_h: "Últimos movimientos", mov_nota: "Registros oficiales, en portugués.", fontes_h: "Fuentes oficiales", ficha_cam: "Ficha en la Cámara ↗", ficha_sen: "Ficha en el Senado ↗", texto_comp: "Texto completo ↗",
+  ap_turno: "Aprobada en esta vuelta", rej_turno: "Rechazada en esta vuelta", minimo: n => `mínimo ${n}`, deputados: "diputados", senadores: "senadores",
+  vot_aria: (s, t, q) => `${s} votos a favor de ${t}; se necesitaban ${q}`,
+  por_partido: "Cómo votó cada partido", partido: "Partido", outros: "Otros", outros_nota: '"Otros" incluye abstenciones, obstrucción y el voto del presidente de la sesión. Quien no aparece no registró voto.',
+  seu_dep: "Cómo votó tu diputado", seu_sen: "Cómo votó tu senador", nome_parl: "Nombre del parlamentario", todos_uf: "Todos los estados", parlamentar: "Parlamentario", uf: "Estado", voto: "Voto", ninguem: "No se encontró a nadie.",
+  votos: { sim: "Sí", nao: "No", abstencao: "Abstención", obstrucao: "Obstrucción", outro: "Otro" },
+  d_h1: "Descubre tus PECs", d_p: "Escribe con tus palabras lo que te interesa o te preocupa. Buscamos esas palabras en todas las PECs y te mostramos las que merecen tu atención.",
+  d_ph: "Escribe aquí lo que te interesa", d_env: "Enviar", d_msg: "Tu mensaje",
+  d_oi: "¡Hola! ¿Qué te interesa?", d_ex: 'Puedes escribirlo a tu manera. Por ejemplo: "soy profesora y quiero saber de mi jubilación", "precio de la gasolina", "playas" o el nombre de un diputado o senador.',
+  d_achei: (w, n, pr) => `Busqué ${w} y encontré <b>${n} ${n === 1 ? "PEC" : "PECs"}</b>${pr ? `, ${pr} lista${pr > 1 ? "s" : ""} para votar` : ""}. Primero aparecen las que más coinciden y están más cerca de una decisión:`,
+  d_sem: w => `No encontré ninguna PEC con: ${w}.`, d_lgbt: "Hay pocas PECs sobre derechos LGBTQIA+. En Brasil, buena parte de esos derechos viene de decisiones del Supremo y de leyes comunes, no de enmiendas constitucionales.",
+  d_nada: 'No encontré PECs con esas palabras. Intenta con otras palabras cotidianas, como "escuela", "jubilación" o "impuesto".', d_talvez: l => `Quizás buscas a: ${l}.`,
+  d_parl_nao: "No encontramos a este parlamentario en las PECs que seguimos.", mostrar_todas: n => `Mostrar las ${n}`,
+  cargo: { camara: "Diputado(a) federal", senado: "Senador(a)" },
+  p_propos: "Propuso (primer autor)", p_coautor: "Apoyó firmando como coautor", p_relator: "Fue relator",
+  p_votos: (s, n, o) => `Votaciones de PEC en el pleno (${s} sí, ${n} no${o ? `, ${o} otros` : ""})`,
+  p_nota: "Considera las PECs con movimiento desde 2023 y las votaciones en el pleno que registraron el voto de cada parlamentario. Toca un número para ver la lista.",
+  c_h1: "Cómo una PEC se convierte en enmienda constitucional", c_p: "La Constitución es la ley más importante de Brasil. Cambiarla es más difícil que aprobar una ley común, a propósito: el cambio necesita mucho apoyo y debe confirmarse dos veces en cada Cámara.",
+  c_audio: "¿Prefieres escuchar?", c_audio_breve: "La versión narrada de esta página se está grabando y aparecerá aquí pronto.", c_audio_ok: "Escucha la explicación de esta página (unos 3 minutos, en portugués).",
+  c_num_h: "Los números que importan", c_308: "votos de 513 diputados (3/5) en cada una de las dos vueltas en la Cámara.", c_49: "votos de 81 senadores (3/5) en cada una de las dos vueltas en el Senado.", c_22: "Son cuatro votaciones en total: dos vueltas en la Cámara y dos en el Senado, con el mismo texto.",
+  c_passo_h: "El camino, paso a paso", c_passo_nota: "Cuando la PEC empieza en el Senado, el camino es parecido: CCJ del Senado, dos vueltas en el pleno del Senado y luego la Cámara. Si una Cámara cambia el texto, la parte modificada vuelve a la otra.",
+  c_cores_h: "Qué significan los colores", c_verde: "Se volvió enmienda (aprobada en las dos Cámaras)", c_amarelo: "En curso, incluso aprobada en una sola Cámara", c_vermelho: "Parada o archivada", c_cinza: "Anexada a otra PEC",
+  c_part_h: "Cómo puedes participar",
+  c_part: [
+    ["Consulta pública del Senado (e-Cidadania)", 'Cada propuesta en el Senado tiene una página donde cualquier persona vota "sí" o "no". El resultado se envía a los senadores.', "Ver las consultas ↗"],
+    ["Encuestas de la Cámara", "En la página de cada propuesta de la Cámara puedes decir si estás de acuerdo, en desacuerdo o parcialmente de acuerdo, y dejar un comentario."],
+    ["Idea Legislativa", "En e-Cidadania también puedes sugerir una idea. Si recibe 20 mil apoyos en 4 meses, los senadores la analizan como sugerencia.", "Sugerir una idea ↗"],
+    ["Habla con quien te representa", "Los diputados y senadores tienen correo y teléfono públicos en los sitios de la Cámara y del Senado:", "Cámara ↗", "Senado ↗"],
+  ],
+  c_glo_h: "Palabras que aparecen mucho",
+  c_glo: [
+    ["PEC", "Propuesta de Enmienda a la Constitución: una sugerencia de cambio en el texto de la Constitución."],
+    ["CCJ", 'Comisión de Constitución y Justicia. En la Cámara, decide si la PEC puede seguir (su "admisibilidad"), sin juzgar si la idea es buena.'],
+    ["Comisión Especial", "Grupo de diputados creado solo para debatir una PEC. Es donde el texto suele cambiar."],
+    ["Relator", "El parlamentario responsable de estudiar la propuesta y recomendar aprobarla, rechazarla o cambiarla (el dictamen)."],
+    ["Vuelta (turno)", "Cada ronda de votación en el pleno. La PEC debe aprobarse en dos vueltas en cada Cámara."],
+    ["Promulgación", "El acto que incorpora la enmienda a la Constitución. Lo hacen las Mesas de la Cámara y del Senado; el Presidente no puede vetar una PEC."],
+    ["Anexada (apensada)", "Cuando hay varias PECs sobre el mismo tema, se juntan y se analizan como una sola."],
+    ["Archivada", "Dejó de analizarse. Al final de cada legislatura (cada 4 años), las propuestas paradas se archivan, pero pueden volver si un parlamentario lo pide."],
+  ],
+  f_dados: (a, b, d) => `Datos oficiales de la ${a} y del ${b}${d ? `, actualizados el ${d}` : ""}.`, f_camara: "Cámara de Diputados", f_senado: "Senado Federal",
+  f_cob: "Mostramos toda PEC que tuvo algún movimiento desde febrero de 2023 (inicio de la legislatura actual), sin importar el año en que se presentó.",
+  f_apart: "Este sitio es apartidario y no tiene vínculo con el Congreso. Prototipo.",
+  ha: { hoje: "hoy", ontem: "ayer", dias: n => `hace ${n} días`, meses: n => `hace ${n} ${n === 1 ? "mes" : "meses"}`, anos: n => `hace ${n} ${n === 1 ? "año" : "años"}`, sem: "sin fecha" },
+},
+};
+
+/* rótulos das versões do texto (vêm do robô em português) */
+const TIPO_VERSAO = {
+  "Redação final aprovada na Câmara": ["Final text approved by the Chamber", "Redacción final aprobada en la Cámara"],
+  "Emenda aglutinativa (texto votado no plenário da Câmara)": ["Consolidated amendment voted on the Chamber floor", "Enmienda aglutinativa votada en el pleno de la Cámara"],
+  "Substitutivo aprovado na comissão da Câmara": ["Substitute text approved by a Chamber committee", "Sustitutivo aprobado en la comisión de la Cámara"],
+  "Texto aprovado no Senado": ["Text approved by the Senate", "Texto aprobado en el Senado"],
+  "Redação para o segundo turno no Senado": ["Text for the Senate's second round", "Redacción para la segunda vuelta en el Senado"],
+  "Parecer aprovado em comissão ou no plenário do Senado": ["Opinion approved by a Senate committee or the floor", "Dictamen aprobado en comisión o en el pleno del Senado"],
+};
+/* link para avisar de erros: preencher com "usuario/repositorio" quando o projeto estiver no GitHub */
+const REPO_ERROS = "marianabcastro/de-olho-nas-pecs";
+
+/* nomes dos temas no filtro: [inglês, espanhol] */
+const TEMAS_I18N = {
+  "meio-ambiente": ["Environment", "Medio ambiente"],
+  "clima": ["Climate and disasters", "Clima y desastres"],
+  "saude-publica": ["Public health (SUS)", "Salud pública (SUS)"],
+  "saude-privada": ["Private health and medicines", "Salud privada y medicamentos"],
+  "praia": ["Beaches and coast", "Playas y costa"],
+  "seguranca": ["Public safety", "Seguridad pública"],
+  "drogas": ["Drugs", "Drogas"],
+  "amazonia": ["Amazon", "Amazonía"],
+  "indigenas": ["Indigenous peoples", "Pueblos indígenas"],
+  "trabalho": ["Work and jobs", "Trabajo y empleo"],
+  "aposentadoria": ["Retirement and pensions", "Jubilación y pensiones"],
+  "educacao": ["Education", "Educación"],
+  "impostos": ["Taxes", "Impuestos"],
+  "economia": ["Economy and public finances", "Economía y cuentas públicas"],
+  "genero": ["Women and gender equality", "Mujeres e igualdad de género"],
+  "lgbtq": ["LGBTQIA+", "LGBTQIA+"],
+  "racial": ["Racial equality", "Igualdad racial"],
+  "criancas": ["Children and teenagers", "Niños y adolescentes"],
+  "idosos": ["Older people", "Personas mayores"],
+  "deficiencia": ["People with disabilities", "Personas con discapacidad"],
+  "eleicoes": ["Elections and parties", "Elecciones y partidos"],
+  "justica": ["Supreme Court and justice", "Supremo y Justicia"],
+  "corrupcao": ["Corruption and privileges", "Corrupción y privilegios"],
+  "servidores": ["Civil servants", "Servidores públicos"],
+  "moradia": ["Housing and cities", "Vivienda y ciudades"],
+  "transporte": ["Transportation", "Transporte"],
+  "agro": ["Agriculture and rural life", "Agro y campo"],
+  "ciencia": ["Science, technology and internet", "Ciencia, tecnología e internet"],
+  "cultura": ["Culture and sports", "Cultura y deporte"],
+  "pobreza": ["Income and fighting poverty", "Ingresos y lucha contra la pobreza"],
+  "religiao": ["Religion", "Religión"],
+  "municipios": ["States and municipalities", "Estados y municipios"],
+  "defesa": ["Armed forces and defense", "Fuerzas Armadas y defensa"],
+  "consumidor": ["Prices and consumers", "Precios y consumidor"],
+};
+
+const app = document.getElementById("app");
+let DB = null, BY_ID = {}, ALIAS = {}, PESSOAS = null;
+
+/* ---------- dados divididos: a lista vem logo; detalhes, parlamentares e traduções só quando a página precisa ---------- */
+const PRONTO = new Set(), PEDIDOS = {};
+function baixar(url, aplicar) {
+  return PEDIDOS[url] || (PEDIDOS[url] = fetch(url).then(r => { if (!r.ok) throw new Error(r.status + " " + url); return r.json(); })
+    .then(d => { aplicar(d); PRONTO.add(url); }).catch(e => { delete PEDIDOS[url]; throw e; }));
+}
+// mesma conta de scripts/publicar.py (pacote)
+const pacote = id => { let h = 0; for (const c of id) h = (h * 31 + c.charCodeAt(0)) % (DB.pacotes || 64); return h; };
+const urlDetalhe = id => `data/pec/${String(pacote(id)).padStart(2, "0")}.json`;
+const urlIdioma = l => `data/traducoes-${l}.json`;
+const URL_PESSOAS = "data/pessoas.json";
+const baixarDetalhe = id => baixar(urlDetalhe(id), g => { for (const [k, v] of Object.entries(g)) if (BY_ID[k]) Object.assign(BY_ID[k], v); });
+const baixarIdioma = l => baixar(urlIdioma(l), t => { for (const [k, v] of Object.entries(t)) if (BY_ID[k]?.simples) BY_ID[k].simples[l] = v; });
+const baixarPessoas = () => baixar(URL_PESSOAS, d => { PESSOAS = montarPessoas(d.pecs); });
+const PAGE = 30;
+const state = { q: "", tema: "", casa: "", fase: "todas", ordem: "recentes", shown: PAGE };
+try { Object.assign(state, JSON.parse(localStorage.getItem("pec-filtros") || "{}"), { shown: PAGE, q: "" }); } catch (e) {}
+const save = () => { try { localStorage.setItem("pec-filtros", JSON.stringify({ tema: state.tema, casa: state.casa, fase: state.fase, ordem: state.ordem })); } catch (e) {} };
+
+/* ---------- idioma ---------- */
+let LANG = "pt";
+try { LANG = localStorage.getItem("pec-idioma") || ""; } catch (e) {}
+if (!I18N[LANG]) LANG = "pt";        // o site abre sempre em português; inglês e espanhol só se a pessoa escolher
+let CUR = LANG;                       // idioma em uso no momento (a Descubra roda sempre em português)
+const T = () => I18N[CUR];
+function emPT(fn) { const old = CUR; CUR = "pt"; try { return fn(); } finally { CUR = old; } }
+function setLang(l) {
+  LANG = CUR = l;
+  try { localStorage.setItem("pec-idioma", l); } catch (e) {}
+  aplicarCabecalho();
+  rota();
+}
+function aplicarCabecalho() {
+  document.documentElement.lang = I18N[LANG].htmlLang;
+  const nav = I18N[LANG];
+  document.querySelector('[data-nav="inicio"]').textContent = nav.nav_pecs;
+  document.querySelector('[data-nav="como-funciona"]').textContent = nav.nav_como;
+  document.querySelector('[data-nav="descubra"]').textContent = nav.nav_descubra;
+  document.querySelector(".lang").setAttribute("aria-label", nav.idioma);
+  document.querySelectorAll("[data-lang]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.lang === LANG)));
+}
+document.querySelectorAll("[data-lang]").forEach(b => b.addEventListener("click", () => setLang(b.dataset.lang)));
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const norm = s => String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+const slug = s => norm(s).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const HOJE = new Date();
+const dias = d => d ? Math.floor((HOJE - new Date(d + "T12:00:00")) / 864e5) : Infinity;
+const dataBR = d => d ? new Date(d + "T12:00:00").toLocaleDateString(T().locale, { day: "2-digit", month: "short", year: "numeric" }).replace(/\./g, "") : "—";
+function haQuanto(d) {
+  const n = dias(d), h = T().ha;
+  if (!isFinite(n)) return h.sem;
+  if (n <= 0) return h.hoje;
+  if (n === 1) return h.ontem;
+  if (n < 30) return h.dias(n);
+  if (n < 365) return h.meses(Math.round(n / 30));
+  return h.anos(Math.floor(n / 365));
+}
+const TOTAL_CASA = { camara: 513, senado: 81 };
+
+/* ---------- resumo no idioma atual (cai para o português se faltar) ---------- */
+const S = p => { const s = p.simples; if (!s) return null; return CUR !== "pt" && s[CUR] ? { ...s, ...s[CUR] } : s; };
+
+/* ---------- situação oficial em linguagem simples ---------- */
+const SITUACOES = [/rejeitad/i, /norma jurídica|promulgad/i, /aguardando promulga/i, /aprecia[çc][ãa]o pelo senado|envio ao senado/i, /tramitando em conjunto/i, /arquivad|arquivo/i, /retirad/i,
+  /pronta para pauta|pronto para delibera|pronta para a pauta|inclu[íi]da na pauta|ordem do dia/i, /comiss[ãa]o tempor[áa]ria|comiss[ãa]o especial/i, /devolu[çc][ãa]o de relator/i,
+  /designa[çc][ãa]o (de|do) relator/i, /com a relatoria|aguardando parecer/i, /vista/i, /audi[êe]ncia p[úu]blica/i, /despacho|chancela|encaminhamento|recebimento|leitura/i];
+const simples = s => { const i = SITUACOES.findIndex(rx => rx.test(s || "")); return i >= 0 ? T().sit[i] : (s || T().sem_info); };
+function agora(p) {
+  if (p.estado === "rejeitada") return T().sit[0];
+  if (p.estado === "aprovada") {
+    const v = p.votacoes.filter(x => x.turno === 2 && x.aprovada).pop();
+    if (v) return T().agora_aprov(T().naCasa[v.casa], dataBR(v.data), T().aCasa[v.casa === "camara" ? "senado" : "camara"]);
+  }
+  return simples(p.situacao);
+}
+
+/* ---------- fase, cor e textos ---------- */
+function casasAprovadas(p) {
+  const c = new Set(p.votacoes.filter(v => v.turno === 2 && v.aprovada).map(v => v.casa));
+  if (!c.size && p.estado === "aprovada") c.add(p.casaOrigem);
+  return c;
+}
+function fase(p) {
+  if (p.estado === "promulgada") return "promulgada";
+  if (p.estado === "arquivada" || p.estado === "encerrada" || p.estado === "rejeitada") return "arquivada";
+  if (p.estado === "apensada") return "anexada";
+  if (casasAprovadas(p).size) return "aprovada";
+  if (dias(p.ultimaMovimentacao) > 365) return "parada";
+  const et = DB.etapas[p.casaOrigem][p.etapa] || "";
+  if (/^Plenário/.test(et) || /pronta para pauta|pronto para delibera/i.test(p.situacao)) return "votacao";
+  return "andando";
+}
+const FASES = ["todas", "votacao", "andando", "aprovada", "promulgada", "parada", "anexada", "arquivada"];
+const COR = { votacao: "amarelo", andando: "amarelo", aprovada: "amarelo", promulgada: "verde", parada: "vermelho", anexada: "cinza", arquivada: "vermelho" };
+// a etiqueta só fica verde quando a PEC passou nas duas Casas; aprovada em uma só continua amarela (em andamento)
+function status(p) {
+  if (p.estado === "rejeitada") return ["vermelho", T().rejeitada];
+  const f = fase(p);
+  if (f !== "aprovada") return [COR[f], T().pill[f]];
+  const c = casasAprovadas(p);
+  if (c.size > 1) return ["verde", T().ap_duas];
+  return ["amarelo", c.has("camara") ? T().ap_cam : T().ap_sen];
+}
+const pill = p => { const [c, t] = status(p); return `<span class="pill ${c}">${t}</span>`; };
+const titulo = p => S(p)?.titulo || p.ementa;
+const nomeEtapa = nome => T().etapas[nome] || nome;
+const casaAtual = p => {
+  const et = DB.etapas[p.casaOrigem][p.etapa] || "";
+  if (/Câmara/.test(et)) return "camara";
+  if (/Senado/.test(et)) return "senado";
+  return p.casa === "ambas" ? p.casaOrigem : p.casa;
+};
+const apelidoTag = p => S(p)?.apelido ? `<span class="apelido">${esc(S(p).apelido)}</span>` : "";
+
+function dots(p) {
+  const n = DB.etapas[p.casaOrigem].length, cur = p.etapa, done = p.estado === "promulgada";
+  let h = "";
+  for (let i = 0; i < n; i++) h += `<i class="${done || i < cur ? "on" : i === cur ? "now" : ""}"></i>`;
+  return `<span class="dots" aria-label="${cur + 1}/${n}: ${esc(nomeEtapa(DB.etapas[p.casaOrigem][cur]))}">${h}</span>`;
+}
+
+function cardPEC(p, oculto = false) {
+  const f = fase(p), ca = casaAtual(p);
+  return `<a class="card ${status(p)[0]}" href="#pec-${p.id}"${oculto ? " hidden" : ""}>
+    <div class="meta"><span class="num">${esc(p.sigla)}</span>${apelidoTag(p)}${pill(p)}</div>
+    <div class="title">${esc(titulo(p))}</div>
+    ${S(p) ? `<div class="sub">${esc(S(p).oQueMuda)}</div>` : ""}
+    <div class="meta">${dots(p)}<span>${f === "promulgada" ? T().promulgada : esc(nomeEtapa(DB.etapas[p.casaOrigem][p.etapa]))}</span><span class="casa ${ca}">${f === "promulgada" ? T().congresso : T().casa[ca]}</span><span>${T().atualizada(haQuanto(p.ultimaMovimentacao))}</span></div>
+  </a>`;
+}
+
+/* ---------- temas: [id, nome, palavras que a pessoa pode digitar, regex aplicada ao texto da PEC sem acentos] ---------- */
+const TEMAS = [
+  ["meio-ambiente", "Meio ambiente", ["meio ambiente", "ambiental", "natureza", "ecolog", "desmat", "poluicao", "bioma", "preserva"], /ambient|bioma|florest|desmat|polui|preserva|ibama|icmbio|pantanal|cerrado|caatinga|pampa|recicla|conservacao/],
+  ["clima", "Clima e desastres", ["clima", "enchente", "seca", "desastre", "calamidade", "aquecimento"], /clim|enchente|\bseca|desastre|calamidade|emergencias? ambienta|inundac/],
+  ["saude-publica", "Saúde pública (SUS)", ["saude publica", "sus", "posto de saude", "hospital publico", "vacina", "saude", "medico", "enfermag"], /\bsus\b|saude publica|sistema unico de saude|vacina|agentes comunitarios|enfermag|medico de estado|endemias|gestante|plasma|saude/],
+  ["saude-privada", "Saúde privada e remédios", ["saude privada", "plano de saude", "planos de saude", "convenio medico", "remedio", "medicamento", "farmacia", "clinica"], /planos? de saude|saude suplementar|filantrop|medicament|remedio|farmac|plasma|doencas raras|hospitais/],
+  ["praia", "Praias e litoral", ["praia", "litoral", " mar ", "costa", "orla", "beira-mar"], /praia|terrenos? de marinha|litoral|costeir|\borla|beira-mar/],
+  ["seguranca", "Segurança pública", ["seguranca", "policia", "policial", "crime", "violencia", "bandido", "guarda municipal", "prisao", "presidio", "maioridade"], /seguranca publica|polici|guarda|bombeir|crime|criminal|penal|prisional|presidio|maioridade|inimputab/],
+  ["drogas", "Combate às drogas", ["droga", "maconha", "trafico", "entorpecente", "cocaina", "crack"], /drog|entorpecent|trafico|maconha|toxicolog/],
+  ["amazonia", "Amazônia", ["amazonia", "amazonas", "floresta amazonica", "manaus", "regiao norte"], /amazon|zona franca de manaus|suframa|regiao norte|acre|rondonia|roraima|amapa|floresta/],
+  ["indigenas", "Povos indígenas", ["indigena", "indio", "demarcacao", "marco temporal", "aldeia"], /indigen|indios|marco temporal|demarca/],
+  ["trabalho", "Trabalho e emprego", ["trabalho", "emprego", "salario", "jornada", "6x1", "clt", "sindicato", "carteira assinada", "folga", "ferias"], /trabalh|jornada|emprego|salari|sindica|\bclt\b|6x1|piso salarial|licenca/],
+  ["aposentadoria", "Aposentadoria e Previdência", ["aposentadoria", "aposentar", "aposentado", "inss", "previdencia", "pensao"], /aposentad|previd|pensao|pensoes|\binss\b|auxilio-reclusao|seguridade/],
+  ["educacao", "Educação", ["educacao", "escola", "ensino", "professor", "universidade", "faculdade", "creche", "enem", "estudante", "merenda"], /educa|ensino|escola|universi|professor|creche|fundeb|estudant|magisterio|merenda|alimentacao escolar/],
+  ["impostos", "Impostos", ["imposto", "tributo", "ipva", "iptu", "icms", "imposto de renda", "reforma tributaria"], /impost|tribut|icms|ipva|iptu|\bibs\b|\bcbs\b|isenc|imunidade|\bitr\b|\bipi\b|\bcide\b/],
+  ["economia", "Economia e contas públicas", ["economia", "gasto", "orcamento", "divida", "juros", "inflacao", "teto de gastos", "dinheiro publico", "fiscal"], /econom|orcament|gastos|despesa|divida|juros|teto de gastos|fiscal|banco central|precatorio|fundo de participacao|emendas? (individ|parlam|de bancada|de comiss)/],
+  ["genero", "Mulheres e igualdade de gênero", ["mulher", "mulheres", "genero", "feminicidio", "maternidade", "machismo", "feminino", "gestante"], /mulher|mulheres|genero|feminic|maternidade|paternidade|gestante|parental|paridade|de cada sexo|candidaturas femininas|estupro/],
+  ["lgbtq", "LGBTQIA+", ["lgbt", "lgbtq", "lgbtqia", "gay", "lesbica", "trans", "orientacao sexual", "homoafetiv", "casamento igualitario"], /orientacao sexual|lgbt|homoafetiv|identidade de genero|entidade familiar|expressao sexual/],
+  ["racial", "Igualdade racial", ["racismo", "negro", "negros", "racial", "raca", "cotas raciais", "pretos", "pardos"], /racial|racismo|\bnegr|pretos|pardos|\braca\b/],
+  ["criancas", "Crianças e adolescentes", ["crianca", "infancia", "adolescente", "jovem", "jovens", "filho", "bebe"], /crianca|infan|adolescente|jovens|menores? de|maioridade|primeira infancia|orfa|creche/],
+  ["idosos", "Idosos", ["idoso", "idosa", "terceira idade", "velhice"], /idos|65 anos|longa duracao/],
+  ["deficiencia", "Pessoas com deficiência", ["deficiencia", "pcd", "libras", "acessibilidade", "autismo", "autista", "surdo", "cadeirante"], /deficien|libras|acessibilidade|surd/],
+  ["eleicoes", "Eleições e partidos", ["eleicao", "eleicoes", "voto", "partido", "candidato", "urna", "reeleicao", "politica"], /eleic|eleitor|partid|candidat|reeleicao|\bvoto|urna|plebiscito|coligac/],
+  ["justica", "STF e Justiça", ["stf", "supremo", "justica", "juiz", "tribunal", "judiciario"], /supremo|\bstf\b|tribuna|\bjuiz|juizes|magistra|judici|ministerio publico|\bcnj\b|\bforo\b/],
+  ["corrupcao", "Corrupção e privilégios", ["corrupcao", "transparencia", "privilegio", "nepotismo", "foro privilegiado", "supersalario", "penduricalho", "blindagem", "imunidade parlamentar"], /corrup|transparen|nepotismo|privileg|improbidade|teto (salarial|remuneratorio)|\bforo\b|penduricalh|auxilio-moradia|imunidade parlamentar|inviolabilidade|prerrogativas parlamentares|blindagem/],
+  ["servidores", "Servidores públicos", ["servidor", "funcionalismo", "concurso", "funcionario publico", "estabilidade"], /servidor|concurso publico|funcionalismo|cargos? em comissao|estabilidade|reforma administrativa/],
+  ["moradia", "Moradia e cidades", ["moradia", "casa propria", "habitacao", "aluguel", "saneamento", "esgoto", "agua"], /moradia|habitac|imove|saneamento|esgoto|agua potavel|mobilidade|regioes metropolitanas|urban/],
+  ["transporte", "Transporte", ["transporte", "onibus", "metro", "estrada", "rodovia", "caminhoneiro", "motorista", "passe livre"], /transport|rodovi|ferrovi|\bportos|motorista|caminhoneir|onibus/],
+  ["agro", "Agro e campo", ["agro", "agricultura", "rural", "fazenda", "produtor rural", "agrotoxico", "pecuaria", "reforma agraria"], /rural|\bagro|agricol|agricult|pecuar|agrotoxic|pesticid|reforma agraria/],
+  ["ciencia", "Ciência, tecnologia e internet", ["ciencia", "tecnologia", "internet", "pesquisa", "inteligencia artificial", "digital", "algoritmo"], /ciencia|cientific|tecnolog|internet|digital|pesquisa|inovacao|algorit|fndct/],
+  ["cultura", "Cultura e esporte", ["cultura", "arte", "artista", "esporte", "futebol", "musica", "lazer"], /cultur|esport|futebol|music|artist/],
+  ["pobreza", "Renda e combate à pobreza", ["pobreza", "bolsa familia", "auxilio", "renda basica", "fome", "assistencia social", "bpc", "pobres"], /pobreza|renda basica|bolsa familia|auxilio brasil|\bfome|seguranca alimentar|transferencia de renda|assistencia social|beneficio de prestacao/],
+  ["religiao", "Religião", ["religiao", "igreja", "templo", "evangelic", "catolic"], /religi|igreja|templo|culto/],
+  ["municipios", "Estados e municípios", ["prefeitura", "municipio", "minha cidade", "governador", "prefeito", "vereador", "fpm"], /municip|prefeitur|fundo de participacao|federativ|vereador/],
+  ["defesa", "Forças Armadas e defesa", ["militar", "militares", "exercito", "forcas armadas", "defesa nacional", "marinha", "aeronautica"], /forcas armadas|militar|defesa nacional|exercito/],
+  ["consumidor", "Preços e bolso do consumidor", ["preco", "conta de luz", "gasolina", "combustivel", "gas de cozinha", "botijao", "cesta basica", "juros do cartao", "consumidor"], /combusti|gas de cozinha|\bglp\b|energia eletrica|cesta basica|consumidor|baratear|preco/],
+];
+const TEMA_BY = Object.fromEntries(TEMAS.map(t => [t[0], t]));
+const nomeTema = t => CUR === "pt" ? t[1] : TEMAS_I18N[t[0]][CUR === "en" ? 0 : 1];
+// texto da PEC usado nas buscas: sempre em português (os temas e a Descubra trabalham em português),
+// mais o resumo no idioma escolhido, para a busca da lista funcionar em inglês e espanhol
+const TEXTO_PEC = new Map();
+function textoPEC(p) {
+  const k = p.id + CUR;
+  if (!TEXTO_PEC.has(k)) {
+    const s = p.simples || {}, tr = CUR !== "pt" && s[CUR] ? Object.values(s[CUR]).join(" ") : "";
+    TEXTO_PEC.set(k, norm(`${s.apelido || ""} ${s.titulo || ""} ${s.oQueMuda || ""} ${s.quemAfeta || ""} ${s.porQueImporta || ""} ${p.ementa} ${p.explicacao} ${p.palavrasChave} ${tr}`));
+  }
+  return TEXTO_PEC.get(k);
+}
+const PRIOR = { votacao: 0, aprovada: 1, andando: 2, promulgada: 3, parada: 4, anexada: 5, arquivada: 6 };
+
+/* ---------- parlamentares: índice montado a partir das PECs ---------- */
+function montarPessoas(pecs) {
+  const P = new Map();
+  const get = (nome, casa) => {
+    const k = casa + "-" + slug(nome);
+    if (!P.has(k)) P.set(k, { key: k, nome, casa, partido: "", uf: "", ultimaData: "", autor: new Set(), coautor: new Set(), relator: [], votos: [] });
+    return P.get(k);
+  };
+  for (const p of pecs) {
+    for (const [nome, casa, principal] of p.autores || []) (principal ? get(nome, casa).autor : get(nome, casa).coautor).add(p.id);
+    for (const [nome, casa, org] of p.relatores || []) { const x = get(nome, casa); if (!x.relator.some(r => r[0] === p.id && r[1] === org)) x.relator.push([p.id, org]); }
+    for (const v of p.votacoes) for (const [nome, partido, uf, voto] of v.votos) {
+      const x = get(nome, v.casa);
+      x.votos.push([p.id, v.turno, v.data, voto]);
+      if (v.data >= x.ultimaData) { x.ultimaData = v.data; x.partido = partido; x.uf = uf; }
+    }
+  }
+  for (const x of P.values()) for (const id of x.autor) x.coautor.delete(id);
+  const lista = [...P.values()];
+  lista.forEach(x => { x.tokens = norm(x.nome).replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(t => t.length > 2 && !["dos", "das", "del"].includes(t)); x.peso = x.votos.length + x.autor.size * 5 + x.relator.length * 5 + x.coautor.size; });
+  return { lista, porKey: Object.fromEntries(lista.map(x => [x.key, x])) };
+}
+function acharPessoas(texto) {
+  const toks = new Set(norm(texto).replace(/[^a-z0-9 ]/g, " ").split(/\s+/));
+  const texto_n = " " + norm(texto).replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ") + " ";
+  let cheio = PESSOAS.lista.filter(x => x.tokens.length && x.tokens.every(tk => toks.has(tk)) && (x.tokens.length > 1 || texto_n.includes(" " + norm(x.nome).replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim() + " ")));
+  const maior = Math.max(0, ...cheio.map(x => x.tokens.length));
+  cheio = cheio.filter(x => x.tokens.length === maior).sort((a, b) => b.peso - a.peso);
+  if (cheio.length) return { certos: cheio, talvez: [] };
+  const talvez = PESSOAS.lista.map(x => [x, x.tokens.filter(tk => tk.length > 3 && toks.has(tk)).length]).filter(([, n]) => n > 0)
+    .sort((a, b) => b[1] - a[1] || b[0].peso - a[0].peso).slice(0, 8).map(a => a[0]);
+  return { certos: [], talvez };
+}
+
+/* ---------- início ---------- */
+function filtrar() {
+  const q = norm(state.q.trim());
+  let l = DB.pecs.filter(p => {
+    if (state.tema && TEMA_BY[state.tema] && !TEMA_BY[state.tema][3].test(textoPEC(p))) return false;
+    if (state.casa && p.casa !== state.casa && p.casa !== "ambas") return false;
+    if (state.fase !== "todas" && fase(p) !== state.fase) return false;
+    if (q) {
+      const hay = norm(`${p.sigla} ${p.siglaSenado || ""} ${p.autor}`) + " " + textoPEC(p);
+      if (!q.split(/\s+/).every(w => hay.includes(w))) return false;
+    }
+    return true;
+  });
+  if (state.ordem === "antigas") l = l.slice().sort((a, b) => (a.apresentacao || "").localeCompare(b.apresentacao || ""));
+  else if (state.ordem === "novas") l = l.slice().sort((a, b) => (b.apresentacao || "").localeCompare(a.apresentacao || ""));
+  else if (state.ordem === "avancadas") l = l.slice().sort((a, b) => (b.etapa / DB.etapas[b.casaOrigem].length) - (a.etapa / DB.etapas[a.casaOrigem].length) || b.ultimaMovimentacao.localeCompare(a.ultimaMovimentacao));
+  return l;
+}
+const ultimaVotacao = p => p.votacoes.length ? p.votacoes[p.votacoes.length - 1] : null;
+
+function cardVotada(p) {
+  const v = ultimaVotacao(p), t = TOTAL_CASA[v.casa], s = v.placar.sim || 0, n = v.placar.nao || 0, a = v.placar.abstencao || 0, L = T();
+  return `<a class="card ${status(p)[0]}" href="#pec-${p.id}">
+    <div class="meta"><span class="num">${esc(p.sigla)}</span>${apelidoTag(p)}${pill(p)}</div>
+    <div class="title">${esc(titulo(p))}</div>
+    <div class="mini-bar" role="img" aria-label="${L.vot_aria(s, t, v.necessarios)}">
+      <span style="width:${s / t * 100}%;background:var(--sim)"></span><span style="width:${n / t * 100}%;background:var(--nao)"></span><span style="width:${a / t * 100}%;background:var(--abst)"></span>
+    </div>
+    <div class="meta"><span class="casa ${v.casa}">${(v.aprovada ? L.aprovou : L.rejeitou)(L.casa[v.casa])} ${L.noTurno(v.turno)}</span><span class="num k-sim">${s} ${L.sim}</span><span class="num k-nao">${n} ${L.nao}</span><span>${L.precisava(v.necessarios)}</span><span>${dataBR(v.data)}</span></div>
+  </a>`;
+}
+
+function renderInicio() {
+  const L = T();
+  const ativas = DB.pecs.filter(p => ["andando", "votacao"].includes(fase(p))).length;
+  const prontas = DB.pecs.filter(p => fase(p) === "votacao").length;
+  const promulg = DB.pecs.filter(p => p.estado === "promulgada").length;
+  const votadas = DB.pecs.filter(p => p.votacoes.length && dias(ultimaVotacao(p).data) < 400)
+    .sort((a, b) => ultimaVotacao(b).data.localeCompare(ultimaVotacao(a).data)).slice(0, 6);
+
+  app.innerHTML = `
+  <div class="hero">
+    <h1>${L.hero_h1}</h1>
+    <p>${L.hero_p}</p>
+    <div class="stats">
+      <div><b class="num">${ativas}</b><span class="muted">${L.st_ativas}</span></div>
+      <div><b class="num">${prontas}</b><span class="muted">${L.st_prontas}</span></div>
+      <div><b class="num">${promulg}</b><span class="muted">${L.st_promulg}</span></div>
+    </div>
+  </div>
+
+  <section aria-labelledby="h-desc">
+    <div class="teaser">
+      <h2 id="h-desc">${L.teaser_h}</h2>
+      <p>${L.teaser_p}</p>
+      <form class="row" id="teaser-form">
+        <input class="search" id="teaser-in" type="text" aria-label="${L.teaser_lbl}" placeholder="${L.teaser_ph}" autocomplete="off" style="flex:1 1 14rem;min-width:0">
+        <button class="btn" type="submit">${L.teaser_btn}</button>
+      </form>
+    </div>
+  </section>
+
+  ${votadas.length ? `<section aria-labelledby="h-vot">
+    <div class="sec-head"><h2 id="h-vot">${L.vot_h}</h2><span class="muted small">${L.vot_sub}</span></div>
+    <div class="feat">${votadas.map(cardVotada).join("")}</div>
+  </section>` : ""}
+
+  <section aria-labelledby="h-todas">
+    <div class="sec-head"><h2 id="h-todas">${L.todas_h}</h2><span class="muted small" id="count"></span></div>
+    <div class="filters">
+      <label class="label" for="q">${L.buscar}</label>
+      <input id="q" class="search" type="search" placeholder="${L.busca_ph}" value="${esc(state.q)}" autocomplete="off">
+      <div class="chips" role="group" aria-label="${L.sit_lbl}">${FASES.map(k => `<button class="chip" type="button" data-fase="${k}" aria-pressed="${state.fase === k}">${L.fases[k]}</button>`).join("")}</div>
+      <div class="row">
+        <select id="tema" aria-label="${L.tema_lbl}"><option value="">${L.tema_todos}</option>${TEMAS.slice().sort((a, b) => nomeTema(a).localeCompare(nomeTema(b), L.locale)).map(t => `<option value="${t[0]}" ${state.tema === t[0] ? "selected" : ""}>${esc(nomeTema(t))}</option>`).join("")}</select>
+        <select id="casa" aria-label="${L.casa_lbl}"><option value="">${L.casa_todas}</option><option value="camara" ${state.casa === "camara" ? "selected" : ""}>${L.casa_cam}</option><option value="senado" ${state.casa === "senado" ? "selected" : ""}>${L.casa_sen}</option></select>
+        <select id="ordem" aria-label="${L.ord_lbl}">
+          <option value="recentes" ${state.ordem === "recentes" ? "selected" : ""}>${L.ord_rec}</option>
+          <option value="avancadas" ${state.ordem === "avancadas" ? "selected" : ""}>${L.ord_av}</option>
+          <option value="novas" ${state.ordem === "novas" ? "selected" : ""}>${L.ord_novas}</option>
+          <option value="antigas" ${state.ordem === "antigas" ? "selected" : ""}>${L.ord_ant}</option>
+        </select>
+      </div>
+    </div>
+    <div class="list" id="list"></div>
+  </section>
+
+  <section aria-labelledby="h-part">
+    <div class="box soft">
+      <h2 id="h-part">${L.part_h}</h2>
+      <p>${L.part_p}</p>
+      <div class="links"><a href="https://www12.senado.leg.br/ecidadania/principalmateria" target="_blank" rel="noopener">${L.part_l1}</a><a href="#como-funciona">${L.part_l2}</a></div>
+    </div>
+  </section>
+  ${rodape()}`;
+
+  app.querySelector("#teaser-form").addEventListener("submit", e => {
+    e.preventDefault();
+    PENDENTE = app.querySelector("#teaser-in").value.trim();
+    location.hash = "descubra";
+  });
+  const q = app.querySelector("#q");
+  q.addEventListener("input", () => { state.q = q.value; state.shown = PAGE; renderLista(); });
+  app.querySelectorAll("[data-fase]").forEach(b => b.addEventListener("click", () => {
+    state.fase = b.dataset.fase; state.shown = PAGE; save();
+    app.querySelectorAll("[data-fase]").forEach(x => x.setAttribute("aria-pressed", x === b)); renderLista();
+  }));
+  for (const id of ["tema", "casa", "ordem"]) app.querySelector("#" + id).addEventListener("change", e => { state[id] = e.target.value; state.shown = PAGE; save(); renderLista(); });
+  renderLista();
+}
+
+function renderLista() {
+  const l = filtrar(), el = app.querySelector("#list"), L = T();
+  app.querySelector("#count").textContent = L.count(l.length);
+  if (!l.length) { el.innerHTML = `<div class="empty">${L.nada_filtro}</div>`; return; }
+  el.innerHTML = l.slice(0, state.shown).map(p => cardPEC(p)).join("") +
+    (l.length > state.shown ? `<button class="more" type="button" id="more">${L.mostrar_mais(Math.min(PAGE, l.length - state.shown))}</button>` : "");
+  el.querySelector("#more")?.addEventListener("click", () => { state.shown += PAGE; renderLista(); });
+}
+
+/* ---------- página de uma PEC ---------- */
+function caminho(p) {
+  const et = DB.etapas[p.casaOrigem], parada = ["arquivada", "encerrada"].includes(p.estado), L = T();
+  return `<ol class="path">${et.map((nome, i) => {
+    const done = p.estado === "promulgada" || i < p.etapa, now = !done && i === p.etapa;
+    const cls = done ? "done" : now ? (parada ? "stop" : "now") : "";
+    return `<li class="${cls}"><span class="mark" aria-hidden="true">${done ? "✓" : i + 1}</span>
+      <div class="step"><b>${esc(nomeEtapa(nome))}${now ? (parada ? L.parou : L.aqui) : ""}</b><span class="muted small">${esc(L.desc_etapa[nome] || "")}</span></div></li>`;
+  }).join("")}</ol>`;
+}
+
+const VOTO_CLS = { sim: "k-sim", nao: "k-nao", abstencao: "k-abst", obstrucao: "k-abst", outro: "k-abst" };
+function votacaoHTML(v, idx) {
+  const t = TOTAL_CASA[v.casa], s = v.placar.sim || 0, n = v.placar.nao || 0, a = v.placar.abstencao || 0, L = T();
+  const qpos = v.necessarios / t * 100, quem = v.casa === "camara" ? L.deputados : L.senadores;
+  let detalhes = "";
+  if (v.votos.length) {
+    const por = {};
+    for (const [, partido, , voto] of v.votos) {
+      const k = partido || "—";
+      por[k] ??= { sim: 0, nao: 0, abstencao: 0, outro: 0, obstrucao: 0, total: 0 };
+      por[k][voto] = (por[k][voto] || 0) + 1; por[k].total++;
+    }
+    const linhas = Object.entries(por).sort((x, y) => y[1].total - x[1].total).map(([k, c]) => `<tr>
+      <td>${esc(k)}</td><td class="n">${c.sim}</td><td class="n">${c.nao}</td><td class="n">${c.abstencao + c.outro + c.obstrucao}</td>
+      <td><span class="pbar" aria-hidden="true"><span style="width:${c.sim / c.total * 100}%;background:var(--sim)"></span><span style="width:${c.nao / c.total * 100}%;background:var(--nao)"></span></span></td></tr>`).join("");
+    const ufs = [...new Set(v.votos.map(x => x[2]).filter(Boolean))].sort();
+    detalhes = `<details><summary>${L.por_partido}</summary>
+      <div class="tbl-wrap"><table><thead><tr><th>${L.partido}</th><th class="n">${L.votos.sim}</th><th class="n">${L.votos.nao}</th><th class="n">${L.outros}</th><th></th></tr></thead><tbody>${linhas}</tbody></table></div>
+      <p class="notice">${L.outros_nota}</p>
+    </details>
+    <details><summary>${v.casa === "camara" ? L.seu_dep : L.seu_sen}</summary>
+      <div class="finder">
+        <input type="search" id="vb-${idx}" placeholder="${L.nome_parl}" autocomplete="off" aria-label="${L.nome_parl}">
+        <select id="vu-${idx}" aria-label="${L.uf}"><option value="">${L.todos_uf}</option>${ufs.map(u => `<option>${u}</option>`).join("")}</select>
+      </div>
+      <div class="tbl-wrap"><table><thead><tr><th>${L.parlamentar}</th><th>${L.partido}</th><th>${L.uf}</th><th>${L.voto}</th></tr></thead><tbody id="vt-${idx}"></tbody></table></div>
+    </details>`;
+  }
+  return `<div class="box vote">
+    <div class="meta"><span class="casa ${v.casa}">${L.casa[v.casa]}</span><span>${L.turno(v.turno)}</span><span>${dataBR(v.data)}</span><b class="${v.aprovada ? "k-sim" : "k-nao"}">${v.aprovada ? L.ap_turno : L.rej_turno}</b></div>
+    <div class="score"><span><b class="num k-sim">${s}</b> ${L.sim}</span><span><b class="num k-nao">${n}</b> ${L.nao}</span><span><b class="num k-abst">${a}</b> ${L.abst}</span></div>
+    <div>
+      <div class="q-label" aria-hidden="true"><span style="left:${qpos}%">${L.minimo(v.necessarios)}</span></div>
+      <div class="bar" role="img" aria-label="${L.vot_aria(s, `${t} ${quem}`, v.necessarios)}">
+        <span style="width:${s / t * 100}%;background:var(--sim)"></span><span style="width:${n / t * 100}%;background:var(--nao)"></span><span style="width:${a / t * 100}%;background:var(--abst)"></span>
+        <i class="q" style="left:${qpos}%"></i>
+      </div>
+      <div class="meta" style="justify-content:space-between"><span class="num">0</span><span>${t} ${quem}</span></div>
+    </div>
+    ${detalhes}
+  </div>`;
+}
+function ligarBuscaVotos(v, idx) {
+  const b = document.getElementById("vb-" + idx), u = document.getElementById("vu-" + idx), tb = document.getElementById("vt-" + idx);
+  if (!tb) return;
+  const L = T();
+  const draw = () => {
+    const q = norm(b.value.trim()), uf = u.value;
+    const l = v.votos.filter(x => (!uf || x[2] === uf) && (!q || norm(x[0]).includes(q))).sort((x, y) => x[0].localeCompare(y[0]));
+    tb.innerHTML = l.length ? l.map(([nome, partido, ufx, voto]) => `<tr><td><a href="#parlamentar-${v.casa}-${slug(nome)}">${esc(nome)}</a></td><td>${esc(partido)}</td><td>${esc(ufx)}</td><td class="${VOTO_CLS[voto]}"><b>${L.votos[voto]}</b></td></tr>`).join("")
+      : `<tr><td colspan="4" class="muted">${L.ninguem}</td></tr>`;
+  };
+  b.addEventListener("input", draw); u.addEventListener("change", draw); draw();
+}
+
+const pessoaLink = (nome, casa, extra = "") => `<a class="person" href="#parlamentar-${casa}-${slug(nome)}">${esc(nome)}${extra ? ` <span class="muted">· ${esc(extra)}</span>` : ""}</a>`;
+function quemHTML(p) {
+  const aut = p.autores || [], rel = p.relatores || [], L = T();
+  if (!aut.length && !rel.length) return "";
+  const principais = aut.filter(a => a[2]), co = aut.filter(a => !a[2]);
+  return `<section aria-labelledby="h-quem"><h2 id="h-quem">${L.quem_h}</h2>
+    <div class="box">
+      ${principais.length ? `<p class="label">${L.quem_propos}</p><div class="people">${principais.map(a => pessoaLink(a[0], a[1], L.casa[a[1]])).join("")}</div>` : `<p class="muted small">${esc(L.autor(p.autor))}</p>`}
+      ${rel.length ? `<p class="label">${L.relatores}</p><div class="people">${rel.map(r => pessoaLink(r[0], r[1], r[2] ? `${L.colegiado[r[2]] || r[2]} · ${L.casa[r[1]]}` : L.casa[r[1]])).join("")}</div>` : ""}
+      ${co.length ? `<details><summary>${L.assinaram(co.length)}</summary><div class="people" style="margin-top:10px">${co.map(a => pessoaLink(a[0], a[1])).join("")}</div></details>` : ""}
+    </div>
+  </section>`;
+}
+function opinaHTML(p) {
+  const links = [], L = T();
+  if (p.codigoMateria) links.push(`<a class="btn small" href="https://www12.senado.leg.br/ecidadania/visualizacaomateria?id=${p.codigoMateria}" target="_blank" rel="noopener">${L.opina_sen}</a>`);
+  if (p.idCamara) links.push(`<a class="btn small ghost" href="https://www.camara.leg.br/enquetes/${p.idCamara}" target="_blank" rel="noopener">${L.opina_cam}</a>`);
+  if (!links.length) return "";
+  return `<div class="opina"><b>${L.opina_h}</b><p class="small">${L.opina_p}</p><div class="row">${links.join("")}</div></div>`;
+}
+
+const tipoVersao = t => CUR === "pt" || !TIPO_VERSAO[t] ? t : TIPO_VERSAO[t][CUR === "en" ? 0 : 1];
+function seloHTML(p) {
+  const L = T(), b = (p.simples || {}).base || {};
+  if (!p.simples) return "";
+  const txt = b.conferido === "pessoa" ? L.selo_pessoa(dataBR(b.data)) : b.conferido === "texto" ? L.selo_texto(dataBR(b.data)) : L.selo_ementa;
+  const link = REPO_ERROS ? ` <a href="https://github.com/${REPO_ERROS}/issues/new?title=${encodeURIComponent("Erro no resumo da " + p.sigla)}&body=${encodeURIComponent("PEC: " + p.sigla + "\nPágina: " + location.href + "\n\nO que está errado:\n")}" target="_blank" rel="noopener">${L.erro_btn}</a>` : "";
+  return `<p class="selo ${b.conferido || "ementa"}">${txt}${link}</p>`;
+}
+function textoMudouHTML(p) {
+  const L = T(), a = p.textoAtual, b = (p.simples || {}).base || {};
+  if (!a || !p.simples) return "";
+  const links = `<div class="links">${a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${L.ler_versao}</a>` : ""}${p.textoOriginal?.url ? `<a href="${esc(p.textoOriginal.url)}" target="_blank" rel="noopener">${L.ler_original}</a>` : ""}</div>`;
+  const m = p.simples.mudanca;
+  if (b.versao === a.id && m && m.descricao) return `<div class="mudou${m.objetivoMudou ? " grande" : ""}"><p class="small">${L.mudou_desc(esc(tipoVersao(a.tipo)), dataBR(a.data))}</p><p lang="pt-BR">${esc(m.descricao)}</p>${m.objetivoMudou ? `<b>${L.objetivo_mudou}</b>` : ""}${links}</div>`;
+  if (b.versao === a.id) return `<p class="small muted">${L.mudou_ok(esc(tipoVersao(a.tipo)), dataBR(a.data))}</p>`;
+  const parecer = /^Parecer/.test(a.tipo);   // parecer traz o relatório inteiro: não dá para medir o tamanho da mudança
+  // versao "outra:<tipo> <data>": o resumo foi conferido com uma versão intermediária (ex.: redação final da Câmara)
+  const outra = /^outra:(.+?)\s*(\d{4}-\d\d-\d\d)?$/.exec(b.versao || "");
+  const de = outra ? L.resumo_de(esc(tipoVersao(outra[1])) + (outra[2] ? ", " + dataBR(outra[2]) : "")) : L.resumo_de("");
+  return `<div class="mudou"><b>${parecer ? L.parecer_h : L.mudou_h}</b><p class="small">${(parecer ? L.parecer_p : L.mudou_p)(esc(tipoVersao(a.tipo)), dataBR(a.data))} ${de}${!parecer && !outra && a.semelhanca != null && a.semelhanca < 0.6 ? " " + L.mudou_grande : ""}</p>${links}</div>`;
+}
+
+function renderPEC(id) {
+  const L = T(), p = BY_ID[ALIAS[id] || id];
+  if (!p) { app.innerHTML = `<a class="back" href="#inicio">${L.voltar}</a><div class="empty" style="margin-top:20px">${L.nao_encontrada}</div>`; return; }
+  const s = S(p), principal = p.principal ? BY_ID[ALIAS[p.principal] || p.principal] : null;
+  app.innerHTML = `
+  <a class="back" href="#inicio">${L.voltar}</a>
+  <div class="pec-head">
+    <div class="meta"><span class="num">${esc(p.sigla)}</span>${p.siglaSenado ? `<span class="num">${L.no_senado(esc(p.siglaSenado))}</span>` : ""}${apelidoTag(p)}${pill(p)}</div>
+    <h1${s ? "" : ' class="long"'}>${esc(titulo(p))}</h1>
+    ${s ? `<div class="box tres">
+      <div><b>${L.o_que_muda}</b><p>${esc(s.oQueMuda)}</p></div>
+      <div><b>${L.quem_afetado}</b><p>${esc(s.quemAfeta)}</p></div>
+      <div><b>${L.por_que}</b><p>${esc(s.porQueImporta)}</p></div>
+    </div>` : ""}
+    <div class="oficial"><span class="label">${L.texto_oficial}${L.oficial_pt}</span><p lang="pt-BR">${esc(p.ementa)}</p></div>
+    ${seloHTML(p)}
+    ${textoMudouHTML(p)}
+    <p class="muted small">${L.apresentada(dataBR(p.apresentacao), esc(p.autor), L.naCasa[p.casaOrigem])}${s ? L.resumo_nota : ""}</p>
+    ${opinaHTML(p)}
+  </div>
+
+  <section aria-labelledby="h-agora"><h2 id="h-agora">${L.agora_h}</h2>
+    <div class="box">
+      <p><b>${esc(agora(p))}</b></p>
+      ${principal ? `<p>${L.junto(`<a href="#pec-${principal.id}">${esc(principal.sigla)}${S(principal)?.apelido ? ` (${esc(S(principal).apelido)})` : ""}</a>`)}</p>` : ""}
+      <p class="muted small">${L.sit_oficial(esc(p.situacao), dataBR(p.ultimaMovimentacao), haQuanto(p.ultimaMovimentacao))}</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-cam"><h2 id="h-cam">${L.caminho_h}</h2><div class="box">${caminho(p)}</div></section>
+
+  <section aria-labelledby="h-vot"><h2 id="h-vot">${L.votacoes_h}</h2>
+    ${p.votacoes.length ? p.votacoes.slice().reverse().map(votacaoHTML).join("") : `<div class="empty">${L.sem_vot}</div>`}
+  </section>
+
+  ${quemHTML(p)}
+
+  ${p.movimentacoes.length ? `<section aria-labelledby="h-mov"><h2 id="h-mov">${L.mov_h}</h2>
+    ${L.mov_nota ? `<p class="small muted">${L.mov_nota}</p>` : ""}
+    <ul class="timeline" lang="pt-BR">${p.movimentacoes.map(m => `<li><span class="label">${dataBR(m.data)}${m.orgao ? " · " + esc(m.orgao) : ""}</span><span>${esc(m.texto)}</span></li>`).join("")}</ul>
+  </section>` : ""}
+
+  <section aria-labelledby="h-of"><h2 id="h-of">${L.fontes_h}</h2>
+    <div class="links">
+      ${p.linkCamara || p.casa === "camara" ? `<a href="${esc(p.linkCamara || p.linkOficial)}" target="_blank" rel="noopener">${L.ficha_cam}</a>` : ""}
+      ${p.linkSenado || p.casa === "senado" ? `<a href="${esc(p.linkSenado || p.linkOficial)}" target="_blank" rel="noopener">${L.ficha_sen}</a>` : ""}
+      ${p.linkTexto ? `<a href="${esc(p.linkTexto)}" target="_blank" rel="noopener">${L.texto_comp}</a>` : ""}
+    </div>
+  </section>
+  ${rodape()}`;
+  p.votacoes.slice().reverse().forEach(ligarBuscaVotos);
+}
+
+/* ---------- Descubra suas PECs (só em português; casa as palavras da pessoa com as palavras das PECs) ---------- */
+let uid = 0, PENDENTE = "";
+const PARADAS = new Set(("a o e as os um uma uns umas de da do das dos em no na nos nas por pelo pela pelos pelas para pra pro com sem sobre que qual quais quem como onde quando porque se ja mais menos muito muita muitos muitas meu minha meus minhas seu sua seus suas eu voce voces ele ela eles elas me te lhe isso isto esse essa este esta aquilo tudo todo toda todos todas algo alguma algum coisa coisas quero queria gostaria gosto sei saber ver mostrar mostre fale falar diga dizer conta contar tenho tem ter estou estao sou ser foi sao interesso interessa interesse interessado interessada importa importante preocupo preocupa preocupada preocupado acompanhar acompanho tema temas assunto assuntos area areas pec pecs proposta propostas emenda emendas constituicao lei leis brasil pais governo congresso oi ola bom boa dia tarde noite obrigado obrigada favor entao tambem mas nem envolvido envolvida esteve fez faz fazendo votou propos sabe existe existem alguma algo cada").split(" "));
+const raiz = w => w.length > 5 ? w.slice(0, Math.max(5, w.length - 3)) : w;
+function buscarPECs(texto, ignorar = new Set()) {
+  const t = " " + norm(texto).replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ") + " ";
+  // expressões de várias palavras ("meio ambiente", "planos de saude") viram um termo só
+  const frases = [...new Set(TEMAS.flatMap(x => x[2]).map(x => x.trim()).filter(x => x.includes(" ") && t.includes(" " + x + " ")))];
+  const usadas = new Set(frases.flatMap(f => f.split(" ")));
+  const palavras = [...new Set(t.trim().split(" ").filter(w => w.length >= 3 && !PARADAS.has(w) && !ignorar.has(w) && !usadas.has(w)))];
+  const matchers = [
+    ...frases.map(f => ({ rotulo: f, direto: new RegExp("\\b" + f.split(" ").map(raiz).join("\\w*\\s+(?:\\w+\\s+)?")), sin: [] })),
+    ...palavras.map(w => ({ rotulo: w, direto: new RegExp("\\b" + raiz(w)), sin: [] })),
+  ];
+  // sinônimos internos: "praia" também procura "terrenos de marinha", "lgbt" procura "orientação sexual" etc.
+  for (const [, , sins, rx] of TEMAS) {
+    for (const s of sins.filter(x => t.includes(" " + x.trim()) && !(usadas.has(x.trim()) && !frases.includes(x.trim())))) {
+      const alvo = matchers.find(m => m.rotulo === s.trim() || s.trim().split(" ").includes(m.rotulo) || m.rotulo.startsWith(s.trim()));
+      if (alvo) { if (!alvo.sin.includes(rx)) alvo.sin.push(rx); }
+      else matchers.push({ rotulo: s.trim(), direto: null, sin: [rx] });
+    }
+  }
+  const pont = new Map(), semResultado = [];
+  for (const m of matchers) {
+    let n = 0;
+    for (const p of DB.pecs) {
+      const tx = textoPEC(p), dir = m.direto && m.direto.test(tx), sin = !dir && m.sin.some(rx => rx.test(tx));
+      if (!dir && !sin) continue;
+      n++;
+      const a = pont.get(p.id) || { k: 0, d: 0 };
+      a.k++; if (dir) a.d++;
+      pont.set(p.id, a);
+    }
+    if (!n) semResultado.push(m.rotulo);
+  }
+  const achou = matchers.map(m => m.rotulo).filter(r => !semResultado.includes(r));
+  // quem digitou o apelido ("reforma tributaria", "pec das praias") vê essa PEC primeiro
+  for (const p of DB.pecs) {
+    const ap = p.simples?.apelido && norm(p.simples.apelido).replace(/[^a-z0-9 ]/g, " ").replace(/\bpec (d[aoe]s?|antidrogas)?\s*/, "").trim();
+    if (ap && ap.length > 4 && t.includes(" " + ap)) { const a = pont.get(p.id) || { k: 0, d: 0 }; a.ap = 1; pont.set(p.id, a); }
+  }
+  let lista = DB.pecs.filter(p => pont.has(p.id));
+  const vivas = lista.filter(p => !["anexada", "arquivada"].includes(fase(p)));
+  if (vivas.length) lista = vivas;
+  // ordem: apelido digitado > casa com mais palavras > tem a palavra exata (não só sinônimo) > mais perto de uma decisão > mais recente
+  lista.sort((x, y) => (pont.get(y.id).ap || 0) - (pont.get(x.id).ap || 0) || pont.get(y.id).k - pont.get(x.id).k || pont.get(y.id).d - pont.get(x.id).d || PRIOR[fase(x)] - PRIOR[fase(y)] || y.ultimaMovimentacao.localeCompare(x.ultimaMovimentacao));
+  return { achou, semResultado, lista, lgbt: /lgbt|gay|lesbica|trans |orientacao sexual|homoafetiv/.test(t) };
+}
+
+function renderDescubra(inicial = {}) {
+  const aviso = I18N[LANG].so_pt;
+  emPT(() => {
+    const L = T();
+    app.innerHTML = `
+    ${aviso ? `<p class="aviso-idioma" lang="${I18N[LANG].htmlLang}">${aviso}</p>` : ""}
+    <div class="hero">
+      <h1>${L.d_h1}</h1>
+      <p>${L.d_p}</p>
+    </div>
+    <div class="chat" id="chat"></div>
+    <form class="chat-form" id="chat-form">
+      <input id="chat-in" type="text" aria-label="${L.d_msg}" placeholder="${L.d_ph}" autocomplete="off">
+      <button class="btn" type="submit">${L.d_env}</button>
+    </form>
+    ${rodape()}`;
+    bot(`<p><b>${L.d_oi}</b></p><p>${L.d_ex}</p>`);
+  });
+  app.querySelector("#chat-form").addEventListener("submit", e => {
+    e.preventDefault();
+    const inp = app.querySelector("#chat-in"), t = inp.value.trim();
+    if (!t) return;
+    inp.value = "";
+    emPT(() => responder(t));
+  });
+  app.querySelector("#chat").addEventListener("click", e => {
+    const b = e.target.closest("[data-toggle],[data-mais]");
+    if (!b) return;
+    if (b.dataset.toggle) { const el = document.getElementById(b.dataset.toggle); el.hidden = !el.hidden; b.setAttribute("aria-expanded", String(!el.hidden)); }
+    else if (b.dataset.mais) { document.getElementById(b.dataset.mais).querySelectorAll("[hidden]").forEach(x => x.hidden = false); b.remove(); }
+  });
+  const q = PENDENTE || (inicial.tema && TEMA_BY[inicial.tema] ? TEMA_BY[inicial.tema][1] : "");
+  PENDENTE = "";
+  emPT(() => {
+    if (q) responder(q);
+    if (inicial.pessoa) {
+      const x = PESSOAS.porKey[inicial.pessoa];
+      if (x) responder(x.nome, { pessoas: [x] });
+      else bot(`<p>${T().d_parl_nao}</p>`);
+    }
+  });
+  app.querySelector("#chat-in").focus({ preventScroll: true });
+}
+const chatEl = () => app.querySelector("#chat");
+function bot(html) { const d = document.createElement("div"); d.className = "msg bot"; d.innerHTML = html; chatEl().appendChild(d); return d; }
+function eu(texto) { const d = document.createElement("div"); d.className = "msg user"; d.textContent = texto; chatEl().appendChild(d); return d; }
+function listaPECs(pecs, max = 5) {
+  const id = "l" + (++uid);
+  return `<div class="list" id="${id}">${pecs.map((p, i) => cardPEC(p, i >= max)).join("")}</div>
+    ${pecs.length > max ? `<button type="button" class="more" data-mais="${id}">${T().mostrar_todas(pecs.length)}</button>` : ""}`;
+}
+const juntar = arr => arr.length > 1 ? arr.slice(0, -1).join(", ") + ` ${T().e} ` + arr[arr.length - 1] : arr[0] || "";
+function responder(texto, forcado) {
+  const L = T(), minha = eu(texto);
+  let pessoas = forcado?.pessoas || [], talvez = [];
+  if (!forcado) { const r = acharPessoas(texto); pessoas = r.certos.slice(0, 3); talvez = r.talvez; }
+  for (const x of pessoas) respostaPessoa(x);
+  if (!forcado) {
+    const r = buscarPECs(texto, new Set(pessoas.flatMap(x => x.tokens)));
+    if (r.lista.length) {
+      const prontas = r.lista.filter(p => fase(p) === "votacao").length;
+      bot(`<p>${L.d_achei(juntar(r.achou.map(w => `<b>${esc(w)}</b>`)), r.lista.length, prontas)}</p>
+        ${listaPECs(r.lista)}
+        ${r.semResultado.length ? `<p class="small muted">${L.d_sem(juntar(r.semResultado.map(esc)))}</p>` : ""}
+        ${r.lgbt ? `<p class="small muted">${L.d_lgbt}</p>` : ""}`);
+    } else if (!pessoas.length) {
+      const sug = talvez.length ? `<p>${L.d_talvez(talvez.slice(0, 5).map(x => `<a href="#parlamentar-${x.key}">${esc(x.nome)} (${L.casa[x.casa]})</a>`).join(", "))}</p>` : "";
+      bot(`<p>${L.d_nada}</p>${sug}`);
+    }
+  }
+  minha.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+function respostaPessoa(x) {
+  const L = T(), id = "p" + (++uid);
+  const linkPec = pid => { const p = BY_ID[pid]; return p ? `<a href="#pec-${p.id}">${esc(p.sigla)}${S(p)?.apelido ? ` · ${esc(S(p).apelido)}` : ""}: ${esc(titulo(p))}</a>` : ""; };
+  const sim = x.votos.filter(v => v[3] === "sim").length, nao = x.votos.filter(v => v[3] === "nao").length;
+  const stat = (key, n, rotulo, itens) => `<button type="button" class="stat" ${n ? `data-toggle="${id}-${key}" aria-expanded="false"` : "disabled"}><span>${rotulo}</span><b class="num">${n}</b></button>
+    ${n ? `<div class="stat-detail" id="${id}-${key}" hidden>${itens}</div>` : ""}`;
+  const votosOrd = x.votos.slice().sort((a, b) => b[2].localeCompare(a[2]));
+  bot(`<p><b>${esc(x.nome)}</b> · ${L.cargo[x.casa]}${x.partido ? ` · ${esc(x.partido)}${x.uf ? "-" + esc(x.uf) : ""}` : ""}</p>
+    <div class="stat-list">
+      ${stat("autor", x.autor.size, L.p_propos, [...x.autor].map(linkPec).join(""))}
+      ${stat("coautor", x.coautor.size, L.p_coautor, [...x.coautor].map(linkPec).join(""))}
+      ${stat("relator", new Set(x.relator.map(r => r[0])).size, L.p_relator, x.relator.map(([pid, org]) => `<span>${linkPec(pid)}${org ? ` <span class="muted small">(${esc(org)})</span>` : ""}</span>`).join(""))}
+      ${stat("votos", x.votos.length, L.p_votos(sim, nao, x.votos.length - sim - nao), votosOrd.map(([pid, turno, data, voto]) => `<span>${dataBR(data)} · ${L.turno(turno)} · <b class="${VOTO_CLS[voto]}">${L.votos[voto]}</b> · ${linkPec(pid)}</span>`).join(""))}
+    </div>
+    <p class="small muted">${L.p_nota}</p>`);
+}
+
+/* ---------- como funciona ---------- */
+function renderComo() {
+  const L = T();
+  const linksPart = [
+    `<a href="https://www12.senado.leg.br/ecidadania/principalmateria" target="_blank" rel="noopener">${L.c_part[0][2]}</a>`, "",
+    `<a href="https://www12.senado.leg.br/ecidadania/principalideia" target="_blank" rel="noopener">${L.c_part[2][2]}</a>`,
+    `<a href="https://www.camara.leg.br/deputados/quem-sao" target="_blank" rel="noopener">${L.c_part[3][2]}</a> · <a href="https://www25.senado.leg.br/web/senadores/em-exercicio" target="_blank" rel="noopener">${L.c_part[3][3]}</a>`,
+  ];
+  app.innerHTML = `
+  <div class="hero"><h1>${L.c_h1}</h1><p>${L.c_p}</p></div>
+  <div class="audio" id="audio">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2" aria-hidden="true"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="2" y="14" width="5" height="7" rx="2"/><rect x="17" y="14" width="5" height="7" rx="2"/></svg>
+    <div><b>${L.c_audio}</b><p class="small muted" id="audio-txt">${L.c_audio_breve}</p></div>
+  </div>
+  <section aria-labelledby="h-num"><h2 id="h-num">${L.c_num_h}</h2>
+    <div class="flow">
+      <div class="box"><b class="num">308</b><p>${L.c_308}</p></div>
+      <div class="box"><b class="num">49</b><p>${L.c_49}</p></div>
+      <div class="box"><b class="num">2 × 2</b><p>${L.c_22}</p></div>
+    </div>
+  </section>
+  <section aria-labelledby="h-pas"><h2 id="h-pas">${L.c_passo_h}</h2>
+    <div class="box">${caminho({ casaOrigem: "camara", etapa: -1, estado: "" })}</div>
+    <p class="muted small">${L.c_passo_nota}</p>
+  </section>
+  <section aria-labelledby="h-cores"><h2 id="h-cores">${L.c_cores_h}</h2>
+    <div class="row"><span class="pill verde">${L.c_verde}</span><span class="pill amarelo">${L.c_amarelo}</span><span class="pill vermelho">${L.c_vermelho}</span><span class="pill cinza">${L.c_cinza}</span></div>
+  </section>
+  <section aria-labelledby="h-part2"><h2 id="h-part2">${L.c_part_h}</h2>
+    <dl class="gloss">${L.c_part.map((it, i) => `<div><dt>${it[0]}</dt><dd>${it[1]} ${linksPart[i]}</dd></div>`).join("")}</dl>
+  </section>
+  <section aria-labelledby="h-glo"><h2 id="h-glo">${L.c_glo_h}</h2>
+    <dl class="gloss">${L.c_glo.map(([dt, dd]) => `<div><dt>${dt}</dt><dd>${dd}</dd></div>`).join("")}</dl>
+  </section>
+  ${rodape()}`;
+  fetch("audio/como-funciona.mp3", { method: "HEAD" }).then(r => {
+    if (!r.ok) return;
+    app.querySelector("#audio-txt").textContent = L.c_audio_ok;
+    const a = document.createElement("audio"); a.controls = true; a.preload = "none"; a.src = "audio/como-funciona.mp3";
+    app.querySelector("#audio").appendChild(a);
+  }).catch(() => {});
+}
+
+function rodape() {
+  const L = T(), d = DB?.atualizadoEm ? new Date(DB.atualizadoEm) : null;
+  const quando = d ? `${d.toLocaleDateString(L.locale)} ${d.toLocaleTimeString(L.locale, { hour: "2-digit", minute: "2-digit" })}` : "";
+  return `<footer>
+    <p>${L.f_dados(`<a href="https://dadosabertos.camara.leg.br" target="_blank" rel="noopener">${L.f_camara}</a>`, `<a href="https://www12.senado.leg.br/dados-abertos" target="_blank" rel="noopener">${L.f_senado}</a>`, quando)}</p>
+    <p>${L.f_cob}</p>
+    <p>${L.f_apart}</p>
+  </footer>`;
+}
+
+/* ---------- rotas ---------- */
+let ultimaRota = "";
+function rota() {
+  if (!DB) return;
+  CUR = LANG;
+  const h = location.hash.replace(/^#/, "");
+  // o que esta página precisa baixar antes de aparecer
+  const falta = [];
+  const descubra = h.startsWith("descubra") || h.startsWith("parlamentar-");
+  if (LANG !== "pt" && !PRONTO.has(urlIdioma(LANG))) falta.push(() => baixarIdioma(LANG));
+  if (h.startsWith("pec-")) { const id = ALIAS[h.slice(4)] || h.slice(4); if (BY_ID[id] && !PRONTO.has(urlDetalhe(id))) falta.push(() => baixarDetalhe(id)); }
+  if (descubra && !PRONTO.has(URL_PESSOAS)) falta.push(baixarPessoas);
+  if (falta.length) {
+    app.innerHTML = `<div class="hero"><h1>${T().carregando}</h1></div>`;
+    Promise.all(falta.map(f => f())).then(() => { if (location.hash.replace(/^#/, "") === h) rota(); })
+      .catch(err => { console.error(err); app.innerHTML = `<div class="hero"><h1>${T().erro_h}</h1><p>${T().erro_p}</p></div>`; });
+    return;
+  }
+  const sec = h.startsWith("pec-") ? "inicio" : (h.startsWith("descubra") || h.startsWith("parlamentar-")) ? "descubra" : (h || "inicio");
+  document.querySelectorAll("[data-nav]").forEach(a => a.dataset.nav === sec ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+  if (h.startsWith("pec-")) renderPEC(h.slice(4));
+  else if (h === "como-funciona") renderComo();
+  else if (h.startsWith("descubra")) renderDescubra({ tema: h.slice("descubra-".length) });
+  else if (h.startsWith("parlamentar-")) renderDescubra({ pessoa: h.slice("parlamentar-".length) });
+  else renderInicio();
+  if (h !== ultimaRota) window.scrollTo(0, 0);   // trocar de idioma mantém a posição na página
+  ultimaRota = h;
+}
+window.addEventListener("hashchange", rota);
+
+// PWA: guarda o site no aparelho para abrir rápido e funcionar sem internet (ver sw.js)
+if ("serviceWorker" in navigator && window.isSecureContext) navigator.serviceWorker.register("sw.js").catch(() => {});
+
+aplicarCabecalho();
+app.querySelector("h1").textContent = T().carregando;
+app.querySelector("p").textContent = T().carregando_sub;
+fetch("data/lista.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+  DB = d;
+  for (const p of d.pecs) { BY_ID[p.id] = p; for (const r of p.idsRelacionados || []) ALIAS[r] = p.id; }
+  rota();
+}).catch(err => {
+  console.error(err);
+  app.innerHTML = `<div class="hero"><h1>${T().erro_h}</h1><p>${T().erro_p}</p></div>`;
+});
+})();
+</script>
