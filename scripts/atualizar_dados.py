@@ -432,6 +432,7 @@ def senado_pec(pid, votacoes):
         "relatores": relatores,
         "codigoMateria": d.get("codigoMateria"),
         "origemCamara": d.get("identificacaoProcessoInicial") if d.get("siglaCasaIniciadora") == "CD" else None,
+        "numeroCamara": numero_na_camara(d),
         "textoOriginal": texto_original,
         "textoAtual": texto_atual,
         "apresentacao": (doc.get("dataApresentacao") or "")[:10],
@@ -457,6 +458,14 @@ def senado_pec(pid, votacoes):
 PRIORIDADE_ESTADO = ["promulgada", "rejeitada", "andando", "aprovada", "apensada", "arquivada", "encerrada"]
 
 
+def numero_na_camara(det):
+    """Número que a PEC do Senado ganhou ao chegar à Câmara (ex.: PEC 2/2016 → "PEC 20/2025"), ou None."""
+    for o in det.get("outrosNumeros") or []:
+        if o.get("casaIdentificadora") == "CD" and o.get("sigla") == "PEC" and o.get("numero") and o.get("ano"):
+            return f"PEC {int(o['numero'])}/{o['ano']}"
+    return None
+
+
 def juntar(camara, senado):
     """Desde 2019 a numeração é única no Congresso: a PEC X/ano é a mesma nas duas Casas
     (e pode ter mais de um registro, p.ex. quando volta para a Casa de origem: "fase 2")."""
@@ -467,6 +476,9 @@ def juntar(camara, senado):
             chave = (p["numero"], p["ano"])
         elif p.get("origemCamara"):            # começou na Câmara com outro número (ex.: PEC 31/2007 → PEC 54/2024)
             m = re.match(r"PEC (\d+)/(\d{4})", p["origemCamara"])
+            chave = (int(m.group(1)), int(m.group(2))) if m else None
+        elif p.get("numeroCamara"):            # começou no Senado e ganhou outro número na Câmara (ex.: PEC 2/2016 → PEC 20/2025)
+            m = re.match(r"PEC (\d+)/(\d{4})", p["numeroCamara"])
             chave = (int(m.group(1)), int(m.group(2))) if m else None
         elif p["ano"] >= 2019:                 # numeração única no Congresso desde 2019
             chave = (p["numero"], p["ano"])
@@ -488,6 +500,9 @@ def juntar(camara, senado):
                 base["siglaSenado"] = ", ".join(outras)   # mesmo processo, outro número no Senado
         else:
             base["sigla"] = re.sub(r"\s*\(.*?\)", "", base["sigla"])
+            outras = sorted({re.sub(r"\s*\(.*?\)", "", r["sigla"]) for r in cam} - {base["sigla"]})
+            if outras:
+                base["siglaCamara"] = ", ".join(outras)   # mesmo processo, outro número na Câmara
         base["casaOrigem"] = origem
         base["casa"] = "ambas" if sen and cam else base["casa"]
         base["idsRelacionados"] = [r["id"] for r in regs]
@@ -501,6 +516,10 @@ def juntar(camara, senado):
         vistos_a, autores = set(), []
         for r in regs:
             for a in r.get("autores", []):
+                # a Câmara registra autores de PECs do Senado como "Senado Federal - Fulano"
+                m = re.match(r"Senado Federal\s*-\s*(.+)", a[0])
+                if m:
+                    a = [m.group(1).strip(), "senado", a[2]]
                 if (a[0], a[1]) not in vistos_a:
                     vistos_a.add((a[0], a[1]))
                     autores.append(a)
@@ -594,6 +613,11 @@ def main():
             if not p["votacoes"] and sen.get(p["id"], {}).get("votacoes"):
                 p["votacoes"] = sen[p["id"]]["votacoes"]   # votação de anos anteriores já guardada
             sen[p["id"]] = p
+
+    # PECs do Senado que foram à Câmara com outro número (uma consulta por PEC, só para o cache antigo)
+    faltam = [r["id"] for r in sen.values() if r.get("casaOrigem") == "senado" and "numeroCamara" not in r]
+    for sid, det in zip(faltam, pmap(lambda sid: get(f"{SENADO}/processo/{sid[1:]}"), faltam)):
+        sen[sid]["numeroCamara"] = numero_na_camara(det or {})
 
     faltam = [r["id"] for r in sen.values() if r.get("casaOrigem") == "camara" and "origemCamara" not in r]
     for sid, det in zip(faltam, pmap(lambda sid: get(f"{SENADO}/processo/{sid[1:]}"), faltam)):

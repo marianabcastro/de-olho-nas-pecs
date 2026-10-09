@@ -47,7 +47,7 @@ Regras:
 - "titulo": até 90 caracteres, começando com verbo no presente. Nunca comece com "Altera o art.".
 - "oQueMuda": uma frase sobre o que muda na prática.
 - "quemAfeta": uma frase sobre quem seria afetado diretamente.
-- "porQueImporta": uma frase factual sobre o que está em jogo, sem opinar.
+- "porQueImporta": a consequência para o país, com os dois lados (quem ganha, quem paga ou perde). Separe o que o texto garante (afirme) do que é efeito esperado (use "pode", "tende a" ou "provavelmente"). Nunca apresente a intenção ou justificativa do autor como fato; se citá-la, atribua ("o autor diz que…").
 - "dePrincipio": true se a PEC só acrescenta um direito, princípio ou objetivo (ex.: "é direito de todos…", "a ordem econômica observará…") sem criar sozinha regras concretas, verbas, prazos ou punições. Nesse caso, diga em "oQueMuda" que ela sozinha não cria programas, verbas nem punições.
 - "en" e "es": tradução fiel dos mesmos quatro campos para inglês e espanhol, explicando siglas brasileiras quando necessário.
 - Se receber um RESUMO ANTERIOR, compare: "objetivoMudou" é true só se a finalidade principal da PEC mudou (não conta mudança de redação ou detalhe); "oQueMudouNoTexto" diz em uma frase, em português, o que a nova versão mudou em relação ao resumo anterior. Sem resumo anterior, use false e ""."""

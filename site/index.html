@@ -325,6 +325,7 @@ pt: {
   obstr: "obstrução",
   parecer_p: (tipo, d) => `Em ${d}: ${tipo}. Pareceres costumam propor mudanças no texto.`,
   no_senado: s => `no Senado: ${s}`,
+  na_camara: s => `na Câmara: ${s}`,
   mudou_desc: (tipo, d) => `O texto mudou em ${d} (${tipo}). O resumo acima já descreve a nova versão. O que mudou:`,
   objetivo_mudou: "Com essa nova versão, o objetivo principal da PEC mudou.",
   agora_h: "O que está acontecendo agora", junto: l => `Ela é analisada junto com a ${l}. Acompanhe por lá.`,
@@ -446,6 +447,7 @@ en: {
   obstr: "obstruction",
   parecer_p: (tipo, d) => `On ${d}: ${tipo}. Opinions often propose changes to the text.`,
   no_senado: s => `in the Senate: ${s}`,
+  na_camara: s => `in the Chamber: ${s}`,
   mudou_desc: (tipo, d) => `The text changed on ${d} (${tipo}). The summary above already describes the new version. What changed (in Portuguese):`,
   objetivo_mudou: "With this new version, the main goal of the PEC changed.",
   agora_h: "What's happening now", junto: l => `It is being reviewed together with ${l}. Follow it there.`,
@@ -567,6 +569,7 @@ es: {
   obstr: "obstrucción",
   parecer_p: (tipo, d) => `El ${d}: ${tipo}. Los dictámenes suelen proponer cambios en el texto.`,
   no_senado: s => `en el Senado: ${s}`,
+  na_camara: s => `en la Cámara: ${s}`,
   mudou_desc: (tipo, d) => `El texto cambió el ${d} (${tipo}). El resumen de arriba ya describe la nueva versión. Qué cambió (en portugués):`,
   objetivo_mudou: "Con esta nueva versión, el objetivo principal de la PEC cambió.",
   agora_h: "Qué está pasando ahora", junto: l => `Se analiza junto con la ${l}. Síguela allí.`,
@@ -906,7 +909,7 @@ function filtrar() {
     if (state.casa && p.casa !== state.casa && p.casa !== "ambas") return false;
     if (state.fase !== "todas" && fase(p) !== state.fase) return false;
     if (q) {
-      const hay = norm(`${p.sigla} ${p.siglaSenado || ""} ${p.autor}`) + " " + textoPEC(p);
+      const hay = norm(`${p.sigla} ${p.siglaSenado || ""} ${p.siglaCamara || ""} ${p.autor}`) + " " + textoPEC(p);
       if (!q.split(/\s+/).every(w => hay.includes(w))) return false;
     }
     return true;
@@ -1138,7 +1141,7 @@ function renderPEC(id) {
   app.innerHTML = `
   <a class="back" href="#inicio">${L.voltar}</a>
   <div class="pec-head">
-    <div class="meta"><span class="num">${esc(p.sigla)}</span>${p.siglaSenado ? `<span class="num">${L.no_senado(esc(p.siglaSenado))}</span>` : ""}${apelidoTag(p)}${principioTag(p)}${pill(p)}</div>
+    <div class="meta"><span class="num">${esc(p.sigla)}</span>${p.siglaSenado ? `<span class="num">${L.no_senado(esc(p.siglaSenado))}</span>` : ""}${p.siglaCamara ? `<span class="num">${L.na_camara(esc(p.siglaCamara))}</span>` : ""}${apelidoTag(p)}${principioTag(p)}${pill(p)}</div>
     <h1${s ? "" : ' class="long"'}>${esc(titulo(p))}</h1>
     ${s ? `<div class="box tres com-fonte">${fonte(textoURL(p), L.f_texto)}
       <div><b>${L.o_que_muda}</b><p>${esc(s.oQueMuda)}</p></div>
