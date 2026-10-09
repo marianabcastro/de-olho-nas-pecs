@@ -299,7 +299,7 @@ pt: {
   sem_info: "Sem informação",
   agora_aprov: (casa, data, outra) => `Foi aprovada em dois turnos ${casa} em ${data}. O processo nesta Casa terminou e a proposta seguiu para ${outra}.`,
   voltar: "← Todas as PECs", nao_encontrada: "Não encontramos essa PEC. Ela pode não ter tido movimentação desde 2023.",
-  o_que_muda: "O que muda", quem_afetado: "Quem é afetado", por_que: "Por que importa",
+  o_que_muda: "O que muda", o_que_mudaria: "O que mudaria, se for aprovada", o_que_propunha: "O que propunha", quem_afetado: "Quem é afetado", por_que: "Por que importa",
   texto_oficial: "Texto oficial (ementa)", oficial_pt: "",
   apresentada: (d, a, o) => `Apresentada em ${d}${a ? ` por ${a}` : ""}. Começou ${o}.`, resumo_nota: " O resumo foi escrito a partir do texto oficial, sem opinião sobre o mérito.",
   opina_h: "Dê sua opinião sobre esta PEC", opina_p: "O Senado e a Câmara recebem a opinião dos cidadãos e mostram o resultado aos parlamentares. É gratuito; basta fazer um cadastro no site oficial (em português).",
@@ -421,7 +421,7 @@ en: {
   sem_info: "No information",
   agora_aprov: (casa, data, outra) => `Approved in two rounds ${casa} on ${data}. That chamber is done and the proposal moved on to ${outra}.`,
   voltar: "← All PECs", nao_encontrada: "We couldn't find this PEC. It may not have had any activity since 2023.",
-  o_que_muda: "What changes", quem_afetado: "Who is affected", por_que: "Why it matters",
+  o_que_muda: "What changes", o_que_mudaria: "What would change if approved", o_que_propunha: "What it proposed", quem_afetado: "Who is affected", por_que: "Why it matters",
   texto_oficial: "Official summary (ementa)", oficial_pt: " · in Portuguese",
   apresentada: (d, a, o) => `Filed on ${d}${a ? ` by ${a}` : ""}. It started ${o}.`, resumo_nota: " This summary was written from the official text, without taking sides.",
   opina_h: "Share your opinion on this PEC", opina_p: "The Senate and the Chamber collect citizens' opinions and show the results to legislators. It's free; you just need an account on the official site (in Portuguese).",
@@ -543,7 +543,7 @@ es: {
   sem_info: "Sin información",
   agora_aprov: (casa, data, outra) => `Fue aprobada en dos vueltas ${casa} el ${data}. El proceso en esa Cámara terminó y la propuesta pasó a ${outra}.`,
   voltar: "← Todas las PECs", nao_encontrada: "No encontramos esta PEC. Puede que no haya tenido movimiento desde 2023.",
-  o_que_muda: "Qué cambia", quem_afetado: "A quién afecta", por_que: "Por qué importa",
+  o_que_muda: "Qué cambia", o_que_mudaria: "Qué cambiaría si se aprueba", o_que_propunha: "Qué proponía", quem_afetado: "A quién afecta", por_que: "Por qué importa",
   texto_oficial: "Texto oficial (ementa)", oficial_pt: " · en portugués",
   apresentada: (d, a, o) => `Presentada el ${d}${a ? ` por ${a}` : ""}. Empezó ${o}.`, resumo_nota: " El resumen se escribió a partir del texto oficial, sin opinar sobre el mérito.",
   opina_h: "Da tu opinión sobre esta PEC", opina_p: "El Senado y la Cámara reciben la opinión de los ciudadanos y muestran el resultado a los parlamentarios. Es gratis; solo necesitas registrarte en el sitio oficial (en portugués).",
@@ -1144,7 +1144,7 @@ function renderPEC(id) {
     <div class="meta"><span class="num">${esc(p.sigla)}</span>${p.siglaSenado ? `<span class="num">${L.no_senado(esc(p.siglaSenado))}</span>` : ""}${p.siglaCamara ? `<span class="num">${L.na_camara(esc(p.siglaCamara))}</span>` : ""}${apelidoTag(p)}${principioTag(p)}${pill(p)}</div>
     <h1${s ? "" : ' class="long"'}>${esc(titulo(p))}</h1>
     ${s ? `<div class="box tres com-fonte">${fonte(textoURL(p), L.f_texto)}
-      <div><b>${L.o_que_muda}</b><p>${esc(s.oQueMuda)}</p></div>
+      <div><b>${p.estado === "promulgada" ? L.o_que_muda : ["rejeitada", "arquivada", "encerrada"].includes(p.estado) ? L.o_que_propunha : L.o_que_mudaria}</b><p>${esc(s.oQueMuda)}</p></div>
       <div><b>${L.quem_afetado}</b><p>${esc(s.quemAfeta)}</p></div>
       <div><b>${L.por_que}</b><p>${esc(s.porQueImporta)}</p></div>
     </div>` : ""}
