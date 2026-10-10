@@ -87,7 +87,8 @@ section, .box, .list, .pec-head, .hero, .filters, .vote, .chat, .msg { grid-temp
 .vermelho { --c: var(--vermelho); --c-bg: var(--vermelho-bg); --c-bar: var(--vermelho); }
 .cinza { --c: var(--cinza); --c-bg: var(--cinza-bg); --c-bar: #b9bec5; }
 .principio { display: inline-block; font-size: 0.8rem; font-weight: 700; padding: 1px 8px; border-radius: 6px; border: 1.5px dashed var(--ink); color: var(--ink); }
-.principio-nota { font-size: 0.92rem; padding: 10px 14px; border: 1.5px dashed var(--line); border-radius: 10px; }
+.resumo-lista { margin: 4px 0 0; padding-left: 1.2em; } .resumo-lista li { margin: 0 0 6px; }
+.principio-nota, .nota-pec { font-size: 0.92rem; padding: 10px 14px; border: 1.5px dashed var(--line); border-radius: 10px; }
 .apelido { display: inline-block; font-size: 0.8rem; font-weight: 700; padding: 2px 9px; border-radius: 6px; background: var(--ink); color: var(--bg); }
 
 /* filtros */
@@ -129,7 +130,8 @@ select { font: inherit; font-size: 0.95rem; padding: 8px 10px; border: 1.5px sol
 .pec-head { display: grid; gap: 12px; padding-top: 14px; }
 .tres { display: grid; gap: 12px; }
 .tres div { display: grid; gap: 2px; }
-.tres b { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.tres .resumo-lista b { font-size: inherit; text-transform: none; letter-spacing: normal; color: var(--ink); }
+.tres > div > b { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
 .oficial { border-left: 3px solid var(--line); padding-left: 12px; color: var(--muted); font-size: 0.95rem; display: grid; gap: 2px; }
 .people { display: flex; flex-wrap: wrap; gap: 6px; }
 .person { font-size: 0.92rem; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; }
@@ -304,7 +306,7 @@ pt: {
   apresentada: (d, a, o) => `Apresentada em ${d}${a ? ` por ${a}` : ""}. Começou ${o}.`, resumo_nota: " O resumo foi escrito a partir do texto oficial, sem opinião sobre o mérito.",
   opina_h: "Dê sua opinião sobre esta PEC", opina_p: "O Senado e a Câmara recebem a opinião dos cidadãos e mostram o resultado aos parlamentares. É gratuito; basta fazer um cadastro no site oficial (em português).",
   opina_sen: "Votar na consulta do Senado ↗", opina_cam: "Responder a enquete da Câmara ↗",
-  principio_tag: "PEC de princípio",
+  principio_tag: "PEC de princípio", nota: "Nota", nota_fonte: "fonte",
   principio_exp: "acrescenta à Constituição um direito, princípio ou objetivo, mas não cria sozinha regras concretas, verbas ou punições. O efeito prático depende de leis e de decisões da Justiça.",
   selo_ementa: "Resumo automático, escrito a partir da ementa oficial. Ainda não foi conferido com o texto completo.",
   selo_texto: d => `Resumo conferido com o texto completo da PEC em ${d}.`,
@@ -429,7 +431,7 @@ en: {
   apresentada: (d, a, o) => `Filed on ${d}${a ? ` by ${a}` : ""}. It started ${o}.`, resumo_nota: " This summary was written from the official text, without taking sides.",
   opina_h: "Share your opinion on this PEC", opina_p: "The Senate and the Chamber collect citizens' opinions and show the results to legislators. It's free; you just need an account on the official site (in Portuguese).",
   opina_sen: "Vote in the Senate consultation ↗", opina_cam: "Answer the Chamber poll ↗",
-  principio_tag: "Statement of principle",
+  principio_tag: "Statement of principle", nota: "Note", nota_fonte: "source",
   principio_exp: "adds a right, principle or goal to the Constitution, but does not by itself create concrete rules, funding or penalties. Its practical effect depends on future laws and court decisions.",
   selo_ementa: "Automatic summary, written from the official one-line summary (ementa). Not yet checked against the full text.",
   selo_texto: d => `Summary checked against the PEC's full text on ${d}.`,
@@ -554,7 +556,7 @@ es: {
   apresentada: (d, a, o) => `Presentada el ${d}${a ? ` por ${a}` : ""}. Empezó ${o}.`, resumo_nota: " El resumen se escribió a partir del texto oficial, sin opinar sobre el mérito.",
   opina_h: "Da tu opinión sobre esta PEC", opina_p: "El Senado y la Cámara reciben la opinión de los ciudadanos y muestran el resultado a los parlamentarios. Es gratis; solo necesitas registrarte en el sitio oficial (en portugués).",
   opina_sen: "Votar en la consulta del Senado ↗", opina_cam: "Responder la encuesta de la Cámara ↗",
-  principio_tag: "PEC de principio",
+  principio_tag: "PEC de principio", nota: "Nota", nota_fonte: "fuente",
   principio_exp: "agrega a la Constitución un derecho, principio u objetivo, pero no crea por sí sola reglas concretas, fondos ni castigos. Su efecto práctico depende de leyes y decisiones judiciales futuras.",
   selo_ementa: "Resumen automático, escrito a partir de la ementa oficial. Todavía no se comparó con el texto completo.",
   selo_texto: d => `Resumen comparado con el texto completo de la PEC el ${d}.`,
@@ -1146,6 +1148,12 @@ function textoMudouHTML(p) {
   return `<div class="mudou"><b>${parecer ? L.parecer_h : L.mudou_h}</b><p class="small">${(parecer ? L.parecer_p : L.mudou_p)(esc(tipoVersao(a.tipo)), dataBR(a.data))} ${de}${!parecer && !outra && a.semelhanca != null && a.semelhanca < 0.6 ? " " + L.mudou_grande : ""}</p>${links}</div>`;
 }
 
+// resumo com várias mudanças: uma por linha, "Tema: explicação", vira lista com o tema em negrito
+function textoResumo(t) {
+  const linhas = String(t || "").split("\n").map(x => x.trim()).filter(Boolean);
+  if (linhas.length < 2) return `<p>${esc(t)}</p>`;
+  return `<ul class="resumo-lista">${linhas.map(l => { const m = /^([^:]{2,60}):\s(.+)$/.exec(l); return `<li>${m ? `<b>${esc(m[1])}:</b> ${esc(m[2])}` : esc(l)}</li>`; }).join("")}</ul>`;
+}
 function renderPEC(id) {
   const L = T(), p = BY_ID[ALIAS[id] || id];
   if (!p) { app.innerHTML = `<a class="back" href="#inicio">${L.voltar}</a><div class="empty" style="margin-top:20px">${L.nao_encontrada}</div>`; return; }
@@ -1156,10 +1164,11 @@ function renderPEC(id) {
     <div class="meta"><span class="num">${esc(p.sigla)}</span>${p.siglaSenado ? `<span class="num">${L.no_senado(esc(p.siglaSenado))}</span>` : ""}${p.siglaCamara ? `<span class="num">${L.na_camara(esc(p.siglaCamara))}</span>` : ""}${apelidoTag(p)}${principioTag(p)}${pill(p)}</div>
     <h1${s ? "" : ' class="long"'}>${esc(titulo(p))}</h1>
     ${s ? `<div class="box tres com-fonte">${fonte(textoURL(p), L.f_texto)}
-      <div><b>${p.estado === "promulgada" ? L.o_que_muda : ["rejeitada", "arquivada", "encerrada"].includes(p.estado) ? L.o_que_propunha : L.o_que_mudaria}</b><p>${esc(s.oQueMuda)}</p></div>
-      <div><b>${L.quem_afetado}</b><p>${esc(s.quemAfeta)}</p></div>
-      <div><b>${L.por_que}</b><p>${esc(s.porQueImporta)}</p></div>
+      <div><b>${p.estado === "promulgada" ? L.o_que_muda : ["rejeitada", "arquivada", "encerrada"].includes(p.estado) ? L.o_que_propunha : L.o_que_mudaria}</b>${textoResumo(s.oQueMuda)}</div>
+      <div><b>${L.quem_afetado}</b>${textoResumo(s.quemAfeta)}</div>
+      <div><b>${L.por_que}</b>${textoResumo(s.porQueImporta)}</div>
     </div>` : ""}
+    ${s?.nota ? `<p class="nota-pec"><b>${L.nota}:</b> ${esc(typeof s.nota === "string" ? s.nota : s.nota.texto)}${p.simples.nota?.url ? ` <a href="${esc(p.simples.nota.url)}" target="_blank" rel="noopener">${L.nota_fonte} ↗</a>` : ""}</p>` : ""}
     ${p.simples?.tipo === "principio" ? `<p class="principio-nota"><b>${L.principio_tag}:</b> ${L.principio_exp}</p>` : ""}
     <div class="oficial com-fonte">${fonte(fichaURL(p), L.f_ficha)}<span class="label">${L.texto_oficial}${L.oficial_pt}</span><p lang="pt-BR">${esc(p.ementa)}</p>${s && s.base?.versao && s.base.versao !== "original" ? `<p class="small muted">${L.ementa_versao}</p>` : ""}</div>
     ${seloHTML(p)}
