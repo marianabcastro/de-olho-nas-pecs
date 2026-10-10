@@ -87,6 +87,7 @@ section, .box, .list, .pec-head, .hero, .filters, .vote, .chat, .msg { grid-temp
 .vermelho { --c: var(--vermelho); --c-bg: var(--vermelho-bg); --c-bar: var(--vermelho); }
 .cinza { --c: var(--cinza); --c-bg: var(--cinza-bg); --c-bar: #b9bec5; }
 .principio { display: inline-block; font-size: 0.8rem; font-weight: 700; padding: 1px 8px; border-radius: 6px; border: 1.5px dashed var(--ink); color: var(--ink); }
+.resumo-grupo { margin: 10px 0 0; font-style: italic; color: var(--muted); }
 .resumo-lista { margin: 4px 0 0; padding-left: 1.2em; } .resumo-lista li { margin: 0 0 6px; }
 .principio-nota, .nota-pec { font-size: 0.92rem; padding: 10px 14px; border: 1.5px dashed var(--line); border-radius: 10px; }
 .apelido { display: inline-block; font-size: 0.8rem; font-weight: 700; padding: 2px 9px; border-radius: 6px; background: var(--ink); color: var(--bg); }
@@ -821,7 +822,7 @@ function cardPEC(p, oculto = false) {
   return `<a class="card ${status(p)[0]}" href="#pec-${p.id}"${oculto ? " hidden" : ""}>
     <div class="meta"><span class="num">${esc(p.sigla)}</span>${apelidoTag(p)}${principioTag(p)}${pill(p)}</div>
     <div class="title">${esc(titulo(p))}</div>
-    ${S(p) ? `<div class="sub">${esc(S(p).oQueMuda)}</div>` : ""}
+    ${S(p) ? `<div class="sub">${esc(S(p).oQueMuda.replace(/^## .*$/gm, ""))}</div>` : ""}
     <div class="meta">${dots(p)}<span>${f === "promulgada" ? T().promulgada : esc(nomeEtapa(DB.etapas[p.casaOrigem][p.etapa]))}</span><span class="casa ${ca}">${f === "promulgada" ? T().congresso : T().casa[ca]}</span><span>${T().atualizada(haQuanto(p.ultimaMovimentacao))}</span></div>
   </a>`;
 }
@@ -1149,10 +1150,18 @@ function textoMudouHTML(p) {
 }
 
 // resumo com várias mudanças: uma por linha, "Tema: explicação", vira lista com o tema em negrito
+// linha que começa com "## " é um subtítulo que agrupa os tópicos seguintes
 function textoResumo(t) {
   const linhas = String(t || "").split("\n").map(x => x.trim()).filter(Boolean);
   if (linhas.length < 2) return `<p>${esc(t)}</p>`;
-  return `<ul class="resumo-lista">${linhas.map(l => { const m = /^([^:]{2,60}):\s(.+)$/.exec(l); return `<li>${m ? `<b>${esc(m[1])}:</b> ${esc(m[2])}` : esc(l)}</li>`; }).join("")}</ul>`;
+  const item = l => { const m = /^([^:]{2,60}):\s(.+)$/.exec(l); return `<li>${m ? `<b>${esc(m[1])}:</b> ${esc(m[2])}` : esc(l)}</li>`; };
+  let html = "", aberta = false;
+  for (const l of linhas) {
+    if (l.startsWith("## ")) { if (aberta) html += "</ul>"; html += `<p class="resumo-grupo">${esc(l.slice(3))}</p>`; aberta = false; continue; }
+    if (!aberta) { html += `<ul class="resumo-lista">`; aberta = true; }
+    html += item(l);
+  }
+  return html + (aberta ? "</ul>" : "");
 }
 function renderPEC(id) {
   const L = T(), p = BY_ID[ALIAS[id] || id];
