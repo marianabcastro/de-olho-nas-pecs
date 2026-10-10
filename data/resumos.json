@@ -6718,33 +6718,46 @@
   }
  },
  "c347421": {
-  "titulo": "Pacote de controle de gastos públicos (promulgado em 2024)",
-  "oQueMuda": "Limita salários acima do teto a verbas indenizatórias previstas em lei nacional, cria limites para benefícios fiscais e muda outras regras de despesas públicas. O número original da PEC tratava do ICMS, mas o texto foi substituído.",
-  "quemAfeta": "Servidores públicos, governos e contribuintes.",
-  "porQueImporta": "Já em vigor desde dezembro de 2024: pagamentos acima do teto do funcionalismo só são permitidos se previstos em lei nacional, e há limites para criar ou ampliar benefícios fiscais.",
+  "titulo": "Corte de gastos de 2024: abono salarial, teto, DRU e Fundeb (promulgada)",
+  "oQueMuda": "Esta PEC foi apresentada em 2007 sobre ICMS; em dezembro de 2024 seu texto foi trocado pelo da PEC 45/2024, enviada pelo Poder Executivo. O que a Emenda Constitucional 135 mudou: (1) Abono salarial do PIS/Pasep: tinha direito quem ganhava até 2 salários mínimos; a partir de 2026 esse limite passa a ser corrigido só pela inflação (INPC), e não mais pelo salário mínimo, sem poder ficar abaixo de 1,5 salário mínimo. (2) Teto do funcionalismo: verbas indenizatórias só ficam fora do teto se estiverem numa lei ordinária nacional aprovada pelo Congresso; enquanto essa lei não existir, continuam fora do teto as previstas na legislação atual. (3) DRU: o governo pode usar livremente 30% de contribuições sociais, CIDE, taxas e receitas patrimoniais até 2032, exceto o que vai para estados e municípios, o Fundo Social do pré-sal e os royalties da educação e saúde. (4) Até 2032, nova vinculação de receita não pode fazer a despesa crescer acima do limite do arcabouço fiscal. (5) Fundeb: em 2025, até 10% da complementação da União pode ir para criar matrículas em tempo integral; a partir de 2026, estados e municípios devem usar ao menos 4% do Fundeb nisso, até cumprir as metas do Plano Nacional de Educação. (6) O governo pode reduzir subsídios e subvenções no orçamento para cumprir as metas fiscais, e uma lei complementar vai definir condições e limites para benefícios tributários.",
+  "quemAfeta": "Trabalhadores com carteira que recebem o abono salarial do PIS/Pasep; servidores e membros de Poderes que recebem verbas indenizatórias acima do teto; redes públicas de educação básica, pelo Fundeb; União, estados e municípios, pelas regras de orçamento.",
+  "porQueImporta": "Em vigor desde 20 de dezembro de 2024. Antes, o limite de renda do abono subia junto com o salário mínimo; agora sobe só com a inflação, então, medido em salários mínimos, ele diminui sempre que o salário mínimo sobe mais que a inflação, até o piso de 1,5. A regra sobre verbas acima do teto depende de uma lei que o Congresso ainda precisa aprovar; até lá, vale a legislação atual. Os limites para benefícios tributários também dependem de lei complementar.",
   "fonte": "revisado",
   "apelido": "PEC do Corte de Gastos",
   "en": {
-   "titulo": "Public spending control package (enacted in 2024)",
-   "oQueMuda": "It limits payments above the public salary cap to compensation allowances set by national law, creates limits on tax incentives and changes other spending rules. The original amendment dealt with the ICMS state tax, but its text was replaced.",
-   "quemAfeta": "Public servants, governments and taxpayers.",
-   "porQueImporta": "In force since December 2024: payments above the public salary cap are only allowed if set by national law, and there are limits on creating or expanding tax benefits.",
+   "titulo": "2024 spending cuts: wage bonus, pay cap, DRU and Fundeb (enacted)",
+   "oQueMuda": "This PEC was introduced in 2007 on ICMS; in December 2024 its text was replaced by that of PEC 45/2024, sent by the Executive. What Constitutional Amendment 135 changed: (1) PIS/Pasep wage bonus: workers earning up to 2 minimum wages were eligible; from 2026 that limit is adjusted only for inflation (INPC), no longer by the minimum wage, and cannot fall below 1.5 minimum wages. (2) Public pay cap: compensatory allowances stay outside the cap only if listed in a national ordinary law passed by Congress; until that law exists, those in current legislation remain outside the cap. (3) DRU: the government may freely use 30% of social contributions, CIDE, fees and property income until 2032, except what goes to states and municipalities, the pre-salt Social Fund and oil royalties for education and health. (4) Until 2032, new revenue earmarks cannot make spending grow above the fiscal framework limit. (5) Fundeb: in 2025, up to 10% of the federal top-up may fund new full-time school places; from 2026, states and municipalities must use at least 4% of Fundeb for this until the National Education Plan targets are met. (6) The government may cut subsidies in the budget to meet fiscal targets, and a complementary law will set conditions and limits for tax benefits.",
+   "quemAfeta": "Formal workers who receive the PIS/Pasep wage bonus; public servants and officials paid allowances above the cap; public basic-education systems, through Fundeb; federal, state and municipal governments, through budget rules.",
+   "porQueImporta": "In force since December 20, 2024. Before, the wage bonus income limit rose with the minimum wage; now it rises only with inflation, so, measured in minimum wages, it shrinks whenever the minimum wage rises faster than inflation, down to the 1.5 floor. The rule on pay above the cap depends on a law Congress still has to pass; until then, current legislation applies. Limits on tax benefits also depend on a complementary law.",
    "apelido": "Spending cut amendment"
   },
   "es": {
-   "titulo": "Paquete de control del gasto público (promulgado en 2024)",
-   "oQueMuda": "Limita los pagos por encima del tope salarial a las indemnizaciones previstas en ley nacional, crea límites a los beneficios fiscales y cambia otras reglas de gasto. El número original de la PEC trataba del ICMS, pero el texto fue reemplazado.",
-   "quemAfeta": "Servidores públicos, gobiernos y contribuyentes.",
-   "porQueImporta": "En vigor desde diciembre de 2024: los pagos por encima del tope salarial público solo se permiten si están previstos en ley nacional, y hay límites para crear o ampliar beneficios fiscales.",
+   "titulo": "Recorte de gastos de 2024: bono salarial, tope, DRU y Fundeb (promulgada)",
+   "oQueMuda": "Esta PEC se presentó en 2007 sobre el ICMS; en diciembre de 2024 su texto fue sustituido por el de la PEC 45/2024, enviada por el Poder Ejecutivo. Lo que cambió la Enmienda Constitucional 135: (1) Bono salarial del PIS/Pasep: tenía derecho quien ganaba hasta 2 salarios mínimos; desde 2026 ese límite se corrige solo por la inflación (INPC), ya no por el salario mínimo, y no puede quedar por debajo de 1,5 salarios mínimos. (2) Tope salarial público: las asignaciones indemnizatorias solo quedan fuera del tope si están en una ley ordinaria nacional aprobada por el Congreso; mientras esa ley no exista, siguen fuera del tope las previstas en la legislación actual. (3) DRU: el gobierno puede usar libremente el 30% de contribuciones sociales, CIDE, tasas e ingresos patrimoniales hasta 2032, salvo lo que va a estados y municipios, al Fondo Social del presal y a las regalías para educación y salud. (4) Hasta 2032, ninguna nueva vinculación de ingresos puede hacer crecer el gasto por encima del límite del marco fiscal. (5) Fundeb: en 2025, hasta el 10% del complemento federal puede ir a crear plazas de jornada completa; desde 2026, estados y municipios deben destinar al menos el 4% del Fundeb a eso hasta cumplir las metas del Plan Nacional de Educación. (6) El gobierno puede reducir subsidios en el presupuesto para cumplir las metas fiscales, y una ley complementaria definirá condiciones y límites para los beneficios tributarios.",
+   "quemAfeta": "Trabajadores formales que reciben el bono salarial del PIS/Pasep; servidores y miembros de los Poderes que reciben asignaciones por encima del tope; redes públicas de educación básica, por el Fundeb; Unión, estados y municipios, por las reglas presupuestarias.",
+   "porQueImporta": "En vigor desde el 20 de diciembre de 2024. Antes, el límite de ingresos del bono subía con el salario mínimo; ahora sube solo con la inflación, así que, medido en salarios mínimos, disminuye cada vez que el salario mínimo sube más que la inflación, hasta el piso de 1,5. La regla sobre pagos por encima del tope depende de una ley que el Congreso aún debe aprobar; hasta entonces rige la legislación actual. Los límites a beneficios tributarios también dependen de una ley complementaria.",
    "apelido": "PEC del Recorte de Gastos"
   },
   "base": {
-   "versao": "outra:Redação final aprovada na Câmara 2024-12-19",
+   "versao": "promulgada",
    "conferido": "texto",
    "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial",
-   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2846245"
-  }
+   "fonte": "texto da Emenda Constitucional 135/2024 no Planalto",
+   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc135.htm"
+  },
+  "textoDe": {
+   "sigla": "PEC 45/2024",
+   "autor": "Poder Executivo",
+   "data": "2024-12-03",
+   "url": "https://www.camara.leg.br/propostas-legislativas/2474283"
+  },
+  "relatoresExtra": [
+   [
+    "Moses Rodrigues",
+    "camara",
+    "Plenário · texto de 2024"
+   ]
+  ]
  },
  "c606656": {
   "titulo": "Coloca os direitos humanos entre os princípios da economia",

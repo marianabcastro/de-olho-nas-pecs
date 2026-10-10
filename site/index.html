@@ -313,6 +313,8 @@ pt: {
   mudou_p: (tipo, d) => `Em ${d} foi registrada uma nova versão: ${tipo}. Pode não refletir o que está sendo votado agora.`,
   resumo_de: v => v ? `O resumo acima descreve uma versão anterior: ${v}.` : "O resumo acima descreve o texto original.",
   mudou_grande: "A nova versão é bem diferente da original.",
+  texto_de: (pec, autor, d) => `O texto aprovado veio da ${pec} (autor: ${autor}; apresentada em ${d}), que foi juntada a esta PEC. Os relatores da CCJ e da Comissão Especial deram parecer sobre o texto original, antes da troca.`,
+  resumo_promulgado: l => `Resumo conferido com o ${l}.`, texto_promulgado: "texto promulgado",
   mudou_ok: (tipo, d) => `Resumo atualizado para a versão mais recente do texto (${tipo}, ${d}).`,
   ler_versao: "Ler a versão atual ↗", ler_original: "Ler o texto original ↗",
   erro_btn: "✋ Encontrou um erro neste resumo? Avise a gente ↗",
@@ -436,6 +438,8 @@ en: {
   mudou_p: (tipo, d) => `A new version was registered on ${d}: ${tipo}. It may not reflect what is being voted on now.`,
   resumo_de: v => v ? `The summary above describes an earlier version: ${v}.` : "The summary above describes the original text.",
   mudou_grande: "The new version is quite different from the original.",
+  texto_de: (pec, autor, d) => `The approved text came from ${pec} (author: ${autor}; introduced on ${d}), which was merged into this PEC. The CCJ and Special Committee rapporteurs reviewed the original text, before it was replaced.`,
+  resumo_promulgado: l => `Summary checked against the ${l}.`, texto_promulgado: "enacted text",
   mudou_ok: (tipo, d) => `Summary updated to the latest version of the text (${tipo}, ${d}).`,
   ler_versao: "Read the current version (in Portuguese) ↗", ler_original: "Read the original text (in Portuguese) ↗",
   erro_btn: "✋ Found a mistake in this summary? Let us know ↗",
@@ -559,6 +563,8 @@ es: {
   mudou_p: (tipo, d) => `El ${d} se registró una nueva versión: ${tipo}. Puede no reflejar lo que se vota ahora.`,
   resumo_de: v => v ? `El resumen de arriba describe una versión anterior: ${v}.` : "El resumen de arriba describe el texto original.",
   mudou_grande: "La nueva versión es bastante diferente de la original.",
+  texto_de: (pec, autor, d) => `El texto aprobado vino de la ${pec} (autor: ${autor}; presentada el ${d}), que fue unida a esta PEC. Los relatores de la CCJ y de la Comisión Especial dictaminaron sobre el texto original, antes del cambio.`,
+  resumo_promulgado: l => `Resumen verificado con el ${l}.`, texto_promulgado: "texto promulgado",
   mudou_ok: (tipo, d) => `Resumen actualizado a la versión más reciente del texto (${tipo}, ${d}).`,
   ler_versao: "Leer la versión actual (en portugués) ↗", ler_original: "Leer el texto original (en portugués) ↗",
   erro_btn: "✋ ¿Encontraste un error en este resumen? Avísanos ↗",
@@ -1093,12 +1099,13 @@ function ligarBuscaVotos(v, idx) {
 
 const pessoaLink = (nome, casa, extra = "") => `<a class="person" href="#parlamentar-${casa}-${slug(nome)}">${esc(nome)}${extra ? ` <span class="muted">· ${esc(extra)}</span>` : ""}</a>`;
 function quemHTML(p) {
-  const aut = p.autores || [], rel = p.relatores || [], L = T();
+  const aut = p.autores || [], rel = [...(p.relatores || []), ...(p.simples?.relatoresExtra || [])], L = T(), de = p.simples?.textoDe;
   if (!aut.length && !rel.length) return "";
   const principais = aut.filter(a => a[2]), co = aut.filter(a => !a[2]);
   return `<section aria-labelledby="h-quem"><h2 id="h-quem">${L.quem_h}</h2>
     <div class="box com-fonte">${fonte(fichaURL(p), L.f_ficha)}
       ${principais.length ? `<p class="label">${L.quem_propos}</p><div class="people">${principais.map(a => pessoaLink(a[0], a[1], L.casa[a[1]])).join("")}</div>` : `<p class="muted small">${esc(L.autor(p.autor))}</p>`}
+      ${de ? `<p class="small">${L.texto_de(`<a href="${esc(de.url)}" target="_blank" rel="noopener">${esc(de.sigla)}</a>`, esc(de.autor), dataBR(de.data))}</p>` : ""}
       ${rel.length ? `<p class="label">${L.relatores}</p><div class="people">${rel.map(r => pessoaLink(r[0], r[1], r[2] ? `${L.colegiado[r[2]] || r[2]} · ${L.casa[r[1]]}` : L.casa[r[1]])).join("")}</div>` : ""}
       ${co.length ? `<details><summary>${L.assinaram(co.length)}</summary><div class="people" style="margin-top:10px">${co.map(a => pessoaLink(a[0], a[1])).join("")}</div></details>` : ""}
     </div>
@@ -1126,6 +1133,8 @@ function textoMudouHTML(p) {
   const links = `<div class="links">${a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${L.ler_versao}</a>` : ""}${p.textoOriginal?.url ? `<a href="${esc(p.textoOriginal.url)}" target="_blank" rel="noopener">${L.ler_original}</a>` : ""}</div>`;
   const m = p.simples.mudanca;
   if (b.versao === a.id && m && m.descricao) return `<div class="mudou${m.objetivoMudou ? " grande" : ""}"><p class="small">${L.mudou_desc(esc(tipoVersao(a.tipo)), dataBR(a.data))}</p><p lang="pt-BR">${esc(m.descricao)}</p>${m.objetivoMudou ? `<b>${L.objetivo_mudou}</b>` : ""}${links}</div>`;
+  if (b.versao === "promulgada") return `<p class="small muted">${L.resumo_promulgado(b.url ? `<a href="${esc(b.url)}" target="_blank" rel="noopener">${L.texto_promulgado}</a>` : L.texto_promulgado)}</p>`;
+  if (p.estado === "promulgada") return "";   // já virou emenda: não há mais nada sendo votado
   if (b.versao === a.id) return `<p class="small muted">${L.mudou_ok(esc(tipoVersao(a.tipo)), dataBR(a.data))}</p>`;
   // parecer que aprovou o texto sem mudanças (o robô lê o voto): o resumo continua valendo
   if (a.mesmoTexto && (b.versao && b.versao !== "original" || p.casaOrigem === "senado"))
