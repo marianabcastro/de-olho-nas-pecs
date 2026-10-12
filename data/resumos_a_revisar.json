@@ -65,7 +65,7 @@
  {
   "id": "s8594291",
   "sigla": "PEC 66/2023",
-  "titulo": "Limita pagamento de precatórios e reabre parcelamento de dívidas das prefeituras",
+  "titulo": "Limita pagamento de precatórios, acaba com o prazo para quitá-los e reabre parcelamento de dívidas",
   "versao": "Texto aprovado no Senado",
   "data": "2025-09-17",
   "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/50bedfb8-c4d5-4d52-9011-8020aea5dac5",
@@ -126,15 +126,6 @@
   "semelhanca": 0.14
  },
  {
-  "id": "s8542259",
-  "sigla": "PEC 45/2023",
-  "titulo": "Torna crime a posse de qualquer quantidade de droga",
-  "versao": "Texto aprovado no Senado",
-  "data": "2024-04-18",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/da4096c4-cdad-49c1-aa19-10a569e1fe70",
-  "semelhanca": null
- },
- {
   "id": "s8394295",
   "sigla": "PEC 10/2023",
   "titulo": "Cria adicional por tempo de serviço para juízes e promotores",
@@ -150,15 +141,6 @@
   "versao": "Texto aprovado no Senado",
   "data": "2023-12-20",
   "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/79038db0-16a8-439f-8a58-f376c895f62d",
-  "semelhanca": null
- },
- {
-  "id": "s8060173",
-  "sigla": "PEC 8/2021",
-  "titulo": "Limita decisões individuais de ministros do STF",
-  "versao": "Texto aprovado no Senado",
-  "data": "2023-12-06",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/cc4fec84-06e7-4acc-b4d5-fc97aad7d478",
   "semelhanca": null
  },
  {

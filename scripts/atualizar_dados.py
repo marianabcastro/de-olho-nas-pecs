@@ -648,6 +648,8 @@ def main():
 
     # ---- junta, aplica os resumos e grava
     pecs = juntar(list(cam.values()), list(sen.values()))
+    for p in pecs:   # a data da ficha pode ficar atrás da movimentação mais recente (ex.: Senado registra 31/08, movimenta em 02/09)
+        p["ultimaMovimentacao"] = max([p["ultimaMovimentacao"] or ""] + [m["data"] for m in p.get("movimentacoes") or []])
     pecs.sort(key=lambda p: p["ultimaMovimentacao"], reverse=True)
     resumos = ler_json(RAIZ / "data" / "resumos.json", {})
     comparados = ler_json(CACHE / "textos.json", {})     # {versão do texto: semelhança com o original}

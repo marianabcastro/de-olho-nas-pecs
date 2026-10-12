@@ -11,14 +11,16 @@
    "oQueMuda": "The maximum workweek would drop from 44 to 40 hours, up to 8 hours a day, with 2 paid days off (one preferably on Sunday), with no pay cut. The change would be gradual: 2 months after enactment, a maximum of 42 hours, already with 2 days off; 14 months after enactment, 40 hours. Collective agreements could offset hours, and a complementary law could create transition rules for micro-entrepreneurs, micro and small businesses.",
    "quemAfeta": "Workers with formal employment contracts and their employers. For university graduates earning 2.5 times the social security (INSS) ceiling or more (about R$21,200 a month in 2026), the hours limit and time-clock control would no longer apply, unless the employer decides to keep them or a collective agreement provides for them; the 2 days off would remain guaranteed. This exception does not apply to public-sector employees.",
    "porQueImporta": "People who work more than 40 hours a week today would work less for the same pay, which the text guarantees. For a worker who now does 44 hours, each hour worked would cost the employer about 10% more (44 ÷ 40); for someone doing 42 hours, about 5%. For those already working 40 hours or less, working hours do not change.",
-   "apelido": "End of the 6x1 schedule amendment"
+   "apelido": "End of the 6x1 schedule amendment",
+   "nota": "Studies disagree on the effect on jobs. Ipea estimates the average cost of formal labor would rise 7.84%, less than 1% of total costs in industry and retail, and says the calculation tends to overstate the impact. A study by Naercio Menezes Filho of the cut from 48 to 44 hours in 1988 found no rise in unemployment. FGV Ibre simulations project job losses in the most pessimistic scenario."
   },
   "es": {
    "titulo": "Reduce la jornada a 40 horas y garantiza 2 días libres por semana",
    "oQueMuda": "La jornada máxima bajaría de 44 a 40 horas semanales, hasta 8 horas por día, con 2 días de descanso pagado (uno, preferentemente, el domingo), sin reducción de salario. El cambio sería gradual: 2 meses tras la promulgación, máximo de 42 horas y ya con los 2 días de descanso; 14 meses tras la promulgación, 40 horas. Los acuerdos colectivos podrían compensar horarios, y una ley complementaria podría crear reglas de transición para microemprendedores, microempresas y pequeñas empresas.",
    "quemAfeta": "Trabajadores con contrato formal y las empresas que los emplean. Para quien tiene título universitario y gana a partir de 2,5 veces el tope del INSS (cerca de R$ 21.200 al mes en 2026), dejarían de valer el límite de horas y el control de asistencia, salvo que el empleador decida mantenerlos o haya acuerdo colectivo; los 2 días libres seguirían garantizados. Esta excepción no vale para empleados públicos.",
    "porQueImporta": "Quien hoy trabaja más de 40 horas por semana pasaría a trabajar menos, con el mismo salario, garantizado por el texto. Para un trabajador que hoy hace 44 horas, cada hora trabajada costaría cerca de un 10% más al empleador (44 ÷ 40); para quien hace 42 horas, cerca de un 5%. Para quien ya trabaja 40 horas o menos, la jornada no cambia.",
-   "apelido": "PEC del fin de la escala 6x1"
+   "apelido": "PEC del fin de la escala 6x1",
+   "nota": "Los estudios divergen sobre el efecto en el empleo. El Ipea estima que el costo medio del trabajo formal subiría un 7,84%, menos del 1% del costo total en la industria y el comercio, y dice que el cálculo tiende a sobreestimar el impacto. Un estudio de Naercio Menezes Filho sobre la reducción de 48 a 44 horas, en 1988, no encontró aumento del desempleo. Simulaciones de la FGV Ibre proyectan pérdida de empleos en el escenario más pesimista."
   },
   "base": {
    "versao": "outra:Redação final aprovada na Câmara 2026-05-27",
@@ -26,6 +28,10 @@
    "data": "2026-10-09",
    "fonte": "checagem manual com o texto oficial",
    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3141964"
+  },
+  "nota": {
+   "texto": "Os estudos divergem sobre o efeito no emprego. O Ipea estima que o custo médio do trabalho com carteira subiria 7,84%, menos de 1% do custo total na indústria e no comércio, e diz que a conta tende a superestimar o impacto. Um estudo de Naercio Menezes Filho sobre a redução de 48 para 44 horas, em 1988, não encontrou aumento do desemprego. Simulações da FGV Ibre projetam perda de vagas no cenário mais pessimista.",
+   "url": "https://www.poder360.com.br/poder-economia/fim-da-escala-6-x-1-elevaria-custo-do-trabalho-em-784-diz-ipea/"
   }
  },
  "c1228863": {
@@ -40,48 +46,54 @@
    "oQueMuda": "16- and 17-year-olds would be tried as adults, gain full civil capacity, be required to vote and be able to run for office earlier.",
    "quemAfeta": "16- and 17-year-olds, the justice system and elections.",
    "porQueImporta": "Today, 16- and 17-year-olds are subject to the Child and Adolescent Statute, with at most 3 years of detention, and voting is optional. Under the PEC, they would be tried and imprisoned as adults and voting would become mandatory.",
-   "apelido": "Criminal Age PEC"
+   "apelido": "Criminal Age PEC",
+   "nota": "A review of studies done for the CDC, the US government health agency, found that young people transferred to the adult criminal system go on to commit more violence than those kept in the juvenile system, and found no evidence that it reduces violence among other youths. Supporters of lowering the age say it would reduce reoffending, but present no studies showing that effect."
   },
   "es": {
    "titulo": "Reduce la mayoría de edad penal y civil a 16 años y hace obligatorio el voto a los 16",
    "oQueMuda": "Los jóvenes de 16 y 17 años responderían penalmente como adultos, tendrían plena capacidad civil, estarían obligados a votar y podrían ser candidatos antes.",
    "quemAfeta": "Adolescentes de 16 y 17 años, el sistema de justicia y las elecciones.",
    "porQueImporta": "Hoy, quien tiene 16 o 17 años responde por el Estatuto del Niño y del Adolescente, con internación de como máximo 3 años, y votar es opcional. Con la PEC, sería juzgado y encarcelado como adulto y el voto pasaría a ser obligatorio.",
-   "apelido": "PEC de la Mayoría de Edad Penal"
+   "apelido": "PEC de la Mayoría de Edad Penal",
+   "nota": "Una revisión de estudios hecha para el CDC, órgano de salud del gobierno de EE. UU., concluyó que los jóvenes transferidos al sistema penal de adultos vuelven a cometer más violencia que los que siguen en el sistema juvenil, y no encontró pruebas de que eso reduzca la violencia entre los demás jóvenes. Quienes defienden la reducción dicen que disminuiría la reincidencia, pero no presentan estudios que muestren ese efecto."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "nota": {
+   "texto": "Uma revisão de estudos feita para o CDC, órgão de saúde do governo dos EUA, concluiu que jovens transferidos para o sistema penal de adultos voltam a cometer mais violência do que os que ficam no sistema juvenil, e não encontrou provas de que isso reduza a violência entre os demais jovens. Quem defende a redução diz que ela diminuiria a reincidência, mas não apresenta estudos que mostrem esse efeito.",
+   "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5609a1.htm"
   }
  },
  "c2140446": {
-  "titulo": "Acaba com o foro privilegiado em crimes comuns",
-  "oQueMuda": "Autoridades acusadas de crimes comuns deixariam de ser julgadas por tribunais superiores e passariam pela Justiça comum.",
-  "quemAfeta": "Políticos, juízes e outras autoridades que hoje têm foro especial.",
-  "porQueImporta": "Hoje dezenas de milhares de autoridades, como deputados, ministros, prefeitos e juízes, têm foro especial e são julgadas por tribunais. Com a PEC, em crimes comuns, elas seriam julgadas por juízes de primeira instância, como qualquer cidadão.",
+  "titulo": "Acaba com o foro privilegiado em crimes comuns, menos para cinco autoridades",
+  "oQueMuda": "Fim do foro em crimes comuns: deputados, senadores, ministros, governadores, prefeitos, juízes, promotores e outras autoridades passariam a ser julgados por juízes de primeira instância, como qualquer pessoa.\nQuem mantém o foro: presidente e vice-presidente da República e os presidentes da Câmara, do Senado e do STF continuariam sendo julgados pelo STF.\nCrimes de responsabilidade: o julgamento continua nos tribunais e no Senado, como hoje.\nConstituições estaduais: ficam proibidas de criar foro especial.\nUm só juiz: a primeira ação penal contra uma autoridade fixa o juiz para as ações seguintes sobre o mesmo fato.",
+  "quemAfeta": "Políticos, juízes, promotores e outras autoridades que hoje têm foro especial.",
+  "porQueImporta": "Hoje dezenas de milhares de autoridades têm foro especial e são julgadas por tribunais. Desde 2018, pelo entendimento do STF, o foro de deputados e senadores vale só para crimes cometidos no cargo e por causa dele. O texto foi aprovado pelo Senado em 2017 e pela comissão especial da Câmara em 2018, sem mudanças, e aguarda votação no plenário da Câmara.",
   "fonte": "manual",
   "apelido": "PEC do Fim do Foro Privilegiado",
   "en": {
-   "titulo": "Ends special court privileges for ordinary crimes",
-   "oQueMuda": "Officials accused of ordinary crimes would no longer be tried by higher courts but by regular courts.",
-   "quemAfeta": "Politicians, judges and other officials who have special court privileges today.",
-   "porQueImporta": "Today tens of thousands of officials, such as deputies, ministers, mayors and judges, have special jurisdiction and are tried by higher courts. Under the PEC, for ordinary crimes they would be tried by first-instance judges, like any citizen.",
+   "titulo": "Ends special court privileges for common crimes, except for five officials",
+   "oQueMuda": "End of special courts for common crimes: deputies, senators, ministers, governors, mayors, judges, prosecutors and other officials would be tried by first-instance judges, like anyone else.\nWho keeps it: the President and Vice President of the Republic and the presidents of the Chamber, the Senate and the Supreme Court would still be tried by the Supreme Court.\nImpeachable offenses: trials stay in the courts and the Senate, as today.\nState constitutions: barred from creating special courts.\nOne judge: the first criminal case against an official fixes the judge for later cases on the same facts.",
+   "quemAfeta": "Politicians, judges, prosecutors and other officials who today have special court privileges.",
+   "porQueImporta": "Today tens of thousands of officials have special court privileges and are tried by higher courts. Since 2018, under the Supreme Court's interpretation, the privilege for deputies and senators applies only to crimes committed in office and related to it. The text was approved by the Senate in 2017 and by a Chamber special committee in 2018, unchanged, and awaits a floor vote in the Chamber.",
    "apelido": "End of Special Court Privilege PEC"
   },
   "es": {
-   "titulo": "Acaba con el fuero privilegiado en delitos comunes",
-   "oQueMuda": "Las autoridades acusadas de delitos comunes dejarían de ser juzgadas por tribunales superiores y pasarían a la justicia común.",
-   "quemAfeta": "Políticos, jueces y otras autoridades que hoy tienen fuero especial.",
-   "porQueImporta": "Hoy decenas de miles de autoridades, como diputados, ministros, alcaldes y jueces, tienen fuero especial y son juzgadas por tribunales. Con la PEC, en delitos comunes serían juzgadas por jueces de primera instancia, como cualquier ciudadano.",
+   "titulo": "Acaba con el fuero privilegiado en delitos comunes, salvo para cinco autoridades",
+   "oQueMuda": "Fin del fuero en delitos comunes: diputados, senadores, ministros, gobernadores, alcaldes, jueces, fiscales y otras autoridades serían juzgados por jueces de primera instancia, como cualquier persona.\nQuién mantiene el fuero: el presidente y el vicepresidente de la República y los presidentes de la Cámara, del Senado y del STF seguirían siendo juzgados por el STF.\nDelitos de responsabilidad: el juicio sigue en los tribunales y en el Senado, como hoy.\nConstituciones estatales: quedan prohibidas de crear fuero especial.\nUn solo juez: la primera acción penal contra una autoridad fija el juez para las acciones siguientes sobre el mismo hecho.",
+   "quemAfeta": "Políticos, jueces, fiscales y otras autoridades que hoy tienen fuero especial.",
+   "porQueImporta": "Hoy decenas de miles de autoridades tienen fuero especial y son juzgadas por tribunales. Desde 2018, según el STF, el fuero de diputados y senadores vale solo para delitos cometidos en el cargo y por causa de él. El texto fue aprobado por el Senado en 2017 y por la comisión especial de la Cámara en 2018, sin cambios, y espera votación en el pleno de la Cámara.",
    "apelido": "PEC del Fin del Fuero Privilegiado"
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8992908": {
@@ -264,31 +276,35 @@
   }
  },
  "c2500080": {
-  "titulo": "Reorganiza a segurança pública e endurece penas para facções e milícias",
-  "oQueMuda": "Define o papel da União, estados e municípios na segurança, e manda a lei prever punições mais duras para integrantes de facções, milícias e autores de crimes violentos, como prisão em presídio de segurança máxima e limites à progressão de pena.",
+  "titulo": "Reorganiza a segurança pública: sistema nacional, fundos, polícias municipais e penas mais duras",
+  "oQueMuda": "## Organização\nSusp na Constituição: o Sistema Único de Segurança Pública, que integra as polícias e hoje existe só em lei, passa a estar na Constituição.\nFundos: os fundos nacionais de segurança e penitenciário entram na Constituição, e a União passa a repassar obrigatoriamente 50% de cada um aos estados, sem precisar de convênio.\nPolícias municipais: municípios com receita própria suficiente podem criar polícias municipais para policiamento ostensivo e comunitário, com controle do Ministério Público.\nPolícia Federal: passa a ter, na Constituição, o combate a facções e milícias que atuam em mais de um estado ou no exterior.\n## Penas e direitos\nFacções e crimes violentos: a lei terá de prever presídio de segurança máxima, limites à progressão de pena, à liberdade provisória e à saída temporária, e confisco de bens sem indenização.\nPreso provisório: quem está preso sem condenação teria os direitos políticos suspensos, inclusive o voto, enquanto estiver preso.\n## Poderes\nCNJ e CNMP: o Congresso poderia derrubar atos do CNJ e do CNMP em matéria de segurança e direito penal.",
   "quemAfeta": "Governos de todos os níveis, polícias, guardas municipais, presos e vítimas de crimes.",
-  "porQueImporta": "Hoje a segurança pública é responsabilidade principal dos estados. Com a PEC, a União passaria a ter atribuições definidas na área, e a lei teria de prever presídio de segurança máxima e limites à progressão de pena para integrantes de facções e milícias.",
+  "porQueImporta": "Hoje a segurança pública é responsabilidade principal dos estados, o sistema que integra as polícias existe só em lei, e presos provisórios podem votar.",
   "fonte": "revisado",
   "apelido": "PEC da Segurança Pública",
   "en": {
-   "titulo": "Reorganizes public security and toughens penalties for gangs and militias",
-   "oQueMuda": "It defines the roles of the federal government, states and municipalities in public security, and requires the law to set harsher punishments for members of criminal factions, militias and perpetrators of violent crimes, such as maximum-security prisons and limits on sentence progression.",
-   "quemAfeta": "All levels of government, police forces, municipal guards, prisoners and crime victims.",
-   "porQueImporta": "Today public security is mainly the states' responsibility. Under the PEC, the federal government would have defined duties in the area, and the law would have to provide maximum-security prison and limits on sentence progression for gang and militia members.",
+   "titulo": "Reorganizes public security: national system, funds, municipal police and tougher penalties",
+   "oQueMuda": "## Organization\nSusp in the Constitution: the Unified Public Security System, which integrates the police forces and today exists only in law, is written into the Constitution.\nFunds: the national security and prison funds enter the Constitution, and the federal government must transfer 50% of each to the states, with no agreement required.\nMunicipal police: municipalities with enough own revenue may create municipal police forces for patrol and community policing, overseen by prosecutors.\nFederal Police: the Constitution gives it the fight against gangs and militias operating in more than one state or abroad.\n## Penalties and rights\nGangs and violent crimes: the law must provide for maximum-security prisons, limits on sentence progression, pretrial release and temporary leave, and confiscation of assets without compensation.\nPretrial detainees: people held without a conviction would have their political rights suspended, including the right to vote, while detained.\n## Powers\nCNJ and CNMP: Congress could overturn acts of the national councils of justice and of prosecutors on security and criminal law.",
+   "quemAfeta": "Governments at all levels, police forces, municipal guards, prisoners and crime victims.",
+   "porQueImporta": "Today public security is mainly a state responsibility, the system that integrates the police exists only in law, and pretrial detainees can vote.",
    "apelido": "Public Safety PEC"
   },
   "es": {
-   "titulo": "Reorganiza la seguridad pública y endurece las penas para facciones y milicias",
-   "oQueMuda": "Define el papel del gobierno federal, los estados y los municipios en la seguridad, y manda que la ley prevea castigos más duros para integrantes de facciones, milicias y autores de crímenes violentos, como prisión en cárceles de máxima seguridad y límites a la progresión de la pena.",
+   "titulo": "Reorganiza la seguridad pública: sistema nacional, fondos, policías municipales y penas más duras",
+   "oQueMuda": "## Organización\nSusp en la Constitución: el Sistema Único de Seguridad Pública, que integra las policías y hoy existe solo en ley, pasa a la Constitución.\nFondos: los fondos nacionales de seguridad y penitenciario entran en la Constitución, y la Unión debe transferir obligatoriamente el 50% de cada uno a los estados, sin convenio.\nPolicías municipales: los municipios con ingresos propios suficientes pueden crear policías municipales para patrullaje y policía comunitaria, con control del Ministerio Público.\nPolicía Federal: la Constitución le asigna el combate a facciones y milicias que actúan en más de un estado o en el exterior.\n## Penas y derechos\nFacciones y crímenes violentos: la ley deberá prever cárcel de máxima seguridad, límites a la progresión de pena, a la libertad provisional y a las salidas temporales, y decomiso de bienes sin indemnización.\nPreso preventivo: quien está preso sin condena tendría suspendidos sus derechos políticos, incluido el voto, mientras esté preso.\n## Poderes\nCNJ y CNMP: el Congreso podría anular actos del CNJ y del CNMP en materia de seguridad y derecho penal.",
    "quemAfeta": "Gobiernos de todos los niveles, policías, guardias municipales, presos y víctimas de delitos.",
-   "porQueImporta": "Hoy la seguridad pública es responsabilidad principal de los estados. Con la PEC, el gobierno federal tendría atribuciones definidas en el área, y la ley tendría que prever cárcel de máxima seguridad y límites a la progresión de pena para integrantes de facciones y milicias.",
+   "porQueImporta": "Hoy la seguridad pública es responsabilidad principal de los estados, el sistema que integra las policías existe solo en ley, y los presos preventivos pueden votar.",
    "apelido": "PEC de la Seguridad Pública"
   },
   "base": {
-   "versao": "c2608312",
+   "versao": "s10312735",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "mudanca": {
+   "descricao": "Em 02/09/2026, a CCJ do Senado aprovou o texto tirando a parte das bets (30% da arrecadação para os fundos, calculados depois de descontar os custos das empresas de apostas). O relator disse que essa regra protegia os custos das empresas e diminuía o dinheiro que hoje vai para educação, esporte e outras áreas, e que ela entrou de última hora no plenário da Câmara. Ainda faltam votar 3 emendas destacadas. Se o Senado aprovar o texto com mudanças, as partes alteradas voltam para a Câmara.",
+   "objetivoMudou": false
   }
  },
  "c2644800": {
@@ -692,31 +708,37 @@
   }
  },
  "c2576168": {
-  "titulo": "Reforma a administração pública",
-  "oQueMuda": "Muda regras do serviço público para melhorar a gestão, digitalizar serviços, profissionalizar e cortar privilégios.",
-  "quemAfeta": "Servidores públicos e quem usa serviços públicos.",
-  "porQueImporta": "Com a PEC, mudariam as regras de contratação, avaliação de desempenho, salários e benefícios no serviço público, incluindo o fim de vantagens como férias acima de 30 dias para algumas carreiras.",
+  "titulo": "Reforma administrativa: bônus por desempenho, carreiras mais longas e fim de benefícios por tempo de serviço",
+  "oQueMuda": "## Salários e carreiras\nBônus por resultado: servidores poderiam receber bônus de até 2 salários por ano, e até 4 para chefias, ligado a metas; esse bônus ficaria fora do teto do funcionalismo.\nCarreiras: o salário inicial não poderia passar de 50% do salário final da carreira (salvo carreiras que pagam até 4 salários mínimos), com no mínimo 20 níveis e pelo menos 1 ano entre cada um.\nFim de vantagens por tempo: acabam adicionais e progressões só por tempo de serviço e a licença-prêmio; aumentos com efeito retroativo ficam proibidos.\nFérias: no máximo 30 dias por ano (salvo professores e alguns profissionais de saúde), com adicional de até 1/3.\n## Avaliação e Judiciário\nEstágio probatório: avaliação objetiva com metas; o servidor considerado inapto é exonerado.\nJuízes: aposentadoria compulsória deixa de ser punição; em faltas graves, a pena passa a ser a perda do cargo.",
+  "quemAfeta": "Servidores públicos de todos os níveis, juízes e quem usa serviços públicos.",
+  "porQueImporta": "Hoje muitas carreiras têm adicionais e progressões automáticas por tempo de serviço, e juízes punidos por faltas graves podem ser aposentados compulsoriamente, recebendo proporcionalmente ao tempo de serviço.",
   "fonte": "manual",
   "apelido": "Nova Reforma Administrativa",
   "en": {
-   "titulo": "Reforms public administration",
-   "oQueMuda": "Changes civil service rules to improve management, digitize services, professionalize staff and cut privileges.",
-   "quemAfeta": "Civil servants and people who use public services.",
-   "porQueImporta": "Under the PEC, the rules on hiring, performance evaluation, salaries and benefits in public service would change, including ending perks such as more than 30 days of vacation for some careers.",
-   "apelido": "New Administrative Reform"
+   "titulo": "Administrative reform: performance bonuses, longer careers and an end to seniority-based benefits",
+   "oQueMuda": "## Pay and careers\nPerformance bonus: civil servants could receive a bonus of up to 2 monthly salaries a year, and up to 4 for managers, tied to targets; this bonus would sit outside the public pay cap.\nCareers: starting pay could not exceed 50% of the career's top pay (except careers paying up to 4 minimum wages), with at least 20 levels and at least 1 year between each.\nEnd of seniority perks: allowances and promotions based only on length of service and premium leave end; pay rises with retroactive effect are banned.\nVacation: up to 30 days a year (except teachers and some health workers), with a bonus of up to 1/3.\n## Evaluation and judiciary\nProbation: objective evaluation with targets; a servant deemed unfit is dismissed.\nJudges: compulsory retirement is no longer a penalty; for serious misconduct, the penalty becomes loss of office.",
+   "quemAfeta": "Civil servants at all levels, judges and users of public services.",
+   "porQueImporta": "Today many careers have automatic allowances and promotions based on length of service, and judges punished for serious misconduct can be compulsorily retired with pay proportional to their years of service.",
+   "apelido": "New Administrative Reform",
+   "nota": "Civil servant groups say the PEC weakens job stability. The text keeps stability after probation but requires an objective evaluation to confirm it. The bonus outside the pay cap is a new exception to the public salary limit."
   },
   "es": {
-   "titulo": "Reforma la administración pública",
-   "oQueMuda": "Cambia reglas del servicio público para mejorar la gestión, digitalizar servicios, profesionalizar y recortar privilegios.",
-   "quemAfeta": "Servidores públicos y quienes usan servicios públicos.",
-   "porQueImporta": "Con la PEC, cambiarían las reglas de contratación, evaluación de desempeño, salarios y beneficios en el servicio público, incluido el fin de ventajas como vacaciones de más de 30 días para algunas carreras.",
-   "apelido": "Nueva Reforma Administrativa"
+   "titulo": "Reforma administrativa: bono por desempeño, carreras más largas y fin de beneficios por antigüedad",
+   "oQueMuda": "## Salarios y carreras\nBono por resultado: los servidores podrían recibir un bono de hasta 2 salarios al año, y hasta 4 para jefaturas, ligado a metas; ese bono quedaría fuera del tope salarial público.\nCarreras: el salario inicial no podría superar el 50% del salario final de la carrera (salvo carreras que pagan hasta 4 salarios mínimos), con al menos 20 niveles y al menos 1 año entre cada uno.\nFin de ventajas por antigüedad: se acaban los adicionales y ascensos solo por tiempo de servicio y la licencia-premio; se prohíben aumentos con efecto retroactivo.\nVacaciones: máximo 30 días al año (salvo profesores y algunos profesionales de salud), con adicional de hasta 1/3.\n## Evaluación y Poder Judicial\nPeríodo de prueba: evaluación objetiva con metas; el servidor considerado no apto es exonerado.\nJueces: la jubilación forzosa deja de ser castigo; ante faltas graves, la pena pasa a ser la pérdida del cargo.",
+   "quemAfeta": "Servidores públicos de todos los niveles, jueces y usuarios de servicios públicos.",
+   "porQueImporta": "Hoy muchas carreras tienen adicionales y ascensos automáticos por antigüedad, y los jueces sancionados por faltas graves pueden ser jubilados forzosamente, cobrando en proporción a su tiempo de servicio.",
+   "apelido": "Nueva Reforma Administrativa",
+   "nota": "Entidades de servidores dicen que la PEC debilita la estabilidad. El texto mantiene la estabilidad tras el período de prueba, pero exige una evaluación objetiva para confirmarla. El bono fuera del tope es una nueva excepción al límite salarial público."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "nota": {
+   "texto": "Entidades de servidores dizem que a PEC enfraquece a estabilidade. O texto mantém a estabilidade depois do estágio probatório, mas passa a exigir avaliação objetiva para confirmá-la. O bônus fora do teto é uma exceção nova ao limite de salários do funcionalismo.",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3029805"
   }
  },
  "c2604173": {
@@ -1410,30 +1432,36 @@
  },
  "s8548483": {
   "titulo": "Define o marco temporal para demarcar terras indígenas",
-  "oQueMuda": "Só seriam terras indígenas as ocupadas por esses povos em 5 de outubro de 1988; também proíbe ampliar terras já demarcadas.",
-  "quemAfeta": "Povos indígenas, produtores rurais e moradores de áreas em disputa.",
-  "porQueImporta": "Em 2023 o STF decidiu que a data de 1988 não pode ser usada para negar demarcações; no mesmo ano uma lei retomou essa regra, e o tema voltou ao STF. Com a PEC, o marco temporal ficaria na Constituição, e terras já demarcadas não poderiam ser ampliadas.",
+  "oQueMuda": "Marco temporal: só seriam terras indígenas as ocupadas por esses povos em 5 de outubro de 1988, e terras já demarcadas não poderiam ser ampliadas.\nOcupantes não indígenas: quando não houver ocupação indígena em 1988 nem conflito pela terra comprovado desde então, valem os títulos e a posse de boa-fé de particulares.\nIndenização: se a União desapropriar a área, paga ao particular o valor de mercado da terra e das benfeitorias, quando não for possível dar à comunidade indígena outra área equivalente.\nDemarcação: proprietários, possuidores e governos participam do processo desde o pedido de demarcação.",
+  "quemAfeta": "Povos indígenas, produtores rurais e moradores de áreas em disputa, e a União, que pagaria as indenizações.",
+  "porQueImporta": "Em 2023 o STF decidiu que a data de 1988 não pode ser usada para negar demarcações; no mesmo ano uma lei retomou essa regra, e o tema voltou ao STF. Com a PEC, o marco temporal ficaria na Constituição.",
   "fonte": "revisado",
   "apelido": "PEC do Marco Temporal",
   "en": {
    "titulo": "Sets a time limit ('marco temporal') for recognizing Indigenous lands",
-   "oQueMuda": "Only lands occupied by Indigenous peoples on October 5, 1988 could be recognized as Indigenous; it also bans expanding lands already demarcated.",
-   "quemAfeta": "Indigenous peoples, farmers and residents of disputed areas.",
-   "porQueImporta": "In 2023 the Supreme Court ruled that the 1988 date cannot be used to deny demarcations; that same year a law reinstated the rule, and the issue returned to the court. Under the PEC, the time limit would be in the Constitution, and already demarcated lands could not be expanded.",
-   "apelido": "Time-Frame (Marco Temporal) PEC"
+   "oQueMuda": "Time frame: only lands occupied by Indigenous peoples on October 5, 1988 would count as Indigenous lands, and already demarcated lands could not be expanded.\nNon-Indigenous occupants: where there was no Indigenous occupation in 1988 and no proven ongoing land conflict since then, private titles and good-faith possession are valid.\nCompensation: if the federal government expropriates the area, it pays the owner the market value of the land and improvements, when it cannot give the Indigenous community another equivalent area.\nDemarcation: owners, occupants and governments take part in the process from the moment demarcation is requested.",
+   "quemAfeta": "Indigenous peoples, farmers and residents of disputed areas, and the federal government, which would pay compensation.",
+   "porQueImporta": "In 2023 the Supreme Court ruled that the 1988 date cannot be used to deny demarcations; that same year a law restored the rule, and the issue returned to the Court. Under the PEC, the time frame would be in the Constitution.",
+   "apelido": "Time-Frame (Marco Temporal) PEC",
+   "nota": "The Supreme Court ruled the time-frame thesis unconstitutional in 2023 and reaffirmed it in December 2025, one day after the Senate approved this PEC. Supporters say it gives legal certainty to good-faith occupants; critics point out that many peoples were expelled from their lands before 1988."
   },
   "es": {
    "titulo": "Define el 'marco temporal' para demarcar tierras indígenas",
-   "oQueMuda": "Solo serían tierras indígenas las ocupadas por esos pueblos el 5 de octubre de 1988; también prohíbe ampliar tierras ya demarcadas.",
-   "quemAfeta": "Pueblos indígenas, productores rurales y residentes de áreas en disputa.",
-   "porQueImporta": "En 2023 el STF decidió que la fecha de 1988 no puede usarse para negar demarcaciones; ese mismo año una ley retomó la regla, y el tema volvió al STF. Con la PEC, el marco temporal quedaría en la Constitución, y las tierras ya demarcadas no podrían ampliarse.",
-   "apelido": "PEC del Marco Temporal"
+   "oQueMuda": "Marco temporal: solo serían tierras indígenas las ocupadas por esos pueblos el 5 de octubre de 1988, y las tierras ya demarcadas no podrían ampliarse.\nOcupantes no indígenas: cuando no haya ocupación indígena en 1988 ni conflicto por la tierra probado desde entonces, valen los títulos y la posesión de buena fe de particulares.\nIndemnización: si la Unión expropia el área, paga al particular el valor de mercado de la tierra y las mejoras, cuando no sea posible dar a la comunidad indígena otra área equivalente.\nDemarcación: propietarios, poseedores y gobiernos participan del proceso desde la solicitud de demarcación.",
+   "quemAfeta": "Pueblos indígenas, productores rurales y residentes de áreas en disputa, y la Unión, que pagaría las indemnizaciones.",
+   "porQueImporta": "En 2023 el STF decidió que la fecha de 1988 no puede usarse para negar demarcaciones; ese mismo año una ley retomó esa regla, y el tema volvió al STF. Con la PEC, el marco temporal quedaría en la Constitución.",
+   "apelido": "PEC del Marco Temporal",
+   "nota": "El STF declaró inconstitucional la tesis del marco temporal en 2023 y lo reafirmó en diciembre de 2025, un día después de que el Senado aprobara esta PEC. Quienes la defienden dicen que da seguridad jurídica a ocupantes de buena fe; quienes la critican recuerdan que muchos pueblos fueron expulsados de sus tierras antes de 1988."
   },
   "base": {
    "versao": "s10128960",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "nota": {
+   "texto": "O STF julgou a tese do marco temporal inconstitucional em 2023 e reafirmou essa decisão em dezembro de 2025, um dia depois de o Senado aprovar esta PEC. Quem defende a PEC diz que ela dá segurança jurídica a quem ocupa as terras de boa-fé; quem critica lembra que muitos povos foram expulsos de suas terras antes de 1988.",
+   "url": "https://www.gov.br/povosindigenas/pt-br/assuntos/noticias/2025/12/julgamento-do-marco-temporal-no-stf-insconstitucionalidade-da-tese-e-reafirmada"
   }
  },
  "s8938455": {
@@ -3379,31 +3407,32 @@
   }
  },
  "s8060173": {
-  "titulo": "Limita decisões individuais de ministros do STF",
-  "oQueMuda": "Cria prazo para pedidos de vista e exige maioria do tribunal para suspender leis ou atos de outros Poderes.",
-  "quemAfeta": "Tribunais, em especial o Supremo.",
-  "porQueImporta": "Hoje um único ministro do STF pode suspender uma lei com uma decisão provisória. Com a PEC, isso exigiria a maioria do tribunal, e pedidos de vista teriam prazo.",
+  "titulo": "Proíbe decisões individuais de juízes que suspendam leis",
+  "oQueMuda": "Decisões individuais: em todos os tribunais, um juiz sozinho não poderia suspender uma lei nem atos dos presidentes da República, da Câmara, do Senado e do Congresso; isso exigiria a maioria do tribunal.\nRecesso: durante as férias do Judiciário, o presidente do tribunal poderia decidir sozinho em caso de grave urgência, e o tribunal teria 30 dias após a volta para confirmar ou a decisão perde efeito.\nPrazo: quando o STF suspender uma lei em ação de inconstitucionalidade, terá 6 meses para julgar o caso; depois disso, o processo passa à frente na pauta, sob pena de a suspensão perder efeito.\nOutros casos: decisões que suspendam a tramitação de projetos no Congresso, afetem políticas públicas ou criem despesas também passariam a exigir a maioria do tribunal.",
+  "quemAfeta": "Tribunais, em especial o Supremo, e o Congresso.",
+  "porQueImporta": "Hoje um único ministro do STF pode suspender uma lei com uma decisão provisória, que depois é levada ao plenário. Com a PEC, isso exigiria a maioria do tribunal desde o início. A versão original também criava prazo para pedidos de vista, mas esse trecho foi retirado no Senado.",
   "fonte": "manual",
   "apelido": "PEC das decisões individuais do STF",
   "en": {
-   "titulo": "Limits individual decisions by Supreme Court justices",
-   "oQueMuda": "Sets deadlines for requests for review and requires a majority of the court to suspend laws or acts of other branches.",
-   "quemAfeta": "Courts, especially the Supreme Court.",
-   "porQueImporta": "Today a single Supreme Court justice can suspend a law with a provisional ruling. Under the PEC, this would require a majority of the court, and requests for more time to review a case would have a deadline.",
+   "titulo": "Bans individual judges' rulings that suspend laws",
+   "oQueMuda": "Individual rulings: in every court, a single judge could not suspend a law or acts of the presidents of the Republic, the Chamber, the Senate or Congress; that would require a majority of the court.\nRecess: during judicial holidays, the court's president could decide alone in cases of serious urgency, and the court would have 30 days after returning to confirm it or the ruling loses effect.\nDeadline: when the Supreme Court suspends a law in a constitutional challenge, it has 6 months to decide the case; after that, the case jumps the queue or the suspension loses effect.\nOther cases: rulings that halt bills in Congress, affect public policies or create expenses would also require a majority of the court.",
+   "quemAfeta": "Courts, especially the Supreme Court, and Congress.",
+   "porQueImporta": "Today a single Supreme Court justice can suspend a law with a provisional ruling, which is later taken to the full court. Under the PEC, a majority would be needed from the start. The original version also set a deadline for requests for review, but that part was removed in the Senate.",
    "apelido": "Supreme Court Individual Rulings PEC"
   },
   "es": {
-   "titulo": "Limita las decisiones individuales de los ministros del Supremo",
-   "oQueMuda": "Crea plazos para los pedidos de vista y exige mayoría del tribunal para suspender leyes o actos de otros Poderes.",
-   "quemAfeta": "Tribunales, en especial el Supremo.",
-   "porQueImporta": "Hoy un solo ministro del STF puede suspender una ley con una decisión provisional. Con la PEC, eso exigiría la mayoría del tribunal, y los pedidos de vista tendrían plazo.",
+   "titulo": "Prohíbe decisiones individuales de jueces que suspendan leyes",
+   "oQueMuda": "Decisiones individuales: en todos los tribunales, un juez solo no podría suspender una ley ni actos de los presidentes de la República, de la Cámara, del Senado y del Congreso; eso exigiría la mayoría del tribunal.\nReceso: durante las vacaciones judiciales, el presidente del tribunal podría decidir solo en caso de grave urgencia, y el tribunal tendría 30 días tras la vuelta para confirmarlo o la decisión pierde efecto.\nPlazo: cuando el STF suspenda una ley en una acción de inconstitucionalidad, tendrá 6 meses para juzgar el caso; después, el proceso pasa adelante en la agenda o la suspensión pierde efecto.\nOtros casos: las decisiones que suspendan la tramitación de proyectos en el Congreso, afecten políticas públicas o creen gastos también exigirían la mayoría del tribunal.",
+   "quemAfeta": "Tribunales, en especial el Supremo, y el Congreso.",
+   "porQueImporta": "Hoy un solo ministro del STF puede suspender una ley con una decisión provisional, que luego se lleva al pleno. Con la PEC, haría falta la mayoría desde el inicio. La versión original también creaba plazo para los pedidos de vista, pero esa parte se retiró en el Senado.",
    "apelido": "PEC de las decisiones individuales del Supremo"
   },
   "base": {
-   "versao": "original",
+   "versao": "s9522294",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2371406"
   }
  },
  "s8639911": {
@@ -3433,30 +3462,36 @@
  },
  "c2391567": {
   "titulo": "Permite ao Congresso derrubar decisões do STF",
-  "oQueMuda": "O Congresso poderia suspender, por maioria qualificada, decisões definitivas do Supremo que considere fora dos limites.",
+  "oQueMuda": "O Congresso poderia derrubar decisões definitivas do STF que considere fora dos limites da Constituição. Para isso, um terço dos deputados e dos senadores teria de apresentar a proposta, e ela precisaria de três quintos dos votos em cada Casa, em dois turnos. A derrubada valeria imediatamente.",
   "quemAfeta": "Supremo Tribunal Federal e Congresso.",
-  "porQueImporta": "Hoje decisões definitivas do STF não podem ser derrubadas pelo Congresso, só superadas por nova emenda ou lei. Com a PEC, o Congresso poderia suspender essas decisões por maioria qualificada.",
+  "porQueImporta": "Hoje decisões definitivas do STF não podem ser derrubadas pelo Congresso, só superadas por nova emenda à Constituição ou nova lei. Com a PEC, o próprio Congresso decidiria quais decisões do STF passaram dos limites.",
   "fonte": "manual",
   "apelido": "PEC que permite ao Congresso derrubar decisões do STF",
   "en": {
    "titulo": "Lets Congress overturn Supreme Court rulings",
-   "oQueMuda": "Congress could suspend, by a qualified majority, final Supreme Court rulings it considers beyond the Court's limits.",
+   "oQueMuda": "Congress could overturn final Supreme Court rulings it considers beyond the Constitution's limits. One third of deputies and senators would have to propose it, and it would need three fifths of the votes in each house, in two rounds. The overturn would take effect immediately.",
    "quemAfeta": "The Supreme Court and Congress.",
-   "porQueImporta": "Today final Supreme Court rulings cannot be overturned by Congress, only superseded by a new amendment or law. Under the PEC, Congress could suspend these rulings by a qualified majority.",
-   "apelido": "PEC letting Congress overturn Supreme Court rulings"
+   "porQueImporta": "Today final Supreme Court rulings cannot be overturned by Congress, only superseded by a new constitutional amendment or a new law. Under the PEC, Congress itself would decide which rulings went too far.",
+   "apelido": "PEC letting Congress overturn Supreme Court rulings",
+   "nota": "Separation of powers is an entrenched clause: the Constitution bars amendments tending to abolish it (art. 60, § 4). For that reason, legal scholars consider the PEC likely to be ruled unconstitutional. Its author says it removes no powers from the Supreme Court and only balances the branches."
   },
   "es": {
    "titulo": "Permite al Congreso anular decisiones del Supremo",
-   "oQueMuda": "El Congreso podría suspender, por mayoría calificada, decisiones firmes del Supremo que considere fuera de sus límites.",
+   "oQueMuda": "El Congreso podría anular decisiones definitivas del STF que considere fuera de los límites de la Constitución. Para ello, un tercio de los diputados y senadores tendría que presentar la propuesta, y esta necesitaría tres quintos de los votos en cada Cámara, en dos turnos. La anulación valdría de inmediato.",
    "quemAfeta": "Supremo Tribunal Federal y Congreso.",
-   "porQueImporta": "Hoy las decisiones definitivas del STF no pueden ser derribadas por el Congreso, solo superadas por nueva enmienda o ley. Con la PEC, el Congreso podría suspender esas decisiones por mayoría calificada.",
-   "apelido": "PEC que permite al Congreso anular decisiones del Supremo"
+   "porQueImporta": "Hoy las decisiones definitivas del STF no pueden ser anuladas por el Congreso, solo superadas por una nueva enmienda constitucional o una nueva ley. Con la PEC, el propio Congreso decidiría qué decisiones del STF se excedieron.",
+   "apelido": "PEC que permite al Congreso anular decisiones del Supremo",
+   "nota": "La separación de poderes es cláusula pétrea: la Constitución prohíbe enmiendas que tiendan a abolirla (art. 60, § 4). Por eso, juristas consideran que la PEC tiende a ser declarada inconstitucional. El autor dice que no quita ninguna atribución al STF y solo equilibra los Poderes."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "nota": {
+   "texto": "A separação dos Poderes é cláusula pétrea: a Constituição proíbe emendas que tendam a aboli-la (art. 60, § 4º). Por isso, juristas avaliam que a PEC tende a ser considerada inconstitucional. O autor diz que ela não retira nenhuma atribuição do STF e só equilibra os Poderes.",
+   "url": "https://www.cnnbrasil.com.br/politica/pec-para-autorizar-congresso-a-derrubar-decisoes-do-stf-pode-avancar-entenda/"
   }
  },
  "s8968311": {
@@ -4265,32 +4300,38 @@
   }
  },
  "s8594291": {
-  "titulo": "Limita pagamento de precatórios e reabre parcelamento de dívidas das prefeituras",
-  "oQueMuda": "Estados e municípios pagariam precatórios (dívidas reconhecidas pela Justiça) até um limite de 1% a 5% da receita, conforme o tamanho da dívida, e os municípios ganham novo prazo para parcelar dívidas com a Previdência.",
-  "quemAfeta": "Prefeituras, governos estaduais, servidores e pessoas que têm precatórios a receber.",
-  "porQueImporta": "Já em vigor: estados e municípios pagam precatórios até um limite de 1% a 5% da receita, conforme o tamanho da dívida, e municípios ganharam novo prazo para parcelar dívidas com a Previdência.",
+  "titulo": "Limita pagamento de precatórios, acaba com o prazo para quitá-los e reabre parcelamento de dívidas",
+  "oQueMuda": "## Estados e municípios\nLimite anual: estados e municípios pagam precatórios (dívidas reconhecidas pela Justiça) até um limite de 1% a 5% da receita, conforme o tamanho da dívida; o limite sobe 0,5 ponto a cada 10 anos, a partir de 2036, se ainda houver dívida.\nSem prazo final: acaba o prazo que a Constituição dava para quitar toda a dívida atrasada.\nPrecatórios antigos: o limite vale também para precatórios já emitidos antes da emenda.\nCorreção: os valores passam a ser corrigidos pela inflação (IPCA) mais 2% ao ano, desde que não passe da taxa Selic.\nAcordo: o credor pode aceitar um desconto para receber antes, de uma vez.\nPrevidência: municípios podem parcelar dívidas com a Previdência em até 300 meses.\n## União\nGastos federais: a partir de 2026, precatórios da União saem do limite de gastos do governo e passam a contar aos poucos na meta fiscal, 10% a mais a cada ano, a partir de 2027.",
+  "quemAfeta": "Pessoas e empresas com precatórios a receber, prefeituras, governos estaduais e a União.",
+  "porQueImporta": "Em vigor desde setembro de 2025. Antes, estados e municípios tinham um prazo na Constituição para quitar toda a dívida de precatórios atrasados; esse prazo deixou de existir.",
   "fonte": "revisado",
   "apelido": "PEC dos Precatórios e das dívidas das prefeituras",
   "en": {
-   "titulo": "Caps court-ordered debt payments and reopens city debt installment plans",
-   "oQueMuda": "States and municipalities would pay court-ordered debts ('precatórios') up to 1% to 5% of their revenue, depending on the size of the debt, and municipalities get a new deadline to pay pension debts in installments.",
-   "quemAfeta": "City and state governments, public servants and people owed court-ordered payments.",
-   "porQueImporta": "Already in force: states and municipalities pay court-ordered debts up to a limit of 1% to 5% of revenue, depending on the size of the debt, and municipalities got a new deadline to pay pension debts in installments.",
-   "apelido": "Court-ordered debts and city debts amendment"
+   "titulo": "Caps court-ordered debt payments, ends the deadline to clear them and reopens debt installment plans",
+   "oQueMuda": "## States and municipalities\nAnnual cap: states and municipalities pay court-ordered debts (precatórios) up to 1% to 5% of revenue, depending on the size of the debt; the cap rises 0.5 point every 10 years, from 2036, if debt remains.\nNo final deadline: the deadline the Constitution set to pay off the whole overdue debt ends.\nOld debts: the cap also applies to court-ordered debts issued before the amendment.\nAdjustment: amounts are adjusted by inflation (IPCA) plus 2% a year, as long as this does not exceed the Selic rate.\nSettlement: creditors may accept a discount to be paid earlier, in a lump sum.\nPensions: municipalities may pay pension-system debts in up to 300 monthly installments.\n## Federal government\nFederal spending: from 2026, federal court-ordered debts leave the government's spending cap and are gradually counted in the fiscal target, 10% more each year, from 2027.",
+   "quemAfeta": "People and companies owed court-ordered payments, municipal and state governments, and the federal government.",
+   "porQueImporta": "In force since September 2025. Before, states and municipalities had a constitutional deadline to pay off all overdue court-ordered debt; that deadline no longer exists.",
+   "apelido": "Court-ordered debts and city debts amendment",
+   "nota": "The Independent Fiscal Institution, the Senate's technical body, says this regime, like previous ones, creates a growing stock of unpaid court-ordered debts. The Brazilian Bar Association challenged the amendment at the Supreme Court, calling it an \"official default\". Supporters say it makes public finances more predictable."
   },
   "es": {
-   "titulo": "Limita el pago de sentencias judiciales y reabre el fraccionamiento de deudas municipales",
-   "oQueMuda": "Estados y municipios pagarían 'precatórios' (deudas reconocidas por la Justicia) hasta un límite del 1% al 5% de sus ingresos, según el tamaño de la deuda, y los municipios obtienen un nuevo plazo para fraccionar deudas con la previsión social.",
-   "quemAfeta": "Alcaldías, gobiernos estatales, servidores y personas con precatórios por cobrar.",
-   "porQueImporta": "Ya en vigor: estados y municipios pagan precatórios hasta un límite del 1% al 5% de sus ingresos, según el tamaño de la deuda, y los municipios obtuvieron un nuevo plazo para fraccionar deudas previsionales.",
-   "apelido": "PEC de los Precatórios y de las deudas municipales"
+   "titulo": "Limita el pago de precatorios, acaba con el plazo para saldarlos y reabre el pago en cuotas de deudas",
+   "oQueMuda": "## Estados y municipios\nLímite anual: estados y municipios pagan precatorios (deudas reconocidas por la Justicia) hasta un límite del 1% al 5% de sus ingresos, según el tamaño de la deuda; el límite sube 0,5 punto cada 10 años, desde 2036, si aún hay deuda.\nSin plazo final: se acaba el plazo que la Constitución daba para saldar toda la deuda atrasada.\nPrecatorios antiguos: el límite vale también para precatorios emitidos antes de la enmienda.\nCorrección: los valores se corrigen por la inflación (IPCA) más 2% al año, siempre que no supere la tasa Selic.\nAcuerdo: el acreedor puede aceptar un descuento para cobrar antes, de una vez.\nPrevisión social: los municipios pueden pagar deudas con la previsión en hasta 300 cuotas mensuales.\n## Unión\nGasto federal: desde 2026, los precatorios de la Unión salen del límite de gasto del gobierno y pasan a contar poco a poco en la meta fiscal, un 10% más cada año, desde 2027.",
+   "quemAfeta": "Personas y empresas con precatorios por cobrar, municipios, gobiernos estatales y la Unión.",
+   "porQueImporta": "En vigor desde septiembre de 2025. Antes, estados y municipios tenían un plazo en la Constitución para saldar toda la deuda de precatorios atrasados; ese plazo dejó de existir.",
+   "apelido": "PEC de los Precatórios y de las deudas municipales",
+   "nota": "La Institución Fiscal Independiente, órgano técnico del Senado, evalúa que este régimen, como los anteriores, genera un stock creciente de precatorios impagos. La OAB recurrió al STF contra la enmienda, llamándola \"impago oficial\". Quienes la defienden dicen que da previsibilidad a las cuentas públicas."
   },
   "base": {
-   "versao": "outra:Redação final aprovada na Câmara 2025-07-15",
+   "versao": "promulgada",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial",
-   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2958905"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas",
+   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc136.htm"
+  },
+  "nota": {
+   "texto": "A Instituição Fiscal Independente, órgão técnico do Senado, avalia que este regime, como os anteriores, gera um estoque crescente de precatórios não pagos. A OAB foi ao STF contra a emenda, chamando-a de \"calote oficial\". Quem defende diz que ela dá previsibilidade às contas públicas.",
+   "url": "https://www12.senado.leg.br/ifi/pdf/raf116_set2026.pdf"
   }
  },
  "c505266": {
@@ -6410,30 +6451,37 @@
  },
  "s8542259": {
   "titulo": "Torna crime a posse de qualquer quantidade de droga",
-  "oQueMuda": "A Constituição passaria a exigir que a posse e o porte de drogas sem autorização sejam crime, em qualquer quantidade, separando usuário de traficante e prevendo para o usuário penas alternativas à prisão e tratamento.",
+  "oQueMuda": "A Constituição passaria a exigir que a lei considere crime a posse e o porte de drogas sem autorização, em qualquer quantidade. O texto não fixa uma quantidade para separar usuário de traficante: a distinção seria feita caso a caso, pelas circunstâncias de cada situação. Para o usuário, a pena seria alternativa à prisão, com tratamento contra a dependência.",
   "quemAfeta": "Usuários de drogas e o sistema de justiça.",
-  "porQueImporta": "Em 2024 o STF deixou de considerar crime o porte de até 40 gramas de maconha para uso pessoal. Com a PEC, a Constituição exigiria que a posse de qualquer quantidade de droga sem autorização fosse crime, com penas alternativas à prisão para o usuário.",
+  "porQueImporta": "Em 2024 o STF deixou de considerar crime o porte de até 40 gramas de maconha para uso pessoal e fixou essa quantidade como referência para presumir que a pessoa é usuária. Com a PEC, a posse de qualquer quantidade voltaria a ser crime, sem quantidade de referência na Constituição.",
   "fonte": "revisado",
   "apelido": "PEC das Drogas",
   "en": {
    "titulo": "Makes possession of any amount of drugs a crime",
-   "oQueMuda": "The Constitution would require that unauthorized possession and carrying of drugs be a crime in any amount, distinguishing users from traffickers and providing alternatives to prison and treatment for users.",
+   "oQueMuda": "The Constitution would require the law to treat possession and carrying of drugs without authorization as a crime, in any amount. The text sets no amount to tell users from dealers: the distinction would be made case by case, based on the circumstances. Users would get alternatives to prison and addiction treatment.",
    "quemAfeta": "Drug users and the justice system.",
-   "porQueImporta": "In 2024 the Supreme Court stopped treating possession of up to 40 grams of marijuana for personal use as a crime. Under the PEC, the Constitution would require possession of any amount of drugs without authorization to be a crime, with alternatives to prison for users.",
-   "apelido": "Drugs PEC"
+   "porQueImporta": "In 2024 the Supreme Court stopped treating possession of up to 40 grams of marijuana for personal use as a crime and set that amount as a reference to presume someone is a user. Under the PEC, possession of any amount would be a crime again, with no reference amount in the Constitution.",
+   "apelido": "Drugs PEC",
+   "nota": "The current drug law also separates users from dealers case by case. Ipea studies of that law show that Black defendants are prosecuted for trafficking with smaller amounts than white defendants. Supporters of the PEC say it protects public health and strengthens the fight against trafficking."
   },
   "es": {
    "titulo": "Convierte en delito la posesión de cualquier cantidad de droga",
-   "oQueMuda": "La Constitución exigiría que la posesión y el porte de drogas sin autorización sean delito en cualquier cantidad, distinguiendo al consumidor del traficante y previendo para el consumidor penas alternativas a la prisión y tratamiento.",
-   "quemAfeta": "Consumidores de drogas y el sistema de justicia.",
-   "porQueImporta": "En 2024 el STF dejó de considerar delito la posesión de hasta 40 gramos de marihuana para uso personal. Con la PEC, la Constitución exigiría que la posesión de cualquier cantidad de droga sin autorización fuera delito, con penas alternativas a la prisión para el consumidor.",
-   "apelido": "PEC de las Drogas"
+   "oQueMuda": "La Constitución exigiría que la ley considere delito la posesión y el porte de drogas sin autorización, en cualquier cantidad. El texto no fija una cantidad para separar al usuario del traficante: la distinción se haría caso por caso, según las circunstancias. Para el usuario, la pena sería alternativa a la prisión, con tratamiento contra la dependencia.",
+   "quemAfeta": "Usuarios de drogas y el sistema de justicia.",
+   "porQueImporta": "En 2024 el STF dejó de considerar delito el porte de hasta 40 gramos de marihuana para uso personal y fijó esa cantidad como referencia para presumir que la persona es usuaria. Con la PEC, la posesión de cualquier cantidad volvería a ser delito, sin cantidad de referencia en la Constitución.",
+   "apelido": "PEC de las Drogas",
+   "nota": "La ley de drogas actual también separa usuario de traficante caso por caso. Estudios del Ipea sobre esa ley muestran que los acusados negros son procesados por tráfico con cantidades menores que los blancos. Quienes defienden la PEC dicen que protege la salud pública y refuerza el combate al tráfico."
   },
   "base": {
-   "versao": "original",
+   "versao": "s9588457",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas",
+   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2410440"
+  },
+  "nota": {
+   "texto": "A lei de drogas atual também separa usuário de traficante caso a caso. Estudos do Ipea sobre essa lei mostram que réus negros são processados por tráfico com quantidades menores que réus brancos. Quem defende a PEC diz que ela protege a saúde pública e reforça o combate ao tráfico.",
+   "url": "https://repositorio.ipea.gov.br/server/api/core/bitstreams/dcf05466-ec5e-46f2-ba91-714bd0d7e950/content"
   }
  },
  "c2075449": {

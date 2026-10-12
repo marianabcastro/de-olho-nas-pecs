@@ -69,6 +69,9 @@ def versoes_senado(pid, get_json):
             candidatos.append((data(d), 2, "Redação para o segundo turno no Senado", d))
         elif t == "Parecer":
             candidatos.append((data(d), 1, "Parecer aprovado em comissão ou no plenário do Senado", d))
+        elif t == "Relatório Legislativo":
+            # na CCJ o relatório aprovado "passa a constituir o parecer", mas às vezes só é publicado com este tipo
+            candidatos.append((data(d), 0, "Parecer do relator no Senado", d))
     if not candidatos:
         return original, None
     dt_, _, rotulo, d = max(candidatos, key=lambda c: (c[0], c[1]))
