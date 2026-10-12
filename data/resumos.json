@@ -899,31 +899,36 @@
  },
  "c2284555": {
   "titulo": "Garante aposentadoria especial a agentes comunitários de saúde",
-  "oQueMuda": "Cria regras de proteção e aposentadoria especial para agentes comunitários de saúde e de combate às endemias.",
-  "quemAfeta": "Agentes comunitários de saúde e de endemias, e as prefeituras.",
-  "porQueImporta": "Hoje agentes comunitários de saúde seguem as regras gerais de aposentadoria. Com a PEC, poderiam se aposentar com 57 anos (mulheres) e 60 anos (homens), com 25 anos de atividade, e teriam o vínculo de trabalho regularizado.",
+  "oQueMuda": "Aposentadoria diferenciada: agentes comunitários de saúde e de combate às endemias poderiam se aposentar com 57 anos (mulheres) e 60 anos (homens), com 25 anos de contribuição e de atividade; há regras de transição com idades menores para quem já está na função.\nSalário integral: em alguns casos, a aposentadoria teria o valor do último salário e os mesmos reajustes de quem está na ativa.\nVínculo: os agentes passam a ter vínculo direto com o município ou estado, vedadas contratações temporárias ou terceirizadas, salvo em emergência de saúde pública.\nQuem paga: a União ajudaria estados e municípios a cobrir o aumento de despesa e pagaria um benefício extra a quem se aposenta pelo INSS.\nAgentes indígenas: as regras valem também para agentes indígenas de saúde e de saneamento.",
+  "quemAfeta": "Agentes comunitários de saúde e de endemias, prefeituras, regimes de previdência dos municípios e a União.",
+  "porQueImporta": "Hoje esses agentes seguem as regras gerais de aposentadoria. A PEC foi aprovada pela Câmara em outubro de 2025 e pelo Senado em julho de 2026, por 73 votos a 1, e falta ser promulgada.",
   "fonte": "manual",
   "apelido": "PEC dos Agentes Comunitários de Saúde",
   "en": {
    "titulo": "Guarantees special retirement for community health workers",
-   "oQueMuda": "Creates protections and special retirement for community health and disease-control workers.",
-   "quemAfeta": "Community health and disease-control workers, and city governments.",
-   "porQueImporta": "Today community health workers follow general retirement rules. Under the PEC, they could retire at 57 (women) and 60 (men), with 25 years of work, and their employment would be regularized.",
-   "apelido": "Community Health Workers PEC"
+   "oQueMuda": "Special retirement: community health agents and disease-control agents could retire at 57 (women) and 60 (men), with 25 years of contributions and work; transition rules allow lower ages for those already in the job.\nFull pay: in some cases, the pension would equal the last salary and get the same raises as active workers.\nEmployment: agents get a direct link to the municipality or state; temporary or outsourced hiring is banned except in public health emergencies.\nWho pays: the federal government would help states and municipalities cover the extra cost and pay an extra benefit to those retiring under INSS.\nIndigenous agents: the rules also apply to Indigenous health and sanitation agents.",
+   "quemAfeta": "Community health and disease-control agents, municipalities, municipal pension systems and the federal government.",
+   "porQueImporta": "Today these agents follow the general retirement rules. The PEC was approved by the Chamber in October 2025 and by the Senate in July 2026, 73 votes to 1, and awaits enactment.",
+   "apelido": "Community Health Workers PEC",
+   "nota": "The Social Security Ministry estimates the cost at about R$ 29 billion over ten years. The National Confederation of Municipalities estimates R$ 69.9 billion for municipal pension systems and says the PEC interferes with municipal autonomy."
   },
   "es": {
    "titulo": "Garantiza jubilación especial a agentes comunitarios de salud",
-   "oQueMuda": "Crea reglas de protección y jubilación especial para agentes comunitarios de salud y de control de endemias.",
-   "quemAfeta": "Agentes comunitarios de salud y de endemias, y los municipios.",
-   "porQueImporta": "Hoy los agentes comunitarios de salud siguen las reglas generales de jubilación. Con la PEC, podrían jubilarse a los 57 años (mujeres) y 60 años (hombres), con 25 años de actividad, y tendrían su vínculo laboral regularizado.",
-   "apelido": "PEC de los Agentes Comunitarios de Salud"
+   "oQueMuda": "Jubilación diferenciada: los agentes comunitarios de salud y de combate a endemias podrían jubilarse a los 57 años (mujeres) y 60 (hombres), con 25 años de contribución y actividad; hay reglas de transición con edades menores para quienes ya están en la función.\nSalario íntegro: en algunos casos, la jubilación tendría el valor del último salario y los mismos reajustes que los activos.\nVínculo: los agentes pasan a tener vínculo directo con el municipio o estado; se prohíben contrataciones temporales o tercerizadas, salvo en emergencias de salud pública.\nQuién paga: la Unión ayudaría a estados y municipios a cubrir el aumento de gasto y pagaría un beneficio extra a quien se jubile por el INSS.\nAgentes indígenas: las reglas valen también para agentes indígenas de salud y saneamiento.",
+   "quemAfeta": "Agentes comunitarios de salud y de endemias, municipios, regímenes previsionales municipales y la Unión.",
+   "porQueImporta": "Hoy estos agentes siguen las reglas generales de jubilación. La PEC fue aprobada por la Cámara en octubre de 2025 y por el Senado en julio de 2026, por 73 votos a 1, y falta promulgarla.",
+   "apelido": "PEC de los Agentes Comunitarios de Salud",
+   "nota": "El Ministerio de Previsión estima el costo en cerca de R$ 29.000 millones en diez años. La Confederación Nacional de Municipios estima R$ 69.900 millones para los regímenes previsionales municipales y dice que la PEC interfiere en la autonomía municipal."
   },
   "base": {
-   "versao": "outra:Redação final aprovada na Câmara 2025-10-07",
+   "versao": "s10242630",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial",
-   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3018827"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "nota": {
+   "texto": "O Ministério da Previdência estima o custo em cerca de R$ 29 bilhões em dez anos. A Confederação Nacional de Municípios estima R$ 69,9 bilhões para os regimes de previdência dos municípios e diz que a PEC interfere na autonomia municipal.",
+   "url": "https://www.jornalopcao.com.br/ultimas-noticias/senado-aprova-aposentadoria-especial-para-agentes-de-saude-impacto-estimado-e-de-r-27-bilhoes-847045/"
   }
  },
  "c412505": {
@@ -3112,30 +3117,30 @@
  },
  "c2377463": {
   "titulo": "Proíbe descriminalizar drogas, inclusive o porte para uso pessoal",
-  "oQueMuda": "Coloca o combate ao tráfico, à produção, à posse e ao consumo de drogas como objetivo do país e proíbe descriminalizar essas condutas, mesmo a posse para consumo próprio.",
-  "quemAfeta": "Toda a população, usuários de drogas e o sistema de justiça.",
-  "porQueImporta": "Hoje a Lei de Drogas pune o porte para uso pessoal com advertência, serviços ou curso, e em 2024 o STF deixou de considerar crime o porte de até 40 gramas de maconha. Com a PEC, a Constituição proibiria descriminalizar a posse de qualquer droga, para qualquer quantidade.",
+  "oQueMuda": "Objetivo do país: erradicar o tráfico, a produção, a posse, o porte e o consumo de drogas ilícitas passaria a ser um dos objetivos fundamentais da República.\nProibição: ficaria proibido descriminalizar a posse e o porte de drogas, mesmo para consumo próprio, e legalizar o uso recreativo de qualquer droga além das já permitidas.\nTratamento: o Estado promoveria prevenção e tratamento com a colaboração de famílias, comunidades terapêuticas, entidades privadas e instituições religiosas.\nPesquisa: fica garantida a pesquisa científica de novas substâncias com uso medicinal.",
+  "quemAfeta": "Usuários de drogas, o sistema de justiça e entidades de tratamento, inclusive religiosas.",
+  "porQueImporta": "Hoje a Lei de Drogas pune o porte para uso pessoal com advertência, serviços ou curso, e em 2024 o STF deixou de considerar crime o porte de até 40 gramas de maconha. Com a PEC, a Constituição proibiria descriminalizar a posse de qualquer droga, em qualquer quantidade.",
   "fonte": "revisado",
   "apelido": "PEC antidrogas",
   "en": {
    "titulo": "Bans decriminalizing drugs, including possession for personal use",
-   "oQueMuda": "It makes fighting drug trafficking, production, possession and use a national goal and bans decriminalizing these acts, even possession for personal use.",
-   "quemAfeta": "The whole population, drug users and the justice system.",
-   "porQueImporta": "Today the Drug Law punishes possession for personal use with a warning, community service or a course, and in 2024 the Supreme Court stopped treating possession of up to 40 grams of marijuana as a crime. Under the PEC, the Constitution would ban decriminalizing possession of any drug in any amount.",
+   "oQueMuda": "National goal: eradicating trafficking, production, possession, carrying and use of illegal drugs would become one of the Republic's fundamental goals.\nBan: decriminalizing possession and carrying of drugs, even for personal use, and legalizing recreational use of any drug beyond those already allowed would be prohibited.\nTreatment: the state would promote prevention and treatment with the help of families, therapeutic communities, private organizations and religious institutions.\nResearch: scientific research on new substances with medicinal use is guaranteed.",
+   "quemAfeta": "Drug users, the justice system and treatment organizations, including religious ones.",
+   "porQueImporta": "Today the Drug Law punishes possession for personal use with a warning, community service or a course, and in 2024 the Supreme Court stopped treating possession of up to 40 grams of marijuana as a crime. Under the PEC, the Constitution would ban decriminalizing possession of any drug, in any amount.",
    "apelido": "Anti-drug PEC"
   },
   "es": {
    "titulo": "Prohíbe despenalizar las drogas, incluso la posesión para uso personal",
-   "oQueMuda": "Pone el combate al tráfico, la producción, la posesión y el consumo de drogas como objetivo del país y prohíbe despenalizar esas conductas, incluso la posesión para consumo propio.",
-   "quemAfeta": "Toda la población, consumidores de drogas y el sistema de justicia.",
-   "porQueImporta": "Hoy la Ley de Drogas castiga la posesión para uso personal con advertencia, servicios o curso, y en 2024 el STF dejó de considerar delito la posesión de hasta 40 gramos de marihuana. Con la PEC, la Constitución prohibiría despenalizar la posesión de cualquier droga, en cualquier cantidad.",
+   "oQueMuda": "Objetivo del país: erradicar el tráfico, la producción, la posesión, el porte y el consumo de drogas ilícitas pasaría a ser uno de los objetivos fundamentales de la República.\nProhibición: quedaría prohibido despenalizar la posesión y el porte de drogas, incluso para consumo propio, y legalizar el uso recreativo de cualquier droga además de las ya permitidas.\nTratamiento: el Estado promovería prevención y tratamiento con la colaboración de familias, comunidades terapéuticas, entidades privadas e instituciones religiosas.\nInvestigación: se garantiza la investigación científica de nuevas sustancias con uso medicinal.",
+   "quemAfeta": "Usuarios de drogas, el sistema de justicia y entidades de tratamiento, incluso religiosas.",
+   "porQueImporta": "Hoy la Ley de Drogas castiga el porte para uso personal con advertencia, servicios o curso, y en 2024 el STF dejó de considerar delito el porte de hasta 40 gramos de marihuana. Con la PEC, la Constitución prohibiría despenalizar la posesión de cualquier droga, en cualquier cantidad.",
    "apelido": "PEC antidrogas"
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2380340": {
@@ -4235,30 +4240,30 @@
  },
  "c2270800": {
   "titulo": "Exige autorização do Congresso para processar deputados e senadores",
-  "oQueMuda": "O Supremo só poderia abrir processo criminal contra um parlamentar com licença prévia da Câmara ou do Senado, votada em votação secreta e por maioria absoluta.",
-  "quemAfeta": "Deputados federais, senadores e o Supremo Tribunal Federal.",
-  "porQueImporta": "Desde 2001, o STF pode processar parlamentares sem pedir autorização ao Congresso; até então, quase nenhum pedido era aprovado. Com a PEC, o processo voltaria a depender de aval da Câmara ou do Senado, em voto secreto. O Senado rejeitou a proposta em 24/09/2025.",
+  "oQueMuda": "Licença para processar: o STF só poderia abrir processo criminal contra deputados e senadores com autorização da Câmara ou do Senado, em votação secreta, por maioria absoluta, em até 90 dias.\nPrisão: parlamentares só poderiam ser presos em flagrante de crime inafiançável, e a Casa decidiria em votação secreta se a prisão seria mantida.\nForo para presidentes de partido: os presidentes nacionais de partidos com representação no Congresso passariam a ser julgados pelo STF.\nMedidas cautelares: buscas, bloqueios e outras medidas contra parlamentares só poderiam ser determinadas pelo STF.",
+  "quemAfeta": "Deputados federais, senadores, presidentes de partidos e o Supremo Tribunal Federal.",
+  "porQueImporta": "Desde 2001, o STF pode processar parlamentares sem pedir autorização ao Congresso; antes, quase nenhum pedido era aprovado. A Câmara aprovou a PEC em setembro de 2025; uma semana depois, a CCJ do Senado a rejeitou por unanimidade e ela foi arquivada.",
   "fonte": "revisado",
   "apelido": "PEC da Blindagem",
   "en": {
    "titulo": "Requires Congress's permission to prosecute members of Congress",
-   "oQueMuda": "The Supreme Court could only open a criminal case against a lawmaker with prior permission from the Chamber or the Senate, in a secret vote by an absolute majority.",
-   "quemAfeta": "Federal deputies, senators and the Supreme Federal Court (STF).",
-   "porQueImporta": "Since 2001, the Supreme Court can prosecute lawmakers without asking Congress for permission; until then, almost no request was approved. Under the PEC, prosecution would again depend on approval by the Chamber or Senate, by secret vote. The Senate rejected the proposal on 09/24/2025.",
+   "oQueMuda": "Permission to prosecute: the Supreme Court could only open criminal cases against deputies and senators with authorization from the Chamber or Senate, by secret ballot and absolute majority, within 90 days.\nArrest: members of Congress could only be arrested in the act of a non-bailable crime, and their house would decide by secret ballot whether to keep them detained.\nSpecial court for party leaders: national presidents of parties represented in Congress would be tried by the Supreme Court.\nPrecautionary measures: searches, asset freezes and other measures against members of Congress could only be ordered by the Supreme Court.",
+   "quemAfeta": "Federal deputies, senators, party presidents and the Supreme Court.",
+   "porQueImporta": "Since 2001, the Supreme Court can prosecute members of Congress without asking Congress; before that, almost no requests were approved. The Chamber approved the PEC in September 2025; a week later, the Senate Justice Committee unanimously rejected it and it was shelved.",
    "apelido": "Shield PEC (Blindagem)"
   },
   "es": {
    "titulo": "Exige autorización del Congreso para procesar a diputados y senadores",
-   "oQueMuda": "El Supremo solo podría abrir un proceso penal contra un parlamentario con licencia previa de la Cámara o del Senado, en votación secreta y por mayoría absoluta.",
-   "quemAfeta": "Diputados federales, senadores y el Supremo Tribunal Federal (STF).",
-   "porQueImporta": "Desde 2001, el STF puede procesar a parlamentarios sin pedir autorización al Congreso; hasta entonces, casi ningún pedido se aprobaba. Con la PEC, el proceso volvería a depender del aval de la Cámara o del Senado, en voto secreto. El Senado rechazó la propuesta el 24/09/2025.",
+   "oQueMuda": "Licencia para procesar: el STF solo podría abrir un proceso penal contra diputados y senadores con autorización de la Cámara o del Senado, en votación secreta, por mayoría absoluta, en hasta 90 días.\nPrisión: los parlamentarios solo podrían ser detenidos en flagrante por delito no excarcelable, y la Cámara respectiva decidiría en votación secreta si se mantiene la prisión.\nFuero para presidentes de partido: los presidentes nacionales de partidos con representación en el Congreso pasarían a ser juzgados por el STF.\nMedidas cautelares: allanamientos, bloqueos y otras medidas contra parlamentarios solo podrían ser ordenados por el STF.",
+   "quemAfeta": "Diputados federales, senadores, presidentes de partidos y el Supremo Tribunal Federal.",
+   "porQueImporta": "Desde 2001, el STF puede procesar a parlamentarios sin pedir autorización al Congreso; antes, casi ningún pedido se aprobaba. La Cámara aprobó la PEC en septiembre de 2025; una semana después, la CCJ del Senado la rechazó por unanimidad y fue archivada.",
    "apelido": "PEC del Blindaje"
   },
   "base": {
    "versao": "outra:Redação final aprovada na Câmara 2025-09-17",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: redação final da Câmara",
    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3003057"
   }
  },
@@ -4802,31 +4807,31 @@
   }
  },
  "c2262083": {
-  "titulo": "Reforma administrativa do serviço público",
-  "oQueMuda": "Muda regras de contratação, estabilidade, avaliação e organização de servidores e empregados públicos.",
+  "titulo": "Reforma administrativa de 2020: demissão por desempenho, temporários por até 10 anos e corte de jornada",
+  "oQueMuda": "Estabilidade: concursados continuam estáveis depois de 3 anos, mas poderiam perder o cargo por resultado insatisfatório em avaliação de desempenho, com direito a defesa.\nCargos extintos: o servidor estável perderia o cargo se uma lei o declarar desnecessário ou obsoleto, com indenização; se um cargo igual for criado em até 5 anos, ele volta.\nTemporários: contratos por tempo determinado poderiam durar até 10 anos, com processo seletivo simplificado.\nCorte de jornada: em crise fiscal, a jornada e o salário dos servidores poderiam ser reduzidos em até 25%.\nParcerias: governos poderiam firmar cooperação com entidades privadas para prestar serviços públicos, inclusive usando funcionários delas.",
   "quemAfeta": "Servidores públicos atuais e futuros e quem usa serviços públicos.",
-  "porQueImporta": "Hoje servidores concursados ganham estabilidade após três anos e só podem ser demitidos em casos previstos em lei. Com a PEC, a estabilidade ficaria restrita a carreiras típicas de Estado, e mudariam regras de contratação e avaliação.",
+  "porQueImporta": "Hoje servidores concursados ganham estabilidade após três anos e só perdem o cargo por decisão judicial definitiva, processo disciplinar ou corte de gastos. O texto da comissão especial está pronto para votação no plenário da Câmara desde 2021; a proposta original do governo restringia a estabilidade a carreiras típicas de Estado, mas isso foi retirado.",
   "fonte": "manual",
   "apelido": "Reforma Administrativa",
   "en": {
-   "titulo": "Administrative reform of the civil service",
-   "oQueMuda": "Changes rules on hiring, tenure, evaluation and organization of civil servants and public employees.",
-   "quemAfeta": "Current and future civil servants and people who use public services.",
-   "porQueImporta": "Today civil servants hired by public exam gain stability after three years and can only be dismissed in cases set by law. Under the PEC, stability would be limited to core state careers, and hiring and evaluation rules would change.",
+   "titulo": "2020 administrative reform: dismissal for poor performance, temporary contracts of up to 10 years and reduced hours",
+   "oQueMuda": "Job stability: tenured civil servants stay tenured after 3 years, but could lose their job for unsatisfactory performance reviews, with the right to a defense.\nAbolished posts: a tenured servant would lose the post if a law declares it unnecessary or obsolete, with compensation; if an equivalent post is created within 5 years, they return.\nTemporary staff: fixed-term contracts could last up to 10 years, with a simplified selection process.\nReduced hours: in a fiscal crisis, civil servants' hours and pay could be cut by up to 25%.\nPartnerships: governments could sign cooperation agreements with private entities to provide public services, including using their staff.",
+   "quemAfeta": "Current and future civil servants and users of public services.",
+   "porQueImporta": "Today tenured civil servants gain job stability after three years and only lose their post through a final court ruling, a disciplinary process or spending cuts. The special committee text has been ready for a Chamber floor vote since 2021; the government's original proposal limited stability to core state careers, but that was removed.",
    "apelido": "Administrative Reform"
   },
   "es": {
-   "titulo": "Reforma administrativa del servicio público",
-   "oQueMuda": "Cambia reglas de contratación, estabilidad, evaluación y organización de servidores y empleados públicos.",
-   "quemAfeta": "Servidores públicos actuales y futuros y quienes usan servicios públicos.",
-   "porQueImporta": "Hoy los servidores por concurso ganan estabilidad tras tres años y solo pueden ser despedidos en casos previstos por ley. Con la PEC, la estabilidad quedaría restringida a carreras típicas de Estado, y cambiarían las reglas de contratación y evaluación.",
+   "titulo": "Reforma administrativa de 2020: despido por desempeño, temporales por hasta 10 años y recorte de jornada",
+   "oQueMuda": "Estabilidad: los concursados siguen siendo estables tras 3 años, pero podrían perder el cargo por resultado insatisfactorio en la evaluación de desempeño, con derecho a defensa.\nCargos extinguidos: el servidor estable perdería el cargo si una ley lo declara innecesario u obsoleto, con indemnización; si se crea un cargo igual en hasta 5 años, vuelve.\nTemporales: los contratos por tiempo determinado podrían durar hasta 10 años, con proceso de selección simplificado.\nRecorte de jornada: en crisis fiscal, la jornada y el salario de los servidores podrían reducirse hasta un 25%.\nAlianzas: los gobiernos podrían firmar cooperación con entidades privadas para prestar servicios públicos, incluso usando su personal.",
+   "quemAfeta": "Servidores públicos actuales y futuros y usuarios de servicios públicos.",
+   "porQueImporta": "Hoy los servidores concursados obtienen estabilidad tras tres años y solo pierden el cargo por decisión judicial firme, proceso disciplinario o recorte de gastos. El texto de la comisión especial está listo para votación en el pleno de la Cámara desde 2021; la propuesta original del gobierno restringía la estabilidad a carreras típicas de Estado, pero eso se retiró.",
    "apelido": "Reforma Administrativa"
   },
   "base": {
    "versao": "c2300225",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8574119": {
@@ -5435,30 +5440,30 @@
  },
  "c2435133": {
   "titulo": "Cria regime especial para reconstruir o Rio Grande do Sul",
-  "oQueMuda": "Flexibiliza regras fiscais e de contratações para enfrentar a calamidade das enchentes e apoiar famílias atingidas.",
-  "quemAfeta": "Moradores e governo do Rio Grande do Sul.",
-  "porQueImporta": "Em 2024, as enchentes atingiram a maior parte dos municípios do Rio Grande do Sul. Com a PEC, gastos e contratações para a reconstrução teriam regras fiscais e de licitação mais flexíveis.",
+  "oQueMuda": "Regime de emergência: enquanto durar a calamidade, a União poderia contratar pessoal temporário, obras e compras de forma simplificada, e ações para a calamidade ficariam livres de limites da Lei de Responsabilidade Fiscal e do arcabouço fiscal.\nDívida do estado: os pagamentos da dívida do Rio Grande do Sul com a União ficariam suspensos durante a calamidade.\nAbatimento: gastos do estado com a reconstrução e com apoio às famílias poderiam ser descontados da dívida com a União, depois de validados pelo Ministério da Fazenda.",
+  "quemAfeta": "Moradores e governo do Rio Grande do Sul e a União.",
+  "porQueImporta": "Em 2024, as enchentes atingiram a maior parte dos municípios do Rio Grande do Sul. No mesmo ano, uma lei complementar suspendeu por 3 anos o pagamento da dívida do estado com a União; a PEC iria além, permitindo abater da dívida os gastos com a reconstrução.",
   "fonte": "manual",
   "apelido": "PEC do Rio Grande do Sul",
   "en": {
    "titulo": "Creates a special regime to rebuild Rio Grande do Sul",
-   "oQueMuda": "Relaxes fiscal and procurement rules to deal with the flood disaster and support affected families.",
-   "quemAfeta": "Residents and the government of Rio Grande do Sul.",
-   "porQueImporta": "In 2024, floods hit most municipalities in Rio Grande do Sul. Under the PEC, spending and contracts for reconstruction would have more flexible fiscal and procurement rules.",
+   "oQueMuda": "Emergency regime: while the calamity lasts, the federal government could hire temporary staff and contract works and purchases in a simplified way, and calamity spending would be exempt from Fiscal Responsibility Law and fiscal framework limits.\nState debt: Rio Grande do Sul's debt payments to the federal government would be suspended during the calamity.\nDeduction: state spending on reconstruction and support for families could be deducted from its federal debt, after validation by the Finance Ministry.",
+   "quemAfeta": "Residents and the government of Rio Grande do Sul, and the federal government.",
+   "porQueImporta": "In 2024, floods hit most municipalities in Rio Grande do Sul. That same year, a complementary law suspended the state's debt payments to the federal government for 3 years; the PEC would go further, allowing reconstruction spending to be deducted from the debt.",
    "apelido": "Rio Grande do Sul PEC"
   },
   "es": {
    "titulo": "Crea un régimen especial para reconstruir Rio Grande do Sul",
-   "oQueMuda": "Flexibiliza reglas fiscales y de contratación para enfrentar la calamidad de las inundaciones y apoyar a las familias afectadas.",
-   "quemAfeta": "Habitantes y gobierno de Rio Grande do Sul.",
-   "porQueImporta": "En 2024, las inundaciones afectaron a la mayoría de los municipios de Rio Grande do Sul. Con la PEC, los gastos y contrataciones para la reconstrucción tendrían reglas fiscales y de licitación más flexibles.",
+   "oQueMuda": "Régimen de emergencia: mientras dure la calamidad, la Unión podría contratar personal temporal, obras y compras de forma simplificada, y las acciones para la calamidad quedarían libres de los límites de la Ley de Responsabilidad Fiscal y del marco fiscal.\nDeuda del estado: los pagos de la deuda de Rio Grande do Sul con la Unión quedarían suspendidos durante la calamidad.\nDescuento: los gastos del estado en reconstrucción y apoyo a las familias podrían descontarse de la deuda con la Unión, tras validación del Ministerio de Hacienda.",
+   "quemAfeta": "Residentes y gobierno de Rio Grande do Sul y la Unión.",
+   "porQueImporta": "En 2024, las inundaciones afectaron a la mayoría de los municipios de Rio Grande do Sul. Ese mismo año, una ley complementaria suspendió por 3 años el pago de la deuda del estado con la Unión; la PEC iría más allá, permitiendo descontar de la deuda los gastos de reconstrucción.",
    "apelido": "PEC de Rio Grande do Sul"
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2231888": {
@@ -6553,30 +6558,30 @@
  },
  "c2483164": {
   "titulo": "Adota o semipresidencialismo e o voto distrital misto",
-  "oQueMuda": "O presidente nomearia um primeiro-ministro para governar, e a eleição de deputados mudaria para o voto distrital misto.",
+  "oQueMuda": "Primeiro-ministro: o presidente continuaria eleito pelo voto direto, como chefe de Estado, mas o governo seria chefiado por um primeiro-ministro nomeado por ele depois de consultar os partidos da maioria da Câmara.\nConfiança da Câmara: a Câmara poderia derrubar o governo por moção de censura, aprovada por maioria absoluta, a partir de seis meses da posse do primeiro-ministro.\nDissolução: em grave crise política, o presidente poderia dissolver a Câmara e convocar novas eleições em 60 dias.\nVoto distrital misto: parte dos deputados federais seria eleita por distritos e parte por listas dos partidos.",
   "quemAfeta": "Toda a população e o sistema político.",
-  "porQueImporta": "Hoje o presidente eleito governa sozinho, e deputados são eleitos pelo voto proporcional em todo o estado. Com a PEC, um primeiro-ministro nomeado pelo presidente chefiaria o governo, e parte dos deputados seria eleita por distritos.",
+  "porQueImporta": "Hoje o presidente eleito é chefe de Estado e de governo ao mesmo tempo, e deputados são eleitos pelo voto proporcional em todo o estado. Em 1993, os eleitores escolheram o presidencialismo em plebiscito.",
   "fonte": "manual",
   "apelido": "PEC do Semipresidencialismo",
   "en": {
    "titulo": "Adopts semi-presidentialism and mixed-member districts",
-   "oQueMuda": "The president would appoint a prime minister to govern, and deputies would be elected by a mixed district system.",
-   "quemAfeta": "Everyone and the political system.",
-   "porQueImporta": "Today the elected president governs alone, and deputies are elected by proportional vote statewide. Under the PEC, a prime minister appointed by the president would head the government, and some deputies would be elected by district.",
+   "oQueMuda": "Prime minister: the president would still be directly elected, as head of state, but the government would be led by a prime minister appointed by the president after consulting the majority parties in the Chamber.\nChamber confidence: the Chamber could bring down the government with a censure motion, passed by absolute majority, starting six months after the prime minister takes office.\nDissolution: in a serious political crisis, the president could dissolve the Chamber and call new elections within 60 days.\nMixed-member voting: some federal deputies would be elected by districts and some by party lists.",
+   "quemAfeta": "The whole population and the political system.",
+   "porQueImporta": "Today the elected president is both head of state and head of government, and deputies are elected by proportional vote across the state. In 1993, voters chose presidentialism in a plebiscite.",
    "apelido": "Semi-presidentialism PEC"
   },
   "es": {
    "titulo": "Adopta el semipresidencialismo y el voto distrital mixto",
-   "oQueMuda": "El presidente nombraría a un primer ministro para gobernar, y la elección de diputados pasaría al voto distrital mixto.",
+   "oQueMuda": "Primer ministro: el presidente seguiría siendo elegido por voto directo, como jefe de Estado, pero el gobierno sería encabezado por un primer ministro nombrado por él tras consultar a los partidos de la mayoría de la Cámara.\nConfianza de la Cámara: la Cámara podría derribar al gobierno con una moción de censura, aprobada por mayoría absoluta, a partir de seis meses de la asunción del primer ministro.\nDisolución: en una grave crisis política, el presidente podría disolver la Cámara y convocar nuevas elecciones en 60 días.\nVoto distrital mixto: parte de los diputados federales se elegiría por distritos y parte por listas de los partidos.",
    "quemAfeta": "Toda la población y el sistema político.",
-   "porQueImporta": "Hoy el presidente elegido gobierna solo, y los diputados son elegidos por voto proporcional en todo el estado. Con la PEC, un primer ministro nombrado por el presidente encabezaría el gobierno, y parte de los diputados sería elegida por distritos.",
+   "porQueImporta": "Hoy el presidente electo es jefe de Estado y de gobierno a la vez, y los diputados se eligen por voto proporcional en todo el estado. En 1993, los electores eligieron el presidencialismo en un plebiscito.",
    "apelido": "PEC del Semipresidencialismo"
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s1395980": {
@@ -6605,31 +6610,31 @@
   }
  },
  "c2229938": {
-  "titulo": "Acelera o fim dos processos limitando recursos",
-  "oQueMuda": "Recursos ao STF e ao STJ virariam ações revisionais, e a decisão de segunda instância já seria definitiva.",
-  "quemAfeta": "Réus, partes em processos e tribunais superiores.",
-  "porQueImporta": "Hoje, por decisão do STF de 2019, a pena só começa a ser cumprida após o fim de todos os recursos. Com a PEC, a decisão de segunda instância já seria definitiva, e recursos ao STF e ao STJ virariam ações revisionais.",
+  "titulo": "Torna definitivas as decisões de segunda instância em todos os processos",
+  "oQueMuda": "Os recursos ao STF e ao STJ deixariam de existir. A decisão de segunda instância passaria a ser definitiva em todos os tipos de processo, não só nos criminais, e só poderia ser revista por uma nova ação no STF ou no STJ, chamada ação revisional, depois que o caso já estiver encerrado.",
+  "quemAfeta": "Réus, todas as partes de processos judiciais (inclusive cíveis e tributários) e os tribunais superiores.",
+  "porQueImporta": "Hoje, por decisão do STF de 2019, a pena só começa a ser cumprida depois do fim de todos os recursos. Com a PEC, a pena começaria após a decisão de segunda instância, e o mesmo valeria para o fim de processos cíveis, tributários e trabalhistas.",
   "fonte": "manual",
   "apelido": "PEC da prisão em segunda instância",
   "en": {
-   "titulo": "Speeds up the end of cases by limiting appeals",
-   "oQueMuda": "Appeals to the Supreme Court and the Superior Court of Justice would become review actions, and second-instance rulings would be final.",
-   "quemAfeta": "Defendants, parties to cases and higher courts.",
-   "porQueImporta": "Today, under a 2019 Supreme Court ruling, a sentence only begins after all appeals are exhausted. Under the PEC, the appeal-court ruling would be final, and appeals to the higher courts would become review actions.",
+   "titulo": "Makes second-instance rulings final in all cases",
+   "oQueMuda": "Appeals to the Supreme Court and the Superior Court of Justice would no longer exist. Second-instance rulings would become final in every type of case, not just criminal ones, and could only be reviewed through a new action in those courts, called a review action, after the case is closed.",
+   "quemAfeta": "Defendants, all parties to court cases (including civil and tax cases) and the higher courts.",
+   "porQueImporta": "Today, under a 2019 Supreme Court ruling, a sentence only starts once all appeals are exhausted. Under the PEC, it would start after the second-instance ruling, and the same would apply to the end of civil, tax and labor cases.",
    "apelido": "Second-Instance Imprisonment PEC"
   },
   "es": {
-   "titulo": "Acelera el fin de los procesos limitando los recursos",
-   "oQueMuda": "Los recursos al Supremo y al STJ se convertirían en acciones de revisión, y la decisión de segunda instancia ya sería definitiva.",
-   "quemAfeta": "Acusados, partes en procesos y tribunales superiores.",
-   "porQueImporta": "Hoy, por decisión del STF de 2019, la pena solo empieza a cumplirse tras el fin de todos los recursos. Con la PEC, la decisión de segunda instancia ya sería definitiva, y los recursos al STF y al STJ se volverían acciones de revisión.",
+   "titulo": "Hace definitivas las decisiones de segunda instancia en todos los procesos",
+   "oQueMuda": "Los recursos al STF y al STJ dejarían de existir. La decisión de segunda instancia sería definitiva en todo tipo de proceso, no solo en los penales, y solo podría revisarse mediante una nueva acción en el STF o el STJ, llamada acción revisional, después de cerrado el caso.",
+   "quemAfeta": "Acusados, todas las partes de procesos judiciales (incluidos civiles y tributarios) y los tribunales superiores.",
+   "porQueImporta": "Hoy, por decisión del STF de 2019, la pena solo empieza a cumplirse tras agotarse todos los recursos. Con la PEC, empezaría tras la decisión de segunda instancia, y lo mismo valdría para el fin de procesos civiles, tributarios y laborales.",
    "apelido": "PEC de la prisión en segunda instancia"
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c14493": {
@@ -10058,30 +10063,36 @@
  },
  "s8622879": {
   "titulo": "Exige voto impresso conferível nas eleições",
-  "oQueMuda": "As urnas teriam de imprimir uma cédula que o eleitor confere e que fica guardada para auditoria.",
+  "oQueMuda": "O voto passaria a ser conferível em papel pelo próprio eleitor, e a contagem seria feita em público na própria seção eleitoral, logo depois da votação, com eleitores e fiscais de partidos presentes. O resultado de cada urna ficaria guardado no TSE por 5 anos para auditoria.",
   "quemAfeta": "Eleitores e Justiça Eleitoral.",
-  "porQueImporta": "Hoje o voto é só eletrônico; uma lei de 2015 que exigia voto impresso foi derrubada pelo STF em 2020. Com a PEC, as urnas imprimiriam uma cédula que o eleitor confere e que fica guardada para auditoria.",
+  "porQueImporta": "Hoje o voto é só eletrônico, e cada urna imprime um boletim com o resultado ao fim da votação. Uma lei de 2015 que exigia voto impresso foi derrubada pelo STF em 2020, por unanimidade, por pôr em risco o sigilo do voto.",
   "fonte": "manual",
   "apelido": "PEC do Voto Impresso",
   "en": {
    "titulo": "Requires a verifiable printed ballot in elections",
-   "oQueMuda": "Voting machines would have to print a ballot the voter checks, which is kept for audits.",
-   "quemAfeta": "Voters and the electoral courts.",
-   "porQueImporta": "Today voting is electronic only; a 2015 law requiring printed votes was struck down by the Supreme Court in 2020. Under the PEC, machines would print a ballot that the voter checks and that is kept for audits.",
-   "apelido": "Printed Ballot PEC"
+   "oQueMuda": "Voters would be able to check their vote on paper, and counting would take place publicly at the polling station right after voting, with voters and party observers present. Each machine's result would be kept by the Electoral Court for 5 years for audits.",
+   "quemAfeta": "Voters and the Electoral Court.",
+   "porQueImporta": "Today voting is electronic only, and each machine prints a results report at the end of voting. A 2015 law requiring printed votes was struck down unanimously by the Supreme Court in 2020 for endangering ballot secrecy.",
+   "apelido": "Printed Ballot PEC",
+   "nota": "Since electronic voting machines were adopted in 1996, no fraud in the results has been proven. The Armed Forces report on the 2022 election also found no fraud. Supporters of printed ballots say they would allow an independent audit of the electronic system."
   },
   "es": {
    "titulo": "Exige voto impreso verificable en las elecciones",
-   "oQueMuda": "Las urnas tendrían que imprimir una papeleta que el votante verifica y que se guarda para auditoría.",
-   "quemAfeta": "Votantes y Justicia Electoral.",
-   "porQueImporta": "Hoy el voto es solo electrónico; una ley de 2015 que exigía voto impreso fue anulada por el STF en 2020. Con la PEC, las urnas imprimirían una boleta que el elector verifica y que se guarda para auditoría.",
-   "apelido": "PEC del Voto Impreso"
+   "oQueMuda": "El voto podría ser verificado en papel por el propio elector, y el conteo se haría en público en la propia mesa electoral, justo después de la votación, con electores y fiscales de partidos presentes. El resultado de cada urna quedaría guardado en el TSE por 5 años para auditoría.",
+   "quemAfeta": "Electores y Justicia Electoral.",
+   "porQueImporta": "Hoy el voto es solo electrónico, y cada urna imprime un boletín con el resultado al final de la votación. Una ley de 2015 que exigía voto impreso fue anulada por el STF en 2020, por unanimidad, por poner en riesgo el secreto del voto.",
+   "apelido": "PEC del Voto Impreso",
+   "nota": "Desde la adopción de la urna electrónica, en 1996, no se ha comprobado ningún fraude en los resultados. El informe de las Fuerzas Armadas sobre la elección de 2022 tampoco señaló fraude. Quienes defienden el voto impreso dicen que permitiría una auditoría independiente del sistema electrónico."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "nota": {
+   "texto": "Desde a adoção da urna eletrônica, em 1996, nenhuma fraude no resultado foi comprovada. O relatório das Forças Armadas sobre a eleição de 2022 também não apontou fraude. Defensores do voto impresso dizem que ele permitiria uma auditoria independente do sistema eletrônico.",
+   "url": "https://www.migalhas.com.br/quentes/281366/stf-suspende-impressao-de-voto-em-urna-eletronica"
   }
  },
  "s8617172": {
@@ -10246,30 +10257,30 @@
  },
  "s8609795": {
   "titulo": "Anistia envolvidos no 8 de janeiro e devolve direitos e mandatos",
-  "oQueMuda": "Concede anistia aos envolvidos nos atos de 8 de janeiro de 2023, restaura direitos de quem ficou inelegível por atos da eleição de 2022 e devolve mandatos cassados.",
-  "quemAfeta": "Condenados e investigados pelos atos e políticos declarados inelegíveis ou cassados.",
-  "porQueImporta": "Centenas de pessoas foram condenadas pelo STF pelos atos de 8 de janeiro de 2023, e políticos foram declarados inelegíveis pela Justiça Eleitoral por condutas na eleição de 2022. Com a PEC, essas condenações seriam anuladas, os direitos políticos restabelecidos e mandatos cassados devolvidos.",
+  "oQueMuda": "Anistia: todos os envolvidos nos atos de 8 de janeiro de 2023 em Brasília seriam anistiados de todos os crimes e contravenções.\nInelegíveis: quem foi declarado inelegível por atos, declarações e manifestações ligados à eleição de 2022 recuperaria os direitos políticos.\nMandatos: quem perdeu o mandato por esses atos voltaria ao cargo em 15 dias.",
+  "quemAfeta": "Condenados e investigados pelos atos de 8 de janeiro e políticos declarados inelegíveis ou cassados por condutas ligadas à eleição de 2022.",
+  "porQueImporta": "O STF condenou centenas de pessoas pelos atos de 8 de janeiro de 2023, por crimes como tentativa de golpe de Estado, abolição violenta do Estado Democrático de Direito e dano ao patrimônio público, e a Justiça Eleitoral declarou políticos inelegíveis por condutas na eleição de 2022. Com a PEC, essas condenações e inelegibilidades seriam apagadas.",
   "fonte": "revisado",
   "apelido": "PEC da Anistia do 8 de Janeiro",
   "en": {
    "titulo": "Grants amnesty for the January 8 riots and restores rights and mandates",
-   "oQueMuda": "It grants amnesty to those involved in the January 8, 2023 riots, restores the rights of those made ineligible over 2022 election conduct and gives back revoked mandates.",
-   "quemAfeta": "People convicted or investigated over the riots and politicians declared ineligible or removed from office.",
-   "porQueImporta": "Hundreds of people were convicted by the Supreme Court over the January 8, 2023 riots, and politicians were declared ineligible by the Electoral Courts over conduct in the 2022 election. Under the PEC, these convictions would be annulled, political rights restored and revoked mandates returned.",
+   "oQueMuda": "Amnesty: everyone involved in the January 8, 2023 events in Brasília would be pardoned for all crimes and misdemeanors.\nIneligible politicians: those declared ineligible for acts, statements and demonstrations linked to the 2022 election would regain their political rights.\nMandates: those who lost their office over these acts would return within 15 days.",
+   "quemAfeta": "People convicted or investigated over the January 8 events and politicians declared ineligible or removed over conduct linked to the 2022 election.",
+   "porQueImporta": "The Supreme Court convicted hundreds of people over the January 8, 2023 events, for crimes such as attempted coup, violent abolition of the democratic rule of law and damage to public property, and the Electoral Court declared politicians ineligible over conduct in the 2022 election. Under the PEC, these convictions and ineligibilities would be erased.",
    "apelido": "January 8 Amnesty PEC"
   },
   "es": {
    "titulo": "Amnistía a los involucrados en el 8 de enero y devuelve derechos y mandatos",
-   "oQueMuda": "Concede amnistía a los involucrados en los actos del 8 de enero de 2023, restituye derechos a quienes quedaron inhabilitados por actos de la elección de 2022 y devuelve mandatos revocados.",
-   "quemAfeta": "Condenados e investigados por los actos y políticos declarados inhabilitados o destituidos.",
-   "porQueImporta": "Cientos de personas fueron condenadas por el STF por los actos del 8 de enero de 2023, y políticos fueron declarados inhabilitados por la Justicia Electoral por conductas en la elección de 2022. Con la PEC, esas condenas se anularían, se restablecerían los derechos políticos y se devolverían los mandatos revocados.",
+   "oQueMuda": "Amnistía: todos los involucrados en los actos del 8 de enero de 2023 en Brasilia serían amnistiados de todos los delitos y contravenciones.\nInelegibles: quienes fueron declarados inelegibles por actos, declaraciones y manifestaciones ligados a la elección de 2022 recuperarían sus derechos políticos.\nMandatos: quienes perdieron el mandato por esos actos volverían al cargo en 15 días.",
+   "quemAfeta": "Condenados e investigados por los actos del 8 de enero y políticos declarados inelegibles o destituidos por conductas ligadas a la elección de 2022.",
+   "porQueImporta": "El STF condenó a cientos de personas por los actos del 8 de enero de 2023, por delitos como intento de golpe de Estado, abolición violenta del Estado Democrático de Derecho y daño al patrimonio público, y la Justicia Electoral declaró inelegibles a políticos por conductas en la elección de 2022. Con la PEC, esas condenas e inelegibilidades se borrarían.",
    "apelido": "PEC de la Amnistía del 8 de Enero"
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8610921": {
@@ -11177,30 +11188,36 @@
  },
  "s8242831": {
   "titulo": "Permite a empresas públicas e privadas coletar e processar plasma",
-  "oQueMuda": "Permite a coleta, o processamento e a venda de plasma humano por entidades públicas e privadas para produzir medicamentos, de preferência para o SUS.",
-  "quemAfeta": "Doadores de sangue, pacientes e a Hemobrás.",
-  "porQueImporta": "Hoje a Constituição proíbe comercializar sangue e derivados, e o plasma doado no Brasil é processado pela estatal Hemobrás. Com a PEC, empresas públicas e privadas poderiam coletar, processar e vender plasma.",
+  "oQueMuda": "Hoje a Constituição proíbe todo tipo de comércio de órgãos, tecidos, sangue e derivados. O texto aprovado na CCJ do Senado abre uma única exceção: o plasma humano poderia ser coletado, processado e vendido por instituições públicas e privadas, para pesquisa e para produzir medicamentos destinados preferencialmente ao SUS. A iniciativa privada atuaria de forma complementar, quando o Ministério da Saúde pedir. As regras ficariam para uma lei.",
+  "quemAfeta": "Doadores de sangue, pacientes que dependem de medicamentos feitos de plasma, a Hemobrás e empresas do setor.",
+  "porQueImporta": "Hoje o plasma doado no Brasil é processado pela estatal Hemobrás, e a doação de sangue é voluntária e não remunerada desde os anos 1980. Com a PEC, o plasma passaria a poder ser comercializado.",
   "fonte": "revisado",
   "apelido": "PEC do Plasma",
   "en": {
    "titulo": "Allows public and private companies to collect and process plasma",
-   "oQueMuda": "It allows public and private entities to collect, process and sell human plasma to make medicines, preferably for the public health system (SUS).",
-   "quemAfeta": "Blood donors, patients and Hemobrás (the state blood products company).",
-   "porQueImporta": "Today the Constitution bans the sale of blood and blood products, and plasma donated in Brazil is processed by the state company Hemobrás. Under the PEC, public and private companies could collect, process and sell plasma.",
-   "apelido": "Plasma PEC"
+   "oQueMuda": "Today the Constitution bans all trade in organs, tissues, blood and blood products. The text approved by the Senate Justice Committee opens a single exception: human plasma could be collected, processed and sold by public and private institutions, for research and to make medicines intended preferably for SUS. The private sector would act in a complementary way, when requested by the Health Ministry. The rules would be set by law.",
+   "quemAfeta": "Blood donors, patients who depend on plasma-derived medicines, the state company Hemobrás and companies in the sector.",
+   "porQueImporta": "Today plasma donated in Brazil is processed by the state company Hemobrás, and blood donation has been voluntary and unpaid since the 1980s. Under the PEC, plasma could be traded.",
+   "apelido": "Plasma PEC",
+   "nota": "The National Health Council, the Health Ministry and Hemobrás oppose it and say that trading plasma could reduce voluntary blood donations. The Brazilian Hematology Association supports the PEC and says Hemobrás meets only about 10% of the country's immunoglobulin needs."
   },
   "es": {
    "titulo": "Permite a empresas públicas y privadas recolectar y procesar plasma",
-   "oQueMuda": "Permite la recolección, el procesamiento y la venta de plasma humano por entidades públicas y privadas para producir medicamentos, preferentemente para el SUS.",
-   "quemAfeta": "Donantes de sangre, pacientes y Hemobrás (empresa estatal de hemoderivados).",
-   "porQueImporta": "Hoy la Constitución prohíbe comercializar sangre y derivados, y el plasma donado en Brasil lo procesa la estatal Hemobrás. Con la PEC, empresas públicas y privadas podrían recolectar, procesar y vender plasma.",
-   "apelido": "PEC del Plasma"
+   "oQueMuda": "Hoy la Constitución prohíbe todo comercio de órganos, tejidos, sangre y derivados. El texto aprobado en la CCJ del Senado abre una única excepción: el plasma humano podría ser recolectado, procesado y vendido por instituciones públicas y privadas, para investigación y para producir medicamentos destinados preferentemente al SUS. La iniciativa privada actuaría de forma complementaria, cuando lo pida el Ministerio de Salud. Las reglas quedarían para una ley.",
+   "quemAfeta": "Donantes de sangre, pacientes que dependen de medicamentos hechos con plasma, la estatal Hemobrás y empresas del sector.",
+   "porQueImporta": "Hoy el plasma donado en Brasil es procesado por la estatal Hemobrás, y la donación de sangre es voluntaria y no remunerada desde los años 1980. Con la PEC, el plasma podría comercializarse.",
+   "apelido": "PEC del Plasma",
+   "nota": "El Consejo Nacional de Salud, el Ministerio de Salud y Hemobrás se oponen y dicen que el comercio de plasma puede reducir las donaciones voluntarias de sangre. La Asociación Brasileña de Hematología defiende la PEC y dice que Hemobrás cubre solo cerca del 10% de la necesidad de inmunoglobulina del país."
   },
   "base": {
    "versao": "s9476523",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "nota": {
+   "texto": "O Conselho Nacional de Saúde, o Ministério da Saúde e a Hemobrás são contra e dizem que o comércio de plasma pode reduzir as doações voluntárias de sangue. A Associação Brasileira de Hematologia defende a PEC e diz que a Hemobrás atende só cerca de 10% da necessidade de imunoglobulina do país.",
+   "url": "https://cebes.org.br/site/wp-content/uploads/2023/09/Dez-Motivos-que-Justificam-o-Arquivamento-da-PEC-do-Plasma-1.pdf"
   }
  },
  "s8442337": {
@@ -11305,21 +11322,21 @@
  },
  "s8545103": {
   "titulo": "Proíbe cobrar contribuição sindical de quem não é filiado",
-  "oQueMuda": "Sindicatos só poderiam cobrar de não filiados com autorização individual prévia.",
+  "oQueMuda": "Sindicatos só poderiam cobrar qualquer contribuição de trabalhadores ou empresas não filiados com autorização prévia e individual de cada um.",
   "quemAfeta": "Trabalhadores, empregadores e sindicatos.",
   "porQueImporta": "Em 2023 o STF permitiu cobrar contribuição assistencial de todos os trabalhadores da categoria, inclusive não filiados, desde que possam se opor. Com a PEC, a cobrança de não filiados exigiria autorização individual prévia.",
   "fonte": "manual",
   "apelido": "PEC da contribuição sindical",
   "en": {
    "titulo": "Bans charging union fees to non-members",
-   "oQueMuda": "Unions could only charge non-members with their prior individual consent.",
+   "oQueMuda": "Unions could only charge any contribution to non-member workers or companies with each one's prior individual authorization.",
    "quemAfeta": "Workers, employers and unions.",
    "porQueImporta": "In 2023 the Supreme Court allowed unions to charge an assistance contribution to all workers in the profession, including non-members, as long as they can opt out. Under the PEC, charging non-members would require prior individual authorization.",
    "apelido": "Union Fee PEC"
   },
   "es": {
    "titulo": "Prohíbe cobrar contribución sindical a quien no está afiliado",
-   "oQueMuda": "Los sindicatos solo podrían cobrar a no afiliados con autorización individual previa.",
+   "oQueMuda": "Los sindicatos solo podrían cobrar cualquier contribución a trabajadores o empresas no afiliados con autorización previa e individual de cada uno.",
    "quemAfeta": "Trabajadores, empleadores y sindicatos.",
    "porQueImporta": "En 2023 el STF permitió cobrar la contribución asistencial a todos los trabajadores de la categoría, incluso no afiliados, siempre que puedan oponerse. Con la PEC, el cobro a no afiliados exigiría autorización individual previa.",
    "apelido": "PEC de la contribución sindical"
@@ -11327,8 +11344,8 @@
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s7391043": {

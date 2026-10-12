@@ -548,6 +548,10 @@ def juntar(camara, senado):
         base["etapa"] = max(etapas)
         base["estado"] = min((r["estado"] for r in regs), key=PRIORIDADE_ESTADO.index)
         base["ultimaMovimentacao"] = max(r["ultimaMovimentacao"] for r in regs)
+        # a situação oficial vem da Casa que se mexeu por último (a ficha da Câmara fica parada em
+        # "Aguardando Apreciação pelo Senado" mesmo depois que o Senado vota)
+        recente = max(regs, key=lambda r: r["ultimaMovimentacao"] or "")
+        base["situacao"], base["orgaoAtual"] = recente["situacao"], recente.get("orgaoAtual", base.get("orgaoAtual"))
         final.append(base)
     return final
 

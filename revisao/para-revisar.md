@@ -512,3 +512,22 @@ Método: para cada PEC, busquei análises críticas e técnicas (consultorias, I
 | PEC 12/2022 · Fim da reeleição | **Desatualizado:** o substitutivo da CCJ (2025) também dá 5 anos a deputados, vereadores e senadores, unifica as eleições em 2034 e **cria mandatos-tampão longos**: prefeitos eleitos em 2028 teriam 6 anos; senadores eleitos em 2030, 9 anos | — | Parecer CCJ (s9957171); [Agência Senado](https://www12.senado.leg.br/noticias/materias/2025/05/21/ccj-aprova-fim-da-reeleicao-mandatos-de-cinco-anos-e-eleicoes-unificadas) |
 | PEC 13/2026 · Cultura e esporte | Confere; faltava: o crédito dado é descontado da receita do próprio estado ou município | — | Texto (codteor 3144206) |
 | PEC 299/2016 · Direitos sociais | Confere; faltava listar que direitos sociais incluem previdência social, moradia, alimentação, transporte etc. | — | Texto (codteor 1518154) |
+
+## 7. Revisão crítica — bloco 3 (12/out/2026)
+
+| PEC | O que estava errado ou faltando (conferido no texto) | Nota proposta | Fontes |
+|---|---|---|---|
+| PEC 32/2020 · Reforma Administrativa (2020) | **Errado:** dizia que a estabilidade ficaria restrita a carreiras típicas de Estado — isso era a proposta original; o substitutivo da comissão (2021) mantém estabilidade para todos os concursados. Faltava: perda do cargo por avaliação de desempenho; extinção de cargos obsoletos; temporários por até 10 anos; corte de até 25% de jornada e salário; parcerias com privados usando funcionários deles | — | Substitutivo (c2300225) |
+| PEC 14/2021 · Agentes de Saúde | **Situação errada:** o site dizia "aguardando o Senado"; o Senado aprovou em 14/07/2026 (73 a 1), falta promulgar. Faltava: integralidade e paridade em alguns casos; União paga parte; vínculo direto; agentes indígenas | Previdência: ~R$ 29 bi em 10 anos; CNM: R$ 69,9 bi para regimes municipais | Parecer CCJ (s10242630); [Jornal Opção](https://www.jornalopcao.com.br/ultimas-noticias/senado-aprova-aposentadoria-especial-para-agentes-de-saude-impacto-estimado-e-de-r-27-bilhoes-847045/) |
+| PEC 3/2021 · Blindagem | Faltava: **foro no STF para presidentes de partidos**; voto secreto para manter prisão em flagrante; cautelares só pelo STF | — | Redação final da Câmara; [InfoMoney](https://www.infomoney.com.br/?p=3038095) |
+| PEC 199/2019 · 2ª instância | **Faltava:** vale para todos os processos (cíveis, tributários, trabalhistas), não só criminais | — | Texto (original) |
+| PEC 2/2025 · Semipresidencialismo | Faltava: moção de censura da Câmara; presidente pode dissolver a Câmara em crise grave | — | Texto (original) |
+| PEC 4/2024 · Voto impresso | Faltava: contagem pública na própria seção | Nenhuma fraude comprovada desde 1996; relatório das Forças Armadas de 2022 não apontou fraude; STF derrubou voto impresso em 2020 por unanimidade | [Migalhas](https://www.migalhas.com.br/quentes/281366/stf-suspende-impressao-de-voto-em-urna-eletronica) |
+| PEC 10/2022 · Plasma | Faltava: plasma vira a única exceção à proibição de vender sangue e derivados; privado atua de forma complementar | CNS, Ministério da Saúde e Hemobrás contra (risco à doação voluntária); Associação de Hematologia a favor (escassez) | Parecer CCJ (s9476523); [Cebes](https://cebes.org.br/site/wp-content/uploads/2023/09/Dez-Motivos-que-Justificam-o-Arquivamento-da-PEC-do-Plasma-1.pdf) |
+| PEC 70/2023 · Anistia 8 de janeiro | Faltava: anistia de todos os crimes, incluindo tentativa de golpe | — | Texto (original) |
+| PEC 20/2024 · Rio Grande do Sul | Faltava: suspensão da dívida e abatimento dos gastos da reconstrução; lei de 2024 já suspendeu a dívida por 3 anos | — | Texto (original) |
+| PEC 34/2023 · Antidrogas (Câmara) | Faltava: proíbe legalizar uso recreativo de outras drogas; tratamento com comunidades terapêuticas e instituições religiosas | — | Texto (original) |
+| PEC 46/2023 · Contribuição sindical | Confere (vale também para empresas) | — | Texto |
+| PEC 245/2016 · Parlamentarismo | Texto não baixou; resumo mantido | — | Pendente |
+
+Correções no site: situação oficial vem da Casa que se mexeu por último; PECs aprovadas nas duas Casas mostram "O que vai mudar, quando for promulgada"; PECs rejeitadas ou arquivadas não mostram aviso de versão.

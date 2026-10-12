@@ -302,7 +302,7 @@ pt: {
   sem_info: "Sem informação",
   agora_aprov: (casa, data, outra) => `Foi aprovada em dois turnos ${casa} em ${data}. O processo nesta Casa terminou e a proposta seguiu para ${outra}.`,
   voltar: "← Todas as PECs", nao_encontrada: "Não encontramos essa PEC. Ela pode não ter tido movimentação desde 2023.",
-  o_que_muda: "O que muda", o_que_mudaria: "O que mudaria, se for aprovada", o_que_propunha: "O que propunha", quem_afetado: "Quem é afetado", por_que: "Por que importa",
+  o_que_muda: "O que muda", o_que_vai_mudar: "O que vai mudar, quando for promulgada", o_que_mudaria: "O que mudaria, se for aprovada", o_que_propunha: "O que propunha", quem_afetado: "Quem é afetado", por_que: "Por que importa",
   texto_oficial: "Texto oficial (ementa)", oficial_pt: "",
   apresentada: (d, a, o) => `Apresentada em ${d}${a ? ` por ${a}` : ""}. Começou ${o}.`, resumo_nota: " O resumo foi escrito a partir do texto oficial, sem opinião sobre o mérito.",
   opina_h: "Dê sua opinião sobre esta PEC", opina_p: "O Senado e a Câmara recebem a opinião dos cidadãos e mostram o resultado aos parlamentares. É gratuito; basta fazer um cadastro no site oficial (em português).",
@@ -428,7 +428,7 @@ en: {
   sem_info: "No information",
   agora_aprov: (casa, data, outra) => `Approved in two rounds ${casa} on ${data}. That chamber is done and the proposal moved on to ${outra}.`,
   voltar: "← All PECs", nao_encontrada: "We couldn't find this PEC. It may not have had any activity since 2023.",
-  o_que_muda: "What changes", o_que_mudaria: "What would change if approved", o_que_propunha: "What it proposed", quem_afetado: "Who is affected", por_que: "Why it matters",
+  o_que_muda: "What changes", o_que_vai_mudar: "What will change once enacted", o_que_mudaria: "What would change if approved", o_que_propunha: "What it proposed", quem_afetado: "Who is affected", por_que: "Why it matters",
   texto_oficial: "Official summary (ementa)", oficial_pt: " · in Portuguese",
   apresentada: (d, a, o) => `Filed on ${d}${a ? ` by ${a}` : ""}. It started ${o}.`, resumo_nota: " This summary was written from the official text, without taking sides.",
   opina_h: "Share your opinion on this PEC", opina_p: "The Senate and the Chamber collect citizens' opinions and show the results to legislators. It's free; you just need an account on the official site (in Portuguese).",
@@ -554,7 +554,7 @@ es: {
   sem_info: "Sin información",
   agora_aprov: (casa, data, outra) => `Fue aprobada en dos vueltas ${casa} el ${data}. El proceso en esa Cámara terminó y la propuesta pasó a ${outra}.`,
   voltar: "← Todas las PECs", nao_encontrada: "No encontramos esta PEC. Puede que no haya tenido movimiento desde 2023.",
-  o_que_muda: "Qué cambia", o_que_mudaria: "Qué cambiaría si se aprueba", o_que_propunha: "Qué proponía", quem_afetado: "A quién afecta", por_que: "Por qué importa",
+  o_que_muda: "Qué cambia", o_que_vai_mudar: "Qué cambiará cuando se promulgue", o_que_mudaria: "Qué cambiaría si se aprueba", o_que_propunha: "Qué proponía", quem_afetado: "A quién afecta", por_que: "Por qué importa",
   texto_oficial: "Texto oficial (ementa)", oficial_pt: " · en portugués",
   apresentada: (d, a, o) => `Presentada el ${d}${a ? ` por ${a}` : ""}. Empezó ${o}.`, resumo_nota: " El resumen se escribió a partir del texto oficial, sin opinar sobre el mérito.",
   opina_h: "Da tu opinión sobre esta PEC", opina_p: "El Senado y la Cámara reciben la opinión de los ciudadanos y muestran el resultado a los parlamentarios. Es gratis; solo necesitas registrarte en el sitio oficial (en portugués).",
@@ -1141,7 +1141,8 @@ function textoMudouHTML(p) {
   const m = p.simples.mudanca;
   if (b.versao === a.id && m && m.descricao) return `<div class="mudou${m.objetivoMudou ? " grande" : ""}"><p class="small">${L.mudou_desc(esc(tipoVersao(a.tipo)), dataBR(a.data))}</p><p lang="pt-BR">${esc(m.descricao)}</p>${m.objetivoMudou ? `<b>${L.objetivo_mudou}</b>` : ""}${links}</div>`;
   if (b.versao === "promulgada") return `<p class="small muted">${L.resumo_promulgado(b.url ? `<a href="${esc(b.url)}" target="_blank" rel="noopener">${L.texto_promulgado}</a>` : L.texto_promulgado)}</p>`;
-  if (p.estado === "promulgada") return "";   // já virou emenda: não há mais nada sendo votado
+  // já virou emenda, ou foi rejeitada/arquivada: não há mais nada sendo votado
+  if (["promulgada", "rejeitada", "arquivada", "encerrada"].includes(p.estado)) return "";
   if (b.versao === a.id) return `<p class="small muted">${L.mudou_ok(esc(tipoVersao(a.tipo)), dataBR(a.data))}</p>`;
   // parecer que aprovou o texto sem mudanças (o robô lê o voto): o resumo continua valendo
   if (a.mesmoTexto && (b.versao && b.versao !== "original" || p.casaOrigem === "senado"))
@@ -1177,7 +1178,7 @@ function renderPEC(id) {
     <div class="meta"><span class="num">${esc(p.sigla)}</span>${p.siglaSenado ? `<span class="num">${L.no_senado(esc(p.siglaSenado))}</span>` : ""}${p.siglaCamara ? `<span class="num">${L.na_camara(esc(p.siglaCamara))}</span>` : ""}${apelidoTag(p)}${principioTag(p)}${pill(p)}</div>
     <h1${s ? "" : ' class="long"'}>${esc(titulo(p))}</h1>
     ${s ? `<div class="box tres com-fonte">${fonte(textoURL(p), L.f_texto)}
-      <div><b>${p.estado === "promulgada" ? L.o_que_muda : ["rejeitada", "arquivada", "encerrada"].includes(p.estado) ? L.o_que_propunha : L.o_que_mudaria}</b>${textoResumo(s.oQueMuda)}</div>
+      <div><b>${p.estado === "promulgada" ? L.o_que_muda : ["rejeitada", "arquivada", "encerrada"].includes(p.estado) ? L.o_que_propunha : casasAprovadas(p).size > 1 ? L.o_que_vai_mudar : L.o_que_mudaria}</b>${textoResumo(s.oQueMuda)}</div>
       <div><b>${L.quem_afetado}</b>${textoResumo(s.quemAfeta)}</div>
       <div><b>${L.por_que}</b>${textoResumo(s.porQueImporta)}</div>
     </div>` : ""}
