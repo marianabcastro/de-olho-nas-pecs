@@ -353,6 +353,7 @@ pt: {
   d_nada: 'Não encontrei PECs com essas palavras. Tente escrever de outro jeito, com palavras do dia a dia, como "escola", "aposentadoria" ou "imposto".', d_talvez: l => `Talvez você esteja procurando: ${l}.`,
   d_parl_nao: "Não encontramos esse parlamentar nas PECs que acompanhamos.", mostrar_todas: n => `Mostrar todas as ${n}`,
   cargo: { camara: "Deputado(a) federal", senado: "Senador(a)" },
+  p_tema: w => `Nas PECs sobre ${w}:`, p_tema_nada: w => `Não encontrei PECs sobre ${w} que essa pessoa tenha proposto, assinado, relatado ou votado em plenário.`,
   p_propos: "Propôs (primeiro autor)", p_coautor: "Apoiou assinando como coautor", p_relator: "Foi relator",
   p_votos: (s, n, o) => `Votações de PEC no plenário (${s} sim, ${n} não${o ? `, ${o} outros` : ""})`,
   p_nota: "Considera as PECs com movimentação desde 2023 e as votações em plenário que registraram o voto de cada parlamentar. Toque em um número para ver a lista.",
@@ -478,6 +479,7 @@ en: {
   d_nada: 'I couldn\'t find PECs with those words. Try different, everyday words like "school", "pension" or "tax".', d_talvez: l => `Maybe you're looking for: ${l}.`,
   d_parl_nao: "We couldn't find this member of Congress in the PECs we track.", mostrar_todas: n => `Show all ${n}`,
   cargo: { camara: "Federal deputy", senado: "Senator" },
+  p_tema: w => `In PECs about ${w}:`, p_tema_nada: w => `I found no PECs about ${w} that this person proposed, signed, reported on or voted on in the floor.`,
   p_propos: "Proposed (lead author)", p_coautor: "Supported by co-signing", p_relator: "Was rapporteur",
   p_votos: (s, n, o) => `PEC floor votes (${s} yes, ${n} no${o ? `, ${o} other` : ""})`,
   p_nota: "Covers PECs with activity since 2023 and floor votes that recorded each member's vote. Tap a number to see the list.",
@@ -603,6 +605,7 @@ es: {
   d_nada: 'No encontré PECs con esas palabras. Intenta con otras palabras cotidianas, como "escuela", "jubilación" o "impuesto".', d_talvez: l => `Quizás buscas a: ${l}.`,
   d_parl_nao: "No encontramos a este parlamentario en las PECs que seguimos.", mostrar_todas: n => `Mostrar las ${n}`,
   cargo: { camara: "Diputado(a) federal", senado: "Senador(a)" },
+  p_tema: w => `En las PECs sobre ${w}:`, p_tema_nada: w => `No encontré PECs sobre ${w} que esta persona haya propuesto, firmado, relatado o votado en el pleno.`,
   p_propos: "Propuso (primer autor)", p_coautor: "Apoyó firmando como coautor", p_relator: "Fue relator",
   p_votos: (s, n, o) => `Votaciones de PEC en el pleno (${s} sí, ${n} no${o ? `, ${o} otros` : ""})`,
   p_nota: "Considera las PECs con movimiento desde 2023 y las votaciones en el pleno que registraron el voto de cada parlamentario. Toca un número para ver la lista.",
@@ -1220,7 +1223,7 @@ function renderPEC(id) {
 
 /* ---------- Descubra suas PECs (só em português; casa as palavras da pessoa com as palavras das PECs) ---------- */
 let uid = 0, PENDENTE = "";
-const PARADAS = new Set(("a o e as os um uma uns umas de da do das dos em no na nos nas por pelo pela pelos pelas para pra pro com sem sobre que qual quais quem como onde quando porque se ja mais menos muito muita muitos muitas meu minha meus minhas seu sua seus suas eu voce voces ele ela eles elas me te lhe isso isto esse essa este esta aquilo tudo todo toda todos todas algo alguma algum coisa coisas quero queria gostaria gosto sei saber ver mostrar mostre fale falar diga dizer conta contar tenho tem ter estou estao sou ser foi sao interesso interessa interesse interessado interessada importa importante preocupo preocupa preocupada preocupado acompanhar acompanho tema temas assunto assuntos area areas pec pecs proposta propostas emenda emendas constituicao lei leis brasil pais governo congresso oi ola bom boa dia tarde noite obrigado obrigada favor entao tambem mas nem envolvido envolvida esteve fez faz fazendo votou propos sabe existe existem alguma algo cada").split(" "));
+const PARADAS = new Set(("deputado deputada deputados senador senadora senadores parlamentar parlamentares apoiou apoia apoio autor autora autoria relator relatora relatou assinou assinado votos voto sobre tema pauta a o e as os um uma uns umas de da do das dos em no na nos nas por pelo pela pelos pelas para pra pro com sem sobre que qual quais quem como onde quando porque se ja mais menos muito muita muitos muitas meu minha meus minhas seu sua seus suas eu voce voces ele ela eles elas me te lhe isso isto esse essa este esta aquilo tudo todo toda todos todas algo alguma algum coisa coisas quero queria gostaria gosto sei saber ver mostrar mostre fale falar diga dizer conta contar tenho tem ter estou estao sou ser foi sao interesso interessa interesse interessado interessada importa importante preocupo preocupa preocupada preocupado acompanhar acompanho tema temas assunto assuntos area areas pec pecs proposta propostas emenda emendas constituicao lei leis brasil pais governo congresso oi ola bom boa dia tarde noite obrigado obrigada favor entao tambem mas nem envolvido envolvida esteve fez faz fazendo votou propos sabe existe existem alguma algo cada").split(" "));
 const raiz = w => w.length > 5 ? w.slice(0, Math.max(5, w.length - 3)) : w;
 // palavras do dia a dia que não aparecem nos textos oficiais: cada uma procura só os termos que querem dizer a mesma coisa
 // (antes elas puxavam o tema inteiro, e "gasolina" trazia qualquer PEC com "preço")
@@ -1299,12 +1302,13 @@ function buscarPECs(texto, ignorar = new Set()) {
     if (ap && ap.length > 4 && t.includes(" " + ap)) { const a = pont.get(p.id) || { k: 0, d: 0, c: 0 }; a.ap = 1; pont.set(p.id, a); }
   }
   let lista = DB.pecs.filter(p => pont.has(p.id));
+  const todas = new Set(lista.map(p => p.id));
   const vivas = lista.filter(p => !["anexada", "arquivada"].includes(fase(p)));
   if (vivas.length) lista = vivas;
   // ordem: apelido digitado > fala de tudo o que foi escrito > casa com mais palavras > tem a palavra exata > mais perto de uma decisão > mais recente
   const g = id => pont.get(id);
   lista.sort((x, y) => (g(y.id).ap || 0) - (g(x.id).ap || 0) || g(y.id).c - g(x.id).c || g(y.id).k - g(x.id).k || g(y.id).d - g(x.id).d || PRIOR[fase(x)] - PRIOR[fase(y)] || y.ultimaMovimentacao.localeCompare(x.ultimaMovimentacao));
-  return { achou, semResultado, parcial, lista, lgbt: /lgbt|gay|lesbica|trans |orientacao sexual|homoafetiv/.test(t) };
+  return { achou, semResultado, parcial, lista, todas, lgbt: /lgbt|gay|lesbica|trans |orientacao sexual|homoafetiv/.test(t) };
 }
 
 function renderDescubra(inicial = {}) {
@@ -1363,9 +1367,11 @@ function responder(texto, forcado) {
   const L = T(), minha = eu(texto);
   let pessoas = forcado?.pessoas || [], talvez = [];
   if (!forcado) { const r = acharPessoas(texto); pessoas = r.certos.slice(0, 3); talvez = r.talvez; }
-  for (const x of pessoas) respostaPessoa(x);
-  if (!forcado) {
-    const r = buscarPECs(texto, new Set(pessoas.flatMap(x => x.tokens)));
+  const r = forcado ? null : buscarPECs(texto, new Set(pessoas.flatMap(x => x.tokens)));
+  // "Fulano saúde": a pergunta é sobre a pessoa naquele tema, não sobre o tema inteiro
+  const comTema = pessoas.length && r && r.achou.length;
+  for (const x of pessoas) respostaPessoa(x, comTema ? { ids: r.todas, rotulo: juntar(r.achou.map(w => `<b>${esc(w)}</b>`)) } : null);
+  if (!forcado && !comTema) {
     if (r.lista.length) {
       const prontas = r.lista.filter(p => fase(p) === "votacao").length;
       bot(`<p>${L.d_achei(juntar(r.achou.map(w => `<b>${esc(w)}</b>`)), r.lista.length, prontas)}</p>
@@ -1380,19 +1386,27 @@ function responder(texto, forcado) {
   }
   minha.scrollIntoView({ behavior: "smooth", block: "start" });
 }
-function respostaPessoa(x) {
+function respostaPessoa(x, filtro) {
   const L = T(), id = "p" + (++uid);
   const linkPec = pid => { const p = BY_ID[pid]; return p ? `<a href="#pec-${p.id}">${esc(p.sigla)}${S(p)?.apelido ? ` · ${esc(S(p).apelido)}` : ""}: ${esc(titulo(p))}</a>` : ""; };
-  const sim = x.votos.filter(v => v[3] === "sim").length, nao = x.votos.filter(v => v[3] === "nao").length;
+  // com tema ("Fulano saúde"), só entram as PECs daquele tema
+  const ok = pid => !filtro || filtro.ids.has(ALIAS[pid] || pid);
+  const autor = [...x.autor].filter(ok), coautor = [...x.coautor].filter(ok), relator = x.relator.filter(r => ok(r[0])), votos = x.votos.filter(v => ok(v[0]));
+  const sim = votos.filter(v => v[3] === "sim").length, nao = votos.filter(v => v[3] === "nao").length;
   const stat = (key, n, rotulo, itens) => `<button type="button" class="stat" ${n ? `data-toggle="${id}-${key}" aria-expanded="false"` : "disabled"}><span>${rotulo}</span><b class="num">${n}</b></button>
     ${n ? `<div class="stat-detail" id="${id}-${key}" hidden>${itens}</div>` : ""}`;
-  const votosOrd = x.votos.slice().sort((a, b) => b[2].localeCompare(a[2]));
-  bot(`<p><b>${esc(x.nome)}</b> · ${L.cargo[x.casa]}${x.partido ? ` · ${esc(x.partido)}${x.uf ? "-" + esc(x.uf) : ""}` : ""}</p>
+  const votosOrd = votos.slice().sort((a, b) => b[2].localeCompare(a[2]));
+  const cab = `<p><b>${esc(x.nome)}</b> · ${L.cargo[x.casa]}${x.partido ? ` · ${esc(x.partido)}${x.uf ? "-" + esc(x.uf) : ""}` : ""}</p>`;
+  if (filtro && !autor.length && !coautor.length && !relator.length && !votos.length) {
+    bot(`${cab}<p>${L.p_tema_nada(filtro.rotulo)}</p>`);
+    return;
+  }
+  bot(`${cab}${filtro ? `<p>${L.p_tema(filtro.rotulo)}</p>` : ""}
     <div class="stat-list">
-      ${stat("autor", x.autor.size, L.p_propos, [...x.autor].map(linkPec).join(""))}
-      ${stat("coautor", x.coautor.size, L.p_coautor, [...x.coautor].map(linkPec).join(""))}
-      ${stat("relator", new Set(x.relator.map(r => r[0])).size, L.p_relator, x.relator.map(([pid, org]) => `<span>${linkPec(pid)}${org ? ` <span class="muted small">(${esc(org)})</span>` : ""}</span>`).join(""))}
-      ${stat("votos", x.votos.length, L.p_votos(sim, nao, x.votos.length - sim - nao), votosOrd.map(([pid, turno, data, voto]) => `<span>${dataBR(data)} · ${L.turno(turno)} · <b class="${VOTO_CLS[voto]}">${L.votos[voto]}</b> · ${linkPec(pid)}</span>`).join(""))}
+      ${stat("autor", autor.length, L.p_propos, autor.map(linkPec).join(""))}
+      ${stat("coautor", coautor.length, L.p_coautor, coautor.map(linkPec).join(""))}
+      ${stat("relator", new Set(relator.map(r => r[0])).size, L.p_relator, relator.map(([pid, org]) => `<span>${linkPec(pid)}${org ? ` <span class="muted small">(${esc(org)})</span>` : ""}</span>`).join(""))}
+      ${stat("votos", votos.length, L.p_votos(sim, nao, votos.length - sim - nao), votosOrd.map(([pid, turno, data, voto]) => `<span>${dataBR(data)} · ${L.turno(turno)} · <b class="${VOTO_CLS[voto]}">${L.votos[voto]}</b> · ${linkPec(pid)}</span>`).join(""))}
     </div>
     <p class="small muted">${L.p_nota}</p>`);
 }

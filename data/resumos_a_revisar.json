@@ -24,7 +24,7 @@
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2026-06-10",
   "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/61ab0d5e-c9e2-4096-84cb-6f9c4c797f40",
-  "semelhanca": 0.03
+  "semelhanca": null
  },
  {
   "id": "s8593552",
@@ -33,7 +33,7 @@
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
   "data": "2026-06-10",
   "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/73445bb2-2826-4ff8-a3c6-07757bd68873",
-  "semelhanca": 0.1
+  "semelhanca": null
  },
  {
   "id": "c2225224",
@@ -87,7 +87,7 @@
   "versao": "Redação para o segundo turno no Senado",
   "data": "2024-12-20",
   "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/eadc595d-508b-4585-a97d-e80fa95dce89",
-  "semelhanca": 0.04
+  "semelhanca": null
  },
  {
   "id": "s7864739",

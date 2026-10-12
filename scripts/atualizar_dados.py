@@ -624,6 +624,20 @@ def main():
         det = det or {}
         sen[sid]["origemCamara"] = det.get("identificacaoProcessoInicial") if det.get("siglaCasaIniciadora") == "CD" else None
 
+    # PECs que começaram na Câmara e não se mexeram lá nesta legislatura (ex.: PEC 39/2011 → PEC 3/2022):
+    # sem o registro da Câmara, a página perde a apresentação, as votações e os relatores de lá
+    na_camara = {(p["numero"], p["ano"]) for p in cam.values()}
+    pedir = sorted({(int(m[1]), int(m[2])) for r in sen.values()
+                    if (m := re.match(r"PEC (\d+)/(\d{4})", r.get("origemCamara") or "")) and (int(m[1]), int(m[2])) not in na_camara})
+    ids_antigos = [x["id"] for nk in pmap(lambda nk: get(f"{CAMARA}/proposicoes?siglaTipo=PEC&numero={nk[0]}&ano={nk[1]}"), pedir)
+                   for x in ((nk or {}).get("dados") or [])]
+    if ids_antigos:
+        print(f"Câmara: {len(ids_antigos)} PECs antigas que seguiram para o Senado; baixando…")
+        antigos = [p for p in pmap(camara_pec, ids_antigos) if p]
+        resolver_relatores(antigos, nomes)
+        for p in antigos:
+            cam[p["id"]] = p
+
     # vídeo da sessão de cada votação da Câmara (só as que ainda não têm; uma vez por votação)
     completar_videos(cam)
 
@@ -640,8 +654,10 @@ def main():
     pareceres = ler_json(CACHE / "pareceres.json", {})   # {parecer: aprovou o texto sem mudanças?}
     sem_resumo, a_revisar = 0, []
     for p in pecs:
-        if p["id"] in resumos:
-            p["simples"] = resumos[p["id"]]
+        # quando duas PECs se juntam, o id pode mudar (s… → c…): o resumo continua valendo pelo id antigo
+        rid = next((i for i in [p["id"], *p.get("idsRelacionados", [])] if i in resumos), None)
+        if rid:
+            p["simples"] = resumos[rid]
         else:
             sem_resumo += 1
         atual = p.get("textoAtual")
