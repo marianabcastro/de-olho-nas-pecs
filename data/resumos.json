@@ -533,28 +533,34 @@
   }
  },
  "c328385": {
-  "titulo": "Acaba com a contribuição previdenciária de servidores aposentados",
-  "oQueMuda": "Servidores públicos aposentados e pensionistas deixariam de pagar contribuição para a Previdência.",
-  "quemAfeta": "Servidores aposentados e pensionistas, e os cofres públicos.",
-  "porQueImporta": "Desde 2004, servidores aposentados e pensionistas pagam contribuição à Previdência sobre o valor acima do teto do INSS. Com a PEC, deixariam de pagar, e os regimes de previdência pública deixariam de receber esse dinheiro.",
+  "titulo": "Reduz até zerar a contribuição previdenciária de servidores aposentados a partir dos 61 anos",
+  "oQueMuda": "O texto pronto para votação, aprovado na comissão especial em 2010, reduz a contribuição previdenciária de servidores aposentados e pensionistas em 20% a cada ano a partir dos 61 anos, até zerar aos 65. Quem tem invalidez permanente deixa de pagar.",
+  "quemAfeta": "Servidores aposentados e pensionistas, e os regimes de previdência da União, dos estados e dos municípios.",
+  "porQueImporta": "Desde 2004, servidores aposentados e pensionistas pagam contribuição à Previdência sobre o valor que passa do teto do INSS; desde a reforma de 2019, quando há déficit, pode ser cobrada também sobre valores acima de um salário mínimo. Com a PEC, quem tem 65 anos ou mais deixaria de pagar.",
   "fonte": "manual",
   "en": {
-   "titulo": "Ends pension contributions from retired civil servants",
-   "oQueMuda": "Retired civil servants and survivors would stop paying pension contributions.",
-   "quemAfeta": "Retired civil servants, survivors and public finances.",
-   "porQueImporta": "Since 2004, retired civil servants and pensioners pay a pension contribution on the amount above the INSS ceiling. Under the PEC, they would stop paying, and public pension systems would stop receiving this money."
+   "titulo": "Phases out retired civil servants' pension contribution from age 61",
+   "oQueMuda": "The text ready for a vote, approved by the special committee in 2010, cuts the pension contribution of retired civil servants and survivors by 20% each year from age 61, reaching zero at 65. People with permanent disability stop paying.",
+   "quemAfeta": "Retired civil servants and survivors, and federal, state and municipal pension systems.",
+   "porQueImporta": "Since 2004, retired civil servants and survivors pay a pension contribution on the amount above the INSS ceiling; since the 2019 reform, when there is a deficit, it can also be charged on amounts above one minimum wage. Under the PEC, people 65 and over would stop paying.",
+   "nota": "A technical note estimated that ending the whole contribution of retirees and survivors would cost up to R$ 25 billion a year to the federal, state and municipal governments (2023 values). The committee text, which only reaches zero at 65, would cost much less. The 2019 pension reform changed the article the PEC amends, so the text would need to be adapted."
   },
   "es": {
-   "titulo": "Acaba con la contribución previsional de los servidores jubilados",
-   "oQueMuda": "Los servidores públicos jubilados y pensionistas dejarían de pagar contribución previsional.",
-   "quemAfeta": "Servidores jubilados, pensionistas y las arcas públicas.",
-   "porQueImporta": "Desde 2004, los servidores jubilados y pensionistas pagan contribución previsional sobre el valor que supera el tope del INSS. Con la PEC, dejarían de pagar, y los regímenes de previsión pública dejarían de recibir ese dinero."
+   "titulo": "Reduce hasta eliminar la contribución previsional de servidores jubilados a partir de los 61 años",
+   "oQueMuda": "El texto listo para votar, aprobado en la comisión especial en 2010, reduce la contribución previsional de servidores jubilados y pensionistas un 20% cada año a partir de los 61 años, hasta llegar a cero a los 65. Quien tiene invalidez permanente deja de pagar.",
+   "quemAfeta": "Servidores jubilados y pensionistas, y los regímenes previsionales de la Unión, los estados y los municipios.",
+   "porQueImporta": "Desde 2004, los servidores jubilados y pensionistas pagan contribución previsional sobre el monto que supera el techo del INSS; desde la reforma de 2019, cuando hay déficit, puede cobrarse también sobre montos superiores a un salario mínimo. Con la PEC, quien tenga 65 años o más dejaría de pagar.",
+   "nota": "Una nota técnica estimó que acabar con toda la contribución de jubilados y pensionistas costaría hasta R$ 25.000 millones al año a la Unión, estados y municipios (valores de 2023). El texto de la comisión, que llega a cero solo a los 65 años, costaría mucho menos. La Reforma Previsional de 2019 cambió el artículo que la PEC altera, por lo que el texto tendría que adaptarse."
   },
   "base": {
-   "versao": "original",
+   "versao": "c1280641",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "nota": {
+   "texto": "Uma nota técnica estimou que acabar com toda a contribuição de aposentados e pensionistas custaria até R$ 25 bilhões por ano à União, aos estados e aos municípios (valores de 2023). O texto da comissão, que zera a cobrança só aos 65 anos, custaria bem menos. A Reforma da Previdência de 2019 mudou o artigo que a PEC altera, então o texto precisaria ser adaptado.",
+   "url": "https://www.publica.org.br/wp-content/uploads/2024/06/PEC-6-Notas-Tecnicas-Impactos-e-Beneficios.pdf"
   }
  },
  "c2419252": {
@@ -768,27 +774,27 @@
  },
  "c2631190": {
   "titulo": "Permite programas de incentivo à cultura e ao esporte com o novo imposto",
-  "oQueMuda": "O Comitê Gestor do IBS poderia autorizar estados e municípios a criar programas em que doações e patrocínios a projetos culturais e esportivos gerem créditos do imposto.",
+  "oQueMuda": "O Comitê Gestor do IBS poderia autorizar estados e municípios a criar, por lei própria, programas em que doações e patrocínios a projetos culturais e esportivos gerem créditos do IBS, com regras iguais em todo o país e limites para cada governo. O valor dos créditos seria descontado da receita do próprio estado ou município que criou o programa.",
   "quemAfeta": "Empresas patrocinadoras, artistas, entidades esportivas, estados e municípios.",
   "porQueImporta": "Com a reforma tributária, o ICMS e o ISS serão substituídos pelo IBS a partir de 2033, o que acaba com programas locais de incentivo à cultura e ao esporte baseados nesses impostos. Com a PEC, estados e municípios poderiam criar programas parecidos com créditos do IBS.",
   "fonte": "revisado",
   "en": {
    "titulo": "Allows culture and sports incentive programs under the new tax",
-   "oQueMuda": "The IBS Management Committee could authorize states and municipalities to create programs in which donations and sponsorships for cultural and sports projects generate tax credits.",
+   "oQueMuda": "The IBS Management Committee could allow states and municipalities to create, by their own law, programs in which donations and sponsorships for cultural and sports projects generate IBS credits, with uniform national rules and limits for each government. The value of the credits would be deducted from the revenue of the state or municipality that created the program.",
    "quemAfeta": "Sponsoring companies, artists, sports organizations, states and municipalities.",
    "porQueImporta": "With the tax reform, ICMS and ISS will be replaced by IBS by 2033, ending local culture and sports incentive programs based on those taxes. Under the PEC, states and municipalities could create similar programs using IBS credits."
   },
   "es": {
    "titulo": "Permite programas de incentivo a la cultura y el deporte con el nuevo impuesto",
-   "oQueMuda": "El Comité Gestor del IBS podría autorizar a estados y municipios a crear programas en los que donaciones y patrocinios a proyectos culturales y deportivos generen créditos del impuesto.",
+   "oQueMuda": "El Comité Gestor del IBS podría autorizar a estados y municipios a crear, por ley propia, programas en que donaciones y patrocinios a proyectos culturales y deportivos generen créditos del IBS, con reglas iguales en todo el país y límites para cada gobierno. El valor de los créditos se descontaría de los ingresos del propio estado o municipio que creó el programa.",
    "quemAfeta": "Empresas patrocinadoras, artistas, entidades deportivas, estados y municipios.",
    "porQueImporta": "Con la reforma tributaria, el ICMS y el ISS serán sustituidos por el IBS hasta 2033, lo que acaba con programas locales de incentivo a la cultura y al deporte basados en esos impuestos. Con la PEC, estados y municipios podrían crear programas parecidos con créditos del IBS."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2633488": {
@@ -1297,28 +1303,33 @@
  },
  "s8593552": {
   "titulo": "Dá autonomia financeira ao Banco Central e muda sua natureza jurídica",
-  "oQueMuda": "O Banco Central teria autonomia técnica, administrativa, orçamentária e financeira. O texto original o transformava em empresa pública; o relatório mais recente no Senado o define como entidade pública de natureza especial.",
-  "quemAfeta": "Banco Central, seus servidores e o sistema financeiro.",
-  "porQueImporta": "Desde 2021 o Banco Central tem autonomia para decidir os juros, mas seu orçamento depende do governo. Com a PEC, ele teria orçamento próprio, fora do orçamento federal.",
+  "oQueMuda": "Natureza: o Banco Central vira entidade pública de natureza especial, com autonomia técnica, administrativa, orçamentária e financeira, sem vínculo com nenhum ministério.\nOrçamento próprio: o BC aprovaria o próprio orçamento, pago com suas receitas, fora do orçamento federal; os gastos com pessoal e custeio passariam pelo Conselho Monetário Nacional e por uma comissão do Senado.\nServidores: o BC definiria salários e carreiras dos seus servidores; a despesa com pessoal poderia crescer até a inflação mais 2,5% ao ano, salvo autorização do Senado.\nContas públicas: as transferências de resultado entre o BC e o Tesouro ficariam fora das metas fiscais.",
+  "quemAfeta": "Banco Central, seus servidores, o Tesouro e o sistema financeiro.",
+  "porQueImporta": "Desde 2021 o Banco Central tem autonomia para decidir os juros, mas é uma autarquia e seu orçamento faz parte do orçamento federal, aprovado pelo Congresso. Com a PEC, o orçamento do BC sairia do orçamento federal.",
   "fonte": "revisado",
   "en": {
    "titulo": "Gives the Central Bank financial autonomy and changes its legal status",
-   "oQueMuda": "The Central Bank would have technical, administrative, budgetary and financial autonomy. The original text made it a state-owned company; the latest Senate report defines it as a special public entity.",
-   "quemAfeta": "The Central Bank, its staff and the financial system.",
-   "porQueImporta": "Since 2021 the Central Bank has had autonomy to set interest rates, but its budget depends on the government. Under the PEC, it would have its own budget, outside the federal budget."
+   "oQueMuda": "Nature: the Central Bank becomes a special public entity, with technical, administrative, budgetary and financial autonomy, not tied to any ministry.\nOwn budget: the Central Bank would approve its own budget, paid from its revenues, outside the federal budget; payroll and running costs would go through the National Monetary Council and a Senate committee.\nStaff: the Central Bank would set its staff's salaries and careers; payroll could grow up to inflation plus 2.5% a year, unless the Senate authorizes more.\nPublic accounts: result transfers between the Central Bank and the Treasury would be outside fiscal targets.",
+   "quemAfeta": "The Central Bank, its staff, the Treasury and the financial system.",
+   "porQueImporta": "Since 2021 the Central Bank has had autonomy to set interest rates, but it is a federal agency and its budget is part of the federal budget approved by Congress. Under the PEC, its budget would leave the federal budget.",
+   "nota": "The Attorney General's Office considers the PEC unconstitutional because changes to the Executive's structure would require the president's initiative. The Central Bank staff association supports it and says it keeps the bank under public law."
   },
   "es": {
    "titulo": "Da autonomía financiera al Banco Central y cambia su naturaleza jurídica",
-   "oQueMuda": "El Banco Central tendría autonomía técnica, administrativa, presupuestaria y financiera. El texto original lo convertía en empresa pública; el informe más reciente en el Senado lo define como entidad pública de naturaleza especial.",
-   "quemAfeta": "El Banco Central, sus servidores y el sistema financiero.",
-   "porQueImporta": "Desde 2021 el Banco Central tiene autonomía para decidir las tasas de interés, pero su presupuesto depende del gobierno. Con la PEC, tendría presupuesto propio, fuera del presupuesto federal."
+   "oQueMuda": "Naturaleza: el Banco Central pasa a ser entidad pública de naturaleza especial, con autonomía técnica, administrativa, presupuestaria y financiera, sin vínculo con ningún ministerio.\nPresupuesto propio: el BC aprobaría su propio presupuesto, pagado con sus ingresos, fuera del presupuesto federal; los gastos de personal y funcionamiento pasarían por el Consejo Monetario Nacional y una comisión del Senado.\nServidores: el BC definiría salarios y carreras de sus servidores; el gasto en personal podría crecer hasta la inflación más 2,5% al año, salvo autorización del Senado.\nCuentas públicas: las transferencias de resultado entre el BC y el Tesoro quedarían fuera de las metas fiscales.",
+   "quemAfeta": "Banco Central, sus servidores, el Tesoro y el sistema financiero.",
+   "porQueImporta": "Desde 2021 el Banco Central tiene autonomía para decidir los intereses, pero es una autarquía y su presupuesto forma parte del presupuesto federal, aprobado por el Congreso. Con la PEC, el presupuesto del BC saldría del presupuesto federal.",
+   "nota": "La Abogacía General de la Unión considera la PEC inconstitucional, porque los cambios en la estructura del Ejecutivo dependerían de iniciativa del presidente. La asociación de servidores del Banco Central defiende la propuesta y dice que mantiene al BC en el derecho público."
   },
   "base": {
-   "versao": "outra:Relatório Legislativo 2026-05-20",
+   "versao": "s10242691",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial",
-   "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/1f2b0e89-dae2-42e4-8b2b-b78fef3b3d7b"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "nota": {
+   "texto": "A Advocacia-Geral da União considera a PEC inconstitucional, porque mudanças na estrutura do Executivo dependeriam de iniciativa do presidente. A associação de servidores do Banco Central defende a proposta e diz que ela mantém o BC no direito público.",
+   "url": "https://www.infomoney.com.br/politica/para-agu-pec-da-autonomia-financeira-do-banco-central-e-inconstitucional/"
   }
  },
  "c2351506": {
@@ -1770,27 +1781,27 @@
  },
  "c2121543": {
   "titulo": "Torna os direitos sociais cláusula pétrea",
-  "oQueMuda": "Direitos como saúde, educação e trabalho não poderiam mais ser abolidos por emendas à Constituição.",
+  "oQueMuda": "Os direitos sociais da Constituição (educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência social, proteção à maternidade e à infância e assistência aos desamparados) entrariam nas cláusulas pétreas, e nenhuma emenda poderia tender a aboli-los.",
   "quemAfeta": "Toda a população.",
   "porQueImporta": "Hoje cláusulas pétreas, que não podem ser abolidas por emenda, incluem direitos individuais, voto e separação de Poderes. Com a PEC, direitos sociais como saúde, educação e trabalho também entrariam nessa lista.",
   "fonte": "manual",
   "en": {
    "titulo": "Makes social rights unamendable",
-   "oQueMuda": "Rights such as health, education and work could no longer be abolished by constitutional amendments.",
+   "oQueMuda": "The Constitution's social rights (education, health, food, work, housing, transport, leisure, security, social security, protection of motherhood and childhood, and assistance to the destitute) would become entrenched clauses, and no amendment could tend to abolish them.",
    "quemAfeta": "Everyone.",
    "porQueImporta": "Today entrenched clauses, which cannot be abolished by amendment, include individual rights, the vote and separation of powers. Under the PEC, social rights such as health, education and work would be added."
   },
   "es": {
    "titulo": "Convierte los derechos sociales en cláusula pétrea",
-   "oQueMuda": "Derechos como la salud, la educación y el trabajo ya no podrían ser abolidos por enmiendas constitucionales.",
+   "oQueMuda": "Los derechos sociales de la Constitución (educación, salud, alimentación, trabajo, vivienda, transporte, ocio, seguridad, previsión social, protección a la maternidad y a la infancia y asistencia a los desamparados) pasarían a ser cláusulas pétreas, y ninguna enmienda podría tender a abolirlos.",
    "quemAfeta": "Toda la población.",
    "porQueImporta": "Hoy las cláusulas pétreas, que no pueden abolirse por enmienda, incluyen derechos individuales, voto y separación de Poderes. Con la PEC, derechos sociales como salud, educación y trabajo también entrarían en esa lista."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2162116": {
@@ -3355,30 +3366,31 @@
  },
  "s8611954": {
   "titulo": "Isenta de IPVA carros com 20 anos ou mais",
-  "oQueMuda": "Veículos de passageiros com 20 anos ou mais de fabricação deixariam de pagar IPVA em todo o país.",
-  "quemAfeta": "Donos de carros antigos e os estados.",
-  "porQueImporta": "Já em vigor: carros de passageiros com 20 anos ou mais de fabricação não pagam IPVA em todo o país; antes, cada estado definia sua própria regra.",
+  "oQueMuda": "Carros de passageiros, caminhonetes e veículos mistos com 20 anos ou mais de fabricação deixam de pagar IPVA em todo o país. Ônibus, micro-ônibus, reboques e semirreboques continuam pagando.",
+  "quemAfeta": "Donos de veículos antigos e os estados, que arrecadam o IPVA e repassam metade aos municípios.",
+  "porQueImporta": "Em vigor desde dezembro de 2025. Antes, cada estado definia a partir de que idade o veículo deixava de pagar IPVA, e as regras variavam de 10 a 30 anos ou mais.",
   "fonte": "manual",
   "apelido": "PEC do IPVA de carros antigos",
   "en": {
    "titulo": "Exempts cars 20 years or older from vehicle tax (IPVA)",
-   "oQueMuda": "Passenger vehicles 20 or more years old would stop paying IPVA nationwide.",
-   "quemAfeta": "Owners of older cars and the states.",
-   "porQueImporta": "Already in force: passenger cars 20 or more years old pay no IPVA anywhere in the country; previously each state set its own rule.",
+   "oQueMuda": "Passenger cars, pickups and mixed-use vehicles 20 or more years old stop paying the vehicle tax (IPVA) nationwide. Buses, minibuses, trailers and semi-trailers still pay.",
+   "quemAfeta": "Owners of old vehicles and the states, which collect IPVA and pass half to municipalities.",
+   "porQueImporta": "In force since December 2025. Before, each state set the age at which vehicles stopped paying IPVA, and the rules ranged from 10 to 30 years or more.",
    "apelido": "Vintage Car IPVA PEC"
   },
   "es": {
    "titulo": "Exime del IPVA a los autos de 20 años o más",
-   "oQueMuda": "Los vehículos de pasajeros con 20 años o más de fabricación dejarían de pagar IPVA en todo el país.",
-   "quemAfeta": "Dueños de autos antiguos y los estados.",
-   "porQueImporta": "Ya en vigor: los autos de pasajeros con 20 años o más de fabricación no pagan IPVA en todo el país; antes, cada estado definía su propia regla.",
+   "oQueMuda": "Autos de pasajeros, camionetas y vehículos mixtos con 20 años o más de fabricación dejan de pagar IPVA en todo el país. Ómnibus, microbuses, remolques y semirremolques siguen pagando.",
+   "quemAfeta": "Dueños de vehículos antiguos y los estados, que recaudan el IPVA y reparten la mitad a los municipios.",
+   "porQueImporta": "En vigor desde diciembre de 2025. Antes, cada estado definía a partir de qué edad el vehículo dejaba de pagar IPVA, y las reglas variaban de 10 a 30 años o más.",
    "apelido": "PEC del IPVA de autos antiguos"
   },
   "base": {
-   "versao": "original",
+   "versao": "promulgada",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas",
+   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc137.htm"
   }
  },
  "s8815148": {
@@ -4046,28 +4058,29 @@
   }
  },
  "c2293703": {
-  "titulo": "Reserva 30% dos recursos de campanha para candidatas",
-  "oQueMuda": "Partidos teriam de destinar ao menos 30% dos fundos e do tempo de TV e rádio às candidaturas de mulheres.",
-  "quemAfeta": "Partidos e candidatas.",
-  "porQueImporta": "Já em vigor: os partidos são obrigados a destinar pelo menos 30% do fundo eleitoral e do tempo de rádio e TV às candidaturas de mulheres.",
+  "titulo": "Reserva 30% dos recursos de campanha para candidatas e perdoa partidos que não cumpriram cotas",
+  "oQueMuda": "Recursos para mulheres: partidos devem destinar às candidatas no mínimo 30% do fundo eleitoral, da parte do fundo partidário usada em campanhas e do tempo de rádio e TV, proporcional ao número de candidatas; a divisão entre elas segue os critérios de cada partido.\nParticipação política: no mínimo 5% do fundo partidário deve ir para programas de incentivo à participação política das mulheres.\nPerdão: partidos que não cumpriram as cotas de sexo e raça em eleições anteriores não podem ser punidos com multa, devolução de dinheiro ou suspensão do fundo partidário; o dinheiro não aplicado em programas para mulheres pode ser usado nas eleições seguintes.",
+  "quemAfeta": "Partidos, candidatas e candidatos negros.",
+  "porQueImporta": "Em vigor desde abril de 2022. Antes, a reserva de 30% para mulheres vinha de decisões do STF e do TSE, e partidos que não a cumpriam podiam ser punidos; a emenda colocou a regra na Constituição e perdoou as punições pelas eleições anteriores.",
   "fonte": "manual",
   "en": {
-   "titulo": "Reserves 30% of campaign funds for women candidates",
-   "oQueMuda": "Parties would have to give at least 30% of their funds and TV and radio time to women candidates.",
-   "quemAfeta": "Parties and women candidates.",
-   "porQueImporta": "Already in force: parties must allocate at least 30% of election funds and radio and TV time to women candidates."
+   "titulo": "Reserves 30% of campaign funds for women candidates and pardons parties that missed quotas",
+   "oQueMuda": "Funds for women: parties must give women candidates at least 30% of the campaign fund, of the party-fund share used in campaigns and of radio and TV time, in proportion to the number of women candidates; how it is split among them follows each party's criteria.\nPolitical participation: at least 5% of the party fund must go to programs encouraging women's political participation.\nPardon: parties that failed to meet gender and race quotas in past elections cannot be punished with fines, repayment or suspension of the party fund; money not spent on programs for women may be used in later elections.",
+   "quemAfeta": "Parties, women candidates and Black candidates.",
+   "porQueImporta": "In force since April 2022. Before, the 30% reserve for women came from Supreme Court and Electoral Court rulings, and parties that ignored it could be punished; the amendment put the rule in the Constitution and pardoned penalties for past elections."
   },
   "es": {
-   "titulo": "Reserva el 30% de los recursos de campaña para candidatas",
-   "oQueMuda": "Los partidos tendrían que destinar al menos el 30% de los fondos y del tiempo de TV y radio a candidaturas de mujeres.",
-   "quemAfeta": "Partidos y candidatas.",
-   "porQueImporta": "Ya en vigor: los partidos están obligados a destinar al menos el 30% del fondo electoral y del tiempo de radio y TV a las candidaturas de mujeres."
+   "titulo": "Reserva el 30% de los recursos de campaña para candidatas y perdona a partidos que no cumplieron las cuotas",
+   "oQueMuda": "Recursos para mujeres: los partidos deben destinar a las candidatas al menos el 30% del fondo electoral, de la parte del fondo partidario usada en campañas y del tiempo de radio y TV, proporcional al número de candidatas; el reparto entre ellas sigue los criterios de cada partido.\nParticipación política: al menos el 5% del fondo partidario debe ir a programas de incentivo a la participación política de las mujeres.\nPerdón: los partidos que no cumplieron las cuotas de sexo y raza en elecciones anteriores no pueden ser sancionados con multa, devolución de dinero o suspensión del fondo partidario; el dinero no aplicado en programas para mujeres puede usarse en las elecciones siguientes.",
+   "quemAfeta": "Partidos, candidatas y candidatos negros.",
+   "porQueImporta": "En vigor desde abril de 2022. Antes, la reserva del 30% para mujeres venía de decisiones del STF y del TSE, y los partidos que no la cumplían podían ser sancionados; la enmienda puso la regla en la Constitución y perdonó las sanciones por elecciones anteriores."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "promulgada",
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas",
+   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc117.htm"
   }
  },
  "c355205": {
@@ -4510,31 +4523,32 @@
   }
  },
  "c2341862": {
-  "titulo": "Libera gastos fora do teto em 2023 e muda emendas parlamentares",
-  "oQueMuda": "Retirou despesas do teto de gastos para o orçamento de 2023 e mudou regras das emendas individuais ao orçamento.",
+  "titulo": "Libera R$ 145 bilhões fora do teto em 2023, aumenta emendas parlamentares e manda substituir o teto de gastos",
+  "oQueMuda": "Gasto extra em 2023: o teto de gastos de 2023 subiu R$ 145 bilhões, usados em programas como o Bolsa Família de R$ 600, sem contar para a meta fiscal.\nFim do teto: o governo teve de enviar até agosto de 2023 uma nova regra fiscal para substituir o teto de gastos, que virou o arcabouço fiscal.\nEmendas parlamentares: as emendas individuais de deputados e senadores ao orçamento subiram de 1,2% para 2% da receita corrente líquida (1,55% para deputados e 0,45% para senadores), metade para a saúde.",
   "quemAfeta": "Governo federal, beneficiários de programas sociais e parlamentares.",
-  "porQueImporta": "Já em vigor: permitiu, em 2023, gastos fora do teto de gastos, como o Bolsa Família de R$ 600, e mudou as regras das emendas individuais ao orçamento.",
+  "porQueImporta": "Em vigor desde dezembro de 2022. O teto de gastos, que limitava o crescimento das despesas à inflação desde 2016, foi substituído pelo arcabouço fiscal, e cada parlamentar passou a ter mais dinheiro do orçamento para indicar.",
   "fonte": "manual",
   "apelido": "PEC da Transição",
   "en": {
-   "titulo": "Allowed spending outside the cap in 2023 and changed budget amendments",
-   "oQueMuda": "Took expenses out of the spending cap for the 2023 budget and changed the rules for legislators' individual budget amendments.",
-   "quemAfeta": "The federal government, social program recipients and legislators.",
-   "porQueImporta": "Already in force: in 2023 it allowed spending outside the spending cap, such as the R$600 Bolsa Família, and changed the rules for individual budget amendments.",
+   "titulo": "Frees R$ 145 billion outside the cap in 2023, raises congressional amendments and orders the spending cap replaced",
+   "oQueMuda": "Extra spending in 2023: the 2023 spending cap rose by R$ 145 billion, used for programs such as the R$ 600 Bolsa Família, without counting toward the fiscal target.\nEnd of the cap: the government had to send a new fiscal rule by August 2023 to replace the spending cap; it became the fiscal framework.\nCongressional amendments: individual budget amendments by deputies and senators rose from 1.2% to 2% of net current revenue (1.55% for deputies and 0.45% for senators), half for health.",
+   "quemAfeta": "The federal government, social program beneficiaries and members of Congress.",
+   "porQueImporta": "In force since December 2022. The spending cap, which had limited spending growth to inflation since 2016, was replaced by the fiscal framework, and each member of Congress now has more budget money to allocate.",
    "apelido": "Transition PEC"
   },
   "es": {
-   "titulo": "Liberó gastos fuera del tope en 2023 y cambió las enmiendas parlamentarias",
-   "oQueMuda": "Sacó gastos del tope para el presupuesto de 2023 y cambió las reglas de las enmiendas individuales al presupuesto.",
+   "titulo": "Libera R$ 145 mil millones fuera del tope en 2023, aumenta las enmiendas parlamentarias y ordena sustituir el tope de gastos",
+   "oQueMuda": "Gasto extra en 2023: el tope de gastos de 2023 subió R$ 145 mil millones, usados en programas como el Bolsa Família de R$ 600, sin contar para la meta fiscal.\nFin del tope: el gobierno tuvo que enviar hasta agosto de 2023 una nueva regla fiscal para sustituir el tope de gastos; se convirtió en el marco fiscal.\nEnmiendas parlamentarias: las enmiendas individuales de diputados y senadores al presupuesto subieron del 1,2% al 2% de los ingresos corrientes netos (1,55% para diputados y 0,45% para senadores), la mitad para salud.",
    "quemAfeta": "Gobierno federal, beneficiarios de programas sociales y parlamentarios.",
-   "porQueImporta": "Ya en vigor: permitió, en 2023, gastos fuera del techo de gastos, como el Bolsa Família de R$ 600, y cambió las reglas de las enmiendas individuales al presupuesto.",
+   "porQueImporta": "En vigor desde diciembre de 2022. El tope de gastos, que limitaba el crecimiento del gasto a la inflación desde 2016, fue sustituido por el marco fiscal, y cada parlamentario pasó a tener más dinero del presupuesto para asignar.",
    "apelido": "PEC de la Transición"
   },
   "base": {
-   "versao": "c2345566",
+   "versao": "promulgada",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas",
+   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc126.htm"
   }
  },
  "c2075880": {
@@ -5218,28 +5232,28 @@
   }
  },
  "s8255099": {
-  "titulo": "Acaba com a reeleição e cria mandato de 5 anos",
-  "oQueMuda": "Presidente, governadores e prefeitos não poderiam se reeleger e teriam mandato de cinco anos.",
-  "quemAfeta": "Eleitores e chefes do Executivo.",
-  "porQueImporta": "Desde 1997, presidente, governadores e prefeitos podem se reeleger uma vez, com mandatos de 4 anos. Com a PEC, teriam um único mandato de 5 anos.",
+  "titulo": "Acaba com a reeleição, cria mandatos de 5 anos e unifica as eleições em 2034",
+  "oQueMuda": "Fim da reeleição: presidente, governadores e prefeitos não poderiam se candidatar ao mesmo cargo no mandato seguinte.\nMandatos de 5 anos: para todos os cargos, inclusive deputados, vereadores e senadores (hoje senadores têm 8 anos).\nEleição única: a partir de 2034, todos os cargos, de vereador a presidente, seriam eleitos no mesmo dia, a cada 5 anos.\nTransição: prefeitos eleitos em 2024 e presidente e governadores eleitos em 2026 ainda poderiam tentar a reeleição; prefeitos e vereadores eleitos em 2028 teriam mandato de 6 anos; senadores eleitos em 2030 teriam mandato de 9 anos.",
+  "quemAfeta": "Eleitores e todos os ocupantes de cargos eletivos.",
+  "porQueImporta": "Desde 1997, presidente, governadores e prefeitos podem se reeleger uma vez, com mandatos de 4 anos, e as eleições municipais acontecem dois anos depois das gerais. O texto foi aprovado na CCJ do Senado em maio de 2025 e aguarda votação no plenário.",
   "fonte": "manual",
   "en": {
-   "titulo": "Ends reelection and creates 5-year terms",
-   "oQueMuda": "The President, governors and mayors could not be reelected and would serve five-year terms.",
-   "quemAfeta": "Voters and heads of the executive branch.",
-   "porQueImporta": "Since 1997, the president, governors and mayors can be re-elected once, with 4-year terms. Under the PEC, they would have a single 5-year term."
+   "titulo": "Ends reelection, creates 5-year terms and unifies elections in 2034",
+   "oQueMuda": "End of reelection: the president, governors and mayors could not run for the same office in the next term.\n5-year terms: for every office, including deputies, councillors and senators (senators now serve 8 years).\nSingle election: from 2034, every office, from councillor to president, would be elected on the same day, every 5 years.\nTransition: mayors elected in 2024 and the president and governors elected in 2026 could still seek reelection; mayors and councillors elected in 2028 would serve 6 years; senators elected in 2030 would serve 9 years.",
+   "quemAfeta": "Voters and everyone holding elected office.",
+   "porQueImporta": "Since 1997, the president, governors and mayors can be reelected once, with 4-year terms, and municipal elections take place two years after general elections. The text was approved by the Senate Justice Committee in May 2025 and awaits a floor vote."
   },
   "es": {
-   "titulo": "Acaba con la reelección y crea mandatos de 5 años",
-   "oQueMuda": "Presidente, gobernadores y alcaldes no podrían reelegirse y tendrían mandatos de cinco años.",
-   "quemAfeta": "Votantes y jefes del Ejecutivo.",
-   "porQueImporta": "Desde 1997, el presidente, los gobernadores y los alcaldes pueden reelegirse una vez, con mandatos de 4 años. Con la PEC, tendrían un único mandato de 5 años."
+   "titulo": "Acaba con la reelección, crea mandatos de 5 años y unifica las elecciones en 2034",
+   "oQueMuda": "Fin de la reelección: presidente, gobernadores y alcaldes no podrían presentarse al mismo cargo en el mandato siguiente.\nMandatos de 5 años: para todos los cargos, incluidos diputados, concejales y senadores (hoy los senadores tienen 8 años).\nElección única: desde 2034, todos los cargos, de concejal a presidente, se elegirían el mismo día, cada 5 años.\nTransición: los alcaldes elegidos en 2024 y el presidente y gobernadores elegidos en 2026 aún podrían buscar la reelección; alcaldes y concejales elegidos en 2028 tendrían mandato de 6 años; los senadores elegidos en 2030, de 9 años.",
+   "quemAfeta": "Electores y todos los ocupantes de cargos electivos.",
+   "porQueImporta": "Desde 1997, presidente, gobernadores y alcaldes pueden reelegirse una vez, con mandatos de 4 años, y las elecciones municipales ocurren dos años después de las generales. El texto fue aprobado en la CCJ del Senado en mayo de 2025 y espera votación en el pleno."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s9957171",
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8794275": {
@@ -8828,31 +8842,32 @@
   }
  },
  "c2352476": {
-  "titulo": "Anistia partidos e reserva recursos para candidatos negros",
-  "oQueMuda": "Perdoa partidos que não cumpriram cotas de sexo e raça e exige 30% dos recursos para candidaturas de pessoas pretas e pardas.",
-  "quemAfeta": "Partidos políticos e candidatos negros.",
-  "porQueImporta": "Já em vigor: partidos que não cumpriram as cotas de gênero e raça em eleições anteriores ficaram livres de punição, e passou a ser obrigatório destinar 30% dos recursos de campanha a candidaturas de pessoas pretas e pardas.",
+  "titulo": "Perdoa e refinancia dívidas de partidos e reserva 30% dos recursos para candidatos negros",
+  "oQueMuda": "Cota racial: partidos devem aplicar 30% do fundo eleitoral e da parte do fundo partidário usada em campanhas em candidaturas de pessoas pretas e pardas, nos lugares que escolherem.\nPerdão da cota racial: o que os partidos aplicaram em candidatos negros nas eleições anteriores conta como cumprido, desde que apliquem o valor que faltou nas 4 eleições seguintes, a partir de 2026.\nMultas canceladas: cobranças, multas e devoluções de dinheiro com mais de 5 anos são canceladas, inclusive as já decididas pela Justiça, exceto as previdenciárias.\nRefinanciamento: partidos podem parcelar dívidas sem juros nem multa, em até 15 anos (5 anos para dívidas com a Previdência).\nDinheiro público para multas: partidos podem usar o fundo partidário para pagar multas e devolver recursos irregulares, inclusive os de origem não identificada.\nPix: doações por Pix deixam de exigir recibo eleitoral.",
+  "quemAfeta": "Partidos políticos, candidatos negros e quem financia os partidos com impostos.",
+  "porQueImporta": "Em vigor desde agosto de 2024. Antes, partidos que não cumpriam cotas ou tinham contas irregulares podiam ser multados e obrigados a devolver dinheiro; com a emenda, parte dessas cobranças foi cancelada, e o fundo partidário, que é dinheiro público, pode pagar as que restam.",
   "fonte": "manual",
   "apelido": "PEC da Anistia aos Partidos",
   "en": {
-   "titulo": "Pardons parties and reserves funds for Black candidates",
-   "oQueMuda": "Pardons parties that didn't meet gender and race quotas and requires 30% of funds for Black and brown candidates.",
-   "quemAfeta": "Political parties and Black candidates.",
-   "porQueImporta": "Already in force: parties that failed to meet gender and race quotas in previous elections were spared punishment, and allocating 30% of campaign funds to Black and mixed-race candidates became mandatory.",
+   "titulo": "Pardons and refinances party debts and reserves 30% of funds for Black candidates",
+   "oQueMuda": "Racial quota: parties must spend 30% of the campaign fund and of the party-fund share used in campaigns on Black and brown candidates, wherever they choose.\nRacial quota pardon: what parties spent on Black candidates in past elections counts as compliance, provided they spend the shortfall over the next 4 elections, from 2026.\nFines cancelled: charges, fines and repayments more than 5 years old are cancelled, including those already decided in court, except social security debts.\nRefinancing: parties may pay debts in installments with no interest or fines, over up to 15 years (5 years for social security debts).\nPublic money for fines: parties may use the party fund to pay fines and return irregular funds, including those of unidentified origin.\nPix: donations by Pix no longer require an electoral receipt.",
+   "quemAfeta": "Political parties, Black candidates and taxpayers who fund parties.",
+   "porQueImporta": "In force since August 2024. Before, parties that missed quotas or had irregular accounts could be fined and made to repay money; with the amendment, part of those charges was cancelled, and the party fund, which is public money, can pay the rest.",
    "apelido": "Party Amnesty PEC"
   },
   "es": {
-   "titulo": "Amnistía a los partidos y reserva recursos para candidatos negros",
-   "oQueMuda": "Perdona a los partidos que no cumplieron cuotas de sexo y raza y exige el 30% de los recursos para candidaturas de personas negras y pardas.",
-   "quemAfeta": "Partidos políticos y candidatos negros.",
-   "porQueImporta": "Ya en vigor: los partidos que no cumplieron las cuotas de género y raza en elecciones anteriores quedaron libres de castigo, y pasó a ser obligatorio destinar el 30% de los recursos de campaña a candidaturas de personas negras y pardas.",
+   "titulo": "Perdona y refinancia deudas de partidos y reserva el 30% de los recursos para candidatos negros",
+   "oQueMuda": "Cuota racial: los partidos deben destinar el 30% del fondo electoral y de la parte del fondo partidario usada en campañas a candidaturas de personas negras y pardas, donde elijan.\nPerdón de la cuota racial: lo que los partidos destinaron a candidatos negros en elecciones anteriores cuenta como cumplido, siempre que apliquen lo que faltó en las 4 elecciones siguientes, desde 2026.\nMultas canceladas: cobros, multas y devoluciones con más de 5 años se cancelan, incluso los ya decididos por la Justicia, salvo los previsionales.\nRefinanciación: los partidos pueden pagar deudas en cuotas sin intereses ni multas, en hasta 15 años (5 años para deudas previsionales).\nDinero público para multas: los partidos pueden usar el fondo partidario para pagar multas y devolver recursos irregulares, incluso de origen no identificado.\nPix: las donaciones por Pix ya no exigen recibo electoral.",
+   "quemAfeta": "Partidos políticos, candidatos negros y contribuyentes que financian a los partidos.",
+   "porQueImporta": "En vigor desde agosto de 2024. Antes, los partidos que no cumplían cuotas o tenían cuentas irregulares podían ser multados y obligados a devolver dinero; con la enmienda, parte de esos cobros se canceló, y el fondo partidario, que es dinero público, puede pagar el resto.",
    "apelido": "PEC de la Amnistía a los Partidos"
   },
   "base": {
-   "versao": "s9790402",
+   "versao": "promulgada",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas",
+   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc133.htm"
   }
  },
  "s8705604": {
@@ -9408,28 +9423,34 @@
   }
  },
  "s8394295": {
-  "titulo": "Cria adicional por tempo de serviço para juízes e promotores",
-  "oQueMuda": "Magistrados e membros do Ministério Público receberiam uma parcela extra a cada cinco anos de trabalho.",
-  "quemAfeta": "Juízes e promotores.",
-  "porQueImporta": "Hoje juízes e promotores recebem salário único, sem adicional por tempo de serviço, que foi extinto em 2005. Com a PEC, receberiam uma parcela extra a cada cinco anos, paga pela União e pelos estados.",
+  "titulo": "Cria adicional por tempo de serviço fora do teto para juízes, promotores e outras carreiras jurídicas",
+  "oQueMuda": "Adicional: juízes e promotores receberiam 5% a mais do salário a cada 5 anos de atividade jurídica, até 35%, fora do teto do funcionalismo.\nQuem mais recebe: o texto aprovado na CCJ do Senado estende o adicional a membros dos Tribunais de Contas, defensores públicos, advogados públicos e delegados, e permite que cada órgão o conceda a outros servidores proibidos de ter outro trabalho remunerado.\nContagem de tempo: conta o tempo em outras carreiras jurídicas e na advocacia privada antes de entrar no cargo.\nAposentadoria: o adicional entraria na aposentadoria e na pensão, sem necessidade de contribuição.",
+  "quemAfeta": "Juízes, promotores, defensores, advogados públicos, delegados, membros dos Tribunais de Contas e os orçamentos da União e dos estados.",
+  "porQueImporta": "Desde a decisão do STF de 30 de junho de 2026, juízes e promotores já recebem uma parcela de 5% do salário a cada 5 anos, até 35%. Com a PEC, o adicional ficaria na Constituição, fora do teto, e seria estendido a outras carreiras.",
   "fonte": "manual",
   "en": {
-   "titulo": "Creates a length-of-service bonus for judges and prosecutors",
-   "oQueMuda": "Judges and prosecutors would receive an extra payment every five years of service.",
-   "quemAfeta": "Judges and prosecutors.",
-   "porQueImporta": "Today judges and prosecutors receive a single salary, with no seniority bonus, which was abolished in 2005. Under the PEC, they would receive an extra payment every five years, paid by the federal government and states."
+   "titulo": "Creates a seniority bonus outside the pay cap for judges, prosecutors and other legal careers",
+   "oQueMuda": "Bonus: judges and prosecutors would get 5% more salary for every 5 years of legal work, up to 35%, outside the public pay cap.\nWho else: the text approved by the Senate Justice Committee extends it to audit court members, public defenders, government lawyers and police chiefs, and lets each body grant it to other servants barred from other paid work.\nCounting time: time in other legal careers and in private law practice before taking office counts.\nRetirement: the bonus would be included in pensions, with no contribution required.",
+   "quemAfeta": "Judges, prosecutors, public defenders, government lawyers, police chiefs, audit court members and federal and state budgets.",
+   "porQueImporta": "Since the Supreme Court decision of June 30, 2026, judges and prosecutors already receive 5% of salary for every 5 years, up to 35%. Under the PEC, the bonus would be in the Constitution, outside the cap, and extended to other careers.",
+   "nota": "The Independent Fiscal Institution, the Senate's technical body, estimated the cost at R$ 5.2 billion a year for the original text and up to R$ 42 billion a year with the extension to other careers. The Senate Budget Consultancy estimated R$ 81.6 billion from 2024 to 2026."
   },
   "es": {
-   "titulo": "Crea un adicional por antigüedad para jueces y fiscales",
-   "oQueMuda": "Los magistrados y miembros del Ministerio Público recibirían un pago extra cada cinco años de trabajo.",
-   "quemAfeta": "Jueces y fiscales.",
-   "porQueImporta": "Hoy jueces y fiscales reciben salario único, sin adicional por tiempo de servicio, que se extinguió en 2005. Con la PEC, recibirían una parcela extra cada cinco años, pagada por el gobierno federal y los estados."
+   "titulo": "Crea un adicional por antigüedad fuera del tope para jueces, fiscales y otras carreras jurídicas",
+   "oQueMuda": "Adicional: jueces y fiscales recibirían un 5% más de salario cada 5 años de actividad jurídica, hasta el 35%, fuera del tope salarial público.\nQuién más: el texto aprobado en la CCJ del Senado lo extiende a miembros de los Tribunales de Cuentas, defensores públicos, abogados públicos y comisarios, y permite que cada órgano lo conceda a otros servidores impedidos de tener otro trabajo remunerado.\nCómputo del tiempo: cuenta el tiempo en otras carreras jurídicas y en la abogacía privada antes de entrar al cargo.\nJubilación: el adicional entraría en la jubilación y la pensión, sin necesidad de contribución.",
+   "quemAfeta": "Jueces, fiscales, defensores, abogados públicos, comisarios, miembros de Tribunales de Cuentas y los presupuestos de la Unión y de los estados.",
+   "porQueImporta": "Desde la decisión del STF del 30 de junio de 2026, jueces y fiscales ya reciben un 5% del salario cada 5 años, hasta el 35%. Con la PEC, el adicional quedaría en la Constitución, fuera del tope, y se extendería a otras carreras.",
+   "nota": "La Institución Fiscal Independiente, órgano técnico del Senado, estimó el costo en R$ 5.200 millones al año en el texto original y hasta R$ 42.000 millones al año con la ampliación a otras carreras. La Consultoría de Presupuesto del Senado estimó R$ 81.600 millones de 2024 a 2026."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s9586962",
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "nota": {
+   "texto": "A Instituição Fiscal Independente, órgão técnico do Senado, estimou o custo em R$ 5,2 bilhões por ano no texto original e em até R$ 42 bilhões por ano com a ampliação a outras carreiras. A Consultoria de Orçamento do Senado estimou R$ 81,6 bilhões de 2024 a 2026.",
+   "url": "https://www.correiobraziliense.com.br/politica/2024/04/6843726-pec-do-quinquenio-estudo-indica-impacto-de-cerca-de-rs-816-bi-ate-2026.html"
   }
  },
  "s8572569": {
@@ -10115,31 +10136,37 @@
  },
  "c2196833": {
   "titulo": "Reforma tributária: troca cinco impostos por IBS e CBS",
-  "oQueMuda": "Substitui PIS, Cofins, IPI, ICMS e ISS por dois impostos sobre consumo, o IBS e a CBS, além de um imposto seletivo.",
+  "oQueMuda": "Novos impostos: PIS, Cofins e IPI (federais), ICMS (estadual) e ISS (municipal) são substituídos pela CBS (federal) e pelo IBS (estados e municípios), cobrados no destino e sem imposto em cascata, além de um Imposto Seletivo sobre produtos prejudiciais à saúde e ao meio ambiente.\nAlíquotas menores: cesta básica nacional com alíquota zero; redução de 60% para saúde, educação, remédios e alguns alimentos; redução de 30% para profissões regulamentadas.\nCashback: devolução de parte do imposto para famílias de baixa renda.\nTransição: os novos impostos começam em teste em 2026, e os antigos acabam até 2033.",
   "quemAfeta": "Todos os consumidores, empresas e governos.",
-  "porQueImporta": "Já em vigor (Emenda 132, de 2023): PIS, Cofins, IPI, ICMS e ISS estão sendo substituídos por IBS, CBS e Imposto Seletivo, em transição de 2026 a 2033.",
+  "porQueImporta": "Em vigor desde dezembro de 2023, com transição até 2033. Hoje cada estado e município tem regras próprias de ICMS e ISS, e o mesmo produto pode pagar imposto várias vezes ao longo da cadeia.",
   "fonte": "manual",
   "apelido": "Reforma Tributária",
   "en": {
    "titulo": "Tax reform: replaces five taxes with IBS and CBS",
-   "oQueMuda": "Replaces PIS, Cofins, IPI, ICMS and ISS with two consumption taxes, the IBS and the CBS, plus a selective tax.",
-   "quemAfeta": "All consumers, companies and governments.",
-   "porQueImporta": "Already in force (Amendment 132 of 2023): PIS, Cofins, IPI, ICMS and ISS are being replaced by IBS, CBS and a Selective Tax, with a transition from 2026 to 2033.",
-   "apelido": "Tax Reform"
+   "oQueMuda": "New taxes: PIS, Cofins and IPI (federal), ICMS (state) and ISS (municipal) are replaced by CBS (federal) and IBS (states and municipalities), charged at destination without cascading, plus a Selective Tax on products harmful to health and the environment.\nLower rates: a national basic food basket at zero rate; a 60% cut for health, education, medicines and some foods; a 30% cut for regulated professions.\nCashback: part of the tax returned to low-income families.\nTransition: the new taxes start in a test phase in 2026, and the old ones end by 2033.",
+   "quemAfeta": "All consumers, businesses and governments.",
+   "porQueImporta": "In force since December 2023, with a transition until 2033. Today each state and municipality has its own ICMS and ISS rules, and the same product can be taxed several times along the chain.",
+   "apelido": "Tax Reform",
+   "nota": "Each exception with a lower rate raises the rate everyone else pays. After the exceptions approved by Congress in the implementing law, the Finance Ministry estimated the standard rate at about 28%, among the highest in the world for this type of tax; the law provides for a review aiming at 26.5%."
   },
   "es": {
    "titulo": "Reforma tributaria: cambia cinco impuestos por IBS y CBS",
-   "oQueMuda": "Sustituye PIS, Cofins, IPI, ICMS e ISS por dos impuestos al consumo, el IBS y la CBS, además de un impuesto selectivo.",
+   "oQueMuda": "Nuevos impuestos: PIS, Cofins e IPI (federales), ICMS (estatal) e ISS (municipal) son sustituidos por la CBS (federal) y el IBS (estados y municipios), cobrados en destino y sin efecto cascada, además de un Impuesto Selectivo sobre productos dañinos para la salud y el ambiente.\nAlícuotas menores: canasta básica nacional con alícuota cero; reducción del 60% para salud, educación, medicamentos y algunos alimentos; reducción del 30% para profesiones reguladas.\nCashback: devolución de parte del impuesto a familias de bajos ingresos.\nTransición: los nuevos impuestos comienzan en prueba en 2026, y los antiguos terminan hasta 2033.",
    "quemAfeta": "Todos los consumidores, empresas y gobiernos.",
-   "porQueImporta": "Ya en vigor (Enmienda 132, de 2023): PIS, Cofins, IPI, ICMS e ISS se están sustituyendo por IBS, CBS e Impuesto Selectivo, en transición de 2026 a 2033.",
-   "apelido": "Reforma Tributaria"
+   "porQueImporta": "En vigor desde diciembre de 2023, con transición hasta 2033. Hoy cada estado y municipio tiene reglas propias de ICMS e ISS, y el mismo producto puede pagar impuesto varias veces a lo largo de la cadena.",
+   "apelido": "Reforma Tributaria",
+   "nota": "Cada excepción con alícuota menor hace subir la alícuota que pagan todos los demás. Tras las excepciones aprobadas por el Congreso en la reglamentación, el Ministerio de Hacienda estimó la alícuota estándar en cerca del 28%, entre las mayores del mundo para este tipo de impuesto; la ley prevé una revisión para buscar el 26,5%."
   },
   "base": {
-   "versao": "outra:Redação final aprovada na Câmara 2023-07-07",
+   "versao": "promulgada",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial",
-   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2305786"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas",
+   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc132.htm"
+  },
+  "nota": {
+   "texto": "Cada exceção com alíquota menor faz subir a alíquota paga por todos os demais. Depois das exceções aprovadas pelo Congresso na regulamentação, o Ministério da Fazenda estimou a alíquota-padrão em cerca de 28%, entre as maiores do mundo para esse tipo de imposto; a lei prevê revisão para buscar 26,5%.",
+   "url": "https://www.infomoney.com.br/politica/reforma-tributaria-brasil-podera-ter-maior-iva-do-mundo-com-aliquota-de-28/"
   }
  },
  "s8403380": {
@@ -14196,31 +14223,31 @@
  },
  "c609753": {
   "titulo": "Ajuda da União para pagar o piso da enfermagem",
-  "oQueMuda": "A União daria apoio financeiro a estados, municípios, entidades filantrópicas e prestadores privados que atendam pelo menos 60% de pacientes do SUS, para pagarem o piso da enfermagem.",
-  "quemAfeta": "Profissionais de enfermagem, prefeituras, Santas Casas e hospitais que atendem o SUS.",
-  "porQueImporta": "Já em vigor (Emenda 127, de 2022): a União dá apoio financeiro a estados, municípios, filantrópicas e prestadores privados que atendam pelo menos 60% de pacientes do SUS para pagarem o piso da enfermagem.",
+  "oQueMuda": "Ajuda da União: a União dá apoio financeiro a estados, municípios, entidades filantrópicas e prestadores privados que atendam pelo menos 60% de pacientes pelo SUS, para pagarem o piso da enfermagem, com verba própria no orçamento.\nLimite de gastos com pessoal: o aumento de gasto com o piso não contou nos limites de despesa com pessoal no primeiro ano e passa a contar aos poucos, 10% a cada ano.\nFonte de dinheiro: sobras de fundos públicos federais podem pagar o piso de 2023 a 2027.",
+  "quemAfeta": "Profissionais de enfermagem, prefeituras, governos estaduais, Santas Casas e hospitais que atendem o SUS.",
+  "porQueImporta": "Em vigor desde dezembro de 2022. O piso da enfermagem foi criado por lei em 2022, mas estados, municípios e hospitais diziam não ter dinheiro para pagá-lo; a emenda definiu que a União ajuda a pagar.",
   "fonte": "revisado",
   "apelido": "PEC do Piso da Enfermagem",
   "en": {
    "titulo": "Federal aid to pay the nursing salary floor",
-   "oQueMuda": "The federal government would give financial support to states, municipalities, charities and private providers serving at least 60% public health system (SUS) patients so they can pay the nursing salary floor.",
-   "quemAfeta": "Nursing professionals, city governments, charity hospitals and hospitals serving SUS.",
-   "porQueImporta": "Already in force (Amendment 127 of 2022): the federal government gives financial support to states, municipalities, charities and private providers serving at least 60% SUS patients so they can pay the nursing salary floor.",
+   "oQueMuda": "Federal aid: the federal government gives financial support to states, municipalities, charities and private providers serving at least 60% of patients through SUS so they can pay the nursing minimum wage, with its own budget line.\nPayroll limits: the extra spending on the minimum wage did not count toward payroll limits in the first year and is phased in, 10% a year.\nFunding source: surpluses from federal public funds may pay the minimum wage from 2023 to 2027.",
+   "quemAfeta": "Nursing professionals, municipalities, state governments, charity hospitals and hospitals serving SUS.",
+   "porQueImporta": "In force since December 2022. The nursing minimum wage was created by law in 2022, but states, municipalities and hospitals said they could not afford it; the amendment set that the federal government helps pay.",
    "apelido": "Nursing Minimum Wage PEC"
   },
   "es": {
    "titulo": "Ayuda federal para pagar el piso salarial de enfermería",
-   "oQueMuda": "El gobierno federal daría apoyo financiero a estados, municipios, entidades filantrópicas y prestadores privados que atiendan al menos un 60% de pacientes del SUS (sistema público de salud), para pagar el piso de enfermería.",
-   "quemAfeta": "Profesionales de enfermería, alcaldías, hospitales filantrópicos y hospitales que atienden al SUS.",
-   "porQueImporta": "Ya en vigor (Enmienda 127, de 2022): el gobierno federal da apoyo financiero a estados, municipios, filantrópicas y prestadores privados que atiendan al menos un 60% de pacientes del SUS para pagar el piso de enfermería.",
+   "oQueMuda": "Ayuda de la Unión: la Unión da apoyo financiero a estados, municipios, entidades filantrópicas y prestadores privados que atiendan al menos el 60% de pacientes por el SUS, para pagar el piso de enfermería, con partida propia en el presupuesto.\nLímite de gasto en personal: el aumento de gasto con el piso no contó en los límites de gasto en personal el primer año y pasa a contar poco a poco, 10% cada año.\nFuente de dinero: los excedentes de fondos públicos federales pueden pagar el piso de 2023 a 2027.",
+   "quemAfeta": "Profesionales de enfermería, municipios, gobiernos estatales, Santas Casas y hospitales que atienden al SUS.",
+   "porQueImporta": "En vigor desde diciembre de 2022. El piso de enfermería fue creado por ley en 2022, pero estados, municipios y hospitales decían no tener dinero para pagarlo; la enmienda definió que la Unión ayuda a pagar.",
    "apelido": "PEC del Salario Mínimo de Enfermería"
   },
   "base": {
-   "versao": "outra:Redação final aprovada na Câmara 2022-12-15",
+   "versao": "promulgada",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial",
-   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2226654"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas",
+   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc127.htm"
   }
  },
  "c1701050": {

@@ -27,15 +27,6 @@
   "semelhanca": null
  },
  {
-  "id": "s8593552",
-  "sigla": "PEC 65/2023",
-  "titulo": "Dá autonomia financeira ao Banco Central e muda sua natureza jurídica",
-  "versao": "Parecer aprovado em comissão ou no plenário do Senado",
-  "data": "2026-06-10",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/73445bb2-2826-4ff8-a3c6-07757bd68873",
-  "semelhanca": null
- },
- {
   "id": "c2225224",
   "sigla": "PEC 169/2019",
   "titulo": "Permite que professores acumulem outro cargo público",
@@ -72,15 +63,6 @@
   "semelhanca": null
  },
  {
-  "id": "s8255099",
-  "sigla": "PEC 12/2022",
-  "titulo": "Acaba com a reeleição e cria mandato de 5 anos",
-  "versao": "Parecer aprovado em comissão ou no plenário do Senado",
-  "data": "2025-05-21",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/562ffba6-b5f8-4f3e-b6a7-a2347361c861",
-  "semelhanca": null
- },
- {
   "id": "c347421",
   "sigla": "PEC 31/2007",
   "titulo": "Corte de gastos de 2024: abono salarial, teto, DRU e Fundeb (promulgada)",
@@ -108,6 +90,15 @@
   "semelhanca": null
  },
  {
+  "id": "c2352476",
+  "sigla": "PEC 9/2023",
+  "titulo": "Perdoa e refinancia dívidas de partidos e reserva 30% dos recursos para candidatos negros",
+  "versao": "Texto aprovado no Senado",
+  "data": "2024-08-22",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/cc43c527-6a7d-40a3-9c81-9f8788ab7997",
+  "semelhanca": 0.11
+ },
+ {
   "id": "s8466340",
   "sigla": "PEC 28/2023",
   "titulo": "Inclui procuradores municipais na advocacia pública",
@@ -124,15 +115,6 @@
   "data": "2024-04-24",
   "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/0975440e-3c0b-40f5-925d-e712e621046f",
   "semelhanca": 0.14
- },
- {
-  "id": "s8394295",
-  "sigla": "PEC 10/2023",
-  "titulo": "Cria adicional por tempo de serviço para juízes e promotores",
-  "versao": "Parecer aprovado em comissão ou no plenário do Senado",
-  "data": "2024-04-17",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/26500a01-c93d-49d4-a57f-597abdf8ccc0",
-  "semelhanca": 0.27
  },
  {
   "id": "c2196833",
@@ -180,6 +162,15 @@
   "semelhanca": null
  },
  {
+  "id": "c2341862",
+  "sigla": "PEC 32/2022",
+  "titulo": "Libera R$ 145 bilhões fora do teto em 2023, aumenta emendas parlamentares e manda substituir o teto de gastos",
+  "versao": "Redação final aprovada na Câmara",
+  "data": "2022-12-21",
+  "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2229383",
+  "semelhanca": 0.01
+ },
+ {
   "id": "c609753",
   "sigla": "PEC 390/2014",
   "titulo": "Ajuda da União para pagar o piso da enfermagem",
@@ -209,7 +200,7 @@
  {
   "id": "c2293703",
   "sigla": "PEC 18/2021",
-  "titulo": "Reserva 30% dos recursos de campanha para candidatas",
+  "titulo": "Reserva 30% dos recursos de campanha para candidatas e perdoa partidos que não cumpriram cotas",
   "versao": "Redação final aprovada na Câmara",
   "data": "2022-03-30",
   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2157345",
@@ -322,15 +313,6 @@
   "data": "2010-08-17",
   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=796503",
   "semelhanca": 0.25
- },
- {
-  "id": "c328385",
-  "sigla": "PEC 555/2006",
-  "titulo": "Acaba com a contribuição previdenciária de servidores aposentados",
-  "versao": "Substitutivo aprovado na comissão da Câmara",
-  "data": "2010-07-14",
-  "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1338478",
-  "semelhanca": null
  },
  {
   "id": "c414367",
