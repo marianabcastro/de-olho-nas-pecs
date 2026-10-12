@@ -273,7 +273,8 @@ pt: {
   vot_h: "Votadas recentemente", vot_sub: "Placar do último turno de votação",
   todas_h: "Todas as PECs", buscar: "Buscar", busca_ph: "Ex.: PEC das Praias, aposentadoria, escala 6x1, PEC 45",
   sit_lbl: "Situação", tema_lbl: "Tema", tema_todos: "Todos os temas", casa_lbl: "Casa", casa_todas: "Câmara e Senado", casa_cam: "Passou pela Câmara", casa_sen: "Passou pelo Senado",
-  ord_lbl: "Ordenar", ord_rec: "Movimentação mais recente", ord_av: "Mais perto de aprovar", ord_novas: "Apresentadas mais recentemente", ord_ant: "Mais antigas",
+  ord_lbl: "Ordenar", ord_rec: "Movimentação mais recente", ord_av: "Mais perto de aprovar", ord_novas: "Apresentadas mais recentemente", ord_vot: "Votadas mais recentemente", ord_ant: "Mais antigas",
+  per_lbl: "Período", per_todos: "Qualquer data", per: { mov7: "Com novidade nos últimos 7 dias", mov30: "Com novidade nos últimos 30 dias", apr30: "Apresentadas nos últimos 30 dias", apr365: "Apresentadas nos últimos 12 meses", vot30: "Votadas nos últimos 30 dias", vot365: "Votadas nos últimos 12 meses" },
   nada_filtro: 'Nenhuma PEC encontrada com esses filtros. Tente outra palavra ou escolha "Todas".',
   mostrar_mais: n => `Mostrar mais ${n}`, count: n => `${n} ${n === 1 ? "PEC" : "PECs"}`,
   part_h: "Você também pode opinar", part_p: 'O Senado tem consultas públicas no portal e-Cidadania, onde qualquer pessoa vota "sim" ou "não" em cada proposta. A Câmara tem enquetes parecidas. Em cada PEC deste site há um atalho para dar sua opinião.',
@@ -399,7 +400,8 @@ en: {
   vot_h: "Recently voted", vot_sub: "Score of the latest voting round",
   todas_h: "All PECs", buscar: "Search", busca_ph: "E.g.: beaches, pensions, 6-day work week, PEC 45",
   sit_lbl: "Status", tema_lbl: "Topic", tema_todos: "All topics", casa_lbl: "Chamber", casa_todas: "Chamber and Senate", casa_cam: "Went through the Chamber", casa_sen: "Went through the Senate",
-  ord_lbl: "Sort", ord_rec: "Most recent activity", ord_av: "Closest to approval", ord_novas: "Most recently filed", ord_ant: "Oldest",
+  ord_lbl: "Sort", ord_rec: "Most recent activity", ord_av: "Closest to approval", ord_novas: "Most recently filed", ord_vot: "Most recently voted", ord_ant: "Oldest",
+  per_lbl: "Period", per_todos: "Any date", per: { mov7: "Updated in the last 7 days", mov30: "Updated in the last 30 days", apr30: "Filed in the last 30 days", apr365: "Filed in the last 12 months", vot30: "Voted in the last 30 days", vot365: "Voted in the last 12 months" },
   nada_filtro: 'No PECs match these filters. Try another word or choose "All".',
   mostrar_mais: n => `Show ${n} more`, count: n => `${n} ${n === 1 ? "PEC" : "PECs"}`,
   part_h: "You can have your say too", part_p: 'The Senate runs public consultations on its e-Cidadania portal, where anyone can vote "yes" or "no" on each proposal. The Chamber of Deputies has similar polls. Every PEC on this site has a shortcut to share your opinion.',
@@ -525,7 +527,8 @@ es: {
   vot_h: "Votadas recientemente", vot_sub: "Resultado de la última vuelta de votación",
   todas_h: "Todas las PECs", buscar: "Buscar", busca_ph: "Ej.: playas, jubilación, jornada 6x1, PEC 45",
   sit_lbl: "Situación", tema_lbl: "Tema", tema_todos: "Todos los temas", casa_lbl: "Cámara", casa_todas: "Cámara y Senado", casa_cam: "Pasó por la Cámara", casa_sen: "Pasó por el Senado",
-  ord_lbl: "Ordenar", ord_rec: "Movimiento más reciente", ord_av: "Más cerca de aprobarse", ord_novas: "Presentadas más recientemente", ord_ant: "Más antiguas",
+  ord_lbl: "Ordenar", ord_rec: "Movimiento más reciente", ord_av: "Más cerca de aprobarse", ord_novas: "Presentadas más recientemente", ord_vot: "Votadas más recientemente", ord_ant: "Más antiguas",
+  per_lbl: "Período", per_todos: "Cualquier fecha", per: { mov7: "Con novedades en los últimos 7 días", mov30: "Con novedades en los últimos 30 días", apr30: "Presentadas en los últimos 30 días", apr365: "Presentadas en los últimos 12 meses", vot30: "Votadas en los últimos 30 días", vot365: "Votadas en los últimos 12 meses" },
   nada_filtro: 'No se encontraron PECs con estos filtros. Prueba otra palabra o elige "Todas".',
   mostrar_mais: n => `Mostrar ${n} más`, count: n => `${n} ${n === 1 ? "PEC" : "PECs"}`,
   part_h: "Tú también puedes opinar", part_p: 'El Senado tiene consultas públicas en el portal e-Cidadania, donde cualquier persona vota "sí" o "no" en cada propuesta. La Cámara tiene encuestas parecidas. Cada PEC de este sitio tiene un atajo para dar tu opinión.',
@@ -708,9 +711,9 @@ const baixarDetalhe = id => baixar(urlDetalhe(id), g => { for (const [k, v] of O
 const baixarIdioma = l => baixar(urlIdioma(l), t => { for (const [k, v] of Object.entries(t)) if (BY_ID[k]?.simples) BY_ID[k].simples[l] = v; });
 const baixarPessoas = () => baixar(URL_PESSOAS, d => { PESSOAS = montarPessoas(d.pecs); });
 const PAGE = 30;
-const state = { q: "", tema: "", casa: "", fase: "todas", ordem: "recentes", shown: PAGE };
+const state = { q: "", tema: "", casa: "", fase: "todas", ordem: "recentes", periodo: "", shown: PAGE };
 try { Object.assign(state, JSON.parse(localStorage.getItem("pec-filtros") || "{}"), { shown: PAGE, q: "" }); } catch (e) {}
-const save = () => { try { localStorage.setItem("pec-filtros", JSON.stringify({ tema: state.tema, casa: state.casa, fase: state.fase, ordem: state.ordem })); } catch (e) {} };
+const save = () => { try { localStorage.setItem("pec-filtros", JSON.stringify({ tema: state.tema, casa: state.casa, fase: state.fase, ordem: state.ordem, periodo: state.periodo })); } catch (e) {} };
 
 /* ---------- idioma ---------- */
 let LANG = "pt";
@@ -918,12 +921,19 @@ function acharPessoas(texto) {
 }
 
 /* ---------- início ---------- */
+// período: [qual data olhar, quantos dias para trás]
+const PERIODOS = { mov7: ["mov", 7], mov30: ["mov", 30], apr30: ["apr", 30], apr365: ["apr", 365], vot30: ["vot", 30], vot365: ["vot", 365] };
+const dataDe = (p, tipo) => tipo === "apr" ? p.apresentacao : tipo === "vot" ? p.votacoes.reduce((m, v) => v.data > m ? v.data : m, "") || null : p.ultimaMovimentacao;
 function filtrar() {
   const q = norm(state.q.trim());
   let l = DB.pecs.filter(p => {
     if (state.tema && TEMA_BY[state.tema] && !TEMA_BY[state.tema][3].test(textoPEC(p))) return false;
     if (state.casa && p.casa !== state.casa && p.casa !== "ambas") return false;
     if (state.fase !== "todas" && fase(p) !== state.fase) return false;
+    if (state.periodo) {
+      const [tipo, n] = PERIODOS[state.periodo], d = dataDe(p, tipo);
+      if (!d || dias(d) > n) return false;
+    }
     if (q) {
       const hay = norm(`${p.sigla} ${p.siglaSenado || ""} ${p.siglaCamara || ""} ${p.autor}`) + " " + textoPEC(p);
       if (!q.split(/\s+/).every(w => hay.includes(w))) return false;
@@ -932,6 +942,7 @@ function filtrar() {
   });
   if (state.ordem === "antigas") l = l.slice().sort((a, b) => (a.apresentacao || "").localeCompare(b.apresentacao || ""));
   else if (state.ordem === "novas") l = l.slice().sort((a, b) => (b.apresentacao || "").localeCompare(a.apresentacao || ""));
+  else if (state.ordem === "votadas") l = l.slice().sort((a, b) => (dataDe(b, "vot") || "").localeCompare(dataDe(a, "vot") || "") || b.ultimaMovimentacao.localeCompare(a.ultimaMovimentacao));
   else if (state.ordem === "avancadas") l = l.slice().sort((a, b) => (b.etapa / DB.etapas[b.casaOrigem].length) - (a.etapa / DB.etapas[a.casaOrigem].length) || b.ultimaMovimentacao.localeCompare(a.ultimaMovimentacao));
   return l;
 }
@@ -997,8 +1008,10 @@ function renderInicio() {
           <option value="recentes" ${state.ordem === "recentes" ? "selected" : ""}>${L.ord_rec}</option>
           <option value="avancadas" ${state.ordem === "avancadas" ? "selected" : ""}>${L.ord_av}</option>
           <option value="novas" ${state.ordem === "novas" ? "selected" : ""}>${L.ord_novas}</option>
+          <option value="votadas" ${state.ordem === "votadas" ? "selected" : ""}>${L.ord_vot}</option>
           <option value="antigas" ${state.ordem === "antigas" ? "selected" : ""}>${L.ord_ant}</option>
         </select>
+        <select id="periodo" aria-label="${L.per_lbl}"><option value="">${L.per_todos}</option>${Object.keys(PERIODOS).map(k => `<option value="${k}" ${state.periodo === k ? "selected" : ""}>${L.per[k]}</option>`).join("")}</select>
       </div>
     </div>
     <div class="list" id="list"></div>
@@ -1024,7 +1037,7 @@ function renderInicio() {
     state.fase = b.dataset.fase; state.shown = PAGE; save();
     app.querySelectorAll("[data-fase]").forEach(x => x.setAttribute("aria-pressed", x === b)); renderLista();
   }));
-  for (const id of ["tema", "casa", "ordem"]) app.querySelector("#" + id).addEventListener("change", e => { state[id] = e.target.value; state.shown = PAGE; save(); renderLista(); });
+  for (const id of ["tema", "casa", "ordem", "periodo"]) app.querySelector("#" + id).addEventListener("change", e => { state[id] = e.target.value; state.shown = PAGE; save(); renderLista(); });
   renderLista();
 }
 
