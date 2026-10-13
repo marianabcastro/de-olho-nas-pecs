@@ -548,3 +548,16 @@ Correções no site: situação oficial vem da Casa que se mexeu por último; PE
 | PEC 39/2022 · Tribunais de Contas (EC 139) | Contexto: Ceará extinguiu seu TCM em 2017; agora é proibido | — | [EC 139](https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc139.htm) |
 | PEC 169/2019 · Professores (EC 138) | Faltava a regra anterior (só técnico ou científico) | — | [EC 138](https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc138.htm) |
 | PEC 3/2024 · Aposentadoria como punição | Confere (CCJ só fez ajustes de redação) | — | Parecer CCJ (s10200717) |
+
+## 9. Revisão crítica — bloco 5 (12/out/2026)
+
+| PEC | O que estava errado ou faltando (conferido no texto) | Fontes |
+|---|---|---|
+| PEC 302/2017 · Tribunais de Contas | **Duplicada:** era a mesma emenda que a PEC 39/2022 (EC 139) — a Câmara votou nela o texto do Senado. O robô agora junta as duas (`MESMA_PEC` em atualizar_dados.py) | Movimentações de 04/11/2025 |
+| PEC 7/2018 · Ex-territórios (na Câmara: 47/2023) | Faltava: critérios amplíssimos (qualquer vínculo, efetivo ou não, inclusive empresas estaduais, Judiciário, Legislativo, agentes de saúde) e União pagando | Texto aprovado no Senado (via Câmara, id 2388817) |
+| PEC 22/2025 · Caminhoneiros | **Faltava:** descanso diário fracionado enquanto faltar estrutura; sem multa onde faltar ponto de parada | Texto aprovado no Senado |
+| PEC 3/2020 · Segurança cibernética | Faltava: União passa a legislar sozinha sobre segurança de bancos e transferência de valores | Texto aprovado no Senado (via Câmara, id 2481262) |
+| PEC 89/2007 · Teto único | Faltava: acaba com os subtetos estaduais e municipais | Texto (original) |
+| PEC 27/2025 · Foro após o mandato | Faltava: vale também para processos já em andamento | Texto (original) |
+| PEC 37/2022 · Polícias municipais | Faltava: mudança de nome por lei municipal; relação com a PEC 18/2025 | Texto aprovado no Senado |
+| PEC 76/2019, 2/2016, 81/2015, 137/2019, 109/2015 | Conferem com o texto | Textos aprovados / originais |

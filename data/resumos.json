@@ -640,27 +640,27 @@
  },
  "s8325260": {
   "titulo": "Permite polícias municipais e inclui agentes de trânsito na segurança",
-  "oQueMuda": "Municípios poderiam ter guardas ou polícias municipais fazendo policiamento ostensivo local, e agentes de trânsito passariam a integrar a segurança pública.",
-  "quemAfeta": "Guardas municipais, agentes de trânsito e prefeituras.",
-  "porQueImporta": "Hoje guardas municipais protegem bens, serviços e instalações das cidades, e o patrulhamento é da Polícia Militar. Com a PEC, as prefeituras poderiam ter polícias municipais fazendo patrulhamento, pagas com dinheiro municipal.",
+  "oQueMuda": "Polícias municipais: municípios poderiam ter guardas ou polícias municipais com policiamento ostensivo local e comunitário e ações de segurança no seu território, além de proteger bens e serviços.\nNome: as cidades poderiam mudar por lei o nome da guarda para polícia municipal; o quadro continuaria sendo preenchido por concurso ou pela transformação dos cargos atuais.\nTrânsito: agentes de trânsito passariam a fazer parte dos órgãos de segurança pública.",
+  "quemAfeta": "Prefeituras, guardas municipais, agentes de trânsito e moradores das cidades.",
+  "porQueImporta": "Hoje guardas municipais protegem bens, serviços e instalações das cidades, e o patrulhamento é da Polícia Militar. Aprovada pelo Senado em 2025, a PEC está na Câmara; a PEC 18/2025 (Segurança Pública) também prevê polícias municipais.",
   "fonte": "revisado",
   "en": {
    "titulo": "Allows municipal police and adds traffic agents to public security",
-   "oQueMuda": "Municipalities could have municipal guards or police doing visible local patrols, and traffic agents would become part of public security.",
-   "quemAfeta": "Municipal guards, traffic agents and city governments.",
-   "porQueImporta": "Today municipal guards protect city property, services and facilities, and patrolling belongs to the Military Police. Under the PEC, city governments could have municipal police doing patrols, paid with city money."
+   "oQueMuda": "Municipal police: municipalities could have municipal guards or police doing local and community patrols and security actions in their territory, besides protecting property and services.\nName: cities could rename their guard as municipal police by law; staff would still come from public exams or conversion of current posts.\nTraffic: traffic agents would become part of the public security bodies.",
+   "quemAfeta": "Municipalities, municipal guards, traffic agents and city residents.",
+   "porQueImporta": "Today municipal guards protect city property, services and facilities, and patrols are done by the Military Police. Approved by the Senate in 2025, the PEC is in the Chamber; PEC 18/2025 (Public Security) also provides for municipal police."
   },
   "es": {
    "titulo": "Permite policías municipales e incluye agentes de tránsito en la seguridad",
-   "oQueMuda": "Los municipios podrían tener guardias o policías municipales haciendo patrullaje local, y los agentes de tránsito pasarían a integrar la seguridad pública.",
-   "quemAfeta": "Guardias municipales, agentes de tránsito y alcaldías.",
-   "porQueImporta": "Hoy las guardias municipales protegen bienes, servicios e instalaciones de las ciudades, y el patrullaje es de la Policía Militar. Con la PEC, las alcaldías podrían tener policías municipales patrullando, pagadas con dinero municipal."
+   "oQueMuda": "Policías municipales: los municipios podrían tener guardias o policías municipales con patrullaje local y comunitario y acciones de seguridad en su territorio, además de proteger bienes y servicios.\nNombre: las ciudades podrían cambiar por ley el nombre de la guardia a policía municipal; el cuadro seguiría llenándose por concurso o por transformación de los cargos actuales.\nTránsito: los agentes de tránsito pasarían a formar parte de los órganos de seguridad pública.",
+   "quemAfeta": "Municipios, guardias municipales, agentes de tránsito y residentes de las ciudades.",
+   "porQueImporta": "Hoy las guardias municipales protegen bienes, servicios e instalaciones de las ciudades, y el patrullaje es de la Policía Militar. Aprobada por el Senado en 2025, la PEC está en la Cámara; la PEC 18/2025 (Seguridad Pública) también prevé policías municipales."
   },
   "base": {
    "versao": "s9966342",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s7753208": {
@@ -684,8 +684,8 @@
   "base": {
    "versao": "s10137871",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2504516": {
@@ -1083,27 +1083,27 @@
  },
  "s7864739": {
   "titulo": "Define quem cria leis sobre segurança cibernética",
-  "oQueMuda": "A União legislaria sobre defesa cibernética e todos os governos cuidariam da segurança digital dos serviços públicos.",
-  "quemAfeta": "Governos e usuários de serviços públicos digitais.",
-  "porQueImporta": "Hoje a Constituição não fala em segurança cibernética. Com a PEC, só a União faria leis de defesa cibernética, e todos os governos teriam o dever de proteger seus sistemas.",
+  "oQueMuda": "Defesa cibernética: só a União poderia fazer leis sobre defesa cibernética e sobre normas de segurança cibernética dos serviços públicos.\nBancos: só a União poderia fazer leis sobre funcionamento e segurança de bancos, suas agências e correspondentes, e sobre transferência de valores.\nDever comum: União, estados e municípios teriam o dever de zelar pela segurança cibernética dos serviços públicos.",
+  "quemAfeta": "Governos, órgãos públicos, bancos e usuários de serviços digitais.",
+  "porQueImporta": "Hoje a Constituição não fala em segurança cibernética, e estados e municípios também fazem leis sobre segurança de agências bancárias, como portas giratórias e vigilantes. Com a PEC, essas regras passariam a ser só da União.",
   "fonte": "manual",
   "en": {
    "titulo": "Defines who makes cybersecurity laws",
-   "oQueMuda": "The federal government would legislate on cyber defense, and all governments would protect the digital security of public services.",
-   "quemAfeta": "Governments and users of digital public services.",
-   "porQueImporta": "Today the Constitution does not mention cybersecurity. Under the PEC, only the federal government would make cyber-defense laws, and all governments would have to protect their systems."
+   "oQueMuda": "Cyber defense: only the federal government could legislate on cyber defense and on cybersecurity rules for public services.\nBanks: only the federal government could legislate on the operation and security of banks, their branches and agents, and on money transfers.\nShared duty: federal, state and municipal governments would have the duty to safeguard the cybersecurity of public services.",
+   "quemAfeta": "Governments, public bodies, banks and users of digital services.",
+   "porQueImporta": "Today the Constitution does not mention cybersecurity, and states and municipalities also pass laws on bank branch security, such as revolving doors and guards. Under the PEC, these rules would be federal only."
   },
   "es": {
    "titulo": "Define quién legisla sobre ciberseguridad",
-   "oQueMuda": "La Unión legislaría sobre ciberdefensa y todos los gobiernos cuidarían la seguridad digital de los servicios públicos.",
-   "quemAfeta": "Gobiernos y usuarios de servicios públicos digitales.",
-   "porQueImporta": "Hoy la Constitución no habla de ciberseguridad. Con la PEC, solo el gobierno federal haría leyes de ciberdefensa, y todos los gobiernos tendrían el deber de proteger sus sistemas."
+   "oQueMuda": "Defensa cibernética: solo la Unión podría legislar sobre defensa cibernética y sobre normas de seguridad cibernética de los servicios públicos.\nBancos: solo la Unión podría legislar sobre funcionamiento y seguridad de bancos, sus agencias y corresponsales, y sobre transferencia de valores.\nDeber común: la Unión, los estados y los municipios tendrían el deber de velar por la seguridad cibernética de los servicios públicos.",
+   "quemAfeta": "Gobiernos, órganos públicos, bancos y usuarios de servicios digitales.",
+   "porQueImporta": "Hoy la Constitución no menciona la seguridad cibernética, y estados y municipios también legislan sobre seguridad de agencias bancarias, como puertas giratorias y vigilantes. Con la PEC, esas reglas serían solo de la Unión."
   },
   "base": {
-   "versao": "original",
+   "versao": "s9881866",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2557024": {
@@ -1182,28 +1182,28 @@
   }
  },
  "s8828166": {
-  "titulo": "Cria política nacional de apoio aos caminhoneiros",
-  "oQueMuda": "Institui uma política nacional para motoristas profissionais, incluindo locais de repouso e descanso em intervalos regulares nas rodovias.",
-  "quemAfeta": "Motoristas profissionais de caminhão e ônibus.",
-  "porQueImporta": "Hoje a lei dos caminhoneiros exige pausas, mas faltam pontos de parada nas estradas. Com a PEC, os governos teriam o dever de oferecer locais de repouso em intervalos regulares nas rodovias.",
+  "titulo": "Cria política de pontos de parada para caminhoneiros e flexibiliza o descanso obrigatório",
+  "oQueMuda": "Pontos de parada: a União criaria, com estados, municípios e empresas, uma política para garantir locais de descanso seguros em intervalos regulares nas rodovias, com relatório anual sobre a cobertura.\nDescanso fracionado: enquanto não houver pontos suficientes, o descanso diário de motoristas em viagens longas poderia ser dividido; o descanso diário seria de pelo menos 11 horas, com um período mínimo de 8 horas seguidas.\nMultas: o motorista não poderia ser multado por não cumprir o descanso onde o poder público reconhecer que falta estrutura; as multas teriam de considerar o grau e a repetição da falta.",
+  "quemAfeta": "Caminhoneiros e motoristas de ônibus, transportadoras e quem usa as rodovias.",
+  "porQueImporta": "Hoje a Lei dos Caminhoneiros exige pausas e descanso mínimo, e o motorista pode ser multado se não cumprir, mesmo onde faltam pontos de parada. Aprovada pelo Senado em fevereiro de 2026, a PEC está na Câmara.",
   "fonte": "revisado",
   "en": {
-   "titulo": "Creates a national policy to support truck drivers",
-   "oQueMuda": "It sets up a national policy for professional drivers, including rest stops at regular intervals along highways.",
-   "quemAfeta": "Professional truck and bus drivers.",
-   "porQueImporta": "Today the truck drivers' law requires breaks, but highways lack rest stops. Under the PEC, governments would be required to provide rest areas at regular intervals on highways."
+   "titulo": "Creates a rest-stop policy for truck drivers and relaxes mandatory rest",
+   "oQueMuda": "Rest stops: the federal government would create, with states, municipalities and companies, a policy to ensure safe rest areas at regular intervals on highways, with an annual coverage report.\nSplit rest: until there are enough stops, the daily rest of drivers on long trips could be split; daily rest would be at least 11 hours, with a minimum of 8 consecutive hours.\nFines: drivers could not be fined for not resting where the government recognizes there is no infrastructure; fines would have to consider the degree and repetition of the violation.",
+   "quemAfeta": "Truck and bus drivers, carriers and highway users.",
+   "porQueImporta": "Today the Truck Drivers Law requires breaks and minimum rest, and drivers can be fined for not complying, even where rest stops are lacking. Approved by the Senate in February 2026, the PEC is in the Chamber."
   },
   "es": {
-   "titulo": "Crea una política nacional de apoyo a los camioneros",
-   "oQueMuda": "Instituye una política nacional para conductores profesionales, incluidos lugares de descanso a intervalos regulares en las carreteras.",
-   "quemAfeta": "Conductores profesionales de camiones y autobuses.",
-   "porQueImporta": "Hoy la ley de camioneros exige pausas, pero faltan paradas en las carreteras. Con la PEC, los gobiernos tendrían el deber de ofrecer lugares de descanso a intervalos regulares en las carreteras."
+   "titulo": "Crea una política de puntos de parada para camioneros y flexibiliza el descanso obligatorio",
+   "oQueMuda": "Puntos de parada: la Unión crearía, con estados, municipios y empresas, una política para garantizar lugares de descanso seguros a intervalos regulares en las carreteras, con informe anual sobre la cobertura.\nDescanso fraccionado: mientras no haya puntos suficientes, el descanso diario de los conductores en viajes largos podría dividirse; el descanso diario sería de al menos 11 horas, con un mínimo de 8 horas seguidas.\nMultas: el conductor no podría ser multado por no cumplir el descanso donde el poder público reconozca que falta estructura; las multas tendrían que considerar el grado y la repetición de la falta.",
+   "quemAfeta": "Camioneros y conductores de autobús, transportistas y usuarios de las carreteras.",
+   "porQueImporta": "Hoy la Ley de los Camioneros exige pausas y descanso mínimo, y el conductor puede ser multado si no cumple, incluso donde faltan puntos de parada. Aprobada por el Senado en febrero de 2026, la PEC está en la Cámara."
   },
   "base": {
    "versao": "s10163752",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s9065675": {
@@ -4102,27 +4102,27 @@
  },
  "c355205": {
   "titulo": "Cria um teto salarial único para todo o serviço público",
-  "oQueMuda": "O limite máximo de salário seria o mesmo em União, estados e municípios.",
-  "quemAfeta": "Servidores e agentes públicos.",
-  "porQueImporta": "Hoje o teto salarial é o salário de ministro do STF na União, com subtetos menores em estados e municípios. Com a PEC, o mesmo limite valeria para todos.",
+  "oQueMuda": "Os subtetos estaduais e municipais deixariam de existir: o salário máximo de qualquer servidor, membro de Poder ou político, em qualquer nível de governo, passaria a ser o salário de ministro do STF, contando vantagens pessoais e de qualquer natureza.",
+  "quemAfeta": "Servidores e autoridades de estados e municípios, e os orçamentos desses governos.",
+  "porQueImporta": "Hoje, nos municípios, o limite é o salário do prefeito; nos estados, o do governador (Executivo), dos deputados estaduais (Legislativo) ou dos desembargadores (Judiciário). Com a PEC, todos teriam o mesmo limite do STF, o que permitiria salários mais altos que os atuais limites locais.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates a single salary cap for the whole public sector",
-   "oQueMuda": "The maximum salary would be the same in federal, state and city governments.",
-   "quemAfeta": "Civil servants and public officials.",
-   "porQueImporta": "Today the salary cap is a Supreme Court justice's pay at federal level, with lower sub-caps in states and municipalities. Under the PEC, the same limit would apply to all."
+   "oQueMuda": "State and municipal sub-caps would no longer exist: the maximum pay of any civil servant, branch member or politician, at any level of government, would be the salary of a Supreme Court justice, counting personal and other benefits.",
+   "quemAfeta": "State and municipal civil servants and officials, and those governments' budgets.",
+   "porQueImporta": "Today, in municipalities, the cap is the mayor's salary; in states, the governor's (Executive), state deputies' (Legislature) or appeals judges' (Judiciary). Under the PEC, everyone would have the same Supreme Court cap, allowing salaries higher than current local limits."
   },
   "es": {
    "titulo": "Crea un tope salarial único para todo el servicio público",
-   "oQueMuda": "El salario máximo sería el mismo en la Unión, los estados y los municipios.",
-   "quemAfeta": "Servidores y agentes públicos.",
-   "porQueImporta": "Hoy el tope salarial es el salario de ministro del STF en el ámbito federal, con subtopes menores en estados y municipios. Con la PEC, el mismo límite valdría para todos."
+   "oQueMuda": "Los subtopes estatales y municipales dejarían de existir: el salario máximo de cualquier servidor, miembro de Poder o político, en cualquier nivel de gobierno, sería el de ministro del STF, contando ventajas personales y de cualquier naturaleza.",
+   "quemAfeta": "Servidores y autoridades de estados y municipios, y los presupuestos de esos gobiernos.",
+   "porQueImporta": "Hoy, en los municipios, el límite es el salario del alcalde; en los estados, el del gobernador (Ejecutivo), de los diputados estatales (Legislativo) o de los desembargadores (Judicial). Con la PEC, todos tendrían el mismo límite del STF, lo que permitiría salarios más altos que los límites locales actuales."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2563273": {
@@ -4620,27 +4620,27 @@
  },
  "s8839624": {
   "titulo": "Encerra o foro especial quando acaba o mandato",
-  "oQueMuda": "A competência de tribunais para julgar autoridades terminaria junto com o mandato ou cargo.",
-  "quemAfeta": "Políticos e autoridades com foro especial.",
-  "porQueImporta": "Em 2025 o STF decidiu que o foro continua depois que a autoridade deixa o cargo, para crimes cometidos no exercício da função. Com a PEC, o processo voltaria à primeira instância assim que o mandato ou cargo terminasse.",
+  "oQueMuda": "A competência de tribunais para julgar autoridades por causa do cargo terminaria no dia em que o mandato ou o cargo acabar, e o processo iria imediatamente para a instância comum, em qualquer fase. A regra valeria também para os processos já em andamento quando a emenda for promulgada.",
+  "quemAfeta": "Autoridades com foro especial que deixam o cargo e os processos contra elas.",
+  "porQueImporta": "Em 2025 o STF decidiu que o foro continua depois que a autoridade deixa o cargo, para crimes cometidos no exercício da função e por causa dela. Com a PEC, o processo sairia do tribunal assim que o mandato ou cargo terminasse, inclusive nos casos que já estão em julgamento.",
   "fonte": "manual",
   "en": {
    "titulo": "Ends special court privileges when the term ends",
-   "oQueMuda": "Courts' power to try officials would end along with their term or office.",
-   "quemAfeta": "Politicians and officials with special court privileges.",
-   "porQueImporta": "In 2025 the Supreme Court ruled that special jurisdiction continues after an official leaves office, for crimes committed in the role. Under the PEC, the case would return to the first instance as soon as the term or post ended."
+   "oQueMuda": "Courts' jurisdiction to try officials because of their office would end the day their term or post ends, and the case would immediately go to the ordinary courts, at any stage. The rule would also apply to cases already under way when the amendment is enacted.",
+   "quemAfeta": "Officials with special court privileges who leave office and the cases against them.",
+   "porQueImporta": "In 2025 the Supreme Court ruled that the privilege continues after an official leaves office, for crimes committed in office and because of it. Under the PEC, the case would leave the court as soon as the term or post ended, including cases already being tried."
   },
   "es": {
    "titulo": "Termina el fuero especial cuando acaba el mandato",
-   "oQueMuda": "La competencia de los tribunales para juzgar autoridades terminaría junto con el mandato o el cargo.",
-   "quemAfeta": "Políticos y autoridades con fuero especial.",
-   "porQueImporta": "En 2025 el STF decidió que el fuero continúa después de que la autoridad deja el cargo, para delitos cometidos en el ejercicio de la función. Con la PEC, el proceso volvería a primera instancia en cuanto terminara el mandato o el cargo."
+   "oQueMuda": "La competencia de los tribunales para juzgar autoridades por el cargo terminaría el día en que termine el mandato o el cargo, y el proceso iría de inmediato a la instancia común, en cualquier fase. La regla valdría también para los procesos ya en curso cuando se promulgue la enmienda.",
+   "quemAfeta": "Autoridades con fuero especial que dejan el cargo y los procesos contra ellas.",
+   "porQueImporta": "En 2025 el STF decidió que el fuero continúa después de que la autoridad deja el cargo, para delitos cometidos en el ejercicio de la función y a causa de ella. Con la PEC, el proceso saldría del tribunal en cuanto terminara el mandato o cargo, incluso en los casos que ya están en juicio."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2086981": {
@@ -4789,8 +4789,8 @@
   "base": {
    "versao": "s9994446",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c486477": {
@@ -5019,8 +5019,8 @@
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2140425": {
@@ -5194,8 +5194,8 @@
   "base": {
    "versao": "s9956386",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8834618": {
@@ -5395,8 +5395,8 @@
   "base": {
    "versao": "s9944528",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   },
   "tipo": "principio"
  },
@@ -11361,28 +11361,28 @@
   }
  },
  "s7391043": {
-  "titulo": "Inclui ex-servidores de Amapá, Roraima e Rondônia no quadro federal",
-  "oQueMuda": "Unifica critérios para transferir à União servidores dos antigos territórios e desses estados.",
-  "quemAfeta": "Servidores e ex-servidores desses estados.",
-  "porQueImporta": "Hoje parte desses servidores é paga pelos estados. Com a PEC, eles passariam para um quadro da União, que assumiria o pagamento de salários e aposentadorias.",
+  "titulo": "Amplia a passagem de ex-servidores de Amapá, Roraima e Rondônia para a folha da União",
+  "oQueMuda": "Quem entra: poderiam optar por um quadro federal em extinção pessoas que tiveram qualquer vínculo de trabalho, efetivo ou não, com os ex-territórios, os estados de Amapá, Roraima e Rondônia, suas prefeituras e empresas públicas, até 1998 (Amapá e Roraima) ou 1991 (Rondônia).\nInclui: servidores do Judiciário, do Ministério Público, das assembleias e tribunais de contas desses estados, policiais e agentes comunitários de saúde e de endemias.\nQuem paga: a União assumiria salários e aposentadorias de quem fizer a opção.",
+  "quemAfeta": "Ex-servidores e trabalhadores de Amapá, Roraima e Rondônia, os governos desses estados e a União.",
+  "porQueImporta": "Desde 1998, emendas já permitiram que parte desses servidores passasse para a União, com critérios mais restritos. Com a PEC, os critérios seriam ampliados para quase qualquer vínculo de trabalho com o poder público local no período. Aprovada pelo Senado em 2023, está na Câmara como PEC 47/2023.",
   "fonte": "manual",
   "en": {
-   "titulo": "Lets former workers of Amapá, Roraima and Rondônia join the federal payroll",
-   "oQueMuda": "Unifies criteria for transferring civil servants of the former territories and these states to the federal government.",
-   "quemAfeta": "Current and former civil servants of these states.",
-   "porQueImporta": "Today some of these civil servants are paid by the states. Under the PEC, they would move to a federal roster, and the federal government would take over their salaries and pensions."
+   "titulo": "Expands the transfer of former Amapá, Roraima and Rondônia public workers to the federal payroll",
+   "oQueMuda": "Who qualifies: people who had any work relationship, permanent or not, with the former territories, the states of Amapá, Roraima and Rondônia, their municipalities and public companies, until 1998 (Amapá and Roraima) or 1991 (Rondônia), could opt into a federal staff group being phased out.\nIncludes: staff of these states' Judiciary, prosecutors, legislatures and audit courts, police and community health and disease-control agents.\nWho pays: the federal government would take over salaries and pensions of those who opt in.",
+   "quemAfeta": "Former public workers of Amapá, Roraima and Rondônia, these states' governments and the federal government.",
+   "porQueImporta": "Since 1998, amendments have let some of these workers move to the federal payroll, under stricter criteria. The PEC would expand them to almost any work relationship with local government in the period. Approved by the Senate in 2023, it is in the Chamber as PEC 47/2023."
   },
   "es": {
-   "titulo": "Incluye a exservidores de Amapá, Roraima y Rondônia en la plantilla federal",
-   "oQueMuda": "Unifica criterios para transferir a la Unión a servidores de los antiguos territorios y de esos estados.",
-   "quemAfeta": "Servidores y exservidores de esos estados.",
-   "porQueImporta": "Hoy parte de estos servidores es pagada por los estados. Con la PEC, pasarían a un cuadro federal, que asumiría el pago de salarios y jubilaciones."
+   "titulo": "Amplía el paso de ex servidores de Amapá, Roraima y Rondônia a la nómina de la Unión",
+   "oQueMuda": "Quién entra: podrían optar por un cuadro federal en extinción las personas que tuvieron cualquier vínculo laboral, efectivo o no, con los ex territorios, los estados de Amapá, Roraima y Rondônia, sus municipios y empresas públicas, hasta 1998 (Amapá y Roraima) o 1991 (Rondônia).\nIncluye: servidores del Poder Judicial, del Ministerio Público, de las asambleas y tribunales de cuentas de esos estados, policías y agentes comunitarios de salud y de endemias.\nQuién paga: la Unión asumiría salarios y jubilaciones de quienes opten.",
+   "quemAfeta": "Ex servidores y trabajadores de Amapá, Roraima y Rondônia, los gobiernos de esos estados y la Unión.",
+   "porQueImporta": "Desde 1998, enmiendas ya permitieron que parte de esos servidores pasara a la Unión, con criterios más restringidos. Con la PEC, los criterios se ampliarían a casi cualquier vínculo laboral con el poder público local en el período. Aprobada por el Senado en 2023, está en la Cámara como PEC 47/2023."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s9462916",
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8539271": {

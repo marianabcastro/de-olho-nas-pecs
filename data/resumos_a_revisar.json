@@ -63,15 +63,6 @@
   "semelhanca": null
  },
  {
-  "id": "s7864739",
-  "sigla": "PEC 3/2020",
-  "titulo": "Define quem cria leis sobre segurança cibernética",
-  "versao": "Texto aprovado no Senado",
-  "data": "2024-12-19",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/91a1432e-a7e4-48d6-a7cf-ae154cd29271",
-  "semelhanca": null
- },
- {
   "id": "c2336481",
   "sigla": "PEC 26/2022",
   "titulo": "Permite eleição direta da direção dos maiores Tribunais de Justiça",
@@ -123,15 +114,6 @@
   "versao": "Texto aprovado no Senado",
   "data": "2023-10-03",
   "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/08dac58c-5a87-423e-bdb6-b860eaa95fa8",
-  "semelhanca": null
- },
- {
-  "id": "s7391043",
-  "sigla": "PEC 7/2018",
-  "titulo": "Inclui ex-servidores de Amapá, Roraima e Rondônia no quadro federal",
-  "versao": "Texto aprovado no Senado",
-  "data": "2023-09-19",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/4d3acf61-7e88-4898-858b-1524419d02bc",
   "semelhanca": null
  },
  {
@@ -223,6 +205,15 @@
   "data": "2019-07-10",
   "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/e6a772d2-6db7-478e-ab4b-e1d5a7158cb8",
   "semelhanca": 0.03
+ },
+ {
+  "id": "c2341717",
+  "sigla": "PEC 39/2022",
+  "titulo": "Proíbe extinguir ou criar Tribunais de Contas e os torna órgãos permanentes",
+  "versao": "Substitutivo aprovado na comissão da Câmara",
+  "data": "2017-12-06",
+  "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1632459",
+  "semelhanca": 0.48
  },
  {
   "id": "c1278930",

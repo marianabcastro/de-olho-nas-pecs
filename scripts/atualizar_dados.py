@@ -466,12 +466,25 @@ def numero_na_camara(det):
     return None
 
 
+# PECs que tramitaram juntas e viraram uma só, mas que as APIs não ligam entre si: {id que some: id que fica}
+# (PEC 302/2017: a Câmara votou nela o texto da PEC 39/2022, que virou a Emenda 139)
+MESMA_PEC = {"c2122682": "c2341717"}
+
+
 def juntar(camara, senado):
     """Desde 2019 a numeração é única no Congresso: a PEC X/ano é a mesma nas duas Casas
     (e pode ter mais de um registro, p.ex. quando volta para a Casa de origem: "fase 2")."""
     grupos = {}
+    destino = {p["id"]: p for p in camara + senado if p["id"] in MESMA_PEC.values()}
     for p in camara + senado:
         chave = None
+        if p["id"] in MESMA_PEC and MESMA_PEC[p["id"]] in destino:
+            alvo = destino[MESMA_PEC[p["id"]]]
+            grupos.setdefault(("manual", alvo["id"]), []).append(p)
+            continue
+        if p["id"] in MESMA_PEC.values():
+            grupos.setdefault(("manual", p["id"]), []).append(p)
+            continue
         if p["casa"] == "camara":
             chave = (p["numero"], p["ano"])
         elif p.get("origemCamara"):            # começou na Câmara com outro número (ex.: PEC 31/2007 → PEC 54/2024)
@@ -491,10 +504,10 @@ def juntar(camara, senado):
         sen = [r for r in regs if r["casa"] == "senado"]
         cam = [r for r in regs if r["casa"] == "camara"]
         origem = "senado" if any(r["casaOrigem"] == "senado" for r in sen) else "camara"
-        da_origem = sorted((r for r in regs if r["casa"] == origem), key=lambda r: "fase" in r["sigla"]) or regs
+        da_origem = sorted((r for r in regs if r["casa"] == origem), key=lambda r: (r["id"] in MESMA_PEC, "fase" in r["sigla"])) or regs
         base = dict(da_origem[0])
         if origem == "camara":
-            base["sigla"] = next((r["sigla"] for r in cam), base["sigla"])
+            base["sigla"] = next((r["sigla"] for r in cam if r["id"] not in MESMA_PEC), base["sigla"])
             outras = sorted({r["sigla"] for r in sen if r["sigla"] != base["sigla"]})
             if outras:
                 base["siglaSenado"] = ", ".join(outras)   # mesmo processo, outro número no Senado
@@ -503,6 +516,9 @@ def juntar(camara, senado):
             outras = sorted({re.sub(r"\s*\(.*?\)", "", r["sigla"]) for r in cam} - {base["sigla"]})
             if outras:
                 base["siglaCamara"] = ", ".join(outras)   # mesmo processo, outro número na Câmara
+        juntadas = sorted({r["sigla"] for r in regs if r["id"] in MESMA_PEC})
+        if juntadas:   # a outra PEC em que o mesmo texto foi votado aparece como "na Câmara: PEC X"
+            base["siglaCamara"] = ", ".join(juntadas)
         base["casaOrigem"] = origem
         base["casa"] = "ambas" if sen and cam else base["casa"]
         base["idsRelacionados"] = [r["id"] for r in regs]
