@@ -577,3 +577,18 @@ Correções no site: situação oficial vem da Casa que se mexeu por último; PE
 | PEC 253/2016, 36/2022, 148/2015, 39/2019 | Conferem |
 
 Chat: temas "Amazônia" e "Idosos" pegavam palavras soltas ("acre" em "acrescenta", "idos" em "partidos"); corrigido com limites de palavra. Amazônia: 178 → 8 PECs; Idosos: 107 → 6.
+
+## 11. Revisão crítica — bloco 7 (13/out/2026)
+
+| PEC | O que estava errado ou faltando (conferido no texto) |
+|---|---|
+| PEC 454/2009 · Médico de Estado | **Impreciso:** não é carreira nacional única; é federal, com dedicação exclusiva (sem atividade privada); estados e municípios criariam carreiras parecidas |
+| PEC 174/2019 · ZF Teresina | Faltava: mesmo prazo da Zona Franca de Manaus (2073) |
+| PEC 67/2015 · ZF Rio Branco | Faltava: até 2073, todo o município, mesma lei de Manaus |
+| PEC 184/2015 · Impacto para empresas | Faltava: norma sem estimativa seria nula; exceções (calamidade, guerra) |
+| PEC 59/2007 · Polícia Portuária | Faltava: guardas portuários entram sem concurso, por opção |
+| PEC 93/2007 · Municípios | Faltava: lei estadual, estudo de viabilidade e plebiscito; validação dos criados após 1996 |
+| PEC 366/2005 · Juiz de paz | Ajuste: remunerado, com conciliação |
+| PEC 24/2022 · Piso fisioterapia | Ajuste: entra na regra que manda lei federal criar o piso |
+| PEC 208/2019 · Pobreza | Ajuste: condicionalidades; Bolsa Família vale até a nova lei |
+| PEC 52/2023, 251/2013, 212/2019 | Conferem |

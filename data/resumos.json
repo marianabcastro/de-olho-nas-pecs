@@ -2545,27 +2545,27 @@
  },
  "c276180": {
   "titulo": "Exige concurso público para juiz de paz",
-  "oQueMuda": "Juízes de paz passariam a ser escolhidos por concurso; os atuais ficam até a vaga abrir.",
+  "oQueMuda": "Juízes de paz passariam a ser escolhidos por concurso público e remunerados, para celebrar casamentos, verificar a habilitação dos noivos e fazer conciliações sem caráter de julgamento. Os atuais continuariam até a vaga abrir.",
   "quemAfeta": "Juízes de paz e quem se casa no civil.",
   "porQueImporta": "Hoje a Constituição prevê que juízes de paz, que celebram casamentos, sejam eleitos pela população. Com a PEC, seriam escolhidos por concurso público.",
   "fonte": "manual",
   "en": {
    "titulo": "Requires a public exam to hire justices of the peace",
-   "oQueMuda": "Justices of the peace would be chosen through a public exam; current ones stay until their seat opens.",
+   "oQueMuda": "Justices of the peace would be chosen by public exam and paid, to perform marriages, check the couple's eligibility and handle non-binding conciliation. Current ones would stay until their post becomes vacant.",
    "quemAfeta": "Justices of the peace and people getting married in civil ceremonies.",
    "porQueImporta": "Today the Constitution provides that justices of the peace, who perform weddings, are elected by the public. Under the PEC, they would be chosen by public exam."
   },
   "es": {
    "titulo": "Exige concurso público para los jueces de paz",
-   "oQueMuda": "Los jueces de paz serían elegidos por concurso; los actuales siguen hasta que se abra la vacante.",
+   "oQueMuda": "Los jueces de paz serían elegidos por concurso público y remunerados, para celebrar matrimonios, verificar la habilitación de los novios y hacer conciliaciones sin carácter de juicio. Los actuales seguirían hasta que se abra la vacante.",
    "quemAfeta": "Jueces de paz y quienes se casan por lo civil.",
    "porQueImporta": "Hoy la Constitución prevé que los jueces de paz, que celebran matrimonios, sean elegidos por la población. Con la PEC, serían elegidos por concurso público."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8999790": {
@@ -3227,27 +3227,27 @@
  },
  "c1307014": {
   "titulo": "Cria a Zona Franca de Rio Branco, no Acre",
-  "oQueMuda": "Cria uma área com benefícios fiscais para empresas em Rio Branco.",
+  "oQueMuda": "Cria a Zona Franca de Rio Branco, no Acre, até 31 de dezembro de 2073, com incentivos fiscais e regime de livre comércio de exportação e importação, cobrindo todo o território do município. A lei da Zona Franca de Manaus valeria também para ela.",
   "quemAfeta": "Empresas e moradores do Acre.",
-  "porQueImporta": "Hoje a única zona franca com benefícios fiscais na Constituição é a de Manaus. Com a PEC, Rio Branco também teria uma área onde empresas pagariam menos impostos.",
+  "porQueImporta": "Hoje a única zona franca com benefícios fiscais na Constituição é a de Manaus, que vale até 2073. Com a PEC, Rio Branco teria o mesmo prazo e as mesmas regras, e a União deixaria de arrecadar os impostos de que as empresas ficarem isentas.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates the Rio Branco Free Trade Zone, in Acre",
-   "oQueMuda": "Creates an area with tax benefits for companies in Rio Branco.",
+   "oQueMuda": "Creates the Rio Branco Free Trade Zone, in Acre, until December 31, 2073, with tax incentives and free export and import trade, covering the whole municipality. The Manaus Free Trade Zone law would also apply to it.",
    "quemAfeta": "Companies and residents of Acre.",
-   "porQueImporta": "Today the only free trade zone with tax benefits in the Constitution is Manaus. Under the PEC, Rio Branco would also have an area where companies pay less tax."
+   "porQueImporta": "Today the only free trade zone with tax benefits in the Constitution is Manaus, valid until 2073. Under the PEC, Rio Branco would have the same deadline and rules, and the federal government would stop collecting the taxes companies are exempted from."
   },
   "es": {
    "titulo": "Crea la Zona Franca de Rio Branco, en Acre",
-   "oQueMuda": "Crea un área con beneficios fiscales para empresas en Rio Branco.",
+   "oQueMuda": "Crea la Zona Franca de Rio Branco, en Acre, hasta el 31 de diciembre de 2073, con incentivos fiscales y régimen de libre comercio de exportación e importación, abarcando todo el territorio del municipio. La ley de la Zona Franca de Manaus valdría también para ella.",
    "quemAfeta": "Empresas y habitantes de Acre.",
-   "porQueImporta": "Hoy la única zona franca con beneficios fiscales en la Constitución es la de Manaos. Con la PEC, Rio Branco también tendría un área donde las empresas pagarían menos impuestos."
+   "porQueImporta": "Hoy la única zona franca con beneficios fiscales en la Constitución es la de Manaus, vigente hasta 2073. Con la PEC, Rio Branco tendría el mismo plazo y las mismas reglas, y la Unión dejaría de recaudar los impuestos de los que las empresas queden exentas."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c434376": {
@@ -3751,27 +3751,27 @@
  },
  "c2225743": {
   "titulo": "Cria a Zona Franca de Teresina, no Piauí",
-  "oQueMuda": "Cria uma área com benefícios fiscais para empresas em Teresina.",
+  "oQueMuda": "Cria a Zona Franca de Teresina, no Piauí, com as mesmas características, os mesmos incentivos fiscais e o mesmo prazo de funcionamento da Zona Franca de Manaus.",
   "quemAfeta": "Empresas e moradores do Piauí.",
-  "porQueImporta": "Hoje a única zona franca com benefícios fiscais na Constituição é a de Manaus. Com a PEC, Teresina também teria uma área onde empresas pagariam menos impostos.",
+  "porQueImporta": "Hoje a única zona franca com benefícios fiscais na Constituição é a de Manaus, que vale até 2073. Com a PEC, Teresina teria o mesmo prazo e os mesmos benefícios, e a União deixaria de arrecadar os impostos de que as empresas ficarem isentas.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates the Teresina Free Trade Zone, in Piauí",
-   "oQueMuda": "Creates an area with tax benefits for companies in Teresina.",
+   "oQueMuda": "Creates the Teresina Free Trade Zone, in Piauí, with the same features, tax incentives and operating period as the Manaus Free Trade Zone.",
    "quemAfeta": "Companies and residents of Piauí.",
-   "porQueImporta": "Today the only free trade zone with tax benefits in the Constitution is Manaus. Under the PEC, Teresina would also have an area where companies pay less tax."
+   "porQueImporta": "Today the only free trade zone with tax benefits in the Constitution is Manaus, valid until 2073. Under the PEC, Teresina would have the same deadline and benefits, and the federal government would stop collecting the taxes companies are exempted from."
   },
   "es": {
    "titulo": "Crea la Zona Franca de Teresina, en Piauí",
-   "oQueMuda": "Crea un área con beneficios fiscales para empresas en Teresina.",
+   "oQueMuda": "Crea la Zona Franca de Teresina, en Piauí, con las mismas características, los mismos incentivos fiscales y el mismo plazo de funcionamiento que la Zona Franca de Manaus.",
    "quemAfeta": "Empresas y habitantes de Piauí.",
-   "porQueImporta": "Hoy la única zona franca con beneficios fiscales en la Constitución es la de Manaos. Con la PEC, Teresina también tendría un área donde las empresas pagarían menos impuestos."
+   "porQueImporta": "Hoy la única zona franca con beneficios fiscales en la Constitución es la de Manaus, vigente hasta 2073. Con la PEC, Teresina tendría el mismo plazo y los mismos beneficios, y la Unión dejaría de recaudar los impuestos de los que las empresas queden exentas."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c334449": {
@@ -4570,27 +4570,27 @@
  },
  "c2075880": {
   "titulo": "Exige estimar o impacto de novas obrigações às empresas",
-  "oQueMuda": "Leis que criem ou ampliem obrigações para setores econômicos teriam de vir com estimativa do impacto financeiro.",
+  "oQueMuda": "Toda lei ou norma que crie ou amplie obrigações para setores da economia, ou que de qualquer forma gere custo para eles, teria de vir com estimativa do impacto financeiro no ano em que entrar em vigor e nos dois seguintes. Sem a estimativa, o projeto não poderia tramitar, e a norma seria nula. A regra não valeria em calamidade, guerra ou segurança nacional.",
   "quemAfeta": "Empresas e o Congresso.",
-  "porQueImporta": "Hoje leis que criam obrigações para empresas não precisam vir com estimativa de custo. Com a PEC, essa estimativa seria obrigatória.",
+  "porQueImporta": "Hoje leis que criam obrigações para empresas, como regras ambientais, trabalhistas ou de segurança, não precisam vir com estimativa de custo para elas. Com a PEC, a falta da estimativa anularia a norma.",
   "fonte": "manual",
   "en": {
    "titulo": "Requires estimating the impact of new obligations on businesses",
-   "oQueMuda": "Laws creating or expanding obligations for economic sectors would need an estimate of the financial impact.",
+   "oQueMuda": "Every law or rule that creates or expands obligations for economic sectors, or in any way imposes costs on them, would have to include an estimate of the financial impact in its first year and the next two. Without the estimate, the bill could not proceed, and the rule would be void. The requirement would not apply in calamities, war or national security.",
    "quemAfeta": "Companies and Congress.",
-   "porQueImporta": "Today laws creating obligations for companies do not need to come with a cost estimate. Under the PEC, this estimate would be mandatory."
+   "porQueImporta": "Today laws that create obligations for companies, such as environmental, labor or safety rules, need no cost estimate for them. Under the PEC, a missing estimate would void the rule."
   },
   "es": {
    "titulo": "Exige estimar el impacto de nuevas obligaciones para las empresas",
-   "oQueMuda": "Las leyes que creen o amplíen obligaciones para sectores económicos tendrían que incluir una estimación del impacto financiero.",
+   "oQueMuda": "Toda ley o norma que cree o amplíe obligaciones para sectores de la economía, o que de cualquier forma les genere costos, tendría que incluir una estimación del impacto financiero en el año en que entre en vigor y en los dos siguientes. Sin la estimación, el proyecto no podría tramitar, y la norma sería nula. La regla no valdría en calamidad, guerra o seguridad nacional.",
    "quemAfeta": "Empresas y el Congreso.",
-   "porQueImporta": "Hoy las leyes que crean obligaciones para empresas no necesitan venir con estimación de costo. Con la PEC, esa estimación sería obligatoria."
+   "porQueImporta": "Hoy las leyes que crean obligaciones para empresas, como reglas ambientales, laborales o de seguridad, no necesitan estimación de costo para ellas. Con la PEC, la falta de estimación anularía la norma."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8786193": {
@@ -4745,27 +4745,27 @@
  },
  "c351184": {
   "titulo": "Cria a Polícia Portuária Federal",
-  "oQueMuda": "Cria uma polícia para os portos, que poderia incorporar os guardas portuários.",
+  "oQueMuda": "Cria a Polícia Portuária Federal, mantida pela União, para patrulhar os portos organizados. Os atuais guardas portuários, contratados pelas administrações dos portos, poderiam optar por entrar na nova polícia, sem concurso.",
   "quemAfeta": "Guardas portuários e quem trabalha em portos.",
   "porQueImporta": "Hoje a segurança nos portos é feita pela Polícia Federal e por guardas portuários contratados pelas administrações dos portos. Com a PEC, seria criada uma Polícia Portuária Federal.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates a Federal Port Police",
-   "oQueMuda": "Creates a police force for ports, which could absorb port guards.",
+   "oQueMuda": "Creates the Federal Port Police, maintained by the federal government, to patrol organized ports. Current port guards, hired by port administrations, could opt to join the new police without a public exam.",
    "quemAfeta": "Port guards and port workers.",
    "porQueImporta": "Today port security is handled by the Federal Police and by port guards hired by port authorities. Under the PEC, a Federal Port Police would be created."
   },
   "es": {
    "titulo": "Crea la Policía Portuaria Federal",
-   "oQueMuda": "Crea una policía para los puertos, que podría incorporar a los guardias portuarios.",
+   "oQueMuda": "Crea la Policía Portuaria Federal, mantenida por la Unión, para patrullar los puertos organizados. Los actuales guardias portuarios, contratados por las administraciones de los puertos, podrían optar por entrar en la nueva policía, sin concurso.",
    "quemAfeta": "Guardias portuarios y quienes trabajan en puertos.",
    "porQueImporta": "Hoy la seguridad en los puertos la hacen la Policía Federal y guardias portuarios contratados por las administraciones portuarias. Con la PEC, se crearía una Policía Portuaria Federal."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s7804756": {
@@ -4872,28 +4872,28 @@
   }
  },
  "c464909": {
-  "titulo": "Cria a carreira única de Médico de Estado",
-  "oQueMuda": "Estabelece diretrizes para uma carreira nacional de médicos do serviço público.",
+  "titulo": "Cria a carreira federal de Médico de Estado, com dedicação exclusiva",
+  "oQueMuda": "Nos órgãos federais do SUS, só médicos da nova carreira de Médico de Estado, concursados, poderiam exercer a medicina. Eles trabalhariam com dedicação exclusiva (só poderiam também dar aulas), seriam pagos por subsídio e não poderiam receber vantagens de empresas privadas. Os médicos federais atuais poderiam optar pela carreira. Estados e municípios teriam de criar carreiras parecidas.",
   "quemAfeta": "Médicos e pacientes do SUS.",
-  "porQueImporta": "Hoje médicos do SUS são contratados sobretudo por prefeituras e estados, cada um com suas regras. Com a PEC, haveria uma carreira nacional de médico do serviço público.",
+  "porQueImporta": "Hoje médicos do SUS são contratados por União, estados e prefeituras, cada um com suas regras, e muitos acumulam o serviço público com consultório ou hospital particular. Com a PEC, os médicos federais do SUS não poderiam mais ter atividade privada.",
   "fonte": "manual",
   "en": {
-   "titulo": "Creates a single national career for public doctors",
-   "oQueMuda": "Sets guidelines for a national career for doctors in public service.",
+   "titulo": "Creates the federal State Physician career, with exclusive dedication",
+   "oQueMuda": "In federal SUS bodies, only physicians in the new State Physician career, hired by public exam, could practice medicine. They would work exclusively for the state (teaching is the only exception), be paid a single salary and could not receive benefits from private companies. Current federal physicians could opt into the career. States and municipalities would have to create similar careers.",
    "quemAfeta": "Doctors and patients of the public health system (SUS).",
-   "porQueImporta": "Today public health system doctors are hired mostly by city and state governments, each with their own rules. Under the PEC, there would be a national public-service medical career."
+   "porQueImporta": "Today SUS physicians are hired by federal, state and municipal governments, each with its own rules, and many combine public service with a private practice or hospital. Under the PEC, federal SUS physicians could no longer work privately."
   },
   "es": {
-   "titulo": "Crea la carrera única de Médico de Estado",
-   "oQueMuda": "Establece directrices para una carrera nacional de médicos del servicio público.",
+   "titulo": "Crea la carrera federal de Médico de Estado, con dedicación exclusiva",
+   "oQueMuda": "En los órganos federales del SUS, solo los médicos de la nueva carrera de Médico de Estado, por concurso, podrían ejercer la medicina. Trabajarían con dedicación exclusiva (solo podrían además dar clases), cobrarían por subsidio y no podrían recibir ventajas de empresas privadas. Los médicos federales actuales podrían optar por la carrera. Estados y municipios tendrían que crear carreras similares.",
    "quemAfeta": "Médicos y pacientes del SUS.",
-   "porQueImporta": "Hoy los médicos del SUS son contratados sobre todo por alcaldías y estados, cada uno con sus reglas. Con la PEC, habría una carrera nacional de médico del servicio público."
+   "porQueImporta": "Hoy los médicos del SUS son contratados por la Unión, los estados y los municipios, cada uno con sus reglas, y muchos combinan el servicio público con consultorio u hospital privado. Con la PEC, los médicos federales del SUS ya no podrían tener actividad privada."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "c602427",
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2326575": {
@@ -4924,27 +4924,27 @@
  },
  "c356309": {
   "titulo": "Muda regras para criar ou fundir municípios",
-  "oQueMuda": "Criação, fusão ou divisão de municípios teria de preservar a unidade histórico-cultural e ocorrer até 12 meses antes das eleições.",
+  "oQueMuda": "Criar, juntar ou dividir municípios dependeria de lei estadual aprovada até 12 meses antes das eleições municipais, de estudo de viabilidade e de plebiscito com a população interessada, preservando a unidade histórico-cultural da área urbana. Municípios criados depois de 1996 seriam mantidos.",
   "quemAfeta": "Moradores de áreas que querem virar município.",
-  "porQueImporta": "Hoje criar ou dividir municípios depende de uma lei federal que nunca foi aprovada. Com a PEC, o processo teria de preservar a unidade histórico-cultural e ocorrer até 12 meses antes das eleições.",
+  "porQueImporta": "Desde 1996, criar ou dividir municípios depende de uma lei complementar federal que nunca foi aprovada; municípios criados mesmo assim até 2006 foram validados por uma emenda de 2008. Com a PEC, as regras passariam a ser definidas pelos estados.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes rules for creating or merging municipalities",
-   "oQueMuda": "Creating, merging or splitting municipalities would have to preserve historical and cultural unity and happen up to 12 months before elections.",
+   "oQueMuda": "Creating, merging or splitting municipalities would require a state law passed up to 12 months before municipal elections, a feasibility study and a plebiscite of the affected population, preserving the urban area's historical and cultural unity. Municipalities created after 1996 would be kept.",
    "quemAfeta": "Residents of areas seeking to become a municipality.",
-   "porQueImporta": "Today creating or splitting municipalities depends on a federal law that has never been passed. Under the PEC, the process would have to preserve historical and cultural unity and occur up to 12 months before elections."
+   "porQueImporta": "Since 1996, creating or splitting municipalities depends on a federal complementary law that was never passed; municipalities created anyway up to 2006 were validated by a 2008 amendment. Under the PEC, states would set the rules."
   },
   "es": {
    "titulo": "Cambia las reglas para crear o fusionar municipios",
-   "oQueMuda": "La creación, fusión o división de municipios tendría que preservar la unidad histórico-cultural y hacerse hasta 12 meses antes de las elecciones.",
+   "oQueMuda": "Crear, unir o dividir municipios dependería de una ley estatal aprobada hasta 12 meses antes de las elecciones municipales, de un estudio de viabilidad y de un plebiscito con la población interesada, preservando la unidad histórico-cultural del área urbana. Los municipios creados después de 1996 se mantendrían.",
    "quemAfeta": "Habitantes de zonas que quieren convertirse en municipio.",
-   "porQueImporta": "Hoy crear o dividir municipios depende de una ley federal que nunca se aprobó. Con la PEC, el proceso tendría que preservar la unidad histórico-cultural y ocurrir hasta 12 meses antes de las elecciones."
+   "porQueImporta": "Desde 1996, crear o dividir municipios depende de una ley complementaria federal que nunca fue aprobada; los municipios creados de todos modos hasta 2006 fueron validados por una enmienda de 2008. Con la PEC, las reglas pasarían a ser definidas por los estados."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2209776": {
@@ -4993,8 +4993,8 @@
   "base": {
    "versao": "s9827752",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   },
   "tipo": "principio"
  },
@@ -5143,9 +5143,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2519865": {
@@ -5351,27 +5351,27 @@
  },
  "s8309893": {
   "titulo": "Cria piso salarial para fisioterapeutas e terapeutas ocupacionais",
-  "oQueMuda": "Institui um salário mínimo nacional para essas profissões.",
+  "oQueMuda": "Fisioterapeutas e terapeutas ocupacionais entrariam na regra da Constituição que manda uma lei federal criar pisos salariais nacionais, hoje válida só para a enfermagem, a serem pagos por empregadores públicos e privados.",
   "quemAfeta": "Fisioterapeutas, terapeutas ocupacionais e empregadores.",
   "porQueImporta": "Hoje fisioterapeutas e terapeutas ocupacionais não têm salário mínimo nacional da profissão. Com a PEC, clínicas, hospitais e governos teriam de pagar pelo menos o piso fixado em lei.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates a minimum salary for physical and occupational therapists",
-   "oQueMuda": "Establishes a national minimum salary for these professions.",
+   "oQueMuda": "Physiotherapists and occupational therapists would join the constitutional rule requiring a federal law to set national minimum wages, today valid only for nursing, to be paid by public and private employers.",
    "quemAfeta": "Physical therapists, occupational therapists and employers.",
    "porQueImporta": "Today physiotherapists and occupational therapists have no national minimum salary. Under the PEC, clinics, hospitals and governments would have to pay at least the floor set by law."
   },
   "es": {
    "titulo": "Crea un salario mínimo para fisioterapeutas y terapeutas ocupacionales",
-   "oQueMuda": "Instituye un salario mínimo nacional para estas profesiones.",
+   "oQueMuda": "Fisioterapeutas y terapeutas ocupacionales entrarían en la regla de la Constitución que manda que una ley federal cree pisos salariales nacionales, hoy válida solo para enfermería, a pagar por empleadores públicos y privados.",
    "quemAfeta": "Fisioterapeutas, terapeutas ocupacionales y empleadores.",
    "porQueImporta": "Hoy los fisioterapeutas y terapeutas ocupacionales no tienen salario mínimo nacional de la profesión. Con la PEC, clínicas, hospitales y gobiernos tendrían que pagar al menos el piso fijado por ley."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s1395667": {
@@ -5420,9 +5420,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2499794": {
@@ -5480,27 +5480,27 @@
  },
  "c2231888": {
   "titulo": "Garante renda a famílias em situação de pobreza",
-  "oQueMuda": "Coloca na Constituição uma política de combate à pobreza com transferência de renda a famílias pobres.",
+  "oQueMuda": "O combate à pobreza passaria a ser dever do Estado na Constituição, inclusive com transferência de renda a famílias pobres e extremamente pobres. A lei poderia exigir contrapartidas das famílias, como frequência escolar, e unificaria o cadastro dessas famílias. Até a nova lei, valeriam as regras do Bolsa Família de 2004.",
   "quemAfeta": "Famílias em pobreza e extrema pobreza.",
   "porQueImporta": "Hoje a Constituição prevê renda básica familiar para quem está em vulnerabilidade, e o Bolsa Família existe por lei. Com a PEC, uma política de transferência de renda a famílias pobres ficaria detalhada na Constituição.",
   "fonte": "manual",
   "en": {
    "titulo": "Guarantees income for families in poverty",
-   "oQueMuda": "Adds to the Constitution an anti-poverty policy with cash transfers to poor families.",
+   "oQueMuda": "Fighting poverty would become a constitutional duty of the state, including cash transfers to poor and extremely poor families. The law could require families to meet conditions, such as school attendance, and would unify their registry. Until the new law, the 2004 Bolsa Família rules would apply.",
    "quemAfeta": "Families in poverty and extreme poverty.",
    "porQueImporta": "Today the Constitution provides a family basic income for vulnerable people, and Bolsa Família exists by law. Under the PEC, a cash-transfer policy for poor families would be detailed in the Constitution."
   },
   "es": {
    "titulo": "Garantiza ingresos a familias en situación de pobreza",
-   "oQueMuda": "Incluye en la Constitución una política contra la pobreza con transferencias de ingresos a familias pobres.",
+   "oQueMuda": "Combatir la pobreza pasaría a ser un deber del Estado en la Constitución, incluso con transferencia de renta a familias pobres y extremadamente pobres. La ley podría exigir contrapartidas a las familias, como asistencia escolar, y unificaría el registro de esas familias. Hasta la nueva ley, valdrían las reglas del Bolsa Família de 2004.",
    "quemAfeta": "Familias en pobreza y pobreza extrema.",
    "porQueImporta": "Hoy la Constitución prevé renta básica familiar para quien está en vulnerabilidad, y el Bolsa Família existe por ley. Con la PEC, una política de transferencia de ingresos a familias pobres quedaría detallada en la Constitución."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8796486": {
