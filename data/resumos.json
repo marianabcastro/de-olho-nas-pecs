@@ -1395,28 +1395,28 @@
   }
  },
  "s9055580": {
-  "titulo": "Permite ao trabalhador escolher uma jornada flexível por hora",
-  "oQueMuda": "O empregado poderia optar entre a jornada comum da CLT e um regime flexível pago por hora trabalhada.",
-  "quemAfeta": "Trabalhadores com carteira e empregadores.",
-  "porQueImporta": "Hoje a CLT limita a jornada a 44 horas por semana, com salário mensal. Com a PEC, o trabalhador poderia escolher um regime pago só pelas horas trabalhadas, sem jornada fixa.",
+  "titulo": "Permite jornada flexível paga por hora, com o contrato individual valendo mais que o acordo coletivo",
+  "oQueMuda": "Jornada flexível: empregado e empresa poderiam combinar no contrato individual uma jornada flexível ou paga por hora trabalhada, respeitado o limite de 44 horas por semana.\nContrato acima do sindicato: o que for combinado diretamente entre empregado e empregador prevaleceria sobre convenções e acordos coletivos.\nPagamento proporcional: a hora mínima seria calculada a partir do salário mínimo ou do piso da categoria, considerando 44 horas por semana; férias, 13º salário, FGTS e outros direitos seriam proporcionais às horas efetivamente trabalhadas.\nPrazo: valeria 180 dias depois de publicada.",
+  "quemAfeta": "Trabalhadores com carteira, empregadores e sindicatos.",
+  "porQueImporta": "Hoje a jornada máxima é de 44 horas semanais, e a Constituição prevê que a redução de jornada e a compensação de horários sejam feitas por acordo ou convenção coletiva. Com a PEC, o contrato individual poderia definir jornada e pagamento por hora e prevaleceria sobre o acordo coletivo. Ela tramita no Senado ao mesmo tempo que a PEC 221/2019, que reduz a jornada para 40 horas.",
   "fonte": "manual",
   "en": {
-   "titulo": "Lets workers choose a flexible hourly schedule",
-   "oQueMuda": "Employees could choose between the standard CLT work schedule and a flexible arrangement paid by the hour.",
-   "quemAfeta": "Formally employed workers and employers.",
-   "porQueImporta": "Today the labor code limits the workweek to 44 hours with a monthly salary. Under the PEC, workers could choose a regime paid only for hours worked, without fixed hours."
+   "titulo": "Allows flexible hourly work, with individual contracts prevailing over collective agreements",
+   "oQueMuda": "Flexible hours: employee and employer could agree in an individual contract on flexible hours or pay per hour worked, within the 44-hour weekly limit.\nContract above the union: what is agreed directly between employee and employer would prevail over collective agreements.\nProportional pay: the minimum hourly rate would be based on the minimum wage or the category's floor, considering 44 hours a week; vacation, 13th salary, FGTS and other rights would be proportional to hours actually worked.\nTiming: it would take effect 180 days after publication.",
+   "quemAfeta": "Formal workers, employers and unions.",
+   "porQueImporta": "Today the maximum workweek is 44 hours, and the Constitution provides that reducing hours and offsetting schedules be done by collective agreement. Under the PEC, an individual contract could set hours and hourly pay and would prevail over the collective agreement. It is moving through the Senate at the same time as PEC 221/2019, which cuts the workweek to 40 hours."
   },
   "es": {
-   "titulo": "Permite al trabajador elegir una jornada flexible por horas",
-   "oQueMuda": "El empleado podría optar entre la jornada común de la CLT y un régimen flexible pagado por hora trabajada.",
-   "quemAfeta": "Trabajadores formales y empleadores.",
-   "porQueImporta": "Hoy la CLT limita la jornada a 44 horas semanales, con salario mensual. Con la PEC, el trabajador podría elegir un régimen pagado solo por las horas trabajadas, sin jornada fija."
+   "titulo": "Permite jornada flexible pagada por hora, con el contrato individual por encima del acuerdo colectivo",
+   "oQueMuda": "Jornada flexible: empleado y empresa podrían pactar en el contrato individual una jornada flexible o pagada por hora trabajada, respetando el límite de 44 horas semanales.\nContrato por encima del sindicato: lo pactado directamente entre empleado y empleador prevalecería sobre convenios y acuerdos colectivos.\nPago proporcional: la hora mínima se calcularía a partir del salario mínimo o del piso de la categoría, considerando 44 horas semanales; vacaciones, aguinaldo, FGTS y otros derechos serían proporcionales a las horas efectivamente trabajadas.\nPlazo: valdría 180 días después de publicada.",
+   "quemAfeta": "Trabajadores formales, empleadores y sindicatos.",
+   "porQueImporta": "Hoy la jornada máxima es de 44 horas semanales, y la Constitución prevé que la reducción de jornada y la compensación de horarios se hagan por acuerdo o convenio colectivo. Con la PEC, el contrato individual podría definir jornada y pago por hora y prevalecería sobre el acuerdo colectivo. Tramita en el Senado al mismo tiempo que la PEC 221/2019, que reduce la jornada a 40 horas."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2485341": {
