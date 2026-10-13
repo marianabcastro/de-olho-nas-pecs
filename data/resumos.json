@@ -334,27 +334,27 @@
  },
  "c354302": {
   "titulo": "Dá autonomia às advocacias públicas",
-  "oQueMuda": "A Advocacia-Geral da União e as procuradorias dos estados, do DF e dos municípios ganhariam autonomia e prerrogativas próprias.",
-  "quemAfeta": "Advogados públicos e procuradores.",
-  "porQueImporta": "Hoje a AGU e as procuradorias fazem parte do Poder Executivo e seus chefes são escolhidos pelos governantes. Com a PEC, esses órgãos teriam autonomia funcional e administrativa, como o Ministério Público.",
+  "oQueMuda": "Autonomia: a Advocacia-Geral da União e as procuradorias dos estados, do DF e dos municípios teriam autonomia administrativa, orçamentária e técnica, e proporiam o próprio orçamento.\nDinheiro garantido: o orçamento desses órgãos seria repassado em parcelas mensais até o dia 20, como já acontece com o Judiciário, o Legislativo, o Ministério Público e a Defensoria.\nIndependência: os advogados públicos seriam invioláveis no exercício da função e atuariam com independência.",
+  "quemAfeta": "Advogados públicos, procuradores, e os governos que eles defendem.",
+  "porQueImporta": "Hoje a AGU e as procuradorias fazem parte do Poder Executivo, seus chefes são escolhidos pelos governantes e o orçamento delas é definido pelo governo. O texto está pronto para votação no plenário da Câmara desde 2014.",
   "fonte": "revisado",
   "en": {
    "titulo": "Grants autonomy to government attorney offices",
-   "oQueMuda": "The Office of the Attorney General of the Union (AGU) and the attorney offices of states, the Federal District and municipalities would gain autonomy and their own prerogatives.",
-   "quemAfeta": "Government attorneys and prosecutors who represent public bodies.",
-   "porQueImporta": "Today the AGU and attorney offices are part of the executive branch and their heads are chosen by governments. Under the PEC, these bodies would have functional and administrative autonomy, like prosecutors' offices."
+   "oQueMuda": "Autonomy: the Attorney General's Office and state, Federal District and municipal attorneys' offices would have administrative, budgetary and technical autonomy, and would propose their own budgets.\nGuaranteed funding: their budgets would be transferred in monthly installments by the 20th, as already happens with the Judiciary, the Legislature, prosecutors and public defenders.\nIndependence: government lawyers would be inviolable in the exercise of their duties and act independently.",
+   "quemAfeta": "Government lawyers and attorneys, and the governments they represent.",
+   "porQueImporta": "Today the Attorney General's Office and attorneys' offices are part of the Executive, their heads are chosen by the government and their budgets are set by it. The text has been ready for a Chamber floor vote since 2014."
   },
   "es": {
    "titulo": "Da autonomía a las abogacías públicas",
-   "oQueMuda": "La Abogacía General de la Unión (AGU) y las procuradurías de los estados, del DF y de los municipios ganarían autonomía y prerrogativas propias.",
-   "quemAfeta": "Abogados públicos y procuradores.",
-   "porQueImporta": "Hoy la AGU y las procuradurías forman parte del Poder Ejecutivo y sus jefes son elegidos por los gobernantes. Con la PEC, esos órganos tendrían autonomía funcional y administrativa, como el Ministerio Público."
+   "oQueMuda": "Autonomía: la Abogacía General de la Unión y las procuradurías de los estados, del DF y de los municipios tendrían autonomía administrativa, presupuestaria y técnica, y propondrían su propio presupuesto.\nDinero garantizado: el presupuesto de estos órganos se transferiría en cuotas mensuales hasta el día 20, como ya ocurre con el Judicial, el Legislativo, el Ministerio Público y la Defensoría.\nIndependencia: los abogados públicos serían inviolables en el ejercicio de la función y actuarían con independencia.",
+   "quemAfeta": "Abogados públicos, procuradores y los gobiernos que defienden.",
+   "porQueImporta": "Hoy la AGU y las procuradurías forman parte del Poder Ejecutivo, sus jefes son elegidos por los gobernantes y su presupuesto lo define el gobierno. El texto está listo para votación en el pleno de la Cámara desde 2014."
   },
   "base": {
    "versao": "c614583",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2432987": {
@@ -1233,27 +1233,28 @@
  },
  "c2341717": {
   "titulo": "Proíbe extinguir ou criar Tribunais de Contas e os torna órgãos permanentes",
-  "oQueMuda": "Os Tribunais de Contas passam a ser órgãos permanentes e essenciais ao controle dos gastos públicos, e fica proibido extinguir, criar ou instalar novos tribunais desse tipo.",
-  "quemAfeta": "Tribunais de Contas e governos fiscalizados por eles.",
-  "porQueImporta": "Já em vigor: os Tribunais de Contas são órgãos permanentes e não podem ser extintos; também fica proibido criar ou instalar novos tribunais desse tipo.",
+  "oQueMuda": "Os Tribunais de Contas passam a ser instituições permanentes e essenciais ao controle externo. Fica proibido extinguir, criar ou instalar Tribunais de Contas dos estados e dos municípios.",
+  "quemAfeta": "Tribunais de Contas, seus conselheiros e servidores, e os governos e câmaras fiscalizados por eles.",
+  "porQueImporta": "Em vigor desde maio de 2026 (Emenda 139). Antes, estados podiam extinguir tribunais de contas por emenda à constituição estadual, como o Ceará fez com seu Tribunal de Contas dos Municípios em 2017; agora isso não é mais possível, e também não podem surgir novos.",
   "fonte": "revisado",
   "en": {
    "titulo": "Makes Audit Courts permanent and bans creating or abolishing them",
-   "oQueMuda": "Audit Courts would become permanent bodies essential to overseeing public spending, and abolishing, creating or setting up new ones would be prohibited.",
-   "quemAfeta": "Audit Courts and the governments they oversee.",
-   "porQueImporta": "Already in force: Audit Courts are permanent bodies and cannot be abolished; creating or setting up new ones is also prohibited."
+   "oQueMuda": "Audit courts become permanent institutions essential to external oversight. Abolishing, creating or setting up state and municipal audit courts is prohibited.",
+   "quemAfeta": "Audit courts, their members and staff, and the governments and councils they oversee.",
+   "porQueImporta": "In force since May 2026 (Amendment 139). Before, states could abolish audit courts by amending their state constitutions, as Ceará did with its municipal audit court in 2017; that is no longer possible, and no new ones can be created."
   },
   "es": {
    "titulo": "Prohíbe extinguir o crear Tribunales de Cuentas y los hace órganos permanentes",
-   "oQueMuda": "Los Tribunales de Cuentas pasan a ser órganos permanentes y esenciales para el control del gasto público, y se prohíbe extinguir, crear o instalar nuevos tribunales de ese tipo.",
-   "quemAfeta": "Tribunales de Cuentas y gobiernos fiscalizados por ellos.",
-   "porQueImporta": "Ya en vigor: los Tribunales de Cuentas son órganos permanentes y no pueden extinguirse; también queda prohibido crear o instalar nuevos tribunales de ese tipo."
+   "oQueMuda": "Los Tribunales de Cuentas pasan a ser instituciones permanentes y esenciales para el control externo. Se prohíbe extinguir, crear o instalar Tribunales de Cuentas de los estados y municipios.",
+   "quemAfeta": "Tribunales de Cuentas, sus consejeros y servidores, y los gobiernos y cámaras que fiscalizan.",
+   "porQueImporta": "En vigor desde mayo de 2026 (Enmienda 139). Antes, los estados podían extinguir tribunales de cuentas por enmienda a la constitución estatal, como hizo Ceará con su Tribunal de Cuentas de los Municipios en 2017; ahora eso ya no es posible, y tampoco pueden surgir nuevos."
   },
   "base": {
-   "versao": "original",
+   "versao": "promulgada",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas",
+   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc139.htm"
   }
  },
  "c2436224": {
@@ -1370,27 +1371,27 @@
  },
  "s9038492": {
   "titulo": "Cria regime especial de impostos para clubes de futebol e esporte",
-  "oQueMuda": "Clubes, associações de futebol e entidades esportivas sem fins lucrativos poderiam ter tributação específica no IBS.",
-  "quemAfeta": "Clubes e entidades esportivas.",
-  "porQueImporta": "Na reforma tributária de 2023, clubes de futebol organizados como SAF têm regime próprio, mas associações sem fins lucrativos não. Com a PEC, elas também poderiam ter tributação específica no IBS.",
+  "oQueMuda": "Clubes, associações de futebol e entidades esportivas sem fins lucrativos entrariam no mesmo regime específico do IBS que hotéis, bares, restaurantes, parques e agências de turismo, que permite alíquotas, bases de cálculo e créditos diferentes da regra geral.",
+  "quemAfeta": "Clubes e entidades esportivas, e os demais contribuintes, porque cada regime específico pode afetar a alíquota geral.",
+  "porQueImporta": "Na reforma tributária, as Sociedades Anônimas do Futebol (SAFs) ganharam esse regime, mas clubes organizados como associações sem fins lucrativos ficaram de fora. Com a PEC, eles também poderiam ter tributação específica.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates a special tax regime for soccer clubs and sports",
-   "oQueMuda": "Clubs, soccer associations and nonprofit sports organizations could have specific taxation under the IBS.",
-   "quemAfeta": "Clubs and sports organizations.",
-   "porQueImporta": "In the 2023 tax reform, football clubs organized as corporations (SAF) have their own regime, but non-profit associations do not. Under the PEC, they could also have specific taxation under IBS."
+   "oQueMuda": "Clubs, football associations and non-profit sports organizations would join the same specific IBS regime as hotels, bars, restaurants, parks and travel agencies, which allows rates, tax bases and credits different from the general rule.",
+   "quemAfeta": "Clubs and sports organizations, and other taxpayers, since each specific regime can affect the general rate.",
+   "porQueImporta": "In the tax reform, football corporations (SAFs) got this regime, but clubs organized as non-profit associations were left out. Under the PEC, they could also get specific taxation."
   },
   "es": {
    "titulo": "Crea un régimen tributario especial para clubes de fútbol y deporte",
-   "oQueMuda": "Clubes, asociaciones de fútbol y entidades deportivas sin fines de lucro podrían tener tributación específica en el IBS.",
-   "quemAfeta": "Clubes y entidades deportivas.",
-   "porQueImporta": "En la reforma tributaria de 2023, los clubes de fútbol organizados como SAF tienen régimen propio, pero las asociaciones sin fines de lucro no. Con la PEC, también podrían tener tributación específica en el IBS."
+   "oQueMuda": "Clubes, asociaciones de fútbol y entidades deportivas sin fines de lucro entrarían en el mismo régimen específico del IBS que hoteles, bares, restaurantes, parques y agencias de turismo, que permite alícuotas, bases de cálculo y créditos distintos de la regla general.",
+   "quemAfeta": "Clubes y entidades deportivas, y los demás contribuyentes, porque cada régimen específico puede afectar la alícuota general.",
+   "porQueImporta": "En la reforma tributaria, las Sociedades Anónimas del Fútbol (SAF) obtuvieron ese régimen, pero los clubes organizados como asociaciones sin fines de lucro quedaron fuera. Con la PEC, también podrían tener tributación específica."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s9055580": {
@@ -1685,28 +1686,34 @@
   }
  },
  "c2362526": {
-  "titulo": "Cria o Sistema Único de Mobilidade e taxa pelo uso das ruas",
-  "oQueMuda": "Define diretrizes do direito ao transporte e permite cobrar uma contribuição pelo uso das vias para custear o transporte coletivo.",
-  "quemAfeta": "Usuários de ônibus e metrô, motoristas e prefeituras.",
-  "porQueImporta": "Desde 2015 o transporte é direito social, mas não há fonte própria de dinheiro para o transporte coletivo. Com a PEC, as cidades poderiam cobrar uma contribuição de quem usa as vias para pagar ônibus e metrô.",
+  "titulo": "Cria o Sistema Único de Mobilidade e a tarifa zero no transporte coletivo urbano",
+  "oQueMuda": "Tarifa zero: o transporte público coletivo urbano passaria a ser gratuito para o usuário; uma lei definiria os prazos.\nSistema único: transporte vira direito organizado num sistema único de mobilidade, com rede integrada e participação da sociedade, como o SUS na saúde.\nQuem paga: União, estados e municípios destinariam parte dos impostos ao sistema, e poderiam ser criadas duas contribuições: uma paga pelos donos de veículos, cobrada pelos municípios, e outra paga pelos empregadores, cobrada pela União nas cidades com tarifa zero.\nPrazo: o Congresso teria 2 anos para aprovar as leis do sistema e das contribuições.",
+  "quemAfeta": "Usuários de ônibus e metrô, donos de veículos, empregadores e prefeituras.",
+  "porQueImporta": "Desde 2015 o transporte é direito social na Constituição, mas o transporte coletivo é pago em grande parte pela tarifa, e o vale-transporte é custeado por trabalhadores e empresas. Com a PEC, o usuário deixaria de pagar, e o custo passaria a impostos e às novas contribuições.",
   "fonte": "manual",
   "en": {
-   "titulo": "Creates a Unified Mobility System and a fee for road use",
-   "oQueMuda": "Sets guidelines for the right to transportation and allows a fee for road use to fund public transit.",
-   "quemAfeta": "Bus and subway riders, drivers and city governments.",
-   "porQueImporta": "Since 2015 transport has been a social right, but there is no dedicated funding source for public transit. Under the PEC, cities could charge road users a contribution to pay for buses and subways."
+   "titulo": "Creates a Unified Mobility System and free fares on urban public transport",
+   "oQueMuda": "Free fares: urban public transport would become free for users; a law would set the deadlines.\nUnified system: transport becomes a right organized in a unified mobility system, with an integrated network and public participation, like SUS in health.\nWho pays: federal, state and municipal governments would allocate part of their taxes to the system, and two contributions could be created: one paid by vehicle owners, charged by municipalities, and another paid by employers, charged by the federal government in cities with free fares.\nDeadline: Congress would have 2 years to pass the laws on the system and the contributions.",
+   "quemAfeta": "Bus and subway riders, vehicle owners, employers and municipalities.",
+   "porQueImporta": "Since 2015 transport has been a social right in the Constitution, but public transport is largely paid for by fares, and the transport voucher is funded by workers and companies. Under the PEC, users would stop paying, and the cost would shift to taxes and the new contributions.",
+   "nota": "A 2019 Inesc study estimated that free, universal public transport would cost about R$ 70.8 billion a year, close to 1% of GDP. Supporters say the new contribution would cost employers less than the current transport voucher."
   },
   "es": {
-   "titulo": "Crea el Sistema Único de Movilidad y una tasa por uso de las calles",
-   "oQueMuda": "Define directrices del derecho al transporte y permite cobrar una contribución por uso de las vías para financiar el transporte público.",
-   "quemAfeta": "Usuarios de autobús y metro, conductores y municipios.",
-   "porQueImporta": "Desde 2015 el transporte es un derecho social, pero no hay fuente propia de dinero para el transporte colectivo. Con la PEC, las ciudades podrían cobrar una contribución a quienes usan las vías para pagar autobuses y metro."
+   "titulo": "Crea el Sistema Único de Movilidad y la tarifa cero en el transporte colectivo urbano",
+   "oQueMuda": "Tarifa cero: el transporte público colectivo urbano sería gratuito para el usuario; una ley definiría los plazos.\nSistema único: el transporte pasa a ser un derecho organizado en un sistema único de movilidad, con red integrada y participación de la sociedad, como el SUS en salud.\nQuién paga: la Unión, los estados y los municipios destinarían parte de sus impuestos al sistema, y podrían crearse dos contribuciones: una pagada por los dueños de vehículos, cobrada por los municipios, y otra pagada por los empleadores, cobrada por la Unión en las ciudades con tarifa cero.\nPlazo: el Congreso tendría 2 años para aprobar las leyes del sistema y de las contribuciones.",
+   "quemAfeta": "Usuarios de autobús y metro, dueños de vehículos, empleadores y municipios.",
+   "porQueImporta": "Desde 2015 el transporte es un derecho social en la Constitución, pero el transporte colectivo se paga en gran parte con la tarifa, y el vale-transporte lo costean trabajadores y empresas. Con la PEC, el usuario dejaría de pagar, y el costo pasaría a los impuestos y a las nuevas contribuciones.",
+   "nota": "Un estudio del Inesc de 2019 estimó que el transporte colectivo gratuito y universal costaría cerca de R$ 70.800 millones al año, cerca del 1% del PIB. Quienes lo defienden dicen que, para el empleador, la nueva contribución costaría menos que el vale-transporte actual."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "nota": {
+   "texto": "Um estudo do Inesc de 2019 estimou que o transporte coletivo gratuito e universal custaria cerca de R$ 70,8 bilhões por ano, perto de 1% do PIB. Defensores dizem que, para o empregador, a nova contribuição custaria menos que o vale-transporte atual.",
+   "url": "https://idec.org.br/noticia/pec-do-sum-e-da-tarifa-zero-pode-ir-votacao-na-ccj-neste-ano"
   }
  },
  "c14666": {
@@ -1736,27 +1743,27 @@
  },
  "s9017996": {
   "titulo": "Obriga investigados e testemunhas a comparecer em CPIs",
-  "oQueMuda": "Investigados e testemunhas teriam de comparecer às CPIs, com possibilidade de condução coercitiva e multa.",
+  "oQueMuda": "Investigados e testemunhas convocados por CPIs seriam obrigados a comparecer, sob pena de condução coercitiva e multa. Continuariam com o direito de ficar em silêncio sobre perguntas que possam incriminá-los, mas o silêncio não os dispensaria de ir.",
   "quemAfeta": "Pessoas convocadas por comissões parlamentares de inquérito.",
-  "porQueImporta": "Hoje o STF permite que investigados deixem de comparecer a CPIs ou fiquem em silêncio. Com a PEC, investigados e testemunhas seriam obrigados a comparecer, sob pena de condução coercitiva e multa.",
+  "porQueImporta": "Hoje as decisões do STF sobre o tema divergem: algumas permitem que investigados deixem de comparecer a CPIs, outras exigem o comparecimento com direito ao silêncio. Com a PEC, o comparecimento seria sempre obrigatório.",
   "fonte": "manual",
   "en": {
    "titulo": "Requires suspects and witnesses to appear before inquiry committees",
-   "oQueMuda": "Suspects and witnesses would have to appear before parliamentary inquiry committees (CPIs), with possible forced appearance and fines.",
+   "oQueMuda": "People under investigation and witnesses summoned by parliamentary inquiry committees would have to appear, under penalty of being brought in by force and fined. They would keep the right to remain silent on self-incriminating questions, but silence would not excuse them from appearing.",
    "quemAfeta": "People summoned by parliamentary inquiry committees.",
-   "porQueImporta": "Today the Supreme Court allows suspects to skip inquiry hearings or remain silent. Under the PEC, suspects and witnesses would be required to appear, under penalty of being brought by force and fined."
+   "porQueImporta": "Today Supreme Court rulings on the issue diverge: some let people under investigation skip inquiry hearings, others require attendance with the right to silence. Under the PEC, attendance would always be mandatory."
   },
   "es": {
    "titulo": "Obliga a investigados y testigos a comparecer ante las CPIs",
-   "oQueMuda": "Investigados y testigos tendrían que comparecer ante las comisiones parlamentarias de investigación, con posible conducción forzosa y multa.",
+   "oQueMuda": "Investigados y testigos convocados por CPI estarían obligados a comparecer, bajo pena de conducción coercitiva y multa. Mantendrían el derecho a guardar silencio sobre preguntas que puedan incriminarlos, pero el silencio no los eximiría de ir.",
    "quemAfeta": "Personas convocadas por comisiones parlamentarias de investigación.",
-   "porQueImporta": "Hoy el STF permite que los investigados no comparezcan a las CPI o guarden silencio. Con la PEC, investigados y testigos estarían obligados a comparecer, bajo pena de conducción coercitiva y multa."
+   "porQueImporta": "Hoy las decisiones del STF sobre el tema divergen: algunas permiten que investigados no comparezcan a las CPI, otras exigen la comparecencia con derecho al silencio. Con la PEC, la comparecencia sería siempre obligatoria."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s9039191": {
@@ -1860,28 +1867,28 @@
   }
  },
  "c463451": {
-  "titulo": "Iguala salário de PMs e bombeiros ao do Distrito Federal",
-  "oQueMuda": "Policiais militares e bombeiros de todos os estados não poderiam ganhar menos que os do Distrito Federal, inclusive os aposentados, com ajuda de um fundo da União.",
-  "quemAfeta": "Policiais militares, bombeiros (ativos e aposentados) e os governos que os pagam.",
-  "porQueImporta": "Hoje cada estado define o salário de seus PMs e bombeiros, e os do Distrito Federal, pagos pela União, estão entre os mais altos. Com a PEC, nenhum estado poderia pagar menos que o DF, com ajuda de um fundo federal.",
+  "titulo": "Cria piso nacional para PMs e bombeiros igual ao do Distrito Federal",
+  "oQueMuda": "Piso: policiais militares e bombeiros de todos os estados não poderiam ganhar menos que os do Distrito Federal, regra que valeria também para aposentados e pensionistas.\nValores: o piso inicial teria como referência R$ 4.500 para a menor graduação e R$ 9.000 para o menor posto de oficial, em valores de dezembro de 2009, a serem atualizados.\nQuem paga: a União ajudaria os estados por meio de um fundo próprio, definido em lei.\nPrazo: as medidas teriam de ser adotadas em 180 dias.",
+  "quemAfeta": "Policiais militares e bombeiros (ativos, aposentados e pensionistas) e os governos estaduais e federal.",
+  "porQueImporta": "Hoje cada estado define o salário de seus PMs e bombeiros, e os do Distrito Federal, pagos pela União, estão entre os mais altos. O texto, conhecido como PEC 300, foi aprovado na comissão especial em 2009 e está pronto para votação desde então.",
   "fonte": "revisado",
   "en": {
-   "titulo": "Ties military police and firefighter pay to Federal District levels",
-   "oQueMuda": "Military police officers and firefighters in every state could not earn less than those in the Federal District, including retirees, with help from a federal fund.",
-   "quemAfeta": "Military police officers, firefighters (active and retired) and the governments that pay them.",
-   "porQueImporta": "Today each state sets the pay of its military police and firefighters, and those in the Federal District, paid by the federal government, are among the highest. Under the PEC, no state could pay less than the Federal District, with help from a federal fund."
+   "titulo": "Creates a national minimum for military police and firefighters equal to the Federal District's",
+   "oQueMuda": "Minimum pay: military police and firefighters in every state could not earn less than those in the Federal District, a rule that would also apply to retirees and survivors.\nAmounts: the initial minimum would be based on R$ 4,500 for the lowest rank and R$ 9,000 for the lowest officer rank, in December 2009 values, to be updated.\nWho pays: the federal government would help states through a dedicated fund, set by law.\nDeadline: measures would have to be adopted within 180 days.",
+   "quemAfeta": "Military police and firefighters (active, retired and survivors) and state and federal governments.",
+   "porQueImporta": "Today each state sets its military police and firefighters' pay, and those in the Federal District, paid by the federal government, are among the highest. The text, known as PEC 300, was approved by a special committee in 2009 and has been ready for a vote since."
   },
   "es": {
-   "titulo": "Iguala el salario de policías militares y bomberos al del Distrito Federal",
-   "oQueMuda": "Policías militares y bomberos de todos los estados no podrían ganar menos que los del Distrito Federal, incluso los jubilados, con ayuda de un fondo federal.",
-   "quemAfeta": "Policías militares, bomberos (activos y jubilados) y los gobiernos que les pagan.",
-   "porQueImporta": "Hoy cada estado define el salario de sus PM y bomberos, y los del Distrito Federal, pagados por el gobierno federal, están entre los más altos. Con la PEC, ningún estado podría pagar menos que el DF, con ayuda de un fondo federal."
+   "titulo": "Crea un piso nacional para policías militares y bomberos igual al del Distrito Federal",
+   "oQueMuda": "Piso: los policías militares y bomberos de todos los estados no podrían ganar menos que los del Distrito Federal, regla que valdría también para jubilados y pensionistas.\nValores: el piso inicial tendría como referencia R$ 4.500 para la menor graduación y R$ 9.000 para el menor rango de oficial, en valores de diciembre de 2009, a actualizar.\nQuién paga: la Unión ayudaría a los estados mediante un fondo propio, definido por ley.\nPlazo: las medidas tendrían que adoptarse en 180 días.",
+   "quemAfeta": "Policías militares y bomberos (activos, jubilados y pensionistas) y los gobiernos estatales y federal.",
+   "porQueImporta": "Hoy cada estado define el salario de sus policías militares y bomberos, y los del Distrito Federal, pagados por la Unión, están entre los más altos. El texto, conocido como PEC 300, fue aprobado en la comisión especial en 2009 y está listo para votación desde entonces."
   },
   "base": {
    "versao": "c462720",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c414367": {
@@ -1964,51 +1971,50 @@
   "titulo": "Define valor mínimo para o piso da enfermagem",
   "oQueMuda": "Estabelece valores mínimos para os pisos nacionais de enfermeiros, técnicos, auxiliares de enfermagem e parteiras.",
   "quemAfeta": "Profissionais de enfermagem e quem os contrata.",
-  "porQueImporta": "Desde 2022 existe um piso nacional da enfermagem fixado em lei. Com a PEC, os valores mínimos passariam a estar na Constituição.",
+  "porQueImporta": "Desde 2022 existe um piso nacional da enfermagem fixado em lei. Em abril de 2026, a CCJ do Senado recomendou rejeitar esta PEC e aprovou, no lugar dela, a PEC 19/2024, que liga o piso a uma jornada de 36 horas.",
   "fonte": "manual",
   "en": {
    "titulo": "Sets minimum values for the nursing minimum wage",
    "oQueMuda": "Sets minimum amounts for the national minimum salaries of nurses, technicians, nursing assistants and midwives.",
    "quemAfeta": "Nursing professionals and those who hire them.",
-   "porQueImporta": "Since 2022 there has been a national nursing pay floor set by law. Under the PEC, the minimum amounts would be in the Constitution."
+   "porQueImporta": "Since 2022 there has been a national nursing minimum wage set by law. In April 2026, the Senate Justice Committee recommended rejecting this PEC and approved instead PEC 19/2024, which ties the minimum wage to a 36-hour week."
   },
   "es": {
    "titulo": "Define un valor mínimo para el salario mínimo de enfermería",
    "oQueMuda": "Establece valores mínimos para los salarios mínimos nacionales de enfermeros, técnicos, auxiliares de enfermería y parteras.",
    "quemAfeta": "Profesionales de enfermería y quienes los contratan.",
-   "porQueImporta": "Desde 2022 existe un piso nacional de enfermería fijado por ley. Con la PEC, los valores mínimos estarían en la Constitución."
+   "porQueImporta": "Desde 2022 existe un piso nacional de enfermería fijado por ley. En abril de 2026, la CCJ del Senado recomendó rechazar esta PEC y aprobó en su lugar la PEC 19/2024, que vincula el piso a una jornada de 36 horas."
   },
   "base": {
    "versao": "s10199950",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8600341": {
   "titulo": "Protege empresas de comunicação por falas de entrevistados",
-  "oQueMuda": "Veículos de imprensa não responderiam civilmente por acusações falsas ou ofensas feitas por entrevistados.",
-  "quemAfeta": "Jornais, emissoras, jornalistas e pessoas citadas em reportagens.",
-  "porQueImporta": "Hoje jornais e emissoras podem ser condenados a indenizar alguém por acusações feitas por entrevistados. Com a PEC, só o entrevistado responderia na Justiça civil.",
+  "oQueMuda": "Jornais, emissoras e sites de notícias não responderiam na Justiça civil quando um entrevistado acusar alguém de um crime; só o entrevistado poderia ser processado por danos.",
+  "quemAfeta": "Jornais, emissoras, jornalistas e pessoas acusadas em entrevistas.",
+  "porQueImporta": "Hoje, pela tese fixada pelo STF em novembro de 2023, o veículo só responde pela fala de um entrevistado se havia indícios concretos de que a acusação era falsa e ele não teve o cuidado de verificar e de informar esses indícios. Com a PEC, o veículo não responderia em nenhum caso.",
   "fonte": "manual",
   "en": {
    "titulo": "Shields media outlets from liability for what interviewees say",
-   "oQueMuda": "Media outlets would not be civilly liable for false accusations or insults made by interviewees.",
-   "quemAfeta": "Newspapers, broadcasters, journalists and people mentioned in reports.",
-   "porQueImporta": "Today newspapers and broadcasters can be ordered to pay damages for accusations made by interviewees. Under the PEC, only the interviewee would be liable in civil court."
+   "oQueMuda": "Newspapers, broadcasters and news sites would not be liable in civil court when an interviewee accuses someone of a crime; only the interviewee could be sued for damages.",
+   "quemAfeta": "Newspapers, broadcasters, journalists and people accused in interviews.",
+   "porQueImporta": "Today, under the thesis set by the Supreme Court in November 2023, an outlet is liable for an interviewee's statement only if there were concrete signs the accusation was false and it failed to check and to report those signs. Under the PEC, the outlet would never be liable."
   },
   "es": {
    "titulo": "Protege a los medios por lo que dicen sus entrevistados",
-   "oQueMuda": "Los medios no responderían civilmente por acusaciones falsas u ofensas hechas por entrevistados.",
-   "quemAfeta": "Diarios, emisoras, periodistas y personas citadas en reportajes.",
-   "porQueImporta": "Hoy diarios y emisoras pueden ser condenados a indemnizar a alguien por acusaciones hechas por entrevistados. Con la PEC, solo el entrevistado respondería en la justicia civil."
+   "oQueMuda": "Periódicos, emisoras y sitios de noticias no responderían en la Justicia civil cuando un entrevistado acuse a alguien de un delito; solo el entrevistado podría ser demandado por daños.",
+   "quemAfeta": "Periódicos, emisoras, periodistas y personas acusadas en entrevistas.",
+   "porQueImporta": "Hoy, según la tesis fijada por el STF en noviembre de 2023, el medio solo responde por lo dicho por un entrevistado si había indicios concretos de que la acusación era falsa y no tuvo el cuidado de verificar e informar esos indicios. Con la PEC, el medio no respondería en ningún caso."
   },
   "base": {
-   "versao": "outra:Relatório Legislativo 2025-10-21",
+   "versao": "s10198304",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial",
-   "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/0084a220-0884-4898-8f3e-6adca854c5f1"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8622662": {
@@ -2032,8 +2038,8 @@
   "base": {
    "versao": "s10200717",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8640436": {
@@ -2062,28 +2068,28 @@
   }
  },
  "s8664568": {
-  "titulo": "Liga o piso da enfermagem a uma jornada de 30 horas",
-  "oQueMuda": "O piso salarial da enfermagem passaria a valer para jornada máxima de 30 horas por semana.",
-  "quemAfeta": "Profissionais de enfermagem e hospitais.",
-  "porQueImporta": "Hoje o piso da enfermagem vale para a jornada de até 44 horas semanais. Com a PEC, o mesmo valor seria pago por no máximo 30 horas, o que aumenta em cerca de 47% o valor da hora para quem trabalha 44 horas.",
+  "titulo": "Liga o piso da enfermagem a uma jornada de 36 horas e garante reajuste pela inflação",
+  "oQueMuda": "Jornada: o piso salarial da enfermagem passaria a valer para uma jornada máxima de 36 horas por semana, em hospitais públicos e privados (a proposta original falava em 30 horas; a CCJ do Senado mudou para 36, com acordo das entidades da categoria).\nReajuste: o piso teria de ser reajustado todo ano, no mínimo pela inflação dos 12 meses anteriores.",
+  "quemAfeta": "Enfermeiros, técnicos e auxiliares de enfermagem, parteiras, e hospitais públicos e privados.",
+  "porQueImporta": "Hoje o piso da enfermagem vale para a jornada de até 44 horas semanais. Com a PEC, o mesmo valor seria pago por no máximo 36 horas, o que aumenta em cerca de 22% o valor da hora para quem trabalha 44 horas (44 ÷ 36).",
   "fonte": "manual",
   "en": {
-   "titulo": "Ties the nursing minimum wage to a 30-hour week",
-   "oQueMuda": "The nursing minimum salary would apply to a maximum 30-hour workweek.",
-   "quemAfeta": "Nursing professionals and hospitals.",
-   "porQueImporta": "Today the nursing pay floor applies to a workweek of up to 44 hours. Under the PEC, the same amount would be paid for at most 30 hours, raising the hourly value by about 47% for those working 44 hours."
+   "titulo": "Ties the nursing minimum wage to a 36-hour week and guarantees inflation adjustments",
+   "oQueMuda": "Hours: the nursing minimum wage would apply to a maximum 36-hour week, in public and private hospitals (the original proposal said 30 hours; the Senate Justice Committee changed it to 36, with the agreement of the profession's organizations).\nAdjustment: the minimum wage would have to be raised every year, at least by the previous 12 months' inflation.",
+   "quemAfeta": "Nurses, nursing technicians and assistants, midwives, and public and private hospitals.",
+   "porQueImporta": "Today the nursing minimum wage applies to a week of up to 44 hours. Under the PEC, the same amount would be paid for at most 36 hours, raising the hourly value by about 22% for those working 44 hours (44 ÷ 36)."
   },
   "es": {
-   "titulo": "Vincula el salario mínimo de enfermería a una jornada de 30 horas",
-   "oQueMuda": "El salario mínimo de enfermería valdría para una jornada máxima de 30 horas semanales.",
-   "quemAfeta": "Profesionales de enfermería y hospitales.",
-   "porQueImporta": "Hoy el piso de enfermería vale para una jornada de hasta 44 horas semanales. Con la PEC, el mismo valor se pagaría por un máximo de 30 horas, lo que aumenta cerca de un 47% el valor de la hora para quien trabaja 44 horas."
+   "titulo": "Vincula el piso de enfermería a una jornada de 36 horas y garantiza reajuste por inflación",
+   "oQueMuda": "Jornada: el piso salarial de enfermería valdría para una jornada máxima de 36 horas semanales, en hospitales públicos y privados (la propuesta original hablaba de 30 horas; la CCJ del Senado la cambió a 36, con acuerdo de las entidades de la categoría).\nReajuste: el piso tendría que reajustarse cada año, como mínimo por la inflación de los 12 meses anteriores.",
+   "quemAfeta": "Enfermeros, técnicos y auxiliares de enfermería, parteras, y hospitales públicos y privados.",
+   "porQueImporta": "Hoy el piso de enfermería vale para la jornada de hasta 44 horas semanales. Con la PEC, el mismo valor se pagaría por un máximo de 36 horas, lo que aumenta cerca de un 22% el valor de la hora para quien trabaja 44 horas (44 ÷ 36)."
   },
   "base": {
    "versao": "s10199950",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c439075": {
@@ -3170,28 +3176,28 @@
  },
  "c2225224": {
   "titulo": "Permite que professores acumulem outro cargo público",
-  "oQueMuda": "Um professor poderia ter um segundo cargo público remunerado de qualquer área.",
-  "quemAfeta": "Professores da rede pública.",
-  "porQueImporta": "Já em vigor: professores da rede pública podem ter um segundo cargo público remunerado de qualquer área, desde que os horários sejam compatíveis.",
+  "oQueMuda": "Um professor da rede pública pode acumular o cargo com outro cargo público de qualquer área, desde que os horários sejam compatíveis.",
+  "quemAfeta": "Professores da rede pública e os órgãos que os contratam.",
+  "porQueImporta": "Em vigor desde dezembro de 2025 (Emenda 138). Antes, o professor só podia acumular com outro cargo de professor ou com um cargo técnico ou científico.",
   "fonte": "manual",
   "en": {
    "titulo": "Lets teachers hold another public job",
-   "oQueMuda": "A teacher could hold a second paid public job in any field.",
-   "quemAfeta": "Public school teachers.",
-   "porQueImporta": "Already in force: public school teachers can hold a second paid public post in any field, as long as schedules are compatible."
+   "oQueMuda": "A public school teacher may hold another public post in any field, as long as the schedules are compatible.",
+   "quemAfeta": "Public school teachers and the bodies that hire them.",
+   "porQueImporta": "In force since December 2025 (Amendment 138). Before, teachers could only combine their post with another teaching post or a technical or scientific post."
   },
   "es": {
    "titulo": "Permite que los profesores acumulen otro cargo público",
-   "oQueMuda": "Un profesor podría tener un segundo cargo público remunerado de cualquier área.",
-   "quemAfeta": "Profesores de la red pública.",
-   "porQueImporta": "Ya en vigor: los profesores de la red pública pueden tener un segundo cargo público remunerado de cualquier área, siempre que los horarios sean compatibles."
+   "oQueMuda": "Un profesor de la red pública puede acumular el cargo con otro cargo público de cualquier área, siempre que los horarios sean compatibles.",
+   "quemAfeta": "Profesores de la red pública y los órganos que los contratan.",
+   "porQueImporta": "En vigor desde diciembre de 2025 (Enmienda 138). Antes, el profesor solo podía acumular con otro cargo de profesor o con un cargo técnico o científico."
   },
   "base": {
-   "versao": "outra:Redação final aprovada na Câmara 2025-11-04",
+   "versao": "promulgada",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial",
-   "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3038459"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas",
+   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc138.htm"
   }
  },
  "c2598301": {
@@ -3453,28 +3459,34 @@
   }
  },
  "s8639911": {
-  "titulo": "Permite que indígenas vendam livremente sua produção",
-  "oQueMuda": "Povos indígenas poderiam produzir e comercializar livremente e a União teria de prestar apoio técnico.",
-  "quemAfeta": "Povos indígenas.",
-  "porQueImporta": "Hoje terras indígenas são da União, com uso exclusivo dos povos indígenas, e o arrendamento a terceiros é proibido. Com a PEC, os indígenas poderiam produzir e vender livremente, com apoio técnico da União.",
+  "titulo": "Permite arrendar terras indígenas e vender livremente sua produção",
+  "oQueMuda": "Atividades: indígenas e suas comunidades poderiam praticar quaisquer atividades florestais e agropecuárias e vender a produção.\nContratos e arrendamento: poderiam firmar contratos, inclusive de arrendamento e parceria com terceiros, e decidiriam sozinhos como dividir o resultado.\nApoio: a União teria de dar apoio técnico e incentivo às atividades comerciais indígenas.",
+  "quemAfeta": "Povos indígenas, produtores rurais interessados em arrendar terras e a União.",
+  "porQueImporta": "Hoje terras indígenas são da União, com posse permanente e uso exclusivo dos povos indígenas, e o arrendamento a terceiros é proibido por lei. Com a PEC, essas terras poderiam ser arrendadas para produção de terceiros.",
   "fonte": "manual",
   "en": {
-   "titulo": "Lets Indigenous peoples freely sell what they produce",
-   "oQueMuda": "Indigenous peoples could produce and sell freely, and the federal government would have to give technical support.",
-   "quemAfeta": "Indigenous peoples.",
-   "porQueImporta": "Today Indigenous lands belong to the federal government for the exclusive use of Indigenous peoples, and leasing them to others is banned. Under the PEC, Indigenous people could produce and sell freely, with federal technical support."
+   "titulo": "Allows leasing of Indigenous lands and free sale of their production",
+   "oQueMuda": "Activities: Indigenous people and communities could carry out any forestry and farming activities and sell their production.\nContracts and leasing: they could sign contracts, including leases and partnerships with third parties, and would decide on their own how to split the proceeds.\nSupport: the federal government would have to provide technical support and incentives for Indigenous commercial activities.",
+   "quemAfeta": "Indigenous peoples, farmers interested in leasing land and the federal government.",
+   "porQueImporta": "Today Indigenous lands belong to the federal government, with permanent possession and exclusive use by Indigenous peoples, and leasing to third parties is banned by law. Under the PEC, these lands could be leased for third-party production.",
+   "nota": "At the Senate Justice Committee public hearing in December 2025, the idea of allowing leasing was rejected by all participants, including Indigenous representatives and Cimi, who say it contradicts the constitutional right to exclusive use of the lands. Views were split on the part allowing sale of production and contracts."
   },
   "es": {
-   "titulo": "Permite que los indígenas vendan libremente su producción",
-   "oQueMuda": "Los pueblos indígenas podrían producir y comerciar libremente y la Unión tendría que darles apoyo técnico.",
-   "quemAfeta": "Pueblos indígenas.",
-   "porQueImporta": "Hoy las tierras indígenas son del gobierno federal, de uso exclusivo de los pueblos indígenas, y el arrendamiento a terceros está prohibido. Con la PEC, los indígenas podrían producir y vender libremente, con apoyo técnico federal."
+   "titulo": "Permite arrendar tierras indígenas y vender libremente su producción",
+   "oQueMuda": "Actividades: los indígenas y sus comunidades podrían realizar cualquier actividad forestal y agropecuaria y vender su producción.\nContratos y arrendamiento: podrían firmar contratos, incluso de arrendamiento y aparcería con terceros, y decidirían solos cómo repartir el resultado.\nApoyo: la Unión tendría que dar apoyo técnico e incentivo a las actividades comerciales indígenas.",
+   "quemAfeta": "Pueblos indígenas, productores rurales interesados en arrendar tierras y la Unión.",
+   "porQueImporta": "Hoy las tierras indígenas son de la Unión, con posesión permanente y uso exclusivo de los pueblos indígenas, y el arrendamiento a terceros está prohibido por ley. Con la PEC, esas tierras podrían arrendarse para producción de terceros.",
+   "nota": "En la audiencia pública de la CCJ del Senado, en diciembre de 2025, la idea de permitir el arrendamiento fue rechazada por todos los participantes, incluidos indígenas y el Cimi, que dicen que contradice el derecho al uso exclusivo de las tierras previsto en la Constitución. Hubo división sobre la parte que permite vender la producción y firmar contratos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
+  },
+  "nota": {
+   "texto": "Na audiência pública da CCJ do Senado, em dezembro de 2025, a ideia de permitir o arrendamento foi rejeitada por todos os participantes, inclusive indígenas e o Cimi, que dizem que ela contraria o direito ao uso exclusivo das terras previsto na Constituição. Houve divisão sobre a parte que permite vender a produção e firmar contratos.",
+   "url": "https://www12.senado.leg.br/noticias/materias/2025/12/03/pec-que-amplia-uso-economico-de-terras-indigenas-divide-debatedores-na-ccj"
   }
  },
  "c2391567": {

@@ -531,3 +531,20 @@ Método: para cada PEC, busquei análises críticas e técnicas (consultorias, I
 | PEC 245/2016 · Parlamentarismo | Texto não baixou; resumo mantido | — | Pendente |
 
 Correções no site: situação oficial vem da Casa que se mexeu por último; PECs aprovadas nas duas Casas mostram "O que vai mudar, quando for promulgada"; PECs rejeitadas ou arquivadas não mostram aviso de versão.
+
+## 8. Revisão crítica — bloco 4 (12/out/2026)
+
+| PEC | O que estava errado ou faltando (conferido no texto) | Nota proposta | Fontes |
+|---|---|---|---|
+| PEC 19/2024 · Piso da enfermagem 30h | **Desatualizado:** a CCJ do Senado (abr/2026) trocou 30 h por **36 h** e criou reajuste anual mínimo pela inflação; conta da hora corrigida de 47% para 22% | — | Parecer CCJ (s10199950) |
+| PEC 21/2023 · Valores do piso | Faltava: CCJ recomendou rejeitar (aprovou a PEC 19/2024 no lugar) | — | Parecer CCJ (s10199950) |
+| PEC 25/2023 · Sistema Único de Mobilidade | **Faltava o principal:** gratuidade (tarifa zero) no transporte coletivo urbano; contribuição de donos de veículos (municípios) e de empregadores (União) | Inesc (2019): R$ 70,8 bi/ano, ~1% do PIB | Texto (original); [Idec](https://idec.org.br/noticia/pec-do-sum-e-da-tarifa-zero-pode-ir-votacao-na-ccj-neste-ano) |
+| PEC 10/2024 · Produção indígena | **Faltava:** permite **arrendamento** das terras indígenas a terceiros | Audiência na CCJ (dez/2025): arrendamento rejeitado por todos os participantes | Texto (original); [Agência Senado](https://www12.senado.leg.br/noticias/materias/2025/12/03/pec-que-amplia-uso-economico-de-terras-indigenas-divide-debatedores-na-ccj) |
+| PEC 446/2009 · Piso de PMs (PEC 300) | Faltava: valores de referência (R$ 4.500 praça, R$ 9.000 oficial, valores de 2009); vale para aposentados; prazo de 180 dias | — | Substitutivo (c462720) |
+| PEC 67/2023 · Imprensa | **"Hoje" impreciso:** tese do STF (nov/2023) só responsabiliza o veículo com indícios concretos de falsidade e falta de cuidado | — | Parecer CCJ (s10198304) |
+| PEC 5/2026 · CPIs | Faltava: direito ao silêncio mantido; jurisprudência do STF divergente | — | Texto (original) |
+| PEC 82/2007 · Advocacias públicas | Faltava: autonomia orçamentária e repasse em duodécimos; inviolabilidade | — | Substitutivo (c614583) |
+| PEC 6/2026 · Clubes | Faltava: mesmo regime de hotéis, bares e turismo | — | Texto (original) |
+| PEC 39/2022 · Tribunais de Contas (EC 139) | Contexto: Ceará extinguiu seu TCM em 2017; agora é proibido | — | [EC 139](https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc139.htm) |
+| PEC 169/2019 · Professores (EC 138) | Faltava a regra anterior (só técnico ou científico) | — | [EC 138](https://www.planalto.gov.br/ccivil_03/constituicao/Emendas/Emc/emc138.htm) |
+| PEC 3/2024 · Aposentadoria como punição | Confere (CCJ só fez ajustes de redação) | — | Parecer CCJ (s10200717) |
