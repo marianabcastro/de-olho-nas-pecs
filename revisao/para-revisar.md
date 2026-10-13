@@ -561,3 +561,19 @@ Correções no site: situação oficial vem da Casa que se mexeu por último; PE
 | PEC 27/2025 · Foro após o mandato | Faltava: vale também para processos já em andamento | Texto (original) |
 | PEC 37/2022 · Polícias municipais | Faltava: mudança de nome por lei municipal; relação com a PEC 18/2025 | Texto aprovado no Senado |
 | PEC 76/2019, 2/2016, 81/2015, 137/2019, 109/2015 | Conferem com o texto | Textos aprovados / originais |
+
+## 10. Revisão crítica — bloco 6 (12/out/2026)
+
+| PEC | O que estava errado ou faltando (conferido no texto) |
+|---|---|
+| PEC 331/2017 · Veto popular | **Errado:** eleitores não derrubariam a lei diretamente; apresentariam pedido de revogação (1% do eleitorado) e o Congresso decidiria |
+| PEC 518/2010 · Estabilidade de antigos servidores | **Faltava:** inclui ocupantes de cargos em comissão, de confiança e de livre exoneração em 1990, com 20 anos de serviço |
+| PEC 3/2025 · Segurança pública pelo Congresso | **Faltava:** nova cláusula pétrea contra reduzir a autonomia das polícias estaduais ou centralizar o combate ao crime; Congresso legisla por decreto legislativo (sem sanção); novas forças precisam de autorização |
+| PEC 58/2023 · Licenças | Faltavam os números: 180 dias (maternidade) e 20 (paternidade), para todos, inclusive adoção |
+| PEC 364/2009 · Regime fechado | Faltava: vale também para tráfico, tortura e terrorismo |
+| PEC 84/2019 · Pacto federativo | Faltava: aeroportos; estados ficam com o crescimento da arrecadação federal |
+| PEC 11/2024 · Defensorias | Ajuste: plantão permanente nos dias sem expediente; recursos graduais |
+| PEC 16/2025 · Socioeducativo | Ajuste: subordinação aos governadores, transformação de cargos |
+| PEC 253/2016, 36/2022, 148/2015, 39/2019 | Conferem |
+
+Chat: temas "Amazônia" e "Idosos" pegavam palavras soltas ("acre" em "acrescenta", "idos" em "partidos"); corrigido com limites de palavra. Amazônia: 178 → 8 PECs; Idosos: 107 → 6.

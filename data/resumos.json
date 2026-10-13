@@ -868,8 +868,8 @@
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2234666": {
@@ -1578,8 +1578,8 @@
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c257418": {
@@ -2044,27 +2044,27 @@
  },
  "s8640436": {
   "titulo": "Exige plantão 24 horas das Defensorias para saúde e violência doméstica",
-  "oQueMuda": "As Defensorias Públicas teriam atendimento sem interrupção, com prioridade para questões de saúde e de violência doméstica.",
-  "quemAfeta": "Pessoas que precisam da Justiça para obter tratamento e vítimas de violência doméstica.",
-  "porQueImporta": "Hoje cada Defensoria define seus horários de atendimento. Com a PEC, todas teriam plantão 24 horas, com prioridade para saúde e violência doméstica.",
+  "oQueMuda": "As Defensorias Públicas teriam atendimento ininterrupto, com defensores em plantão permanente nos dias sem expediente forense, e prioridade para causas de saúde e de violência doméstica e familiar. Os recursos seriam garantidos aos poucos pelo governo de cada Defensoria.",
+  "quemAfeta": "Pessoas que dependem da Defensoria Pública, defensores e os governos estaduais e federal.",
+  "porQueImporta": "Hoje cada Defensoria define seus plantões, e muitas não têm atendimento fora do horário forense. Com a PEC, todas teriam plantão permanente.",
   "fonte": "revisado",
   "en": {
    "titulo": "Requires 24-hour Public Defender service for health and domestic violence",
-   "oQueMuda": "Public Defender's Offices would offer uninterrupted service, prioritizing health matters and domestic violence.",
-   "quemAfeta": "People who need the courts to obtain treatment and domestic violence victims.",
-   "porQueImporta": "Today each Public Defender's Office sets its own hours. Under the PEC, all would have 24-hour service, prioritizing health and domestic violence."
+   "oQueMuda": "Public Defenders' Offices would operate without interruption, with defenders on permanent duty on days without court hours, and priority for health and domestic and family violence cases. Funding would be gradually guaranteed by each office's government.",
+   "quemAfeta": "People who depend on public defenders, defenders and state and federal governments.",
+   "porQueImporta": "Today each Public Defenders' Office sets its own on-call schedule, and many have no service outside court hours. Under the PEC, all would have permanent on-call service."
   },
   "es": {
    "titulo": "Exige guardia 24 horas de las Defensorías para salud y violencia doméstica",
-   "oQueMuda": "Las Defensorías Públicas tendrían atención sin interrupción, con prioridad para salud y violencia doméstica.",
-   "quemAfeta": "Personas que necesitan de la Justicia para obtener tratamiento y víctimas de violencia doméstica.",
-   "porQueImporta": "Hoy cada Defensoría define sus horarios de atención. Con la PEC, todas tendrían guardia 24 horas, con prioridad para salud y violencia doméstica."
+   "oQueMuda": "Las Defensorías Públicas tendrían atención ininterrumpida, con defensores de guardia permanente en los días sin actividad judicial, y prioridad para causas de salud y de violencia doméstica y familiar. Los recursos serían garantizados poco a poco por el gobierno de cada Defensoría.",
+   "quemAfeta": "Personas que dependen de la Defensoría Pública, defensores y los gobiernos estatales y federal.",
+   "porQueImporta": "Hoy cada Defensoría define sus guardias, y muchas no atienden fuera del horario judicial. Con la PEC, todas tendrían guardia permanente."
   },
   "base": {
    "versao": "s10198328",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8664568": {
@@ -3252,27 +3252,27 @@
  },
  "c434376": {
   "titulo": "Obriga cumprir toda a pena em regime fechado em crimes hediondos",
-  "oQueMuda": "Autores de crimes hediondos cumpririam a pena inteira em regime fechado.",
-  "quemAfeta": "Condenados por crimes hediondos e o sistema prisional.",
-  "porQueImporta": "Hoje condenados por crimes hediondos podem passar ao regime semiaberto depois de cumprir de 40% a 70% da pena; em 2006 o STF derrubou uma regra que proibia isso. Com a PEC, cumpririam a pena toda em regime fechado.",
+  "oQueMuda": "Condenados por crimes hediondos, tráfico de drogas, tortura e terrorismo teriam de cumprir a pena inteira em regime fechado, sem progressão para o semiaberto ou o aberto.",
+  "quemAfeta": "Condenados por esses crimes e o sistema prisional.",
+  "porQueImporta": "Hoje condenados por crimes hediondos podem passar a um regime mais brando depois de cumprir de 40% a 70% da pena. Em 2006 o STF derrubou uma lei que exigia regime integralmente fechado, por violar a individualização da pena, que é um direito fundamental; com a PEC, a regra passaria a estar na própria Constituição.",
   "fonte": "manual",
   "en": {
    "titulo": "Requires full sentences in closed prison for heinous crimes",
-   "oQueMuda": "People who commit heinous crimes would serve the entire sentence in closed prison.",
-   "quemAfeta": "People convicted of heinous crimes and the prison system.",
-   "porQueImporta": "Today people convicted of heinous crimes can move to a semi-open regime after serving 40% to 70% of the sentence; in 2006 the Supreme Court struck down a rule banning this. Under the PEC, they would serve the whole sentence in closed prison."
+   "oQueMuda": "People convicted of heinous crimes, drug trafficking, torture and terrorism would have to serve their entire sentence in closed prison, with no progression to semi-open or open regimes.",
+   "quemAfeta": "People convicted of these crimes and the prison system.",
+   "porQueImporta": "Today people convicted of heinous crimes can move to a milder regime after serving 40% to 70% of the sentence. In 2006 the Supreme Court struck down a law requiring fully closed prison because it violated individualized sentencing, a fundamental right; under the PEC, the rule would be in the Constitution itself."
   },
   "es": {
    "titulo": "Obliga a cumplir toda la pena en régimen cerrado en delitos atroces",
-   "oQueMuda": "Los autores de delitos atroces cumplirían toda la pena en régimen cerrado.",
-   "quemAfeta": "Condenados por delitos atroces y el sistema penitenciario.",
-   "porQueImporta": "Hoy los condenados por delitos atroces pueden pasar al régimen semiabierto tras cumplir del 40% al 70% de la pena; en 2006 el STF anuló una regla que lo prohibía. Con la PEC, cumplirían toda la pena en régimen cerrado."
+   "oQueMuda": "Los condenados por crímenes atroces, tráfico de drogas, tortura y terrorismo tendrían que cumplir toda la pena en régimen cerrado, sin progresión al semiabierto ni al abierto.",
+   "quemAfeta": "Condenados por esos delitos y el sistema penitenciario.",
+   "porQueImporta": "Hoy los condenados por crímenes atroces pueden pasar a un régimen más leve tras cumplir del 40% al 70% de la pena. En 2006 el STF anuló una ley que exigía régimen íntegramente cerrado, por violar la individualización de la pena, que es un derecho fundamental; con la PEC, la regla estaría en la propia Constitución."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2596372": {
@@ -3326,28 +3326,28 @@
   }
  },
  "c2140426": {
-  "titulo": "Cria o veto popular a leis",
-  "oQueMuda": "Os eleitores poderiam derrubar leis aprovadas, seguindo critérios definidos.",
-  "quemAfeta": "Eleitores e o Legislativo.",
-  "porQueImporta": "Hoje os eleitores podem propor leis com assinaturas, mas não podem derrubar leis aprovadas. Com a PEC, poderiam revogar leis por meio de um veto popular.",
+  "titulo": "Cria o pedido popular para revogar leis",
+  "oQueMuda": "Eleitores poderiam apresentar à Câmara um pedido para revogar uma lei, com assinaturas de pelo menos 1% do eleitorado nacional, distribuídas em pelo menos cinco estados, com no mínimo 0,3% dos eleitores de cada um. O pedido seguiria as regras de tramitação de um projeto de lei: quem decide é o Congresso.",
+  "quemAfeta": "Eleitores e o Congresso.",
+  "porQueImporta": "Hoje os eleitores podem propor leis com as mesmas exigências de assinaturas (iniciativa popular), mas não podem pedir a revogação de uma lei. Com a PEC, poderiam, mas a revogação continuaria dependendo do voto dos parlamentares.",
   "fonte": "manual",
   "en": {
-   "titulo": "Creates a popular veto on laws",
-   "oQueMuda": "Voters could strike down approved laws, following set criteria.",
-   "quemAfeta": "Voters and the legislature.",
-   "porQueImporta": "Today voters can propose laws by collecting signatures but cannot overturn laws already passed. Under the PEC, they could repeal laws through a popular veto."
+   "titulo": "Creates a popular petition to repeal laws",
+   "oQueMuda": "Voters could submit to the Chamber a request to repeal a law, with signatures from at least 1% of the national electorate, spread across at least five states, with at least 0.3% of voters in each. The request would follow the procedure for a bill: Congress decides.",
+   "quemAfeta": "Voters and Congress.",
+   "porQueImporta": "Today voters can propose laws with the same signature requirements (popular initiative), but cannot request that a law be repealed. Under the PEC, they could, but repeal would still depend on lawmakers' votes."
   },
   "es": {
-   "titulo": "Crea el veto popular a las leyes",
-   "oQueMuda": "Los votantes podrían anular leyes aprobadas, siguiendo criterios definidos.",
-   "quemAfeta": "Votantes y el Poder Legislativo.",
-   "porQueImporta": "Hoy los electores pueden proponer leyes con firmas, pero no pueden derribar leyes aprobadas. Con la PEC, podrían revocar leyes mediante un veto popular."
+   "titulo": "Crea la petición popular para derogar leyes",
+   "oQueMuda": "Los electores podrían presentar a la Cámara una petición para derogar una ley, con firmas de al menos el 1% del electorado nacional, distribuidas en al menos cinco estados, con un mínimo del 0,3% de los electores de cada uno. La petición seguiría las reglas de tramitación de un proyecto de ley: decide el Congreso.",
+   "quemAfeta": "Electores y el Congreso.",
+   "porQueImporta": "Hoy los electores pueden proponer leyes con las mismas exigencias de firmas (iniciativa popular), pero no pueden pedir la derogación de una ley. Con la PEC, podrían, pero la derogación seguiría dependiendo del voto de los parlamentarios."
   },
   "base": {
    "versao": "original",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s1396298": {
@@ -3371,8 +3371,8 @@
   "base": {
    "versao": "s10128613",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial"
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8611954": {
@@ -3406,27 +3406,27 @@
  },
  "s8815148": {
   "titulo": "Inclui o sistema socioeducativo na segurança pública",
-  "oQueMuda": "Órgãos que aplicam medidas a adolescentes infratores passariam a integrar a segurança pública, com cargos por concurso.",
+  "oQueMuda": "Os órgãos do sistema socioeducativo, que cuidam das unidades de internação de adolescentes, passariam a integrar a segurança pública, subordinados aos governadores e dirigidos por servidores de carreira. Os cargos seriam preenchidos por concurso ou pela transformação dos cargos atuais.",
   "quemAfeta": "Servidores do sistema socioeducativo e adolescentes internados.",
   "porQueImporta": "Hoje servidores das unidades de internação de adolescentes não fazem parte dos órgãos de segurança pública. Com a PEC, passariam a fazer, com cargos por concurso.",
   "fonte": "manual",
   "en": {
    "titulo": "Adds the juvenile detention system to public safety",
-   "oQueMuda": "Bodies that apply measures to juvenile offenders would become part of public safety, with jobs filled by public exam.",
+   "oQueMuda": "Juvenile detention system bodies, which run detention units for adolescents, would become part of public security, under governors and led by career staff. Posts would be filled by public exams or by converting current posts.",
    "quemAfeta": "Juvenile detention staff and detained teenagers.",
    "porQueImporta": "Today staff at juvenile detention units are not part of the public security bodies. Under the PEC, they would be, with posts filled by public exam."
   },
   "es": {
    "titulo": "Incluye el sistema socioeducativo en la seguridad pública",
-   "oQueMuda": "Los órganos que aplican medidas a adolescentes infractores formarían parte de la seguridad pública, con cargos por concurso.",
+   "oQueMuda": "Los órganos del sistema socioeducativo, que cuidan de las unidades de internación de adolescentes, pasarían a integrar la seguridad pública, subordinados a los gobernadores y dirigidos por servidores de carrera. Los cargos se llenarían por concurso o por transformación de los cargos actuales.",
    "quemAfeta": "Servidores del sistema socioeducativo y adolescentes internados.",
    "porQueImporta": "Hoy los servidores de las unidades de internación de adolescentes no forman parte de los órganos de seguridad pública. Con la PEC, pasarían a formar parte, con cargos por concurso."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8060173": {
@@ -3599,28 +3599,28 @@
   }
  },
  "s8789546": {
-  "titulo": "Dá ao Congresso a competência sobre normas de segurança pública",
-  "oQueMuda": "O Congresso passaria a definir sozinho as normas gerais de segurança, defesa social e presídios.",
-  "quemAfeta": "Governos federal e estaduais e as polícias.",
-  "porQueImporta": "Hoje União e estados dividem a competência para fazer leis de segurança pública e presídios. Com a PEC, só o Congresso faria as normas gerais.",
+  "titulo": "Dá ao Congresso as normas de segurança pública e proíbe centralizar o combate ao crime",
+  "oQueMuda": "Normas gerais: o Congresso passaria a fazer as normas gerais de segurança pública, defesa social e presídios como competência exclusiva, por decreto legislativo, que não passa por sanção ou veto do presidente.\nNovas forças: criar novas forças de segurança ostensivas ou de atuação federal exigiria autorização do Congresso.\nCláusula pétrea: nenhuma emenda futura poderia reduzir a autonomia e as competências das polícias estaduais ou centralizar o combate ao crime.",
+  "quemAfeta": "Congresso, governo federal, polícias estaduais e governos estaduais.",
+  "porQueImporta": "Hoje União e estados dividem a competência para fazer leis de segurança pública e presídios, e essas leis passam por sanção do presidente. Com a PEC, o Congresso decidiria sozinho, e propostas como a PEC 18/2025 (Segurança Pública), que dá mais papel à União, ficariam limitadas pela nova cláusula pétrea.",
   "fonte": "manual",
   "en": {
-   "titulo": "Gives Congress power over public safety rules",
-   "oQueMuda": "Congress alone would set general rules on public safety, social defense and prisons.",
-   "quemAfeta": "Federal and state governments and the police.",
-   "porQueImporta": "Today the federal government and states share the power to make public security and prison laws. Under the PEC, only Congress would make the general rules."
+   "titulo": "Gives Congress the public security rules and bans centralizing crime-fighting",
+   "oQueMuda": "General rules: Congress would set the general rules on public security, social defense and prisons as an exclusive power, by legislative decree, which is not subject to presidential approval or veto.\nNew forces: creating new patrol or federal security forces would require Congress's authorization.\nEntrenched clause: no future amendment could reduce the autonomy and powers of state police or centralize the fight against crime.",
+   "quemAfeta": "Congress, the federal government, state police and state governments.",
+   "porQueImporta": "Today the federal government and states share the power to legislate on public security and prisons, and these laws require presidential approval. Under the PEC, Congress would decide alone, and proposals such as PEC 18/2025 (Public Security), which gives the federal government a larger role, would be limited by the new entrenched clause."
   },
   "es": {
-   "titulo": "Da al Congreso la competencia sobre normas de seguridad pública",
-   "oQueMuda": "El Congreso definiría solo las normas generales de seguridad, defensa social y cárceles.",
-   "quemAfeta": "Gobiernos federal y estatales y las policías.",
-   "porQueImporta": "Hoy el gobierno federal y los estados comparten la competencia para hacer leyes de seguridad pública y cárceles. Con la PEC, solo el Congreso haría las normas generales."
+   "titulo": "Da al Congreso las normas de seguridad pública y prohíbe centralizar el combate al crimen",
+   "oQueMuda": "Normas generales: el Congreso haría las normas generales de seguridad pública, defensa social y cárceles como competencia exclusiva, por decreto legislativo, que no pasa por sanción ni veto del presidente.\nNuevas fuerzas: crear nuevas fuerzas de seguridad ostensivas o de actuación federal exigiría autorización del Congreso.\nCláusula pétrea: ninguna enmienda futura podría reducir la autonomía y las competencias de las policías estatales o centralizar el combate al crimen.",
+   "quemAfeta": "Congreso, gobierno federal, policías estatales y gobiernos estatales.",
+   "porQueImporta": "Hoy la Unión y los estados comparten la competencia para legislar sobre seguridad pública y cárceles, y esas leyes pasan por sanción del presidente. Con la PEC, el Congreso decidiría solo, y propuestas como la PEC 18/2025 (Seguridad Pública), que da más papel a la Unión, quedarían limitadas por la nueva cláusula pétrea."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s8961392": {
@@ -3676,27 +3676,27 @@
  },
  "s7757038": {
   "titulo": "Permite à União passar portos, ferrovias e energia aos estados",
-  "oQueMuda": "Estados poderiam explorar portos, ferrovias e energia, e ficar com aumentos de arrecadação federal em seu território.",
-  "quemAfeta": "Governos estaduais e a União.",
-  "porQueImporta": "Hoje portos, ferrovias e energia são de competência da União. Com a PEC, estados poderiam explorar esses serviços e ficar com o aumento de arrecadação federal gerado em seu território.",
+  "oQueMuda": "Delegação: a União poderia delegar aos estados, por lei, a exploração de portos, aeroportos, ferrovias e energia elétrica dentro de seus territórios.\nArrecadação: o que os impostos federais arrecadados em cada estado crescerem acima do ano anterior (corrigido) iria para o estado; se a arrecadação cair, os estados devolveriam à União nos dois anos seguintes.",
+  "quemAfeta": "Estados, a União e empresas de transporte e energia.",
+  "porQueImporta": "Hoje portos, aeroportos, ferrovias e energia são de competência da União, e a arrecadação federal é repartida com estados e municípios por percentuais fixos. Com a PEC, os estados poderiam explorar esses serviços e ficariam com o crescimento da arrecadação federal em seu território.",
   "fonte": "manual",
   "en": {
    "titulo": "Lets the federal government hand ports, railways and energy to states",
-   "oQueMuda": "States could run ports, railways and energy, and keep increases in federal revenue collected in their territory.",
-   "quemAfeta": "State governments and the federal government.",
-   "porQueImporta": "Today ports, railways and energy are federal responsibilities. Under the PEC, states could operate these services and keep the increase in federal revenue generated in their territory."
+   "oQueMuda": "Delegation: the federal government could delegate to states, by law, the operation of ports, airports, railways and electricity within their territory.\nRevenue: any growth in federal taxes collected in each state above the previous year (adjusted) would go to that state; if revenue falls, states would return money to the federal government over the next two years.",
+   "quemAfeta": "States, the federal government and transport and energy companies.",
+   "porQueImporta": "Today ports, airports, railways and energy are federal responsibilities, and federal revenue is shared with states and municipalities by fixed percentages. Under the PEC, states could run these services and keep the growth in federal revenue in their territory."
   },
   "es": {
    "titulo": "Permite a la Unión transferir puertos, ferrocarriles y energía a los estados",
-   "oQueMuda": "Los estados podrían explotar puertos, ferrocarriles y energía, y quedarse con aumentos de recaudación federal en su territorio.",
-   "quemAfeta": "Gobiernos estatales y la Unión.",
-   "porQueImporta": "Hoy puertos, ferrocarriles y energía son competencia del gobierno federal. Con la PEC, los estados podrían explotar esos servicios y quedarse con el aumento de recaudación federal generado en su territorio."
+   "oQueMuda": "Delegación: la Unión podría delegar a los estados, por ley, la explotación de puertos, aeropuertos, ferrocarriles y energía eléctrica dentro de sus territorios.\nRecaudación: lo que los impuestos federales recaudados en cada estado crezcan por encima del año anterior (corregido) iría al estado; si la recaudación cae, los estados devolverían a la Unión en los dos años siguientes.",
+   "quemAfeta": "Estados, la Unión y empresas de transporte y energía.",
+   "porQueImporta": "Hoy puertos, aeropuertos, ferrocarriles y energía son competencia de la Unión, y la recaudación federal se reparte con estados y municipios por porcentajes fijos. Con la PEC, los estados podrían explotar esos servicios y se quedarían con el crecimiento de la recaudación federal en su territorio."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "s7737114": {
@@ -3719,9 +3719,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2479738": {
@@ -4794,28 +4794,28 @@
   }
  },
  "c486477": {
-  "titulo": "Dá estabilidade a antigos servidores contratados pela CLT",
-  "oQueMuda": "Servidores admitidos pela CLT que estavam em exercício quando foi criado o regime jurídico único ganhariam estabilidade.",
-  "quemAfeta": "Esse grupo de servidores antigos.",
-  "porQueImporta": "Em 1988, servidores com cinco anos de serviço ganharam estabilidade, mas parte dos contratados pela CLT ficou de fora. Com a PEC, esse grupo também ganharia estabilidade.",
+  "titulo": "Dá estabilidade a antigos servidores, inclusive de cargos de confiança",
+  "oQueMuda": "Seriam considerados estáveis os servidores da União, dos estados e dos municípios que estavam em exercício até 11 de dezembro de 1990 e tenham pelo menos 20 anos de serviço público, inclusive ocupantes de cargos em comissão, de confiança e de livre exoneração.",
+  "quemAfeta": "Servidores antigos sem estabilidade, inclusive comissionados, e os governos que os empregam.",
+  "porQueImporta": "Em 1988, ganharam estabilidade servidores com cinco anos de serviço, e cargos em comissão nunca tiveram estabilidade: podem ser exonerados a qualquer momento. Com a PEC, quem ocupava esses cargos em 1990 e completou 20 anos de serviço também ficaria estável.",
   "fonte": "manual",
   "en": {
-   "titulo": "Grants job security to long-serving workers hired under the CLT",
-   "oQueMuda": "Civil servants hired under the CLT who were working when the unified legal regime was created would gain tenure.",
-   "quemAfeta": "This group of long-serving civil servants.",
-   "porQueImporta": "In 1988, civil servants with five years of service gained job stability, but some hired under labor law were left out. Under the PEC, this group would gain stability too."
+   "titulo": "Grants job stability to long-serving civil servants, including political appointees",
+   "oQueMuda": "Federal, state and municipal civil servants who were working by December 11, 1990 and have at least 20 years of public service would be considered tenured, including holders of commissioned, trust and freely dismissible posts.",
+   "quemAfeta": "Long-serving civil servants without tenure, including appointees, and the governments that employ them.",
+   "porQueImporta": "In 1988, civil servants with five years of service gained tenure, and commissioned posts never had tenure: they can be dismissed at any time. Under the PEC, those who held such posts in 1990 and completed 20 years of service would also be tenured."
   },
   "es": {
-   "titulo": "Da estabilidad a antiguos servidores contratados por la CLT",
-   "oQueMuda": "Los servidores contratados por la CLT que estaban en funciones cuando se creó el régimen jurídico único tendrían estabilidad.",
-   "quemAfeta": "Este grupo de servidores antiguos.",
-   "porQueImporta": "En 1988, los servidores con cinco años de servicio ganaron estabilidad, pero parte de los contratados por la CLT quedó fuera. Con la PEC, ese grupo también ganaría estabilidad."
+   "titulo": "Da estabilidad a antiguos servidores, incluso de cargos de confianza",
+   "oQueMuda": "Se considerarían estables los servidores de la Unión, los estados y los municipios que estaban en ejercicio hasta el 11 de diciembre de 1990 y tengan al menos 20 años de servicio público, incluso los que ocupan cargos en comisión, de confianza y de libre remoción.",
+   "quemAfeta": "Servidores antiguos sin estabilidad, incluidos los comisionados, y los gobiernos que los emplean.",
+   "porQueImporta": "En 1988 obtuvieron estabilidad los servidores con cinco años de servicio, y los cargos en comisión nunca tuvieron estabilidad: pueden ser exonerados en cualquier momento. Con la PEC, quienes ocupaban esos cargos en 1990 y cumplieron 20 años de servicio también serían estables."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "c2093687",
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2262083": {
@@ -9089,27 +9089,27 @@
  },
  "s8582100": {
   "titulo": "Amplia licença-maternidade e paternidade",
-  "oQueMuda": "Aumenta a duração das licenças-maternidade, paternidade e por adoção.",
-  "quemAfeta": "Pais, mães e empregadores.",
-  "porQueImporta": "Hoje a licença-maternidade é de 120 dias (180 em empresas do programa Empresa Cidadã) e a paternidade é de 5 dias (20 nessas empresas). Com a PEC, essas licenças seriam mais longas.",
+  "oQueMuda": "A licença-maternidade passaria a ser de 180 dias e a licença-paternidade de 20 dias para todos os trabalhadores, inclusive em caso de adoção, sem prejuízo do emprego e do salário.",
+  "quemAfeta": "Mães, pais, quem adota, empresas e a Previdência, que paga o salário-maternidade.",
+  "porQueImporta": "Hoje a licença-maternidade é de 120 dias e a paternidade de 5 dias; só empresas que aderem ao programa Empresa Cidadã, e o serviço público federal, dão 180 e 20 dias. Com a PEC, os prazos maiores valeriam para todos.",
   "fonte": "manual",
   "en": {
    "titulo": "Extends maternity and paternity leave",
-   "oQueMuda": "Increases the length of maternity, paternity and adoption leave.",
-   "quemAfeta": "Fathers, mothers and employers.",
-   "porQueImporta": "Today maternity leave is 120 days (180 at companies in the Empresa Cidadã program) and paternity leave is 5 days (20 at those companies). Under the PEC, these leaves would be longer."
+   "oQueMuda": "Maternity leave would be 180 days and paternity leave 20 days for all workers, including in adoption cases, with no loss of job or pay.",
+   "quemAfeta": "Mothers, fathers, adoptive parents, companies and Social Security, which pays maternity pay.",
+   "porQueImporta": "Today maternity leave is 120 days and paternity leave 5 days; only companies in the Empresa Cidadã program, and the federal civil service, give 180 and 20 days. Under the PEC, the longer periods would apply to everyone."
   },
   "es": {
    "titulo": "Amplía las licencias de maternidad y paternidad",
-   "oQueMuda": "Aumenta la duración de las licencias de maternidad, paternidad y por adopción.",
-   "quemAfeta": "Padres, madres y empleadores.",
-   "porQueImporta": "Hoy la licencia de maternidad es de 120 días (180 en empresas del programa Empresa Cidadã) y la de paternidad de 5 días (20 en esas empresas). Con la PEC, esas licencias serían más largas."
+   "oQueMuda": "La licencia de maternidad sería de 180 días y la de paternidad de 20 días para todos los trabajadores, incluso en caso de adopción, sin perjuicio del empleo ni del salario.",
+   "quemAfeta": "Madres, padres, quienes adoptan, empresas y la Previsión Social, que paga el salario de maternidad.",
+   "porQueImporta": "Hoy la licencia de maternidad es de 120 días y la de paternidad de 5 días; solo las empresas del programa Empresa Cidadã, y el servicio público federal, dan 180 y 20 días. Con la PEC, los plazos mayores valdrían para todos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-12",
+   "fonte": "revisão crítica: texto oficial + fontes críticas"
   }
  },
  "c2147461": {

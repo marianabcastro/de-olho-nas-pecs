@@ -347,10 +347,11 @@ pt: {
   votos: { sim: "Sim", nao: "Não", abstencao: "Abstenção", obstrucao: "Obstrução", outro: "Outro" },
   d_h1: "Descubra suas PECs", d_p: "Escreva com suas palavras o que te interessa ou te preocupa. Procuramos essas palavras em todas as PECs e mostramos as que merecem sua atenção.",
   d_ph: "Escreva aqui o que te interessa", d_env: "Enviar", d_msg: "Sua mensagem",
-  d_oi: "Oi! O que te interessa?", d_ex: 'Pode escrever do seu jeito. Por exemplo: "sou professora e quero saber da minha aposentadoria", "preço da gasolina", "praias" ou o nome de um deputado ou senador.',
+  d_oi: "Oi! O que te interessa?", d_ex: 'Pode escrever do seu jeito. Por exemplo: "sou professora e quero saber da minha aposentadoria", "preço da gasolina", "praias" ou o nome de um deputado ou senador. Para buscar só uma palavra exata, sem sinônimos, use aspas: flavio bolsonaro "amazonia".',
   d_achei: (w, n, pr) => `Procurei por ${w} e encontrei <b>${n} ${n === 1 ? "PEC" : "PECs"}</b>${pr ? `, ${pr} pronta${pr > 1 ? "s" : ""} para votar` : ""}. As que mais combinam com o que você escreveu e estão mais perto de uma decisão aparecem primeiro:`,
   d_sem: w => `Não encontrei nenhuma PEC com: ${w}.`, d_lgbt: "Há poucas PECs sobre direitos LGBTQIA+. Boa parte desses direitos no Brasil vem de decisões do STF e de leis comuns, não de emendas à Constituição.",
   d_parcial: (tudo, um) => `Nenhuma PEC fala de ${tudo} ao mesmo tempo. Mostrei as que falam de <b>${um}</b>, o termo mais específico que você usou.`,
+  d_nada_exato: "Nenhuma PEC usa exatamente essa palavra. Tente sem as aspas: assim eu procuro também sinônimos e palavras parecidas.",
   d_nada: 'Não encontrei PECs com essas palavras. Tente escrever de outro jeito, com palavras do dia a dia, como "escola", "aposentadoria" ou "imposto".', d_talvez: l => `Talvez você esteja procurando: ${l}.`,
   d_parl_nao: "Não encontramos esse parlamentar nas PECs que acompanhamos.", mostrar_todas: n => `Mostrar todas as ${n}`,
   cargo: { camara: "Deputado(a) federal", senado: "Senador(a)" },
@@ -474,10 +475,11 @@ en: {
   votos: { sim: "Yes", nao: "No", abstencao: "Abstained", obstrucao: "Obstruction", outro: "Other" },
   d_h1: "Find your PECs", d_p: "Tell us in your own words what you care about or worry about. We search every PEC for those words and show you the ones worth your attention.",
   d_ph: "Type what you care about", d_env: "Send", d_msg: "Your message",
-  d_oi: "Hi! What do you care about?", d_ex: 'Write it your own way. For example: "I\'m a teacher and want to know about my pension", "gas prices", "beaches", or the name of a deputy or senator.',
+  d_oi: "Hi! What do you care about?", d_ex: 'Write it your own way. For example: "I\'m a teacher and want to know about my pension", "gas prices", "beaches", or the name of a deputy or senator. To search for one exact word, without synonyms, use quotes: flavio bolsonaro "amazonia".',
   d_achei: (w, n, pr) => `I searched for ${w} and found <b>${n} ${n === 1 ? "PEC" : "PECs"}</b>${pr ? `, ${pr} ready for a vote` : ""}. The best matches that are closest to a decision come first:`,
   d_sem: w => `I didn't find any PEC with: ${w}.`, d_lgbt: "Few PECs deal with LGBTQIA+ rights. Most of these rights in Brazil come from Supreme Court rulings and ordinary laws, not constitutional amendments.",
   d_parcial: (all, one) => `No PEC covers ${all} together. I'm showing the ones about <b>${one}</b>, the most specific term you used.`,
+  d_nada_exato: "No PEC uses exactly that word. Try without the quotes: then I also look for synonyms and similar words.",
   d_nada: 'I couldn\'t find PECs with those words. Try different, everyday words like "school", "pension" or "tax".', d_talvez: l => `Maybe you're looking for: ${l}.`,
   d_parl_nao: "We couldn't find this member of Congress in the PECs we track.", mostrar_todas: n => `Show all ${n}`,
   cargo: { camara: "Federal deputy", senado: "Senator" },
@@ -601,10 +603,11 @@ es: {
   votos: { sim: "Sí", nao: "No", abstencao: "Abstención", obstrucao: "Obstrucción", outro: "Otro" },
   d_h1: "Descubre tus PECs", d_p: "Escribe con tus palabras lo que te interesa o te preocupa. Buscamos esas palabras en todas las PECs y te mostramos las que merecen tu atención.",
   d_ph: "Escribe aquí lo que te interesa", d_env: "Enviar", d_msg: "Tu mensaje",
-  d_oi: "¡Hola! ¿Qué te interesa?", d_ex: 'Puedes escribirlo a tu manera. Por ejemplo: "soy profesora y quiero saber de mi jubilación", "precio de la gasolina", "playas" o el nombre de un diputado o senador.',
+  d_oi: "¡Hola! ¿Qué te interesa?", d_ex: 'Puedes escribirlo a tu manera. Por ejemplo: "soy profesora y quiero saber de mi jubilación", "precio de la gasolina", "playas" o el nombre de un diputado o senador. Para buscar solo una palabra exacta, sin sinónimos, usa comillas: flavio bolsonaro "amazonia".',
   d_achei: (w, n, pr) => `Busqué ${w} y encontré <b>${n} ${n === 1 ? "PEC" : "PECs"}</b>${pr ? `, ${pr} lista${pr > 1 ? "s" : ""} para votar` : ""}. Primero aparecen las que más coinciden y están más cerca de una decisión:`,
   d_sem: w => `No encontré ninguna PEC con: ${w}.`, d_lgbt: "Hay pocas PECs sobre derechos LGBTQIA+. En Brasil, buena parte de esos derechos viene de decisiones del Supremo y de leyes comunes, no de enmiendas constitucionales.",
   d_parcial: (todo, uno) => `Ninguna PEC trata de ${todo} a la vez. Muestro las que hablan de <b>${uno}</b>, el término más específico que usaste.`,
+  d_nada_exato: "Ninguna PEC usa exactamente esa palabra. Prueba sin las comillas: así busco también sinónimos y palabras parecidas.",
   d_nada: 'No encontré PECs con esas palabras. Intenta con otras palabras cotidianas, como "escuela", "jubilación" o "impuesto".', d_talvez: l => `Quizás buscas a: ${l}.`,
   d_parl_nao: "No encontramos a este parlamentario en las PECs que seguimos.", mostrar_todas: n => `Mostrar las ${n}`,
   cargo: { camara: "Diputado(a) federal", senado: "Senador(a)" },
@@ -843,7 +846,7 @@ const TEMAS = [
   ["praia", "Praias e litoral", ["praia", "litoral", " mar ", "costa", "orla", "beira-mar"], /praia|terrenos? de marinha|litoral|costeir|\borla|beira-mar/],
   ["seguranca", "Segurança pública", ["seguranca", "policia", "policial", "crime", "violencia", "bandido", "guarda municipal", "prisao", "presidio", "maioridade"], /seguranca publica|polici|guarda|bombeir|crime|criminal|penal|prisional|presidio|maioridade|inimputab/],
   ["drogas", "Combate às drogas", ["droga", "maconha", "trafico", "entorpecente", "cocaina", "crack"], /drog|entorpecent|trafico|maconha|toxicolog/],
-  ["amazonia", "Amazônia", ["amazonia", "amazonas", "floresta amazonica", "manaus", "regiao norte"], /amazon|zona franca de manaus|suframa|regiao norte|acre|rondonia|roraima|amapa|floresta/],
+  ["amazonia", "Amazônia", ["amazonia", "amazonas", "floresta amazonica", "manaus", "regiao norte"], /amazon|zona franca de manaus|suframa|regiao norte|\bacre\b|\brondonia\b|\broraima\b|\bamapa\b/],
   ["indigenas", "Povos indígenas", ["indigena", "indio", "demarcacao", "marco temporal", "aldeia"], /indigen|indios|marco temporal|demarca/],
   ["trabalho", "Trabalho e emprego", ["trabalho", "emprego", "salario", "jornada", "6x1", "clt", "sindicato", "carteira assinada", "folga", "ferias"], /trabalh|jornada|emprego|salari|sindica|\bclt\b|6x1|piso salarial|licenca/],
   ["aposentadoria", "Aposentadoria e Previdência", ["aposentadoria", "aposentar", "aposentado", "inss", "previdencia", "pensao"], /aposentad|previd|pensao|pensoes|\binss\b|auxilio-reclusao|seguridade/],
@@ -854,7 +857,7 @@ const TEMAS = [
   ["lgbtq", "LGBTQIA+", ["lgbt", "lgbtq", "lgbtqia", "gay", "lesbica", "trans", "orientacao sexual", "homoafetiv", "casamento igualitario"], /orientacao sexual|lgbt|homoafetiv|identidade de genero|entidade familiar|expressao sexual/],
   ["racial", "Igualdade racial", ["racismo", "negro", "negros", "racial", "raca", "cotas raciais", "pretos", "pardos"], /racial|racismo|\bnegr|pretos|pardos|\braca\b/],
   ["criancas", "Crianças e adolescentes", ["crianca", "infancia", "adolescente", "jovem", "jovens", "filho", "bebe"], /crianca|infan|adolescente|jovens|menores? de|maioridade|primeira infancia|orfa|creche/],
-  ["idosos", "Idosos", ["idoso", "idosa", "terceira idade", "velhice"], /idos|65 anos|longa duracao/],
+  ["idosos", "Idosos", ["idoso", "idosa", "terceira idade", "velhice"], /\bidos[ao]s?\b|pessoa idosa|terceira idade|velhice|65 anos|longa duracao/],
   ["deficiencia", "Pessoas com deficiência", ["deficiencia", "pcd", "libras", "acessibilidade", "autismo", "autista", "surdo", "cadeirante"], /deficien|libras|acessibilidade|surd/],
   ["eleicoes", "Eleições e partidos", ["eleicao", "eleicoes", "voto", "partido", "candidato", "urna", "reeleicao", "politica"], /eleic|eleitor|partid|candidat|reeleicao|\bvoto|urna|plebiscito|coligac/],
   ["justica", "STF e Justiça", ["stf", "supremo", "justica", "juiz", "tribunal", "judiciario"], /supremo|\bstf\b|tribuna|\bjuiz|juizes|magistra|judici|ministerio publico|\bcnj\b|\bforo\b/],
@@ -1277,10 +1280,16 @@ function buscarPECs(texto, ignorar = new Set()) {
   const t = limpo(norm(texto)), N = DB.pecs.length;
   // cada parte separada por vírgula, "e" ou "ou" é um interesse diferente ("saúde e educação");
   // dentro de uma parte, as palavras descrevem uma coisa só ("preço da gasolina")
-  const partes = norm(texto).split(/[,;\/]| e | ou | tambem /).map(limpo).filter(x => x.trim());
+  // entre aspas ("amazonia"): só aquela palavra ou expressão, sem sinônimos nem tema
+  const exatos = [];
+  const semAspas = norm(texto).replace(/["“”]([^"“”]+)["“”]/g, (_, x) => { const e = limpo(x).trim(); if (e) exatos.push(e); return " , "; });
+  const partes = [
+    ...semAspas.split(/[,;\/]| e | ou | tambem /).map(limpo).filter(x => x.trim()).map(parte => matchersDe(parte, ignorar)),
+    ...exatos.map(e => [{ rotulo: `"${e}"`, direto: new RegExp("\\b" + e.split(" ").join("\\s+") + "(s|es)?\\b"), sin: [] }]),   // aceita o plural
+  ];
   const pont = new Map(), achou = [], semResultado = [], parcial = [];
-  for (const parte of partes) {
-    const ms = matchersDe(parte, ignorar).filter(m => !achou.includes(m.rotulo));
+  for (const matchersDaParte of partes) {
+    const ms = matchersDaParte.filter(m => !achou.includes(m.rotulo));
     const comAchado = [];
     for (const m of ms) {
       m.hits = new Map();
@@ -1396,7 +1405,7 @@ function responder(texto, forcado) {
         ${r.lgbt ? `<p class="small muted">${L.d_lgbt}</p>` : ""}`);
     } else if (!pessoas.length) {
       const sug = talvez.length ? `<p>${L.d_talvez(talvez.slice(0, 5).map(x => `<a href="#parlamentar-${x.key}">${esc(x.nome)} (${L.casa[x.casa]})</a>`).join(", "))}</p>` : "";
-      bot(`<p>${L.d_nada}</p>${sug}`);
+      bot(`<p>${/["“”]/.test(texto) ? L.d_nada_exato : L.d_nada}</p>${sug}`);
     }
   }
   minha.scrollIntoView({ behavior: "smooth", block: "start" });
