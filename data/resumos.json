@@ -116,9 +116,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2388817": {
@@ -177,27 +177,27 @@
  },
  "s9104654": {
   "titulo": "Muda regras para escolher ministros do STF",
-  "oQueMuda": "Cria novos requisitos para a indicação de ministros do Supremo e os impede de se candidatar por cinco anos após deixarem o cargo.",
+  "oQueMuda": "Requisitos: ministros do STF teriam de ter de 60 a 70 anos (hoje, de 35 a 70), ser juízes de carreira, não ser inelegíveis e não ter condenação em processo disciplinar.\nLista tríplice: o presidente escolheria entre três nomes indicados, em até um mês após a vaga, pelos presidentes do STF, do STJ, do TST e do STM.\nQuarentena: ex-ministros ficariam 5 anos sem poder se candidatar.\nAtuais ministros: as regras não valeriam para quem já está no cargo.",
   "quemAfeta": "Ministros e futuros ministros do Supremo Tribunal Federal.",
-  "porQueImporta": "Hoje o presidente indica ministros do STF que tenham mais de 35 e menos de 70 anos, notável saber jurídico e reputação ilibada, e eles podem se candidatar depois de deixar o cargo. Com a PEC, haveria requisitos novos e cinco anos de proibição de candidatura.",
+  "porQueImporta": "Hoje o presidente escolhe livremente qualquer cidadão de 35 a 70 anos com notável saber jurídico e reputação ilibada, que não precisa ser juiz, e o Senado aprova. Com a PEC, só juízes com 60 anos ou mais, indicados pelos próprios tribunais, poderiam ser escolhidos.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes how Supreme Court justices are chosen",
-   "oQueMuda": "Creates new requirements for appointing Supreme Court justices and bars them from running for office for five years after leaving.",
+   "oQueMuda": "Requirements: Supreme Court justices would have to be 60 to 70 years old (today, 35 to 70), career judges, not ineligible for office and without disciplinary convictions.\nShortlist: the president would choose from three names put forward, within a month of the vacancy, by the presidents of the Supreme Court, the Superior Court of Justice, the Superior Labor Court and the Superior Military Court.\nCooling-off: former justices could not run for office for 5 years.\nCurrent justices: the rules would not apply to those already in office.",
    "quemAfeta": "Current and future Supreme Court justices.",
-   "porQueImporta": "Today the president nominates Supreme Court justices aged 35 to 70 with notable legal knowledge and spotless reputation, and they can run for office after leaving. Under the PEC, there would be new requirements and a five-year ban on running for office."
+   "porQueImporta": "Today the president freely chooses any citizen aged 35 to 70 with notable legal knowledge and spotless reputation, who need not be a judge, and the Senate approves. Under the PEC, only judges aged 60 or over, nominated by the courts themselves, could be chosen."
   },
   "es": {
    "titulo": "Cambia las reglas para elegir a los ministros del Supremo",
-   "oQueMuda": "Crea nuevos requisitos para nombrar ministros del Supremo y les impide ser candidatos durante cinco años tras dejar el cargo.",
+   "oQueMuda": "Requisitos: los ministros del STF tendrían que tener de 60 a 70 años (hoy, de 35 a 70), ser jueces de carrera, no ser inelegibles y no tener condena en proceso disciplinario.\nTerna: el presidente elegiría entre tres nombres indicados, en hasta un mes tras la vacante, por los presidentes del STF, del STJ, del TST y del STM.\nCuarentena: los ex ministros quedarían 5 años sin poder ser candidatos.\nMinistros actuales: las reglas no valdrían para quienes ya están en el cargo.",
    "quemAfeta": "Ministros actuales y futuros del Supremo Tribunal Federal.",
-   "porQueImporta": "Hoy el presidente nombra ministros del STF de entre 35 y 70 años, con notable saber jurídico y reputación intachable, y pueden ser candidatos tras dejar el cargo. Con la PEC, habría requisitos nuevos y cinco años de prohibición de candidatura."
+   "porQueImporta": "Hoy el presidente elige libremente a cualquier ciudadano de 35 a 70 años con notable saber jurídico y reputación intachable, que no necesita ser juez, y el Senado aprueba. Con la PEC, solo jueces de 60 años o más, indicados por los propios tribunales, podrían ser elegidos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2551011": {
@@ -220,9 +220,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c621521": {
@@ -590,52 +590,52 @@
  },
  "c2623400": {
   "titulo": "Permite reduzir a maioridade penal em crimes hediondos",
-  "oQueMuda": "Em casos excepcionais, como crimes hediondos ou de crueldade extrema, adolescentes poderiam responder como adultos.",
+  "oQueMuda": "Adolescentes de qualquer idade abaixo de 18 anos poderiam responder como adultos por crimes hediondos ou maus-tratos de crueldade extrema contra pessoas e animais (como estupro, latrocínio, homicídio qualificado e tortura), se uma avaliação individual comprovar que entendiam o caráter ilícito do ato. Uma lei definiria os crimes, os critérios da avaliação e o regime aplicável.",
   "quemAfeta": "Adolescentes e o sistema de justiça.",
   "porQueImporta": "Hoje menores de 18 anos respondem pelo Estatuto da Criança e do Adolescente, com internação de no máximo 3 anos. Com a PEC, adolescentes que cometessem crimes hediondos ou de extrema crueldade poderiam ser julgados e presos como adultos.",
   "fonte": "manual",
   "en": {
    "titulo": "Allows lowering the age of criminal responsibility for heinous crimes",
-   "oQueMuda": "In exceptional cases, such as heinous or extremely cruel crimes, teenagers could be tried as adults.",
+   "oQueMuda": "Adolescents of any age under 18 could be tried as adults for heinous crimes or extremely cruel abuse of people and animals (such as rape, robbery-murder, aggravated homicide and torture), if an individual assessment proves they understood the act was unlawful. A law would define the crimes, assessment criteria and applicable regime.",
    "quemAfeta": "Teenagers and the justice system.",
    "porQueImporta": "Today people under 18 are subject to the Child and Adolescent Statute, with at most 3 years of detention. Under the PEC, teenagers who commit heinous or extremely cruel crimes could be tried and imprisoned as adults."
   },
   "es": {
    "titulo": "Permite reducir la mayoría de edad penal en delitos atroces",
-   "oQueMuda": "En casos excepcionales, como delitos atroces o de crueldad extrema, los adolescentes podrían responder como adultos.",
+   "oQueMuda": "Adolescentes de cualquier edad menor de 18 años podrían responder como adultos por delitos atroces o malos tratos de crueldad extrema contra personas y animales (como violación, robo con homicidio, homicidio calificado y tortura), si una evaluación individual comprueba que entendían el carácter ilícito del acto. Una ley definiría los delitos, los criterios de evaluación y el régimen aplicable.",
    "quemAfeta": "Adolescentes y el sistema de justicia.",
    "porQueImporta": "Hoy los menores de 18 años responden por el Estatuto del Niño y del Adolescente, con internación de como máximo 3 años. Con la PEC, los adolescentes que cometieran delitos atroces o de extrema crueldad podrían ser juzgados y encarcelados como adultos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2623604": {
-  "titulo": "Reduz a idade mínima para responder criminalmente",
-  "oQueMuda": "Diminui a idade da maioridade penal nas condições previstas na proposta.",
+  "titulo": "Reduz a maioridade penal para 16 anos e faz crianças a partir de 12 responderem por crimes graves",
+  "oQueMuda": "16 anos: a maioridade penal cairia de 18 para 16 anos.\n12 a 15 anos: crianças e adolescentes de 12 a 15 anos responderiam criminalmente por crimes com violência ou grave ameaça, crimes hediondos e crimes contra a vida.",
   "quemAfeta": "Adolescentes e o sistema de justiça.",
-  "porQueImporta": "Hoje menores de 18 anos respondem pelo Estatuto da Criança e do Adolescente, com internação de no máximo 3 anos. Com a PEC, adolescentes abaixo dessa idade poderiam ser julgados e presos como adultos.",
+  "porQueImporta": "Hoje menores de 18 anos respondem pelo Estatuto da Criança e do Adolescente, com internação de no máximo 3 anos, e crianças de até 11 anos não recebem medida de internação. Com a PEC, quem tem 16 ou 17 anos seria julgado como adulto em qualquer crime, e quem tem de 12 a 15 em crimes graves. Ela tramita junto com a PEC 32/2015.",
   "fonte": "manual",
   "en": {
-   "titulo": "Lowers the minimum age of criminal responsibility",
-   "oQueMuda": "Lowers the age of criminal responsibility under the conditions in the proposal.",
+   "titulo": "Lowers the age of criminal responsibility to 16 and makes children from 12 answer for serious crimes",
+   "oQueMuda": "16 years: the age of criminal responsibility would fall from 18 to 16.\n12 to 15 years: children and adolescents aged 12 to 15 would be criminally liable for crimes involving violence or serious threat, heinous crimes and crimes against life.",
    "quemAfeta": "Teenagers and the justice system.",
-   "porQueImporta": "Today people under 18 are subject to the Child and Adolescent Statute, with at most 3 years of detention. Under the PEC, teenagers below that age could be tried and imprisoned as adults."
+   "porQueImporta": "Today people under 18 are covered by the Child and Adolescent Statute, with detention of at most 3 years, and children up to 11 cannot be detained. Under the PEC, 16- and 17-year-olds would be tried as adults for any crime, and 12- to 15-year-olds for serious crimes. It is being considered together with PEC 32/2015."
   },
   "es": {
-   "titulo": "Reduce la edad mínima de responsabilidad penal",
-   "oQueMuda": "Disminuye la mayoría de edad penal en las condiciones previstas en la propuesta.",
+   "titulo": "Reduce la mayoría de edad penal a 16 años y hace que niños desde los 12 respondan por delitos graves",
+   "oQueMuda": "16 años: la mayoría de edad penal bajaría de 18 a 16 años.\n12 a 15 años: niños y adolescentes de 12 a 15 años responderían penalmente por delitos con violencia o grave amenaza, delitos atroces y delitos contra la vida.",
    "quemAfeta": "Adolescentes y el sistema de justicia.",
-   "porQueImporta": "Hoy los menores de 18 años responden por el Estatuto del Niño y del Adolescente, con internación de como máximo 3 años. Con la PEC, adolescentes por debajo de esa edad podrían ser juzgados y encarcelados como adultos."
+   "porQueImporta": "Hoy los menores de 18 años responden por el Estatuto del Niño y del Adolescente, con internación de como máximo 3 años, y los niños de hasta 11 años no reciben medida de internación. Con la PEC, quienes tienen 16 o 17 años serían juzgados como adultos por cualquier delito, y quienes tienen de 12 a 15 por delitos graves. Tramita junto con la PEC 32/2015."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8325260": {
@@ -708,9 +708,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2576168": {
@@ -749,27 +749,27 @@
  },
  "c2604173": {
   "titulo": "Limita o IPVA e gastos com publicidade e Legislativo",
-  "oQueMuda": "Fixa um teto para a alíquota do IPVA e limita despesas com propaganda oficial e com o Poder Legislativo.",
+  "oQueMuda": "IPVA pelo peso: o IPVA passaria a ser calculado só pelo peso de fábrica do veículo, e não poderia passar de 1% do valor do veículo; estados poderiam dar desconto a veículos menos poluentes.\nPublicidade: gastos com propaganda oficial de todos os governos e Poderes ficariam limitados a 0,1% da receita, e propaganda de caráter pessoal ou promocional seria proibida.\nLegislativo: os gastos totais do Congresso, das assembleias e dos tribunais de contas ficariam limitados a 0,4% da receita de cada governo.",
   "quemAfeta": "Donos de veículos e os governos estaduais.",
-  "porQueImporta": "Hoje cada estado define a alíquota do IPVA, e metade do valor vai para as prefeituras. Com a PEC, haveria um teto nacional para a alíquota e limites para gastos com propaganda oficial e com o Legislativo.",
+  "porQueImporta": "Hoje o IPVA é cobrado sobre o valor do veículo, com alíquotas definidas por cada estado, em geral de 1% a 4%, e metade vai para as prefeituras. Com a PEC, a arrecadação de IPVA cairia nos estados com alíquotas maiores, e os gastos com publicidade e com o Legislativo teriam teto.",
   "fonte": "manual",
   "en": {
    "titulo": "Caps the vehicle tax (IPVA) and limits ad and legislative spending",
-   "oQueMuda": "Sets a ceiling for the IPVA rate and limits spending on government advertising and the legislature.",
+   "oQueMuda": "IPVA by weight: the vehicle tax would be calculated only on the vehicle's factory weight and could not exceed 1% of its value; states could give discounts to less polluting vehicles.\nAdvertising: government advertising spending across all branches would be capped at 0.1% of revenue, and personal or promotional advertising would be banned.\nLegislature: total spending of Congress, state assemblies and audit courts would be capped at 0.4% of each government's revenue.",
    "quemAfeta": "Vehicle owners and state governments.",
-   "porQueImporta": "Today each state sets the IPVA rate, and half the amount goes to city governments. Under the PEC, there would be a national cap on the rate and limits on spending on official advertising and on the legislature."
+   "porQueImporta": "Today IPVA is charged on the vehicle's value, at rates set by each state, usually 1% to 4%, and half goes to municipalities. Under the PEC, IPVA revenue would fall in states with higher rates, and advertising and legislative spending would be capped."
   },
   "es": {
    "titulo": "Limita el impuesto de vehículos (IPVA) y los gastos en publicidad y Legislativo",
-   "oQueMuda": "Fija un tope a la alícuota del IPVA y limita el gasto en publicidad oficial y en el Poder Legislativo.",
+   "oQueMuda": "IPVA por peso: el IPVA se calcularía solo por el peso de fábrica del vehículo y no podría superar el 1% de su valor; los estados podrían dar descuento a vehículos menos contaminantes.\nPublicidad: el gasto en propaganda oficial de todos los gobiernos y Poderes quedaría limitado al 0,1% de los ingresos, y se prohibiría la propaganda de carácter personal o promocional.\nLegislativo: el gasto total del Congreso, las asambleas y los tribunales de cuentas quedaría limitado al 0,4% de los ingresos de cada gobierno.",
    "quemAfeta": "Dueños de vehículos y gobiernos estatales.",
-   "porQueImporta": "Hoy cada estado define la alícuota del IPVA, y la mitad del valor va a las alcaldías. Con la PEC, habría un tope nacional para la alícuota y límites para los gastos en propaganda oficial y en el Legislativo."
+   "porQueImporta": "Hoy el IPVA se cobra sobre el valor del vehículo, con alícuotas definidas por cada estado, en general del 1% al 4%, y la mitad va a los municipios. Con la PEC, la recaudación del IPVA caería en los estados con alícuotas mayores, y el gasto en publicidad y en el Legislativo tendría tope."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2631190": {
@@ -799,27 +799,27 @@
  },
  "c2633488": {
   "titulo": "Dá imunidade de impostos a entidades esportivas sem fins lucrativos",
-  "oQueMuda": "Clubes e entidades esportivas sem fins lucrativos deixariam de pagar certos impostos.",
+  "oQueMuda": "Entidades esportivas sem fins lucrativos teriam imunidade de impostos sobre patrimônio, renda e serviços, como já têm partidos, sindicatos e entidades de educação e assistência social. A imunidade valeria só para organizações certificadas dos sistemas olímpico, paralímpico, de clubes ou educacional.",
   "quemAfeta": "Entidades esportivas sem fins lucrativos.",
   "porQueImporta": "Hoje entidades esportivas sem fins lucrativos pagam impostos sobre patrimônio e renda, salvo isenções em lei. Com a PEC, teriam imunidade na Constituição, como já têm partidos, sindicatos e entidades de assistência social.",
   "fonte": "manual",
   "en": {
    "titulo": "Exempts nonprofit sports organizations from taxes",
-   "oQueMuda": "Nonprofit clubs and sports organizations would stop paying certain taxes.",
+   "oQueMuda": "Non-profit sports organizations would be immune from taxes on property, income and services, as parties, unions and education and social assistance organizations already are. The immunity would apply only to certified organizations in the Olympic, Paralympic, club or educational systems.",
    "quemAfeta": "Nonprofit sports organizations.",
    "porQueImporta": "Today non-profit sports organizations pay taxes on assets and income, except for legal exemptions. Under the PEC, they would have constitutional immunity, as parties, unions and social assistance bodies already do."
   },
   "es": {
    "titulo": "Da inmunidad tributaria a entidades deportivas sin fines de lucro",
-   "oQueMuda": "Clubes y entidades deportivas sin fines de lucro dejarían de pagar ciertos impuestos.",
+   "oQueMuda": "Las entidades deportivas sin fines de lucro tendrían inmunidad de impuestos sobre patrimonio, renta y servicios, como ya tienen partidos, sindicatos y entidades de educación y asistencia social. La inmunidad valdría solo para organizaciones certificadas de los sistemas olímpico, paralímpico, de clubes o educativo.",
    "quemAfeta": "Entidades deportivas sin fines de lucro.",
    "porQueImporta": "Hoy las entidades deportivas sin fines de lucro pagan impuestos sobre patrimonio e ingresos, salvo exenciones legales. Con la PEC, tendrían inmunidad en la Constitución, como ya tienen partidos, sindicatos y entidades de asistencia social."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2136725": {
@@ -1126,9 +1126,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2458742": {
@@ -1157,28 +1157,28 @@
   }
  },
  "s8986903": {
-  "titulo": "Muda a contribuição das empresas para a Previdência a partir de 2027",
-  "oQueMuda": "Altera como incide a contribuição previdenciária das empresas sobre salários e faturamento, com alíquota máxima.",
+  "titulo": "Troca a contribuição das empresas sobre a folha de salários por uma sobre o faturamento",
+  "oQueMuda": "A partir de 2027, a contribuição das empresas para a Previdência deixaria de ser cobrada sobre a folha de salários e passaria a ser cobrada sobre a receita ou o faturamento, com alíquota máxima de 1,4%.",
   "quemAfeta": "Empresas, trabalhadores e a Previdência Social.",
-  "porQueImporta": "Hoje as empresas pagam em geral 20% sobre a folha de salários à Previdência, e alguns setores pagam sobre o faturamento. Com a PEC, a forma de cobrança mudaria a partir de 2027, com alíquota máxima definida.",
+  "porQueImporta": "Hoje a maioria das empresas paga 20% sobre a folha de salários à Previdência, e só alguns setores podem pagar sobre o faturamento. Com a PEC, a contribuição sobre a folha acabaria para todas, e a arrecadação da Previdência passaria a depender do faturamento das empresas.",
   "fonte": "manual",
   "en": {
-   "titulo": "Changes employers' social security contributions from 2027",
-   "oQueMuda": "Changes how employers' social security contributions apply to payroll and revenue, with a maximum rate.",
+   "titulo": "Replaces employers' payroll contribution with a contribution on revenue",
+   "oQueMuda": "From 2027, companies' social security contribution would no longer be charged on payroll but on revenue, at a maximum rate of 1.4%.",
    "quemAfeta": "Companies, workers and the social security system.",
-   "porQueImporta": "Today companies generally pay 20% of payroll to social security, and some sectors pay on revenue instead. Under the PEC, the way it is charged would change from 2027, with a defined maximum rate."
+   "porQueImporta": "Today most companies pay 20% of payroll to social security, and only some sectors may pay on revenue. Under the PEC, the payroll contribution would end for all, and social security revenue would depend on companies' revenue."
   },
   "es": {
-   "titulo": "Cambia la contribución previsional de las empresas a partir de 2027",
-   "oQueMuda": "Modifica cómo incide la contribución previsional de las empresas sobre salarios y facturación, con alícuota máxima.",
+   "titulo": "Sustituye la contribución de las empresas sobre la nómina por una sobre la facturación",
+   "oQueMuda": "A partir de 2027, la contribución de las empresas a la Previsión Social dejaría de cobrarse sobre la nómina y pasaría a cobrarse sobre los ingresos o la facturación, con alícuota máxima del 1,4%.",
    "quemAfeta": "Empresas, trabajadores y la Seguridad Social.",
-   "porQueImporta": "Hoy las empresas pagan en general el 20% sobre la nómina a la previsión, y algunos sectores pagan sobre la facturación. Con la PEC, la forma de cobro cambiaría a partir de 2027, con alícuota máxima definida."
+   "porQueImporta": "Hoy la mayoría de las empresas paga el 20% de la nómina a la Previsión Social, y solo algunos sectores pueden pagar sobre la facturación. Con la PEC, la contribución sobre la nómina terminaría para todas, y la recaudación previsional pasaría a depender de la facturación de las empresas."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8828166": {
@@ -1208,27 +1208,27 @@
  },
  "s9065675": {
   "titulo": "Mantém incentivos locais à cultura e ao esporte no novo imposto",
-  "oQueMuda": "Preserva, no IBS, os programas de estados e municípios que dão desconto em imposto a quem apoia cultura e esporte.",
+  "oQueMuda": "O Comitê Gestor do IBS poderia autorizar estados e municípios a criar, por lei própria, programas em que doações e patrocínios a projetos culturais e esportivos gerem créditos do IBS. O custo ficaria todo com o estado ou município que criar o programa, com teto de renúncia por ente fixado em lei complementar, seleção técnica dos projetos e prestação de contas pública.",
   "quemAfeta": "Artistas, entidades esportivas, patrocinadores e governos locais.",
   "porQueImporta": "Com a reforma tributária, o ICMS e o ISS serão substituídos pelo IBS até 2033, o que acabaria com programas locais de desconto em imposto para quem apoia cultura e esporte. Com a PEC, esses programas seriam mantidos no IBS.",
   "fonte": "manual",
   "en": {
    "titulo": "Keeps local culture and sports incentives under the new tax",
-   "oQueMuda": "Preserves, under the IBS, state and city programs that give tax breaks to supporters of culture and sports.",
+   "oQueMuda": "The IBS Management Committee could allow states and municipalities to create, by their own law, programs in which donations and sponsorships for cultural and sports projects generate IBS credits. The full cost would fall on the state or municipality creating the program, with a cap per government set by complementary law, technical project selection and public accountability.",
    "quemAfeta": "Artists, sports organizations, sponsors and local governments.",
    "porQueImporta": "With the tax reform, ICMS and ISS will be replaced by IBS by 2033, which would end local tax-discount programs for supporters of culture and sport. Under the PEC, these programs would be kept under IBS."
   },
   "es": {
    "titulo": "Mantiene los incentivos locales a la cultura y el deporte en el nuevo impuesto",
-   "oQueMuda": "Preserva, en el IBS, los programas estatales y municipales que dan descuentos fiscales a quien apoya la cultura y el deporte.",
+   "oQueMuda": "El Comité Gestor del IBS podría autorizar a estados y municipios a crear, por ley propia, programas en que donaciones y patrocinios a proyectos culturales y deportivos generen créditos del IBS. El costo quedaría íntegramente con el estado o municipio que cree el programa, con tope de renuncia por ente fijado en ley complementaria, selección técnica de los proyectos y rendición de cuentas pública.",
    "quemAfeta": "Artistas, entidades deportivas, patrocinadores y gobiernos locales.",
    "porQueImporta": "Con la reforma tributaria, el ICMS y el ISS serán sustituidos por el IBS hasta 2033, lo que acabaría con programas locales de descuento de impuesto para quien apoya la cultura y el deporte. Con la PEC, esos programas se mantendrían en el IBS."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2341717": {
@@ -1284,27 +1284,27 @@
  },
  "c2485767": {
   "titulo": "Cria diretrizes para carreiras e pisos dos profissionais do SUS",
-  "oQueMuda": "Define regras gerais para planos de carreira e salários mínimos nacionais de profissionais de saúde do SUS.",
+  "oQueMuda": "Uma lei federal definiria diretrizes para planos de carreira e pisos salariais nacionais de todos os profissionais de saúde do SUS, e a União ajudaria estados e municípios a pagar esses pisos e uma indenização a médicos que atuem em áreas onde é difícil fixar profissionais.",
   "quemAfeta": "Profissionais de saúde do SUS e os governos que os contratam.",
   "porQueImporta": "Hoje cada governo define a carreira e o salário dos profissionais do SUS que contrata, salvo pisos já criados, como o da enfermagem. Com a PEC, haveria regras nacionais e pisos para mais profissões da saúde pública.",
   "fonte": "manual",
   "en": {
    "titulo": "Sets guidelines for careers and minimum pay of public health workers",
-   "oQueMuda": "Defines general rules for career plans and national minimum salaries for health workers in the public system (SUS).",
+   "oQueMuda": "A federal law would set guidelines for career plans and national minimum salaries for all SUS health professionals, and the federal government would help states and municipalities pay these minimums and an allowance to doctors working in hard-to-staff areas.",
    "quemAfeta": "Public health workers and the governments that hire them.",
    "porQueImporta": "Today each government sets the career and salary of the public health workers it hires, except existing floors such as nursing. Under the PEC, there would be national rules and pay floors for more public health professions."
   },
   "es": {
    "titulo": "Crea directrices para carreras y salarios mínimos de los profesionales del SUS",
-   "oQueMuda": "Define reglas generales para planes de carrera y salarios mínimos nacionales de profesionales de salud del SUS.",
+   "oQueMuda": "Una ley federal definiría directrices para planes de carrera y pisos salariales nacionales de todos los profesionales de salud del SUS, y la Unión ayudaría a estados y municipios a pagar esos pisos y una indemnización a médicos que actúen en áreas donde es difícil fijar profesionales.",
    "quemAfeta": "Profesionales de salud del SUS y los gobiernos que los contratan.",
    "porQueImporta": "Hoy cada gobierno define la carrera y el salario de los profesionales del SUS que contrata, salvo pisos ya creados, como el de enfermería. Con la PEC, habría reglas nacionales y pisos para más profesiones de la salud pública."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8593552": {
@@ -1509,27 +1509,27 @@
  },
  "s9050555": {
   "titulo": "Cria código de conduta para agentes públicos",
-  "oQueMuda": "Coloca na Constituição regras de conduta, deveres e proibições para agentes públicos, com foco em evitar conflito de interesses.",
+  "oQueMuda": "Proibições: agentes públicos, inclusive juízes, parlamentares e ministros, não poderiam ter contratos com empresas que o seu órgão fiscaliza ou regula, receber presentes (exceto brindes de pequeno valor, que teriam de declarar) ou usar informações do cargo em proveito próprio.\nQuarentena: depois de deixar o cargo, teriam de esperar 3 anos para representar interesses privados no mesmo setor.\nDeveres: registrar publicamente reuniões com representantes de interesses, declarar valores recebidos de fora do salário e declarar-se impedidos quando eles ou parentes tiverem relação com a decisão.",
   "quemAfeta": "Servidores, políticos e demais agentes públicos.",
   "porQueImporta": "Hoje as regras de conduta de agentes públicos estão em leis e códigos de ética de cada órgão. Com a PEC, deveres e proibições passariam a estar na Constituição, valendo para todos os níveis de governo.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates a code of conduct for public officials",
-   "oQueMuda": "Adds to the Constitution rules of conduct, duties and prohibitions for public officials, focused on avoiding conflicts of interest.",
+   "oQueMuda": "Prohibitions: public officials, including judges, lawmakers and ministers, could not hold contracts with companies their body oversees or regulates, accept gifts (except small-value tokens, which must be declared) or use information from their post for personal gain.\nCooling-off: after leaving office, they would have to wait 3 years before representing private interests in the same sector.\nDuties: publicly log meetings with interest representatives, declare money received beyond their salary and recuse themselves when they or relatives have ties to the decision.",
    "quemAfeta": "Civil servants, politicians and other public officials.",
    "porQueImporta": "Today conduct rules for public officials are in laws and each body's ethics code. Under the PEC, duties and prohibitions would be in the Constitution, applying to all levels of government."
   },
   "es": {
    "titulo": "Crea un código de conducta para agentes públicos",
-   "oQueMuda": "Incluye en la Constitución reglas de conducta, deberes y prohibiciones para agentes públicos, para evitar conflictos de interés.",
+   "oQueMuda": "Prohibiciones: los agentes públicos, incluidos jueces, parlamentarios y ministros, no podrían tener contratos con empresas que su órgano fiscaliza o regula, recibir regalos (salvo obsequios de pequeño valor, que deberían declarar) ni usar información del cargo en provecho propio.\nCuarentena: tras dejar el cargo, tendrían que esperar 3 años para representar intereses privados en el mismo sector.\nDeberes: registrar públicamente reuniones con representantes de intereses, declarar valores recibidos fuera del salario y declararse impedidos cuando ellos o parientes tengan relación con la decisión.",
    "quemAfeta": "Servidores, políticos y demás agentes públicos.",
    "porQueImporta": "Hoy las reglas de conducta de los agentes públicos están en leyes y códigos de ética de cada órgano. Con la PEC, deberes y prohibiciones estarían en la Constitución, válidos para todos los niveles de gobierno."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2361500": {
@@ -2294,27 +2294,27 @@
  },
  "s8937612": {
   "titulo": "Amplia a escola pública em tempo integral",
-  "oQueMuda": "Cria regras e recursos para expandir a oferta de educação pública em tempo integral.",
+  "oQueMuda": "Meta: a oferta de escola pública em tempo integral teria de crescer até chegar a todos os alunos até 2036.\nICMS: parte do ICMS que os estados repassam aos municípios (10%) passaria a ser distribuída conforme o aumento de vagas em tempo integral e a equidade.\nUnião: o apoio da União à expansão teria uma fonte adicional de financiamento definida na Constituição.",
   "quemAfeta": "Estudantes, famílias e redes públicas de ensino.",
   "porQueImporta": "Hoje o Plano Nacional de Educação prevê metas de escola em tempo integral, sem dinheiro garantido na Constituição. Com a PEC, haveria regras e recursos para ampliar as vagas de tempo integral.",
   "fonte": "manual",
   "en": {
    "titulo": "Expands full-day public schools",
-   "oQueMuda": "Creates rules and funding to expand full-day public education.",
+   "oQueMuda": "Goal: full-time public schooling would have to expand to reach all students by 2036.\nICMS: part of the ICMS that states pass to municipalities (10%) would be distributed according to growth in full-time places and equity.\nFederal government: federal support for the expansion would have an additional funding source set in the Constitution.",
    "quemAfeta": "Students, families and public school systems.",
    "porQueImporta": "Today the National Education Plan sets targets for full-time schooling, without money guaranteed in the Constitution. Under the PEC, there would be rules and funds to expand full-time places."
   },
   "es": {
    "titulo": "Amplía la escuela pública de jornada completa",
-   "oQueMuda": "Crea reglas y recursos para ampliar la educación pública de jornada completa.",
+   "oQueMuda": "Meta: la oferta de escuela pública de jornada completa tendría que crecer hasta llegar a todos los alumnos hasta 2036.\nICMS: parte del ICMS que los estados transfieren a los municipios (10%) se distribuiría según el aumento de plazas de jornada completa y la equidad.\nUnión: el apoyo de la Unión a la expansión tendría una fuente adicional de financiamiento definida en la Constitución.",
    "quemAfeta": "Estudiantes, familias y redes públicas de enseñanza.",
    "porQueImporta": "Hoy el Plan Nacional de Educación prevé metas de escuela de tiempo completo, sin dinero garantizado en la Constitución. Con la PEC, habría reglas y recursos para ampliar las plazas de tiempo completo."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8950015": {
@@ -2363,9 +2363,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2332037": {
@@ -2570,52 +2570,52 @@
  },
  "s8999790": {
   "titulo": "Proíbe a reeleição para presidente",
-  "oQueMuda": "O presidente da República não poderia se candidatar para o mandato seguinte.",
+  "oQueMuda": "O presidente da República, e quem o tiver substituído nos seis meses antes da eleição, não poderia se candidatar ao mandato seguinte. Governadores e prefeitos continuariam podendo se reeleger uma vez. A regra valeria já para o presidente eleito em 2026.",
   "quemAfeta": "Eleitores e candidatos à Presidência.",
   "porQueImporta": "Desde 1997, o presidente pode se reeleger uma vez. Com a PEC, cada presidente teria um único mandato de 4 anos.",
   "fonte": "manual",
   "en": {
    "titulo": "Bans presidential reelection",
-   "oQueMuda": "The President could not run for the next term.",
+   "oQueMuda": "The president, and whoever replaced them in the six months before the election, could not run for the next term. Governors and mayors could still be reelected once. The rule would apply already to the president elected in 2026.",
    "quemAfeta": "Voters and presidential candidates.",
    "porQueImporta": "Since 1997, the president can be re-elected once. Under the PEC, each president would have a single 4-year term."
   },
   "es": {
    "titulo": "Prohíbe la reelección presidencial",
-   "oQueMuda": "El Presidente de la República no podría presentarse al mandato siguiente.",
+   "oQueMuda": "El presidente de la República, y quien lo haya sustituido en los seis meses previos a la elección, no podría ser candidato al mandato siguiente. Gobernadores y alcaldes seguirían pudiendo reelegirse una vez. La regla valdría ya para el presidente elegido en 2026.",
    "quemAfeta": "Votantes y candidatos a la Presidencia.",
    "porQueImporta": "Desde 1997, el presidente puede reelegirse una vez. Con la PEC, cada presidente tendría un único mandato de 4 años."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2578996": {
-  "titulo": "Permite ao trabalhador escolher uma jornada flexível por hora",
-  "oQueMuda": "O empregado poderia optar entre a jornada comum da CLT e um regime flexível pago por hora trabalhada.",
-  "quemAfeta": "Trabalhadores com carteira e empregadores.",
-  "porQueImporta": "Hoje a CLT limita a jornada a 44 horas por semana, com salário mensal. Com a PEC, o trabalhador poderia escolher um regime pago só pelas horas trabalhadas, sem jornada fixa.",
+  "titulo": "Permite jornada flexível paga por hora, com o contrato individual valendo mais que o acordo coletivo",
+  "oQueMuda": "Jornada flexível: empregado e empresa poderiam combinar no contrato individual uma jornada flexível ou paga por hora trabalhada, respeitado o limite de 44 horas por semana.\nContrato acima do sindicato: o que for combinado diretamente entre empregado e empregador prevaleceria sobre convenções e acordos coletivos.\nPagamento proporcional: a hora mínima seria calculada a partir do salário mínimo ou do piso da categoria, considerando 44 horas por semana; férias, 13º salário, FGTS e outros direitos seriam proporcionais às horas efetivamente trabalhadas.\nPrazo: valeria 180 dias depois de publicada.",
+  "quemAfeta": "Trabalhadores com carteira, empregadores e sindicatos.",
+  "porQueImporta": "Hoje a jornada máxima é de 44 horas semanais, e a Constituição prevê que a redução de jornada e a compensação de horários sejam feitas por acordo ou convenção coletiva. Com a PEC, o contrato individual poderia definir jornada e pagamento por hora e prevaleceria sobre o acordo coletivo. Há uma proposta igual no Senado (PEC 12/2026), e ela tramita ao mesmo tempo que a PEC 221/2019, que reduz a jornada para 40 horas.",
   "fonte": "manual",
   "en": {
-   "titulo": "Lets workers choose a flexible hourly schedule",
-   "oQueMuda": "Employees could choose between the standard CLT work schedule and a flexible arrangement paid by the hour.",
-   "quemAfeta": "Formally employed workers and employers.",
-   "porQueImporta": "Today the labor code limits the workweek to 44 hours with a monthly salary. Under the PEC, workers could choose a regime paid only for hours worked, without fixed hours."
+   "titulo": "Allows flexible hourly work, with individual contracts prevailing over collective agreements",
+   "oQueMuda": "Flexible hours: employee and employer could agree in an individual contract on flexible hours or pay per hour worked, within the 44-hour weekly limit.\nContract above the union: what is agreed directly between employee and employer would prevail over collective agreements.\nProportional pay: the minimum hourly rate would be based on the minimum wage or the category's floor, considering 44 hours a week; vacation, 13th salary, FGTS and other rights would be proportional to hours actually worked.\nTiming: it would take effect 180 days after publication.",
+   "quemAfeta": "Formal workers, employers and unions.",
+   "porQueImporta": "Today the maximum workweek is 44 hours, and the Constitution provides that reducing hours and offsetting schedules be done by collective agreement. Under the PEC, an individual contract could set hours and hourly pay and would prevail over the collective agreement. An identical proposal is in the Senate (PEC 12/2026), moving at the same time as PEC 221/2019, which cuts the workweek to 40 hours."
   },
   "es": {
-   "titulo": "Permite al trabajador elegir una jornada flexible por horas",
-   "oQueMuda": "El empleado podría optar entre la jornada común de la CLT y un régimen flexible pagado por hora trabajada.",
-   "quemAfeta": "Trabajadores formales y empleadores.",
-   "porQueImporta": "Hoy la CLT limita la jornada a 44 horas semanales, con salario mensual. Con la PEC, el trabajador podría elegir un régimen pagado solo por las horas trabajadas, sin jornada fija."
+   "titulo": "Permite jornada flexible pagada por hora, con el contrato individual por encima del acuerdo colectivo",
+   "oQueMuda": "Jornada flexible: empleado y empresa podrían pactar en el contrato individual una jornada flexible o pagada por hora trabajada, respetando el límite de 44 horas semanales.\nContrato por encima del sindicato: lo pactado directamente entre empleado y empleador prevalecería sobre convenios y acuerdos colectivos.\nPago proporcional: la hora mínima se calcularía a partir del salario mínimo o del piso de la categoría, considerando 44 horas semanales; vacaciones, aguinaldo, FGTS y otros derechos serían proporcionales a las horas efectivamente trabajadas.\nPlazo: valdría 180 días después de publicada.",
+   "quemAfeta": "Trabajadores formales, empleadores y sindicatos.",
+   "porQueImporta": "Hoy la jornada máxima es de 44 horas semanales, y la Constitución prevé que la reducción de jornada y la compensación de horarios se hagan por acuerdo o convenio colectivo. Con la PEC, el contrato individual podría definir jornada y pago por hora y prevalecería sobre el acuerdo colectivo. Hay una propuesta igual en el Senado (PEC 12/2026), y tramita al mismo tiempo que la PEC 221/2019, que reduce la jornada a 40 horas."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c542454": {
@@ -2645,52 +2645,52 @@
  },
  "s8831744": {
   "titulo": "Muda regras de financiamento da educação",
-  "oQueMuda": "Altera artigos sobre o uso de recursos na educação, como o salário-educação e repasses a escolas não estatais.",
+  "oQueMuda": "Merenda: a alimentação escolar poderia ser contada no mínimo que os governos são obrigados a aplicar em educação.\nBolsas em escolas privadas: dinheiro público poderia pagar bolsas também na educação infantil, quando faltarem vagas na rede pública perto de casa.\nCalamidade: em calamidade pública reconhecida pelo Congresso, governos e gestores não seriam punidos por deixar de aplicar o mínimo em educação naquele ano, mas teriam de compensar a diferença nos anos seguintes.",
   "quemAfeta": "Redes de ensino e escolas comunitárias.",
-  "porQueImporta": "Com a PEC, mudariam as regras de uso do salário-educação e de repasse de dinheiro público a escolas comunitárias, confessionais e filantrópicas.",
+  "porQueImporta": "Hoje governos têm de aplicar no ensino um mínimo da receita de impostos (18% a União, 25% estados e municípios), sem contar a merenda, e quem descumpre pode ser punido. A proposta foi sugerida pela Confederação Nacional de Municípios.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes education funding rules",
-   "oQueMuda": "Changes articles on the use of education funds, such as the education payroll contribution and transfers to non-state schools.",
+   "oQueMuda": "School meals: school food could count toward the minimum governments must spend on education.\nPrivate school scholarships: public money could also fund early-childhood scholarships when there are no public places near home.\nCalamity: in a public calamity recognized by Congress, governments and officials would not be punished for missing the education minimum that year, but would have to make up the difference in later years.",
    "quemAfeta": "School systems and community schools.",
-   "porQueImporta": "Under the PEC, the rules on using the salário-educação and on passing public money to community, religious and charitable schools would change."
+   "porQueImporta": "Today governments must spend a minimum share of tax revenue on education (18% federal, 25% states and municipalities), not counting school meals, and those who fail can be punished. The proposal was suggested by the National Confederation of Municipalities."
   },
   "es": {
    "titulo": "Cambia las reglas de financiamiento de la educación",
-   "oQueMuda": "Modifica artículos sobre el uso de recursos en educación, como el salario-educación y las transferencias a escuelas no estatales.",
+   "oQueMuda": "Merienda: la alimentación escolar podría contarse en el mínimo que los gobiernos deben aplicar en educación.\nBecas en escuelas privadas: el dinero público podría pagar becas también en la educación infantil, cuando falten plazas en la red pública cerca de casa.\nCalamidad: en calamidad pública reconocida por el Congreso, gobiernos y gestores no serían sancionados por no aplicar el mínimo en educación ese año, pero tendrían que compensar la diferencia en los años siguientes.",
    "quemAfeta": "Redes de enseñanza y escuelas comunitarias.",
-   "porQueImporta": "Con la PEC, cambiarían las reglas de uso del salário-educação y de transferencia de dinero público a escuelas comunitarias, confesionales y filantrópicas."
+   "porQueImporta": "Hoy los gobiernos deben aplicar en la enseñanza un mínimo de la recaudación de impuestos (18% la Unión, 25% estados y municipios), sin contar la merienda, y quien incumple puede ser sancionado. La propuesta fue sugerida por la Confederación Nacional de Municipios."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8900982": {
-  "titulo": "Faz vereadores serem julgados pelo Tribunal de Justiça",
-  "oQueMuda": "Leis orgânicas poderiam prever que vereadores sejam processados e julgados pelos tribunais de justiça.",
+  "titulo": "Dá foro no Tribunal de Justiça a vereadores",
+  "oQueMuda": "Vereadores passariam a ser julgados pelo Tribunal de Justiça do estado, como já acontece com os prefeitos. A regra não valeria para processos que já tenham sentença de primeira instância.",
   "quemAfeta": "Vereadores.",
-  "porQueImporta": "Hoje vereadores são processados por juízes de primeira instância, como qualquer cidadão. Com a PEC, cada cidade poderia prever que eles sejam julgados pelo Tribunal de Justiça do estado.",
+  "porQueImporta": "Hoje vereadores são processados por juízes de primeira instância, como qualquer cidadão, e só prefeitos têm foro no Tribunal de Justiça. Com a PEC, os cerca de 58 mil vereadores do país também teriam foro especial.",
   "fonte": "manual",
   "en": {
-   "titulo": "Has city council members tried by state courts",
-   "oQueMuda": "Municipal charters could provide that city council members be tried by the state courts of justice.",
+   "titulo": "Gives city councillors special jurisdiction in state courts",
+   "oQueMuda": "City councillors would be tried by the state Court of Justice, as mayors already are. The rule would not apply to cases that already have a first-instance ruling.",
    "quemAfeta": "City council members.",
-   "porQueImporta": "Today city councilors are tried by first-instance judges, like any citizen. Under the PEC, each city could provide that they are tried by the state Court of Justice."
+   "porQueImporta": "Today councillors are prosecuted by first-instance judges, like any citizen, and only mayors have special jurisdiction in the state court. Under the PEC, the country's roughly 58,000 councillors would also have it."
   },
   "es": {
-   "titulo": "Hace que los concejales sean juzgados por el Tribunal de Justicia",
-   "oQueMuda": "Las leyes orgánicas municipales podrían prever que los concejales sean juzgados por los tribunales de justicia.",
+   "titulo": "Da fuero en el Tribunal de Justicia a los concejales",
+   "oQueMuda": "Los concejales pasarían a ser juzgados por el Tribunal de Justicia del estado, como ya ocurre con los alcaldes. La regla no valdría para procesos que ya tengan sentencia de primera instancia.",
    "quemAfeta": "Concejales.",
-   "porQueImporta": "Hoy los concejales son procesados por jueces de primera instancia, como cualquier ciudadano. Con la PEC, cada ciudad podría prever que sean juzgados por el Tribunal de Justicia del estado."
+   "porQueImporta": "Hoy los concejales son procesados por jueces de primera instancia, como cualquier ciudadano, y solo los alcaldes tienen fuero en el Tribunal de Justicia. Con la PEC, los cerca de 58 mil concejales del país también tendrían fuero especial."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c500183": {
@@ -3220,9 +3220,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1307014": {
@@ -3295,9 +3295,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2595818": {
@@ -3320,9 +3320,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2140426": {
@@ -3525,77 +3525,77 @@
  },
  "s8968311": {
   "titulo": "Permite que qualquer cidadão denuncie ministros do STF",
-  "oQueMuda": "Restabelece o direito de cidadãos apresentarem denúncia por crime de responsabilidade contra ministros do Supremo.",
+  "oQueMuda": "Qualquer cidadão ou senador poderia apresentar ao Senado denúncia por crime de responsabilidade contra ministros do STF, e a decisão de aceitar a denúncia seria tomada por maioria simples dos senadores.",
   "quemAfeta": "Cidadãos, Senado e ministros do STF.",
-  "porQueImporta": "Hoje, por decisão do STF, só o procurador-geral da República pode pedir o impeachment de ministros do Supremo. Com a PEC, qualquer cidadão voltaria a poder pedir ao Senado.",
+  "porQueImporta": "Hoje, por decisão do STF de dezembro de 2025, só o procurador-geral da República pode apresentar esse tipo de denúncia. Com a PEC, qualquer cidadão voltaria a poder apresentá-la, e bastaria maioria simples no Senado para que o processo começasse.",
   "fonte": "manual",
   "en": {
    "titulo": "Lets any citizen file charges against Supreme Court justices",
-   "oQueMuda": "Restores citizens' right to file impeachable-offense charges against Supreme Court justices.",
+   "oQueMuda": "Any citizen or senator could file with the Senate an impeachment complaint against Supreme Court justices, and the decision to accept it would be taken by a simple majority of senators.",
    "quemAfeta": "Citizens, the Senate and Supreme Court justices.",
-   "porQueImporta": "Today, under a Supreme Court ruling, only the Prosecutor General can request the impeachment of Supreme Court justices. Under the PEC, any citizen could again petition the Senate."
+   "porQueImporta": "Today, under a Supreme Court decision of December 2025, only the Prosecutor General can file such a complaint. Under the PEC, any citizen could file it again, and a simple Senate majority would be enough to start the process."
   },
   "es": {
    "titulo": "Permite que cualquier ciudadano denuncie a ministros del Supremo",
-   "oQueMuda": "Restablece el derecho de los ciudadanos a presentar denuncias por crimen de responsabilidad contra ministros del Supremo.",
+   "oQueMuda": "Cualquier ciudadano o senador podría presentar al Senado una denuncia por delito de responsabilidad contra ministros del STF, y la decisión de aceptar la denuncia se tomaría por mayoría simple de los senadores.",
    "quemAfeta": "Ciudadanos, Senado y ministros del Supremo.",
-   "porQueImporta": "Hoy, por decisión del STF, solo el fiscal general de la República puede pedir el juicio político de ministros del Supremo. Con la PEC, cualquier ciudadano podría volver a pedirlo al Senado."
+   "porQueImporta": "Hoy, por decisión del STF de diciembre de 2025, solo el procurador general de la República puede presentar este tipo de denuncia. Con la PEC, cualquier ciudadano podría volver a presentarla, y bastaría mayoría simple en el Senado para iniciar el proceso."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2591196": {
   "titulo": "Conta a merenda escolar como gasto com educação",
-  "oQueMuda": "Despesas com alimentação escolar passariam a contar no mínimo que governos devem aplicar em ensino.",
+  "oQueMuda": "A Constituição deixaria de dizer que a alimentação escolar é paga com contribuições sociais e outros recursos, fora do dinheiro reservado ao ensino. Com isso, os gastos com merenda poderiam ser contados no mínimo que os governos são obrigados a aplicar em educação.",
   "quemAfeta": "Redes de ensino e estudantes.",
   "porQueImporta": "Hoje governos têm de aplicar no ensino um mínimo da receita de impostos (18% a União, 25% estados e municípios), e a merenda não entra nessa conta. Com a PEC, os gastos com merenda passariam a contar nesse mínimo.",
   "fonte": "manual",
   "en": {
    "titulo": "Counts school meals as education spending",
-   "oQueMuda": "Spending on school meals would count toward the minimum governments must invest in education.",
+   "oQueMuda": "The Constitution would no longer say that school meals are paid from social contributions and other resources, outside the money reserved for education. As a result, spending on school meals could count toward the minimum governments must spend on education.",
    "quemAfeta": "School systems and students.",
    "porQueImporta": "Today governments must spend a minimum share of tax revenue on education (18% federal, 25% states and municipalities), and school meals do not count. Under the PEC, school meal spending would count toward that minimum."
   },
   "es": {
    "titulo": "Cuenta la merienda escolar como gasto en educación",
-   "oQueMuda": "El gasto en alimentación escolar contaría en el mínimo que los gobiernos deben invertir en enseñanza.",
+   "oQueMuda": "La Constitución dejaría de decir que la alimentación escolar se paga con contribuciones sociales y otros recursos, fuera del dinero reservado a la enseñanza. Así, el gasto en merienda escolar podría contarse en el mínimo que los gobiernos deben aplicar en educación.",
    "quemAfeta": "Redes de enseñanza y estudiantes.",
    "porQueImporta": "Hoy los gobiernos deben aplicar en la enseñanza un mínimo de los ingresos por impuestos (18% el gobierno federal, 25% estados y municipios), y la comida escolar no entra en esa cuenta. Con la PEC, el gasto en comida escolar contaría en ese mínimo."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8966726": {
   "titulo": "Muda a forma de escolher ministros do STF",
-  "oQueMuda": "Altera o processo de indicação, com participação do CNJ e lista de candidatos.",
+  "oQueMuda": "Quem pode: só juízes de carreira, de 35 a 70 anos, poderiam ser ministros do STF; parentes do presidente e do vice ficariam proibidos.\nMandato: os ministros teriam mandato de 10 anos, sem recondução.\nEscolha: juízes, promotores, defensores e advogados públicos em atividade elegeriam uma lista de 6 nomes, enviada pelo CNJ; o presidente escolheria 3, e o Senado elegeria um deles por voto secreto e maioria absoluta.",
   "quemAfeta": "Presidente da República, Senado e o Supremo.",
-  "porQueImporta": "Hoje o presidente indica livremente os ministros do STF, que precisam ser aprovados pelo Senado. Com a PEC, a escolha partiria de uma lista de candidatos com participação do CNJ.",
+  "porQueImporta": "Hoje o presidente indica livremente qualquer cidadão de 35 a 70 anos com notável saber jurídico e reputação ilibada, o Senado aprova, e o ministro fica até os 75 anos. Com a PEC, a escolha passaria por eleição entre profissionais do Judiciário e o mandato teria prazo fixo.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes how Supreme Court justices are chosen",
-   "oQueMuda": "Changes the appointment process, with participation of the National Council of Justice and a list of candidates.",
+   "oQueMuda": "Who: only career judges aged 35 to 70 could be Supreme Court justices; relatives of the president and vice president would be barred.\nTerm: justices would serve 10-year terms, without renewal.\nSelection: active judges, prosecutors, public defenders and government lawyers would elect a list of 6 names, sent by the National Council of Justice; the president would pick 3, and the Senate would elect one by secret ballot and absolute majority.",
    "quemAfeta": "The President, the Senate and the Supreme Court.",
-   "porQueImporta": "Today the president freely nominates Supreme Court justices, who must be approved by the Senate. Under the PEC, the choice would come from a list of candidates with CNJ participation."
+   "porQueImporta": "Today the president freely nominates any citizen aged 35 to 70 with notable legal knowledge and spotless reputation, the Senate approves, and the justice serves until 75. Under the PEC, selection would go through an election among justice-system professionals and terms would be fixed."
   },
   "es": {
    "titulo": "Cambia la forma de elegir a los ministros del Supremo",
-   "oQueMuda": "Modifica el proceso de nombramiento, con participación del CNJ y una lista de candidatos.",
+   "oQueMuda": "Quién: solo jueces de carrera, de 35 a 70 años, podrían ser ministros del STF; quedarían prohibidos los parientes del presidente y del vicepresidente.\nMandato: los ministros tendrían mandato de 10 años, sin reelección.\nElección: jueces, fiscales, defensores y abogados públicos en actividad elegirían una lista de 6 nombres, enviada por el CNJ; el presidente elegiría 3, y el Senado elegiría a uno por voto secreto y mayoría absoluta.",
    "quemAfeta": "Presidente de la República, Senado y el Supremo.",
-   "porQueImporta": "Hoy el presidente nombra libremente a los ministros del STF, que deben ser aprobados por el Senado. Con la PEC, la elección partiría de una lista de candidatos con participación del CNJ."
+   "porQueImporta": "Hoy el presidente indica libremente a cualquier ciudadano de 35 a 70 años con notable saber jurídico y reputación intachable, el Senado aprueba, y el ministro queda hasta los 75 años. Con la PEC, la elección pasaría por una votación entre profesionales del Poder Judicial y el mandato tendría plazo fijo."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8789546": {
@@ -3650,28 +3650,28 @@
   "tipo": "principio"
  },
  "c2543145": {
-  "titulo": "Cria regras contra privilégios de agentes públicos",
-  "oQueMuda": "Proíbe certas vantagens e equiparações de salários entre políticos e servidores.",
+  "titulo": "Proíbe vantagens extras para políticos, juízes e outros agentes políticos",
+  "oQueMuda": "Agentes políticos (como parlamentares, ministros, juízes e promotores) não poderiam receber: férias de mais de 30 dias por ano, adicionais ou licenças por tempo de serviço, aumentos com efeito retroativo, adicionais por substituir colegas (salvo substituição efetiva em cargo de chefia), promoção só por tempo de serviço e aposentadoria compulsória como punição.",
   "quemAfeta": "Servidores e agentes políticos.",
-  "porQueImporta": "Hoje há carreiras e cargos políticos com salários ligados entre si, de modo que o aumento de um eleva o de outros. Com a PEC, essas vinculações e certas vantagens seriam proibidas.",
+  "porQueImporta": "Hoje juízes e promotores têm 60 dias de férias por ano, e várias carreiras recebem adicionais e licenças ligados ao tempo de serviço. Com a PEC, essas vantagens seriam proibidas na Constituição.",
   "fonte": "manual",
   "en": {
-   "titulo": "Creates anti-privilege rules for public officials",
-   "oQueMuda": "Bans certain perks and salary equivalences between politicians and civil servants.",
+   "titulo": "Bans extra perks for politicians, judges and other political officeholders",
+   "oQueMuda": "Political officeholders (such as lawmakers, ministers, judges and prosecutors) could not receive: more than 30 days of vacation a year, seniority bonuses or leave, retroactive raises, bonuses for standing in for colleagues (except actual substitution in leadership posts), promotion based only on seniority, and compulsory retirement as a penalty.",
    "quemAfeta": "Civil servants and political officials.",
-   "porQueImporta": "Today some careers and political posts have linked salaries, so a raise for one lifts others. Under the PEC, these links and certain perks would be banned."
+   "porQueImporta": "Today judges and prosecutors get 60 days of vacation a year, and several careers receive seniority-based bonuses and leave. Under the PEC, these perks would be banned in the Constitution."
   },
   "es": {
-   "titulo": "Crea reglas contra privilegios de agentes públicos",
-   "oQueMuda": "Prohíbe ciertas ventajas y equiparaciones salariales entre políticos y servidores.",
+   "titulo": "Prohíbe ventajas extra para políticos, jueces y otros agentes políticos",
+   "oQueMuda": "Los agentes políticos (como parlamentarios, ministros, jueces y fiscales) no podrían recibir: vacaciones de más de 30 días al año, adicionales o licencias por antigüedad, aumentos con efecto retroactivo, adicionales por sustituir a colegas (salvo sustitución efectiva en cargo de jefatura), ascensos solo por antigüedad y jubilación forzosa como castigo.",
    "quemAfeta": "Servidores y agentes políticos.",
-   "porQueImporta": "Hoy hay carreras y cargos políticos con salarios vinculados entre sí, de modo que el aumento de uno eleva el de otros. Con la PEC, esas vinculaciones y ciertas ventajas quedarían prohibidas."
+   "porQueImporta": "Hoy jueces y fiscales tienen 60 días de vacaciones al año, y varias carreras reciben adicionales y licencias ligados a la antigüedad. Con la PEC, esas ventajas quedarían prohibidas en la Constitución."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7757038": {
@@ -3801,27 +3801,27 @@
  },
  "s8951883": {
   "titulo": "Obriga o Congresso a votar projetos de iniciativa popular",
-  "oQueMuda": "Projetos de iniciativa popular ou pedidos da maioria dos parlamentares teriam de ser analisados.",
+  "oQueMuda": "Pauta obrigatória: qualquer projeto de lei, inclusive de iniciativa popular, entraria na pauta de votação se pedido por 0,3% do eleitorado (distribuído por todas as regiões) ou pela maioria dos deputados ou senadores.\nPrazo: se não for votado em 45 dias, todas as outras votações da Casa ficariam travadas até a votação.\nVoto aberto: a votação seria nominal, com o voto de cada parlamentar registrado.\nAssinaturas: o TSE contaria e certificaria as assinaturas dos eleitores, de preferência por meio eletrônico.",
   "quemAfeta": "Cidadãos e parlamentares.",
-  "porQueImporta": "Hoje os presidentes da Câmara e do Senado decidem quais projetos vão a votação, e projetos de iniciativa popular podem ficar parados. Com a PEC, esses projetos teriam de ser analisados.",
+  "porQueImporta": "Hoje os presidentes da Câmara e do Senado decidem sozinhos quais projetos vão a votação, e projetos de iniciativa popular podem ficar parados por anos. Com a PEC, eleitores ou a maioria dos parlamentares poderiam obrigar a votação.",
   "fonte": "manual",
   "en": {
    "titulo": "Requires Congress to vote on citizen-initiated bills",
-   "oQueMuda": "Citizen-initiated bills or requests from a majority of legislators would have to be considered.",
+   "oQueMuda": "Mandatory agenda: any bill, including popular initiatives, would go on the voting agenda if requested by 0.3% of voters (spread across all regions) or by a majority of deputies or senators.\nDeadline: if not voted on within 45 days, all other votes in that house would be blocked until it is.\nOpen vote: the vote would be roll-call, with each lawmaker's vote recorded.\nSignatures: the Electoral Court would count and certify voters' signatures, preferably electronically.",
    "quemAfeta": "Citizens and legislators.",
-   "porQueImporta": "Today the heads of the Chamber and Senate decide which bills go to a vote, and citizen-initiated bills can stall. Under the PEC, these bills would have to be considered."
+   "porQueImporta": "Today the presidents of the Chamber and Senate alone decide which bills go to a vote, and popular initiative bills can sit for years. Under the PEC, voters or a majority of lawmakers could force a vote."
   },
   "es": {
    "titulo": "Obliga al Congreso a votar proyectos de iniciativa popular",
-   "oQueMuda": "Los proyectos de iniciativa popular o los pedidos de la mayoría de los parlamentarios tendrían que ser analizados.",
+   "oQueMuda": "Agenda obligatoria: cualquier proyecto de ley, incluso de iniciativa popular, entraría en la agenda de votación si lo pide el 0,3% del electorado (distribuido por todas las regiones) o la mayoría de los diputados o senadores.\nPlazo: si no se vota en 45 días, todas las demás votaciones de la Cámara quedarían trabadas hasta la votación.\nVoto abierto: la votación sería nominal, con el voto de cada parlamentario registrado.\nFirmas: el TSE contaría y certificaría las firmas de los electores, preferentemente por vía electrónica.",
    "quemAfeta": "Ciudadanos y parlamentarios.",
-   "porQueImporta": "Hoy los presidentes de la Cámara y del Senado deciden qué proyectos van a votación, y los proyectos de iniciativa popular pueden quedar parados. Con la PEC, esos proyectos tendrían que ser analizados."
+   "porQueImporta": "Hoy los presidentes de la Cámara y del Senado deciden solos qué proyectos van a votación, y los proyectos de iniciativa popular pueden quedar parados por años. Con la PEC, los electores o la mayoría de los parlamentarios podrían obligar a votar."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2471383": {
@@ -3926,27 +3926,27 @@
  },
  "s8941223": {
   "titulo": "Cria mandato e novos requisitos para ministros do STF",
-  "oQueMuda": "Muda idade, requisitos e cria mandato com prazo para ministros do Supremo.",
+  "oQueMuda": "Mandato: ministros do STF teriam mandato de 12 anos e teriam de ter de 55 a 70 anos e ser advogados, membros do Ministério Público ou da Defensoria, juízes, professores ou pesquisadores de Direito.\nLista: a cada vaga, CNMP (2 nomes), CNJ (2), Câmara (1) e OAB (1) formariam uma lista de 6; o presidente escolheria 3.\nEscolha pelo Senado: o Senado elegeria o ministro por dois terços dos votos, depois de arguição pública na CCJ.\nQuarentena: quem foi parlamentar, procurador-geral da República, advogado-geral da União ou ministro de Estado nos 4 anos anteriores não poderia ser indicado.",
   "quemAfeta": "Ministros e futuros ministros do STF.",
-  "porQueImporta": "Hoje ministros do STF ficam no cargo até os 75 anos. Com a PEC, teriam mandato com prazo, e a idade e os requisitos para a indicação mudariam.",
+  "porQueImporta": "Hoje o presidente indica os ministros, o Senado aprova por maioria absoluta e eles ficam até os 75 anos. Com a PEC, a escolha final passaria ao Senado, por dois terços, e o mandato teria prazo fixo.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates fixed terms and new requirements for Supreme Court justices",
-   "oQueMuda": "Changes age and requirements and creates fixed terms for Supreme Court justices.",
+   "oQueMuda": "Term: Supreme Court justices would serve 12-year terms and would have to be 55 to 70 years old and lawyers, prosecutors, public defenders, judges, or law professors or researchers.\nList: for each vacancy, the prosecutors' council (2 names), the justice council (2), the Chamber (1) and the Bar Association (1) would form a list of 6; the president would pick 3.\nSenate choice: the Senate would elect the justice by a two-thirds vote, after a public hearing in its Justice Committee.\nCooling-off: anyone who was a member of Congress, Prosecutor General, Attorney General or minister in the previous 4 years could not be nominated.",
    "quemAfeta": "Current and future Supreme Court justices.",
-   "porQueImporta": "Today Supreme Court justices serve until age 75. Under the PEC, they would have fixed terms, and the age and requirements for nomination would change."
+   "porQueImporta": "Today the president nominates justices, the Senate approves by absolute majority, and they serve until 75. Under the PEC, the final choice would move to the Senate, by two thirds, and terms would be fixed."
   },
   "es": {
    "titulo": "Crea mandato y nuevos requisitos para los ministros del Supremo",
-   "oQueMuda": "Cambia la edad y los requisitos y crea un mandato con plazo para los ministros del Supremo.",
+   "oQueMuda": "Mandato: los ministros del STF tendrían mandato de 12 años y deberían tener de 55 a 70 años y ser abogados, miembros del Ministerio Público o de la Defensoría, jueces, profesores o investigadores de Derecho.\nLista: en cada vacante, el CNMP (2 nombres), el CNJ (2), la Cámara (1) y la OAB (1) formarían una lista de 6; el presidente elegiría 3.\nElección por el Senado: el Senado elegiría al ministro por dos tercios de los votos, tras audiencia pública en la CCJ.\nCuarentena: quien haya sido parlamentario, procurador general de la República, abogado general de la Unión o ministro de Estado en los 4 años anteriores no podría ser indicado.",
    "quemAfeta": "Ministros actuales y futuros del Supremo.",
-   "porQueImporta": "Hoy los ministros del STF permanecen en el cargo hasta los 75 años. Con la PEC, tendrían mandato con plazo, y la edad y los requisitos para el nombramiento cambiarían."
+   "porQueImporta": "Hoy el presidente indica a los ministros, el Senado aprueba por mayoría absoluta y permanecen hasta los 75 años. Con la PEC, la elección final pasaría al Senado, por dos tercios, y el mandato tendría plazo fijo."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2467670": {
@@ -4051,27 +4051,27 @@
  },
  "s8810165": {
   "titulo": "Permite bônus para candidatos locais em universidades federais",
-  "oQueMuda": "Universidades federais poderiam dar pontos extras a candidatos que nasceram ou moram na região.",
+  "oQueMuda": "Universidades e institutos federais do Norte e do Nordeste poderiam dar um bônus de até 20% na nota do Enem a candidatos nascidos ou moradores há mais de um ano no estado (ou em parte dele) onde fica o campus. O bônus seria temporário, justificado por critérios de vulnerabilidade social e reavaliado periodicamente.",
   "quemAfeta": "Candidatos a vagas em universidades federais.",
   "porQueImporta": "Hoje o ingresso nas federais é pelo Enem, com cotas sociais e raciais, sem vantagem por local de origem. Com a PEC, universidades poderiam dar pontos extras a candidatos da região.",
   "fonte": "manual",
   "en": {
    "titulo": "Allows bonus points for local applicants to federal universities",
-   "oQueMuda": "Federal universities could give extra points to applicants born or living in the region.",
+   "oQueMuda": "Federal universities and institutes in the North and Northeast could give a bonus of up to 20% on the Enem score to candidates born in, or living for more than a year in, the state (or part of it) where the campus is. The bonus would be temporary, justified by social vulnerability criteria and periodically reviewed.",
    "quemAfeta": "Applicants to federal universities.",
    "porQueImporta": "Today admission to federal universities is through the Enem exam, with social and racial quotas, and no advantage based on place of origin. Under the PEC, universities could give extra points to local candidates."
   },
   "es": {
    "titulo": "Permite bonificaciones para candidatos locales en universidades federales",
-   "oQueMuda": "Las universidades federales podrían dar puntos extra a candidatos nacidos o residentes en la región.",
+   "oQueMuda": "Universidades e institutos federales del Norte y Nordeste podrían dar un bono de hasta el 20% en la nota del Enem a candidatos nacidos o residentes hace más de un año en el estado (o en parte de él) donde está el campus. El bono sería temporal, justificado por criterios de vulnerabilidad social y reevaluado periódicamente.",
    "quemAfeta": "Candidatos a plazas en universidades federales.",
    "porQueImporta": "Hoy el ingreso a las universidades federales es por el Enem, con cuotas sociales y raciales, sin ventaja por lugar de origen. Con la PEC, las universidades podrían dar puntos extra a candidatos de la región."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2293703": {
@@ -4145,9 +4145,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2145273": {
@@ -4195,9 +4195,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8823143": {
@@ -4220,34 +4220,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8834143": {
   "titulo": "Dá ao Legislativo o poder de criar reservas e terras indígenas",
-  "oQueMuda": "Áreas de preservação ambiental e terras indígenas passariam a depender de aprovação do Congresso.",
+  "oQueMuda": "A criação de áreas de preservação ambiental e a demarcação de terras indígenas, inclusive mudanças nos limites de terras já demarcadas, dependeriam de aprovação do Congresso. Atos de criação feitos sem essa aprovação seriam nulos.",
   "quemAfeta": "Povos indígenas, produtores rurais e órgãos ambientais.",
   "porQueImporta": "Hoje unidades de conservação e terras indígenas são criadas pelo Poder Executivo, por decreto. Com a PEC, dependeriam de aprovação do Congresso.",
   "fonte": "manual",
   "en": {
    "titulo": "Gives the legislature power to create reserves and Indigenous lands",
-   "oQueMuda": "Environmental protection areas and Indigenous lands would require approval from Congress.",
+   "oQueMuda": "Creating environmental protection areas and demarcating Indigenous lands, including changes to the boundaries of lands already demarcated, would require Congress's approval. Acts of creation made without it would be void.",
    "quemAfeta": "Indigenous peoples, farmers and environmental agencies.",
    "porQueImporta": "Today conservation areas and Indigenous lands are created by the executive branch, by decree. Under the PEC, they would depend on approval by Congress."
   },
   "es": {
    "titulo": "Da al Legislativo el poder de crear reservas y tierras indígenas",
-   "oQueMuda": "Las áreas de protección ambiental y las tierras indígenas dependerían de la aprobación del Congreso.",
+   "oQueMuda": "La creación de áreas de preservación ambiental y la demarcación de tierras indígenas, incluidos los cambios en los límites de tierras ya demarcadas, dependerían de la aprobación del Congreso. Los actos de creación hechos sin esa aprobación serían nulos.",
    "quemAfeta": "Pueblos indígenas, productores rurales y órganos ambientales.",
    "porQueImporta": "Hoy las unidades de conservación y las tierras indígenas son creadas por el Poder Ejecutivo, por decreto. Con la PEC, dependerían de la aprobación del Congreso."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2270800": {
@@ -4613,9 +4613,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8839624": {
@@ -4713,34 +4713,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2544926": {
-  "titulo": "Reduz a idade de aposentadoria de policiais e agentes mulheres",
-  "oQueMuda": "Mulheres policiais, agentes penitenciárias e socioeducativas poderiam se aposentar mais cedo.",
+  "titulo": "Reduz a idade de aposentadoria de mulheres nas polícias federais",
+  "oQueMuda": "Mulheres das polícias federais (Federal, Rodoviária, Ferroviária, polícias da Câmara e do Senado e Polícia Civil do DF) e agentes federais penitenciárias e socioeducativas que entraram na carreira até 2019 poderiam se aposentar com 52 anos (hoje, 55), ou com 50 anos cumprindo um tempo extra de contribuição. Para os homens, a idade continuaria 55 (ou 53 com tempo extra).",
   "quemAfeta": "Mulheres nessas carreiras.",
-  "porQueImporta": "Hoje a aposentadoria dessas carreiras segue a reforma de 2019, na União, e as leis de cada estado. Com a PEC, mulheres policiais e agentes penitenciárias e socioeducativas se aposentariam mais cedo que hoje.",
+  "porQueImporta": "Desde a reforma da Previdência de 2019, homens e mulheres dessas carreiras federais se aposentam com a mesma idade mínima, 55 anos. Com a PEC, as mulheres poderiam se aposentar 3 anos antes.",
   "fonte": "manual",
   "en": {
-   "titulo": "Lowers the retirement age for women police and officers",
-   "oQueMuda": "Women police officers, prison officers and juvenile detention officers could retire earlier.",
+   "titulo": "Lowers the retirement age for women in federal police forces",
+   "oQueMuda": "Women in federal police forces (Federal, Highway, Railway, Chamber and Senate police and the Federal District Civil Police) and federal prison and juvenile-detention agents who joined before 2019 could retire at 52 (today, 55), or at 50 with extra contributions. For men, the age would remain 55 (or 53 with extra contributions).",
    "quemAfeta": "Women in these careers.",
-   "porQueImporta": "Today retirement for these careers follows the 2019 reform at federal level and each state's laws. Under the PEC, women police officers and prison and juvenile detention officers would retire earlier than today."
+   "porQueImporta": "Since the 2019 pension reform, men and women in these federal careers retire at the same minimum age, 55. Under the PEC, women could retire 3 years earlier."
   },
   "es": {
-   "titulo": "Reduce la edad de jubilación de policías y agentes mujeres",
-   "oQueMuda": "Las mujeres policías, agentes penitenciarias y socioeducativas podrían jubilarse antes.",
+   "titulo": "Reduce la edad de jubilación de las mujeres en las policías federales",
+   "oQueMuda": "Las mujeres de las policías federales (Federal, de Carreteras, Ferroviaria, policías de la Cámara y del Senado y Policía Civil del DF) y agentes federales penitenciarias y socioeducativas que entraron en la carrera hasta 2019 podrían jubilarse a los 52 años (hoy, 55), o a los 50 cumpliendo un tiempo extra de contribución. Para los hombres, la edad seguiría siendo 55 (o 53 con tiempo extra).",
    "quemAfeta": "Mujeres en esas carreras.",
-   "porQueImporta": "Hoy la jubilación de estas carreras sigue la reforma de 2019, en el ámbito federal, y las leyes de cada estado. Con la PEC, las mujeres policías y agentes penitenciarias y socioeducativas se jubilarían antes que hoy."
+   "porQueImporta": "Desde la reforma previsional de 2019, hombres y mujeres de estas carreras federales se jubilan con la misma edad mínima, 55 años. Con la PEC, las mujeres podrían jubilarse 3 años antes."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c351184": {
@@ -5200,27 +5200,27 @@
  },
  "s8834618": {
   "titulo": "Troca o termo agrotóxicos por pesticidas na Constituição",
-  "oQueMuda": "A palavra agrotóxicos seria substituída por pesticidas no texto constitucional.",
+  "oQueMuda": "A Constituição trocaria a palavra 'agrotóxicos' por 'pesticidas', e ficaria proibido usar o termo 'agrotóxico' em qualquer lei ou norma federal, estadual ou municipal; Legislativo e Executivo teriam de trocar o termo nas leis em vigor, com projetos em regime de urgência.",
   "quemAfeta": "Setor agropecuário e consumidores.",
   "porQueImporta": "Hoje a Constituição usa a palavra 'agrotóxicos'; uma lei de 2023 passou a usar 'pesticidas'. Com a PEC, a Constituição também usaria 'pesticidas', sem mudar as regras de uso desses produtos.",
   "fonte": "manual",
   "en": {
    "titulo": "Replaces 'agrotoxics' with 'pesticides' in the Constitution",
-   "oQueMuda": "The word 'agrotóxicos' would be replaced by 'pesticidas' in the constitutional text.",
+   "oQueMuda": "The Constitution would replace the word 'agrotóxicos' (agrochemical poisons) with 'pesticidas' (pesticides), and the term 'agrotóxico' would be banned in any federal, state or municipal law or rule; the Legislature and Executive would have to replace the term in existing laws, with bills under urgent procedure.",
    "quemAfeta": "The farming sector and consumers.",
    "porQueImporta": "Today the Constitution uses the word 'agrotóxicos' (agro-toxins); a 2023 law switched to 'pesticides'. Under the PEC, the Constitution would also use 'pesticides', without changing the rules on using these products."
   },
   "es": {
    "titulo": "Cambia el término agrotóxicos por pesticidas en la Constitución",
-   "oQueMuda": "La palabra 'agrotóxicos' sería reemplazada por 'pesticidas' en el texto constitucional.",
+   "oQueMuda": "La Constitución cambiaría la palabra 'agrotóxicos' por 'pesticidas', y quedaría prohibido usar el término 'agrotóxico' en cualquier ley o norma federal, estatal o municipal; el Legislativo y el Ejecutivo tendrían que cambiar el término en las leyes vigentes, con proyectos en régimen de urgencia.",
    "quemAfeta": "Sector agropecuario y consumidores.",
    "porQueImporta": "Hoy la Constitución usa la palabra 'agrotóxicos'; una ley de 2023 pasó a usar 'pesticidas'. Con la PEC, la Constitución también usaría 'pesticidas', sin cambiar las reglas de uso de esos productos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8834813": {
@@ -5243,9 +5243,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8255099": {
@@ -5275,27 +5275,27 @@
  },
  "s8794275": {
   "titulo": "Reduz a contribuição previdenciária de municípios do interior",
-  "oQueMuda": "Prefeituras do interior pagariam menos contribuição sobre a folha de salários.",
+  "oQueMuda": "Municípios do interior, conforme os critérios do Fundo de Participação dos Municípios, pagariam à Previdência uma contribuição fixa de 8% sobre a folha de salários.",
   "quemAfeta": "Prefeituras do interior e a Previdência.",
-  "porQueImporta": "Hoje as prefeituras pagam ao INSS contribuição sobre a folha de salários dos servidores sem regime próprio. Com a PEC, as do interior pagariam uma alíquota menor, e o INSS deixaria de receber a diferença.",
+  "porQueImporta": "Hoje as prefeituras pagam ao INSS 20% sobre a folha dos servidores sem regime próprio de previdência; desde 2024, uma lei reduz essa alíquota para municípios de até 156 mil habitantes, com volta gradual aos 20% até 2027. Com a PEC, os municípios do interior pagariam 8% de forma permanente, e o INSS deixaria de receber a diferença.",
   "fonte": "manual",
   "en": {
    "titulo": "Cuts social security contributions for inland cities",
-   "oQueMuda": "Inland city governments would pay lower contributions on their payroll.",
+   "oQueMuda": "Inland municipalities, under the criteria of the Municipal Participation Fund, would pay social security a fixed 8% contribution on payroll.",
    "quemAfeta": "Inland city governments and social security.",
-   "porQueImporta": "Today city governments pay INSS a contribution on the payroll of staff without their own pension system. Under the PEC, inland cities would pay a lower rate, and INSS would not receive the difference."
+   "porQueImporta": "Today municipalities pay INSS 20% of the payroll of staff without their own pension system; since 2024, a law has cut this rate for municipalities of up to 156,000 inhabitants, returning gradually to 20% by 2027. Under the PEC, inland municipalities would pay 8% permanently, and INSS would lose the difference."
   },
   "es": {
    "titulo": "Reduce la contribución previsional de los municipios del interior",
-   "oQueMuda": "Los municipios del interior pagarían menos contribución sobre la nómina salarial.",
+   "oQueMuda": "Los municipios del interior, según los criterios del Fondo de Participación de los Municipios, pagarían a la Previsión Social una contribución fija del 8% sobre la nómina.",
    "quemAfeta": "Municipios del interior y la Seguridad Social.",
-   "porQueImporta": "Hoy las alcaldías pagan al INSS una contribución sobre la nómina de los servidores sin régimen propio. Con la PEC, las del interior pagarían una alícuota menor, y el INSS dejaría de recibir la diferencia."
+   "porQueImporta": "Hoy los municipios pagan al INSS el 20% de la nómina de los servidores sin régimen previsional propio; desde 2024, una ley reduce esa alícuota para municipios de hasta 156 mil habitantes, con vuelta gradual al 20% hasta 2027. Con la PEC, los municipios del interior pagarían el 8% de forma permanente, y el INSS dejaría de recibir la diferencia."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c489897": {
@@ -5445,9 +5445,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2435133": {
@@ -5523,9 +5523,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1738895": {
@@ -5773,9 +5773,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8540294": {
@@ -5823,34 +5823,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8808203": {
   "titulo": "Obriga qualquer pessoa a comparecer em CPIs",
   "oQueMuda": "Cidadãos e autoridades convocados por CPIs seriam obrigados a comparecer.",
   "quemAfeta": "Pessoas convocadas por comissões parlamentares de inquérito.",
-  "porQueImporta": "Hoje o STF permite que investigados deixem de comparecer a CPIs ou fiquem em silêncio. Com a PEC, qualquer pessoa convocada seria obrigada a comparecer.",
+  "porQueImporta": "Hoje as decisões do STF sobre o tema divergem: algumas permitem que investigados deixem de comparecer a CPIs, outras exigem o comparecimento com direito ao silêncio. Com a PEC, qualquer cidadão ou autoridade convocado teria de comparecer, inclusive sob condução coercitiva.",
   "fonte": "manual",
   "en": {
    "titulo": "Requires anyone summoned to appear before inquiry committees",
    "oQueMuda": "Citizens and officials summoned by parliamentary inquiry committees would have to appear.",
    "quemAfeta": "People summoned by parliamentary inquiry committees.",
-   "porQueImporta": "Today the Supreme Court allows suspects to skip inquiry hearings or remain silent. Under the PEC, anyone summoned would be required to appear."
+   "porQueImporta": "Today Supreme Court rulings on the issue diverge: some let people under investigation skip inquiry hearings, others require attendance with the right to silence. Under the PEC, any citizen or official summoned would have to appear, including by being brought in by force."
   },
   "es": {
    "titulo": "Obliga a cualquier persona a comparecer ante las CPIs",
    "oQueMuda": "Los ciudadanos y autoridades convocados por las CPIs estarían obligados a comparecer.",
    "quemAfeta": "Personas convocadas por comisiones parlamentarias de investigación.",
-   "porQueImporta": "Hoy el STF permite que los investigados no comparezcan a las CPI o guarden silencio. Con la PEC, cualquier persona convocada estaría obligada a comparecer."
+   "porQueImporta": "Hoy las decisiones del STF sobre el tema divergen: algunas permiten que investigados no comparezcan a las CPI, otras exigen la comparecencia con derecho al silencio. Con la PEC, cualquier ciudadano o autoridad convocado tendría que comparecer, incluso bajo conducción coercitiva."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c348335": {
@@ -6300,34 +6300,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2487249": {
   "titulo": "Garante sustentação oral presencial ou virtual a advogados",
-  "oQueMuda": "Reforça o papel do advogado e garante o direito de falar nos julgamentos, presencialmente ou online.",
+  "oQueMuda": "A Constituição garantiria aos advogados, de forma absoluta, o direito de falar em defesa do cliente (sustentação oral), presencialmente ou por vídeo, em todas as instâncias do Judiciário e também em órgãos da administração pública.",
   "quemAfeta": "Advogados e partes em processos.",
   "porQueImporta": "Hoje o direito do advogado de falar no julgamento depende do tipo de processo e das regras de cada tribunal, e julgamentos virtuais nem sempre permitem fala ao vivo. Com a PEC, esse direito ficaria garantido na Constituição, presencialmente ou online.",
   "fonte": "manual",
   "en": {
    "titulo": "Guarantees lawyers the right to argue in person or online",
-   "oQueMuda": "Strengthens the lawyer's role and guarantees the right to speak at hearings, in person or online.",
+   "oQueMuda": "The Constitution would guarantee lawyers, absolutely, the right to address the court on behalf of their client (oral argument), in person or by video, at every level of the Judiciary and also before public administration bodies.",
    "quemAfeta": "Lawyers and parties to cases.",
    "porQueImporta": "Today a lawyer's right to speak at a hearing depends on the type of case and each court's rules, and virtual hearings do not always allow live speech. Under the PEC, this right would be guaranteed in the Constitution, in person or online."
   },
   "es": {
    "titulo": "Garantiza a los abogados el alegato oral presencial o virtual",
-   "oQueMuda": "Refuerza el papel del abogado y garantiza el derecho a hablar en los juicios, en persona o en línea.",
+   "oQueMuda": "La Constitución garantizaría a los abogados, de forma absoluta, el derecho a hablar en defensa del cliente (alegato oral), en persona o por video, en todas las instancias del Poder Judicial y también ante órganos de la administración pública.",
    "quemAfeta": "Abogados y partes en procesos.",
    "porQueImporta": "Hoy el derecho del abogado a hablar en el juicio depende del tipo de proceso y de las reglas de cada tribunal, y los juicios virtuales no siempre permiten intervención en vivo. Con la PEC, ese derecho quedaría garantizado en la Constitución, presencialmente o en línea."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-13",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8664217": {

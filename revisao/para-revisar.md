@@ -592,3 +592,24 @@ Chat: temas "Amazônia" e "Idosos" pegavam palavras soltas ("acre" em "acrescent
 | PEC 24/2022 · Piso fisioterapia | Ajuste: entra na regra que manda lei federal criar o piso |
 | PEC 208/2019 · Pobreza | Ajuste: condicionalidades; Bolsa Família vale até a nova lei |
 | PEC 52/2023, 251/2013, 212/2019 | Conferem |
+
+## 12. Lote das 46 mais recentes (apresentadas em 2025–2026), conferidas no texto (13/out/2026)
+
+Antes resumidas só pela ementa. 27 reescritas, 19 conferem com o texto. Principais correções:
+
+| PEC | O que mudou no resumo |
+|---|---|
+| PEC 9/2026 · Maioridade penal | Faltava: crianças de 12 a 15 anos responderiam por crimes violentos, hediondos e contra a vida |
+| PEC 1/2026 · Contribuição das empresas | Faltava: acaba a contribuição sobre a folha; no lugar, até 1,4% sobre o faturamento |
+| PEC 17/2026, 45/2025, 39/2025 · STF | Requisitos concretos: idade mínima de 60 anos e lista dos tribunais (17/2026); mandato de 10 anos e eleição entre profissionais (45/2025); mandato de 12 anos e escolha pelo Senado por 2/3 (39/2025) |
+| PEC 3/2026 · IPVA | IPVA só pelo peso, até 1% do valor; teto para publicidade (0,1%) e Legislativo (0,4%) |
+| PEC 33/2025 · Vereadores | Errado: não era opção de cada cidade; foro no TJ seria obrigatório |
+| PEC 30/2025 · Privilégios | Errado: não era sobre vinculação de salários; é lista de vantagens proibidas |
+| PEC 31/2025 · Aposentadoria policial | Vale para polícias federais; idade de mulheres cai de 55 para 52 |
+| PEC 43/2025 · Votação obrigatória | Trancamento da pauta após 45 dias |
+| PEC 40/2025 · Jornada flexível (Câmara) | Mesmo texto da PEC 12/2026 |
+| PEC 47/2025 · Denúncia contra ministros | Admissibilidade por maioria simples |
+| PEC 23/2025 · Educação | Merenda no mínimo da educação, bolsas na educação infantil, sem punição em calamidade |
+| PEC 25/2025 · Pesticidas | Proíbe o termo "agrotóxico" em todas as leis |
+| PEC 15/2025 · Bônus regional | Só Norte e Nordeste, até 20% |
+| Outras | Ajustes de detalhe: 15/2026, 14/2026, 11/2026, 8/2026, 4/2026, 46/2025, 36/2025, 24/2025, 13/2025, 10/2025, 9/2025, 5/2025 |
