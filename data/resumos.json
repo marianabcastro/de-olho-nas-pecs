@@ -245,9 +245,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2166443": {
@@ -270,9 +270,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2500080": {
@@ -384,27 +384,27 @@
  },
  "c2442880": {
   "titulo": "Muda regras de aposentadoria de policiais e agentes de segurança",
-  "oQueMuda": "Altera critérios de aposentadoria especial previstos na reforma da Previdência de 2019 e cria regras próprias para a segurança pública.",
+  "oQueMuda": "Policiais (federais, civis, militares, penais e das polícias da Câmara e do Senado) e agentes socioeducativos passariam a ser reconhecidos na Constituição como carreiras de risco e típicas de Estado, com direitos garantidos também aos aposentados, e cada governo poderia fixar por lei complementar idade e tempo de contribuição diferenciados para a aposentadoria deles.",
   "quemAfeta": "Policiais e outros profissionais da segurança pública.",
-  "porQueImporta": "Desde a reforma de 2019, policiais federais e outros agentes se aposentam com 55 anos e tempo mínimo de atividade. Com a PEC, as regras seriam mudadas a favor desses profissionais, com aumento do gasto da Previdência.",
+  "porQueImporta": "Desde a reforma de 2019, policiais federais e outros agentes se aposentam com 55 anos e tempo mínimo de atividade. Com a PEC, cada governo poderia criar regras próprias de aposentadoria para essas carreiras.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes retirement rules for police and security officers",
-   "oQueMuda": "Changes special retirement criteria from the 2019 pension reform and creates specific rules for public safety.",
+   "oQueMuda": "Police officers (federal, civil, military, prison and Chamber and Senate police) and juvenile-detention agents would be recognized in the Constitution as high-risk, core state careers, with rights guaranteed to retirees too, and each government could set by complementary law different retirement ages and contribution times for them.",
    "quemAfeta": "Police officers and other public safety workers.",
-   "porQueImporta": "Since the 2019 reform, federal police and other officers retire at 55 with a minimum time in service. Under the PEC, the rules would be changed in favor of these workers, increasing pension spending."
+   "porQueImporta": "Since the 2019 reform, federal police and other agents retire at 55 with a minimum period of service. Under the PEC, each government could create its own retirement rules for these careers."
   },
   "es": {
    "titulo": "Cambia las reglas de jubilación de policías y agentes de seguridad",
-   "oQueMuda": "Modifica criterios de jubilación especial de la reforma previsional de 2019 y crea reglas propias para la seguridad pública.",
+   "oQueMuda": "Los policías (federales, civiles, militares, penales y de las policías de la Cámara y del Senado) y los agentes socioeducativos serían reconocidos en la Constitución como carreras de riesgo y típicas de Estado, con derechos garantizados también a los jubilados, y cada gobierno podría fijar por ley complementaria edad y tiempo de contribución diferenciados para su jubilación.",
    "quemAfeta": "Policías y otros profesionales de la seguridad pública.",
-   "porQueImporta": "Desde la reforma de 2019, los policías federales y otros agentes se jubilan a los 55 años con tiempo mínimo de actividad. Con la PEC, las reglas cambiarían a favor de estos profesionales, con aumento del gasto previsional."
+   "porQueImporta": "Desde la reforma de 2019, los policías federales y otros agentes se jubilan a los 55 años con tiempo mínimo de actividad. Con la PEC, cada gobierno podría crear reglas propias de jubilación para esas carreras."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c483905": {
@@ -434,27 +434,27 @@
  },
  "c372537": {
   "titulo": "Reserva dinheiro do orçamento para o esporte",
-  "oQueMuda": "Cria na Constituição uma destinação obrigatória de recursos para o esporte.",
+  "oQueMuda": "União, estados e municípios teriam de aplicar todo ano pelo menos 1% da receita de impostos no esporte educacional e de alto rendimento; da parte da União, 25% iriam para os estados e 25% para os municípios.",
   "quemAfeta": "Entidades esportivas, atletas e governos.",
-  "porQueImporta": "Hoje não há valor mínimo obrigatório para o esporte no orçamento. Com a PEC, uma parte fixa das receitas teria de ir para a área.",
+  "porQueImporta": "Hoje não há valor mínimo obrigatório para o esporte no orçamento. Com a PEC, 1% da receita de impostos teria de ir para a área, como já acontece com saúde e educação.",
   "fonte": "manual",
   "en": {
    "titulo": "Sets aside budget money for sports",
-   "oQueMuda": "Creates a mandatory allocation of funds for sports in the Constitution.",
+   "oQueMuda": "Federal, state and municipal governments would have to spend at least 1% of tax revenue each year on school and high-performance sport; of the federal share, 25% would go to states and 25% to municipalities.",
    "quemAfeta": "Sports organizations, athletes and governments.",
-   "porQueImporta": "Today there is no mandatory minimum for sport in the budget. Under the PEC, a fixed share of revenue would have to go to it."
+   "porQueImporta": "Today there is no mandatory minimum for sport in the budget. Under the PEC, 1% of tax revenue would have to go to it, as already happens with health and education."
   },
   "es": {
    "titulo": "Reserva dinero del presupuesto para el deporte",
-   "oQueMuda": "Crea en la Constitución una asignación obligatoria de recursos para el deporte.",
+   "oQueMuda": "La Unión, los estados y los municipios tendrían que aplicar cada año al menos el 1% de la recaudación de impuestos en el deporte educativo y de alto rendimiento; de la parte de la Unión, el 25% iría a los estados y el 25% a los municipios.",
    "quemAfeta": "Entidades deportivas, atletas y gobiernos.",
-   "porQueImporta": "Hoy no hay valor mínimo obligatorio para el deporte en el presupuesto. Con la PEC, una parte fija de los ingresos tendría que ir al área."
+   "porQueImporta": "Hoy no hay un mínimo obligatorio para el deporte en el presupuesto. Con la PEC, el 1% de la recaudación de impuestos tendría que ir al área, como ya ocurre con salud y educación."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c586407": {
@@ -477,9 +477,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c520886": {
@@ -564,28 +564,28 @@
   }
  },
  "c2419252": {
-  "titulo": "Muda regras de contribuição e aposentadoria de servidores",
-  "oQueMuda": "Altera pontos da reforma da Previdência de 2019 sobre contribuições extras e regras de servidores públicos.",
+  "titulo": "Reduz até zerar a contribuição de servidores aposentados a partir dos 63 ou 66 anos",
+  "oQueMuda": "A contribuição previdenciária de servidores aposentados e pensionistas não seria cobrada em caso de incapacidade permanente ou doença incapacitante, cairia 10% por ano a partir dos 66 anos (homens) ou 63 (mulheres) e acabaria aos 75 anos.",
   "quemAfeta": "Servidores públicos ativos e aposentados.",
-  "porQueImporta": "A reforma de 2019 permitiu cobrar contribuições extraordinárias de servidores quando a Previdência pública tem déficit. Com a PEC, essas regras mudariam, alterando quanto os servidores pagam.",
+  "porQueImporta": "Hoje servidores aposentados e pensionistas pagam contribuição sobre o valor que passa do teto do INSS e, quando há déficit, também acima de um salário mínimo. Com a PEC, a cobrança diminuiria com a idade até zerar aos 75 anos. Ela é discutida junto com a PEC 555/2006.",
   "fonte": "manual",
   "en": {
-   "titulo": "Changes contribution and retirement rules for civil servants",
-   "oQueMuda": "Changes parts of the 2019 pension reform on extra contributions and rules for civil servants.",
+   "titulo": "Phases out retired civil servants' contribution from age 63 or 66",
+   "oQueMuda": "The pension contribution of retired civil servants and survivors would not be charged in cases of permanent disability or disabling illness, would fall 10% a year from age 66 (men) or 63 (women) and would end at 75.",
    "quemAfeta": "Active and retired civil servants.",
-   "porQueImporta": "The 2019 reform allowed extra contributions from civil servants when public pension systems run a deficit. Under the PEC, these rules would change, altering how much civil servants pay."
+   "porQueImporta": "Today retired civil servants and survivors pay a contribution on the amount above the INSS ceiling and, when there is a deficit, also above one minimum wage. Under the PEC, the charge would decrease with age until reaching zero at 75. It is discussed together with PEC 555/2006."
   },
   "es": {
-   "titulo": "Cambia las reglas de contribución y jubilación de los servidores",
-   "oQueMuda": "Modifica puntos de la reforma previsional de 2019 sobre contribuciones extra y reglas de servidores públicos.",
+   "titulo": "Reduce hasta eliminar la contribución de servidores jubilados a partir de los 63 o 66 años",
+   "oQueMuda": "La contribución previsional de servidores jubilados y pensionistas no se cobraría en caso de incapacidad permanente o enfermedad incapacitante, bajaría un 10% por año desde los 66 años (hombres) o 63 (mujeres) y terminaría a los 75.",
    "quemAfeta": "Servidores públicos activos y jubilados.",
-   "porQueImporta": "La reforma de 2019 permitió cobrar contribuciones extraordinarias a los servidores cuando la previsión pública tiene déficit. Con la PEC, esas reglas cambiarían, alterando cuánto pagan los servidores."
+   "porQueImporta": "Hoy los servidores jubilados y pensionistas pagan contribución sobre el monto que supera el techo del INSS y, cuando hay déficit, también por encima de un salario mínimo. Con la PEC, el cobro disminuiría con la edad hasta llegar a cero a los 75 años. Se discute junto con la PEC 555/2006."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2623400": {
@@ -933,27 +933,27 @@
  },
  "c412505": {
   "titulo": "Cria o Fundo Nacional do Ensino Técnico",
-  "oQueMuda": "Reserva recursos de impostos para financiar o ensino técnico.",
+  "oQueMuda": "Seria criado o Fundo Nacional do Ensino Técnico, com 30% das contribuições que hoje financiam o Sistema S (Senai, Sesc, Senac, Sebrae e outros), 18% de um fundo de telecomunicações, 1% das multas de trânsito e outros recursos.",
   "quemAfeta": "Estudantes e escolas de ensino técnico.",
   "porQueImporta": "Hoje o ensino técnico é pago com o dinheiro geral da educação. Com a PEC, haveria um fundo com parte de impostos reservada só para ele.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates the National Technical Education Fund",
-   "oQueMuda": "Sets aside tax money to fund technical education.",
+   "oQueMuda": "A National Technical Education Fund would be created, with 30% of the contributions that today fund the S System (Senai, Sesc, Senac, Sebrae and others), 18% of a telecommunications fund, 1% of traffic fines and other resources.",
    "quemAfeta": "Students and technical schools.",
    "porQueImporta": "Today technical education is paid from general education funds. Under the PEC, there would be a fund with a share of taxes reserved for it."
   },
   "es": {
    "titulo": "Crea el Fondo Nacional de Enseñanza Técnica",
-   "oQueMuda": "Reserva recursos de impuestos para financiar la enseñanza técnica.",
+   "oQueMuda": "Se crearía el Fondo Nacional de la Enseñanza Técnica, con el 30% de las contribuciones que hoy financian el Sistema S (Senai, Sesc, Senac, Sebrae y otros), el 18% de un fondo de telecomunicaciones, el 1% de las multas de tránsito y otros recursos.",
    "quemAfeta": "Estudiantes y escuelas técnicas.",
    "porQueImporta": "Hoy la enseñanza técnica se paga con el dinero general de la educación. Con la PEC, habría un fondo con parte de impuestos reservada solo para ella."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c527081": {
@@ -1259,27 +1259,27 @@
  },
  "c2436224": {
   "titulo": "Transforma auxiliares de enfermagem federais em técnicos",
-  "oQueMuda": "Servidores federais no cargo de auxiliar de enfermagem passariam para a carreira de técnico de enfermagem.",
+  "oQueMuda": "Servidores federais no cargo de auxiliar de enfermagem que tenham diploma de técnico poderiam pedir para passar à carreira de técnico de enfermagem, sem novo concurso.",
   "quemAfeta": "Auxiliares de enfermagem do serviço público federal.",
   "porQueImporta": "Hoje auxiliares e técnicos de enfermagem são cargos diferentes, com salários diferentes, e mudar de cargo exige concurso. Com a PEC, os auxiliares federais passariam a técnicos sem novo concurso.",
   "fonte": "manual",
   "en": {
    "titulo": "Promotes federal nursing assistants to nursing technicians",
-   "oQueMuda": "Federal employees working as nursing assistants would move to the nursing technician career.",
+   "oQueMuda": "Federal civil servants in the nursing assistant post who hold a technician diploma could request to move to the nursing technician career, without a new public exam.",
    "quemAfeta": "Nursing assistants in the federal civil service.",
    "porQueImporta": "Today nursing assistants and technicians are different posts with different salaries, and changing posts requires a public exam. Under the PEC, federal assistants would become technicians without a new exam."
   },
   "es": {
    "titulo": "Convierte a auxiliares de enfermería federales en técnicos",
-   "oQueMuda": "Los servidores federales en el cargo de auxiliar de enfermería pasarían a la carrera de técnico de enfermería.",
+   "oQueMuda": "Los servidores federales en el cargo de auxiliar de enfermería que tengan diploma de técnico podrían pedir pasar a la carrera de técnico de enfermería, sin nuevo concurso.",
    "quemAfeta": "Auxiliares de enfermería del servicio público federal.",
    "porQueImporta": "Hoy auxiliares y técnicos de enfermería son cargos distintos, con salarios distintos, y cambiar de cargo exige concurso. Con la PEC, los auxiliares federales pasarían a técnicos sin nuevo concurso."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2485767": {
@@ -1552,9 +1552,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2340881": {
@@ -1602,9 +1602,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s9047816": {
@@ -1680,9 +1680,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2362526": {
@@ -1962,9 +1962,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8440723": {
@@ -2137,9 +2137,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c590035": {
@@ -2162,34 +2162,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2126901": {
   "titulo": "Obriga corrigir a tabela do Imposto de Renda",
-  "oQueMuda": "A tabela e as deduções do IR de pessoa física teriam correção periódica obrigatória.",
+  "oQueMuda": "A tabela e as deduções do Imposto de Renda de pessoa física teriam de ser corrigidas todo ano por um índice oficial de inflação.",
   "quemAfeta": "Quem paga Imposto de Renda.",
   "porQueImporta": "Hoje a tabela do Imposto de Renda só é corrigida quando o governo decide, e passou anos sem correção. Com a PEC, a correção seria obrigatória e periódica.",
   "fonte": "manual",
   "en": {
    "titulo": "Requires the income tax table to be updated",
-   "oQueMuda": "The personal income tax brackets and deductions would have mandatory periodic adjustments.",
+   "oQueMuda": "The personal income tax brackets and deductions would have to be adjusted every year by an official inflation index.",
    "quemAfeta": "Income tax payers.",
    "porQueImporta": "Today the income tax table is only adjusted when the government decides, and it has gone years without adjustment. Under the PEC, adjustment would be mandatory and periodic."
   },
   "es": {
    "titulo": "Obliga a actualizar la tabla del Impuesto a la Renta",
-   "oQueMuda": "La tabla y las deducciones del impuesto a la renta personal tendrían actualización periódica obligatoria.",
+   "oQueMuda": "La tabla y las deducciones del Impuesto a la Renta de las personas físicas tendrían que corregirse cada año por un índice oficial de inflación.",
    "quemAfeta": "Quienes pagan Impuesto a la Renta.",
    "porQueImporta": "Hoy la tabla del impuesto a la renta solo se corrige cuando el gobierno decide, y pasó años sin corrección. Con la PEC, la corrección sería obligatoria y periódica."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2231327": {
@@ -2212,9 +2212,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2214856": {
@@ -2262,9 +2262,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2402861": {
@@ -2287,9 +2287,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8937612": {
@@ -2370,27 +2370,27 @@
  },
  "c2332037": {
   "titulo": "Cria piso maior para agentes de saúde com formação técnica",
-  "oQueMuda": "Agentes comunitários de saúde e de endemias com curso técnico teriam piso salarial diferenciado.",
+  "oQueMuda": "Agentes comunitários de saúde e de combate às endemias com curso técnico na área teriam salário mínimo de 3 salários mínimos, pago com dinheiro repassado pela União.",
   "quemAfeta": "Agentes comunitários de saúde e prefeituras.",
   "porQueImporta": "Desde 2022 agentes comunitários de saúde e de endemias têm piso de dois salários mínimos. Com a PEC, quem tem curso técnico teria um piso maior.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates higher minimum pay for health agents with technical training",
-   "oQueMuda": "Community health and disease-control agents with technical training would have a separate minimum salary.",
+   "oQueMuda": "Community health and disease-control agents with a technical course in the field would have a minimum salary of 3 minimum wages, paid with money transferred by the federal government.",
    "quemAfeta": "Community health agents and city governments.",
    "porQueImporta": "Since 2022 community health and disease control workers have a pay floor of two minimum wages. Under the PEC, those with technical training would have a higher floor."
   },
   "es": {
    "titulo": "Crea un salario mínimo mayor para agentes de salud con formación técnica",
-   "oQueMuda": "Los agentes comunitarios de salud y de endemias con curso técnico tendrían un salario mínimo diferenciado.",
+   "oQueMuda": "Los agentes comunitarios de salud y de combate a endemias con curso técnico en el área tendrían un salario mínimo de 3 salarios mínimos, pagado con dinero transferido por la Unión.",
    "quemAfeta": "Agentes comunitarios de salud y municipios.",
    "porQueImporta": "Desde 2022 los agentes comunitarios de salud y de endemias tienen un piso de dos salarios mínimos. Con la PEC, quien tenga curso técnico tendría un piso mayor."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2447265": {
@@ -2438,9 +2438,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7825125": {
@@ -2463,9 +2463,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8639162": {
@@ -2488,9 +2488,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c560156": {
@@ -2513,9 +2513,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1504922": {
@@ -2638,9 +2638,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8831744": {
@@ -2713,9 +2713,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2118618": {
@@ -2738,34 +2738,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1299731": {
   "titulo": "Define regras de salário da Polícia Rodoviária Federal",
-  "oQueMuda": "Fixa parâmetros na Constituição para a remuneração dos policiais rodoviários federais.",
+  "oQueMuda": "O salário do topo da carreira de policial rodoviário federal não poderia ser menor que 90,25% do salário de ministro do STF, e o salário inicial não poderia ser menor que 57% do salário do topo.",
   "quemAfeta": "Policiais rodoviários federais.",
   "porQueImporta": "Hoje o salário dos policiais rodoviários federais é definido por lei. Com a PEC, a Constituição fixaria parâmetros para essa remuneração, paga pela União.",
   "fonte": "manual",
   "en": {
    "titulo": "Sets pay rules for the Federal Highway Police",
-   "oQueMuda": "Sets constitutional parameters for the pay of federal highway police officers.",
+   "oQueMuda": "The top salary in the Federal Highway Police career could not be less than 90.25% of a Supreme Court justice's salary, and the starting salary could not be less than 57% of the top salary.",
    "quemAfeta": "Federal highway police officers.",
    "porQueImporta": "Today federal highway police pay is set by law. Under the PEC, the Constitution would set parameters for this pay, funded by the federal government."
   },
   "es": {
    "titulo": "Define reglas salariales de la Policía Federal de Carreteras",
-   "oQueMuda": "Fija parámetros en la Constitución para la remuneración de los policías federales de carreteras.",
+   "oQueMuda": "El salario del tope de la carrera de policía federal de carreteras no podría ser menor al 90,25% del salario de ministro del STF, y el salario inicial no podría ser menor al 57% del salario del tope.",
    "quemAfeta": "Policías federales de carreteras.",
    "porQueImporta": "Hoy el salario de los policías de carreteras federales se define por ley. Con la PEC, la Constitución fijaría parámetros para esa remuneración, pagada por el gobierno federal."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2188961": {
@@ -2795,27 +2795,27 @@
  },
  "c579931": {
   "titulo": "Cria uma Corte Constitucional e muda o STJ e o CNJ",
-  "oQueMuda": "Cria um tribunal só para questões constitucionais e muda composição e nomeação do STJ e do CNJ.",
+  "oQueMuda": "O STF viraria uma Corte Constitucional de 15 ministros, com 40 a 60 anos, nomeados pelo presidente do Congresso (e não pelo presidente da República), depois de aprovação pela maioria da Câmara e do Senado, a partir de listas de três nomes vindos da magistratura, do Ministério Público e da advocacia. A PEC também muda a composição e a escolha de membros do STJ e do CNJ.",
   "quemAfeta": "Tribunais superiores e quem recorre a eles.",
   "porQueImporta": "Hoje o STF julga tanto questões constitucionais quanto recursos e processos de autoridades. Com a PEC, uma nova Corte Constitucional cuidaria só das questões constitucionais, e mudaria a forma de escolher membros do STJ e do CNJ.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates a Constitutional Court and changes the STJ and CNJ",
-   "oQueMuda": "Creates a court only for constitutional matters and changes the makeup and appointments of the Superior Court of Justice and the National Council of Justice.",
+   "oQueMuda": "The Supreme Court would become a 15-member Constitutional Court, aged 40 to 60, appointed by the president of Congress (not the President of the Republic), after approval by a majority of the Chamber and Senate, from lists of three names from the judiciary, prosecutors and the bar. The PEC also changes the composition and selection of the Superior Court of Justice and the National Council of Justice.",
    "quemAfeta": "Higher courts and people who appeal to them.",
    "porQueImporta": "Today the Supreme Court rules both on constitutional questions and on appeals and cases against officials. Under the PEC, a new Constitutional Court would handle only constitutional questions, and the way members of the STJ and CNJ are chosen would change."
   },
   "es": {
    "titulo": "Crea una Corte Constitucional y cambia el STJ y el CNJ",
-   "oQueMuda": "Crea un tribunal solo para cuestiones constitucionales y cambia la composición y el nombramiento del STJ y del CNJ.",
+   "oQueMuda": "El STF se convertiría en una Corte Constitucional de 15 ministros, de 40 a 60 años, nombrados por el presidente del Congreso (y no por el presidente de la República), tras aprobación de la mayoría de la Cámara y del Senado, a partir de ternas de la magistratura, el Ministerio Público y la abogacía. La PEC también cambia la composición y la elección de miembros del STJ y del CNJ.",
    "quemAfeta": "Tribunales superiores y quienes recurren a ellos.",
    "porQueImporta": "Hoy el STF juzga tanto cuestiones constitucionales como recursos y procesos de autoridades. Con la PEC, una nueva Corte Constitucional se ocuparía solo de las cuestiones constitucionales, y cambiaría la forma de elegir miembros del STJ y del CNJ."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c514540": {
@@ -2838,9 +2838,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c384232": {
@@ -2863,9 +2863,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2086220": {
@@ -2888,9 +2888,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2088445": {
@@ -2948,27 +2948,27 @@
  },
  "c145695": {
   "titulo": "Cria regras para reajustar salários de políticos e autoridades",
-  "oQueMuda": "Define critérios para a revisão dos salários de membros dos Poderes, parlamentares, ministros e secretários.",
+  "oQueMuda": "Os salários de membros dos Poderes, parlamentares, ministros e secretários não poderiam ser reajustados por índices maiores que os da revisão geral anual dos servidores públicos.",
   "quemAfeta": "Autoridades e políticos eleitos.",
   "porQueImporta": "Hoje os salários de parlamentares, ministros e juízes são reajustados por lei ou decreto, sem índice fixo. Com a PEC, haveria critérios definidos na Constituição para esses reajustes.",
   "fonte": "manual",
   "en": {
    "titulo": "Sets rules for raising politicians' and officials' salaries",
-   "oQueMuda": "Defines criteria for reviewing the salaries of top officials, legislators, ministers and secretaries.",
+   "oQueMuda": "Salaries of members of the branches of government, lawmakers, ministers and secretaries could not be raised by more than the general annual revision for civil servants.",
    "quemAfeta": "Officials and elected politicians.",
    "porQueImporta": "Today salaries of lawmakers, ministers and judges are raised by law or decree, with no fixed index. Under the PEC, there would be criteria set in the Constitution for these raises."
   },
   "es": {
    "titulo": "Crea reglas para reajustar salarios de políticos y autoridades",
-   "oQueMuda": "Define criterios para revisar los salarios de miembros de los Poderes, parlamentarios, ministros y secretarios.",
+   "oQueMuda": "Los salarios de miembros de los Poderes, parlamentarios, ministros y secretarios no podrían reajustarse por índices mayores que los de la revisión general anual de los servidores públicos.",
    "quemAfeta": "Autoridades y políticos electos.",
    "porQueImporta": "Hoy los salarios de parlamentarios, ministros y jueces se reajustan por ley o decreto, sin índice fijo. Con la PEC, habría criterios definidos en la Constitución para esos reajustes."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c320708": {
@@ -2991,9 +2991,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c453251": {
@@ -3016,9 +3016,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c589892": {
@@ -3066,34 +3066,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2174497": {
   "titulo": "Permite que cidades cobrem taxa para revitalizar áreas urbanas",
-  "oQueMuda": "Municípios e o DF poderiam criar uma contribuição para pagar obras de revitalização em áreas específicas.",
+  "oQueMuda": "Municípios e o DF poderiam criar uma contribuição para pagar obras de revitalização de áreas urbanas específicas, cobrada dos proprietários de imóveis não residenciais dessas áreas, com aprovação prévia do projeto pela Câmara Municipal.",
   "quemAfeta": "Moradores e comerciantes dessas áreas e prefeituras.",
-  "porQueImporta": "Hoje as cidades não podem criar uma contribuição para obras em áreas específicas. Com a PEC, poderiam cobrar de moradores e comerciantes dessas áreas para pagar a revitalização.",
+  "porQueImporta": "Hoje as cidades não podem criar uma contribuição para obras em áreas específicas. Com a PEC, poderiam cobrar dos donos de imóveis comerciais e de outros não residenciais da área para pagar a revitalização.",
   "fonte": "manual",
   "en": {
    "titulo": "Lets cities charge a fee to revitalize urban areas",
-   "oQueMuda": "Cities and the Federal District could create a contribution to pay for revitalization works in specific areas.",
+   "oQueMuda": "Municipalities and the Federal District could create a contribution to pay for revitalization works in specific urban areas, charged to owners of non-residential properties in those areas, with prior approval of the project by the city council.",
    "quemAfeta": "Residents and businesses in those areas, and city governments.",
-   "porQueImporta": "Today cities cannot create a levy for works in specific areas. Under the PEC, they could charge residents and businesses in those areas to pay for revitalization."
+   "porQueImporta": "Today cities cannot create a contribution for works in specific areas. Under the PEC, they could charge owners of commercial and other non-residential properties in the area to pay for revitalization."
   },
   "es": {
    "titulo": "Permite que las ciudades cobren una tasa para revitalizar zonas urbanas",
-   "oQueMuda": "Municipios y el DF podrían crear una contribución para pagar obras de revitalización en zonas específicas.",
+   "oQueMuda": "Los municipios y el DF podrían crear una contribución para pagar obras de revitalización de áreas urbanas específicas, cobrada a los propietarios de inmuebles no residenciales de esas áreas, con aprobación previa del proyecto por el concejo municipal.",
    "quemAfeta": "Habitantes y comerciantes de esas zonas y municipios.",
-   "porQueImporta": "Hoy las ciudades no pueden crear una contribución para obras en áreas específicas. Con la PEC, podrían cobrar a residentes y comerciantes de esas áreas para pagar la revitalización."
+   "porQueImporta": "Hoy las ciudades no pueden crear una contribución para obras en áreas específicas. Con la PEC, podrían cobrar a los dueños de inmuebles comerciales y otros no residenciales del área para pagar la revitalización."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2224818": {
@@ -3116,9 +3116,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2377463": {
@@ -3151,27 +3151,27 @@
  },
  "c2380340": {
   "titulo": "Muda a Previdência dos servidores municipais",
-  "oQueMuda": "Altera regras dos regimes próprios de previdência das prefeituras para equilibrar suas contas.",
+  "oQueMuda": "Os regimes de previdência dos servidores municipais passariam a seguir automaticamente as mesmas regras de benefícios da União, inclusive as de transição da reforma de 2019, a menos que o município aprove regras mais rígidas.",
   "quemAfeta": "Servidores municipais e prefeituras.",
   "porQueImporta": "Muitas prefeituras têm regime próprio de previdência para seus servidores, e vários estão com déficit. Com a PEC, mudariam regras de contribuição e de benefícios desses regimes.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes pensions for city civil servants",
-   "oQueMuda": "Changes the rules of city pension systems to balance their accounts.",
+   "oQueMuda": "Municipal civil servants' pension systems would automatically follow the federal government's benefit rules, including the 2019 reform's transition rules, unless the municipality passes stricter rules.",
    "quemAfeta": "City civil servants and city governments.",
    "porQueImporta": "Many city governments run their own pension systems for staff, and several are in deficit. Under the PEC, contribution and benefit rules for these systems would change."
   },
   "es": {
    "titulo": "Cambia la previsión de los servidores municipales",
-   "oQueMuda": "Modifica las reglas de los regímenes previsionales de los municipios para equilibrar sus cuentas.",
+   "oQueMuda": "Los regímenes previsionales de los servidores municipales seguirían automáticamente las mismas reglas de beneficios de la Unión, incluidas las de transición de la reforma de 2019, salvo que el municipio apruebe reglas más estrictas.",
    "quemAfeta": "Servidores municipales y municipios.",
    "porQueImporta": "Muchas alcaldías tienen régimen propio de previsión para sus servidores, y varios tienen déficit. Con la PEC, cambiarían las reglas de contribución y de beneficios de esos regímenes."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2225224": {
@@ -3744,9 +3744,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2225743": {
@@ -3794,9 +3794,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8951883": {
@@ -3826,27 +3826,27 @@
  },
  "c2471383": {
   "titulo": "Reserva parte das emendas parlamentares para o esporte",
-  "oQueMuda": "Uma parte das emendas individuais de deputados e senadores teria de ir para programas de esporte.",
+  "oQueMuda": "Além da metade para a saúde, 3% do valor das emendas individuais de deputados e senadores ao orçamento teriam de ir para programas de esporte.",
   "quemAfeta": "Entidades esportivas e municípios.",
   "porQueImporta": "Hoje metade das emendas individuais já tem de ir para a saúde. Com a PEC, uma parte também teria de ir para programas de esporte.",
   "fonte": "manual",
   "en": {
    "titulo": "Sets aside part of legislators' budget amendments for sports",
-   "oQueMuda": "Part of deputies' and senators' individual budget amendments would have to go to sports programs.",
+   "oQueMuda": "Besides half for health, 3% of the value of deputies' and senators' individual budget amendments would have to go to sports programs.",
    "quemAfeta": "Sports organizations and cities.",
    "porQueImporta": "Today half of individual budget amendments must already go to health. Under the PEC, a share would also have to go to sports programs."
   },
   "es": {
    "titulo": "Reserva parte de las enmiendas parlamentarias para el deporte",
-   "oQueMuda": "Una parte de las enmiendas individuales de diputados y senadores tendría que ir a programas deportivos.",
+   "oQueMuda": "Además de la mitad para salud, el 3% del valor de las enmiendas individuales de diputados y senadores al presupuesto tendría que ir a programas de deporte.",
    "quemAfeta": "Entidades deportivas y municipios.",
    "porQueImporta": "Hoy la mitad de las enmiendas individuales ya debe ir a salud. Con la PEC, una parte también tendría que ir a programas de deporte."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2336011": {
@@ -3876,27 +3876,27 @@
  },
  "c2363434": {
   "titulo": "Muda o FPM e cria fundos para o Sul e o Sudeste",
-  "oQueMuda": "Altera a distribuição do FPM e cria fundos constitucionais de financiamento para as regiões Sul e Sudeste.",
+  "oQueMuda": "A parte do Imposto de Renda e do IPI que a União divide passaria de 50% para 53,5%: a parcela principal do FPM passaria de 22,5% para 23,5%, e seriam criados repasses de 1% para financiar o setor produtivo do Sul e 1% para o Sudeste, por bancos regionais.",
   "quemAfeta": "Prefeituras e empresas dessas regiões.",
   "porQueImporta": "Hoje há fundos constitucionais de crédito só para o Norte, o Nordeste e o Centro-Oeste. Com a PEC, o Sul e o Sudeste também teriam, e o FPM seria dividido de outra forma.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes the FPM and creates funds for the South and Southeast",
-   "oQueMuda": "Changes how the FPM is shared and creates constitutional financing funds for the South and Southeast regions.",
+   "oQueMuda": "The share of income tax and IPI the federal government shares would rise from 50% to 53.5%: the main share of the Municipal Participation Fund would rise from 22.5% to 23.5%, and 1% transfers would be created to finance productive sectors in the South and 1% in the Southeast, through regional banks.",
    "quemAfeta": "City governments and companies in these regions.",
    "porQueImporta": "Today there are constitutional credit funds only for the North, Northeast and Center-West. Under the PEC, the South and Southeast would also have them, and FPM would be split differently."
   },
   "es": {
    "titulo": "Cambia el FPM y crea fondos para el Sur y el Sudeste",
-   "oQueMuda": "Modifica la distribución del FPM y crea fondos constitucionales de financiamiento para las regiones Sur y Sudeste.",
+   "oQueMuda": "La parte del Impuesto a la Renta y del IPI que la Unión reparte pasaría del 50% al 53,5%: la parcela principal del FPM pasaría del 22,5% al 23,5%, y se crearían transferencias del 1% para financiar el sector productivo del Sur y del 1% para el Sudeste, por bancos regionales.",
    "quemAfeta": "Municipios y empresas de esas regiones.",
    "porQueImporta": "Hoy hay fondos constitucionales de crédito solo para el Norte, el Nordeste y el Centro-Oeste. Con la PEC, el Sur y el Sudeste también tendrían, y el FPM se repartiría de otra forma."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2122682": {
@@ -3969,9 +3969,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c555267": {
@@ -4170,9 +4170,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8796560": {
@@ -4299,9 +4299,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c522713": {
@@ -4324,9 +4324,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8594291": {
@@ -4515,28 +4515,28 @@
   }
  },
  "c2231221": {
-  "titulo": "Permite cobrar mensalidade em universidades públicas",
-  "oQueMuda": "Universidades públicas poderiam cobrar mensalidade dos alunos.",
+  "titulo": "Obriga universidades públicas a cobrar mensalidade de quem pode pagar",
+  "oQueMuda": "Universidades e instituições públicas de ensino superior teriam de cobrar mensalidade, com o dinheiro usado no próprio custeio; quem não tiver recursos ficaria isento, conforme avaliação da própria instituição, e o Ministério da Educação fixaria valores mínimo e máximo.",
   "quemAfeta": "Estudantes de universidades públicas e suas famílias.",
-  "porQueImporta": "Hoje o ensino em universidades públicas é gratuito para todos. Com a PEC, elas poderiam cobrar mensalidade dos alunos.",
+  "porQueImporta": "Hoje o ensino em universidades públicas é gratuito para todos. Com a PEC, a cobrança seria obrigatória, com gratuidade só para quem comprovar não ter recursos.",
   "fonte": "manual",
   "en": {
-   "titulo": "Allows public universities to charge tuition",
-   "oQueMuda": "Public universities could charge students tuition.",
+   "titulo": "Requires public universities to charge tuition to those who can pay",
+   "oQueMuda": "Public universities and higher education institutions would have to charge tuition, with the money used for their own funding; those without means would be exempt, based on the institution's own assessment, and the Education Ministry would set minimum and maximum amounts.",
    "quemAfeta": "Public university students and their families.",
-   "porQueImporta": "Today public university education is free for everyone. Under the PEC, they could charge students tuition."
+   "porQueImporta": "Today public university education is free for everyone. Under the PEC, charging would be mandatory, with free tuition only for those who prove they lack means."
   },
   "es": {
-   "titulo": "Permite cobrar matrícula en universidades públicas",
-   "oQueMuda": "Las universidades públicas podrían cobrar cuotas a los alumnos.",
+   "titulo": "Obliga a las universidades públicas a cobrar mensualidad a quien puede pagar",
+   "oQueMuda": "Las universidades e instituciones públicas de educación superior tendrían que cobrar mensualidad, con el dinero usado para su propio funcionamiento; quienes no tengan recursos quedarían exentos, según evaluación de la propia institución, y el Ministerio de Educación fijaría valores mínimo y máximo.",
    "quemAfeta": "Estudiantes de universidades públicas y sus familias.",
-   "porQueImporta": "Hoy la enseñanza en universidades públicas es gratuita para todos. Con la PEC, podrían cobrar mensualidad a los alumnos."
+   "porQueImporta": "Hoy la enseñanza en universidades públicas es gratuita para todos. Con la PEC, el cobro sería obligatorio, con gratuidad solo para quien demuestre no tener recursos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2341862": {
@@ -4645,27 +4645,27 @@
  },
  "c2086981": {
   "titulo": "Muda a forma de calcular o IPVA",
-  "oQueMuda": "Cria uma nova base de cálculo para o imposto sobre veículos.",
+  "oQueMuda": "O IPVA passaria a ser calculado pelo peso bruto total do veículo ou pelo peso por eixo, e não mais pelo valor de mercado.",
   "quemAfeta": "Donos de veículos e os estados.",
-  "porQueImporta": "Hoje o IPVA é calculado sobre o valor de mercado do veículo. Com a PEC, a base de cálculo mudaria.",
+  "porQueImporta": "Hoje o IPVA é calculado sobre o valor de mercado do veículo, e carros mais caros pagam mais. Com a PEC, o imposto dependeria do peso, e veículos pesados pagariam mais.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes how the vehicle tax (IPVA) is calculated",
-   "oQueMuda": "Creates a new tax base for the vehicle tax.",
+   "oQueMuda": "The vehicle tax (IPVA) would be calculated on the vehicle's gross weight or weight per axle, no longer on its market value.",
    "quemAfeta": "Vehicle owners and the states.",
-   "porQueImporta": "Today IPVA is calculated on the vehicle's market value. Under the PEC, the calculation base would change."
+   "porQueImporta": "Today IPVA is charged on the vehicle's market value, and more expensive cars pay more. Under the PEC, the tax would depend on weight, and heavy vehicles would pay more."
   },
   "es": {
    "titulo": "Cambia la forma de calcular el IPVA",
-   "oQueMuda": "Crea una nueva base de cálculo para el impuesto sobre vehículos.",
+   "oQueMuda": "El IPVA se calcularía por el peso bruto total del vehículo o por el peso por eje, y ya no por el valor de mercado.",
    "quemAfeta": "Dueños de vehículos y los estados.",
-   "porQueImporta": "Hoy el IPVA se calcula sobre el valor de mercado del vehículo. Con la PEC, la base de cálculo cambiaría."
+   "porQueImporta": "Hoy el IPVA se calcula sobre el valor de mercado del vehículo, y los autos más caros pagan más. Con la PEC, el impuesto dependería del peso, y los vehículos pesados pagarían más."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2142844": {
@@ -4848,27 +4848,27 @@
  },
  "s8574119": {
   "titulo": "Garante orçamento mínimo para a Defesa",
-  "oQueMuda": "O Ministério da Defesa teria um valor mínimo garantido no orçamento e projetos estratégicos protegidos.",
+  "oQueMuda": "A União teria de aplicar todo ano pelo menos 2% do PIB em Defesa Nacional, pelo Ministério da Defesa; pelo menos 35% das despesas não obrigatórias do ministério iriam para projetos estratégicos, com prioridade para a indústria nacional.",
   "quemAfeta": "Forças Armadas e o orçamento federal.",
-  "porQueImporta": "Hoje o orçamento da Defesa é definido a cada ano e pode ser bloqueado. Com a PEC, teria um valor mínimo garantido e projetos estratégicos protegidos de cortes.",
+  "porQueImporta": "Hoje o orçamento da Defesa é definido a cada ano, sem mínimo, e pode ser bloqueado. Com a PEC, teria um piso de 2% do PIB, como já acontece com saúde e educação em relação à receita.",
   "fonte": "manual",
   "en": {
    "titulo": "Guarantees a minimum budget for Defense",
-   "oQueMuda": "The Ministry of Defense would have a guaranteed minimum budget and protected strategic projects.",
+   "oQueMuda": "The federal government would have to spend at least 2% of GDP on national defense each year, through the Defense Ministry; at least 35% of the ministry's discretionary spending would go to strategic projects, prioritizing domestic industry.",
    "quemAfeta": "The armed forces and the federal budget.",
-   "porQueImporta": "Today the defense budget is set each year and can be frozen. Under the PEC, it would have a guaranteed minimum and strategic projects protected from cuts."
+   "porQueImporta": "Today the defense budget is set each year, with no minimum, and can be frozen. Under the PEC, it would have a floor of 2% of GDP, as health and education already have relative to revenue."
   },
   "es": {
    "titulo": "Garantiza un presupuesto mínimo para Defensa",
-   "oQueMuda": "El Ministerio de Defensa tendría un monto mínimo garantizado en el presupuesto y proyectos estratégicos protegidos.",
+   "oQueMuda": "La Unión tendría que aplicar cada año al menos el 2% del PIB en Defensa Nacional, a través del Ministerio de Defensa; al menos el 35% de los gastos no obligatorios del ministerio iría a proyectos estratégicos, con prioridad para la industria nacional.",
    "quemAfeta": "Fuerzas Armadas y el presupuesto federal.",
-   "porQueImporta": "Hoy el presupuesto de Defensa se define cada año y puede bloquearse. Con la PEC, tendría un valor mínimo garantizado y proyectos estratégicos protegidos de recortes."
+   "porQueImporta": "Hoy el presupuesto de Defensa se define cada año, sin mínimo, y puede bloquearse. Con la PEC, tendría un piso del 2% del PIB, como ya ocurre con salud y educación en relación con los ingresos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c464909": {
