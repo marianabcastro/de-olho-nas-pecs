@@ -29,7 +29,7 @@ python3 -m http.server 8765 --directory site   # abra http://localhost:8765
 
 O arquivo `.github/workflows/atualizar.yml` roda o robô no GitHub Actions:
 
-- **Quando:** de hora em hora em dias úteis, das 9h às 22h (Brasília); uma vez por dia nos fins de semana;
+- **Quando:** duas vezes por dia em dias úteis, às 9h05 e às 21h05 (Brasília); uma vez por dia nos fins de semana;
   e uma rodada completa aos domingos de madrugada.
 - **Incremental:** cada rodada consulta as APIs e baixa de novo só as PECs que se mexeram desde a última vez.
   O que já foi baixado fica no cache do GitHub Actions (não no repositório).

@@ -3,8 +3,8 @@ name: Atualizar dados e publicar
 # Roda poucas vezes e só publica quando algum dado mudou.
 on:
   schedule:
-    - cron: "5 12-23 * * 1-5"   # seg–sex, de hora em hora, 9h05–20h05 (Brasília)
-    - cron: "5 0-1 * * 2-6"     # seg–sex, 21h05 e 22h05 (Brasília)
+    - cron: "5 12 * * 1-5"      # seg–sex, 9h05 (Brasília): o que foi registrado de manhã e durante a noite
+    - cron: "5 0 * * 2-6"       # seg–sex, 21h05 (Brasília): sessões da tarde e votações da noite
     - cron: "5 15 * * 0,6"      # sábado e domingo, uma vez, 12h05
     - cron: "30 7 * * 0"        # domingo 4h30: rodada completa, para corrigir qualquer coisa que tenha escapado
   push:
