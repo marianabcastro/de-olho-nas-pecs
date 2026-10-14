@@ -297,13 +297,13 @@
    "apelido": "PEC de la Seguridad Pública"
   },
   "base": {
-   "versao": "s10312735",
+   "versao": "s10329877",
    "conferido": "texto",
-   "data": "2026-10-12",
+   "data": "2026-10-14",
    "fonte": "revisão crítica: texto oficial + fontes críticas"
   },
   "mudanca": {
-   "descricao": "Em 02/09/2026, a CCJ do Senado aprovou o texto tirando a parte das bets (30% da arrecadação para os fundos, calculados depois de descontar os custos das empresas de apostas). O relator disse que essa regra protegia os custos das empresas e diminuía o dinheiro que hoje vai para educação, esporte e outras áreas, e que ela entrou de última hora no plenário da Câmara. Ainda faltam votar 3 emendas destacadas. Se o Senado aprovar o texto com mudanças, as partes alteradas voltam para a Câmara.",
+   "descricao": "A CCJ do Senado aprovou o texto em 02/09/2026 tirando a parte das bets (30% da arrecadação para os fundos, calculados depois de descontar os custos das empresas de apostas); o relator disse que essa regra protegia os custos das empresas e diminuía o dinheiro que hoje vai para educação, esporte e outras áreas, e que ela entrou de última hora no plenário da Câmara. Em 14/10/2026, a CCJ concluiu a votação, com ajustes só de redação, e a PEC seguiu para o plenário do Senado. Se o Senado aprovar o texto com mudanças, as partes alteradas voltam para a Câmara.",
    "objetivoMudou": false
   }
  },
@@ -873,28 +873,28 @@
   }
  },
  "c2234666": {
-  "titulo": "Muda a distribuição do Fundo de Participação dos Municípios",
-  "oQueMuda": "Altera as regras de repasse de recursos da União às prefeituras pelo FPM.",
-  "quemAfeta": "Prefeituras, principalmente as que dependem desse repasse.",
-  "porQueImporta": "Hoje o FPM é dividido entre as prefeituras conforme a população e a renda por habitante. Com a PEC, os critérios mudariam, alterando quanto cada cidade recebe.",
+  "titulo": "Aumenta a parte do Imposto de Renda e do IPI que vai para prefeituras e para o Sul e o Sudeste",
+  "oQueMuda": "Mais repasse: a parte do Imposto de Renda e do IPI que a União divide passaria de 50% para 53%.\nPrefeituras: +1% para o Fundo de Participação dos Municípios, pago em março de cada ano.\nSul e Sudeste: +1% para financiar o setor produtivo da Região Sul e +1% para a Região Sudeste, por bancos regionais, como já existe para Norte, Nordeste e Centro-Oeste.\nTransição: metade do aumento em 2027 e o restante em 2028.",
+  "quemAfeta": "Prefeituras, empresas do Sul e do Sudeste e a União, que ficaria com uma parte menor desses impostos.",
+  "porQueImporta": "Hoje a União repassa 50% do Imposto de Renda e do IPI a estados, municípios e fundos regionais, e só Norte, Nordeste e Centro-Oeste têm fundos de financiamento com esse dinheiro. Com a PEC, a fatia repassada subiria 3 pontos, e a União deixaria de ficar com esse dinheiro.",
   "fonte": "manual",
   "en": {
-   "titulo": "Changes how the Municipal Participation Fund is shared",
-   "oQueMuda": "Changes the rules for federal transfers to cities through the FPM.",
-   "quemAfeta": "City governments, especially those that depend on these transfers.",
-   "porQueImporta": "Today FPM is split among city governments based on population and income per person. Under the PEC, the criteria would change, altering how much each town receives."
+   "titulo": "Raises the share of income tax and IPI going to municipalities and to the South and Southeast",
+   "oQueMuda": "More transfers: the share of income tax and IPI the federal government shares would rise from 50% to 53%.\nMunicipalities: +1% to the Municipal Participation Fund, paid each March.\nSouth and Southeast: +1% to finance productive sectors in the South and +1% in the Southeast, through regional banks, as already exists for the North, Northeast and Center-West.\nTransition: half of the increase in 2027 and the rest in 2028.",
+   "quemAfeta": "Municipalities, companies in the South and Southeast, and the federal government, which would keep a smaller share of these taxes.",
+   "porQueImporta": "Today the federal government transfers 50% of income tax and IPI to states, municipalities and regional funds, and only the North, Northeast and Center-West have financing funds from this money. Under the PEC, the shared portion would rise 3 points, and the federal government would keep less."
   },
   "es": {
-   "titulo": "Cambia la distribución del Fondo de Participación de los Municipios",
-   "oQueMuda": "Modifica las reglas de transferencia de recursos de la Unión a los municipios por el FPM.",
-   "quemAfeta": "Municipios, sobre todo los que dependen de esa transferencia.",
-   "porQueImporta": "Hoy el FPM se reparte entre las alcaldías según la población y el ingreso por habitante. Con la PEC, los criterios cambiarían, alterando cuánto recibe cada ciudad."
+   "titulo": "Aumenta la parte del Impuesto a la Renta y del IPI que va a los municipios y al Sur y Sudeste",
+   "oQueMuda": "Más transferencias: la parte del Impuesto a la Renta y del IPI que la Unión reparte pasaría del 50% al 53%.\nMunicipios: +1% para el Fondo de Participación de los Municipios, pagado en marzo de cada año.\nSur y Sudeste: +1% para financiar el sector productivo de la Región Sur y +1% para la Región Sudeste, mediante bancos regionales, como ya existe para el Norte, Nordeste y Centro-Oeste.\nTransición: la mitad del aumento en 2027 y el resto en 2028.",
+   "quemAfeta": "Municipios, empresas del Sur y Sudeste y la Unión, que se quedaría con una parte menor de esos impuestos.",
+   "porQueImporta": "Hoy la Unión transfiere el 50% del Impuesto a la Renta y del IPI a estados, municipios y fondos regionales, y solo Norte, Nordeste y Centro-Oeste tienen fondos de financiamiento con ese dinero. Con la PEC, la parte transferida subiría 3 puntos, y la Unión dejaría de quedarse con ese dinero."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "c2636634",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "c2284555": {
@@ -1150,10 +1150,10 @@
    "porQueImporta": "Hoy la Constitución protege a los niños en general, y la primera infancia se trata en una ley de 2016. Con la PEC, la primera infancia (hasta 6 años) tendría derechos citados en la Constitución."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "c2633336",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "s8986903": {
@@ -1910,10 +1910,10 @@
    "porQueImporta": "Hoy cada estado define el salario de sus PM y bomberos, y los del Distrito Federal, pagados por el gobierno federal, están entre los más altos. Con la PEC, ningún estado podría pagar menos que el DF, incluso a jubilados."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "c462720",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "c2323056": {
@@ -8914,27 +8914,27 @@
  },
  "s8466340": {
   "titulo": "Inclui procuradores municipais na advocacia pública",
-  "oQueMuda": "Procuradores dos municípios passariam a integrar a advocacia pública prevista na Constituição.",
+  "oQueMuda": "Procuradores dos municípios entrariam na advocacia pública prevista na Constituição, organizados em carreira, com concurso e estabilidade após três anos. A exigência valeria para municípios com 60 mil habitantes ou mais; os menores poderiam continuar contratando advogados ou escritórios.",
   "quemAfeta": "Procuradores e prefeituras.",
-  "porQueImporta": "Hoje a Constituição prevê procuradores concursados para a União e os estados, mas não para os municípios. Com a PEC, as prefeituras teriam de ter procuradores de carreira.",
+  "porQueImporta": "Hoje a Constituição prevê procuradores concursados para a União e os estados, mas não para os municípios, e muitas prefeituras contratam advogados de fora ou nomeiam comissionados. Com a PEC, as cidades com 60 mil habitantes ou mais teriam de ter procuradores de carreira.",
   "fonte": "manual",
   "en": {
    "titulo": "Adds city attorneys to the public legal service",
-   "oQueMuda": "City attorneys would become part of the public legal service provided for in the Constitution.",
+   "oQueMuda": "Municipal attorneys would join the government legal service provided for in the Constitution, organized in a career, with public exams and stability after three years. The requirement would apply to municipalities with 60,000 or more inhabitants; smaller ones could keep hiring outside lawyers or firms.",
    "quemAfeta": "Attorneys and city governments.",
-   "porQueImporta": "Today the Constitution provides for career attorneys hired by exam for the federal government and states, but not for municipalities. Under the PEC, city governments would need career attorneys."
+   "porQueImporta": "Today the Constitution provides for career attorneys for the federal government and states, but not municipalities, and many city halls hire outside lawyers or appointees. Under the PEC, cities with 60,000 or more inhabitants would need career attorneys."
   },
   "es": {
    "titulo": "Incluye a los procuradores municipales en la abogacía pública",
-   "oQueMuda": "Los procuradores de los municipios formarían parte de la abogacía pública prevista en la Constitución.",
+   "oQueMuda": "Los procuradores de los municipios entrarían en la abogacía pública prevista en la Constitución, organizados en carrera, con concurso y estabilidad tras tres años. La exigencia valdría para municipios con 60 mil habitantes o más; los menores podrían seguir contratando abogados o estudios.",
    "quemAfeta": "Procuradores y municipios.",
-   "porQueImporta": "Hoy la Constitución prevé procuradores por concurso para el gobierno federal y los estados, pero no para los municipios. Con la PEC, las alcaldías tendrían que tener procuradores de carrera."
+   "porQueImporta": "Hoy la Constitución prevé procuradores de carrera para la Unión y los estados, pero no para los municipios, y muchas alcaldías contratan abogados externos o nombran cargos de confianza. Con la PEC, las ciudades con 60 mil habitantes o más tendrían que tener procuradores de carrera."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s9759073",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "c2388029": {
@@ -9091,25 +9091,25 @@
   "titulo": "Amplia licença-maternidade e paternidade",
   "oQueMuda": "A licença-maternidade passaria a ser de 180 dias e a licença-paternidade de 20 dias para todos os trabalhadores, inclusive em caso de adoção, sem prejuízo do emprego e do salário.",
   "quemAfeta": "Mães, pais, quem adota, empresas e a Previdência, que paga o salário-maternidade.",
-  "porQueImporta": "Hoje a licença-maternidade é de 120 dias e a paternidade de 5 dias; só empresas que aderem ao programa Empresa Cidadã, e o serviço público federal, dão 180 e 20 dias. Com a PEC, os prazos maiores valeriam para todos.",
+  "porQueImporta": "Hoje a licença-maternidade é de 120 dias e a paternidade de 5 dias; só empresas que aderem ao programa Empresa Cidadã, e o serviço público federal, dão 180 e 20 dias. Em 2025, a relatora na CCJ do Senado propôs aumentar a licença-paternidade para 30 dias, mas o relatório não foi votado, e a PEC aguarda novo relator.",
   "fonte": "manual",
   "en": {
    "titulo": "Extends maternity and paternity leave",
    "oQueMuda": "Maternity leave would be 180 days and paternity leave 20 days for all workers, including in adoption cases, with no loss of job or pay.",
    "quemAfeta": "Mothers, fathers, adoptive parents, companies and Social Security, which pays maternity pay.",
-   "porQueImporta": "Today maternity leave is 120 days and paternity leave 5 days; only companies in the Empresa Cidadã program, and the federal civil service, give 180 and 20 days. Under the PEC, the longer periods would apply to everyone."
+   "porQueImporta": "Today maternity leave is 120 days and paternity leave 5 days; only companies in the Empresa Cidadã program, and the federal civil service, give 180 and 20 days. In 2025, the rapporteur in the Senate Justice Committee proposed raising paternity leave to 30 days, but the report was not voted on, and the PEC awaits a new rapporteur."
   },
   "es": {
    "titulo": "Amplía las licencias de maternidad y paternidad",
    "oQueMuda": "La licencia de maternidad sería de 180 días y la de paternidad de 20 días para todos los trabajadores, incluso en caso de adopción, sin perjuicio del empleo ni del salario.",
    "quemAfeta": "Madres, padres, quienes adoptan, empresas y la Previsión Social, que paga el salario de maternidad.",
-   "porQueImporta": "Hoy la licencia de maternidad es de 120 días y la de paternidad de 5 días; solo las empresas del programa Empresa Cidadã, y el servicio público federal, dan 180 y 20 días. Con la PEC, los plazos mayores valdrían para todos."
+   "porQueImporta": "Hoy la licencia de maternidad es de 120 días y la de paternidad de 5 días; solo las empresas del programa Empresa Cidadã, y el servicio público federal, dan 180 y 20 días. En 2025, la relatora en la CCJ del Senado propuso aumentar la licencia de paternidad a 30 días, pero el informe no se votó, y la PEC espera un nuevo relator."
   },
   "base": {
-   "versao": "original",
+   "versao": "s9988529",
    "conferido": "texto",
-   "data": "2026-10-12",
-   "fonte": "revisão crítica: texto oficial + fontes críticas"
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "c2147461": {
@@ -9471,28 +9471,28 @@
   }
  },
  "s8572569": {
-  "titulo": "Torna imprescritível o tráfico de crianças",
-  "oQueMuda": "O tráfico de crianças e adolescentes poderia ser punido a qualquer tempo.",
-  "quemAfeta": "Vítimas e acusados desse crime.",
-  "porQueImporta": "Hoje o tráfico de crianças e adolescentes prescreve depois de certo prazo, conforme a pena. Com a PEC, não haveria prazo: o crime poderia ser punido a qualquer tempo.",
+  "titulo": "Torna imprescritível o tráfico de pessoas",
+  "oQueMuda": "O tráfico de pessoas passaria a ser crime imprescritível: poderia ser punido a qualquer tempo. A proposta original falava só em tráfico de crianças e adolescentes; a CCJ do Senado ampliou para todas as vítimas.",
+  "quemAfeta": "Vítimas e acusados de tráfico de pessoas e o sistema de justiça.",
+  "porQueImporta": "Hoje o tráfico de pessoas prescreve depois de certo prazo, conforme a pena, e só racismo e ação de grupos armados contra a ordem democrática são imprescritíveis na Constituição. Com a PEC, o tráfico de pessoas entraria nessa lista.",
   "fonte": "manual",
   "en": {
-   "titulo": "Removes the time limit to prosecute child trafficking",
-   "oQueMuda": "Trafficking of children and teenagers could be punished at any time.",
-   "quemAfeta": "Victims and those accused of this crime.",
-   "porQueImporta": "Today child trafficking has a time limit for prosecution, depending on the sentence. Under the PEC, there would be no time limit."
+   "titulo": "Makes human trafficking a crime with no statute of limitations",
+   "oQueMuda": "Human trafficking would become a crime with no statute of limitations: it could be prosecuted at any time. The original proposal covered only trafficking of children and adolescents; the Senate Justice Committee extended it to all victims.",
+   "quemAfeta": "Victims of and people accused of human trafficking, and the justice system.",
+   "porQueImporta": "Today human trafficking expires after a period that depends on the penalty, and only racism and armed action against the democratic order have no statute of limitations in the Constitution. Under the PEC, human trafficking would join that list."
   },
   "es": {
-   "titulo": "Hace imprescriptible la trata de niños",
-   "oQueMuda": "La trata de niños y adolescentes podría castigarse en cualquier momento.",
-   "quemAfeta": "Víctimas y acusados de este delito.",
-   "porQueImporta": "Hoy el tráfico de niños y adolescentes prescribe tras cierto plazo, según la pena. Con la PEC, no habría plazo: el delito podría castigarse en cualquier momento."
+   "titulo": "Hace imprescriptible la trata de personas",
+   "oQueMuda": "La trata de personas pasaría a ser un delito imprescriptible: podría castigarse en cualquier momento. La propuesta original hablaba solo de trata de niños y adolescentes; la CCJ del Senado la amplió a todas las víctimas.",
+   "quemAfeta": "Víctimas y acusados de trata de personas y el sistema de justicia.",
+   "porQueImporta": "Hoy la trata de personas prescribe tras cierto plazo, según la pena, y solo el racismo y la acción de grupos armados contra el orden democrático son imprescriptibles en la Constitución. Con la PEC, la trata de personas entraría en esa lista."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s9592119",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "c2329063": {
@@ -9799,27 +9799,27 @@
  },
  "c349704": {
   "titulo": "Dá FGTS e seguro-desemprego a comissionados",
-  "oQueMuda": "Servidores em cargos de livre nomeação teriam direito a aviso prévio, FGTS e seguro-desemprego.",
+  "oQueMuda": "Ocupantes só de cargos em comissão, de livre nomeação e exoneração, passariam a ter proteção contra demissão sem justa causa (com indenização), seguro-desemprego e FGTS, além dos direitos que todos os servidores já têm.",
   "quemAfeta": "Ocupantes de cargos comissionados.",
-  "porQueImporta": "Hoje ocupantes de cargos comissionados podem ser exonerados a qualquer momento, sem aviso prévio, FGTS ou seguro-desemprego. Com a PEC, teriam esses direitos.",
+  "porQueImporta": "Hoje ocupantes de cargos comissionados podem ser exonerados a qualquer momento, sem indenização, FGTS ou seguro-desemprego. Com a PEC, teriam esses direitos, pagos pelos governos que os nomeiam.",
   "fonte": "manual",
   "en": {
    "titulo": "Gives severance fund (FGTS) and unemployment insurance to political appointees",
-   "oQueMuda": "Civil servants in freely appointed posts would be entitled to notice, the FGTS severance fund and unemployment insurance.",
+   "oQueMuda": "Holders of commissioned posts only, freely appointed and dismissed, would gain protection against dismissal without cause (with compensation), unemployment insurance and FGTS, in addition to the rights all civil servants already have.",
    "quemAfeta": "People in appointed positions.",
-   "porQueImporta": "Today political appointees can be dismissed at any time, without notice, severance fund or unemployment insurance. Under the PEC, they would have these rights."
+   "porQueImporta": "Today commissioned appointees can be dismissed at any time, without compensation, FGTS or unemployment insurance. Under the PEC, they would have these rights, paid by the governments that appoint them."
   },
   "es": {
    "titulo": "Da FGTS y seguro de desempleo a los cargos de confianza",
-   "oQueMuda": "Los servidores en cargos de libre nombramiento tendrían derecho a preaviso, FGTS y seguro de desempleo.",
+   "oQueMuda": "Quienes ocupan solo cargos en comisión, de libre nombramiento y remoción, pasarían a tener protección contra el despido sin justa causa (con indemnización), seguro de desempleo y FGTS, además de los derechos que ya tienen todos los servidores.",
    "quemAfeta": "Ocupantes de cargos de confianza.",
-   "porQueImporta": "Hoy quienes ocupan cargos de confianza pueden ser exonerados en cualquier momento, sin preaviso, FGTS ni seguro de desempleo. Con la PEC, tendrían esos derechos."
+   "porQueImporta": "Hoy quienes ocupan cargos en comisión pueden ser exonerados en cualquier momento, sin indemnización, FGTS ni seguro de desempleo. Con la PEC, tendrían esos derechos, pagados por los gobiernos que los nombran."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "c840849",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "s7826575": {
@@ -10891,10 +10891,10 @@
    "porQueImporta": "Desde 2009, por decisión del STF, no se necesita título para trabajar como periodista. Con la PEC, el título de periodismo volvería a exigirse."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "c484879",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "c1724712": {
@@ -11504,10 +11504,10 @@
    "porQueImporta": "Desde 2023, por decisión del STF, las ciudades con transporte público deben ofrecer gratuidad en días de elección. Con la PEC, la gratuidad de autobuses, barcos y transporte intermunicipal quedaría en la Constitución."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s9456399",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "c2223558": {
@@ -11708,10 +11708,10 @@
    "porQueImporta": "Ya en vigor: los permisos de las casas de lotería obtuvieron plazo adicional de funcionamiento antes de una nueva licitación."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s9416049",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "s8488965": {
@@ -11942,27 +11942,27 @@
  },
  "c1278930": {
   "titulo": "Fixa a jornada de policiais e bombeiros militares",
-  "oQueMuda": "Define carga horária diária e semanal para policiais e bombeiros militares.",
+  "oQueMuda": "A jornada de policiais e bombeiros militares não poderia passar de 40 horas por semana, com possibilidade de compensar horários. A regra não valeria em intervenção, estado de defesa, estado de sítio ou calamidade pública.",
   "quemAfeta": "Policiais e bombeiros militares.",
   "porQueImporta": "Hoje não há limite de jornada na Constituição para policiais e bombeiros militares. Com a PEC, haveria carga horária diária e semanal máxima para eles.",
   "fonte": "manual",
   "en": {
    "titulo": "Sets working hours for military police and firefighters",
-   "oQueMuda": "Defines daily and weekly working hours for military police and firefighters.",
+   "oQueMuda": "Military police and firefighters' working hours could not exceed 40 hours a week, with schedule offsetting allowed. The rule would not apply during intervention, state of defense, state of siege or public calamity.",
    "quemAfeta": "Military police and firefighters.",
    "porQueImporta": "Today there is no working-hours limit in the Constitution for military police and firefighters. Under the PEC, there would be maximum daily and weekly hours for them."
   },
   "es": {
    "titulo": "Fija la jornada de policías y bomberos militares",
-   "oQueMuda": "Define la carga horaria diaria y semanal de policías y bomberos militares.",
+   "oQueMuda": "La jornada de policías militares y bomberos no podría superar las 40 horas semanales, con posibilidad de compensar horarios. La regla no valdría en intervención, estado de defensa, estado de sitio o calamidad pública.",
    "quemAfeta": "Policías y bomberos militares.",
    "porQueImporta": "Hoy no hay límite de jornada en la Constitución para policías y bomberos militares. Con la PEC, habría carga horaria diaria y semanal máxima para ellos."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "c2116934",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "c2092228": {
@@ -13652,27 +13652,27 @@
  },
  "s3037753": {
   "titulo": "Muda a divisão da Cide entre estados e municípios",
-  "oQueMuda": "Redistribui de forma diferente aos estados e municípios a arrecadação da Cide-combustíveis.",
+  "oQueMuda": "A parte da Cide-combustíveis repassada passaria a ser de 1/3 para os estados e o Distrito Federal e 1/3 para os municípios, distribuída conforme lei, mantido o uso em infraestrutura de transportes.",
   "quemAfeta": "Estados e municípios.",
-  "porQueImporta": "Hoje 29% da Cide-combustíveis vai para estados e, desses, 25% para os municípios. Com a PEC, essa divisão mudaria.",
+  "porQueImporta": "Hoje 29% da Cide-combustíveis vai para os estados, que repassam um quarto disso aos municípios (cerca de 7% do total). Com a PEC, estados e municípios ficariam com dois terços da arrecadação, e a União com um terço.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes how the Cide fuel tax is shared with states and cities",
-   "oQueMuda": "Redistributes the revenue from the Cide fuel tax differently among states and cities.",
+   "oQueMuda": "The shared portion of the fuel Cide would become 1/3 for states and the Federal District and 1/3 for municipalities, distributed by law, still earmarked for transport infrastructure.",
    "quemAfeta": "States and cities.",
-   "porQueImporta": "Today 29% of the fuel levy (Cide) goes to states, which pass 25% of that to municipalities. Under the PEC, this split would change."
+   "porQueImporta": "Today 29% of the fuel Cide goes to states, which pass a quarter of it to municipalities (about 7% of the total). Under the PEC, states and municipalities would get two thirds of the revenue, and the federal government one third."
   },
   "es": {
    "titulo": "Cambia la división de la Cide entre estados y municipios",
-   "oQueMuda": "Redistribuye de otra forma entre estados y municipios la recaudación de la Cide sobre combustibles.",
+   "oQueMuda": "La parte repartida de la Cide-combustibles pasaría a ser 1/3 para los estados y el Distrito Federal y 1/3 para los municipios, distribuida por ley, manteniendo su uso en infraestructura de transporte.",
    "quemAfeta": "Estados y municipios.",
-   "porQueImporta": "Hoy el 29% de la Cide-combustibles va a los estados y, de eso, el 25% a los municipios. Con la PEC, esa división cambiaría."
+   "porQueImporta": "Hoy el 29% de la Cide-combustibles va a los estados, que transfieren una cuarta parte a los municipios (cerca del 7% del total). Con la PEC, estados y municipios se quedarían con dos tercios de la recaudación, y la Unión con un tercio."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s3738270",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "s7411048": {
@@ -13869,10 +13869,10 @@
    "porQueImporta": "Hoy la Constitución exige proporcionalidad de los partidos en las Mesas y comisiones, pero no de género. Con la PEC, la composición también tendría que ser proporcional al número de hombres y mujeres en la Casa."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s3480297",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "s8392917": {
@@ -14298,10 +14298,10 @@
    "porQueImporta": "Ya en vigor (Enmienda 128, de 2022): las leyes federales no pueden crear gastos para estados y municipios sin indicar de dónde vendrá el dinero."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "c2332878",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "c43596": {
@@ -15257,10 +15257,10 @@
    "porQueImporta": "Hoy IBGE e Inep son órganos creados por ley, y sus dirigentes los elige libremente el gobierno. Con la PEC, serían instituciones permanentes, con reglas para elegir a los dirigentes."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s9166421",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "s7969278": {
@@ -15432,10 +15432,10 @@
    "porQueImporta": "Hoy la Constitución exige que parte de las funciones de confianza sean de servidores de carrera, sin otros requisitos personales. Con la PEC, habría requisitos para ocupar cargos de confianza y funciones de confianza."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s9020465",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "s7733785": {
@@ -15970,10 +15970,10 @@
    "porQueImporta": "Hoy existen cientos de fondos públicos creados por ley, con dinero reservado para fines específicos. Con la PEC, cada fondo tendría que ser confirmado por ley complementaria, o se extinguiría, y el dinero parado podría ir a otros gastos."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s8072244",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "s7862583": {
@@ -16420,10 +16420,10 @@
    "porQueImporta": "Hoy los presidentes de la Cámara y del Senado son elegidos en voto secreto. Con la PEC, el voto sería abierto, y cada elector sabría por quién votó cada parlamentario."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s7978253",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial (versão nova)"
   }
  },
  "s7726829": {

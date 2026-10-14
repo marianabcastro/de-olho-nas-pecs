@@ -613,3 +613,20 @@ Antes resumidas só pela ementa. 27 reescritas, 19 conferem com o texto. Princip
 | PEC 25/2025 · Pesticidas | Proíbe o termo "agrotóxico" em todas as leis |
 | PEC 15/2025 · Bônus regional | Só Norte e Nordeste, até 20% |
 | Outras | Ajustes de detalhe: 15/2026, 14/2026, 11/2026, 8/2026, 4/2026, 46/2025, 36/2025, 24/2025, 13/2025, 10/2025, 9/2025, 5/2025 |
+
+## 13. PECs com texto novo (14/out/2026)
+
+Das 34 marcadas pelo robô, 13 já tinham sido revisadas nos blocos (contra o texto promulgado ou uma versão posterior). A regra do robô passou a considerar em dia o resumo conferido no texto depois da data da versão. Das 21 restantes:
+
+| PEC | O que mudou |
+|---|---|
+| PEC 18/2025 · Segurança Pública | CCJ do Senado concluiu a votação em 14/10/2026 (ajustes de redação; destaques prejudicados); segue ao plenário |
+| PEC 231/2019 · FPM | Reescrita: repasse do IR e IPI sobe de 50% para 53% (+1% FPM, +1% Sul, +1% Sudeste) |
+| PEC 54/2023 · Tráfico | CCJ ampliou de tráfico de crianças para tráfico de pessoas |
+| PEC 28/2023 · Procuradores municipais | Só municípios com 60 mil habitantes ou mais |
+| PEC 58/2023 · Licenças | Relatora propôs 30 dias de paternidade (relatório não votado) |
+| PEC 53/2007 · Comissionados | Errado: não há aviso prévio; há indenização, seguro-desemprego e FGTS |
+| PEC 1/2015 · Cide | 1/3 estados, 1/3 municípios |
+| PEC 44/2015 · Jornada militar | Teto de 40 horas semanais |
+| Conferem | 34/2024, 38/2022, 142/2015 (EC 129), 122/2015 (EC 128), 27/2021, 46/2019, 187/2019, 1/2019, 38/2015, 206/2012, 300/2008 |
+| **Pendentes (texto indisponível nas APIs)** | PEC 39/2015 e PEC 171/1993 |

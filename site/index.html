@@ -1159,6 +1159,8 @@ function textoMudouHTML(p) {
   if (b.versao === "promulgada") return `<p class="small muted">${L.resumo_promulgado(b.url ? `<a href="${esc(b.url)}" target="_blank" rel="noopener">${L.texto_promulgado}</a>` : L.texto_promulgado)}</p>`;
   // já virou emenda, ou foi rejeitada/arquivada: não há mais nada sendo votado
   if (["promulgada", "rejeitada", "arquivada", "encerrada"].includes(p.estado)) return "";
+  // conferido no texto depois da data da versão atual: o resumo está em dia
+  if (b.conferido === "texto" && (b.data || "") >= a.data) return `<p class="small muted">${L.mudou_ok(esc(tipoVersao(a.tipo)), dataBR(a.data))}</p>`;
   if (b.versao === a.id) return `<p class="small muted">${L.mudou_ok(esc(tipoVersao(a.tipo)), dataBR(a.data))}</p>`;
   // parecer que aprovou o texto sem mudanças (o robô lê o voto): o resumo continua valendo
   if (a.mesmoTexto && (b.versao && b.versao !== "original" || p.casaOrigem === "senado"))

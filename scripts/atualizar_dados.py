@@ -698,7 +698,9 @@ def main():
         base = (p.get("simples") or {}).get("base") or {}
         # parecer que manteve o texto: o resumo feito de uma versão posterior à original continua valendo
         sem_mudanca = atual.get("mesmoTexto") and (base.get("versao") not in (None, "original") or p.get("casaOrigem") == "senado")
-        if p.get("simples") and base.get("versao") != atual["id"] and not sem_mudanca:
+        # resumo conferido no texto depois da data da versão atual também está em dia (ex.: revisado contra o texto promulgado)
+        conferido_depois = base.get("conferido") == "texto" and (base.get("data") or "") >= atual["data"]
+        if p.get("simples") and base.get("versao") != atual["id"] and not sem_mudanca and not conferido_depois:
             a_revisar.append({"id": p["id"], "sigla": p["sigla"], "titulo": p["simples"].get("titulo"), "versao": atual["tipo"], "data": atual["data"], "url": atual["url"], "semelhanca": atual["semelhanca"]})
     (CACHE / "textos.json").write_text(json.dumps(comparados))
     (CACHE / "pareceres.json").write_text(json.dumps(pareceres))
