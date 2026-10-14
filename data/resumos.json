@@ -11716,27 +11716,27 @@
  },
  "s8488965": {
   "titulo": "Muda o rito das medidas provisórias",
-  "oQueMuda": "Altera prazos, trancamento de pauta e reedição de medidas provisórias.",
+  "oQueMuda": "Medidas provisórias perderiam a validade se não cumprissem cada etapa no prazo: 40 dias para o parecer da comissão mista, 40 dias para a votação na Câmara, 30 no Senado e 10 para a Câmara analisar mudanças do Senado.\nOs prazos parariam durante o recesso.\nSe Câmara ou Senado não votassem em 30 e 20 dias, a medida trancaria a pauta da Casa.\nFicaria proibido reeditar na mesma sessão legislativa o conteúdo de medida rejeitada ou que perdeu a validade.",
   "quemAfeta": "Presidente da República e Congresso.",
   "porQueImporta": "Hoje uma medida provisória vale por até 120 dias e tranca a pauta do Congresso depois de 45. Com a PEC, mudariam esses prazos, o trancamento de pauta e as regras de reedição.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes the process for provisional measures",
-   "oQueMuda": "Changes deadlines, agenda locking and reissuing of provisional measures (executive decrees).",
+   "oQueMuda": "Provisional measures would lapse if any stage missed its deadline: 40 days for the joint committee report, 40 days for the Chamber vote, 30 in the Senate and 10 for the Chamber to review Senate changes.\nDeadlines would pause during recess.\nIf the Chamber or Senate did not vote within 30 and 20 days, the measure would block the house's agenda.\nReissuing in the same legislative session the content of a measure that was rejected or lapsed would be banned.",
    "quemAfeta": "The President and Congress.",
    "porQueImporta": "Today a provisional measure is valid for up to 120 days and blocks Congress's agenda after 45. Under the PEC, these deadlines, the agenda block and reissue rules would change."
   },
   "es": {
    "titulo": "Cambia el trámite de las medidas provisorias",
-   "oQueMuda": "Modifica plazos, bloqueo de agenda y reedición de las medidas provisorias.",
+   "oQueMuda": "Las medidas provisionales perderían validez si no cumplieran cada etapa en plazo: 40 días para el dictamen de la comisión mixta, 40 días para la votación en la Cámara, 30 en el Senado y 10 para que la Cámara analice los cambios del Senado.\nLos plazos se suspenderían durante el receso.\nSi la Cámara o el Senado no votaran en 30 y 20 días, la medida bloquearía la agenda de la Cámara respectiva.\nSe prohibiría reeditar en la misma sesión legislativa el contenido de una medida rechazada o que perdió validez.",
    "quemAfeta": "Presidente de la República y Congreso.",
    "porQueImporta": "Hoy una medida provisional vale hasta 120 días y bloquea la agenda del Congreso tras 45. Con la PEC, cambiarían esos plazos, el bloqueo de la agenda y las reglas de reedición."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8489404": {
@@ -11759,9 +11759,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8330459": {
@@ -11809,9 +11809,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c139244": {
@@ -11834,9 +11834,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2152285": {
@@ -11859,9 +11859,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8472168": {
@@ -11910,9 +11910,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c427297": {
@@ -11935,9 +11935,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1278930": {
@@ -11985,34 +11985,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s5073365": {
   "titulo": "Cria o Fundo Nacional do Esporte",
-  "oQueMuda": "Cria o Fundesporte para financiar o esporte.",
+  "oQueMuda": "Seria criado o Fundo Nacional do Esporte (Fundesporte), para ampliar o acesso à prática esportiva.\nO fundo receberia um adicional de meio ponto percentual no IPI, ou no imposto que o substituir, sobre alimentos de baixa qualidade nutricional.\nEstados e DF teriam de criar fundos de esporte, com gestão que inclua a sociedade civil, e poderiam cobrar até meio ponto a mais de ICMS sobre esses alimentos.",
   "quemAfeta": "Atletas e entidades esportivas.",
   "porQueImporta": "Hoje o esporte recebe dinheiro do orçamento de cada ano e de parte das loterias. Com a PEC, haveria um fundo nacional próprio para a área.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates the National Sports Fund",
-   "oQueMuda": "Creates Fundesporte to finance sports.",
+   "oQueMuda": "A National Sports Fund (Fundesporte) would be created to broaden access to sports.\nThe fund would receive an extra half percentage point of IPI, or of the tax replacing it, on foods of low nutritional quality.\nStates and the Federal District would have to create sports funds, with management including civil society, and could charge up to half a point more ICMS on those foods.",
    "quemAfeta": "Athletes and sports organizations.",
    "porQueImporta": "Today sport receives money from each year's budget and part of lottery revenue. Under the PEC, there would be a dedicated national fund."
   },
   "es": {
    "titulo": "Crea el Fondo Nacional del Deporte",
-   "oQueMuda": "Crea el Fundesporte para financiar el deporte.",
+   "oQueMuda": "Se crearía el Fondo Nacional del Deporte (Fundesporte), para ampliar el acceso a la práctica deportiva.\nEl fondo recibiría un adicional de medio punto porcentual en el IPI, o en el impuesto que lo sustituya, sobre alimentos de baja calidad nutricional.\nEstados y DF tendrían que crear fondos del deporte, con gestión que incluya a la sociedad civil, y podrían cobrar hasta medio punto más de ICMS sobre esos alimentos.",
    "quemAfeta": "Atletas y entidades deportivas.",
    "porQueImporta": "Hoy el deporte recibe dinero del presupuesto de cada año y de parte de las loterías. Con la PEC, habría un fondo nacional propio para el área."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7975882": {
@@ -12035,9 +12035,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7986137": {
@@ -12114,34 +12114,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c323818": {
   "titulo": "Divide royalties de petróleo e minérios por população e IDH",
-  "oQueMuda": "Os recursos da exploração de petróleo, gás e minérios seriam divididos entre estados e municípios por população, área e IDH.",
+  "oQueMuda": "Os royalties de petróleo, gás, hidrelétricas e minérios iriam para um fundo: 12% para órgãos federais ligados à exploração, 33% para os estados e 55% para os municípios.\nEntre estados e municípios, a divisão levaria em conta população, área e, com o maior peso, o IDH: quanto menor o IDH, maior a fatia.",
   "quemAfeta": "Estados e municípios, produtores ou não.",
   "porQueImporta": "Hoje a maior parte dos royalties de petróleo e minérios vai para estados e municípios onde ocorre a exploração. Com a PEC, seriam divididos entre todos por população, área e IDH.",
   "fonte": "manual",
   "en": {
    "titulo": "Splits oil and mining royalties by population and HDI",
-   "oQueMuda": "Money from oil, gas and mining would be divided among states and cities by population, area and Human Development Index.",
+   "oQueMuda": "Royalties from oil, gas, hydropower and minerals would go to a fund: 12% to federal agencies linked to extraction, 33% to states and 55% to municipalities.\nAmong states and municipalities, the split would consider population, area and, with the greatest weight, the HDI: the lower the HDI, the larger the share.",
    "quemAfeta": "States and cities, producers or not.",
    "porQueImporta": "Today most oil and mining royalties go to the states and municipalities where extraction occurs. Under the PEC, they would be split among all by population, area and HDI."
   },
   "es": {
    "titulo": "Divide las regalías del petróleo y los minerales por población e IDH",
-   "oQueMuda": "Los recursos de la explotación de petróleo, gas y minerales se dividirían entre estados y municipios por población, área e IDH.",
+   "oQueMuda": "Las regalías de petróleo, gas, hidroeléctricas y minerales irían a un fondo: 12% para órganos federales vinculados a la explotación, 33% para los estados y 55% para los municipios.\nEntre estados y municipios, la división tendría en cuenta población, área y, con el mayor peso, el IDH: cuanto menor el IDH, mayor la porción.",
    "quemAfeta": "Estados y municipios, productores o no.",
    "porQueImporta": "Hoy la mayor parte de las regalías del petróleo y minerales va a estados y municipios donde ocurre la explotación. Con la PEC, se dividirían entre todos por población, área e IDH."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1049154": {
@@ -12172,27 +12172,27 @@
  },
  "c1230264": {
   "titulo": "Aumenta a parte do IR e do IPI repassada às prefeituras",
-  "oQueMuda": "Eleva o percentual desses impostos destinado ao Fundo de Participação dos Municípios.",
+  "oQueMuda": "A parcela extra do IR e do IPI que vai para o Fundo de Participação dos Municípios em julho passaria de 1% para 2%, com aumento de 0,5 ponto por ano.",
   "quemAfeta": "Prefeituras.",
   "porQueImporta": "Hoje a União repassa ao FPM 22,5% do IR e do IPI, mais adicionais em julho, setembro e dezembro. Com a PEC, esse percentual aumentaria.",
   "fonte": "manual",
   "en": {
    "titulo": "Increases the share of income tax and IPI sent to cities",
-   "oQueMuda": "Raises the percentage of these taxes going to the Municipal Participation Fund.",
+   "oQueMuda": "The extra share of Income Tax and IPI paid to the Municipal Participation Fund in July would rise from 1% to 2%, increasing by 0.5 point a year.",
    "quemAfeta": "City governments.",
    "porQueImporta": "Today the federal government transfers 22.5% of income tax and IPI to FPM, plus extra shares in July, September and December. Under the PEC, this share would increase."
   },
   "es": {
    "titulo": "Aumenta la parte del Impuesto a la Renta y del IPI transferida a los municipios",
-   "oQueMuda": "Eleva el porcentaje de estos impuestos destinado al Fondo de Participación de los Municipios.",
+   "oQueMuda": "La parcela extra del IR y del IPI que va al Fondo de Participación de los Municipios en julio pasaría del 1% al 2%, con aumento de 0,5 punto por año.",
    "quemAfeta": "Municipios.",
    "porQueImporta": "Hoy el gobierno federal transfiere al FPM el 22,5% del impuesto a la renta y del IPI, más adicionales en julio, septiembre y diciembre. Con la PEC, ese porcentaje aumentaría."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2075915": {
@@ -12241,9 +12241,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2198865": {
@@ -12266,9 +12266,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7834640": {
@@ -12316,9 +12316,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7959745": {
@@ -12341,9 +12341,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8323670": {
@@ -12366,9 +12366,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7899802": {
@@ -12391,34 +12391,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7901820": {
   "titulo": "Cria fundos garantidores para pequenas empresas",
-  "oQueMuda": "Cria fundos para garantir empréstimos a micro, pequenas e médias empresas nas regiões.",
+  "oQueMuda": "Seria criado o Fundo de Aval Solidário, para garantir empréstimos de micro, pequenas e médias empresas em bancos e instituições de fomento.\nO capital inicial seria de R$ 2,5 bilhões em dinheiro federal e R$ 5 bilhões em títulos públicos ou ações de empresas públicas.\nOs incentivos regionais passariam a incluir fundos garantidores de investimentos nas regiões.",
   "quemAfeta": "Pequenos empresários.",
   "porQueImporta": "Hoje existem fundos garantidores criados por lei, como o do Pronampe. Com a PEC, haveria fundos regionais na Constituição para garantir empréstimos a micro, pequenas e médias empresas.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates guarantee funds for small businesses",
-   "oQueMuda": "Creates funds to guarantee loans to micro, small and medium-sized businesses in the regions.",
+   "oQueMuda": "A Solidarity Guarantee Fund would be created to guarantee loans for micro, small and medium businesses at banks and development institutions.\nIts initial capital would be R$ 2.5 billion in federal money and R$ 5 billion in government bonds or shares of state companies.\nRegional incentives would include guarantee funds for investments in the regions.",
    "quemAfeta": "Small business owners.",
    "porQueImporta": "Today there are guarantee funds created by law, such as Pronampe's. Under the PEC, there would be regional funds in the Constitution to guarantee loans to micro, small and medium businesses."
   },
   "es": {
    "titulo": "Crea fondos de garantía para pequeñas empresas",
-   "oQueMuda": "Crea fondos para garantizar préstamos a micro, pequeñas y medianas empresas en las regiones.",
+   "oQueMuda": "Se crearía el Fondo de Aval Solidario, para garantizar préstamos de micro, pequeñas y medianas empresas en bancos e instituciones de fomento.\nEl capital inicial sería de R$ 2.500 millones en dinero federal y R$ 5.000 millones en títulos públicos o acciones de empresas públicas.\nLos incentivos regionales pasarían a incluir fondos de garantía de inversiones en las regiones.",
    "quemAfeta": "Pequeños empresarios.",
    "porQueImporta": "Hoy existen fondos garantes creados por ley, como el del Pronampe. Con la PEC, habría fondos regionales en la Constitución para garantizar préstamos a micro, pequeñas y medianas empresas."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7905790": {
@@ -12441,9 +12441,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7916284": {
@@ -12466,9 +12466,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7917387": {
@@ -12491,9 +12491,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7917934": {
@@ -12516,34 +12516,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c104989": {
   "titulo": "Permite a servidores cedidos mudar de órgão em definitivo",
-  "oQueMuda": "Servidores requisitados poderiam optar por ficar no órgão onde trabalham.",
+  "oQueMuda": "Servidores efetivos que trabalham há mais de três anos seguidos, por requisição, em outro órgão poderiam optar, em até 90 dias, por ficar de vez no órgão onde estão.",
   "quemAfeta": "Servidores cedidos a outros órgãos.",
   "porQueImporta": "Hoje servidores cedidos a outro órgão continuam no cargo de origem, e mudar de cargo exige concurso. Com a PEC, poderiam ficar de vez no órgão onde trabalham.",
   "fonte": "manual",
   "en": {
    "titulo": "Lets seconded civil servants transfer permanently",
-   "oQueMuda": "Civil servants on loan to another body could choose to stay where they work.",
+   "oQueMuda": "Permanent civil servants who have worked for more than three consecutive years, on secondment, at another agency could choose, within 90 days, to stay permanently at the agency where they are.",
    "quemAfeta": "Civil servants on loan to other bodies.",
    "porQueImporta": "Today seconded civil servants remain in their original post, and changing posts requires a public exam. Under the PEC, they could stay permanently in the body where they work."
   },
   "es": {
    "titulo": "Permite a servidores cedidos cambiar de órgano de forma definitiva",
-   "oQueMuda": "Los servidores requeridos podrían optar por quedarse en el órgano donde trabajan.",
+   "oQueMuda": "Los servidores efectivos que trabajan hace más de tres años seguidos, por requisición, en otro órgano podrían optar, en hasta 90 días, por quedarse definitivamente en el órgano donde están.",
    "quemAfeta": "Servidores cedidos a otros órganos.",
    "porQueImporta": "Hoy los servidores cedidos a otro órgano siguen en el cargo de origen, y cambiar de cargo exige concurso. Con la PEC, podrían quedarse definitivamente en el órgano donde trabajan."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8077867": {
@@ -12566,34 +12566,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8078289": {
   "titulo": "Proíbe aumentar impostos durante a pandemia",
-  "oQueMuda": "Governos não poderiam criar ou aumentar tributos durante a calamidade, salvo para combatê-la.",
+  "oQueMuda": "Enquanto durasse uma calamidade nacional por pandemia e menos de 60% da população estivesse vacinada, União, estados e municípios não poderiam criar tributos, aumentar alíquotas, mudar bases de cálculo para cobrar mais nem cortar isenções e incentivos fiscais.\nFicariam de fora mudanças para arrecadar dinheiro usado só no combate à calamidade.",
   "quemAfeta": "Contribuintes e governos.",
   "porQueImporta": "Hoje governos podem criar ou aumentar impostos em calamidades, respeitando as regras normais de prazo. Com a PEC, isso seria proibido durante a calamidade, salvo para combatê-la.",
   "fonte": "manual",
   "en": {
    "titulo": "Bans tax increases during the pandemic",
-   "oQueMuda": "Governments could not create or raise taxes during the emergency, except to fight it.",
+   "oQueMuda": "While a national pandemic calamity lasted and less than 60% of the population was vaccinated, the federal government, states and municipalities could not create taxes, raise rates, change tax bases to collect more or cut tax exemptions and incentives.\nChanges to raise money used only to fight the calamity would be exempt.",
    "quemAfeta": "Taxpayers and governments.",
    "porQueImporta": "Today governments can create or raise taxes during disasters, following normal timing rules. Under the PEC, this would be banned during the disaster, except to fight it."
   },
   "es": {
    "titulo": "Prohíbe aumentar impuestos durante la pandemia",
-   "oQueMuda": "Los gobiernos no podrían crear ni aumentar tributos durante la calamidad, salvo para combatirla.",
+   "oQueMuda": "Mientras durara una calamidad nacional por pandemia y menos del 60% de la población estuviera vacunada, la Unión, estados y municipios no podrían crear tributos, aumentar alícuotas, cambiar bases de cálculo para cobrar más ni recortar exenciones e incentivos fiscales.\nQuedarían fuera los cambios para recaudar dinero usado solo en el combate a la calamidad.",
    "quemAfeta": "Contribuyentes y gobiernos.",
    "porQueImporta": "Hoy los gobiernos pueden crear o aumentar impuestos en calamidades, respetando las reglas normales de plazo. Con la PEC, eso estaría prohibido durante la calamidad, salvo para combatirla."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8097900": {
@@ -12616,9 +12616,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8099954": {
@@ -12641,9 +12641,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8113511": {
@@ -12666,9 +12666,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8138727": {
@@ -12698,27 +12698,27 @@
  },
  "s8154053": {
   "titulo": "Muda o ICMS sobre combustíveis, gás e energia",
-  "oQueMuda": "Altera a forma de cobrança do ICMS sobre derivados de petróleo, gás de cozinha e energia elétrica.",
+  "oQueMuda": "O ICMS sobre combustíveis teria alíquota máxima de 10% sobre o valor da operação, e o do gás de cozinha, de 1%.\nO ICMS sobre energia elétrica seria definido em conjunto pelos estados e limitado a 10%.",
   "quemAfeta": "Consumidores e governos estaduais.",
   "porQueImporta": "Desde 2022, combustíveis e energia são considerados essenciais e pagam ICMS com alíquota limitada. Com a PEC, a forma de cobrança do ICMS sobre derivados de petróleo, gás de cozinha e energia mudaria.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes the ICMS on fuel, gas and electricity",
-   "oQueMuda": "Changes how the ICMS is charged on petroleum products, cooking gas and electricity.",
+   "oQueMuda": "The ICMS on fuels would have a maximum rate of 10% of the transaction value, and on cooking gas, 1%.\nThe ICMS on electricity would be set jointly by the states and capped at 10%.",
    "quemAfeta": "Consumers and state governments.",
    "porQueImporta": "Since 2022, fuel and energy have been treated as essential goods with capped ICMS rates. Under the PEC, the way ICMS is charged on oil products, cooking gas and electricity would change."
   },
   "es": {
    "titulo": "Cambia el ICMS sobre combustibles, gas y energía",
-   "oQueMuda": "Modifica la forma de cobro del ICMS sobre derivados del petróleo, gas de cocina y energía eléctrica.",
+   "oQueMuda": "El ICMS sobre combustibles tendría alícuota máxima del 10% sobre el valor de la operación, y el del gas de cocina, del 1%.\nEl ICMS sobre energía eléctrica sería definido en conjunto por los estados y limitado al 10%.",
    "quemAfeta": "Consumidores y gobiernos estatales.",
    "porQueImporta": "Desde 2022, los combustibles y la energía se consideran esenciales y pagan ICMS con alícuota limitada. Con la PEC, la forma de cobro del ICMS sobre derivados del petróleo, gas de cocina y energía cambiaría."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8154081": {
@@ -12741,9 +12741,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8158286": {
@@ -12766,9 +12766,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8163561": {
@@ -12819,9 +12819,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8167542": {
@@ -12869,9 +12869,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8436103": {
@@ -12901,27 +12901,27 @@
  },
  "s8436730": {
   "titulo": "Isenta de impostos os medicamentos",
-  "oQueMuda": "Remédios de uso humano ficariam livres de impostos.",
+  "oQueMuda": "Medicamentos de uso humano ficariam imunes a impostos.\nA imunidade seria aplicada aos poucos, com redução de 20% dos impostos no primeiro ano e mais 20% a cada ano, até chegar a 100%.",
   "quemAfeta": "Pacientes, farmácias e governos.",
   "porQueImporta": "Hoje remédios pagam impostos, embora alguns tenham alíquota reduzida; na reforma tributária, muitos terão redução de 60% ou isenção. Com a PEC, todos os remédios de uso humano ficariam livres de impostos.",
   "fonte": "manual",
   "en": {
    "titulo": "Exempts medicines from taxes",
-   "oQueMuda": "Medicines for human use would be tax-free.",
+   "oQueMuda": "Medicines for human use would be immune from taxes.\nThe immunity would be phased in, with a 20% tax cut in the first year and another 20% each year, until reaching 100%.",
    "quemAfeta": "Patients, pharmacies and governments.",
    "porQueImporta": "Today medicines pay taxes, though some have reduced rates; under the tax reform, many will have a 60% reduction or exemption. Under the PEC, all human medicines would be tax-free."
   },
   "es": {
    "titulo": "Exime de impuestos a los medicamentos",
-   "oQueMuda": "Los medicamentos de uso humano estarían libres de impuestos.",
+   "oQueMuda": "Los medicamentos de uso humano quedarían inmunes a impuestos.\nLa inmunidad se aplicaría gradualmente, con reducción del 20% de los impuestos en el primer año y un 20% más cada año, hasta llegar al 100%.",
    "quemAfeta": "Pacientes, farmacias y gobiernos.",
    "porQueImporta": "Hoy los medicamentos pagan impuestos, aunque algunos tienen alícuota reducida; en la reforma tributaria, muchos tendrán reducción del 60% o exención. Con la PEC, todos los medicamentos de uso humano quedarían libres de impuestos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8437557": {
@@ -12944,9 +12944,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2084043": {
@@ -12969,34 +12969,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8305239": {
   "titulo": "Dá aposentadoria especial a guardas municipais",
-  "oQueMuda": "Guardas municipais passariam a ter direito a aposentadoria especial.",
+  "oQueMuda": "Guardas municipais entrariam na lista de servidores que podem ter, por lei complementar de cada ente, idade e tempo de contribuição diferenciados para se aposentar, como já ocorre com policiais e agentes penitenciários e socioeducativos.",
   "quemAfeta": "Guardas municipais e prefeituras.",
   "porQueImporta": "Hoje guardas municipais seguem as regras gerais de aposentadoria de servidores. Com a PEC, teriam aposentadoria especial, com idade menor.",
   "fonte": "manual",
   "en": {
    "titulo": "Gives special retirement to municipal guards",
-   "oQueMuda": "Municipal guards would be entitled to special retirement.",
+   "oQueMuda": "Municipal guards would join the list of servants who may have, through each government's complementary law, different age and contribution time to retire, as already happens with police officers and prison and juvenile detention officers.",
    "quemAfeta": "Municipal guards and city governments.",
    "porQueImporta": "Today municipal guards follow general civil service retirement rules. Under the PEC, they would have special retirement at a lower age."
   },
   "es": {
    "titulo": "Da jubilación especial a las guardias municipales",
-   "oQueMuda": "Las guardias municipales tendrían derecho a jubilación especial.",
+   "oQueMuda": "Los guardias municipales entrarían en la lista de servidores que pueden tener, por ley complementaria de cada ente, edad y tiempo de contribución diferenciados para jubilarse, como ya ocurre con policías y agentes penitenciarios y socioeducativos.",
    "quemAfeta": "Guardias municipales y municipios.",
    "porQueImporta": "Hoy las guardias municipales siguen las reglas generales de jubilación de los servidores. Con la PEC, tendrían jubilación especial, con edad menor."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8306962": {
@@ -13019,84 +13019,84 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8319791": {
   "titulo": "Garante a renda básica de cidadania",
-  "oQueMuda": "Cria benefício de renda básica com fontes de financiamento definidas.",
+  "oQueMuda": "Todo brasileiro residente no país e todo estrangeiro residente há pelo menos cinco anos, além de migrantes e refugiados, maiores de 18 anos, teria direito a uma renda básica de cidadania, paga como benefício contínuo, independentemente da renda.",
   "quemAfeta": "Famílias de baixa renda.",
   "porQueImporta": "Desde 2004 uma lei prevê a renda básica de cidadania, que nunca foi implantada. Com a PEC, haveria um benefício de renda básica na Constituição, com fontes de financiamento definidas.",
   "fonte": "manual",
   "en": {
    "titulo": "Guarantees a citizen's basic income",
-   "oQueMuda": "Creates a basic income benefit with defined funding sources.",
+   "oQueMuda": "Every Brazilian living in the country and every foreigner living there for at least five years, as well as migrants and refugees, aged over 18, would be entitled to a basic citizen income, paid as an ongoing benefit, regardless of income.",
    "quemAfeta": "Low-income families.",
    "porQueImporta": "Since 2004 a law has provided for a citizen's basic income, which was never implemented. Under the PEC, there would be a basic income benefit in the Constitution, with defined funding sources."
   },
   "es": {
    "titulo": "Garantiza la renta básica de ciudadanía",
-   "oQueMuda": "Crea un beneficio de renta básica con fuentes de financiamiento definidas.",
+   "oQueMuda": "Todo brasileño residente en el país y todo extranjero residente hace al menos cinco años, además de migrantes y refugiados, mayores de 18 años, tendría derecho a una renta básica de ciudadanía, pagada como beneficio continuo, independientemente de sus ingresos.",
    "quemAfeta": "Familias de bajos ingresos.",
    "porQueImporta": "Desde 2004 una ley prevé la renta básica de ciudadanía, que nunca se implementó. Con la PEC, habría un beneficio de renta básica en la Constitución, con fuentes de financiamiento definidas."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8320782": {
   "titulo": "Proíbe vender estatais entre a eleição e a posse",
-  "oQueMuda": "Governos não poderiam vender bens públicos ou o controle de estatais no período de transição de governo.",
+  "oQueMuda": "Entre a eleição e a posse de um novo governo, ficaria proibido vender bens públicos, inclusive o controle de empresas públicas e de economia mista.\nA proibição não valeria quando o chefe do Executivo fosse reeleito.",
   "quemAfeta": "Governos em fim de mandato e estatais.",
   "porQueImporta": "Hoje não há proibição de vender estatais ou bens públicos entre a eleição e a posse do novo governo. Com a PEC, isso seria proibido nesse período.",
   "fonte": "manual",
   "en": {
    "titulo": "Bans selling state-owned companies between election and inauguration",
-   "oQueMuda": "Governments could not sell public assets or control of state companies during the transition period.",
+   "oQueMuda": "Between the election and the inauguration of a new government, selling public assets, including control of state-owned and mixed-capital companies, would be banned.\nThe ban would not apply when the head of the Executive is re-elected.",
    "quemAfeta": "Outgoing governments and state-owned companies.",
    "porQueImporta": "Today there is no ban on selling state companies or public assets between the election and the new government's inauguration. Under the PEC, this would be banned in that period."
   },
   "es": {
    "titulo": "Prohíbe vender empresas estatales entre la elección y la asunción",
-   "oQueMuda": "Los gobiernos no podrían vender bienes públicos ni el control de estatales durante el período de transición.",
+   "oQueMuda": "Entre la elección y la asunción de un nuevo gobierno, se prohibiría vender bienes públicos, incluido el control de empresas públicas y de economía mixta.\nLa prohibición no valdría cuando el jefe del Ejecutivo fuera reelegido.",
    "quemAfeta": "Gobiernos salientes y empresas estatales.",
    "porQueImporta": "Hoy no hay prohibición de vender estatales o bienes públicos entre la elección y la asunción del nuevo gobierno. Con la PEC, eso estaría prohibido en ese período."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8329085": {
   "titulo": "Proíbe manifestação política de ministros do STF",
-  "oQueMuda": "Ministros do Supremo e de tribunais superiores não poderiam se manifestar politicamente, sob pena de crime de responsabilidade.",
+  "oQueMuda": "Ministros do STF, de tribunais superiores e de outros tribunais ficariam proibidos de demonstrar publicamente preferência ou repúdio a correntes políticas, políticos ou candidatos, inclusive em redes sociais.\nTambém não poderiam dar, em decisões, opinião ou voto que exceda os limites expressos da Constituição.\nQuem descumprisse seria julgado pelo Senado por crime de responsabilidade, como num impeachment.",
   "quemAfeta": "Ministros e juízes.",
   "porQueImporta": "Hoje juízes são proibidos de ter atividade político-partidária, mas não há crime de responsabilidade por manifestação política. Com a PEC, ministros do STF e de tribunais superiores que se manifestassem politicamente poderiam sofrer impeachment.",
   "fonte": "manual",
   "en": {
    "titulo": "Bans political statements by Supreme Court justices",
-   "oQueMuda": "Justices of the Supreme Court and higher courts could not make political statements, or they would commit an impeachable offense.",
+   "oQueMuda": "Justices of the Supreme Court, superior courts and other courts would be banned from publicly showing preference for or rejection of political currents, politicians or candidates, including on social media.\nThey also could not issue, in rulings, opinions or votes exceeding the express limits of the Constitution.\nThose who broke the rule would be tried by the Senate for an impeachable offense.",
    "quemAfeta": "Justices and judges.",
    "porQueImporta": "Today judges are banned from party-political activity, but there is no impeachable offense for political statements. Under the PEC, Supreme Court and higher-court justices who made political statements could be impeached."
   },
   "es": {
    "titulo": "Prohíbe las manifestaciones políticas de los ministros del Supremo",
-   "oQueMuda": "Los ministros del Supremo y de tribunales superiores no podrían manifestarse políticamente, bajo pena de crimen de responsabilidad.",
+   "oQueMuda": "Los ministros del STF, de tribunales superiores y de otros tribunales tendrían prohibido demostrar públicamente preferencia o rechazo a corrientes políticas, políticos o candidatos, incluso en redes sociales.\nTampoco podrían emitir, en decisiones, opiniones o votos que excedan los límites expresos de la Constitución.\nQuien incumpliera sería juzgado por el Senado por delito de responsabilidad, como en un juicio político.",
    "quemAfeta": "Ministros y jueces.",
    "porQueImporta": "Hoy los jueces tienen prohibida la actividad político-partidaria, pero no hay delito de responsabilidad por manifestación política. Con la PEC, los ministros del STF y de tribunales superiores que se manifestaran políticamente podrían sufrir juicio político."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8331055": {
@@ -13119,9 +13119,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8332695": {
@@ -13144,34 +13144,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8291388": {
-  "titulo": "Cria a Ouvidoria Nacional da Mulher",
-  "oQueMuda": "A União teria de criar uma ouvidoria para receber denúncias e combater a violência contra a mulher.",
+  "titulo": "Cria ouvidoria contra assédio e violência a mulheres no serviço público",
+  "oQueMuda": "A União teria de criar a Ouvidoria Nacional da Mulher, ligada ao Executivo, para prevenir e combater o assédio e a violência contra mulheres dentro da administração pública de todos os Poderes, na União, estados e municípios.\nA ouvidoria seria dirigida por uma servidora efetiva, nomeada pelo presidente após aprovação do Senado, com mandato.",
   "quemAfeta": "Mulheres vítimas de violência.",
-  "porQueImporta": "Hoje denúncias de violência contra a mulher são recebidas pelo Ligue 180, serviço federal, e por delegacias. Com a PEC, a União teria de manter uma ouvidoria nacional prevista na Constituição.",
+  "porQueImporta": "Hoje cada órgão público trata casos de assédio por conta própria, em corregedorias e comissões internas. Com a PEC, haveria um órgão nacional para esses casos no serviço público.",
   "fonte": "manual",
   "en": {
-   "titulo": "Creates the National Women's Ombudsman",
-   "oQueMuda": "The federal government would have to create an ombudsman to receive complaints and fight violence against women.",
+   "titulo": "Creates an ombudsman against harassment and violence toward women in public service",
+   "oQueMuda": "The federal government would have to create the National Women's Ombudsman, linked to the Executive, to prevent and fight harassment and violence against women within public administration in all branches, at federal, state and municipal level.\nIt would be headed by a tenured female civil servant, appointed by the president after Senate approval, for a fixed term.",
    "quemAfeta": "Women victims of violence.",
-   "porQueImporta": "Today reports of violence against women are received by Ligue 180, a federal hotline, and by police stations. Under the PEC, the federal government would have to maintain a national ombudsman's office provided for in the Constitution."
+   "porQueImporta": "Today each public body handles harassment cases on its own, through internal affairs offices and committees. Under the PEC, there would be a national body for these cases in public service."
   },
   "es": {
-   "titulo": "Crea la Defensoría Nacional de la Mujer",
-   "oQueMuda": "La Unión tendría que crear una defensoría para recibir denuncias y combatir la violencia contra la mujer.",
+   "titulo": "Crea una defensoría contra el acoso y la violencia hacia mujeres en el servicio público",
+   "oQueMuda": "La Unión tendría que crear la Defensoría Nacional de la Mujer, vinculada al Ejecutivo, para prevenir y combatir el acoso y la violencia contra mujeres dentro de la administración pública de todos los Poderes, en la Unión, estados y municipios.\nSería dirigida por una servidora efectiva, nombrada por el presidente tras aprobación del Senado, con mandato.",
    "quemAfeta": "Mujeres víctimas de violencia.",
-   "porQueImporta": "Hoy las denuncias de violencia contra la mujer las recibe el Ligue 180, servicio federal, y las comisarías. Con la PEC, el gobierno federal tendría que mantener una defensoría nacional prevista en la Constitución."
+   "porQueImporta": "Hoy cada órgano público trata los casos de acoso por su cuenta, en corregidurías y comisiones internas. Con la PEC, habría un órgano nacional para esos casos en el servicio público."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8293254": {
@@ -13194,34 +13194,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2351680": {
   "titulo": "Limita o indulto concedido pelo presidente",
-  "oQueMuda": "Fixa critérios e proibições para o perdão de penas dado pelo presidente da República.",
+  "oQueMuda": "Ficaria proibido o indulto de caráter geral que perdoe mais de um quinto da pena que falta cumprir, exceto o indulto humanitário.",
   "quemAfeta": "Presos e Presidência da República.",
   "porQueImporta": "Hoje o presidente pode conceder indulto a presos por decreto, com proibição só para crimes hediondos, tortura, tráfico e terrorismo. Com a PEC, haveria novos critérios e proibições.",
   "fonte": "manual",
   "en": {
    "titulo": "Limits presidential pardons",
-   "oQueMuda": "Sets criteria and bans for sentence pardons granted by the President.",
+   "oQueMuda": "General pardons forgiving more than one-fifth of the remaining sentence would be banned, except for humanitarian pardons.",
    "quemAfeta": "Prisoners and the Presidency.",
    "porQueImporta": "Today the president can grant pardons by decree, with bans only for heinous crimes, torture, trafficking and terrorism. Under the PEC, there would be new criteria and prohibitions."
   },
   "es": {
    "titulo": "Limita el indulto concedido por el presidente",
-   "oQueMuda": "Fija criterios y prohibiciones para el perdón de penas otorgado por el presidente.",
+   "oQueMuda": "Se prohibiría el indulto de carácter general que perdone más de una quinta parte de la pena que falta cumplir, salvo el indulto humanitario.",
    "quemAfeta": "Presos y Presidencia de la República.",
    "porQueImporta": "Hoy el presidente puede conceder indulto a presos por decreto, con prohibición solo para delitos atroces, tortura, tráfico y terrorismo. Con la PEC, habría nuevos criterios y prohibiciones."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7741352": {
@@ -13243,10 +13243,10 @@
    "porQueImporta": "Hoy el Fondo de Participación de los Estados recibe el 21,5% del impuesto a la renta y del IPI. Con la PEC, recibiría el 26%, y el gobierno federal se quedaría con menos."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s7956281",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8402530": {
@@ -13269,9 +13269,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8406896": {
@@ -13320,9 +13320,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2231670": {
@@ -13345,9 +13345,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8220747": {
@@ -13395,9 +13395,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8222502": {
@@ -13420,9 +13420,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8230006": {
@@ -13445,9 +13445,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8394951": {
@@ -13470,9 +13470,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2132847": {
@@ -13495,9 +13495,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7760703": {
@@ -13545,34 +13545,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2222337": {
   "titulo": "Divide com estados e municípios o leilão do pré-sal",
-  "oQueMuda": "União compartilharia com estados e municípios recursos do leilão da cessão onerosa do pré-sal.",
+  "oQueMuda": "Do dinheiro arrecadado nos leilões do excedente da cessão onerosa do pré-sal, descontado o custo da revisão do contrato com a Petrobras, a União repassaria 15% aos estados e ao DF e 15% aos municípios, pelos critérios dos fundos de participação.",
   "quemAfeta": "Estados, municípios e União.",
   "porQueImporta": "Em 2019 outra emenda (102) já autorizou dividir com estados e municípios parte do dinheiro do leilão da cessão onerosa do pré-sal. Esta PEC tratava do mesmo tema.",
   "fonte": "manual",
   "en": {
    "titulo": "Shares pre-salt auction revenue with states and cities",
-   "oQueMuda": "The federal government would share with states and cities revenue from the pre-salt oil rights auction.",
+   "oQueMuda": "From the money raised in auctions of the transfer-of-rights pre-salt surplus, minus the cost of revising the contract with Petrobras, the federal government would pass 15% to the states and the Federal District and 15% to municipalities, using the participation fund criteria.",
    "quemAfeta": "States, cities and the federal government.",
    "porQueImporta": "In 2019 another amendment (102) already authorized sharing part of the money from the pre-salt transfer-of-rights auction with states and municipalities. This PEC dealt with the same issue."
   },
   "es": {
    "titulo": "Comparte con estados y municipios la subasta del presal",
-   "oQueMuda": "La Unión compartiría con estados y municipios los recursos de la subasta de la cesión onerosa del presal.",
+   "oQueMuda": "Del dinero recaudado en las subastas del excedente de la cesión onerosa del presal, descontado el costo de la revisión del contrato con Petrobras, la Unión transferiría el 15% a los estados y al DF y el 15% a los municipios, según los criterios de los fondos de participación.",
    "quemAfeta": "Estados, municipios y la Unión.",
    "porQueImporta": "En 2019 otra enmienda (102) ya autorizó repartir con estados y municipios parte del dinero de la subasta de la cesión onerosa del presal. Esta PEC trataba del mismo tema."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2351620": {
@@ -13620,9 +13620,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s1401169": {
@@ -13720,9 +13720,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s1401414": {
@@ -13745,9 +13745,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7914500": {
@@ -13770,9 +13770,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7989488": {
@@ -13795,9 +13795,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2325720": {
@@ -13820,9 +13820,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c501028": {
@@ -13845,9 +13845,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s1401223": {
@@ -13876,28 +13876,28 @@
   }
  },
  "s8392917": {
-  "titulo": "Muda onde começam os projetos do presidente",
-  "oQueMuda": "Projetos do presidente e de tribunais poderiam começar a tramitar no Senado, não só na Câmara.",
+  "titulo": "Alterna entre Câmara e Senado o início das propostas do presidente",
+  "oQueMuda": "Propostas de emenda, projetos de lei e medidas provisórias do presidente começariam a tramitar alternadamente na Câmara e no Senado.\nProjetos do STF, de tribunais superiores, do procurador-geral e do defensor público-geral continuariam começando na Câmara.",
   "quemAfeta": "Congresso e Presidência.",
-  "porQueImporta": "Hoje projetos do presidente e dos tribunais começam sempre na Câmara. Com a PEC, poderiam começar no Senado.",
+  "porQueImporta": "Hoje projetos do presidente e as medidas provisórias começam sempre na Câmara, que dá a palavra final quando o Senado muda o texto. Com a PEC, o Senado seria a Casa inicial em metade dos casos.",
   "fonte": "manual",
   "en": {
-   "titulo": "Changes where the President's bills start",
-   "oQueMuda": "Bills from the President and the courts could start in the Senate, not only in the Chamber.",
+   "titulo": "Alternates between the Chamber and the Senate where the president's proposals start",
+   "oQueMuda": "The president's constitutional amendments, bills and provisional measures would start alternately in the Chamber and the Senate.\nBills from the Supreme Court, superior courts, the prosecutor-general and the public defender-general would still start in the Chamber.",
    "quemAfeta": "Congress and the Presidency.",
-   "porQueImporta": "Today bills from the president and courts always start in the Chamber. Under the PEC, they could start in the Senate."
+   "porQueImporta": "Today the president's bills and provisional measures always start in the Chamber, which has the final say when the Senate changes the text. Under the PEC, the Senate would be the starting house in half the cases."
   },
   "es": {
-   "titulo": "Cambia dónde empiezan los proyectos del presidente",
-   "oQueMuda": "Los proyectos del presidente y de los tribunales podrían empezar a tramitarse en el Senado, no solo en la Cámara.",
+   "titulo": "Alterna entre Cámara y Senado el inicio de las propuestas del presidente",
+   "oQueMuda": "Las propuestas de enmienda, proyectos de ley y medidas provisionales del presidente empezarían a tramitar alternadamente en la Cámara y en el Senado.\nLos proyectos del STF, de tribunales superiores, del procurador general y del defensor público general seguirían empezando en la Cámara.",
    "quemAfeta": "Congreso y Presidencia.",
-   "porQueImporta": "Hoy los proyectos del presidente y de los tribunales empiezan siempre en la Cámara. Con la PEC, podrían empezar en el Senado."
+   "porQueImporta": "Hoy los proyectos del presidente y las medidas provisionales empiezan siempre en la Cámara, que tiene la última palabra cuando el Senado cambia el texto. Con la PEC, el Senado sería la Cámara inicial en la mitad de los casos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8133142": {
@@ -13920,9 +13920,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8171441": {
@@ -13945,34 +13945,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s1394077": {
   "titulo": "Reserva vagas no Legislativo para pessoas com deficiência",
-  "oQueMuda": "Cadeiras na Câmara, nas Assembleias e nas Câmaras Municipais seriam reservadas a pessoas com deficiência por quatro legislaturas.",
+  "oQueMuda": "Nas quatro legislaturas seguintes, pessoas com deficiência teriam um mínimo de cadeiras na Câmara dos Deputados, nas Assembleias e nas Câmaras Municipais: 2,5% na primeira, 5% na segunda, 7,5% na terceira e 10% na quarta.",
   "quemAfeta": "Pessoas com deficiência e partidos.",
   "porQueImporta": "Hoje não há reserva de cadeiras nos Legislativos para nenhum grupo. Com a PEC, haveria vagas reservadas a pessoas com deficiência na Câmara, nas Assembleias e nas Câmaras Municipais por quatro legislaturas.",
   "fonte": "manual",
   "en": {
    "titulo": "Reserves legislative seats for people with disabilities",
-   "oQueMuda": "Seats in the Chamber, state assemblies and city councils would be reserved for people with disabilities for four legislatures.",
+   "oQueMuda": "For the next four legislatures, people with disabilities would have a minimum share of seats in the Chamber of Deputies, state assemblies and city councils: 2.5% in the first, 5% in the second, 7.5% in the third and 10% in the fourth.",
    "quemAfeta": "People with disabilities and parties.",
    "porQueImporta": "Today there are no reserved seats in legislatures for any group. Under the PEC, seats would be reserved for people with disabilities in the Chamber, state legislatures and city councils for four terms."
   },
   "es": {
    "titulo": "Reserva escaños en el Legislativo para personas con discapacidad",
-   "oQueMuda": "Escaños en la Cámara, las asambleas y los concejos se reservarían a personas con discapacidad durante cuatro legislaturas.",
+   "oQueMuda": "En las cuatro legislaturas siguientes, las personas con discapacidad tendrían un mínimo de escaños en la Cámara de Diputados, las Asambleas y los Concejos Municipales: 2,5% en la primera, 5% en la segunda, 7,5% en la tercera y 10% en la cuarta.",
    "quemAfeta": "Personas con discapacidad y partidos.",
    "porQueImporta": "Hoy no hay reserva de escaños en los Legislativos para ningún grupo. Con la PEC, habría vacantes reservadas a personas con discapacidad en la Cámara, las asambleas y los concejos por cuatro legislaturas."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s1394130": {
@@ -14020,9 +14020,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s1394282": {
@@ -14045,9 +14045,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s1394688": {
@@ -14070,9 +14070,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s1394843": {
