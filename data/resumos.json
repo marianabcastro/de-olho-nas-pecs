@@ -4967,9 +4967,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8563075": {
@@ -5043,9 +5043,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2084889": {
@@ -5068,34 +5068,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c460138": {
   "titulo": "Cria fundo para manter o sistema de segurança pública",
-  "oQueMuda": "Cria um fundo de manutenção e desenvolvimento da segurança pública.",
+  "oQueMuda": "Seria criado um fundo para manter e desenvolver a segurança pública, e haveria gasto mínimo obrigatório na área: a União aplicaria todo ano pelo menos 10%, e estados e municípios um percentual igual à taxa de homicídios por 100 mil habitantes, com mínimo de 12%.",
   "quemAfeta": "Polícias e governos estaduais.",
   "porQueImporta": "Hoje o Fundo Nacional de Segurança Pública existe por lei, e seu dinheiro pode mudar a cada ano. Com a PEC, haveria um fundo previsto na Constituição para manter a segurança pública.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates a fund to maintain the public safety system",
-   "oQueMuda": "Creates a fund for maintaining and developing public safety.",
+   "oQueMuda": "A fund to maintain and develop public security would be created, with mandatory minimum spending: the federal government would spend at least 10% a year, and states and municipalities a percentage equal to the homicide rate per 100,000 inhabitants, with a minimum of 12%.",
    "quemAfeta": "Police forces and state governments.",
    "porQueImporta": "Today the National Public Security Fund exists by law, and its money can change every year. Under the PEC, there would be a fund in the Constitution to maintain public security."
   },
   "es": {
    "titulo": "Crea un fondo para mantener el sistema de seguridad pública",
-   "oQueMuda": "Crea un fondo de mantenimiento y desarrollo de la seguridad pública.",
+   "oQueMuda": "Se crearía un fondo para mantener y desarrollar la seguridad pública, con gasto mínimo obligatorio en el área: la Unión aplicaría cada año al menos el 10%, y estados y municipios un porcentaje igual a la tasa de homicidios por 100 mil habitantes, con un mínimo del 12%.",
    "quemAfeta": "Policías y gobiernos estatales.",
    "porQueImporta": "Hoy el Fondo Nacional de Seguridad Pública existe por ley, y su dinero puede cambiar cada año. Con la PEC, habría un fondo previsto en la Constitución para mantener la seguridad pública."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c540302": {
@@ -5300,27 +5300,27 @@
  },
  "c489897": {
   "titulo": "Destina parte da contribuição sindical às centrais",
-  "oQueMuda": "As centrais sindicais passariam a receber parte da contribuição sindical.",
+  "oQueMuda": "A contribuição fixada em assembleia sindical seria descontada em folha de todos os trabalhadores da categoria, para custear o sistema sindical e também a central sindical à qual o sindicato for filiado.",
   "quemAfeta": "Centrais sindicais e trabalhadores.",
-  "porQueImporta": "Desde 2017 a contribuição sindical só é cobrada de quem autoriza. Com a PEC, parte do que for arrecadado iria para as centrais sindicais.",
+  "porQueImporta": "Desde 2017 a contribuição sindical só é cobrada de quem autoriza. Com a PEC, a contribuição definida em assembleia seria descontada em folha de toda a categoria, e parte iria para as centrais sindicais.",
   "fonte": "manual",
   "en": {
    "titulo": "Gives union confederations part of union dues",
-   "oQueMuda": "National union confederations would receive part of union dues.",
+   "oQueMuda": "The contribution set by a union assembly would be deducted from the payroll of all workers in the category, to fund the union system and also the union federation the union belongs to.",
    "quemAfeta": "Union confederations and workers.",
-   "porQueImporta": "Since 2017 the union contribution has only been charged to those who authorize it. Under the PEC, part of what is collected would go to union federations."
+   "porQueImporta": "Since 2017 the union contribution is only charged to those who authorize it. Under the PEC, the contribution set in assembly would be deducted from the whole category's payroll, and part would go to the union federations."
   },
   "es": {
    "titulo": "Destina parte de la contribución sindical a las centrales",
-   "oQueMuda": "Las centrales sindicales recibirían parte de la contribución sindical.",
+   "oQueMuda": "La contribución fijada en asamblea sindical se descontaría de la nómina de todos los trabajadores de la categoría, para costear el sistema sindical y también la central sindical a la que esté afiliado el sindicato.",
    "quemAfeta": "Centrales sindicales y trabajadores.",
-   "porQueImporta": "Desde 2017 la contribución sindical solo se cobra a quien la autoriza. Con la PEC, parte de lo recaudado iría a las centrales sindicales."
+   "porQueImporta": "Desde 2017 la contribución sindical solo se cobra a quien la autoriza. Con la PEC, la contribución definida en asamblea se descontaría de la nómina de toda la categoría, y parte iría a las centrales sindicales."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2503919": {
@@ -5573,9 +5573,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c263327": {
@@ -5598,9 +5598,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c277153": {
@@ -5797,10 +5797,10 @@
    "porQueImporta": "Hoy los militares en actividad con más de 10 años de servicio solo pasan a la reserva si son elegidos. Con la PEC, tendrían que pasar a la reserva al registrar la candidatura."
   },
   "base": {
-   "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "versao": "s9516913",
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2487390": {
@@ -5873,9 +5873,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1738778": {
@@ -5898,34 +5898,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2018276": {
   "titulo": "Cria critérios de prioridade e urgência no atendimento de saúde",
-  "oQueMuda": "Mantém o direito universal à saúde, mas fixa critérios para definir prioridades e urgências.",
+  "oQueMuda": "Pedidos individuais de atendimento de saúde só teriam prioridade depois de laudo médico submetido à aprovação orçamentária do Conselho Municipal de Saúde; urgências médicas teriam prioridade garantida na rede pública.",
   "quemAfeta": "Pacientes do SUS.",
   "porQueImporta": "Hoje o SUS deve atender a todos, e a ordem de atendimento segue regras de cada serviço. Com a PEC, a Constituição fixaria critérios de prioridade e urgência.",
   "fonte": "manual",
   "en": {
    "titulo": "Sets priority and urgency criteria in health care",
-   "oQueMuda": "Keeps the universal right to health but sets criteria to define priorities and emergencies.",
+   "oQueMuda": "Individual health care requests would only get priority after a medical report submitted for budget approval by the Municipal Health Council; medical emergencies would have guaranteed priority in the public network.",
    "quemAfeta": "Patients of the public health system (SUS).",
    "porQueImporta": "Today the public health system must serve everyone, and the order of care follows each service's rules. Under the PEC, the Constitution would set priority and urgency criteria."
   },
   "es": {
    "titulo": "Crea criterios de prioridad y urgencia en la atención de salud",
-   "oQueMuda": "Mantiene el derecho universal a la salud, pero fija criterios para definir prioridades y urgencias.",
+   "oQueMuda": "Las solicitudes individuales de atención de salud solo tendrían prioridad después de un informe médico sometido a la aprobación presupuestaria del Consejo Municipal de Salud; las urgencias médicas tendrían prioridad garantizada en la red pública.",
    "quemAfeta": "Pacientes del SUS.",
    "porQueImporta": "Hoy el SUS debe atender a todos, y el orden de atención sigue las reglas de cada servicio. Con la PEC, la Constitución fijaría criterios de prioridad y urgencia."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2189436": {
@@ -5974,34 +5974,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2057623": {
   "titulo": "Muda o percentual de recursos destinado ao BNDES",
-  "oQueMuda": "Altera a parte do dinheiro do PIS/PASEP repassada ao BNDES para financiamentos.",
+  "oQueMuda": "A parte do dinheiro do PIS/Pasep que obrigatoriamente vai para o BNDES financiar programas de desenvolvimento cairia de pelo menos 28% para pelo menos 20%; o restante ajuda a pagar seguro-desemprego e abono salarial.",
   "quemAfeta": "BNDES e empresas que tomam crédito no banco.",
   "porQueImporta": "Hoje pelo menos 28% do dinheiro do PIS/Pasep vai para o BNDES financiar o desenvolvimento, e o restante ajuda a pagar seguro-desemprego e abono salarial. Com a PEC, esse percentual mudaria.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes the share of funds sent to the BNDES",
-   "oQueMuda": "Changes the share of PIS/PASEP money passed to the national development bank (BNDES) for loans.",
+   "oQueMuda": "The share of PIS/Pasep money that must go to BNDES to finance development programs would fall from at least 28% to at least 20%; the rest helps pay unemployment insurance and the wage bonus.",
    "quemAfeta": "The BNDES and companies that borrow from it.",
    "porQueImporta": "Today at least 28% of PIS/Pasep money goes to BNDES to finance development, and the rest helps pay unemployment insurance and the wage bonus. Under the PEC, this share would change."
   },
   "es": {
    "titulo": "Cambia el porcentaje de recursos destinado al BNDES",
-   "oQueMuda": "Modifica la parte del dinero del PIS/PASEP transferida al BNDES para financiamientos.",
+   "oQueMuda": "La parte del dinero del PIS/Pasep que obligatoriamente va al BNDES para financiar programas de desarrollo bajaría de al menos el 28% a al menos el 20%; el resto ayuda a pagar el seguro de desempleo y el bono salarial.",
    "quemAfeta": "El BNDES y las empresas que toman crédito en el banco.",
    "porQueImporta": "Hoy al menos el 28% del dinero del PIS/Pasep va al BNDES para financiar el desarrollo, y el resto ayuda a pagar el seguro de desempleo y el abono salarial. Con la PEC, ese porcentaje cambiaría."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c458500": {
@@ -6024,9 +6024,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2165018": {
@@ -6049,34 +6049,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2139404": {
   "titulo": "Limita o pagamento de juros da dívida pública",
-  "oQueMuda": "Fixa um limite para o que a União gasta com juros e encargos da dívida.",
+  "oQueMuda": "Ficaria proibido a União gastar com juros e encargos do refinanciamento da dívida pública mais de 20% da receita bruta prevista no orçamento anual.",
   "quemAfeta": "Governo federal e credores do país.",
   "porQueImporta": "Hoje não há limite para o que a União gasta com juros da dívida, que é uma das maiores despesas do orçamento. Com a PEC, haveria um teto para esse gasto.",
   "fonte": "manual",
   "en": {
    "titulo": "Caps interest payments on the public debt",
-   "oQueMuda": "Sets a limit on what the federal government spends on interest and debt charges.",
+   "oQueMuda": "The federal government would be barred from spending more than 20% of the gross revenue in the annual budget on interest and charges from refinancing public debt.",
    "quemAfeta": "The federal government and the country's creditors.",
    "porQueImporta": "Today there is no limit on federal spending on debt interest, one of the largest budget items. Under the PEC, there would be a cap on this spending."
   },
   "es": {
    "titulo": "Limita el pago de intereses de la deuda pública",
-   "oQueMuda": "Fija un límite a lo que la Unión gasta en intereses y cargos de la deuda.",
+   "oQueMuda": "Se prohibiría que la Unión gaste en intereses y cargos del refinanciamiento de la deuda pública más del 20% de los ingresos brutos previstos en el presupuesto anual.",
    "quemAfeta": "Gobierno federal y acreedores del país.",
    "porQueImporta": "Hoy no hay límite para lo que el gobierno federal gasta en intereses de la deuda, uno de los mayores gastos del presupuesto. Con la PEC, habría un tope para ese gasto."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2181063": {
@@ -6099,9 +6099,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c110958": {
@@ -6124,9 +6124,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c423901": {
@@ -6149,9 +6149,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2307037": {
@@ -6200,9 +6200,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2344523": {
@@ -6225,9 +6225,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2220682": {
@@ -6275,9 +6275,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2487818": {
@@ -6357,27 +6357,27 @@
  },
  "s8771508": {
   "titulo": "Reduz o novo imposto sobre água e esgoto",
-  "oQueMuda": "Altera a reforma tributária para reduzir alíquotas do IBS e da CBS sobre serviços de água e esgoto.",
+  "oQueMuda": "Os serviços de abastecimento de água e de esgoto teriam redução de 60% nas alíquotas do IBS e da CBS, os novos impostos da reforma tributária.",
   "quemAfeta": "Consumidores e empresas de saneamento.",
   "porQueImporta": "Na reforma tributária, saneamento paga a alíquota cheia do IBS e da CBS, enquanto hoje paga PIS, Cofins e, em alguns casos, ISS. Com a PEC, a alíquota sobre água e esgoto seria reduzida.",
   "fonte": "manual",
   "en": {
    "titulo": "Lowers the new tax on water and sewage",
-   "oQueMuda": "Changes the tax reform to reduce IBS and CBS rates on water and sewage services.",
+   "oQueMuda": "Water supply and sewage services would get a 60% cut in IBS and CBS rates, the new taxes from the tax reform.",
    "quemAfeta": "Consumers and sanitation companies.",
    "porQueImporta": "Under the tax reform, sanitation pays the full IBS and CBS rate, while today it pays PIS, Cofins and, in some cases, ISS. Under the PEC, the rate on water and sewage would be reduced."
   },
   "es": {
    "titulo": "Reduce el nuevo impuesto sobre agua y alcantarillado",
-   "oQueMuda": "Modifica la reforma tributaria para reducir las alícuotas del IBS y la CBS sobre los servicios de agua y alcantarillado.",
+   "oQueMuda": "Los servicios de abastecimiento de agua y de alcantarillado tendrían una reducción del 60% en las alícuotas del IBS y la CBS, los nuevos impuestos de la reforma tributaria.",
    "quemAfeta": "Consumidores y empresas de saneamiento.",
    "porQueImporta": "En la reforma tributaria, el saneamiento paga la alícuota completa del IBS y la CBS, mientras hoy paga PIS, Cofins y, en algunos casos, ISS. Con la PEC, la alícuota sobre agua y alcantarillado se reduciría."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7817905": {
@@ -6450,9 +6450,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8656750": {
@@ -6475,9 +6475,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8542259": {
@@ -6616,9 +6616,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2229938": {
@@ -6878,27 +6878,27 @@
  },
  "s8735431": {
   "titulo": "Muda regras de inquéritos abertos pelos tribunais",
-  "oQueMuda": "Disciplina quando tribunais podem abrir inquérito por crimes em suas sedes ou contra seus membros.",
+  "oQueMuda": "STF, STJ e os demais tribunais continuariam podendo julgar crimes cometidos em suas sedes ou contra seus membros, mas ficaria proibido abrir inquérito por iniciativa própria (de ofício), sem pedido da polícia ou do Ministério Público.",
   "quemAfeta": "Tribunais, em especial o STF, e investigados.",
   "porQueImporta": "Desde 2019, o STF conduz inquéritos abertos por ele mesmo, como o das fake news, com base no seu regimento. Com a PEC, a Constituição limitaria quando tribunais podem abrir esse tipo de inquérito.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes rules for inquiries opened by courts",
-   "oQueMuda": "Sets when courts can open inquiries into crimes at their premises or against their members.",
+   "oQueMuda": "The Supreme Court, the Superior Court of Justice and other courts could still try crimes committed on their premises or against their members, but opening an investigation on their own initiative, without a request from police or prosecutors, would be banned.",
    "quemAfeta": "Courts, especially the Supreme Court, and people under investigation.",
    "porQueImporta": "Since 2019, the Supreme Court has run investigations it opened itself, such as the fake news inquiry, based on its internal rules. Under the PEC, the Constitution would limit when courts can open such investigations."
   },
   "es": {
    "titulo": "Cambia las reglas de las investigaciones abiertas por los tribunales",
-   "oQueMuda": "Regula cuándo los tribunales pueden abrir investigaciones por delitos en sus sedes o contra sus miembros.",
+   "oQueMuda": "El STF, el STJ y los demás tribunales seguirían pudiendo juzgar delitos cometidos en sus sedes o contra sus miembros, pero se prohibiría abrir una investigación por iniciativa propia (de oficio), sin pedido de la policía o del Ministerio Público.",
    "quemAfeta": "Tribunales, en especial el Supremo, e investigados.",
    "porQueImporta": "Desde 2019, el STF conduce investigaciones abiertas por él mismo, como la de las noticias falsas, con base en su reglamento. Con la PEC, la Constitución limitaría cuándo los tribunales pueden abrir ese tipo de investigación."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8735562": {
@@ -6921,9 +6921,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8739428": {
@@ -6971,59 +6971,59 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8772231": {
   "titulo": "Cria critérios técnicos para escolher ministros do TCU",
-  "oQueMuda": "Exige critérios técnicos e proíbe nomear políticos recentes e parentes para o Tribunal de Contas da União.",
+  "oQueMuda": "Não poderiam ser nomeados ministros do TCU quem tem mandato eletivo ou o exerceu nos últimos 10 anos, seus cônjuges e parentes até o terceiro grau, nem dirigentes de partidos e de sindicatos.",
   "quemAfeta": "Tribunal de Contas da União.",
   "porQueImporta": "Hoje dos 9 ministros do TCU, 6 são escolhidos pelo Congresso e 3 pelo presidente, e muitos foram políticos. Com a PEC, haveria critérios técnicos e seriam proibidos políticos recentes e parentes de autoridades.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates technical criteria for choosing federal audit court ministers",
-   "oQueMuda": "Requires technical criteria and bans appointing recent politicians and relatives to the Federal Court of Accounts (TCU).",
+   "oQueMuda": "People holding elected office or who held it in the last 10 years, their spouses and relatives up to the third degree, as well as party and union leaders, could not be appointed to the Federal Court of Accounts (TCU).",
    "quemAfeta": "The Federal Court of Accounts.",
    "porQueImporta": "Today of the 9 Federal Audit Court ministers, 6 are chosen by Congress and 3 by the president, and many were politicians. Under the PEC, there would be technical criteria, and recent politicians and relatives of officials would be barred."
   },
   "es": {
    "titulo": "Crea criterios técnicos para elegir ministros del TCU",
-   "oQueMuda": "Exige criterios técnicos y prohíbe nombrar a políticos recientes y parientes en el Tribunal de Cuentas de la Unión.",
+   "oQueMuda": "No podrían ser nombrados ministros del TCU quienes tengan mandato electivo o lo hayan ejercido en los últimos 10 años, sus cónyuges y parientes hasta el tercer grado, ni dirigentes de partidos y sindicatos.",
    "quemAfeta": "Tribunal de Cuentas de la Unión.",
    "porQueImporta": "Hoy de los 9 ministros del TCU, 6 son elegidos por el Congreso y 3 por el presidente, y muchos fueron políticos. Con la PEC, habría criterios técnicos y se prohibirían políticos recientes y parientes de autoridades."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8776422": {
   "titulo": "Cria paridade de gênero na promoção de juízes",
-  "oQueMuda": "Garante cotas para mulheres na promoção de juízes aos tribunais de segunda instância.",
+  "oQueMuda": "Nos tribunais de segunda instância com menos de 40% de mulheres, as promoções de juízes por merecimento alternariam entre uma lista mista e uma lista só de mulheres, até atingir esse percentual.",
   "quemAfeta": "Juízas e juízes.",
   "porQueImporta": "Desde 2023 uma resolução do CNJ exige listas alternadas de homens e mulheres na promoção por merecimento. Com a PEC, a paridade de gênero na promoção de juízes ficaria na Constituição.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates gender parity in judges' promotions",
-   "oQueMuda": "Guarantees quotas for women in promoting judges to appeals courts.",
+   "oQueMuda": "In second-instance courts with fewer than 40% women, merit promotions of judges would alternate between a mixed list and a women-only list, until that percentage is reached.",
    "quemAfeta": "Women and men judges.",
    "porQueImporta": "Since 2023 a CNJ resolution requires alternating lists of men and women in merit-based promotions. Under the PEC, gender parity in judicial promotion would be in the Constitution."
   },
   "es": {
    "titulo": "Crea paridad de género en la promoción de jueces",
-   "oQueMuda": "Garantiza cuotas para mujeres en la promoción de jueces a los tribunales de segunda instancia.",
+   "oQueMuda": "En los tribunales de segunda instancia con menos del 40% de mujeres, los ascensos de jueces por mérito alternarían entre una lista mixta y una lista solo de mujeres, hasta alcanzar ese porcentaje.",
    "quemAfeta": "Juezas y jueces.",
    "porQueImporta": "Desde 2023 una resolución del CNJ exige listas alternadas de hombres y mujeres en el ascenso por mérito. Con la PEC, la paridad de género en el ascenso de jueces quedaría en la Constitución."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8780865": {
@@ -7800,9 +7800,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c336945": {
@@ -8025,9 +8025,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2350490": {
@@ -8076,9 +8076,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2478427": {
@@ -8101,9 +8101,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2190000": {
@@ -8202,9 +8202,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c125854": {
@@ -8252,9 +8252,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2362646": {
@@ -8277,59 +8277,59 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2291133": {
-  "titulo": "Proíbe militares da ativa em cargos civis do governo",
-  "oQueMuda": "Militares da ativa não poderiam ocupar cargos civis na administração pública.",
+  "titulo": "Obriga militares da ativa a deixar a atividade para ocupar cargos civis",
+  "oQueMuda": "Militares da ativa só poderiam ocupar cargos civis na administração pública, em qualquer nível de governo, se deixassem a atividade militar: com menos de 10 anos de serviço, se afastariam; com mais de 10, passariam automaticamente para a reserva na posse.",
   "quemAfeta": "Militares e governos.",
-  "porQueImporta": "Hoje militares da ativa podem ocupar cargos civis na administração pública, como ministérios e secretarias. Com a PEC, isso seria proibido.",
+  "porQueImporta": "Hoje militares da ativa podem ocupar cargos civis, como ministérios e secretarias, e voltar depois à carreira militar. Com a PEC, quem assumisse um cargo civil teria de se afastar ou ir para a reserva.",
   "fonte": "manual",
   "en": {
-   "titulo": "Bans active-duty military from civilian government posts",
-   "oQueMuda": "Active-duty military could not hold civilian posts in public administration.",
+   "titulo": "Requires active-duty military to leave active service to hold civilian posts",
+   "oQueMuda": "Active-duty military could only hold civilian posts in public administration, at any level of government, if they left active service: with fewer than 10 years of service, they would take leave; with more than 10, they would automatically move to the reserve upon taking office.",
    "quemAfeta": "Military personnel and governments.",
-   "porQueImporta": "Today active-duty military personnel can hold civilian posts in public administration, such as ministries and departments. Under the PEC, this would be banned."
+   "porQueImporta": "Today active-duty military can hold civilian posts, such as ministries and secretariats, and later return to their military career. Under the PEC, anyone taking a civilian post would have to take leave or move to the reserve."
   },
   "es": {
-   "titulo": "Prohíbe que militares en activo ocupen cargos civiles en el gobierno",
-   "oQueMuda": "Los militares en activo no podrían ocupar cargos civiles en la administración pública.",
+   "titulo": "Obliga a los militares en actividad a dejar el servicio activo para ocupar cargos civiles",
+   "oQueMuda": "Los militares en actividad solo podrían ocupar cargos civiles en la administración pública, en cualquier nivel de gobierno, si dejaran la actividad militar: con menos de 10 años de servicio, se apartarían; con más de 10, pasarían automáticamente a la reserva al asumir.",
    "quemAfeta": "Militares y gobiernos.",
-   "porQueImporta": "Hoy los militares en actividad pueden ocupar cargos civiles en la administración pública, como ministerios y secretarías. Con la PEC, eso estaría prohibido."
+   "porQueImporta": "Hoy los militares en actividad pueden ocupar cargos civiles, como ministerios y secretarías, y volver después a la carrera militar. Con la PEC, quien asumiera un cargo civil tendría que apartarse o pasar a la reserva."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2238418": {
   "titulo": "Exige decisões coletivas do STF em liminares",
-  "oQueMuda": "Liminares em ações de inconstitucionalidade teriam de ser decididas por mais de um ministro.",
+  "oQueMuda": "Ações diretas de inconstitucionalidade nunca poderiam ser decididas por um ministro sozinho; teriam de ser julgadas pela maioria absoluta do STF, e o pedido de liminar teria de ser analisado em até três meses.",
   "quemAfeta": "Supremo Tribunal Federal.",
   "porQueImporta": "Hoje um único ministro do STF pode suspender uma lei com uma decisão provisória. Com a PEC, essas decisões exigiriam mais de um ministro.",
   "fonte": "manual",
   "en": {
    "titulo": "Requires collective Supreme Court decisions on injunctions",
-   "oQueMuda": "Injunctions in constitutional challenges would have to be decided by more than one justice.",
+   "oQueMuda": "Direct actions of unconstitutionality could never be decided by a single justice; they would have to be decided by an absolute majority of the Supreme Court, and requests for preliminary rulings would have to be decided within three months.",
    "quemAfeta": "The Supreme Court.",
    "porQueImporta": "Today a single Supreme Court justice can suspend a law with a provisional ruling. Under the PEC, these rulings would require more than one justice."
   },
   "es": {
    "titulo": "Exige decisiones colectivas del Supremo en medidas cautelares",
-   "oQueMuda": "Las medidas cautelares en acciones de inconstitucionalidad tendrían que ser decididas por más de un ministro.",
+   "oQueMuda": "Las acciones directas de inconstitucionalidad nunca podrían ser decididas por un ministro solo; tendrían que ser juzgadas por la mayoría absoluta del STF, y el pedido de medida cautelar tendría que analizarse en hasta tres meses.",
    "quemAfeta": "Supremo Tribunal Federal.",
    "porQueImporta": "Hoy un solo ministro del STF puede suspender una ley con una decisión provisional. Con la PEC, esas decisiones exigirían más de un ministro."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2336481": {
@@ -8378,9 +8378,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c567421": {
@@ -8403,9 +8403,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1672707": {
@@ -8428,9 +8428,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2186256": {
@@ -8478,9 +8478,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8743101": {
@@ -8503,9 +8503,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c591185": {
@@ -8528,9 +8528,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1732943": {
@@ -8553,9 +8553,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7730684": {
@@ -8628,9 +8628,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8730454": {
@@ -8653,9 +8653,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8735524": {
@@ -8678,9 +8678,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c459294": {
@@ -8778,9 +8778,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8720944": {
@@ -8803,34 +8803,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1548995": {
   "titulo": "Divide contribuições sociais com estados e municípios",
-  "oQueMuda": "Parte da arrecadação da CSLL e da Cofins seria repassada a estados, DF e municípios.",
+  "oQueMuda": "A União repassaria 15% do que arrecada com Cofins, CSLL, PIS/Pasep e outras contribuições sociais: 7,5% para o fundo dos estados e do DF e 7,5% para o fundo dos municípios.",
   "quemAfeta": "Estados, municípios e União.",
   "porQueImporta": "Hoje a CSLL e a Cofins ficam com a União e financiam a seguridade social. Com a PEC, parte delas seria repassada a estados, DF e municípios.",
   "fonte": "manual",
   "en": {
    "titulo": "Shares social contributions with states and cities",
-   "oQueMuda": "Part of CSLL and Cofins revenue would be passed on to states, the Federal District and cities.",
+   "oQueMuda": "The federal government would transfer 15% of what it collects from Cofins, CSLL, PIS/Pasep and other social contributions: 7.5% to the states and Federal District fund and 7.5% to the municipalities fund.",
    "quemAfeta": "States, cities and the federal government.",
    "porQueImporta": "Today CSLL and Cofins stay with the federal government and fund social security. Under the PEC, part would be passed on to states, the Federal District and municipalities."
   },
   "es": {
    "titulo": "Comparte las contribuciones sociales con estados y municipios",
-   "oQueMuda": "Parte de la recaudación de la CSLL y la Cofins se transferiría a estados, DF y municipios.",
+   "oQueMuda": "La Unión transferiría el 15% de lo que recauda con Cofins, CSLL, PIS/Pasep y otras contribuciones sociales: el 7,5% al fondo de los estados y el DF y el 7,5% al fondo de los municipios.",
    "quemAfeta": "Estados, municipios y la Unión.",
    "porQueImporta": "Hoy la CSLL y la Cofins quedan con el gobierno federal y financian la seguridad social. Con la PEC, parte de ellas se transferiría a estados, DF y municipios."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2455515": {
@@ -8853,9 +8853,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2352476": {
@@ -8907,9 +8907,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-14",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8466340": {
