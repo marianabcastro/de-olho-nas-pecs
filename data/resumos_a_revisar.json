@@ -1,20 +1,11 @@
 [
  {
-  "id": "s1401169",
-  "sigla": "PEC 39/2015",
-  "titulo": "Exige lei complementar para regras de concessões",
+  "id": "c2233802",
+  "sigla": "PEC 221/2019",
+  "titulo": "Reduz a jornada para 40 horas e garante 2 dias de folga por semana",
   "versao": "Parecer aprovado em comissão ou no plenário do Senado",
-  "data": "2016-02-17",
-  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/b115c0b8-3c3b-4d6c-abb1-09d41c2b2b9d",
-  "semelhanca": null
- },
- {
-  "id": "c14493",
-  "sigla": "PEC 171/1993",
-  "titulo": "Reduz a maioridade penal para 16 anos",
-  "versao": "Emenda aglutinativa (texto votado no plenário da Câmara)",
-  "data": "2015-07-01",
-  "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1355164",
-  "semelhanca": null
+  "data": "2026-10-14",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/821bdcc2-c661-4885-b1bc-dac5b1d850a6",
+  "semelhanca": 0.07
  }
 ]
