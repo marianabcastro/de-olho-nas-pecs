@@ -413,27 +413,27 @@
  },
  "c483905": {
   "titulo": "Permite demitir juízes e promotores como punição",
-  "oQueMuda": "Acaba com a aposentadoria compulsória como punição e permite a perda do cargo em casos graves.",
+  "oQueMuda": "A aposentadoria compulsória deixaria de ser punição para juízes e membros do Ministério Público; no lugar, poderia haver suspensão sem salário.\nJuízes e promotores vitalícios poderiam perder o cargo por decisão de dois terços do tribunal ou do conselho superior do MP, por infrações às proibições do cargo ou conduta incompatível com o decoro, sem precisar de sentença judicial.",
   "quemAfeta": "Juízes e membros do Ministério Público.",
   "porQueImporta": "Hoje a punição administrativa máxima para juízes e promotores é a aposentadoria compulsória, com salário proporcional ao tempo de serviço. Com a PEC, eles poderiam perder o cargo e o salário.",
   "fonte": "manual",
   "en": {
    "titulo": "Allows judges and prosecutors to be dismissed as punishment",
-   "oQueMuda": "Ends forced retirement as a penalty and allows loss of office in serious cases.",
+   "oQueMuda": "Compulsory retirement would no longer be a punishment for judges and prosecutors; instead, there could be unpaid suspension.\nTenured judges and prosecutors could lose their post by a two-thirds decision of their court or of the prosecution service's higher council, for breaking the rules of the office or conduct incompatible with its decorum, without a court ruling.",
    "quemAfeta": "Judges and prosecutors.",
    "porQueImporta": "Today the maximum administrative penalty for judges and prosecutors is compulsory retirement, with pay proportional to time served. Under the PEC, they could lose their post and pay."
   },
   "es": {
    "titulo": "Permite destituir a jueces y fiscales como castigo",
-   "oQueMuda": "Acaba con la jubilación forzosa como castigo y permite la pérdida del cargo en casos graves.",
+   "oQueMuda": "La jubilación obligatoria dejaría de ser castigo para jueces y miembros del Ministerio Público; en su lugar, podría haber suspensión sin sueldo.\nLos jueces y fiscales vitalicios podrían perder el cargo por decisión de dos tercios del tribunal o del consejo superior del MP, por infracciones a las prohibiciones del cargo o conducta incompatible con el decoro, sin necesidad de sentencia judicial.",
    "quemAfeta": "Jueces y miembros del Ministerio Público.",
    "porQueImporta": "Hoy el castigo administrativo máximo para jueces y fiscales es la jubilación obligatoria, con salario proporcional al tiempo de servicio. Con la PEC, podrían perder el cargo y el salario."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c372537": {
@@ -506,9 +506,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2158594": {
@@ -531,9 +531,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c328385": {
@@ -846,9 +846,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2091473": {
@@ -980,9 +980,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1701023": {
@@ -1030,59 +1030,59 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1672354": {
   "titulo": "Cria o Fundo de Promoção da Igualdade Racial",
-  "oQueMuda": "Cria um fundo com recursos federais para políticas de igualdade racial.",
+  "oQueMuda": "Seria criado o Fundo de Promoção da Igualdade Racial, para promover igualdade de oportunidades e inclusão social da população negra, com conselho formado por governo e sociedade civil.\nO fundo receberia 2% da arrecadação do Imposto de Renda e do IPI, pelo menos 3% do PIS/Pasep e pelo menos 30% das contribuições ao Sistema S.",
   "quemAfeta": "População negra e políticas públicas de combate ao racismo.",
   "porQueImporta": "Hoje políticas de igualdade racial dependem do orçamento de cada ano. Com a PEC, teriam um fundo com recursos federais reservados.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates the Racial Equality Promotion Fund",
-   "oQueMuda": "Creates a federally funded fund for racial equality policies.",
+   "oQueMuda": "A Racial Equality Promotion Fund would be created to promote equal opportunity and social inclusion of Black people, with a council made up of government and civil society.\nThe fund would receive 2% of Income Tax and IPI revenue, at least 3% of PIS/Pasep and at least 30% of contributions to the S System.",
    "quemAfeta": "Black Brazilians and public anti-racism policies.",
    "porQueImporta": "Today racial equality policies depend on each year's budget. Under the PEC, they would have a fund with reserved federal money."
   },
   "es": {
    "titulo": "Crea el Fondo de Promoción de la Igualdad Racial",
-   "oQueMuda": "Crea un fondo con recursos federales para políticas de igualdad racial.",
+   "oQueMuda": "Se crearía el Fondo de Promoción de la Igualdad Racial, para promover la igualdad de oportunidades y la inclusión social de la población negra, con un consejo formado por gobierno y sociedad civil.\nEl fondo recibiría el 2% de la recaudación del Impuesto a la Renta y del IPI, al menos el 3% del PIS/Pasep y al menos el 30% de las contribuciones al Sistema S.",
    "quemAfeta": "Población negra y políticas públicas contra el racismo.",
    "porQueImporta": "Hoy las políticas de igualdad racial dependen del presupuesto de cada año. Con la PEC, tendrían un fondo con recursos federales reservados."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1713489": {
   "titulo": "Cria fundo nacional para igualdade racial e reparação",
-  "oQueMuda": "Cria um fundo para promover a igualdade racial, combater o racismo e reparar danos.",
+  "oQueMuda": "Seria criado o Fundo Nacional de Promoção da Igualdade Racial, Superação do Racismo e Reparação de Danos, para políticas voltadas à população negra em áreas como habitação, educação, saúde e formação profissional, e para reparação de danos.\nO fundo receberia 2% da arrecadação do Imposto de Renda e do IPI e pelo menos 3% do PIS/Pasep, com conselho formado por governo e sociedade civil.",
   "quemAfeta": "População negra e políticas públicas de combate ao racismo.",
   "porQueImporta": "Hoje políticas de igualdade racial dependem do orçamento de cada ano. Com a PEC, teriam um fundo próprio, inclusive para reparação.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates a national fund for racial equality and reparations",
-   "oQueMuda": "Creates a fund to promote racial equality, fight racism and repair harm.",
+   "oQueMuda": "A National Fund for Racial Equality, Overcoming Racism and Reparation would be created, for policies for Black people in areas such as housing, education, health and vocational training, and for reparations.\nThe fund would receive 2% of Income Tax and IPI revenue and at least 3% of PIS/Pasep, with a council made up of government and civil society.",
    "quemAfeta": "Black Brazilians and public anti-racism policies.",
    "porQueImporta": "Today racial equality policies depend on each year's budget. Under the PEC, they would have their own fund, including for reparation."
   },
   "es": {
    "titulo": "Crea un fondo nacional para la igualdad racial y la reparación",
-   "oQueMuda": "Crea un fondo para promover la igualdad racial, combatir el racismo y reparar daños.",
+   "oQueMuda": "Se crearía el Fondo Nacional de Promoción de la Igualdad Racial, Superación del Racismo y Reparación de Daños, para políticas dirigidas a la población negra en áreas como vivienda, educación, salud y formación profesional, y para reparación de daños.\nEl fondo recibiría el 2% de la recaudación del Impuesto a la Renta y del IPI y al menos el 3% del PIS/Pasep, con un consejo formado por gobierno y sociedad civil.",
    "quemAfeta": "Población negra y políticas públicas contra el racismo.",
    "porQueImporta": "Hoy las políticas de igualdad racial dependen del presupuesto de cada año. Con la PEC, tendrían un fondo propio, incluso para reparación."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7864739": {
@@ -2523,28 +2523,28 @@
   }
  },
  "c1504922": {
-  "titulo": "Permite acumular cargo técnico-pedagógico com magistério",
-  "oQueMuda": "Profissionais em cargos técnico-pedagógicos poderiam acumular outro cargo de professor.",
+  "titulo": "Permite acumular dois cargos técnico-pedagógicos no magistério",
+  "oQueMuda": "Servidores poderiam acumular dois cargos de natureza técnico-pedagógica na área do magistério, como coordenador e orientador educacional, se os horários forem compatíveis.",
   "quemAfeta": "Profissionais da educação pública.",
-  "porQueImporta": "Hoje só cargos técnicos ou científicos podem ser acumulados com o de professor. Com a PEC, quem ocupa cargo técnico-pedagógico poderia ter um segundo cargo de professor.",
+  "porQueImporta": "Hoje a Constituição só permite acumular dois cargos de professor, um de professor com um técnico ou científico, ou dois da saúde. Com a PEC, dois cargos técnico-pedagógicos da educação também poderiam ser acumulados.",
   "fonte": "manual",
   "en": {
-   "titulo": "Allows combining a teaching-support job with teaching",
-   "oQueMuda": "Professionals in teaching-support posts could hold another teaching job.",
+   "titulo": "Allows holding two technical-pedagogical posts in education",
+   "oQueMuda": "Civil servants could hold two technical-pedagogical posts in education, such as coordinator and educational counselor, if schedules are compatible.",
    "quemAfeta": "Public education professionals.",
-   "porQueImporta": "Today only technical or scientific posts can be combined with a teaching post. Under the PEC, those in technical-pedagogical posts could hold a second teaching post."
+   "porQueImporta": "Today the Constitution only allows holding two teaching posts, a teaching post with a technical or scientific one, or two health posts. Under the PEC, two technical-pedagogical posts in education could also be combined."
   },
   "es": {
-   "titulo": "Permite acumular un cargo técnico-pedagógico con la docencia",
-   "oQueMuda": "Profesionales en cargos técnico-pedagógicos podrían acumular otro cargo de profesor.",
+   "titulo": "Permite acumular dos cargos técnico-pedagógicos en la docencia",
+   "oQueMuda": "Los servidores podrían acumular dos cargos de naturaleza técnico-pedagógica en el área de la docencia, como coordinador y orientador educativo, si los horarios son compatibles.",
    "quemAfeta": "Profesionales de la educación pública.",
-   "porQueImporta": "Hoy solo cargos técnicos o científicos pueden acumularse con el de profesor. Con la PEC, quien ocupa un cargo técnico-pedagógico podría tener un segundo cargo de profesor."
+   "porQueImporta": "Hoy la Constitución solo permite acumular dos cargos de profesor, uno de profesor con uno técnico o científico, o dos de salud. Con la PEC, dos cargos técnico-pedagógicos de la educación también podrían acumularse."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c276180": {
@@ -3998,9 +3998,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1212600": {
@@ -4048,9 +4048,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8810165": {
@@ -4388,34 +4388,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c579916": {
   "titulo": "Reduz a idade mínima para trabalhar",
-  "oQueMuda": "Diminui o limite mínimo de idade para o trabalho.",
+  "oQueMuda": "Ficaria proibido qualquer trabalho a menores de 14 anos, salvo como aprendiz ou com autorização dos pais.",
   "quemAfeta": "Adolescentes e empregadores.",
-  "porQueImporta": "Hoje menores de 16 anos só podem trabalhar como aprendizes, a partir dos 14. Com a PEC, a idade mínima para trabalhar seria reduzida.",
+  "porQueImporta": "Hoje menores de 16 anos só podem trabalhar como aprendizes, a partir dos 14. Com a PEC, adolescentes de 14 e 15 anos poderiam ter emprego comum, e menores de 14 poderiam trabalhar como aprendizes ou com autorização dos pais.",
   "fonte": "manual",
   "en": {
    "titulo": "Lowers the minimum working age",
-   "oQueMuda": "Lowers the minimum age to work.",
+   "oQueMuda": "Any work by children under 14 would be banned, except as apprentices or with parental authorization.",
    "quemAfeta": "Teenagers and employers.",
-   "porQueImporta": "Today people under 16 can only work as apprentices, from age 14. Under the PEC, the minimum working age would be lowered."
+   "porQueImporta": "Today those under 16 can only work as apprentices, from age 14. Under the PEC, 14- and 15-year-olds could hold regular jobs, and children under 14 could work as apprentices or with parental authorization."
   },
   "es": {
    "titulo": "Reduce la edad mínima para trabajar",
-   "oQueMuda": "Disminuye el límite mínimo de edad para trabajar.",
+   "oQueMuda": "Se prohibiría cualquier trabajo a menores de 14 años, salvo como aprendiz o con autorización de los padres.",
    "quemAfeta": "Adolescentes y empleadores.",
-   "porQueImporta": "Hoy los menores de 16 años solo pueden trabajar como aprendices, desde los 14. Con la PEC, la edad mínima para trabajar se reduciría."
+   "porQueImporta": "Hoy los menores de 16 años solo pueden trabajar como aprendices, a partir de los 14. Con la PEC, los adolescentes de 14 y 15 años podrían tener un empleo común, y los menores de 14 podrían trabajar como aprendices o con autorización de los padres."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1527035": {
@@ -4438,9 +4438,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1598550": {
@@ -4470,27 +4470,27 @@
  },
  "c1618127": {
   "titulo": "Permite trabalho a partir dos 14 anos",
-  "oQueMuda": "Adolescentes poderiam trabalhar a partir dos 14 anos.",
+  "oQueMuda": "Adolescentes poderiam ter emprego comum a partir dos 14 anos, desde que frequentem regularmente a escola; trabalho noturno, perigoso ou insalubre continuaria proibido a menores de 18.",
   "quemAfeta": "Adolescentes de 14 e 15 anos e empregadores.",
   "porQueImporta": "Hoje menores de 16 anos só podem trabalhar como aprendizes, a partir dos 14. Com a PEC, poderiam ter emprego comum a partir dos 14.",
   "fonte": "manual",
   "en": {
    "titulo": "Allows work from age 14",
-   "oQueMuda": "Teenagers could work from age 14.",
+   "oQueMuda": "Teenagers could hold regular jobs from age 14, as long as they regularly attend school; night, hazardous or unhealthy work would remain banned for those under 18.",
    "quemAfeta": "Teenagers aged 14 and 15, and employers.",
    "porQueImporta": "Today people under 16 can only work as apprentices, from age 14. Under the PEC, they could have regular jobs from 14."
   },
   "es": {
    "titulo": "Permite trabajar desde los 14 años",
-   "oQueMuda": "Los adolescentes podrían trabajar desde los 14 años.",
+   "oQueMuda": "Los adolescentes podrían tener un empleo común a partir de los 14 años, siempre que asistan regularmente a la escuela; el trabajo nocturno, peligroso o insalubre seguiría prohibido a menores de 18.",
    "quemAfeta": "Adolescentes de 14 y 15 años y empleadores.",
    "porQueImporta": "Hoy los menores de 16 años solo pueden trabajar como aprendices, desde los 14. Con la PEC, podrían tener empleo común desde los 14."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2236844": {
@@ -5104,27 +5104,27 @@
  },
  "c540302": {
   "titulo": "Cria sistema nacional e gasto mínimo em segurança pública",
-  "oQueMuda": "União e estados teriam de aplicar percentuais mínimos em segurança pública.",
+  "oQueMuda": "Seria criado o Sistema Nacional de Segurança Pública, financiado por todos os entes.\nA União teria de aplicar todo ano pelo menos 5% da receita corrente líquida em segurança pública, e estados e DF pelo menos 10%.\nAté 60% do valor da União poderia ser repassado a estados e municípios, conforme população e outros critérios.",
   "quemAfeta": "Polícias e governos.",
   "porQueImporta": "Hoje saúde e educação têm gasto mínimo obrigatório, mas a segurança pública não. Com a PEC, União e estados teriam de aplicar percentuais mínimos da receita na área.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates a national system and minimum spending on public safety",
-   "oQueMuda": "Federal and state governments would have to spend minimum percentages on public safety.",
+   "oQueMuda": "A National Public Security System would be created, funded by all levels of government.\nThe federal government would have to spend at least 5% of net current revenue on public security every year, and states and the Federal District at least 10%.\nUp to 60% of the federal amount could be transferred to states and municipalities, based on population and other criteria.",
    "quemAfeta": "Police forces and governments.",
    "porQueImporta": "Today health and education have mandatory minimum spending, but public security does not. Under the PEC, the federal government and states would have to spend minimum shares of revenue on it."
   },
   "es": {
    "titulo": "Crea un sistema nacional y un gasto mínimo en seguridad pública",
-   "oQueMuda": "La Unión y los estados tendrían que aplicar porcentajes mínimos en seguridad pública.",
+   "oQueMuda": "Se crearía el Sistema Nacional de Seguridad Pública, financiado por todos los entes.\nLa Unión tendría que aplicar cada año al menos el 5% de los ingresos corrientes líquidos en seguridad pública, y estados y DF al menos el 10%.\nHasta el 60% del monto de la Unión podría transferirse a estados y municipios, según población y otros criterios.",
    "quemAfeta": "Policías y gobiernos.",
    "porQueImporta": "Hoy salud y educación tienen gasto mínimo obligatorio, pero la seguridad pública no. Con la PEC, el gobierno federal y los estados tendrían que aplicar porcentajes mínimos de sus ingresos en el área."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c568527": {
@@ -5552,9 +5552,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c598858": {
@@ -5627,9 +5627,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c292210": {
@@ -5652,9 +5652,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c489621": {
@@ -5702,9 +5702,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2162097": {
@@ -5752,9 +5752,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8809676": {
@@ -7057,52 +7057,52 @@
  },
  "c348719": {
   "titulo": "Reforma tributária com imposto sobre movimentação financeira",
-  "oQueMuda": "Cria impostos seletivos, um imposto sobre movimentação financeira de até 0,76% e extingue a CSLL e o imposto sobre grandes fortunas.",
+  "oQueMuda": "Os impostos federais ficariam limitados a: importação, exportação, renda, movimentação financeira (com alíquota máxima de 0,76%, como a antiga CPMF) e um imposto seletivo sobre combustíveis, cigarros, bebidas, energia, eletrônicos, veículos, telecomunicações e produtos supérfluos.\nOs estados teriam um imposto seletivo sobre os mesmos produtos, no lugar do ICMS.\nSairiam da lista impostos como IPI, IOF, ITR e o imposto sobre grandes fortunas.",
   "quemAfeta": "Todos os contribuintes, estados e União.",
-  "porQueImporta": "Com a PEC, haveria um imposto sobre movimentação financeira de até 0,76%, parecido com a antiga CPMF, e seriam extintos a CSLL e o imposto sobre grandes fortunas, que nunca foi criado.",
+  "porQueImporta": "A reforma tributária promulgada em 2023 seguiu outro modelo: trocou ICMS, ISS, PIS e Cofins por IBS e CBS, sem imposto sobre movimentação financeira. Esta PEC, de 2007, propunha concentrar a cobrança em renda, transações financeiras e alguns produtos.",
   "fonte": "manual",
   "en": {
    "titulo": "Tax reform with a financial transactions tax",
-   "oQueMuda": "Creates selective taxes, a financial transactions tax of up to 0.76%, and ends the CSLL and the large fortunes tax.",
+   "oQueMuda": "Federal taxes would be limited to: imports, exports, income, financial transactions (with a maximum rate of 0.76%, like the former CPMF) and a selective tax on fuel, cigarettes, beverages, energy, electronics, vehicles, telecommunications and luxury goods.\nStates would have a selective tax on the same products, replacing the ICMS.\nTaxes such as IPI, IOF, the rural land tax (ITR) and the wealth tax would be dropped.",
    "quemAfeta": "All taxpayers, states and the federal government.",
-   "porQueImporta": "Under the PEC, there would be a financial transactions tax of up to 0.76%, similar to the old CPMF, and the CSLL and the wealth tax, which was never created, would be abolished."
+   "porQueImporta": "The tax reform enacted in 2023 followed another model: it replaced ICMS, ISS, PIS and Cofins with the IBS and CBS, with no financial transactions tax. This 2007 PEC proposed concentrating taxation on income, financial transactions and some products."
   },
   "es": {
    "titulo": "Reforma tributaria con impuesto sobre movimientos financieros",
-   "oQueMuda": "Crea impuestos selectivos, un impuesto sobre movimientos financieros de hasta 0,76% y elimina la CSLL y el impuesto a las grandes fortunas.",
+   "oQueMuda": "Los impuestos federales quedarían limitados a: importación, exportación, renta, movimientos financieros (con alícuota máxima del 0,76%, como la antigua CPMF) y un impuesto selectivo sobre combustibles, cigarrillos, bebidas, energía, electrónicos, vehículos, telecomunicaciones y productos superfluos.\nLos estados tendrían un impuesto selectivo sobre los mismos productos, en lugar del ICMS.\nSaldrían de la lista impuestos como el IPI, el IOF, el ITR y el impuesto a las grandes fortunas.",
    "quemAfeta": "Todos los contribuyentes, estados y la Unión.",
-   "porQueImporta": "Con la PEC, habría un impuesto sobre movimientos financieros de hasta el 0,76%, parecido a la antigua CPMF, y se extinguirían la CSLL y el impuesto sobre grandes fortunas, que nunca se creó."
+   "porQueImporta": "La reforma tributaria promulgada en 2023 siguió otro modelo: cambió ICMS, ISS, PIS y Cofins por IBS y CBS, sin impuesto a los movimientos financieros. Esta PEC, de 2007, proponía concentrar el cobro en la renta, las transacciones financieras y algunos productos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c355705": {
   "titulo": "Aumenta a parte do IPVA que fica com os municípios",
-  "oQueMuda": "Os municípios receberiam uma fatia maior do IPVA dos veículos licenciados em seu território.",
+  "oQueMuda": "A parte do IPVA que fica com o município onde o veículo é licenciado passaria de 50% para 60%; a dos estados cairia para 40%.",
   "quemAfeta": "Prefeituras e governos estaduais.",
   "porQueImporta": "Hoje o IPVA é dividido meio a meio entre o estado e a prefeitura onde o veículo é licenciado. Com a PEC, a parte das prefeituras aumentaria e a dos estados diminuiria.",
   "fonte": "manual",
   "en": {
    "titulo": "Increases the share of vehicle tax (IPVA) kept by cities",
-   "oQueMuda": "Cities would get a bigger share of the IPVA from vehicles registered in their territory.",
+   "oQueMuda": "The share of vehicle tax (IPVA) kept by the municipality where the vehicle is registered would rise from 50% to 60%; the states' share would fall to 40%.",
    "quemAfeta": "City and state governments.",
    "porQueImporta": "Today IPVA is split half and half between the state and the city where the vehicle is registered. Under the PEC, cities' share would rise and states' would fall."
   },
   "es": {
    "titulo": "Aumenta la parte del IPVA que queda en los municipios",
-   "oQueMuda": "Los municipios recibirían una porción mayor del IPVA de los vehículos registrados en su territorio.",
+   "oQueMuda": "La parte del IPVA que queda con el municipio donde el vehículo está matriculado pasaría del 50% al 60%; la de los estados bajaría al 40%.",
    "quemAfeta": "Municipios y gobiernos estatales.",
    "porQueImporta": "Hoy el IPVA se divide mitad y mitad entre el estado y la alcaldía donde el vehículo está registrado. Con la PEC, la parte de las alcaldías aumentaría y la de los estados disminuiría."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c357691": {
@@ -7125,9 +7125,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c360826": {
@@ -7150,34 +7150,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c370136": {
-  "titulo": "Isenta pessoas com deficiência de impostos sobre renda e bens",
-  "oQueMuda": "Pessoas com deficiência não pagariam impostos sobre seus rendimentos nem na compra e venda de bens para uso próprio.",
-  "quemAfeta": "Pessoas com deficiência.",
-  "porQueImporta": "Com a PEC, pessoas com deficiência não pagariam Imposto de Renda nem impostos na compra e venda de bens para uso próprio, qualquer que fosse sua renda.",
+  "titulo": "Isenta aposentados por invalidez de impostos sobre renda e bens",
+  "oQueMuda": "Aposentados por invalidez não pagariam impostos sobre suas aposentadorias nem na compra e venda de bens móveis e imóveis para uso próprio, nos termos da lei.",
+  "quemAfeta": "Aposentados por invalidez, qualquer que seja a renda. A União, os estados e os municípios deixariam de arrecadar esses impostos.",
+  "porQueImporta": "Hoje aposentados por invalidez só ficam isentos do Imposto de Renda se tiverem uma das doenças graves listadas em lei. Com a PEC, todos ficariam imunes a impostos sobre a aposentadoria e sobre bens de uso próprio.",
   "fonte": "manual",
   "en": {
-   "titulo": "Exempts people with disabilities from income and property taxes",
-   "oQueMuda": "People with disabilities would not pay taxes on their income or on buying and selling goods for their own use.",
-   "quemAfeta": "People with disabilities.",
-   "porQueImporta": "Under the PEC, people with disabilities would pay no income tax nor taxes on buying and selling goods for their own use, whatever their income."
+   "titulo": "Exempts disability retirees from taxes on income and property",
+   "oQueMuda": "People retired due to disability would pay no taxes on their pensions or on buying and selling movable and real property for their own use, as set by law.",
+   "quemAfeta": "Disability retirees, whatever their income. The federal government, states and municipalities would lose that tax revenue.",
+   "porQueImporta": "Today disability retirees are only exempt from income tax if they have one of the serious illnesses listed by law. Under the PEC, all of them would be immune from taxes on their pension and on property for their own use."
   },
   "es": {
-   "titulo": "Exime a las personas con discapacidad de impuestos sobre ingresos y bienes",
-   "oQueMuda": "Las personas con discapacidad no pagarían impuestos sobre sus ingresos ni en la compra y venta de bienes para uso propio.",
-   "quemAfeta": "Personas con discapacidad.",
-   "porQueImporta": "Con la PEC, las personas con discapacidad no pagarían impuesto a la renta ni impuestos en la compra y venta de bienes para uso propio, cualquiera que fuera su ingreso."
+   "titulo": "Exime a los jubilados por invalidez de impuestos sobre renta y bienes",
+   "oQueMuda": "Los jubilados por invalidez no pagarían impuestos sobre sus jubilaciones ni en la compra y venta de bienes muebles e inmuebles para uso propio, según la ley.",
+   "quemAfeta": "Jubilados por invalidez, cualquiera que sea su ingreso. La Unión, los estados y los municipios dejarían de recaudar esos impuestos.",
+   "porQueImporta": "Hoy los jubilados por invalidez solo están exentos del Impuesto a la Renta si tienen una de las enfermedades graves enumeradas en la ley. Con la PEC, todos quedarían inmunes a impuestos sobre la jubilación y sobre bienes de uso propio."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c370580": {
@@ -7200,84 +7200,84 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c370778": {
   "titulo": "Cria fundo de apoio ao setor rural com repasses federais",
-  "oQueMuda": "3% da receita federal repassada aos municípios iria para um fundo especial de apoio ao campo.",
+  "oQueMuda": "A parte do IR e do IPI que a União entrega a estados e municípios subiria de 47% para 50%: os 3 pontos a mais iriam para fundos municipais de apoio ao setor rural, que os municípios teriam de criar para receber o dinheiro.",
   "quemAfeta": "Produtores rurais e municípios.",
-  "porQueImporta": "Com a PEC, 3% da receita federal repassada aos municípios iria para um fundo de apoio ao setor rural, e as prefeituras não poderiam usar esse dinheiro em outras áreas.",
+  "porQueImporta": "Hoje não há repasse constitucional específico para políticas agrícolas dos municípios. Com a PEC, a União repassaria mais 3% do IR e do IPI para esse fim e ficaria com menos.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates a rural support fund from federal transfers",
-   "oQueMuda": "3% of federal revenue sent to cities would go to a special fund supporting agriculture.",
+   "oQueMuda": "The share of Income Tax and IPI the federal government passes to states and municipalities would rise from 47% to 50%: the 3 extra points would go to municipal rural support funds, which municipalities would have to create to receive the money.",
    "quemAfeta": "Farmers and cities.",
-   "porQueImporta": "Under the PEC, 3% of federal revenue transferred to municipalities would go to a fund supporting the rural sector, and city governments could not use that money elsewhere."
+   "porQueImporta": "Today there is no specific constitutional transfer for municipal agricultural policies. Under the PEC, the federal government would pass an extra 3% of Income Tax and IPI for that purpose and keep less."
   },
   "es": {
    "titulo": "Crea un fondo de apoyo al sector rural con transferencias federales",
-   "oQueMuda": "El 3% de los ingresos federales transferidos a los municipios iría a un fondo especial de apoyo al campo.",
+   "oQueMuda": "La parte del IR y del IPI que la Unión entrega a estados y municipios subiría del 47% al 50%: los 3 puntos adicionales irían a fondos municipales de apoyo al sector rural, que los municipios tendrían que crear para recibir el dinero.",
    "quemAfeta": "Productores rurales y municipios.",
-   "porQueImporta": "Con la PEC, el 3% de los ingresos federales transferidos a los municipios iría a un fondo de apoyo al sector rural, y las alcaldías no podrían usar ese dinero en otras áreas."
+   "porQueImporta": "Hoy no hay transferencia constitucional específica para políticas agrícolas de los municipios. Con la PEC, la Unión transferiría un 3% más del IR y del IPI para ese fin y se quedaría con menos."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c383286": {
   "titulo": "Define o destino do dinheiro de novos impostos federais",
-  "oQueMuda": "Estabelece para onde iria a arrecadação de qualquer imposto federal novo ou aumentado.",
+  "oQueMuda": "Qualquer imposto federal novo, ou aumento de alíquota ou de base de um imposto federal existente, teria parte da arrecadação dividida: 20% para o Fundo de Participação dos Estados e 20% para o dos Municípios.",
   "quemAfeta": "Contribuintes e governo federal.",
   "porQueImporta": "Hoje a arrecadação de novos impostos federais entra no caixa geral da União. Com a PEC, a Constituição definiria o destino do dinheiro de qualquer imposto novo ou aumentado.",
   "fonte": "manual",
   "en": {
    "titulo": "Defines where money from new federal taxes goes",
-   "oQueMuda": "Sets where the revenue from any new or increased federal tax would go.",
+   "oQueMuda": "Any new federal tax, or any increase in the rate or base of an existing federal tax, would have part of its revenue shared: 20% to the State Participation Fund and 20% to the Municipal one.",
    "quemAfeta": "Taxpayers and the federal government.",
    "porQueImporta": "Today revenue from new federal taxes goes into the general federal treasury. Under the PEC, the Constitution would set where money from any new or increased tax goes."
   },
   "es": {
    "titulo": "Define el destino del dinero de nuevos impuestos federales",
-   "oQueMuda": "Establece adónde iría la recaudación de cualquier impuesto federal nuevo o aumentado.",
+   "oQueMuda": "Cualquier impuesto federal nuevo, o aumento de alícuota o de base de un impuesto federal existente, tendría parte de la recaudación dividida: 20% para el Fondo de Participación de los Estados y 20% para el de los Municipios.",
    "quemAfeta": "Contribuyentes y gobierno federal.",
    "porQueImporta": "Hoy la recaudación de nuevos impuestos federales entra en la caja general del gobierno federal. Con la PEC, la Constitución definiría el destino del dinero de cualquier impuesto nuevo o aumentado."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c384058": {
   "titulo": "Muda o ressarcimento a estados por exportações",
-  "oQueMuda": "Altera a compensação que a União paga aos estados por perdas com a isenção de impostos nas exportações.",
+  "oQueMuda": "A União ressarciria integralmente estados e DF, por meio de um fundo, pelo ICMS que deixam de arrecadar nas exportações de produtos primários e semielaborados, inclusive pelos créditos que as empresas mantêm.",
   "quemAfeta": "Estados exportadores.",
   "porQueImporta": "Desde 1996, exportações não pagam ICMS, e a União compensa parte da perda dos estados. Com a PEC, as regras dessa compensação mudariam.",
   "fonte": "manual",
   "en": {
    "titulo": "Changes compensation to states for exports",
-   "oQueMuda": "Changes the compensation the federal government pays states for losses from tax exemptions on exports.",
+   "oQueMuda": "The federal government would fully reimburse states and the Federal District, through a fund, for the ICMS they lose on exports of primary and semi-processed products, including credits kept by companies.",
    "quemAfeta": "Exporting states.",
    "porQueImporta": "Since 1996, exports pay no ICMS, and the federal government compensates part of states' losses. Under the PEC, the compensation rules would change."
   },
   "es": {
    "titulo": "Cambia la compensación a los estados por exportaciones",
-   "oQueMuda": "Modifica la compensación que la Unión paga a los estados por pérdidas con la exención de impuestos a las exportaciones.",
+   "oQueMuda": "La Unión resarciría íntegramente a estados y DF, mediante un fondo, por el ICMS que dejan de recaudar en las exportaciones de productos primarios y semielaborados, incluidos los créditos que mantienen las empresas.",
    "quemAfeta": "Estados exportadores.",
    "porQueImporta": "Desde 1996, las exportaciones no pagan ICMS, y el gobierno federal compensa parte de la pérdida de los estados. Con la PEC, las reglas de esa compensación cambiarían."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c384059": {
@@ -7325,9 +7325,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c384544": {
@@ -7375,9 +7375,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c389981": {
@@ -7425,9 +7425,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c440021": {
@@ -7450,34 +7450,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c604132": {
   "titulo": "Cria benefício assistencial para vítimas de crime",
-  "oQueMuda": "Vítimas de crimes passariam a ter direito a um benefício da assistência social.",
+  "oQueMuda": "A vítima de crime que precisasse se afastar do trabalho por causa do crime teria direito a um salário mínimo por mês enquanto durasse o afastamento, sem acumular com aposentadoria ou outros benefícios da Previdência.",
   "quemAfeta": "Vítimas de crimes e suas famílias.",
   "porQueImporta": "Hoje não há benefício da assistência social específico para vítimas de crimes. Com a PEC, elas passariam a ter direito a um.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates a welfare benefit for crime victims",
-   "oQueMuda": "Crime victims would be entitled to a social assistance benefit.",
+   "oQueMuda": "A crime victim who had to stop working because of the crime would be entitled to one minimum wage a month for as long as the leave lasted, not combinable with pensions or other social security benefits.",
    "quemAfeta": "Crime victims and their families.",
    "porQueImporta": "Today there is no social assistance benefit specifically for crime victims. Under the PEC, they would be entitled to one."
   },
   "es": {
    "titulo": "Crea un beneficio asistencial para víctimas de delitos",
-   "oQueMuda": "Las víctimas de delitos tendrían derecho a un beneficio de asistencia social.",
+   "oQueMuda": "La víctima de un delito que tuviera que dejar de trabajar a causa del delito tendría derecho a un salario mínimo mensual mientras durara la baja, sin acumular con jubilaciones u otros beneficios de la Previsión Social.",
    "quemAfeta": "Víctimas de delitos y sus familias.",
    "porQueImporta": "Hoy no hay beneficio de asistencia social específico para víctimas de delitos. Con la PEC, tendrían derecho a uno."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1229857": {
@@ -7500,9 +7500,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1712462": {
@@ -7532,27 +7532,27 @@
  },
  "c2113815": {
   "titulo": "Troca o auxílio-reclusão por benefício a famílias de vítimas",
-  "oQueMuda": "Extingue o auxílio-reclusão e dá um salário mínimo mensal a dependentes de vítimas de homicídio.",
+  "oQueMuda": "O auxílio-reclusão sairia da Constituição.\nDependentes de vítimas de homicídio que comprovassem não ter meios de se sustentar passariam a ter direito a um salário mínimo por mês, como hoje ocorre com idosos e pessoas com deficiência de baixa renda (BPC).",
   "quemAfeta": "Famílias de presos e de vítimas de homicídio.",
   "porQueImporta": "Hoje o auxílio-reclusão é pago a dependentes de presos de baixa renda. Com a PEC, ele acabaria, e dependentes de vítimas de homicídio receberiam um salário mínimo por mês.",
   "fonte": "manual",
   "en": {
    "titulo": "Swaps the prisoners' family benefit for one for victims' families",
-   "oQueMuda": "Ends the benefit for prisoners' families and gives one minimum wage a month to dependents of homicide victims.",
+   "oQueMuda": "The prisoners' family allowance (auxílio-reclusão) would be removed from the Constitution.\nDependents of homicide victims who proved they had no means of support would be entitled to one minimum wage a month, as already happens with low-income elderly and disabled people (BPC).",
    "quemAfeta": "Families of prisoners and of homicide victims.",
    "porQueImporta": "Today the prisoner's family benefit is paid to dependents of low-income prisoners. Under the PEC, it would end, and dependents of homicide victims would receive one minimum wage per month."
   },
   "es": {
    "titulo": "Cambia el auxilio a familias de presos por un beneficio a familias de víctimas",
-   "oQueMuda": "Elimina el auxilio a familias de presos y da un salario mínimo mensual a dependientes de víctimas de homicidio.",
+   "oQueMuda": "El auxilio-reclusión saldría de la Constitución.\nLos dependientes de víctimas de homicidio que demostraran no tener medios para mantenerse tendrían derecho a un salario mínimo por mes, como hoy ocurre con ancianos y personas con discapacidad de bajos ingresos (BPC).",
    "quemAfeta": "Familias de presos y de víctimas de homicidio.",
    "porQueImporta": "Hoy el auxilio-reclusión se paga a dependientes de presos de bajos ingresos. Con la PEC, terminaría, y los dependientes de víctimas de homicidio recibirían un salario mínimo por mes."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2140762": {
@@ -7575,9 +7575,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2428346": {
@@ -7679,9 +7679,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c539564": {
@@ -7704,34 +7704,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c543447": {
   "titulo": "Protege o valor real das aposentadorias",
-  "oQueMuda": "Aposentadorias e benefícios do INSS teriam garantia de manter o poder de compra.",
+  "oQueMuda": "Aposentadorias e demais benefícios do INSS teriam de ser reajustados, todo ano, em percentual igual ou maior que o do reajuste do salário mínimo.",
   "quemAfeta": "Aposentados e pensionistas.",
-  "porQueImporta": "Hoje a Constituição já garante que os benefícios do INSS mantenham o valor real, corrigidos pela inflação. Com a PEC, essa garantia seria reforçada.",
+  "porQueImporta": "Hoje a Constituição garante que os benefícios do INSS mantenham o valor real, e os acima do mínimo são corrigidos só pela inflação, enquanto o salário mínimo pode ter aumento real. Com a PEC, todos os benefícios teriam pelo menos o mesmo reajuste do mínimo.",
   "fonte": "manual",
   "en": {
    "titulo": "Protects the real value of pensions",
-   "oQueMuda": "Pensions and social security benefits would be guaranteed to keep their purchasing power.",
+   "oQueMuda": "Pensions and other INSS benefits would have to be adjusted every year by a percentage equal to or higher than the minimum wage increase.",
    "quemAfeta": "Retirees and pensioners.",
-   "porQueImporta": "Today the Constitution already guarantees that INSS benefits keep their real value, adjusted for inflation. Under the PEC, this guarantee would be reinforced."
+   "porQueImporta": "Today the Constitution guarantees that INSS benefits keep their real value, and those above the minimum are adjusted only for inflation, while the minimum wage may get real increases. Under the PEC, all benefits would get at least the same increase as the minimum wage."
   },
   "es": {
    "titulo": "Protege el valor real de las jubilaciones",
-   "oQueMuda": "Las jubilaciones y beneficios del INSS tendrían garantizado mantener su poder adquisitivo.",
+   "oQueMuda": "Las jubilaciones y demás beneficios del INSS tendrían que reajustarse cada año en un porcentaje igual o mayor que el reajuste del salario mínimo.",
    "quemAfeta": "Jubilados y pensionistas.",
-   "porQueImporta": "Hoy la Constitución ya garantiza que los beneficios del INSS mantengan su valor real, corregidos por inflación. Con la PEC, esa garantía se reforzaría."
+   "porQueImporta": "Hoy la Constitución garantiza que los beneficios del INSS mantengan el valor real, y los que superan el mínimo se corrigen solo por la inflación, mientras el salario mínimo puede tener aumento real. Con la PEC, todos los beneficios tendrían al menos el mismo reajuste que el mínimo."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c1228532": {
@@ -7754,34 +7754,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2155899": {
   "titulo": "Endurece a pena de crimes hediondos contra militares e policiais",
-  "oQueMuda": "Crimes hediondos contra militares, policiais e seus familiares teriam regras mais duras de cumprimento de pena.",
+  "oQueMuda": "Quem fosse condenado por tortura, tráfico, terrorismo ou crime hediondo cometido contra militar ou policial, no exercício da função ou por causa dela, ou contra seus parentes por essa razão, cumpriria a pena toda em regime fechado, sem progressão.",
   "quemAfeta": "Agentes de segurança, suas famílias e condenados.",
   "porQueImporta": "Desde 2015 a lei já trata como crime hediondo o homicídio de policiais e militares em serviço ou de seus parentes por causa da função. Com a PEC, esses crimes teriam regras ainda mais duras de cumprimento de pena.",
   "fonte": "manual",
   "en": {
    "titulo": "Toughens sentences for heinous crimes against military and police",
-   "oQueMuda": "Heinous crimes against military personnel, police and their families would have harsher sentencing rules.",
+   "oQueMuda": "Anyone convicted of torture, drug trafficking, terrorism or a heinous crime committed against a member of the military or police, on duty or because of their role, or against their relatives for that reason, would serve the entire sentence in a closed regime, with no progression.",
    "quemAfeta": "Security agents, their families and convicts.",
    "porQueImporta": "Since 2015 the law has treated the killing of police and military officers on duty, or of their relatives because of their role, as a heinous crime. Under the PEC, these crimes would have even stricter sentencing rules."
   },
   "es": {
    "titulo": "Endurece la pena de delitos atroces contra militares y policías",
-   "oQueMuda": "Los delitos atroces contra militares, policías y sus familiares tendrían reglas más duras de cumplimiento de pena.",
+   "oQueMuda": "Quien fuera condenado por tortura, narcotráfico, terrorismo o delito atroz cometido contra un militar o policía, en ejercicio de la función o a causa de ella, o contra sus familiares por esa razón, cumpliría toda la pena en régimen cerrado, sin progresión.",
    "quemAfeta": "Agentes de seguridad, sus familias y condenados.",
    "porQueImporta": "Desde 2015 la ley ya trata como delito atroz el homicidio de policías y militares en servicio o de sus parientes por causa de la función. Con la PEC, esos delitos tendrían reglas aún más duras de cumplimiento de pena."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8635009": {
@@ -7829,9 +7829,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c528631": {
@@ -7854,34 +7854,34 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c578465": {
   "titulo": "Cria a polícia civil municipal",
-  "oQueMuda": "Cria uma polícia civil nos municípios e redefine as funções da PM.",
+  "oQueMuda": "Os municípios poderiam ter polícias civis municipais, dirigidas por delegados comunitários eleitos pela população a cada quatro anos, com exigência mínima de diploma em Direito.\nElas fariam policiamento ostensivo e preventivo, socorro a vítimas, proteção de testemunhas e apoio às outras polícias.\nA Polícia Militar ficaria com a ordem pública quando os crimes tivessem repercussão em mais de um município.",
   "quemAfeta": "Polícias e prefeituras.",
   "porQueImporta": "Hoje a investigação de crimes é da Polícia Civil, dos estados. Com a PEC, os municípios teriam uma polícia civil própria, e as funções da PM seriam redefinidas.",
   "fonte": "manual",
   "en": {
    "titulo": "Creates a municipal civil police",
-   "oQueMuda": "Creates a civil police in cities and redefines the military police's duties.",
+   "oQueMuda": "Municipalities could have municipal civil police forces, headed by community police chiefs elected by the population every four years, with at least a law degree required.\nThey would handle visible and preventive policing, aid to victims, witness protection and support to other police forces.\nThe Military Police would handle public order when crimes had repercussions in more than one municipality.",
    "quemAfeta": "Police forces and city governments.",
    "porQueImporta": "Today criminal investigation belongs to the state Civil Police. Under the PEC, municipalities would have their own civil police, and military police duties would be redefined."
   },
   "es": {
    "titulo": "Crea la policía civil municipal",
-   "oQueMuda": "Crea una policía civil en los municipios y redefine las funciones de la PM.",
+   "oQueMuda": "Los municipios podrían tener policías civiles municipales, dirigidas por comisarios comunitarios elegidos por la población cada cuatro años, con exigencia mínima de título en Derecho.\nHarían patrullaje ostensivo y preventivo, auxilio a víctimas, protección de testigos y apoyo a las otras policías.\nLa Policía Militar se encargaría del orden público cuando los delitos tuvieran repercusión en más de un municipio.",
    "quemAfeta": "Policías y municipios.",
    "porQueImporta": "Hoy la investigación de delitos es de la Policía Civil, de los estados. Con la PEC, los municipios tendrían una policía civil propia, y las funciones de la PM se redefinirían."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2086167": {
@@ -7904,9 +7904,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2120463": {
@@ -7929,9 +7929,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2166332": {
@@ -7954,9 +7954,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2174544": {
@@ -7979,9 +7979,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2227277": {
@@ -8004,9 +8004,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2314519": {
@@ -8112,52 +8112,52 @@
  },
  "c2190000": {
   "titulo": "Aumenta o repasse federal ao FPM",
-  "oQueMuda": "Uma parte adicional da arrecadação federal, inclusive de CSLL e Cofins, iria para o Fundo de Participação dos Municípios.",
+  "oQueMuda": "25% da arrecadação da Cofins e da CSLL, contribuições sobre faturamento e lucro das empresas que financiam a seguridade social, iriam para o Fundo de Participação dos Municípios.",
   "quemAfeta": "Prefeituras.",
   "porQueImporta": "Hoje o FPM recebe parte do IR e do IPI, mas nada da CSLL e da Cofins, que financiam a seguridade social. Com a PEC, parte dessas contribuições também iria para as prefeituras.",
   "fonte": "manual",
   "en": {
    "titulo": "Increases federal transfers to the FPM",
-   "oQueMuda": "An extra share of federal revenue, including CSLL and Cofins, would go to the Municipal Participation Fund.",
+   "oQueMuda": "25% of revenue from Cofins and CSLL, contributions on company revenue and profit that fund social security, would go to the Municipal Participation Fund.",
    "quemAfeta": "City governments.",
    "porQueImporta": "Today FPM receives part of income tax and IPI, but nothing from CSLL and Cofins, which fund social security. Under the PEC, part of these contributions would also go to city governments."
   },
   "es": {
    "titulo": "Aumenta la transferencia federal al FPM",
-   "oQueMuda": "Una parte adicional de la recaudación federal, incluidas la CSLL y la Cofins, iría al Fondo de Participación de los Municipios.",
+   "oQueMuda": "El 25% de la recaudación de la Cofins y de la CSLL, contribuciones sobre la facturación y la ganancia de las empresas que financian la seguridad social, iría al Fondo de Participación de los Municipios.",
    "quemAfeta": "Municipios.",
    "porQueImporta": "Hoy el FPM recibe parte del impuesto a la renta y del IPI, pero nada de la CSLL y la Cofins, que financian la seguridad social. Con la PEC, parte de esas contribuciones también iría a las alcaldías."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2228314": {
   "titulo": "Aumenta a parte dos impostos federais repassada a estados e cidades",
-  "oQueMuda": "Eleva os percentuais da arrecadação do IR e do IPI repassados a estados, DF e municípios.",
+  "oQueMuda": "Os fundos de participação passariam a receber mais do IR e do IPI: 31,5% para o dos Estados (hoje 21,5%) e 32,5% para o dos Municípios (hoje 22,5% mais adicionais).\nOs estados receberiam 15% do IPI pelas exportações, e a parte deles em novos impostos federais subiria para 32%.",
   "quemAfeta": "Estados, municípios e União.",
   "porQueImporta": "Hoje a União repassa a estados e municípios cerca de metade da arrecadação do IR e do IPI. Com a PEC, esse percentual aumentaria.",
   "fonte": "manual",
   "en": {
    "titulo": "Increases the share of federal taxes sent to states and cities",
-   "oQueMuda": "Raises the shares of income tax and IPI revenue passed to states, the Federal District and cities.",
+   "oQueMuda": "The participation funds would get more of Income Tax and IPI: 31.5% for the State fund (21.5% today) and 32.5% for the Municipal fund (22.5% plus extras today).\nStates would get 15% of IPI based on exports, and their share of new federal taxes would rise to 32%.",
    "quemAfeta": "States, cities and the federal government.",
    "porQueImporta": "Today the federal government transfers about half of income tax and IPI revenue to states and municipalities. Under the PEC, this share would increase."
   },
   "es": {
    "titulo": "Aumenta la parte de los impuestos federales transferida a estados y ciudades",
-   "oQueMuda": "Eleva los porcentajes de la recaudación del Impuesto a la Renta y del IPI transferidos a estados, DF y municipios.",
+   "oQueMuda": "Los fondos de participación recibirían más del IR y del IPI: 31,5% para el de los Estados (hoy 21,5%) y 32,5% para el de los Municipios (hoy 22,5% más adicionales).\nLos estados recibirían el 15% del IPI por las exportaciones, y su parte en nuevos impuestos federales subiría al 32%.",
    "quemAfeta": "Estados, municipios y la Unión.",
    "porQueImporta": "Hoy el gobierno federal transfiere a estados y municipios cerca de la mitad de la recaudación del impuesto a la renta y del IPI. Con la PEC, ese porcentaje aumentaría."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8759356": {
@@ -8231,9 +8231,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2350568": {
@@ -8457,9 +8457,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2211748": {
@@ -8589,27 +8589,27 @@
  },
  "c2448732": {
   "titulo": "Permite ao Congresso suspender decisões do STF",
-  "oQueMuda": "Liminares teriam de ser confirmadas pelo colegiado do tribunal e o Congresso poderia sustar certas decisões do Supremo.",
+  "oQueMuda": "Decisões liminares individuais de ministros em tribunais teriam de ir imediatamente a julgamento do colegiado, na sessão seguinte.\nSe o Congresso considerasse que uma decisão do STF extrapola a função judicial e cria norma geral, poderia suspender seus efeitos pelo voto de dois terços de cada Casa, por dois anos, prorrogáveis uma vez.",
   "quemAfeta": "Supremo Tribunal Federal e Congresso.",
   "porQueImporta": "Hoje decisões do STF só podem ser superadas por nova lei ou emenda. Com a PEC, liminares teriam de ser confirmadas pelo plenário, e o Congresso poderia suspender certas decisões do tribunal.",
   "fonte": "manual",
   "en": {
    "titulo": "Lets Congress suspend Supreme Court rulings",
-   "oQueMuda": "Injunctions would have to be confirmed by the full court, and Congress could halt certain Supreme Court rulings.",
+   "oQueMuda": "Individual injunctions by justices would have to go immediately to a ruling by the full panel, at the next session.\nIf Congress considered that a Supreme Court decision exceeded the judicial role and created a general rule, it could suspend its effects by a two-thirds vote in each house, for two years, renewable once.",
    "quemAfeta": "The Supreme Court and Congress.",
    "porQueImporta": "Today Supreme Court rulings can only be superseded by a new law or amendment. Under the PEC, injunctions would have to be confirmed by the full court, and Congress could suspend certain rulings."
   },
   "es": {
    "titulo": "Permite al Congreso suspender decisiones del Supremo",
-   "oQueMuda": "Las medidas cautelares tendrían que ser confirmadas por el pleno del tribunal y el Congreso podría suspender ciertas decisiones del Supremo.",
+   "oQueMuda": "Las decisiones cautelares individuales de ministros en tribunales tendrían que ir inmediatamente a juicio del colegiado, en la sesión siguiente.\nSi el Congreso considerara que una decisión del STF excede la función judicial y crea una norma general, podría suspender sus efectos por el voto de dos tercios de cada Cámara, por dos años, prorrogables una vez.",
    "quemAfeta": "Supremo Tribunal Federal y Congreso.",
    "porQueImporta": "Hoy las decisiones del STF solo pueden superarse por nueva ley o enmienda. Con la PEC, las medidas cautelares tendrían que ser confirmadas por el pleno, y el Congreso podría suspender ciertas decisiones del tribunal."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2278136": {
@@ -8707,9 +8707,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c595169": {
@@ -9218,27 +9218,27 @@
  },
  "c451074": {
   "titulo": "Permite candidaturas sem partido",
-  "oQueMuda": "Pessoas sem filiação partidária poderiam disputar eleições.",
+  "oQueMuda": "Pessoas sem filiação partidária poderiam se candidatar; em eleições para deputado e vereador, só seriam eleitas se tivessem votos pelo menos iguais ao quociente eleitoral.",
   "quemAfeta": "Eleitores, partidos e possíveis candidatos.",
   "porQueImporta": "Hoje só é possível disputar eleições filiado a um partido. Com a PEC, pessoas sem partido também poderiam se candidatar.",
   "fonte": "manual",
   "en": {
    "titulo": "Allows candidates without a party",
-   "oQueMuda": "People not affiliated with a party could run for office.",
+   "oQueMuda": "People without party membership could run for office; in elections for deputies and councilors, they would only be elected with at least as many votes as the electoral quotient.",
    "quemAfeta": "Voters, parties and possible candidates.",
    "porQueImporta": "Today one can only run for office as a member of a party. Under the PEC, people without a party could also run."
   },
   "es": {
    "titulo": "Permite candidaturas sin partido",
-   "oQueMuda": "Las personas sin afiliación partidaria podrían disputar elecciones.",
+   "oQueMuda": "Personas sin afiliación partidaria podrían ser candidatas; en elecciones para diputado y concejal, solo serían elegidas si tuvieran votos al menos iguales al cociente electoral.",
    "quemAfeta": "Votantes, partidos y posibles candidatos.",
    "porQueImporta": "Hoy solo es posible disputar elecciones afiliado a un partido. Con la PEC, personas sin partido también podrían ser candidatas."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2140427": {
@@ -9261,59 +9261,59 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2145346": {
   "titulo": "Permite candidatos independentes e listas cívicas",
-  "oQueMuda": "Candidatos sem partido poderiam concorrer com apoio de eleitores e se unir em listas cívicas.",
+  "oQueMuda": "Candidatos sem partido poderiam concorrer com o apoio de pelo menos 0,5% dos eleitores da circunscrição e poderiam se unir em listas cívicas.",
   "quemAfeta": "Eleitores, partidos e candidatos.",
   "porQueImporta": "Hoje só é possível disputar eleições filiado a um partido. Com a PEC, candidatos sem partido poderiam concorrer com apoio de eleitores e se unir em listas cívicas.",
   "fonte": "manual",
   "en": {
    "titulo": "Allows independent candidates and civic lists",
-   "oQueMuda": "Candidates without a party could run with voter support and join civic lists.",
+   "oQueMuda": "Candidates without a party could run with support from at least 0.5% of voters in the district and could join together in civic lists.",
    "quemAfeta": "Voters, parties and candidates.",
    "porQueImporta": "Today one can only run for office as a member of a party. Under the PEC, candidates without a party could run with voter support and join civic lists."
   },
   "es": {
    "titulo": "Permite candidatos independientes y listas cívicas",
-   "oQueMuda": "Los candidatos sin partido podrían competir con apoyo de votantes y unirse en listas cívicas.",
+   "oQueMuda": "Candidatos sin partido podrían competir con el apoyo de al menos el 0,5% de los electores de la circunscripción y podrían unirse en listas cívicas.",
    "quemAfeta": "Votantes, partidos y candidatos.",
    "porQueImporta": "Hoy solo es posible disputar elecciones afiliado a un partido. Con la PEC, candidatos sin partido podrían competir con apoyo de electores y unirse en listas cívicas."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2162013": {
-  "titulo": "Permite candidaturas sem partido com apoio de 1% dos eleitores",
-  "oQueMuda": "Quem tiver apoio de 1% dos eleitores poderia se candidatar sem partido.",
+  "titulo": "Permite candidaturas sem partido com apoio de 0,1% dos eleitores",
+  "oQueMuda": "Quem tivesse o apoio de pelo menos 0,1% dos eleitores da circunscrição, comprovado no registro, poderia se candidatar sem partido.",
   "quemAfeta": "Eleitores, partidos e candidatos.",
-  "porQueImporta": "Hoje só é possível disputar eleições filiado a um partido. Com a PEC, quem tivesse apoio de 1% dos eleitores poderia se candidatar sem partido.",
+  "porQueImporta": "Hoje só é possível disputar eleições filiado a um partido. Com a PEC, quem tivesse apoio de 0,1% dos eleitores poderia se candidatar sem partido.",
   "fonte": "manual",
   "en": {
-   "titulo": "Allows candidates without a party with support from 1% of voters",
-   "oQueMuda": "Anyone backed by 1% of voters could run without a party.",
+   "titulo": "Allows independent candidates with support from 0.1% of voters",
+   "oQueMuda": "Anyone with support from at least 0.1% of voters in the district, proven at registration, could run without a party.",
    "quemAfeta": "Voters, parties and candidates.",
-   "porQueImporta": "Today one can only run for office as a member of a party. Under the PEC, those with support from 1% of voters could run without a party."
+   "porQueImporta": "Today it is only possible to run for office as a party member. Under the PEC, anyone with support from 0.1% of voters could run without a party."
   },
   "es": {
-   "titulo": "Permite candidaturas sin partido con el apoyo del 1% de los votantes",
-   "oQueMuda": "Quien tenga el apoyo del 1% de los votantes podría ser candidato sin partido.",
+   "titulo": "Permite candidaturas sin partido con apoyo del 0,1% de los electores",
+   "oQueMuda": "Quien tuviera el apoyo de al menos el 0,1% de los electores de la circunscripción, comprobado en el registro, podría ser candidato sin partido.",
    "quemAfeta": "Votantes, partidos y candidatos.",
-   "porQueImporta": "Hoy solo es posible disputar elecciones afiliado a un partido. Con la PEC, quien tuviera el apoyo del 1% de los electores podría ser candidato sin partido."
+   "porQueImporta": "Hoy solo es posible competir en elecciones afiliado a un partido. Con la PEC, quien tuviera el apoyo del 0,1% de los electores podría ser candidato sin partido."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2226594": {
@@ -9671,9 +9671,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c344176": {
@@ -9771,9 +9771,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2117201": {
@@ -10721,9 +10721,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2162990": {
@@ -11559,9 +11559,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s8520995": {
@@ -13599,9 +13599,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s1400311": {
@@ -14363,27 +14363,27 @@
  },
  "c620527": {
   "titulo": "Fixa gasto mínimo com cultura",
-  "oQueMuda": "União, estados e DF teriam de aplicar um percentual mínimo em patrimônio cultural e produção cultural.",
+  "oQueMuda": "União, estados e municípios teriam de aplicar todo ano um mínimo em patrimônio cultural e em produção e difusão da cultura: 2% da receita de impostos da União, 1,5% da dos estados (incluindo o fundo de participação) e 1% da dos municípios.\nParte do dinheiro da União iria para estados e municípios.\nNão aplicar o mínimo poderia levar a intervenção, como já ocorre com saúde e educação.",
   "quemAfeta": "Setor cultural e governos.",
   "porQueImporta": "Hoje saúde e educação têm gasto mínimo obrigatório, mas a cultura não. Com a PEC, União, estados e DF teriam de aplicar um percentual mínimo da receita em cultura.",
   "fonte": "manual",
   "en": {
    "titulo": "Sets minimum spending on culture",
-   "oQueMuda": "Federal and state governments would have to spend a minimum percentage on cultural heritage and cultural production.",
+   "oQueMuda": "The federal government, states and municipalities would have to spend a minimum every year on cultural heritage and on producing and spreading culture: 2% of federal tax revenue, 1.5% of state revenue (including the participation fund) and 1% of municipal revenue.\nPart of the federal money would go to states and municipalities.\nFailing to spend the minimum could lead to intervention, as already happens with health and education.",
    "quemAfeta": "The cultural sector and governments.",
    "porQueImporta": "Today health and education have mandatory minimum spending, but culture does not. Under the PEC, the federal government, states and the Federal District would have to spend a minimum share of revenue on culture."
   },
   "es": {
    "titulo": "Fija un gasto mínimo en cultura",
-   "oQueMuda": "La Unión, los estados y el DF tendrían que aplicar un porcentaje mínimo en patrimonio y producción cultural.",
+   "oQueMuda": "La Unión, los estados y los municipios tendrían que aplicar cada año un mínimo en patrimonio cultural y en producción y difusión de la cultura: 2% de los ingresos por impuestos de la Unión, 1,5% de los de los estados (incluido el fondo de participación) y 1% de los de los municipios.\nParte del dinero de la Unión iría a estados y municipios.\nNo aplicar el mínimo podría llevar a una intervención, como ya ocurre con salud y educación.",
    "quemAfeta": "Sector cultural y gobiernos.",
    "porQueImporta": "Hoy salud y educación tienen gasto mínimo obligatorio, pero la cultura no. Con la PEC, el gobierno federal, los estados y el DF tendrían que aplicar un porcentaje mínimo de sus ingresos en cultura."
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "c2095531": {
@@ -16125,9 +16125,9 @@
   },
   "base": {
    "versao": "original",
-   "conferido": "ementa",
-   "data": "2026-10-09",
-   "fonte": "resumo a partir da ementa"
+   "conferido": "texto",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial"
   }
  },
  "s7717281": {
