@@ -72,7 +72,7 @@ def norm_voto(v):
     v = (v or "").strip().lower()
     if v.startswith("sim"):
         return "sim"
-    if v.startswith("n"):
+    if v in ("não", "nao"):   # não "NCom" (não compareceu), que o Senado também usa
         return "nao"
     if v.startswith("abst"):
         return "abstencao"

@@ -23,15 +23,19 @@
    "nota": "Los estudios divergen sobre el efecto en el empleo. El Ipea estima que el costo medio del trabajo formal subiría un 7,84%, menos del 1% del costo total en la industria y el comercio, y dice que el cálculo tiende a sobreestimar el impacto. Un estudio de Naercio Menezes Filho sobre la reducción de 48 a 44 horas, en 1988, no encontró aumento del desempleo. Simulaciones de la FGV Ibre proyectan pérdida de empleos en el escenario más pesimista."
   },
   "base": {
-   "versao": "outra:Redação final aprovada na Câmara 2026-05-27",
+   "versao": "s10330628",
    "conferido": "texto",
-   "data": "2026-10-09",
-   "fonte": "checagem manual com o texto oficial",
+   "data": "2026-10-15",
+   "fonte": "revisão: texto oficial",
    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3141964"
   },
   "nota": {
    "texto": "Os estudos divergem sobre o efeito no emprego. O Ipea estima que o custo médio do trabalho com carteira subiria 7,84%, menos de 1% do custo total na indústria e no comércio, e diz que a conta tende a superestimar o impacto. Um estudo de Naercio Menezes Filho sobre a redução de 48 para 44 horas, em 1988, não encontrou aumento do desemprego. Simulações da FGV Ibre projetam perda de vagas no cenário mais pessimista.",
    "url": "https://www.poder360.com.br/poder-economia/fim-da-escala-6-x-1-elevaria-custo-do-trabalho-em-784-diz-ipea/"
+  },
+  "mudanca": {
+   "descricao": "O Senado aprovou em 14/10/2026, em dois turnos no mesmo dia (75 votos a 1 nos dois), o mesmo texto aprovado pela Câmara, sem mudanças. A PEC vai agora à promulgação, em sessão solene do Congresso. As datas de 2 e 14 meses contam a partir da promulgação.",
+   "objetivoMudou": false
   }
  },
  "c1228863": {
