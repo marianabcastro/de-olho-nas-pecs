@@ -630,3 +630,43 @@ Das 34 marcadas pelo robô, 13 já tinham sido revisadas nos blocos (contra o te
 | PEC 44/2015 · Jornada militar | Teto de 40 horas semanais |
 | Conferem | 34/2024, 38/2022, 142/2015 (EC 129), 122/2015 (EC 128), 27/2021, 46/2019, 187/2019, 1/2019, 38/2015, 206/2012, 300/2008 |
 | **Pendentes (texto indisponível nas APIs)** | PEC 39/2015 e PEC 171/1993 |
+
+## 14. PECs antigas resumidas só pela ementa, conferidas no texto (14–15/out/2026)
+
+Todas as PECs ativas, anexadas e arquivadas que tinham resumo feito só a partir da ementa foram conferidas no texto oficial. 47 PDFs do Senado eram escaneados (sem texto) e foram lidos por OCR, o reconhecimento de texto do próprio macOS. Isso incluiu as pendentes PEC 39/2015 e PEC 171/1993.
+
+| Lote | Conferidas | Reescritas |
+|---|---|---|
+| 1 | 49 | 17 |
+| 2 | 55 | 12 |
+| 3 | 66 | 31 |
+| 4 | 73 | 18 |
+| 5 | 42 | 5 |
+| PDFs escaneados (OCR) | 45 | 9 |
+| Anexadas e arquivadas | 68 | 25 |
+
+Erros mais importantes corrigidos:
+
+| PEC | O resumo dizia | O texto diz |
+|---|---|---|
+| PEC 448/2018 | Eleito deputado ou senador perde outro mandato | Só o suplente que assume a vaga |
+| PEC 38/2019 | Militar eleito volta à ativa | Também baixa de 10 para 3 anos o tempo de serviço que define a regra |
+| PECs 59 e 61/2023 | Congresso aprova novas demarcações | Também teria de ratificar as já homologadas |
+| PEC 148/2019 | Fundo para um "eventual" estado | O estado do Rio de Janeiro; também põe prazo de 10 anos no fundo do DF |
+| PEC 131/2019 | Investimento mínimo de 1,5% do PIB | Investimento fora do teto até 1,5% do PIB (limite, não piso) |
+| PEC 2/2022 | Inclui "apoio a familiares" | Só plano de saúde e seguro de vida |
+| PEC 19/2022 | Ouvidoria geral da mulher | Ouvidoria para assédio e violência dentro do serviço público |
+| PEC 4/2020 | Voto no exterior para senador e governador | Deputados eleitos por brasileiros no exterior |
+| PEC 8/2023 | Projetos de tribunais começariam no Senado | Só os do presidente alternariam; os de tribunais continuam na Câmara |
+| PEC 165/2007 | Pessoas com deficiência | Aposentados por invalidez |
+| PEC 378/2017 | Apoio de 1% dos eleitores | 0,1% |
+| PEC 274/2013 | Reduz idade mínima | Permite trabalho abaixo de 14 anos com autorização dos pais |
+| PEC 266/2013 | Polícia civil municipal | Com delegados eleitos pela população |
+
+**Ficaram sem conferir no texto (texto indisponível):** PEC 290/2000, PEC 271/1995 e PEC 482/2001 (a Câmara devolve página vazia); PEC 15/2016 (sem link de texto); PEC 166/2019 (o link do Senado aponta para outro documento, um requerimento).
+
+## 15. PEC 221/2019 e placar do Senado (15/out/2026)
+
+- O Senado aprovou o fim da escala 6x1 em 14/10/2026, em dois turnos (75 a 1), sem mudar o texto da Câmara; a PEC vai à promulgação. O resumo ganhou a nota sobre a aprovação.
+- O robô tratava como "texto mudou" o parecer de plenário que só rejeitava uma emenda. Agora reconhece esse caso como aprovação sem mudanças.
+- Erro no placar do Senado: senadores que não compareceram ("NCom") eram contados como "não". Foram corrigidas 11 votações de 6 PECs (7/2018, 48/2023, 169/2019, 66/2023, 81/2015 e 18/2024, além da 221/2019).
