@@ -673,7 +673,7 @@ def main():
     pecs.sort(key=lambda p: p["ultimaMovimentacao"], reverse=True)
     resumos = ler_json(RAIZ / "data" / "resumos.json", {})
     comparados = ler_json(CACHE / "textos.json", {})     # {versão do texto: semelhança com o original}
-    pareceres = ler_json(CACHE / "pareceres.json", {})   # {parecer: aprovou o texto sem mudanças?}
+    pareceres = ler_json(CACHE / "pareceres_v2.json", {})   # {parecer: aprovou o texto sem mudanças?}
     sem_resumo, a_revisar = 0, []
     for p in pecs:
         # quando duas PECs se juntam, o id pode mudar (s… → c…): o resumo continua valendo pelo id antigo
@@ -703,7 +703,7 @@ def main():
         if p.get("simples") and base.get("versao") != atual["id"] and not sem_mudanca and not conferido_depois:
             a_revisar.append({"id": p["id"], "sigla": p["sigla"], "titulo": p["simples"].get("titulo"), "versao": atual["tipo"], "data": atual["data"], "url": atual["url"], "semelhanca": atual["semelhanca"]})
     (CACHE / "textos.json").write_text(json.dumps(comparados))
-    (CACHE / "pareceres.json").write_text(json.dumps(pareceres))
+    (CACHE / "pareceres_v2.json").write_text(json.dumps(pareceres))
     a_revisar.sort(key=lambda x: x["data"], reverse=True)
     (RAIZ / "data" / "resumos_a_revisar.json").write_text(json.dumps(a_revisar, ensure_ascii=False, indent=1))
 

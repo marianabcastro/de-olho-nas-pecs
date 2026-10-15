@@ -128,6 +128,10 @@ def dispositivos(texto):
 def parecer_sem_mudanca(texto):
     """True se o voto do parecer aprova a PEC sem mudar o texto: "nos termos em que aprovada pela Câmara",
     "pela sua aprovação." ou rejeitando todas as emendas. Olha só o voto (do título VOTO até "Sala da...")."""
+    # parecer dado no plenário (notas taquigráficas) só sobre emendas de plenário, contrário a todas: o texto fica igual
+    if re.search(r"NOTAS TAQUIGR", texto) and re.search(r"contr[áa]ri[oa] [àa]s? [Ee]mendas?", texto) \
+            and not re.search(r"favor[áa]vel [àa]s? [Ee]mendas?|substitutiv|na forma d", texto):
+        return True
     i = max(texto.rfind("VOTO"), texto.rfind("Voto"))
     voto = texto[i:i + 2500] if i >= 0 else ""
     voto = re.split(r"Sala d[ao]s? (Comiss|Sess)", voto)[0]
