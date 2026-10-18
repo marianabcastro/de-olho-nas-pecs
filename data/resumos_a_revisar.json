@@ -9,6 +9,294 @@
   "semelhanca": 0.07
  },
  {
+  "id": "s8635009",
+  "sigla": "PEC 7/2024",
+  "titulo": "Reorganiza a Justiça Militar",
+  "versao": "Parecer do relator no Senado",
+  "data": "2024-12-11",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/1f8a52a4-2d7a-4026-8eb0-c6d280dd34d0",
+  "semelhanca": 0.12
+ },
+ {
+  "id": "s8386303",
+  "sigla": "PEC 4/2023",
+  "titulo": "Inclui juízes da Justiça Militar no CNJ",
+  "versao": "Parecer do relator no Senado",
+  "data": "2024-03-13",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/29882bc7-fcc0-4907-a550-8c6cc37332d6",
+  "semelhanca": 0.6
+ },
+ {
+  "id": "s8488781",
+  "sigla": "PEC 31/2023",
+  "titulo": "Eleva o investimento em ciência para 2,5% do PIB",
+  "versao": "Parecer do relator no Senado",
+  "data": "2023-11-06",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/143fb69d-ada4-4032-a419-b8195803beb1",
+  "semelhanca": 0.45
+ },
+ {
+  "id": "s8228548",
+  "sigla": "PEC 7/2022",
+  "titulo": "Define o destino das florestas públicas",
+  "versao": "Parecer do relator no Senado",
+  "data": "2022-12-08",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/7b7fde7e-a21f-4446-88c1-abdb65fbc046",
+  "semelhanca": 0.15
+ },
+ {
+  "id": "s8153922",
+  "sigla": "PEC 34/2021",
+  "titulo": "Permite que parlamentar vire embaixador sem perder mandato",
+  "versao": "Parecer do relator no Senado",
+  "data": "2022-05-30",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/0b3bad6d-9b20-43c5-85dc-0bd43c104367",
+  "semelhanca": 0.76
+ },
+ {
+  "id": "s7745408",
+  "sigla": "PEC 58/2019",
+  "titulo": "Acaba com férias de 60 dias e permite demitir juízes",
+  "versao": "Parecer do relator no Senado",
+  "data": "2022-05-04",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/f3cdff16-1206-4005-842b-1d0fc00b4edb",
+  "semelhanca": 0.71
+ },
+ {
+  "id": "s7828021",
+  "sigla": "PEC 177/2019",
+  "titulo": "Protege servidoras gestantes em cargos de confiança",
+  "versao": "Parecer do relator no Senado",
+  "data": "2022-02-14",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/d3f28baf-ed0e-4521-9f58-4a72c49d1324",
+  "semelhanca": 0.54
+ },
+ {
+  "id": "s7730684",
+  "sigla": "PEC 16/2019",
+  "titulo": "Cria mandato de 8 anos para ministros do STF",
+  "versao": "Parecer do relator no Senado",
+  "data": "2021-08-10",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/1a8c8507-844f-4b1a-bc13-69c2982e4b49",
+  "semelhanca": null
+ },
+ {
+  "id": "s7752094",
+  "sigla": "PEC 71/2019",
+  "titulo": "Aplica o teto salarial a entidades que recebem dinheiro público",
+  "versao": "Parecer do relator no Senado",
+  "data": "2020-12-21",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/7b2d0df7-2ff5-494f-83bf-26974f7d9318",
+  "semelhanca": 0.21
+ },
+ {
+  "id": "s7242157",
+  "sigla": "PEC 36/2017",
+  "titulo": "Cassa automaticamente parlamentar condenado pela Ficha Limpa",
+  "versao": "Parecer do relator no Senado",
+  "data": "2020-03-11",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/09290efd-1809-4ab9-a04f-791b839ee94c",
+  "semelhanca": 0.08
+ },
+ {
+  "id": "s7728717",
+  "sigla": "PEC 19/2019",
+  "titulo": "Inclui a Força Nacional entre os órgãos de segurança",
+  "versao": "Parecer do relator no Senado",
+  "data": "2020-03-04",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/3b4ab645-7c0e-4b6b-9916-295a583bebcf",
+  "semelhanca": null
+ },
+ {
+  "id": "s7826575",
+  "sigla": "PEC 176/2019",
+  "titulo": "Permite dividir a licença-maternidade entre pai e mãe",
+  "versao": "Parecer do relator no Senado",
+  "data": "2020-02-21",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/410de7c7-1d22-48af-a5f2-7ee34a24cff3",
+  "semelhanca": null
+ },
+ {
+  "id": "s7759040",
+  "sigla": "PEC 86/2019",
+  "titulo": "Corrige pela inflação repasses federais aos municípios",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-12-18",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/536f323a-f8dd-4146-aca8-4aedd69a48a5",
+  "semelhanca": null
+ },
+ {
+  "id": "s7845422",
+  "sigla": "PEC 202/2019",
+  "titulo": "Exige aval do Congresso para desmatar a Amazônia",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-12-18",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/59e156bf-5c42-4818-a906-60bba3332894",
+  "semelhanca": null
+ },
+ {
+  "id": "s7822487",
+  "sigla": "PEC 166/2019",
+  "titulo": "Compensa estados e cidades com bases de lançamento de foguetes",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-11-27",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/c65e6b01-b38a-4ff6-b6eb-f2b771507d6c",
+  "semelhanca": 0.02
+ },
+ {
+  "id": "s7783547",
+  "sigla": "PEC 120/2019",
+  "titulo": "Proíbe o nepotismo na Constituição",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-11-21",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/88979738-839e-420a-b656-b6702eafe152",
+  "semelhanca": 0.3
+ },
+ {
+  "id": "s1394997",
+  "sigla": "PEC 15/2016",
+  "titulo": "Convoca assembleia para fazer a reforma política",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-11-20",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/153e5bec-ee46-4c6c-99cc-359d6eb9c50f",
+  "semelhanca": null
+ },
+ {
+  "id": "s1395980",
+  "sigla": "PEC 157/2015",
+  "titulo": "Permite ao Congresso convocar dirigentes de estatais e autarquias",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-10-29",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/6fd752e4-7dbd-4a93-8340-5745bad7047c",
+  "semelhanca": 0.07
+ },
+ {
+  "id": "s5073365",
+  "sigla": "PEC 9/2017",
+  "titulo": "Cria o Fundo Nacional do Esporte",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-10-29",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/30783d7e-67bc-4de8-8188-3d796e1d9871",
+  "semelhanca": 0.01
+ },
+ {
+  "id": "s7720809",
+  "sigla": "PEC 8/2019",
+  "titulo": "Garante equipe completa do SUS para gestantes",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-10-24",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/f788943c-c1be-4adc-9e35-ae78655e618f",
+  "semelhanca": 0.13
+ },
+ {
+  "id": "s7741352",
+  "sigla": "PEC 51/2019",
+  "titulo": "Aumenta para 26% o repasse do IR e IPI aos estados",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-09-26",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/8dca80d4-0933-4c86-ade0-c2278c5a7b83",
+  "semelhanca": 0.13
+ },
+ {
+  "id": "s7733509",
+  "sigla": "PEC 29/2019",
+  "titulo": "Permite acumular dois cargos públicos de jornalista",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-09-05",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/f40fd49c-8790-41a7-99f4-29cccf0d78bf",
+  "semelhanca": 0.03
+ },
+ {
+  "id": "s7733746",
+  "sigla": "PEC 31/2019",
+  "titulo": "Muda as regras de promoção de juízes",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-08-27",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/7942fe7f-264c-4ea1-ba92-69ecddc9d95f",
+  "semelhanca": 0.06
+ },
+ {
+  "id": "s7738877",
+  "sigla": "PEC 43/2019",
+  "titulo": "Limita medidas provisórias",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-07-12",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/67d1ae23-82e7-40ab-956b-a65e921b14e1",
+  "semelhanca": null
+ },
+ {
+  "id": "s7724131",
+  "sigla": "PEC 11/2019",
+  "titulo": "Conta o serviço militar em concursos de polícia",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-07-11",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/2ab50df9-3a3e-42eb-8739-704b14c0d101",
+  "semelhanca": 0.18
+ },
+ {
+  "id": "s7755772",
+  "sigla": "PEC 80/2019",
+  "titulo": "Limita desapropriações e exige indenização a preço de mercado",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-07-09",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/2285073f-0091-4158-abbc-9d65c7f61661",
+  "semelhanca": 0.14
+ },
+ {
+  "id": "s7738872",
+  "sigla": "PEC 44/2019",
+  "titulo": "Garante dinheiro mínimo da União para a segurança pública",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-06-06",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/6bc3f498-579c-4340-a002-764faef0e90e",
+  "semelhanca": null
+ },
+ {
+  "id": "s7731793",
+  "sigla": "PEC 23/2019",
+  "titulo": "Cria cláusula de barreira de 5% para partidos",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-05-07",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/f7930d60-bc81-4987-bfde-78f2371b8dd4",
+  "semelhanca": 0.54
+ },
+ {
+  "id": "s7732135",
+  "sigla": "PEC 26/2019",
+  "titulo": "Separa crimes eleitorais de crimes comuns nos processos",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-04-15",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/1b667b44-2b6e-48e7-ac08-7741da701b54",
+  "semelhanca": 0.08
+ },
+ {
+  "id": "s1394282",
+  "sigla": "PEC 29/2016",
+  "titulo": "Cria regras nacionais para concursos públicos",
+  "versao": "Parecer do relator no Senado",
+  "data": "2017-03-23",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/42ad8347-a9e5-455b-9eda-10d5d9e40590",
+  "semelhanca": 0.24
+ },
+ {
+  "id": "s1394688",
+  "sigla": "PEC 21/2016",
+  "titulo": "Estende regras especiais de aposentadoria a professores na transição",
+  "versao": "Parecer do relator no Senado",
+  "data": "2017-02-09",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/d105f967-b505-4373-9460-82448e4f1baf",
+  "semelhanca": 0.08
+ },
+ {
+  "id": "s1402212",
+  "sigla": "PEC 16/2015",
+  "titulo": "Permite candidaturas sem partido",
+  "versao": "Parecer do relator no Senado",
+  "data": "2016-08-17",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/52846a79-c625-4f1c-a005-12dd40a1f633",
+  "semelhanca": 0.06
+ },
+ {
   "id": "s1401169",
   "sigla": "PEC 39/2015",
   "titulo": "Exige lei complementar para regras de concessões",
