@@ -9,7 +9,7 @@ on:
     - cron: "30 7 * * 0"        # domingo 4h30: rodada completa, para corrigir qualquer coisa que tenha escapado
   push:
     branches: [main]
-    paths: ["site/**", "wrangler.jsonc"]   # mudança no próprio site: só republica
+    paths: ["site/**", "wrangler.jsonc", "redirect/**"]   # mudança no próprio site: só republica
   workflow_dispatch:
     inputs:
       completo:
@@ -100,8 +100,14 @@ jobs:
           { echo '<!doctype html>'; echo '<html lang="pt-BR">'; cat site/index.html; } > _site/index.html
           cp -r site/data site/icones site/sw.js site/manifest.webmanifest site/_headers _site/
           [ -d site/audio ] && cp -r site/audio _site/ || true
-      - name: Publica no Cloudflare (Workers com arquivos estáticos)
+      - name: Publica no Cloudflare (Workers com arquivos estáticos, em deolhonaspecs.com.br)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN_NOVO }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID_NOVO }}
+        run: npx --yes wrangler@4 deploy
+      - name: Endereço antigo (workers.dev) redireciona para o domínio novo
+        if: github.event_name != 'schedule'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: npx --yes wrangler@4 deploy
+        run: npx --yes wrangler@4 deploy --config redirect/wrangler.jsonc

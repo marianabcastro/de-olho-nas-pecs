@@ -49,7 +49,7 @@ O arquivo `.github/workflows/atualizar.yml` roda o robô no GitHub Actions:
 3. No GitHub, em **Settings → Secrets and variables → Actions**, crie os segredos `CLOUDFLARE_API_TOKEN` e
    `CLOUDFLARE_ACCOUNT_ID`. (Opcional, para resumos automáticos: `ANTHROPIC_API_KEY`.)
 4. Em **Actions → Atualizar dados e publicar → Run workflow** para rodar a primeira vez.
-   O site fica em `https://de-olho-nas-pecs.<sua-conta>.workers.dev` (dá para ligar um domínio próprio depois).
+   O site fica em `https://deolhonaspecs.com.br`. O endereço antigo (`de-olho-nas-pecs.deolhonaspecs.workers.dev`), numa conta do Cloudflare sem acesso, só redireciona para o novo (pasta `redirect/`).
 
 ## Revisão humana
 

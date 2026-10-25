@@ -1,0 +1,6 @@
+// Conta antiga do Cloudflare: o mesmo nome do site antigo, agora só redirecionando para o domínio novo.
+{
+  "name": "de-olho-nas-pecs",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-01"
+}

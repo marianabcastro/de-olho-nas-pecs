@@ -5,5 +5,10 @@
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./_site"
-  }
+  },
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "deolhonaspecs.com.br", "custom_domain": true },
+    { "pattern": "www.deolhonaspecs.com.br", "custom_domain": true }
+  ]
 }
