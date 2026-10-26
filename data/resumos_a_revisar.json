@@ -1,1 +1,20 @@
-[]
+[
+ {
+  "id": "s7822487",
+  "sigla": "PEC 166/2019",
+  "titulo": "Compensa estados e cidades com bases de lançamento de foguetes",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-11-27",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/c65e6b01-b38a-4ff6-b6eb-f2b771507d6c",
+  "semelhanca": 0.02
+ },
+ {
+  "id": "s1394997",
+  "sigla": "PEC 15/2016",
+  "titulo": "Convoca assembleia para fazer a reforma política",
+  "versao": "Parecer do relator no Senado",
+  "data": "2019-11-20",
+  "url": "http://legis.senado.leg.br/sdleg-getter/dadosabertos/documento/153e5bec-ee46-4c6c-99cc-359d6eb9c50f",
+  "semelhanca": null
+ }
+]
