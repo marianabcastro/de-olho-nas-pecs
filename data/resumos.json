@@ -12,7 +12,7 @@
    "quemAfeta": "Workers with formal employment contracts and their employers. For university graduates earning 2.5 times the social security (INSS) ceiling or more (about R$21,200 a month in 2026), the hours limit and time-clock control no longer apply, unless the employer decides to keep them or a collective agreement provides for them; the 2 days off remain guaranteed. This exception does not apply to public-sector employees.",
    "porQueImporta": "People who work more than 40 hours a week now work less for the same pay, which the text guarantees. For a worker who did 44 hours, each hour worked becomes about 10% more expensive for the employer (44 ÷ 40); for someone who did 42 hours, about 5%. For those already working 40 hours or less, nothing changes.",
    "apelido": "End of the 6x1 schedule amendment",
-   "nota": "Studies disagree on the effect on jobs. Ipea estimates the average cost of formal labor would rise 7.84%, less than 1% of total costs in industry and retail, and says the calculation tends to overstate the impact. A study by Naercio Menezes Filho of the cut from 48 to 44 hours in 1988 found no rise in unemployment. FGV Ibre simulations project job losses in the most pessimistic scenario."
+   "nota": "Studies disagree on the effect on jobs. Ipea estimates the average cost of formal labor rises 7.84%; for large employers such as food manufacturing and wholesale trade, that is under 1% of total costs, and the authors say the calculation tends to overestimate the impact. A study that followed workers through the 1988 cut from 48 to 44 hours found no rise in unemployment. A simulation by Daniel Duque (FGV Ibre and CLP), however, projects the loss of about 638,000 formal jobs from cutting hours without cutting pay."
   },
   "es": {
    "titulo": "Reduce la jornada a 40 horas y garantiza 2 días libres por semana",
@@ -20,7 +20,7 @@
    "quemAfeta": "Trabajadores con contrato formal y las empresas que los emplean. Para quien tiene título universitario y gana a partir de 2,5 veces el tope del INSS (unos R$ 21.200 al mes en 2026), dejan de valer el límite de horas y el control de asistencia, salvo que el empleador decida mantenerlos o haya acuerdo colectivo; los 2 días libres siguen garantizados. Esta excepción no vale para empleados públicos.",
    "porQueImporta": "Quien hoy trabaja más de 40 horas por semana pasa a trabajar menos, con el mismo salario, garantizado por el texto. Para un trabajador que hacía 44 horas, cada hora trabajada sale cerca de un 10% más cara para el empleador (44 ÷ 40); para quien hacía 42 horas, cerca de un 5%. Para quien ya trabaja 40 horas o menos, la jornada no cambia.",
    "apelido": "PEC del fin de la escala 6x1",
-   "nota": "Los estudios divergen sobre el efecto en el empleo. El Ipea estima que el costo medio del trabajo formal subiría un 7,84%, menos del 1% del costo total en la industria y el comercio, y dice que el cálculo tiende a sobreestimar el impacto. Un estudio de Naercio Menezes Filho sobre la reducción de 48 a 44 horas, en 1988, no encontró aumento del desempleo. Simulaciones de la FGV Ibre proyectan pérdida de empleos en el escenario más pesimista."
+   "nota": "Los estudios difieren sobre el efecto en el empleo. El Ipea estima que el costo medio del trabajo formal sube un 7,84%; en grandes empleadores, como la fabricación de alimentos y el comercio mayorista, eso queda por debajo del 1% del costo total, y los autores dicen que el cálculo tiende a sobrestimar el impacto. Un estudio que siguió a trabajadores en la reducción de 48 a 44 horas, en 1988, no encontró aumento del desempleo. En cambio, una simulación de Daniel Duque (FGV Ibre y CLP) proyecta la pérdida de unos 638 mil empleos formales con la reducción sin recorte de salario."
   },
   "base": {
    "versao": "promulgada:EC 141/2026",
@@ -30,8 +30,22 @@
    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3141964"
   },
   "nota": {
-   "texto": "Os estudos divergem sobre o efeito no emprego. O Ipea estima que o custo médio do trabalho com carteira subiria 7,84%, menos de 1% do custo total na indústria e no comércio, e diz que a conta tende a superestimar o impacto. Um estudo de Naercio Menezes Filho sobre a redução de 48 para 44 horas, em 1988, não encontrou aumento do desemprego. Simulações da FGV Ibre projetam perda de vagas no cenário mais pessimista.",
-   "url": "https://www.poder360.com.br/poder-economia/fim-da-escala-6-x-1-elevaria-custo-do-trabalho-em-784-diz-ipea/"
+   "texto": "Os estudos divergem sobre o efeito no emprego. O Ipea estima que o custo médio do trabalho com carteira sobe 7,84%; em grandes empregadores, como a fabricação de alimentos e o comércio atacadista, isso fica abaixo de 1% do custo total, e os autores dizem que a conta tende a superestimar o impacto. Um estudo que acompanhou trabalhadores na redução de 48 para 44 horas, em 1988, não encontrou aumento do desemprego. Já uma simulação de Daniel Duque (FGV Ibre e CLP) projeta a perda de cerca de 638 mil vagas formais com a redução sem corte de salário.",
+   "url": "https://static.poder360.com.br/2026/02/nota-tecnica-ipea.pdf",
+   "fontes": [
+    {
+     "nome": "Ipea, Nota Técnica 123",
+     "url": "https://static.poder360.com.br/2026/02/nota-tecnica-ipea.pdf"
+    },
+    {
+     "nome": "Gonzaga, Menezes Filho e Camargo (2003)",
+     "url": "http://www.scielo.br/j/rbe/a/VcHZsYRpkCyNxRSxnMP7WWv/?lang=pt"
+    },
+    {
+     "nome": "Folha de S.Paulo",
+     "url": "https://www1.folha.uol.com.br/mercado/2026/02/especialistas-divergem-sobre-impactos-do-fim-da-escala-6x1-na-economia.shtml"
+    }
+   ]
   },
   "mudanca": {
    "descricao": "Promulgada em 16/10/2026 como Emenda Constitucional 141. O Senado tinha aprovado em 14/10/2026, em dois turnos (75 votos a 1 nos dois), o mesmo texto da Câmara, sem mudanças.",

@@ -308,7 +308,7 @@ pt: {
   apresentada: (d, a, o) => `Apresentada em ${d}${a ? ` por ${a}` : ""}. Começou ${o}.`, resumo_nota: " O resumo foi escrito a partir do texto oficial, sem opinião sobre o mérito.",
   opina_h: "Dê sua opinião sobre esta PEC", opina_p: "O Senado e a Câmara recebem a opinião dos cidadãos e mostram o resultado aos parlamentares. É gratuito; basta fazer um cadastro no site oficial (em português).",
   opina_sen: "Votar na consulta do Senado ↗", opina_cam: "Responder a enquete da Câmara ↗",
-  principio_tag: "PEC de princípio", nota: "Nota", nota_fonte: "fonte",
+  principio_tag: "PEC de princípio", nota: "Nota", nota_fonte: "fonte", nota_fontes: "Fontes",
   principio_exp: "acrescenta à Constituição um direito, princípio ou objetivo, mas não cria sozinha regras concretas, verbas ou punições. O efeito prático depende de leis e de decisões da Justiça.",
   selo_ementa: "Resumo automático, escrito a partir da ementa oficial. Ainda não foi conferido com o texto completo.",
   selo_texto: d => `Resumo conferido com o texto completo da PEC em ${d}.`,
@@ -436,7 +436,7 @@ en: {
   apresentada: (d, a, o) => `Filed on ${d}${a ? ` by ${a}` : ""}. It started ${o}.`, resumo_nota: " This summary was written from the official text, without taking sides.",
   opina_h: "Share your opinion on this PEC", opina_p: "The Senate and the Chamber collect citizens' opinions and show the results to legislators. It's free; you just need an account on the official site (in Portuguese).",
   opina_sen: "Vote in the Senate consultation ↗", opina_cam: "Answer the Chamber poll ↗",
-  principio_tag: "Statement of principle", nota: "Note", nota_fonte: "source",
+  principio_tag: "Statement of principle", nota: "Note", nota_fonte: "source", nota_fontes: "Sources",
   principio_exp: "adds a right, principle or goal to the Constitution, but does not by itself create concrete rules, funding or penalties. Its practical effect depends on future laws and court decisions.",
   selo_ementa: "Automatic summary, written from the official one-line summary (ementa). Not yet checked against the full text.",
   selo_texto: d => `Summary checked against the PEC's full text on ${d}.`,
@@ -564,7 +564,7 @@ es: {
   apresentada: (d, a, o) => `Presentada el ${d}${a ? ` por ${a}` : ""}. Empezó ${o}.`, resumo_nota: " El resumen se escribió a partir del texto oficial, sin opinar sobre el mérito.",
   opina_h: "Da tu opinión sobre esta PEC", opina_p: "El Senado y la Cámara reciben la opinión de los ciudadanos y muestran el resultado a los parlamentarios. Es gratis; solo necesitas registrarte en el sitio oficial (en portugués).",
   opina_sen: "Votar en la consulta del Senado ↗", opina_cam: "Responder la encuesta de la Cámara ↗",
-  principio_tag: "PEC de principio", nota: "Nota", nota_fonte: "fuente",
+  principio_tag: "PEC de principio", nota: "Nota", nota_fonte: "fuente", nota_fontes: "Fuentes",
   principio_exp: "agrega a la Constitución un derecho, principio u objetivo, pero no crea por sí sola reglas concretas, fondos ni castigos. Su efecto práctico depende de leyes y decisiones judiciales futuras.",
   selo_ementa: "Resumen automático, escrito a partir de la ementa oficial. Todavía no se comparó con el texto completo.",
   selo_texto: d => `Resumen comparado con el texto completo de la PEC el ${d}.`,
@@ -811,6 +811,12 @@ const casaAtual = p => {
   if (/Câmara/.test(et)) return "camara";
   if (/Senado/.test(et)) return "senado";
   return p.casa === "ambas" ? p.casaOrigem : p.casa;
+};
+// links da nota: uma fonte ("fonte ↗") ou várias ("Fontes: Ipea ↗ · Folha ↗")
+const notaFontes = (n, L) => {
+  const fs = n?.fontes?.length ? n.fontes : n?.url ? [{ url: n.url }] : [];
+  const a = f => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nome || L.nota_fonte)} ↗</a>`;
+  return fs.length > 1 ? ` <span class="small">${L.nota_fontes}: ${fs.map(a).join(" · ")}</span>` : fs.length ? " " + a(fs[0]) : "";
 };
 const fonte = (url, o) => url ? `<a class="fonte" href="${esc(url)}" target="_blank" rel="noopener" title="${esc(T().fonte_tit(o))}" aria-label="${esc(T().fonte_tit(o))}">${T().fonte_curta} ↗</a>` : "";
 const fichaURL = p => p.linkOficial || p.linkCamara || p.linkSenado;
@@ -1200,7 +1206,7 @@ function renderPEC(id) {
       <div><b>${L.quem_afetado}</b>${textoResumo(s.quemAfeta)}</div>
       <div><b>${L.por_que}</b>${textoResumo(s.porQueImporta)}</div>
     </div>` : ""}
-    ${s?.nota ? `<p class="nota-pec"><b>${L.nota}:</b> ${esc(typeof s.nota === "string" ? s.nota : s.nota.texto)}${p.simples.nota?.url ? ` <a href="${esc(p.simples.nota.url)}" target="_blank" rel="noopener">${L.nota_fonte} ↗</a>` : ""}</p>` : ""}
+    ${s?.nota ? `<p class="nota-pec"><b>${L.nota}:</b> ${esc(typeof s.nota === "string" ? s.nota : s.nota.texto)}${notaFontes(p.simples.nota, L)}</p>` : ""}
     ${p.simples?.tipo === "principio" ? `<p class="principio-nota"><b>${L.principio_tag}:</b> ${L.principio_exp}</p>` : ""}
     <div class="oficial com-fonte">${fonte(fichaURL(p), L.f_ficha)}<span class="label">${L.texto_oficial}${L.oficial_pt}</span><p lang="pt-BR">${esc(p.ementa)}</p>${s && s.base?.versao && s.base.versao !== "original" ? `<p class="small muted">${L.ementa_versao}</p>` : ""}</div>
     ${seloHTML(p)}
