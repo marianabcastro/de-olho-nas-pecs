@@ -68,10 +68,10 @@ section, .box, .list, .pec-head, .hero, .filters, .vote, .chat, .msg { grid-temp
 .stats { display: flex; flex-wrap: wrap; gap: 8px 22px; padding-top: 4px; }
 .stats div { display: flex; align-items: baseline; gap: 6px; }
 .stats .num { font-size: 1.35rem; }
-/* setinha ↗ no canto de cada bloco: leva à fonte oficial de onde veio a informação */
-.com-fonte { position: relative; padding-right: 40px; }
-.fonte { position: absolute; top: 8px; right: 8px; width: 30px; height: 30px; display: grid; place-items: center; border-radius: 999px; text-decoration: none; color: var(--muted); font-size: 1rem; line-height: 1; }
-.fonte:hover, .fonte:focus-visible { background: var(--soft); color: var(--ink); }
+/* etiqueta "Fonte ↗" no canto de cada bloco: leva à fonte oficial de onde veio a informação */
+div.com-fonte { position: relative; padding-top: 42px; }
+.fonte { position: absolute; top: 8px; right: 8px; padding: 3px 10px; border: 1px solid var(--line); border-radius: 999px; font-size: 0.8rem; color: var(--ink); text-decoration: none; background: var(--bg); }
+.fonte:hover, .fonte:focus-visible { background: var(--soft); }
 .box { background: var(--bg); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: grid; gap: 10px; min-width: 0; }
 .box.soft { background: var(--soft); border-color: var(--soft); }
 .notice { font-size: 0.85rem; color: var(--muted); }
@@ -323,7 +323,7 @@ pt: {
   ler_versao: "Ler a versão atual ↗", ler_original: "Ler o texto original ↗",
   erro_btn: "✋ Encontrou um erro neste resumo? Avise a gente ↗",
   parecer_h: "Pode haver uma versão nova do texto",
-  fonte_tit: o => `Ver na fonte oficial: ${o}`,
+  fonte_tit: o => `Ver na fonte oficial: ${o}`, fonte_curta: "Fonte",
   video: h => `Ver o vídeo da sessão (YouTube, Câmara)${h ? ` — a votação foi registrada às ${h}` : ""}`,
   f_texto: "texto completo da PEC", f_ficha: "ficha da PEC", f_vot_cam: "votações na página da Câmara", f_vot_sen: "votações na página do Senado",
   parecer_igual: (tipo, d) => `Em ${d}: ${tipo}, sem mudanças no texto. O resumo continua valendo.`,
@@ -451,7 +451,7 @@ en: {
   ler_versao: "Read the current version (in Portuguese) ↗", ler_original: "Read the original text (in Portuguese) ↗",
   erro_btn: "✋ Found a mistake in this summary? Let us know ↗",
   parecer_h: "There may be a new version of the text",
-  fonte_tit: o => `See the official source: ${o}`,
+  fonte_tit: o => `See the official source: ${o}`, fonte_curta: "Source",
   video: h => `Watch the session video (YouTube, Chamber, in Portuguese)${h ? ` — the vote was recorded at ${h}` : ""}`,
   f_texto: "full text of the PEC", f_ficha: "official PEC record", f_vot_cam: "votes on the Chamber website", f_vot_sen: "votes on the Senate website",
   parecer_igual: (tipo, d) => `On ${d}: ${tipo}, with no changes to the text. The summary still applies.`,
@@ -579,7 +579,7 @@ es: {
   ler_versao: "Leer la versión actual (en portugués) ↗", ler_original: "Leer el texto original (en portugués) ↗",
   erro_btn: "✋ ¿Encontraste un error en este resumen? Avísanos ↗",
   parecer_h: "Puede haber una nueva versión del texto",
-  fonte_tit: o => `Ver en la fuente oficial: ${o}`,
+  fonte_tit: o => `Ver en la fuente oficial: ${o}`, fonte_curta: "Fuente",
   video: h => `Ver el video de la sesión (YouTube, Cámara, en portugués)${h ? ` — la votación se registró a las ${h}` : ""}`,
   f_texto: "texto completo de la PEC", f_ficha: "ficha oficial de la PEC", f_vot_cam: "votaciones en el sitio de la Cámara", f_vot_sen: "votaciones en el sitio del Senado",
   parecer_igual: (tipo, d) => `El ${d}: ${tipo}, sin cambios en el texto. El resumen sigue valiendo.`,
@@ -812,7 +812,7 @@ const casaAtual = p => {
   if (/Senado/.test(et)) return "senado";
   return p.casa === "ambas" ? p.casaOrigem : p.casa;
 };
-const fonte = (url, o) => url ? `<a class="fonte" href="${esc(url)}" target="_blank" rel="noopener" title="${esc(T().fonte_tit(o))}" aria-label="${esc(T().fonte_tit(o))}">↗</a>` : "";
+const fonte = (url, o) => url ? `<a class="fonte" href="${esc(url)}" target="_blank" rel="noopener" title="${esc(T().fonte_tit(o))}" aria-label="${esc(T().fonte_tit(o))}">${T().fonte_curta} ↗</a>` : "";
 const fichaURL = p => p.linkOficial || p.linkCamara || p.linkSenado;
 // texto usado no resumo: a versão conferida, se for a atual; senão o original
 const textoURL = p => { const b = p.simples?.base || {}, a = p.textoAtual; return b.url || (a && b.versao === a.id ? a.url : null) || p.textoOriginal?.url || p.linkTexto; };
