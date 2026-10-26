@@ -16563,5 +16563,30 @@
    "texto": "A PEC não muda a lei de 1988 que garante livre acesso às praias. O debate é sobre o acesso a elas, porque os terrenos logo atrás da areia passariam a ter donos particulares.",
    "url": "https://www.planalto.gov.br/ccivil_03/leis/l7661.htm"
   }
+ },
+ "c2648653": {
+  "titulo": "Reserva parte das emendas parlamentares para transporte público gratuito",
+  "oQueMuda": "Pelo menos 26,8% do valor anual das emendas parlamentares de pagamento obrigatório (individuais e de bancada) iriam para custear a gratuidade do transporte público coletivo urbano, nos termos de uma lei.\nO dinheiro ficaria numa rubrica própria do orçamento e seria repassado obrigatoriamente aos estados e municípios responsáveis pelo transporte.\nA parte das emendas que já tem de ir para a saúde continuaria a mesma.\nA regra valeria a partir do orçamento de 2027.",
+  "quemAfeta": "Usuários de ônibus, metrôs e trens urbanos, prefeituras e governos que operam esses serviços, e deputados e senadores, que passariam a escolher livremente uma parte menor das suas emendas.",
+  "porQueImporta": "Hoje deputados e senadores decidem o destino das emendas individuais e de bancada, respeitada só a parte reservada à saúde. Com a PEC, ao menos 26,8% iriam para transporte gratuito. Segundo o governo, autor da proposta, o orçamento de 2027 prevê R$ 44,8 bilhões em emendas obrigatórias; 26,8% disso são cerca de R$ 12 bilhões.",
+  "fonte": "revisão: texto oficial",
+  "en": {
+   "titulo": "Reserves part of congressional budget amendments for free public transport",
+   "oQueMuda": "At least 26.8% of the annual value of mandatory congressional budget amendments (individual and state-delegation) would go to funding free urban public transport, as set by law.\nThe money would sit in its own budget line and be transferred, mandatorily, to the states and municipalities responsible for transit.\nThe share of amendments that must already go to health would stay the same.\nThe rule would apply from the 2027 budget.",
+   "quemAfeta": "Users of urban buses, subways and trains, city and state governments that run these services, and deputies and senators, who would freely choose a smaller part of their amendments.",
+   "porQueImporta": "Today deputies and senators decide where individual and state-delegation amendments go, respecting only the share reserved for health. Under the PEC, at least 26.8% would go to free transport. According to the government, which proposed it, the 2027 budget includes R$44.8 billion in mandatory amendments; 26.8% of that is about R$12 billion."
+  },
+  "es": {
+   "titulo": "Reserva parte de las enmiendas parlamentarias para transporte público gratuito",
+   "oQueMuda": "Al menos el 26,8% del valor anual de las enmiendas parlamentarias de pago obligatorio (individuales y de bancada) se destinaría a costear la gratuidad del transporte público colectivo urbano, según una ley.\nEl dinero quedaría en una partida propia del presupuesto y se transferiría obligatoriamente a los estados y municipios responsables del transporte.\nLa parte de las enmiendas que ya debe ir a salud seguiría igual.\nLa regla valdría a partir del presupuesto de 2027.",
+   "quemAfeta": "Usuarios de autobuses, metros y trenes urbanos, alcaldías y gobiernos que operan esos servicios, y diputados y senadores, que pasarían a elegir libremente una parte menor de sus enmiendas.",
+   "porQueImporta": "Hoy diputados y senadores deciden el destino de las enmiendas individuales y de bancada, respetando solo la parte reservada a la salud. Con la PEC, al menos el 26,8% iría a transporte gratuito. Según el gobierno, autor de la propuesta, el presupuesto de 2027 prevé R$ 44.800 millones en enmiendas obligatorias; el 26,8% de eso son unos R$ 12.000 millones."
+  },
+  "base": {
+   "versao": "original",
+   "conferido": "texto",
+   "data": "2026-10-26",
+   "fonte": "revisão: texto oficial"
+  }
  }
 }
